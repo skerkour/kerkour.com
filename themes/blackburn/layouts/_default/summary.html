@@ -1,0 +1,18 @@
+<article>
+  <header>
+    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+
+    {{ partial "post_meta.html" . }}
+
+  </header>
+
+  <p>
+  {{ .Summary }}
+  </p>
+
+  {{ if .Truncated }}
+  <footer>
+    <a href="{{ .RelPermalink }}">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  {{ end }}
+</article>

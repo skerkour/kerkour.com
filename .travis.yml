@@ -1,0 +1,20 @@
+sudo: false
+
+git:
+  depth: false
+  submodules: false
+
+script:
+  - make
+
+deploy:
+  skip_cleanup: true # Important, otherwise the build output would be purged.
+  provider: firebase
+  token: $FIREBASE_TOKEN
+  project: "kerkour-com"
+  on:
+    tags: true # The deployment happens only if the commit has a tag
+
+notifications:
+  email:
+    on_success: never

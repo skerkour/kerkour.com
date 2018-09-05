@@ -1,0 +1,31 @@
+{{ if or (.Prev) (.Next) }}
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    {{ if .PrevInSection }}
+    <a href="{{ .PrevInSection.Permalink }}"><i class="fa fa-chevron-left"></i></a>
+    {{ end }}
+  </div>
+  <div class="pure-u-10-24">
+    {{ if .PrevInSection }}
+    <nav class="prev">
+      <a href="{{ .PrevInSection.Permalink }}">{{ .PrevInSection.Title }}</a>
+    </nav>
+    {{ end }}
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    {{ if .NextInSection }}
+    <nav class="next">
+      <a href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }}</a>
+    </nav>
+    {{ end }}
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    {{ if .NextInSection }}
+    <a href="{{ .NextInSection.Permalink }}"><i class="fa fa-chevron-right"></i></a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

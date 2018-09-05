@@ -1,0 +1,34 @@
+<div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>{{ with .Site.Params.dateFormat }}{{ $.Date.Format . }}{{ else }}{{ .Date.Format "02 Jan 2006, 15:04" }}{{ end }}</time>
+  </div>
+
+  {{ $baseUrl := .Site.BaseURL }}
+
+  {{ if isset .Params "topics" }}
+  {{ $count := len .Params.topics }}
+  {{ if gt $count 0 }}
+  <div>
+    <i class="fa fa-folder fa-fw"></i>
+    {{ range $k, $v := .Params.topics }}
+      <a class="post-taxonomy-topic" href="{{ $baseUrl }}topics/{{ . | urlize }}">{{ . }}</a>{{ if lt $k (sub $count 1) }}&nbsp;&#47;{{ end }}
+    {{ end }}
+  </div>
+  {{ end }}
+  {{ end }}
+
+  {{ if isset .Params "tags" }}
+  {{ $count := len .Params.tags }}
+  {{ if gt $count 0 }}
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    {{ range $k, $v := .Params.tags }}
+      <a class="post-taxonomy-tag" href="{{ $baseUrl }}tags/{{ . | urlize }}">{{ . }}</a>{{ if lt $k (sub $count 1) }}&nbsp;&#47;{{ end }}
+    {{ end }}
+  </div>
+  {{ end }}
+  {{ end }}
+
+</div>
