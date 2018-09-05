@@ -1,8 +1,16 @@
-sudo: false
+addons:
+  apt:
+    packages:
+      - python-pygments
 
 git:
   depth: false
   submodules: false
+
+
+install:
+  - wget -qO- https://api.github.com/repos/gohugoio/hugo/releases/latest | sed -r -n '/browser_download_url/{/Linux-64bit.deb/{s@[^:]*:[[:space:]]*"([^"]*)".*@\1@g;p}}' | grep -v extended | xargs wget
+  - sudo dpkg -i hugo*.deb
 
 script:
   - make
@@ -13,7 +21,7 @@ deploy:
   token: $FIREBASE_TOKEN
   project: "kerkour-com"
   on:
-    tags: true # The deployment happens only if the commit has a tag
+    branch: master
 
 notifications:
   email:
