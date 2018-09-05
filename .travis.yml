@@ -1,7 +1,10 @@
-addons:
-  apt:
-    packages:
-      - python-pygments
+sudo: false
+
+
+language: go
+
+go:
+  - 1.11
 
 git:
   depth: false
@@ -9,8 +12,12 @@ git:
 
 
 install:
-  - wget -qO- https://api.github.com/repos/gohugoio/hugo/releases/latest | sed -r -n '/browser_download_url/{/Linux-64bit.deb/{s@[^:]*:[[:space:]]*"([^"]*)".*@\1@g;p}}' | grep -v extended | xargs wget -i
-  - sudo dpkg -i hugo*.deb
+  - go get github.com/magefile/mage
+  - go get -d github.com/gohugoio/hugo
+  - cd ${GOPATH:-$HOME/go}/src/github.com/gohugoio/hugo
+  - mage vendor
+  - mage install
+  - cd ${TRAVIS_BUILD_DIR}
 
 script:
   - make
