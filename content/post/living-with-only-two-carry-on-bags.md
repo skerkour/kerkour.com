@@ -25,6 +25,8 @@ The is many benefits to have all my stuff fitting in only to bags. Here is a few
 * Ability to pack and relocate to anywhere in the world in less than 20 minutes.
 * All my stuff is high quality. If something is damaged, it's replaced.
 * The places where I live are always in order, and easy to clean.
+* Unparalleled ability to travel and see beautiful places.
+* Wash cycles are easier (1 / week).
 
 
 
