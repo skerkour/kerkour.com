@@ -57,7 +57,8 @@ The North Face Base Camp Duffel XS (Black - 33L)
 
 <img src="/img/living-with-only-two-carry-on-bags/northface1.jpg" height="300"/>
 
-The 'Backpack' is generally used when relocating to carry my clothes or when the
+The 'Backpack' is generally used when relocating to carry my clothes or when the 'frontpack' is not
+enought.
 
 
 * 1 Volcom Frozen Chino for formal events (very high quality)
@@ -70,3 +71,4 @@ it also contains my toilet bag:
 
 * 1 nail clipper
 * 1 tweezers
+* 1 toothbrush
