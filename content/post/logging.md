@@ -166,6 +166,6 @@ As it's out of topic, [here is more information](https://medium.com/@copyconstru
 
 ## Implementation
 
-I created the framework [Astroflow](https://github.com/astroflow/) which will have implementations for all the languages I use (contributions are welcome for other languages!) with respect to the above principles.
+I created the framework [Astroflow](https://astroflow.io) which will have implementations for all the languages I use (contributions are welcome for other languages!) with respect to the above principles.
 
 The masterplan of astroflow is to provide an universally (for all languages) consistant high performance logging library without compromise on the UX so with a clean API.
