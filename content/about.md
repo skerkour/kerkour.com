@@ -19,7 +19,7 @@ Hi !
 <br />
 <br />
 
-I'm the creator of <a href="https://astrocorp.net">AstroCorp</a>: a galaxy of open source projects and companies on a mission to further humankind's boundaries through automation, improved workflows and transparency (<a href="https://phaserec.com">Phaser</a>,
+I'm the creator of <a href="https://astrocorp.net">AstroCorp</a>: a galaxy of open source projects and companies on a mission to further humankind's boundaries through automation, improved workflows and transparency (<a href="https://phasersec.com">Phaser</a>,
 <a href="https://infosecjobs.io">InfoSecJobs.io</a>...).
 
 <br />
