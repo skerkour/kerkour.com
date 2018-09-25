@@ -29,6 +29,9 @@ This is why I would like to introduce the concept of **polyglot framework**.
 the same trade-offs for different programming languages.
 
 
+By creating polyglot frameworks we will enable programmers to create homogeneous polyglot systems,
+with a shared set of quality standrds, abilities and performances.
+
 
 ## Astroflow
 
