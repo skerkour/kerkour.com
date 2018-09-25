@@ -50,7 +50,7 @@ theme = "blackburn"
 
   # SNS microblogging
   twitter = "sylvain_kerkour"
-  facebook = "sylvain.kerkour.bot"
+  # facebook = "sylvain.kerkour.bot"
   # medium = "sylvain_kerkour"
   github = "z0mbie42"
   gitlab = "z0mbie42"
