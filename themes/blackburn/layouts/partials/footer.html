@@ -2,8 +2,6 @@
 </div>
 <script src="{{ .Site.BaseURL }}js/ui.js"></script>
 
-{{ partial "google_analytics.html" . }}
-
 {{ with .Site.Params.SignalAnalytics }}
   <script type="text/javascript" async src="https://api.signal.astrocorp.net/js?id={{ . }}"></script>
 {{ end }}
