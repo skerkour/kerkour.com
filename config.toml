@@ -16,7 +16,7 @@ theme = "blackburn"
   # Shown in the home page
   # subtitle = "A Hugo Theme"
   # brand = "Sylvain Kerkour"
-  googleAnalytics = "UA-97472179-1"
+  signalAnalytics="1AneZSvMNFZViAmcUAnmyDOBkN8"
   disqus = "sylvain-kerkour"
   # CSS name for highlight.js
   highlightjs = "androidstudio"
