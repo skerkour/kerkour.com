@@ -44,6 +44,6 @@ Astroflow's goal is to provide a configurable and as fast as possible logging fr
 API possile.
 
 
-You can find the Go repo here: [https://github.com/astrocorp42/astroflow-go](https://github.com/astrocorp42/astroflow-go)
+You can find the Go repo here: [https://github.com/bloom42/astroflow-go](https://github.com/bloom42/astroflow-go)
 
-and the JavaScrit one here: [https://github.com/astrocorp42/astroflow-js](https://github.com/astrocorp42/astroflow-js)
+and the JavaScrit one here: [https://github.com/bloom42/astroflow-js](https://github.com/bloom42/astroflow-js)
