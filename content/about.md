@@ -15,12 +15,11 @@ Hi !
 <br />
 <br />
 
-<b>Sylvain Kerkour</b> (<i>a.k.a</i> <b>z0mbie42</b> or <b>YAZ</b> - <i>YetAnotherZombie</i>)
+I'm <b>Sylvain Kerkour</b> (<i>a.k.a</i> <b>z0mbie42</b> or <b>YAZ</b> - <i>YetAnotherZombie</i>),
 <br />
 <br />
 
-I'm the creator of <a href="https://bloom.sh">Bloom</a>: a galaxy of open source projects and companies on a mission to further humankind's boundaries through automation, improved workflows and transparency (<a href="https://phasersec.com">Phaser</a>,
-<a href="https://infosecjobs.io">InfoSecJobs.io</a>...).
+the creator of <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom: Awesome internet services</a>.
 
 <br />
 <br />
