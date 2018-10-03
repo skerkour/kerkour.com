@@ -30,6 +30,10 @@
      <h3 style="display: inline-block;">
       <a href="readings">Readings</a>
      </h3>
+     -
+     <h3 style="display: inline-block;">
+      <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom</a>
+     </h3>
   </div>
   {{ range ( .Paginate (where .Data.Pages "Type" "post")).Pages.GroupByDate "2006" }}
   <h2>{{ .Key }}</h2>
