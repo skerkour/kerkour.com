@@ -38,6 +38,7 @@ title = "Readings"
 <!-- * Who: The A Method for Hiring, *Smart, Geoff* -->
 * Zero to One: Notes on Start Ups, or How to Build the Future, *Masters, Blake*
 * The Art of War, *Sun Tzu*
+* Scale: The Universal Laws of Growth, Innovation, Sustainability, and the Pace of Life in Organisms, Cities, Economies, and Companies, *Geoffrey West*
 
 
 <div style="text-align: center;">
@@ -46,7 +47,7 @@ title = "Readings"
 
 * Elon Musk: How the Billionaire CEO of SpaceX and Tesla is Shaping our Future, *Vance, Ashlee*
 * Alibaba: The House That Jack Ma Built, *Clark, Duncan*
-* Xavier Niel - La voie du pirate, *GODELUCK, Solveig*  
+* Xavier Niel - La voie du pirate, *GODELUCK, Solveig*
 
 
 <div style="text-align: center;">
