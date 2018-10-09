@@ -19,6 +19,7 @@ title = "Readings"
 
 * Les secrets de la matière, *Étienne Klein*
 * The Structure of Scientific Revolutions, *Kuhn*
+* L'Univers des plasma, *Pascal Bradu*
 
 
 <div style="text-align: center;">
