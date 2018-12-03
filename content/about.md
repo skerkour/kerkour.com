@@ -19,14 +19,13 @@ I'm <b>Sylvain Kerkour</b> (<i>a.k.a</i> <b>z0mbie42</b> or <b>YAZ</b> - <i>YetA
 <br />
 <br />
 
-the creator of <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom: Awesome internet services</a>.
+the creator of <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom: Awesome internet services with privacy in mind</a>.
 
 <br />
 <br />
 
-You can contact me on twitter <a href="https://twitter.com/sylvain_kerkour" target="_blank" rel="noopener noreferrer">@sylvain_kerkour</a>
-
-Or using the links in the side menu.
+You can contact me first on twitter <a href="https://twitter.com/z0mbie42" target="_blank" rel="noopener noreferrer">@z0mbie42</a>
+and we can then exchange more practical ways of communication if necessary.
 
 </div>
 

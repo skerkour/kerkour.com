@@ -40,7 +40,7 @@ title = "Readings"
 * Zero to One: Notes on Start Ups, or How to Build the Future, *Masters, Blake*
 * The Art of War, *Sun Tzu*
 * Scale: The Universal Laws of Growth, Innovation, Sustainability, and the Pace of Life in Organisms, Cities, Economies, and Companies, *Geoffrey West*
-
+* Deep Work: Rules for Focused Success in a Distracted World, *Cal Newport*
 
 <div style="text-align: center;">
   <h2>Biographies</h2>
