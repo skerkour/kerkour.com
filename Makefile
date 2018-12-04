@@ -3,10 +3,10 @@
 all: build
 
 dev:
-	hugo serve -D
+	hugo serve -D --themesDir hugothemes
 
 build:
-	hugo -d dist
+	hugo -d dist --themesDir hugothemes
 
 push:
 	make
