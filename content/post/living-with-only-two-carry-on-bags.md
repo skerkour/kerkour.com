@@ -18,7 +18,7 @@ other corner of the world in less than 20 minutes.
 
 ## Benefits
 
-The is many benefits to have all my stuff fitting in only to bags. Here is a few which come to my mind:
+The is many benefits to have all my stuff fitting in only two bags. Here is a few which come to my mind:
 
 * Don't have to pay for checked luggage.
 * I don't lose time everyday to chose my outfit.
