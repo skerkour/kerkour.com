@@ -3,7 +3,7 @@ date = "2018-09-11T01:42:42+02:00"
 title = "Living with only two carry-on bags"
 +++
 
-During the fall of 2017 I leaved Paris, France to start a company ([Phaser - Continuous security made easy](https://phasersec.com)) from
+During the fall of 2017 I leaved Paris, France to start a company (Phaser, which is now [Bloom](https://bloom.sh)) from
 anywhere in the world.
 
 Here is how I achieved to live with only 2 carry-on bags and be able to pack my stuff and move to the
