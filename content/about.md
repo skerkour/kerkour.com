@@ -15,11 +15,12 @@ Hi !
 <br />
 <br />
 
-I'm <b>Sylvain Kerkour</b> (<i>a.k.a</i> <b>z0mbie42</b> or <b>YAZ</b> - <i>YetAnotherZombie</i>),
+I'm <b>Sylvain Kerkour</b> (<i>a.k.a</i> <b>z0mbie42),
 <br />
+INTJ,
 <br />
 
-the creator of <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom: Awesome internet services with privacy in mind</a>.
+creator of <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom: Awesome internet services/a>.
 
 <br />
 <br />
