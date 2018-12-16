@@ -16,7 +16,6 @@ theme = "blackburn"
   # Shown in the home page
   # subtitle = "A Hugo Theme"
   # brand = "Sylvain Kerkour"
-  #signalAnalytics="1AneZSvMNFZViAmcUAnmyDOBkN8"
   disqus = "sylvain-kerkour"
   # CSS name for highlight.js
   highlightjs = "androidstudio"
@@ -45,14 +44,6 @@ theme = "blackburn"
     url = "/readings/"
 
 [social]
-  # Link your social networking accounts to the side menu
-  # by entering your username or ID.
-
-  # SNS microblogging
   twitter = "z0mbie42"
-  # facebook = "sylvain.kerkour.bot"
-  # medium = "sylvain_kerkour"
   github = "z0mbie42"
-  gitlab = "z0mbie42"
-  #rootme = "z0mbie42"
   instagram = "z0mbie42"
