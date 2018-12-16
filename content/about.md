@@ -20,7 +20,7 @@ I'm <b>Sylvain Kerkour</b> (<i>a.k.a</i> <b>z0mbie42</b>),
 INTJ,
 <br />
 
-creator of <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom: Awesome internet services/a>.
+creator of <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom: Awesome internet services</a>.
 
 <br />
 <br />
