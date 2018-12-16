@@ -6,7 +6,7 @@ title = "About"
 +++
 
 <div>
-  <img src="/img/about/sylvain_traveling.jpg" alt="while traveling" style="margin: 0 auto;display: block; width: 343px; height: 360px;"/>
+  <img src="/img/about/sylvain.jpg" alt="while traveling" style="margin: 0 auto;display: block; width: 343px; height: 360px;"/>
 </div>
 
 <div style="text-align: center">
@@ -25,7 +25,7 @@ creator of <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom: Awes
 <br />
 <br />
 
-You can contact me first on twitter <a href="https://twitter.com/z0mbie42" target="_blank" rel="noopener noreferrer">@z0mbie42</a>
+To contact me, first use twitter <a href="https://twitter.com/z0mbie42" target="_blank" rel="noopener noreferrer">@z0mbie42</a>
 and we can then exchange more practical ways of communication if necessary.
 
 </div>
