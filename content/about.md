@@ -32,8 +32,6 @@ and we can then exchange more practical ways of communication if necessary.
 
 
 <!--
-I travel to work from anywhere, bootstrap companies and only own what fits in my two backpacks. (You can read more about this <a href="/post/carry-on-world-travel/">here</a>.)
-
 <hr />
 
 Here are the disciplines in which I invest my time and energy to make the world a better place :
