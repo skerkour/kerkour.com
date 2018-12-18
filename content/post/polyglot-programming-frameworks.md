@@ -6,7 +6,7 @@ tags = ["programming", "logging", "go", "golang", "javascript", "js"]
 +++
 
 1. [Polyglot systems](#polyglot-systems)
-2. [Astroflow](#astroflow)
+2. [Astro](#astro)
 
 ---
 
@@ -33,17 +33,17 @@ By creating polyglot frameworks we will enable programmers to create homogeneous
 with a shared set of quality standards, abilities and performances.
 
 
-## Astroflow
+## Astro
 
 [Logging is hard but unavoidable](https://kerkour.com/post/logging/) thus I think one of the opportunity
 for polyglot frameworks to shine is logging.
 
-This is why I started the [Astroflow](https://astrocorp.net/astroflow) framework, an universal logging framework.
+This is why I started the [Astro](https://code.bloom.sh) framework, an universal logging framework.
 
-Astroflow's goal is to provide a configurable and as fast as possible logging framework with the minimal
+Astro's goal is to provide a configurable and as fast as possible logging framework with the minimal
 API possile.
 
 
-You can find the Go repo here: [https://github.com/bloom42/astroflow-go](https://github.com/bloom42/astroflow-go)
+You can find the Go repo here: [https://github.com/bloom42/astro-go](https://github.com/bloom42/astro-go)
 
-and the JavaScrit one here: [https://github.com/bloom42/astroflow-js](https://github.com/bloom42/astroflow-js)
+and the JavaScrit one here: [https://github.com/bloom42/astro-js](https://github.com/bloom42/astro-js)
