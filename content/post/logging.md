@@ -166,6 +166,6 @@ As it's out of topic, [here is more information](https://medium.com/@copyconstru
 
 ## Implementation
 
-I created the framework [Astro](https://opensource.bloom.sh) which will have implementations for all the languages I use (contributions are welcome for other languages!) with respect to the above principles.
+I created the framework [Astro](https://code.bloom.sh) which will have implementations for all the languages I use (contributions are welcome for other languages!) with respect to the above principles.
 
 The masterplan of astro is to provide an universally (for all languages) consistant high performance logging library without compromise on the UX so with a clean API.
