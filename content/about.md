@@ -15,7 +15,7 @@ Hi !
 <br />
 <br />
 
-I'm <b>Sylvain Kerkour</b> (<i>a.k.a</i> <b>z0mbie42</b>),
+I'm <b>z0mbie42</b> (<i>a.k.a</i> <b>Sylvain Kerkour</b>),
 <br />
 INTJ,
 <br />
