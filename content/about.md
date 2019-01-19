@@ -25,11 +25,9 @@ creator of <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom: Awes
 <br />
 <br />
 
-To contact me, first use twitter <a href="https://twitter.com/z0mbie42" target="_blank" rel="noopener noreferrer">@z0mbie42</a>
-and we can then exchange more practical ways of communication if necessary.
+Contact: <span id="email"></span>
 
 </div>
-
 
 <!--
 <hr />
