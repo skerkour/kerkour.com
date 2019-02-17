@@ -38,12 +38,12 @@ with a shared set of quality standards, abilities and performances.
 [Logging is hard but unavoidable](https://kerkour.com/post/logging/) thus I think one of the opportunity
 for polyglot frameworks to shine is logging.
 
-This is why I started the [Astro](https://code.bloom.sh) framework, an universal logging framework.
+This is why I started the [Astro](https://opensource.bloom.sh) framework, an universal logging framework.
 
 Astro's goal is to provide a configurable and as fast as possible logging framework with the minimal
 API possile.
 
 
-You can find the Go repo here: [https://github.com/bloom42/astro-go](https://github.com/bloom42/astro-go)
+You can find the Go repo here: [https://github.com/bloom42/rz-go](https://github.com/bloom42/rz-go)
 
 and the JavaScrit one here: [https://github.com/bloom42/astro-js](https://github.com/bloom42/astro-js)
