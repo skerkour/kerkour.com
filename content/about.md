@@ -42,7 +42,7 @@ Here are the disciplines in which I invest my time and energy to make the world 
 I'm also interested about :
 
 * Education
-* Sports (*particulary endurance and combat sports*)
+* Sports (*particularly endurance and combat sports*)
 * Lockpicking
 * Entrepreneurship
 * Transportation

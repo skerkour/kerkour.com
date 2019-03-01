@@ -32,7 +32,7 @@ Here you can find my contribution to make logging great again (building great pr
 
 Strucured logging is the practice to see logs as a dictionnay of key/value pairs.
 
-Im not sure when structured logging was introduced but one of the first iteratin was the [logfmt](https://brandur.org/logfmt) format.
+Im not sure when structured logging was introduced but one of the first iteration was the [logfmt](https://brandur.org/logfmt) format.
 
 Nowadays everyone agree that structured logging should be done in **JSON**.
 
@@ -119,7 +119,7 @@ Optionnaly you can add a hooks to manipulate events (eg. to add feilds) before t
 ## Performance
 *"Logging is not free so I'm not sure if I should add this log line"*.
 
-Logging is not free, but it can be [extremly](https://github.com/rs/zerolog) [fast](https://github.com/uber-go/zap). It's the logging library's responsability.
+Logging is not free, but it can be [extremly](https://github.com/rs/zerolog) [fast](https://github.com/uber-go/zap). It's the logging library's responsibility.
 
 Here is the foundation for a cheap logging library:
 
@@ -135,7 +135,7 @@ The main concern is to provide a great interface to **flush** the logger's buffe
 
 #### Sampling
 
-When too many events in a short time window are the same, it can be ok to drop some to not saturate the system. It's sampling. The goal is only to have better performance when it's truely critical.
+When too many events in a short time window are the same, it can be ok to drop some to not saturate the system. It's sampling. The goal is only to have better performance when it's truly critical.
 
 
 ## What to log
@@ -153,9 +153,9 @@ You should log what will help you find errors in your program and give you insig
 
 ## Logs vs Metrics
 
-As we seen logs are structured events. On the other hand metrics are numerics time series (which you can add some labels / key value which is a kind of structure, [metrics](https://github.com/prometheus/prometheus) [stores](https://github.com/influxdata/influxdb) are optimised for numeric time series).
+As we seen logs are structured events. On the other hand metrics are numerics time series (which you can add some labels / key value which is a kind of structure, [metrics](https://github.com/prometheus/prometheus) [stores](https://github.com/influxdata/influxdb) are optimized for numeric time series).
 
-If the goal of metrics is to provide **observability** to you applications and infrastructure - like logs - they are a prefered mean for monitoring and alerting because of their numeric nature which ease aggregations and graphing.
+If the goal of metrics is to provide **observability** to you applications and infrastructure - like logs - they are a preferred mean for monitoring and alerting because of their numeric nature which ease aggregations and graphing.
 
 Please remind that some metrics can be derived from logs (mean http request duration, http request rate, error rate...).
 
@@ -168,4 +168,4 @@ As it's out of topic, [here is more information](https://medium.com/@copyconstru
 
 I created the framework [Astro](https://opensource.bloom.sh) which will have implementations for all the languages I use (contributions are welcome for other languages!) with respect to the above principles.
 
-The masterplan of astro is to provide an universally (for all languages) consistant high performance logging library without compromise on the UX so with a clean API.
+The masterplan of astro is to provide an universally (for all languages) consistent high performance logging library without compromise on the UX so with a clean API.
