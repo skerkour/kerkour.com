@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+$base-font-family: 'Noto Serif', serif;
+$title-font-family: 'Noto Sans', sans-serif;
+$code-font-family: 'Roboto Mono', monospace;
+$base-font-size:   16px;
+$small-font-size:  0.875rem;
+$base-line-height: 1.5;
+
+$text-color:   #333;
+$link-color:   #0074d9;
+$anchor-color: #0074d9af;
+$meta-color:   #a0a0a0;
+$border-color: #ddd;
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif|Roboto+Mono');
+@import "base";
+@import "layout";
