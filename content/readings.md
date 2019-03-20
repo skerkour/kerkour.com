@@ -37,7 +37,7 @@ title = "Readings"
 * The Personal MBA, Master the art of Business, *Josh Kaufman*
 * Predictable Revenue: Turn Your Business into a Sales Machine With the $100 Million Best Practices of Salesforce.com, *Ross, Aaron*
 <!-- * Who: The A Method for Hiring, *Smart, Geoff* -->
-* Zero to One: Notes on Start Ups, or How to Build the Future, *Masters, Blake*
+* Zero to One: Notes on Start Ups, or How to Build the Future, *Thiel, Peter*
 * The Art of War, *Sun Tzu*
 * Scale: The Universal Laws of Growth, Innovation, Sustainability, and the Pace of Life in Organisms, Cities, Economies, and Companies, *Geoffrey West*
 * Deep Work: Rules for Focused Success in a Distracted World, *Cal Newport*
