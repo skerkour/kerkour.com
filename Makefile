@@ -1,12 +1,17 @@
 .PHONY: all dev build push
 
+BUILD_DIR := public
+
 all: build
 
 dev:
-	hugo serve -D
+	zola serve
 
 build:
-	hugo -d dist
+	zola build
+
+clean:
+	rm -rf $(BUILD_DIR)
 
 push:
 	make

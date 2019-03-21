@@ -1,4 +1,3 @@
-*.swp
-dist
 node_modules/
-.firebase/
+npm-debug.log
+public/

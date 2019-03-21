@@ -1,25 +1,14 @@
-sudo: false
+language: rust
 
-env:
-  - GO111MODULE=on
-
-language: go
-
-go:
-  - 1.12
+rust:
+  - 1.33.0
 
 git:
   depth: false
   submodules: false
 
-
 install:
-  - mkdir $HOME/src
-  - cd $HOME/src
-  - git clone https://github.com/gohugoio/hugo.git
-  - cd hugo
-  - go install
-  - cd ${TRAVIS_BUILD_DIR}
+  - curl -s -L https://github.com/getzola/zola/releases/download/v0.5.1/zola-v0.5.1-x86_64-unknown-linux-gnu.tar.gz | sudo tar xvzf - -C /usr/local/bin
 
 script:
   - make
@@ -27,7 +16,7 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
-  local_dir: dist
+  local_dir: public
   github_token: $GITHUB_TOKEN
   on:
     branch: master

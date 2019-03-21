@@ -1,0 +1,49 @@
+baseURL = "https://kerkour.com/"
+languageCode = "en-us"
+title = "Sylvain Kerkour"
+# Shown in the side menu
+# copyright = "&copy; 2016. All rights reserved."
+canonifyurls = true
+paginate = 21
+disableHugoGeneratorInject = true
+theme = "blackburn"
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[params]
+  # Shown in the home page
+  # subtitle = "A Hugo Theme"
+  # brand = "Sylvain Kerkour"
+  disqus = "sylvain-kerkour"
+  # CSS name for highlight.js
+  highlightjs = "androidstudio"
+  dateFormat = "02 Jan 2006, 15:04"
+  # Include any custom CSS and/or JS files
+  # (relative to /static folder)
+  # custom_css = ["css/my.css"]
+  # custom_js = ["js/my.js"]
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Home"
+    weight = 1
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "About"
+    weight = 2
+    identifier = "about"
+    url = "/about/"
+  [[menu.main]]
+    name = "Readings"
+    weight = 3
+    identifier = "readings"
+    url = "/readings/"
+
+[social]
+  twitter = "z0mbie42"
+  github = "z0mbie42"
+  instagram = "z0mbie42"

@@ -1,0 +1,4 @@
+*.swp
+dist
+node_modules/
+.firebase/

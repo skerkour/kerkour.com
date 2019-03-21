@@ -1,0 +1,37 @@
+sudo: false
+
+env:
+  - GO111MODULE=on
+
+language: go
+
+go:
+  - 1.12
+
+git:
+  depth: false
+  submodules: false
+
+
+install:
+  - mkdir $HOME/src
+  - cd $HOME/src
+  - git clone https://github.com/gohugoio/hugo.git
+  - cd hugo
+  - go install
+  - cd ${TRAVIS_BUILD_DIR}
+
+script:
+  - make
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: dist
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master
+
+notifications:
+  email:
+    on_success: never
