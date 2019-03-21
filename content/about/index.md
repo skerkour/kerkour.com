@@ -10,7 +10,7 @@ template = "about.html"
   <!-- style="margin: 0 auto;display: block;"/> -->
 <!-- </div> -->
 
-Hey! I'm Sylvain (*a.k.a* **z0mbie42**),
+Hey! I'm Sylvain Kerkour (*a.k.a* **z0mbie42**),
 
 creator of <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom: Open internet services</a>.
 
