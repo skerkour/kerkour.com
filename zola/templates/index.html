@@ -20,9 +20,8 @@
         <h1 class='site-title'><a href='{{ config.base_url }}'>{{ config.title }}</a></h1>
         <nav class='site-nav'>
           <a href='{{ config.base_url }}/' class='{% if not page.path %}active{% endif %}'>Posts</a>
-          <a href='{{ config.base_url }}/readings' class='{% if page %}{% if page.path == "&#x2F;readings" %}active{% endif %}{% endif %}'>Readings</a>
-          <!-- <a href='{{ config.base_url }}/projects' class='{% if page %}{% if page.path == "&#x2F;projects" %}active{% endif %}{% endif %}'>Projects</a> -->
-          <a href='{{ config.base_url }}/about' class='{% if page %}{% if page.path == "/about" %}active{% endif %}{% endif %}'>About</a>
+          <a href='{{ config.base_url }}/readings' class='{% if page and page.path == "readings/" %}active{% endif %}'>Readings</a>
+          <a href='{{ config.base_url }}/about' class='{% if page and page.path == "about/" %}active{% endif %}'>About</a>
         </nav>
       </header>
       <main class='site-content'>
@@ -38,7 +37,7 @@
       {% endblock content %}
       </main>
       <footer class='site-footer'>
-          <a href='rss.xml'>RSS Feed</a>
+        <a href='rss.xml'>RSS Feed</a>
       </footer>
     </div>
   </body>
