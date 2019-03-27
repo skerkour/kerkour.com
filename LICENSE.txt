@@ -1,3 +1,10 @@
+All the content (.md files, image files, video files, font files) of this website are licensed under
+the CC BY-SA 4.0 license: https://creativecommons.org/licenses/by-sa/4.0/
+
+All the code (all other files) are licensed under the Apache 2.0 license (see below).
+
+----------------------------------------------------------------------------------------------------
+
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -186,7 +193,7 @@
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
 
-   Copyright 2019 Sylvain Kerkour
+   Copyright 2013-2019 Sylvain Kerkour
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
