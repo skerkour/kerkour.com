@@ -14,8 +14,8 @@ Hey! I'm Sylvain Kerkour (*a.k.a* **z0mbie42**),
 
 creator of <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom: Open internet services</a>.
 
-You can find me on GitHub as [@z0mbie42](https://github.com/z0mbie42),
-on Twitter as [@z0mbie42](https://twitter.com/z0mbie42)
+You can find me on GitHub as [@z0mbie42](https://github.com/z0mbie42),<br/>
+on Twitter as [@z0mbie42](https://twitter.com/z0mbie42)<br/>
 and on Instagram [@z0mbie42](https://instagram.com/z0mbie42).
 
 Contact: <span id="email"></span>
