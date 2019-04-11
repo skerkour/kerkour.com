@@ -48,7 +48,7 @@ template = "readings.html"
 * Elon Musk: How the Billionaire CEO of SpaceX and Tesla is Shaping our Future, *Vance, Ashlee*
 * Alibaba: The House That Jack Ma Built, *Clark, Duncan*
 * Xavier Niel - La voie du pirate, *GODELUCK, Solveig*
-
+* Rebel Code: Linux And The Open Source Revolution, *Glyn Moody*
 
 <div style="text-align: center;">
   <h2>Novels</h2>
