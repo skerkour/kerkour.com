@@ -1,7 +1,7 @@
 +++
 date = 2019-03-01T12:42:42+02:00
 draft = true
-title = "Bloom: an Open Source Google (in Rust)"
+title = "Bloom: an Open Source Google"
 tags = ["rust", "rust-lang", "rustlang", "opensource", "google"]
 +++
 

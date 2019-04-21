@@ -23,7 +23,7 @@
       <header class='site-header'>
         <h1 class='site-title'><a href='{{ config.base_url }}'>{{ config.title }}</a></h1>
         <nav class='site-nav'>
-          <a href='{{ config.base_url }}/' class='{% if not page.path %}active{% endif %}'>Posts</a>
+          <a href='{{ config.base_url }}/' class='{% if not page.path %}active{% endif %}'>Blog</a>
           <a href='{{ config.base_url }}/readings' class='{% if page and page.path == "readings/" %}active{% endif %}'>Readings</a>
           <a href='{{ config.base_url }}/photos' class='{% if page and page.path == "photos/" %}active{% endif %}'>Photos</a>
           <a href='{{ config.base_url }}/about' class='{% if page and page.path == "about/" %}active{% endif %}'>About</a>
@@ -32,7 +32,7 @@
       <main class='site-content'>
       {% block content %}
         <ul class='posts'>
-          {% set posts = get_section(path="posts/_index.md") %}
+          {% set posts = get_section(path="blog/_index.md") %}
           {% for page in posts.pages %}
             {% if page.date and not page.draft %}
               <li><span class='post-meta'>{{ page.date | date(format="%Y-%m-%d") }}</span><a href='{{ page.permalink }}'>{{ page.title }}</a></li>
