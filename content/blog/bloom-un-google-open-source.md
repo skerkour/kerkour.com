@@ -13,8 +13,7 @@ lang = "fr"
 
 1. [Des enjeux inédits](#des-enjeux-inedits)
 2. [Open source, access, data ...](#open-source-access-data)
-3. [Frontpack](#frontpack)
-4. [Le ](#backpack)
+3. [Bloom](#bloom)
 
 -------
 
@@ -51,9 +50,11 @@ de la transparence
 <img src="/posts/bloom-announcement/unemployment-vs-biggest10.jpg" height="300"/>
 
 Une des 10 plus grosses entreprises môndiale VS chomage mondial.
-<a href="https://donnees.banquemondiale.org/indicateur/SL.UEM.TOTL.ZS?end=2018&start=1991&view=chart" target="_blank" rel="noopener">Données: Banque mondiale</a>
+Données: <a href="https://donnees.banquemondiale.org/indicateur/SL.UEM.TOTL.ZS?end=2018&start=1991&view=chart" target="_blank" rel="noopener">Banque mondiale</a>
 </div>
 
+
+## Bloom
 
 
 -------
