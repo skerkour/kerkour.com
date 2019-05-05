@@ -1,6 +1,6 @@
 +++
 date = 2019-03-01T12:42:42+02:00
-draft = false
+draft = true
 title = "Bloom: un Google Open Source (en Rust)"
 tags = ["rust", "rust-lang", "rustlang", "opensource", "google"]
 lang = "fr"
@@ -35,6 +35,9 @@ identification des enjeux
 - pollution / ecologie / surconsommation (crise ecologique)
 - probleme de redistribution des richesses (crise sociale) qui est accelere par l'automatisation et
 les effets d'echelles des nouvelles technologies
+
+combiner le court terme et le long terme. Actuellement on favorise le court terme alors que nous sommes au pied du mur.
+
 
 
 ## Open source, access, data ...
