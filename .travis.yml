@@ -1,14 +1,14 @@
 language: rust
 
 rust:
-  - 1.33.0
+  - 1.34.0
 
 git:
   depth: false
   submodules: false
 
 install:
-  - curl -s -L https://github.com/getzola/zola/releases/download/v0.5.1/zola-v0.5.1-x86_64-unknown-linux-gnu.tar.gz | sudo tar xvzf - -C /usr/local/bin
+  - curl -s -L https://github.com/getzola/zola/releases/download/v0.7.0/zola-v0.7.0-x86_64-unknown-linux-gnu.tar.gz | sudo tar xvzf - -C /usr/local/bin
 
 script:
   - make

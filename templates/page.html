@@ -1,9 +1,13 @@
 {% extends "index.html" %}
 
 {% block content %}
-  <article class='post'>  
+  <article class='post'>
     <h1 class='post-header'>{{ page.title }}</h1>
-    <p class='post-meta'>{{ page.date | date(format="%Y-%m-%d") }}</p>
+    <p class='post-meta'>{{ page.date | date(format="%Y-%m-%d") }}
+      {% if page.extra.updated %}
+        (updated {{ page.extra.updated | date(format="%Y-%m-%d") }})
+      {% endif %}
+    </p>
     {{ page.content | safe }}
   </article>
 {% endblock content %}

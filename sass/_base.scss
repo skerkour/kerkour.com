@@ -47,6 +47,13 @@ img, video {
   max-width: 100%;
 }
 
+.center, .center p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
 figure {
   margin: 1rem 0rem;
 }
