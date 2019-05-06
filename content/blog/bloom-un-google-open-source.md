@@ -135,7 +135,7 @@ ne bénéficiaient pas seulement à eux, mais à la société, à l'humanité en
 
 ### Open source
 
-[Open source](https://fr.wikipedia.org/wiki/Open_source): La désignation open source, ou « code source ouvert », s'applique aux logiciels (et s'étend maintenant aux œuvres de l'esprit) dont la licence respecte des critères précisément établis par l'Open Source Initiative, c'est-à-dire les possibilités de libre redistribution, d'accès au code source et de création de travaux dérivés. Mis à la disposition du grand public, ce code source est généralement le résultat d'une collaboration entre programmeurs.
+[Open source](https://fr.wikipedia.org/wiki/Open_source): *La désignation open source, ou « code source ouvert », s'applique aux logiciels (et s'étend maintenant aux œuvres de l'esprit) dont la licence respecte des critères précisément établis par l'Open Source Initiative, c'est-à-dire les possibilités de libre redistribution, d'accès au code source et de création de travaux dérivés. Mis à la disposition du grand public, ce code source est généralement le résultat d'une collaboration entre programmeurs.*
 
 L'exemple le plus connus d'open source est [Linux](https://fr.wikipedia.org/wiki/Linux), un système d'exploitation
 libre et gratuit qui est utilisés par la majorité des [serveurs](https://fr.wikipedia.org/wiki/Serveur_informatique)
