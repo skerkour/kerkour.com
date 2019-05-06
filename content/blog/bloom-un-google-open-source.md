@@ -30,16 +30,17 @@ et par [ici pour aider / contribuer](#contribuer-aider). Ce n'est que le début 
 
 Voici une nouvelle qui n'en n'est pas une: le début du XXIème siècle est un tournant décisif dans
 l'histoire de l'humanité. Si aujourd'hui la culture n'a plus de frontière (evenement sportifs, art, )
-les problemes non plus. Les enjeux auxquels fait face l'humanité aujourd'hui dépassent les Pays, les continents
-et menancent l'humanité entière.
+les problèmes non plus. Les enjeux auxquels fait face l'humanité dépassent les Pays, les continents
+et menancent notre espèce entière.
 
 C'est donc tous ensemble que nous allons devoir nous unir,
 malgré nos différences et notre passé où nos ancêtre se sont parfois opposés.
-C'est tous ensemble que nous allons devoir réponse a la fois aux enjeux de court terme et ceux du long terme.
+C'est tous ensemble que nous allons devoir apporter des réponses à la fois aux enjeux de court terme
+et ceux du long terme.
 
 
 Il n'y aura pas de gagnant, pas de vainqueur et donc pas de perdants, la récompense étant simplement
-notre survie.
+d'éviter que les choses ne tournent affreusement mal pour notre espèce.
 
 
 ### La crise écologiques
@@ -93,7 +94,7 @@ Toute cette bureaucratie n'est bien sur pas la bienvenue alors que l'humanite fa
 
 La niassance de l'open source / data / access... vient de personnes ne cherchant pas a maximiser leurs
 profits personnels, mais ont compris que mettre à disposition gratuitement et librement les fruits de leur travail
-ne bénéficiaient pas seulement à eux, mais a la société, l'humanité entière.
+ne bénéficiaient pas seulement à eux, mais à la société, à l'humanité entière.
 
 
 ### Open source
@@ -114,6 +115,8 @@ et [des téléphones](https://www.android.com) aujourd'hui.
   Données: <a href="https://donnees.banquemondiale.org/indicateur/SL.UEM.TOTL.ZS?end=2018&start=1991&view=chart" target="_blank" rel="noopener">Banque mondiale</a>
 </div>
 
+
+#### Résilience
 
 
 #### Organisations distribuées
@@ -137,7 +140,7 @@ parler de la collaboration mondiale.. -->
 
 ### Transparence: vertueuse mais surtout nécessaire
 
-Toutes ces mouvances d'ouverture mettent apportent de fait de la transparence. L'information devient accessible.
+Toutes ces mouvances d'ouverture apportent de fait de la transparence. L'information devient accessible.
 N'importe qui, sans distinction aucune peut s'en saisir et l'enrichir.
 
 Mais cette transparence vertueuse est surtout nécessaire, car si les vraies informations se propagent
@@ -147,18 +150,17 @@ des sociétés modernes il existe 2 grandes directions pour restreindre leurs ef
 * La censure
 * La transparence
 
-La censure signifiant le retour à l'époque de la télévision où la communication se faisait à sens unique,
-d'une minorité vers les masses.
+La censure signifiant une communication à sens unique, d'une minorité ayant le pouvoir vers les masses.
 
-La transparence quant à elle n'est pas suffisante seule pour mettre fin aux fausses informations, mais
+La transparence quant à elle n'est pas suffisante à ellse seule pour mettre fin aux fausses informations, mais
 elle permet au moins d'apporter des faits contradictoires et prouvables.
 
 
 La première étape de la transparence est de rendre les données publiques. La seconde est de les rendre facile
 d'accès, facile à chercher, facile à réutiliser.
 
-Sans transparence le *lobbying* ne doit être considéré que comme de la corruption. Sans transparence,
-il n'y a pas de vie publique. Sans transparence, il n'y a pas de société.
+Sans transparence, il n'y a pas de vie publique. Sans transparence, il n'y a pas de société.
+Sans transparence le *lobbying* ne doit être considéré que comme de la corruption.
 
 
 ## Bloom: le master plan top secret
@@ -205,7 +207,7 @@ vous pouvez toujours contribuer financièrement.
 
 Cet argent sera utilisé pour payer les gens contribuant à un monde plus ouvert:
 
-En devenant un *patron*:
+En devenant *patron*:
 
 <a href="https://www.patreon.com/bloom42" target="_blank" rel="noopener">
   <img src="/imgs/become_a_patron_button.png" height="42"/>
@@ -219,7 +221,7 @@ En faisant un don *Paypal*:
 </a>
 
 
-En utilisant les crypto-monnaies:
+En faisant un don en crypto-monnaie:
 
 **BTC**: `38QY24nHRkMxUFsEDobwJU2b5QzuSL39Yb`
 
