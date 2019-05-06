@@ -141,6 +141,8 @@ L'exemple le plus connus d'open source est [Linux](https://fr.wikipedia.org/wiki
 libre et gratuit qui est utilisés par la majorité des [serveurs](https://fr.wikipedia.org/wiki/Serveur_informatique)
 et [des téléphones](https://www.android.com) aujourd'hui.
 
+#### Interêts composés
+
 
 #### Collaboration mondiale
 
@@ -152,16 +154,20 @@ et [des téléphones](https://www.android.com) aujourd'hui.
 </div>
 
 
+#### Organisations distribuées
+
+
 #### Résilience
 
 Que se passerait-il si demain Google perdait tout intêret économique à faire des affaire et bloque son accès à l'Europe ?
-Que se passerait-il si demain Twitter fait faillite et doit stopper ses services ?
+Que se passerait-il si demain Twitter faisait faillite et devait stopper ses services ?
 
 La crise financière de 2008 nous a douloureusement rappelé que des entreprises que l'on croyait intouchables
 peuvent faire faillite. Or depuis [la situation économique modiale](https://fr.wikipedia.org/wiki/Dette_publique) ne s'est pas améliorée.
 
 
-#### Organisations distribuées
+L'open source permet aux projets de survivre non suelement à la faillite d'une entreprise mais aussi à une coupure d'internet ou encore
+à une guerre économique.
 
 
 ### Open Access
@@ -234,19 +240,15 @@ Bloom propose aujourd'hui les services suivants:
 * <a href="https://bloom.sh/bitflow" target="_blank" rel="noopener">Biflow</a>: un gestionnaire de téléchargements, qui permet de télécharger des fichiers directement dans votre *drive*
 * <a href="https://bloom.sh/platform/phaser" target="_blank" rel="noopener">Phaser</a>: Un scanner de sécurité automatique pour sites webs
 
-Tous ayant un tier gratuit sans contrepartie (pas de ciblage, pas de publicité...)
+Tous offrant un tier gratuit sans contrepartie (pas de ciblage, pas de publicité...)
 et dont le code est disponible librement sur [GitHub](https://github.com/bloom42).
 
 
 ### Contribuer / aider
 
-Je crois en un monde ou tout le monde peut contribuer, pas seulement des experts en informatique.
+Je crois en un monde ou tout le monde peut contribuer, pas seulement des experts en informatique. La mission de Bloom
+est de transformer le monde
 
- Bloom believes in a world where everyone can contribute. Our mission is to change all creative work
- from read-only to read-write. When everyone can contribute, users become contributors and we greatly
- increase the rate of human progress.
-
-We want to make it as easy as possible for Bloom users to become Bloom contributors
 
 #### Developpement
 
@@ -255,7 +257,17 @@ sur nos proejts sur notre site [opensource.bloom.sh](https://opensource.bloom.sh
 
 ##### Rust
 
-[Rust](https://www.rust-lang.org/) est le langage de programmation officiel de Bloom, pour une multitude de raison, dont
+[Rust](https://www.rust-lang.org/) est le langage de programmation officiel de Bloom, pour une multitude de raisons, les principales
+étant:
+
+* Une langage expressif et moderne
+* Un langage open-source et embrassant pleinement les valeurs de Bloom
+* Un langage permettant la fois des abstractions de haut niveau et des constructions de bas niveaux, sans coût de performance
+* Un langage portable qui peut aussi bien être utilisé pour des services web que pour des robots
+
+
+Il sera utilisé pour **tous** les projets de Bloom sauf obligation contraire
+(Typescript + Vue pour les applicaitons web, Kotlin pour les applciation Android, Swift pour les applications IOS...).
 
 
 #### Design
