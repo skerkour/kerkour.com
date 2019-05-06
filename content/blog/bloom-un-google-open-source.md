@@ -38,8 +38,8 @@ malgré nos différences et notre passé où nos ancêtre se sont parfois oppos�
 C'est tous ensemble que nous allons devoir réponse a la fois aux enjeux de court terme et ceux du long terme.
 
 
-Il n'y aura pas de gagnant, pas de vainqueur
-
+Il n'y aura pas de gagnant, pas de vainqueur et donc pas de perdants, la récompense étant simplement
+notre survie.
 
 
 ### La crise écologiques
@@ -67,12 +67,14 @@ a la fois lie aux nouvelles technologies de transport et au changement climatiqu
 
 A l'heure du numérique où la copie et la diffusion d'un document digital ne coûte virtuellement rien,
 les volontés de renforcer le droit de la propriété intellectuelle alors que des abherations effarantes sont deja en place
-(taxe a la copie privee, les derives des ayants droits et des strikes youtubes,
-[les derives des journaux scientifiques](https://www.youtube.com/watch?v=WnxqoP-c0ZE)...).
+([taxe pour copie privée](https://fr.wikipedia.org/wiki/R%C3%A9mun%C3%A9ration_pour_copie_priv%C3%A9e),
+les derives des ayants droits et des strikes youtubes,
+[les derives des journaux scientifiques](https://www.youtube.com/watch?v=WnxqoP-c0ZE),
+les [copyright trolls](https://en.wikipedia.org/wiki/Copyright_troll)...).
 et dont les externalites negaitves ne sont jamais, ne serait-ce que, mentionnees, sont "au mieux" de la cupidité
 si ce n'est criminel. Oui, bloquer des publications scientifiques derrière des abonnement hors de prix tue.
 
-Toute cette bureaucratie n'est bien sur pas la bienvenue alors que l'humanite fait face à des problemes majeurs.
+Toute cette bureaucratie n'est bien sur pas la bienvenue alors que l'humanite fait face à des problèmes majeurs.
 
 ### Open source
 
@@ -88,7 +90,7 @@ Les technologies de l'information, la robotique et l'intelligence artificielle
 
 
 
-#### Distributed organization
+#### Organisations distribuées
 
 
 ### Open Access
@@ -141,13 +143,12 @@ la manière dont nous produisons.
 
 Bloom est aujourd'hui composé des services suivants:
 
-* <a href="https://bloom.sh/drive" target="_blank" rel="noopener">Bloom Drive</a>
-* <a href="https://bloom.sh/platform/phaser" target="_blank" rel="noopener">Phaser</a>
-
-
-
-
-
+* <a href="https://bloom.sh/drive" target="_blank" rel="noopener">Bloom Drive</a>: un espace de stockage en ligne
+* <a href="https://bloom.sh/music" target="_blank" rel="noopener">Bloom Music</a>: un lecteur de musique en ligne lisant les musique directement depuis votre *drive*
+* <a href="https://bloom.sh/gallery" target="_blank" rel="noopener">Bloom Gallery</a>: une gallerie pour vos photos et vidéos
+* <a href="https://bloom.sh/contacts" target="_blank" rel="noopener">Bloom Contacts</a>: un gestionnaire de contacts
+* <a href="https://bloom.sh/notes" target="_blank" rel="noopener">Bloom Notes</a>: une application de prise de notes
+* <a href="https://bloom.sh/platform/phaser" target="_blank" rel="noopener">Phaser</a>: Un scanner de sécurité automatique pour sites webs.
 
 
 ### Contribuer / aider
@@ -189,6 +190,17 @@ En utilisant les crypto-monnaies:
 
 **XMR**: `4GdoN7NCTi8a5gZug7PrwZNKjvHFmKeV11L6pNJPgj5QNEHsN6eeX3DaAQFwZ1ufD4LYCZKArktt113W7QjWvQ7CW7fRk3auob6QWFSgYJ`
 
+
+
+### En résumé
+
+En résumé le master plan est:
+
+Créer des logiciels pour les entreprises<br />
+Avec cet argent créer des logiciels gratuits pour le bien commun<br />
+Avec cet argent et cette communauté créer l'infrastructure publique pour faire fonctionner ces logiciels
+
+Mais chuuut, c'est un secret 🤫
 
 -------
 
