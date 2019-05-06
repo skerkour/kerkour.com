@@ -171,8 +171,13 @@ la manière dont nous produisons.
 Un monde de cooperation plutôt que de competition. On ne peut juste pas continuer a tous concourir pour les mêmes
 resources finies, faisant fi des destructions et pollutions engendrées.
 
+C'est à nous de choisir aujourd'hui si nous voulons d'une monde d'esclavage permis par les nouvelles technologies,
+ou si nous voulons d'un monde où les technologies sont au service du bien de tous. Cet avenir n'est pas encore
+écrit.
+
 Bloom une organisation qui grâce à l'Open source/access/data, redistribuera gratuitement et librement
-sa produciton.
+sa produciton à large échelle en s'appuyant sur les nouvelles techonologies pour le faire à moindre
+coût, plutôt que des les utiliser pour privatiser et centraliser des richesses.
 
 Bloom propose aujourd'hui les services suivants:
 
@@ -183,7 +188,7 @@ Bloom propose aujourd'hui les services suivants:
 * <a href="https://bloom.sh/notes" target="_blank" rel="noopener">Bloom Notes</a>: une application de prise de notes
 * <a href="https://bloom.sh/platform/phaser" target="_blank" rel="noopener">Phaser</a>: Un scanner de sécurité automatique pour sites webs.
 
-Tous proposant un tier gratuit sans contrepartie (pas de ciblage, pas de publicité...)
+Tous ayant un tier gratuit sans contrepartie (pas de ciblage, pas de publicité...)
 et dont le code est disponible librement sur [GitHub](https://github.com/bloom42).
 
 
@@ -197,13 +202,19 @@ We want to make it as easy as possible for Bloom users to become Bloom contribut
 
 #### Developpement
 
+Vous pouvez contribuer librement au code sur [GitHub](https://github.com/bloom42), et avoir plus d'information
+sur nos proejts sur notre site [opensource.bloom.sh](https://opensource.bloom.sh).
+
 
 #### Design
+
+Pour contribuer au design de Bloom cela se passe sur le repo [github.com/bloom42/design](https://github.com/z0mbie42/design).
+
 
 #### Financièrement
 
 Si vous n'avez pas le temps ou les compétences pour contribuer, mais que notre projet vous semble prometteur
-vous pouvez toujours contribuer financièrement.
+vous pouvez contribuer financièrement.
 
 Cet argent sera utilisé pour payer les gens contribuant à un monde plus ouvert:
 
