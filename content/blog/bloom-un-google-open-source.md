@@ -52,6 +52,7 @@ le réchauffement climatique, l'extinction d'espèces animales...
 A-t-on besoin d'utiliser une voiture de 900kg pour faire 2h de trajet journalier pour finalement
 travailler toute la journée derrière un ordinateur ? La question est bien sur rhétorique, la reponse est non.
 
+
 ### La crise sociale
 
 - probleme de redistribution des richesses (crise sociale) qui est accelere par l'automatisation et
@@ -62,7 +63,6 @@ en cause notre rapport avec le travail.
 
 
 ### Le risque pandémique
-a la fois lie aux nouvelles technologies de transport et au changement climatique.
 
 Je ne vais pas m'étendre sur le sujet par manque de données, de connaissances et de capacité d'action,
 mais l'[épidémie du SRAS en 2002](https://fr.wikipedia.org/wiki/Syndrome_respiratoire_aigu_s%C3%A9v%C3%A8re_li%C3%A9_au_coronavirus),
@@ -71,6 +71,8 @@ laisse présager un futur turbulent.
 
 Le croisement des technologies de transport, du réchauffement climatique, de l'élevage intensif et de la distribution intensive
 d'antibiotiques fait peser un réel risque de maladie infectieuse face à laquelle nous serions impuissants.
+
+Les antibiotiques, c’est pas automatique !
 
 
 ## Open source, access, data ...
@@ -91,6 +93,7 @@ La niassance de l'open source / data / access... vient de personnes ne cherchant
 profits personnels, mais ont compris que mettre à disposition gratuitement et librement les fruits de leur travail
 ne bénéficiaient pas seulement à eux, mais a la société, l'humanité entière.
 
+
 ### Open source
 
 [Open source](https://fr.wikipedia.org/wiki/Open_source): La désignation open source, ou « code source ouvert », s'applique aux logiciels (et s'étend maintenant aux œuvres de l'esprit) dont la licence respecte des critères précisément établis par l'Open Source Initiative, c'est-à-dire les possibilités de libre redistribution, d'accès au code source et de création de travaux dérivés. Mis à la disposition du grand public, ce code source est généralement le résultat d'une collaboration entre programmeurs.
@@ -99,6 +102,8 @@ L'exemple le plus connus d'open source est [Linux](https://fr.wikipedia.org/wiki
 libre et gratuit qui est utilisés par la majorité des [serveurs](https://fr.wikipedia.org/wiki/Serveur_informatique)
 et [des téléphones](https://www.android.com) aujourd'hui.
 
+
+#### Collaboration mondiale
 
 <div class="center">
   <img src="/posts/bloom-announcement/unemployment-vs-biggest10.jpg" height="300"/>
@@ -119,12 +124,12 @@ et [des téléphones](https://www.android.com) aujourd'hui.
 ### Open data
 
 
-### Open governance
+<!-- ### Open governance
 
 rapelle des definitions
 
 
-parler de la collaboration mondiale..
+parler de la collaboration mondiale.. -->
 
 
 
@@ -154,13 +159,12 @@ Sans transparence le *lobbying* ne doit être considéré que comme de la corrup
 il n'y a pas de vie publique. Sans transparence, il n'y a pas de société.
 
 
-
 ## Bloom: le master plan top secret
 
 Bloom se veut l'amorce d'un changement de paradigme dans la maniere dont nous consommons mais surtout dans
 la manière dont nous produisons.
 
-Vous l'avez compris, tout ce que créera Bloom sera Open source/access/data...
+C'est une organisation ayant pour but Open source/access/data...
 
 Bloom est aujourd'hui composé des services suivants:
 
@@ -174,7 +178,7 @@ Bloom est aujourd'hui composé des services suivants:
 
 ### Contribuer / aider
 
-Je crois en un monde ou tout le monde peut contribuer. La mission de Bloom est d'améliorer
+Je crois en un monde ou tout le monde peut contribuer, pas seulement des experts en informatique.
 
  Bloom believes in a world where everyone can contribute. Our mission is to change all creative work from read-only to read-write. When everyone can contribute, users become contributors and we greatly increase the rate of human progress.
 
@@ -187,7 +191,10 @@ We want to make it as easy as possible for Bloom users to become Bloom contribut
 
 #### Financièrement
 
-Si vous n'avez pas le temps ou les compétences pour contribuer, vous pouvez toujours faire des donnations:
+Si vous n'avez pas le temps ou les compétences pour contribuer, mais que notre projet vous semble prometteur
+vous pouvez toujours contribuer financièrement.
+
+Cet argent sera utilisé pour payer les gens contribuant à un monde plus ouvert:
 
 En devenant un *patron*:
 
