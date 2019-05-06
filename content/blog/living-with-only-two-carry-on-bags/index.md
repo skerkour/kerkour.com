@@ -1,6 +1,9 @@
 +++
 date = 2018-09-11T01:42:42+02:00
 title = "Living with only two carry-on bags"
+
+[extra]
+lang = "en"
 +++
 
 During the fall of 2017 I leaved Paris, France to start a company (Phaser, which is now [Bloom](https://bloom.sh)) from

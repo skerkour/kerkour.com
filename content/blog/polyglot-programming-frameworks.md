@@ -2,6 +2,9 @@
 date = 2018-09-25T01:42:42+02:00
 title = "Polyglot programming frameworks"
 tags = ["programming", "logging", "go", "golang", "javascript", "js"]
+
+[extra]
+lang = "en"
 +++
 
 1. [Polyglot systems](#polyglot-systems)

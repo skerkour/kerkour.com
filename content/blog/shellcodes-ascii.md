@@ -2,6 +2,8 @@
 date = 2013-12-29T12:42:42+02:00
 title = "Shellcodes ASCII"
 
+[extra]
+lang = "fr"
 +++
 
 1. [Introduction](#introduction)

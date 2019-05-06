@@ -2,6 +2,9 @@
 date = 2018-07-25T01:42:42+02:00
 title = "Logging"
 tags = ["go", "golang", "logging"]
+
+[extra]
+lang = "en"
 +++
 
 1. [Structured logging](#structured-logging)

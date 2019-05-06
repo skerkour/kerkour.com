@@ -1,14 +1,16 @@
 +++
 date = 2019-03-01T12:42:42+02:00
 draft = true
-title = "Bloom: un Google Open Source (en Rust)"
-tags = ["rust", "rust-lang", "rustlang", "opensource", "google", "free software"]
-lang = "fr"
+title = "Bloom: un Google Open Source"
+tags = ["rust", "rustlang", "opensource", "google", "free software"]
 
 [extra]
+lang = "fr"
 +++
 
 *Il ne faut pas compter sur ceux qui ont crée les problèmes pour les résoudre.*
+
+🇬🇧 [English version here](/blog/bloom-an-open-source-google)
 
 1. [Des enjeux universels et inédits](#des-enjeux-universels-et-inedits)
 2. [Open source, access, data ...](#open-source-access-data)
@@ -19,9 +21,9 @@ lang = "fr"
 ## TL;DR
 
 Pour amorcer une réponse aux enjeux inédits de notre siècle j'ai créé une alternative gratuite,
-libre et open source à Google (et sans publicités / ciblage).
+libre et open source à Google (et sans publicités / ciblage): Bloom.
 C'est par [ici pour la version en ligne](https://bloom.sh), par [ici pour le code](https://github.com/bloom42)
-et par [ici pour aider / contribuer](#contribuer-aider). Ce n'est que le début de l'aventure 🚀
+et par [ici pour aider / contribuer](#contribuer-aider). C'est le début d'une grande aventure 🚀
 
 
 ## Des enjeux universels et inédits
@@ -49,10 +51,11 @@ a la fois lie aux nouvelles technologies de transport et au changement climatiqu
 ## Open source, access, data ...
 
 A l'heure du digitale où la copie et la diffusion d'un document numerique ne coute virtuellement rien,
-les volontés de renforcer le droit de la propriété intellectuelle alors que des abherations effarantes ont deja lieux tous les jours
+les volontés de renforcer le droit de la propriété intellectuelle alors que des abherations effarantes sont deja en place
 (taxe a la copie privee, les derives des ayants droits et des strikes youtubes,
 (les derives des journaux scientifiques)[https://www.youtube.com/watch?v=WnxqoP-c0ZE]...).
-et dont les externalites negaitves ne sont jamais, ne serait-ce que, mentionnees.
+et dont les externalites negaitves ne sont jamais, ne serait-ce que, mentionnees sont "au mieux" de la cupidité
+
 
 Toute cette bureaucratie n'est bien sur pas la bienvenue alors que l'humanite fait face à des problemes majeurs.
 

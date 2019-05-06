@@ -35,7 +35,14 @@
           {% set posts = get_section(path="blog/_index.md") %}
           {% for page in posts.pages %}
             {% if page.date and not page.draft %}
-              <li><span class='post-meta'>{{ page.date | date(format="%Y-%m-%d") }}</span><a href='{{ page.permalink }}'>{{ page.title }}</a></li>
+              <li>
+                <span class='post-meta'>{{ page.date | date(format="%Y-%m-%d") }}</span><a href='{{ page.permalink }}'>{{ page.title }}</a>
+                <!-- {% if page.extra.lang == "fr" %}
+                🇫🇷
+                {% elif page.extra.lang == "en" %}
+                🇬🇧
+                {% endif %} -->
+              </li>
             {% endif %}
           {% endfor %}
         </ul>
