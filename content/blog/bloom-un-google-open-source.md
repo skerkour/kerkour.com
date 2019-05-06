@@ -14,7 +14,7 @@ lang = "fr"
 
 1. [Des enjeux universels et inédits](#des-enjeux-universels-et-inedits)
 2. [Open source, access, data ...](#open-source-access-data)
-3. [Bloom: le master plan top secret](#bloom)
+3. [Bloom: le master plan top secret](#bloom-le-master-plan-top-secret)
 
 -------
 
@@ -54,12 +54,20 @@ A l'heure du digitale où la copie et la diffusion d'un document numerique ne co
 les volontés de renforcer le droit de la propriété intellectuelle alors que des abherations effarantes sont deja en place
 (taxe a la copie privee, les derives des ayants droits et des strikes youtubes,
 (les derives des journaux scientifiques)[https://www.youtube.com/watch?v=WnxqoP-c0ZE]...).
-et dont les externalites negaitves ne sont jamais, ne serait-ce que, mentionnees sont "au mieux" de la cupidité
-
+et dont les externalites negaitves ne sont jamais, ne serait-ce que, mentionnees, sont "au mieux" de la cupidité
+si ce n'est criminel (oui, bloquer des publications scientifiques derriere des abonnement hors de prix tue).
 
 Toute cette bureaucratie n'est bien sur pas la bienvenue alors que l'humanite fait face à des problemes majeurs.
 
 ### Open source
+
+
+<div class="center">
+  <img src="/posts/bloom-announcement/unemployment-vs-biggest10.jpg" height="300"/>
+
+  Une des 10 plus grosses entreprises mondiale VS chômage mondial.
+  Données: <a href="https://donnees.banquemondiale.org/indicateur/SL.UEM.TOTL.ZS?end=2018&start=1991&view=chart" target="_blank" rel="noopener">Banque mondiale</a>
+</div>
 
 
 ### Open Access
@@ -75,25 +83,47 @@ rapelle des definitions
 
 
 parler de la collaboration mondiale..
-de la transparence
 
-
-
-<div class="center">
-  <img src="/posts/bloom-announcement/unemployment-vs-biggest10.jpg" height="300"/>
-
-  Une des 10 plus grosses entreprises mondiale VS chômage mondial.
-  Données: <a href="https://donnees.banquemondiale.org/indicateur/SL.UEM.TOTL.ZS?end=2018&start=1991&view=chart" target="_blank" rel="noopener">Banque mondiale</a>
-</div>
 
 
 ### Transparence: vertueuse mais surtout nécessaire
 
+Toutes ces mouvances d'ouverture mettent apportent de fait de la transparence. L'information devient accessible.
+N'importe qui, sans distinction aucune peut s'en saisir et l'enrichir.
+
+Mais cette transparence vertueuse est surtout nécessaire, car si les vraies informations se propagent
+à la vitesse de la lumière, les fausse aussi. Aujourd'hui mises en avant car elles menacent la stabilité
+des sociétés modernes il existe 2 grandes directions pour restreindre leurs effets:
+
+* La censure
+* La transparence
+
+La censure signifiant le retour à l'époque de la télévision où une minorité pouvait communiquer vers les masses,
+mais pas les masses entres elles.
+
+La transparence quant à elle n'est pas suffisante pour mettre fin aux fausses informations, mais
+elle permet au moins d'apporter des faits contradictoires et prouvables.
 
 
-## Bloom
 
-Bloom se veut l'amorce d'un changement de paradigme (dnas la maniere dont nous consommons)
+Un autre bienfait de la transparence est la prise de responsabilité. Une des raisons au manque d'action est la
+dissolution des responsabilités.
+
+La première étape de la transparence est de rendre les données publiques. La seconde est de les rendre facile
+d'accès, facile à chercher, facile à réutiliser.
+
+Pour moi, sans transparence les *lobbies* ne doivent être considérés que comme de la corruption.
+
+
+## Bloom: le master plan top secret
+
+Bloom se veut l'amorce d'un changement de paradigme dans la maniere dont nous consommons mais surtout dans
+la manière dont nous produisons.
+
+Bloom est aujourd'hui composé des services suivants:
+
+* <a href="https://bloom.sh/drive" target="_blank" rel="noopener">Bloom Drive</a>
+* <a href="https://bloom.sh/platform/phaser" target="_blank" rel="noopener">Phaser</a>
 
 
 
