@@ -75,15 +75,23 @@ A-t-on besoin d'un restaurant par personne dans chaque ville ? A-ton besoin de d
 un robot pouvant faire le travail de 100 agriculteurs ? NON !
 
 
-
 Le chômage est donc voué à auguementer. Or cela va mettre à mal toute organisation de la société. (Au moins en France)
 Par exemple notre système des retraites, en prenant en compte notre population vieillissante, comment allons nous
 faire qunad le nombre *d'inactifs* sera supérieur au nombre *d'actifs* ? (il va falloir trouver une solution
 rapidement car c'est pour bientôt).
 
-Les personnes qui mettent en valeur la création d'emplois sont dangereuses. On n'a besoin d'emplois de "création d'emplois"
-que pour maintenir en vie un système malade.
+<!-- Les personnes qui mettent en valeur la création d'emplois sont dangereuses. On n'a besoin de "création d'emplois"
+que pour maintenir en vie un système malade. -->
 
+<div class="center">
+  <img src="/posts/bloom-announcement/wealth_dsitribution.png" height="500"/>
+
+  Distribution des richesses. World economic forum.
+</div>
+
+
+
+Mais alors que notre
 
 
 - probleme de redistribution des richesses (crise sociale) qui est accelere par l'automatisation et
@@ -100,7 +108,7 @@ de [grippe A (H1N1) en 2009](https://fr.wikipedia.org/wiki/Grippe_A_(H1N1)_de_20
 laisse présager un futur turbulent.
 
 Le croisement des technologies de transport, du réchauffement climatique, de l'élevage intensif et de la distribution intensive
-d'antibiotiques uassi bien pour notre bétail que pour nous même fait peser un risque réel de maladie infectieuse face à laquelle nous serions impuissants.
+d'antibiotiques aussi bien pour notre bétail que pour nous même fait peser un risque réel de maladie infectieuse face à laquelle nous serions impuissants.
 
 **Les antibiotiques, c’est pas automatique !**
 
@@ -150,7 +158,7 @@ Que se passerait-il si demain Google perdait tout intêret économique à faire 
 Que se passerait-il si demain Twitter fait faillite et doit stopper ses services ?
 
 La crise financière de 2008 nous a douloureusement rappelé que des entreprises que l'on croyait intouchables
-peuvent faire faillite.
+peuvent faire faillite. Or depuis [la situation économique modiale](https://fr.wikipedia.org/wiki/Dette_publique) ne s'est pas améliorée.
 
 
 #### Organisations distribuées
