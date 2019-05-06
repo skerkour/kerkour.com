@@ -57,12 +57,39 @@ travailler toute la journée derrière un ordinateur ? La question est bien sur 
 ### La crise sociale
 
 
+Une question m'obsède: Comment se fait-il que nous devions travailler autant pour avoir accès
+à un niveau de vie convenable, quand on voit toutes les richesses produites dans le monde ?
+
+Pourquoi ne travaillons nous simplement pas 1 mois par an ?
+
+Le mot clé est bien sur ici le mot travail. Les technologies de l'information, la robotique et
+l'intelligence artificielle remettent jour après jour en cause notre définition du travail.
+
+Avec l'impôts il est aujourd'hui notre seule méthode de redistribution des richesse. Mais quoi que les marchands de tapis essaient de vous vendre,
+la technologie fait qu'on a de moins en moins d'humains pour répondre à nos besoins. Et c'est une bonne chose.
+À condition de ne pas voir un emploi comme un élément de réussite personnelle. De ne pas voir le chômage comme
+une variable qui doit tendre vers 0. Alors que les emplois se déplacent de plus en plus du secteur primaire
+vers le secteur tertiaire, le secteur tertiaire ne propose pas d'autant d'occupation que les nombre de personnes arrivantes.
+
+A-t-on besoin d'un restaurant par personne dans chaque ville ? A-ton besoin de de 100 ingénieurs pour concevoir
+un robot pouvant faire le travail de 100 agriculteurs ? NON !
+
+
+
+Le chômage est donc voué à auguementer. Or cela va mettre à mal toute organisation de la société. (Au moins en France)
+Par exemple notre système des retraites, en prenant en compte notre population vieillissante, comment allons nous
+faire qunad le nombre *d'inactifs* sera supérieur au nombre *d'actifs* ? (il va falloir trouver une solution
+rapidement car c'est pour bientôt).
+
+Les personnes qui mettent en valeur la création d'emplois sont dangereuses. On n'a besoin d'emplois de "création d'emplois"
+que pour maintenir en vie un système malade.
+
+
 
 - probleme de redistribution des richesses (crise sociale) qui est accelere par l'automatisation et
 les effets d'echelles des nouvelles technologies
 
-Les technologies de l'information, la robotique et l'intelligence artificielle remettent jour après jour
-en cause notre rapport avec le travail.
+
 
 
 ### Le risque pandémique
@@ -73,17 +100,18 @@ de [grippe A (H1N1) en 2009](https://fr.wikipedia.org/wiki/Grippe_A_(H1N1)_de_20
 laisse présager un futur turbulent.
 
 Le croisement des technologies de transport, du réchauffement climatique, de l'élevage intensif et de la distribution intensive
-d'antibiotiques fait peser un réel risque de maladie infectieuse face à laquelle nous serions impuissants.
+d'antibiotiques uassi bien pour notre bétail que pour nous même fait peser un risque réel de maladie infectieuse face à laquelle nous serions impuissants.
 
-Les antibiotiques, c’est pas automatique !
+**Les antibiotiques, c’est pas automatique !**
 
 
 ## Open source, access, data ...
 
 A l'heure du numérique où la copie et la diffusion d'un document digital ne coûte virtuellement rien,
-les volontés de renforcer le droit de la propriété intellectuelle alors que des abherations effarantes sont deja en place
+les volontés de renforcer le droit de la propriété intellectuelle alors que des
+aberration effarantes sont deja en place
 ([taxe pour copie privée](https://fr.wikipedia.org/wiki/R%C3%A9mun%C3%A9ration_pour_copie_priv%C3%A9e),
-les derives des ayants droits et des strikes youtubes,
+les derives des ayants droits sur youtubes,
 [les derives des journaux scientifiques](https://www.youtube.com/watch?v=WnxqoP-c0ZE),
 les [copyright trolls](https://en.wikipedia.org/wiki/Copyright_troll)...).
 et dont les externalites negaitves ne sont jamais, ne serait-ce que, mentionnees, sont "au mieux" de la cupidité
@@ -117,6 +145,12 @@ et [des téléphones](https://www.android.com) aujourd'hui.
 
 
 #### Résilience
+
+Que se passerait-il si demain Google perdait tout intêret économique à faire des affaire et bloque son accès à l'Europe ?
+Que se passerait-il si demain Twitter fait faillite et doit stopper ses services ?
+
+La crise financière de 2008 nous a douloureusement rappelé que des entreprises que l'on croyait intouchables
+peuvent faire faillite.
 
 
 #### Organisations distribuées
@@ -179,6 +213,9 @@ Bloom une organisation qui grâce à l'Open source/access/data, redistribuera gr
 sa produciton à large échelle en s'appuyant sur les nouvelles techonologies pour le faire à moindre
 coût, plutôt que des les utiliser pour privatiser et centraliser des richesses.
 
+Bloom reprend les codes et méthodes de *Startuplaland* ainsi que leurs inclinaison vers l'éxecution
+plutôt que pour la bureaucratie et les discussions sans fin pour lesquelles nous n'avons plus le temps.
+
 Bloom propose aujourd'hui les services suivants:
 
 * <a href="https://bloom.sh/drive" target="_blank" rel="noopener">Bloom Drive</a>: un espace de stockage en ligne
@@ -186,7 +223,8 @@ Bloom propose aujourd'hui les services suivants:
 * <a href="https://bloom.sh/gallery" target="_blank" rel="noopener">Bloom Gallery</a>: une gallerie pour vos photos et vidéos
 * <a href="https://bloom.sh/contacts" target="_blank" rel="noopener">Bloom Contacts</a>: un gestionnaire de contacts
 * <a href="https://bloom.sh/notes" target="_blank" rel="noopener">Bloom Notes</a>: une application de prise de notes
-* <a href="https://bloom.sh/platform/phaser" target="_blank" rel="noopener">Phaser</a>: Un scanner de sécurité automatique pour sites webs.
+* <a href="https://bloom.sh/bitflow" target="_blank" rel="noopener">Biflow</a>: un gestionnaire de téléchargements, qui permet de télécharger des fichiers directement dans votre *drive*
+* <a href="https://bloom.sh/platform/phaser" target="_blank" rel="noopener">Phaser</a>: Un scanner de sécurité automatique pour sites webs
 
 Tous ayant un tier gratuit sans contrepartie (pas de ciblage, pas de publicité...)
 et dont le code est disponible librement sur [GitHub](https://github.com/bloom42).
@@ -196,7 +234,9 @@ et dont le code est disponible librement sur [GitHub](https://github.com/bloom42
 
 Je crois en un monde ou tout le monde peut contribuer, pas seulement des experts en informatique.
 
- Bloom believes in a world where everyone can contribute. Our mission is to change all creative work from read-only to read-write. When everyone can contribute, users become contributors and we greatly increase the rate of human progress.
+ Bloom believes in a world where everyone can contribute. Our mission is to change all creative work
+ from read-only to read-write. When everyone can contribute, users become contributors and we greatly
+ increase the rate of human progress.
 
 We want to make it as easy as possible for Bloom users to become Bloom contributors
 
@@ -204,6 +244,10 @@ We want to make it as easy as possible for Bloom users to become Bloom contribut
 
 Vous pouvez contribuer librement au code sur [GitHub](https://github.com/bloom42), et avoir plus d'information
 sur nos proejts sur notre site [opensource.bloom.sh](https://opensource.bloom.sh).
+
+##### Rust
+
+[Rust](https://www.rust-lang.org/) est le langage de programmation officiel de Bloom, pour une multitude de raison, dont
 
 
 #### Design
