@@ -55,6 +55,8 @@ travailler toute la journée derrière un ordinateur ? La question est bien sur 
 
 ### La crise sociale
 
+
+
 - probleme de redistribution des richesses (crise sociale) qui est accelere par l'automatisation et
 les effets d'echelles des nouvelles technologies
 
@@ -164,9 +166,13 @@ il n'y a pas de vie publique. Sans transparence, il n'y a pas de société.
 Bloom se veut l'amorce d'un changement de paradigme dans la maniere dont nous consommons mais surtout dans
 la manière dont nous produisons.
 
-C'est une organisation ayant pour but Open source/access/data...
+Un monde de cooperation plutôt que de competition. On ne peut juste pas continuer a tous concourir pour les mêmes
+resources finies, faisant fi des destructions et pollutions engendrées.
 
-Bloom est aujourd'hui composé des services suivants:
+Bloom une organisation qui grâce à l'Open source/access/data, redistribuera gratuitement et librement
+sa produciton.
+
+Bloom propose aujourd'hui les services suivants:
 
 * <a href="https://bloom.sh/drive" target="_blank" rel="noopener">Bloom Drive</a>: un espace de stockage en ligne
 * <a href="https://bloom.sh/music" target="_blank" rel="noopener">Bloom Music</a>: un lecteur de musique en ligne lisant les musique directement depuis votre *drive*
@@ -174,6 +180,9 @@ Bloom est aujourd'hui composé des services suivants:
 * <a href="https://bloom.sh/contacts" target="_blank" rel="noopener">Bloom Contacts</a>: un gestionnaire de contacts
 * <a href="https://bloom.sh/notes" target="_blank" rel="noopener">Bloom Notes</a>: une application de prise de notes
 * <a href="https://bloom.sh/platform/phaser" target="_blank" rel="noopener">Phaser</a>: Un scanner de sécurité automatique pour sites webs.
+
+Tous proposant un tier gratuit sans contrepartie (pas de ciblage, pas de publicité...)
+et dont le code est disponible librement sur [GitHub](https://github.com/bloom42).
 
 
 ### Contribuer / aider
