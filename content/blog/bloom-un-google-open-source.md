@@ -49,18 +49,28 @@ problemes d'accès à de l'eau potable,
 le réchauffement climatique, l'extinction d'espèces animales...
 
 
-à-t-on besoin d'utiliser une voiture de 900kg pour faire 2h de trajet journalier pour finalement travailler toute la journee
-derriere un ordinateur ? La question est bien sure rethorique, la reponse est non.
+A-t-on besoin d'utiliser une voiture de 900kg pour faire 2h de trajet journalier pour finalement
+travailler toute la journée derrière un ordinateur ? La question est bien sur rhétorique, la reponse est non.
 
 ### La crise sociale
 
 - probleme de redistribution des richesses (crise sociale) qui est accelere par l'automatisation et
 les effets d'echelles des nouvelles technologies
 
+Les technologies de l'information, la robotique et l'intelligence artificielle remettent jour après jour
+en cause notre rapport avec le travail.
+
 
 ### Le risque pandémique
 a la fois lie aux nouvelles technologies de transport et au changement climatique.
 
+Je ne vais pas m'étendre sur le sujet par manque de données, de connaissances et de capacité d'action,
+mais l'[épidémie du SRAS en 2002](https://fr.wikipedia.org/wiki/Syndrome_respiratoire_aigu_s%C3%A9v%C3%A8re_li%C3%A9_au_coronavirus),
+de [grippe A (H1N1) en 2009](https://fr.wikipedia.org/wiki/Grippe_A_(H1N1)_de_2009)
+laisse présager un futur turbulent.
+
+Le croisement des technologies de transport, du réchauffement climatique, de l'élevage intensif et de la distribution intensive
+d'antibiotiques fait peser un réel risque de maladie infectieuse face à laquelle nous serions impuissants.
 
 
 ## Open source, access, data ...
@@ -76,10 +86,19 @@ si ce n'est criminel. Oui, bloquer des publications scientifiques derrière des 
 
 Toute cette bureaucratie n'est bien sur pas la bienvenue alors que l'humanite fait face à des problèmes majeurs.
 
+
+La niassance de l'open source / data / access... vient de personnes ne cherchant pas a maximiser leurs
+profits personnels, mais ont compris que mettre à disposition gratuitement et librement les fruits de leur travail
+ne bénéficiaient pas seulement à eux, mais a la société, l'humanité entière.
+
 ### Open source
 
+[Open source](https://fr.wikipedia.org/wiki/Open_source): La désignation open source, ou « code source ouvert », s'applique aux logiciels (et s'étend maintenant aux œuvres de l'esprit) dont la licence respecte des critères précisément établis par l'Open Source Initiative, c'est-à-dire les possibilités de libre redistribution, d'accès au code source et de création de travaux dérivés. Mis à la disposition du grand public, ce code source est généralement le résultat d'une collaboration entre programmeurs.
 
-Les technologies de l'information, la robotique et l'intelligence artificielle
+L'exemple le plus connus d'open source est [Linux](https://fr.wikipedia.org/wiki/Linux), un système d'exploitation
+libre et gratuit qui est utilisés par la majorité des [serveurs](https://fr.wikipedia.org/wiki/Serveur_informatique)
+et [des téléphones](https://www.android.com) aujourd'hui.
+
 
 <div class="center">
   <img src="/posts/bloom-announcement/unemployment-vs-biggest10.jpg" height="300"/>
@@ -141,6 +160,8 @@ il n'y a pas de vie publique. Sans transparence, il n'y a pas de société.
 Bloom se veut l'amorce d'un changement de paradigme dans la maniere dont nous consommons mais surtout dans
 la manière dont nous produisons.
 
+Vous l'avez compris, tout ce que créera Bloom sera Open source/access/data...
+
 Bloom est aujourd'hui composé des services suivants:
 
 * <a href="https://bloom.sh/drive" target="_blank" rel="noopener">Bloom Drive</a>: un espace de stockage en ligne
@@ -196,9 +217,10 @@ En utilisant les crypto-monnaies:
 
 En résumé le master plan est:
 
-Créer des logiciels pour les entreprises<br />
-Avec cet argent créer des logiciels gratuits pour le bien commun<br />
-Avec cet argent et cette communauté créer l'infrastructure publique pour faire fonctionner ces logiciels
+1. Créer des logiciels payants<br />
+2. Avec cet argent créer des logiciels gratuits et libres, libérer la donnée et l'accès a la connaissance scientifique pour le bien commun<br />
+3. Avec cet argent et cette communauté créer l'infrastructure publique pour faire fonctionner ces logiciels et héberger ces données publiques
+
 
 Mais chuuut, c'est un secret 🤫
 
