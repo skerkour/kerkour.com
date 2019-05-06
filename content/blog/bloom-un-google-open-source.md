@@ -23,24 +23,39 @@ lang = "fr"
 Pour amorcer une réponse aux enjeux inédits de notre siècle j'ai créé une alternative gratuite,
 libre et open source à Google (et sans publicités / ciblage): Bloom.
 C'est par [ici pour la version en ligne](https://bloom.sh), par [ici pour le code](https://github.com/bloom42)
-et par [ici pour aider / contribuer](#contribuer-aider). C'est le début d'une grande aventure 🚀
+et par [ici pour aider / contribuer](#contribuer-aider). Ce n'est que le début d'une grande aventure 🚀
 
 
 ## Des enjeux universels et inédits
 
-identification du mal
-identification des enjeux
-- pollution / ecologie / surconsommation (crise ecologique)
-- probleme de redistribution des richesses (crise sociale) qui est accelere par l'automatisation et
-les effets d'echelles des nouvelles technologies
+Voici une nouvelle qui n'en n'est pas une: le début du XXIème siècle est un tournant décisif dans
+l'histoire de l'humanité. Si aujourd'hui la culture n'a plus de frontière (evenement sportifs, art, )
+les problemes non plus. Les enjeux auxquels fait face l'humanité aujourd'hui dépassent les Pays, les continents
+et menancent l'humanité entière.
 
-combiner le court terme et le long terme. Actuellement on favorise le court terme alors que nous sommes au pied du mur.
+C'est donc tous ensemble que nous allons devoir nous unir,
+malgré nos différences et notre passé où nos ancêtre se sont parfois opposés.
+C'est tous ensemble que nous allons devoir réponse a la fois aux enjeux de court terme et ceux du long terme.
+
+
+Il n'y aura pas de gagnant, pas de vainqueur
+
 
 
 ### La crise écologiques
 
+La crise écologique étant la plus importante car elle englobe beaucoup de facteurs, que ce soit les
+problemes d'accès à de l'eau potable,
+le réchauffement climatique, l'extinction d'espèces animales...
+
+
+à-t-on besoin d'utiliser une voiture de 900kg pour faire 2h de trajet journalier pour finalement travailler toute la journee
+derriere un ordinateur ? La question est bien sure rethorique, la reponse est non.
 
 ### La crise sociale
+
+- probleme de redistribution des richesses (crise sociale) qui est accelere par l'automatisation et
+les effets d'echelles des nouvelles technologies
 
 
 ### Le risque pandémique
@@ -50,17 +65,19 @@ a la fois lie aux nouvelles technologies de transport et au changement climatiqu
 
 ## Open source, access, data ...
 
-A l'heure du digitale où la copie et la diffusion d'un document numerique ne coute virtuellement rien,
+A l'heure du numérique où la copie et la diffusion d'un document digital ne coûte virtuellement rien,
 les volontés de renforcer le droit de la propriété intellectuelle alors que des abherations effarantes sont deja en place
 (taxe a la copie privee, les derives des ayants droits et des strikes youtubes,
-(les derives des journaux scientifiques)[https://www.youtube.com/watch?v=WnxqoP-c0ZE]...).
+[les derives des journaux scientifiques](https://www.youtube.com/watch?v=WnxqoP-c0ZE)...).
 et dont les externalites negaitves ne sont jamais, ne serait-ce que, mentionnees, sont "au mieux" de la cupidité
-si ce n'est criminel (oui, bloquer des publications scientifiques derriere des abonnement hors de prix tue).
+si ce n'est criminel. Oui, bloquer des publications scientifiques derrière des abonnement hors de prix tue.
 
 Toute cette bureaucratie n'est bien sur pas la bienvenue alors que l'humanite fait face à des problemes majeurs.
 
 ### Open source
 
+
+Les technologies de l'information, la robotique et l'intelligence artificielle
 
 <div class="center">
   <img src="/posts/bloom-announcement/unemployment-vs-biggest10.jpg" height="300"/>
@@ -68,6 +85,10 @@ Toute cette bureaucratie n'est bien sur pas la bienvenue alors que l'humanite fa
   Une des 10 plus grosses entreprises mondiale VS chômage mondial.
   Données: <a href="https://donnees.banquemondiale.org/indicateur/SL.UEM.TOTL.ZS?end=2018&start=1991&view=chart" target="_blank" rel="noopener">Banque mondiale</a>
 </div>
+
+
+
+#### Distributed organization
 
 
 ### Open Access
@@ -92,27 +113,25 @@ Toutes ces mouvances d'ouverture mettent apportent de fait de la transparence. L
 N'importe qui, sans distinction aucune peut s'en saisir et l'enrichir.
 
 Mais cette transparence vertueuse est surtout nécessaire, car si les vraies informations se propagent
-à la vitesse de la lumière, les fausse aussi. Aujourd'hui mises en avant car elles menacent la stabilité
+à la vitesse de la lumière, les fausse aussi (*fake news*). Aujourd'hui mises en avant car elles menacent la stabilité
 des sociétés modernes il existe 2 grandes directions pour restreindre leurs effets:
 
 * La censure
 * La transparence
 
-La censure signifiant le retour à l'époque de la télévision où une minorité pouvait communiquer vers les masses,
-mais pas les masses entres elles.
+La censure signifiant le retour à l'époque de la télévision où la communication se faisait à sens unique,
+d'une minorité vers les masses.
 
-La transparence quant à elle n'est pas suffisante pour mettre fin aux fausses informations, mais
+La transparence quant à elle n'est pas suffisante seule pour mettre fin aux fausses informations, mais
 elle permet au moins d'apporter des faits contradictoires et prouvables.
 
-
-
-Un autre bienfait de la transparence est la prise de responsabilité. Une des raisons au manque d'action est la
-dissolution des responsabilités.
 
 La première étape de la transparence est de rendre les données publiques. La seconde est de les rendre facile
 d'accès, facile à chercher, facile à réutiliser.
 
-Pour moi, sans transparence les *lobbies* ne doivent être considérés que comme de la corruption.
+Sans transparence le *lobbying* ne doit être considéré que comme de la corruption. Sans transparence,
+il n'y a pas de vie publique. Sans transparence, il n'y a pas de société.
+
 
 
 ## Bloom: le master plan top secret
@@ -124,6 +143,9 @@ Bloom est aujourd'hui composé des services suivants:
 
 * <a href="https://bloom.sh/drive" target="_blank" rel="noopener">Bloom Drive</a>
 * <a href="https://bloom.sh/platform/phaser" target="_blank" rel="noopener">Phaser</a>
+
+
+
 
 
 
