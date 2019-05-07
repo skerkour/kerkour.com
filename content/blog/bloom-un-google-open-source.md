@@ -277,11 +277,11 @@ ou si nous voulons d'un monde où les technologies sont au service du bien de to
 
 Bloom est une organisation qui grâce à l'Open source/access/data, redistribue gratuitement et librement
 sa production à large échelle en s'appuyant sur les nouvelles technologies pour le faire à moindre
-coût, plutôt que des les utiliser pour privatiser ou comme outil impérialiste.
+coût, plutôt que des les utiliser comme outil impérialiste.
 
 Bloom reprend les codes et méthodes de *Startuplaland*: l'**inclinaison vers l'éxecution
 plutôt que pour la bureaucratie et les discussions sans fin pour lesquelles nous n'avons plus le temps**. Avec
-pour objectif une meilleure qualité de vie universelle et non l'enrichissement privé.
+pour objectif une meilleure qualité de vie universelle.
 
 Bloom propose aujourd'hui les services suivants:
 
