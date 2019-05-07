@@ -90,7 +90,9 @@ que pour maintenir en vie un système malade. -->
 </div>
 
 
-Mais alors que notre
+Le printemps arabe, les gilets jaunes, les populations dont la qualité de vie ne bénéficie pas des richesses qu'elles
+produisent remettent en cause le [contrat social](https://fr.wikipedia.org/wiki/Du_contrat_social).
+Pourquoi rester dans un système qui
 
 
 ### Le risque pandémique
@@ -130,7 +132,7 @@ ne bénéficie pas seulement à eux, mais aussi à la société, à l'humanité 
 
 [Open source](https://fr.wikipedia.org/wiki/Open_source): *La désignation open source, ou « code source ouvert », s'applique aux logiciels (et s'étend maintenant aux œuvres de l'esprit) dont la licence respecte des critères précisément établis par l'Open Source Initiative, c'est-à-dire les possibilités de libre redistribution, d'accès au code source et de création de travaux dérivés. Mis à la disposition du grand public, ce code source est généralement le résultat d'une collaboration entre programmeurs.*
 
-L'exemple le plus connus d'open source est [Linux](https://fr.wikipedia.org/wiki/Linux), un système d'exploitation
+L'exemple le plus connu d'open source est [Linux](https://fr.wikipedia.org/wiki/Linux), un système d'exploitation
 libre et gratuit qui est utilisés par la majorité des [serveurs](https://fr.wikipedia.org/wiki/Serveur_informatique)
 et [des téléphones](https://www.android.com) aujourd'hui.
 
@@ -171,6 +173,13 @@ une collaboration globale. Les utilisateurs peuvent contribuer, participer à la
   Données: <a href="https://donnees.banquemondiale.org/indicateur/SL.UEM.TOTL.ZS?end=2018&start=1991&view=chart" target="_blank" rel="noopener">Banque mondiale</a>
 </div>
 
+
+Entrer dans un modèle de collaboration plutôt que de compétition est la seule solution pour limiter
+notre surconsommation des resources, notre surexploitation de notre environnement, et surtout de notre
+propre empoisonnement.
+
+Le mot collaboratif est souvent associé aux associations et petit groupes s'occupant de potagers, mais
+l'esprit commun qui anime tous ces gens est de faire profiter a tout le monde des fruits de leur travail.
 
 
 #### Résilience
