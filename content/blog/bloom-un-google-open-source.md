@@ -21,7 +21,7 @@ lang = "fr"
 ## TL;DR
 
 Pour sortir de l'immobilisme face aux enjeux universels et inédits de notre siècle j'ai créé une alternative gratuite,
-libre et open source à Google (et sans publicités / ciblage): Bloom.
+libre et open source à Google (et sans publicités ni ciblage): Bloom.
 C'est par [ici pour la version en ligne](https://bloom.sh), par [ici pour le code](https://github.com/bloom42)
 et par [ici pour  contribuer](#contribuer). Ce n'est que le début d'une grande aventure 🚀
 
@@ -30,7 +30,7 @@ et par [ici pour  contribuer](#contribuer). Ce n'est que le début d'une grande 
 
 Voici une nouvelle qui n'en n'est pas une: le début du XXIème siècle est un tournant décisif dans
 l'histoire de l'humanité. Si aujourd'hui la culture n'a plus de frontière (évènement sportifs, art ...)
-les problèmes non plus. C'est tous ensemble que nous devons apporter des réponses à la fois aux enjeux de court terme (sociaux)
+les problèmes non plus. C'est tous ensemble que nous devons apporter des réponses à la fois aux enjeux du court terme (sociaux)
 et ceux du long terme (environnementaux).
 
 <!-- Les enjeux auxquels fait face l'humanité dépassent les Pays, les continents
@@ -73,7 +73,7 @@ Avec l'impôts il est aujourd'hui notre seule méthode de redistribution des ric
 La technologie fait qu'on nécessite de moins en moins de travail humain pour répondre à nos **besoins**. Et c'est une bonne chose.
 À condition de ne pas voir un emploi comme un élément de réussite personnelle, de ne pas voir le chômage comme
 une variable qui doit tendre vers 0. Alors que les emplois se déplacent de plus en plus du secteur primaire
-vers le secteur tertiaire, le secteur tertiaire ne propose pas autant d'occupations que le nombre d'arrivants.
+vers le secteur tertiaire, le secteur tertiaire n'absorbant pas tous les arrivants.
 À cela s'ajoute les impératifs écologiques dont la *seule solution* est la réduction drastique de notre consommation
 (énergétique et en resources) et donc laisse présager la réduction d'emplois nécessaires à la production.
 
@@ -299,11 +299,12 @@ Tous offrant un tier gratuit sans contrepartie (pas de ciblage, pas de publicit�
 et dont le code est disponible librement sur [GitHub](https://github.com/bloom42).
 
 
+
 ### Contribuer
 
-Nous croyons en un monde ou toute personne peut contribuer, pas seulement des experts proclamés.
-**Où les consommateurs, citoyens deviennent acteurs.**
-C'est pourquoi nous sommes engagés à faciliter cette collaboration mondiale et sans barrière.
+Nous croyons en un monde ou toute personne peut contribuer, pas seulement des experts.
+**Où les consommateurs et citoyens deviennent acteurs.**
+C'est pourquoi nous sommes engagés à faciliter cette collaboration mondiale et sans barrières.
 
 
 
