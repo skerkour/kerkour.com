@@ -57,28 +57,28 @@ travailler toute la journée derrière un ordinateur ? La question est bien sur 
 ### La crise sociale
 
 
-Une question m'obsède: Comment se fait-il que nous devions travailler autant pour avoir accès
-à un niveau de vie convenable, quand on voit toutes les richesses produites dans le monde ?
+Une question m'obsède: Comment se fait-il que nous devions travailler toujours plus pour avoir accès
+à un niveau de vie convenable, quand on voit toutes les richesses produites dans le monde ? Ces
+richesses ne cumulent-elles pas ? Si nous sommes organisés en sociétés, alors pourquoi la société dans
+son ensemble n'en profite-t-elle pas ? Pourquoi ne travaillons nous simplement pas 2 mois par an ? ou 3 jours par semaine ?
 
-Pourquoi ne travaillons nous simplement pas 1 mois par an ?
-
-Le mot clé est bien sur ici le mot travail. Les technologies de l'information, la robotique et
+Le mot clé est bien sur le mot *travail*. Les technologies de l'information, la robotique et
 l'intelligence artificielle remettent jour après jour en cause notre définition du travail.
 
-Avec l'impôts il est aujourd'hui notre seule méthode de redistribution des richesse. Mais quoi que les marchands de tapis essaient de vous vendre,
-la technologie fait qu'on a de moins en moins d'humains pour répondre à nos besoins. Et c'est une bonne chose.
-À condition de ne pas voir un emploi comme un élément de réussite personnelle. De ne pas voir le chômage comme
+Avec l'impôts il est aujourd'hui notre seule méthode de redistribution des richesses.
+La technologie fait qu'on a de moins en moins de travail humain pour répondre à nos **besoins**. Et c'est une bonne chose.
+À condition de ne pas voir un emploi comme un élément de réussite personnelle, de ne pas voir le chômage comme
 une variable qui doit tendre vers 0. Alors que les emplois se déplacent de plus en plus du secteur primaire
-vers le secteur tertiaire, le secteur tertiaire ne propose pas d'autant d'occupation que les nombre de personnes arrivantes.
+vers le secteur tertiaire, le secteur tertiaire ne propose pas d'autant d'occupation que le npmbre d'arrivants.
 
 A-t-on besoin d'un restaurant par personne dans chaque ville ? A-ton besoin de de 100 ingénieurs pour concevoir
 un robot pouvant faire le travail de 100 agriculteurs ? NON !
 
 
-Le chômage est donc voué à auguementer. Or cela va mettre à mal toute organisation de la société. (Au moins en France)
-Par exemple notre système des retraites, en prenant en compte notre population vieillissante, comment allons nous
+Le chômage est donc voué à auguementer. Or cela va mettre à mal toute l'organisation de notre société.
+Par exemple le système des retraites Français, en prenant en compte notre population vieillissante, comment allons nous
 faire qunad le nombre *d'inactifs* sera supérieur au nombre *d'actifs* ? (il va falloir trouver une solution
-rapidement car c'est pour bientôt).
+rapidement car c'est pour bientôt, aujourd'hui il y aurait 1,4 *actif* pour 1 *inactif*).
 
 <!-- Les personnes qui mettent en valeur la création d'emplois sont dangereuses. On n'a besoin de "création d'emplois"
 que pour maintenir en vie un système malade. -->
@@ -90,14 +90,7 @@ que pour maintenir en vie un système malade. -->
 </div>
 
 
-
 Mais alors que notre
-
-
-- probleme de redistribution des richesses (crise sociale) qui est accelere par l'automatisation et
-les effets d'echelles des nouvelles technologies
-
-
 
 
 ### Le risque pandémique
@@ -125,12 +118,12 @@ les [copyright trolls](https://en.wikipedia.org/wiki/Copyright_troll)...).
 et dont les externalites negaitves ne sont jamais, ne serait-ce que, mentionnees, sont "au mieux" de la cupidité
 si ce n'est criminel. Oui, bloquer des publications scientifiques derrière des abonnement hors de prix tue.
 
-Toute cette bureaucratie n'est bien sur pas la bienvenue alors que l'humanite fait face à des problèmes majeurs.
+Toute cette bureaucratie n'est bien sur pas la bienvenue alors que l'humanité fait face à des problèmes majeurs.
 
 
-La niassance de l'open source / data / access... vient de personnes ne cherchant pas a maximiser leurs
-profits personnels, mais ont compris que mettre à disposition gratuitement et librement les fruits de leur travail
-ne bénéficiaient pas seulement à eux, mais à la société, à l'humanité entière.
+La niassance de l'open source / data / access... vient de personnes ne cherchant pas à maximiser leur
+profit personnel, mais ayant compris que mettre à disposition gratuitement et librement les fruits de leur travail
+ne bénéficie pas seulement à eux, mais aussi à la société, à l'humanité entière.
 
 
 ### Open source
@@ -143,8 +136,33 @@ et [des téléphones](https://www.android.com) aujourd'hui.
 
 #### Interêts composés
 
+Quamd un développeur travail sur un projet propriétaire, les fruits de son trvail bénéficient uniquement
+à son employeur et dans une moindre mesure à ses clients.
+
+Quamd un développeur contribue à un open source, le fruit de son travail lui beneficie à lui, aux
+utilisateurs du projet open source, et au reste de monde qui peut l'utiliser gratuitement, le modifier, l'améliorer.
+
+Chaque entreprise, chaque organisation n'a plus à tout réinventer dans son coin, elle est libre de s'appuyer si elle le veut
+sur le travail effectuer par d'autres pour y ajouter ce qu'elle estime être de la valeur.
+
+
+#### Organisations distribuées
+
+Les nouvelles technologies de communication (chat, visioconférences...) permettent aujourd'hui à des organisations et entreprises
+de s'affranchir de bureaux classiques. Les membres n'ont plus besoin de se réunir tous sur un même lieu de travail pour finalement
+rester la journée derrière un écran. Le personnel n'a plus besoin d'être dans la même ville, le même pays voire le même continent.
+
+
+Bien sur cela pose des défis au niveau des interractions sociales, mais c'est un premier levier pour
+réduire notre consommation énergétique à l'échelle planétaire.
+
+
 
 #### Collaboration mondiale
+
+Cette intersection des moyens de communication instantanés et de l'ouverture des moyens de production permettent
+une collaboration globale. Les utilisateurs peuvent contribuer, participer à la création des produits qu'ils utilisent.
+
 
 <div class="center">
   <img src="/posts/bloom-announcement/unemployment-vs-biggest10.jpg" height="300"/>
@@ -153,8 +171,6 @@ et [des téléphones](https://www.android.com) aujourd'hui.
   Données: <a href="https://donnees.banquemondiale.org/indicateur/SL.UEM.TOTL.ZS?end=2018&start=1991&view=chart" target="_blank" rel="noopener">Banque mondiale</a>
 </div>
 
-
-#### Organisations distribuées
 
 
 #### Résilience
@@ -176,13 +192,21 @@ L'open source permet aux projets de survivre non suelement à la faillite d'une 
 
 ### Open data
 
-
-<!-- ### Open governance
-
-rapelle des definitions
+L’open data *ou donnée ouverte est une donnée numérique dont l'accès et l'usage sont laissés libres aux usagers.*
 
 
-parler de la collaboration mondiale.. -->
+La donnée est aujourd'hui comparée au pétrol, de la même manière que ce dernier est le carburant de nos moteurs à
+explosion, la donnée est le carburant des [algorithmes](https://fr.wikipedia.org/wiki/Algorithme).
+
+C'est en récoltant beaucoup de données et en leur donnant du sens que nous pourrons avoir des véhicules
+autonomes et ainsi réduire drastiquement le nombre de morts sur les routes.
+
+
+Le problèmes c'est qu'aujourd'hui ces données, produites par tout le monde, sont propriétés de grandes
+entreprises (*les géants de la tech*), et sont utilisées pour [destabiliser nos organisations politiques](https://fr.wikipedia.org/wiki/Cambridge_Analytica).
+
+
+Disposer des ces données en accès libre permettrait
 
 
 
@@ -237,7 +261,7 @@ Bloom propose aujourd'hui les services suivants:
 * <a href="https://bloom.sh/gallery" target="_blank" rel="noopener">Bloom Gallery</a>: une gallerie pour vos photos et vidéos
 * <a href="https://bloom.sh/contacts" target="_blank" rel="noopener">Bloom Contacts</a>: un gestionnaire de contacts
 * <a href="https://bloom.sh/notes" target="_blank" rel="noopener">Bloom Notes</a>: une application de prise de notes
-* <a href="https://bloom.sh/bitflow" target="_blank" rel="noopener">Biflow</a>: un gestionnaire de téléchargements, qui permet de télécharger des fichiers directement dans votre *drive*
+* <a href="https://bloom.sh/bitflow" target="_blank" rel="noopener">Bitflow</a>: un gestionnaire de téléchargements, qui permet de télécharger des fichiers directement dans votre *drive*
 * <a href="https://bloom.sh/platform/phaser" target="_blank" rel="noopener">Phaser</a>: Un scanner de sécurité automatique pour sites webs
 
 Tous offrant un tier gratuit sans contrepartie (pas de ciblage, pas de publicité...)
@@ -246,8 +270,8 @@ et dont le code est disponible librement sur [GitHub](https://github.com/bloom42
 
 ### Contribuer / aider
 
-Je crois en un monde ou tout le monde peut contribuer, pas seulement des experts en informatique. La mission de Bloom
-est de transformer le monde
+Nous croyons en un monde ou tout le monde peut contribuer, pas seulement des experts en informatique.
+C'est pourquoi nous sommes engagés à faciliter cette collaboration mondiale.
 
 
 #### Developpement
@@ -280,7 +304,7 @@ Pour contribuer au design de Bloom cela se passe sur le repo [github.com/bloom42
 Si vous n'avez pas le temps ou les compétences pour contribuer, mais que notre projet vous semble prometteur
 vous pouvez contribuer financièrement.
 
-Cet argent sera utilisé pour payer les gens contribuant à un monde plus ouvert:
+Cet argent sera utilisé pour payer les gens contribuant avec leur temps à un monde plus ouvert:
 
 En devenant *patron*:
 
