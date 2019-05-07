@@ -33,14 +33,13 @@ l'histoire de l'humanité. Si aujourd'hui la culture n'a plus de frontière (év
 les problèmes non plus. Les enjeux auxquels fait face l'humanité dépassent les Pays, les continents
 et menancent notre espèce entière.
 
-Nous devons donc nous unir,
-malgré nos différences et notre passé où nos ancêtre se sont parfois opposés.
+Nous devons donc nous unir, malgré nos différences et un passé où nos ancêtre se sont parfois opposés.
 C'est tous ensemble que nous devons apporter des réponses à la fois aux enjeux de court terme (sociaux)
 et ceux du long terme (environnementaux).
 
 
 Il n'y aura pas de perdants, que des gagnants la récompense étant simplement
-d'éviter que les choses ne tournent affreusement mal pour notre espèce.
+d'éviter que les choses ne tournent affreusement mal pour notre espèce. Agir ou subir.
 
 
 ### La crise écologiques
@@ -51,7 +50,7 @@ le réchauffement climatique, l'extinction d'espèces animales...
 
 
 A-t-on besoin d'utiliser une voiture de 900kg pour faire 2h de trajet journalier pour finalement
-travailler toute la journée derrière un ordinateur ? La question est bien sur rhétorique, la reponse est non.
+travailler toute la journée derrière un ordinateur ? La question est bien sûr rhétorique, la reponse est non.
 
 
 ### La crise sociale
@@ -62,8 +61,8 @@ Une question m'obsède: Comment se fait-il que nous devions travailler toujours 
 richesses ne se cumulent-elles pas ? Si nous sommes organisés en sociétés, alors pourquoi les sociétés dans
 leurs ensembles ne profitent-t-elles pas des ces richesses ? Pourquoi ne travaillons nous simplement pas 2 mois par an ? ou 3 jours par semaine ?
 
-Le mot clé est bien sur le mot *travail*. Les technologies de l'information, la robotique et
-l'intelligence artificielle remettent en cause jour après jour notre définition du not *travail*.
+Le mot clé est bien sûr le mot *travail*. Depuis l'invention de la machine à vapeur jusqu'à la robotique et
+l'intelligence artificielle, la technologie remet en cause jour après jour notre définition du mot *travail*.
 
 Avec l'impôts il est aujourd'hui notre seule méthode de redistribution des richesses.
 La technologie fait qu'on nécessite de moins en moins de travail humain pour répondre à nos **besoins**. Et c'est une bonne chose.
@@ -76,7 +75,7 @@ un robot pouvant faire le travail de 100 agriculteurs ? NON !
 
 
 Le chômage est donc voué à auguementer. Or cela va mettre à mal toute l'organisation de nos sociétés.
-Par exemple le système des retraites Français, en prenant en compte notre population vieillissante, comment allons nous
+Par exemple le système des retraites Français, en prenant en compte une population vieillissante, comment allons nous
 faire qunad le nombre *d'inactifs* sera supérieur au nombre *d'actifs* ? (il va falloir trouver une solution
 rapidement car c'est pour bientôt, aujourd'hui il y aurait 1,4 *actif* pour 1 *inactif*).
 
@@ -118,10 +117,10 @@ aberration effarantes sont deja en place
 les derives des ayants droits sur youtubes,
 [les derives des journaux scientifiques](https://www.youtube.com/watch?v=WnxqoP-c0ZE),
 les [copyright trolls](https://en.wikipedia.org/wiki/Copyright_troll)...).
-et dont les externalites negaitves ne sont jamais, ne serait-ce que, mentionnees, sont "au mieux" de la cupidité
+et dont les externalités negaitves ne sont jamais, ne serait-ce que, mentionnées, sont "au mieux" de la cupidité
 si ce n'est criminel. Oui, bloquer des publications scientifiques derrière des abonnement hors de prix tue.
 
-Toute cette bureaucratie n'est bien sur pas la bienvenue alors que l'humanité fait face à des problèmes majeurs.
+**Toute cette bureaucratie n'est bien sûr pas la bienvenue alors que l'humanité fait face à des problèmes majeurs.**
 
 
 La naissance de l'open source / data / access... vient de personnes ne cherchant pas à maximiser leur
@@ -156,15 +155,16 @@ de s'affranchir de bureaux classiques. Les membres n'ont plus besoin de se réun
 rester la journée derrière un écran. Le personnel n'a plus besoin d'être dans la même ville, le même pays voire le même continent.
 
 
-Bien sur cela pose des défis au niveau des interractions sociales, mais c'est un premier levier pour
+Bien sûr cela pose des défis au niveau des interractions sociales, mais c'est un premier levier pour
 réduire notre consommation énergétique à l'échelle planétaire.
 
 
 
 #### Collaboration mondiale
 
-Cette intersection des moyens de communication instantanés et de l'ouverture des moyens de production permettent
+Cette intersection des moyens de communication instantanée et de l'ouverture des moyens de production permettent
 une collaboration globale. Les utilisateurs peuvent contribuer, participer à la création des produits qu'ils utilisent.
+Ils ne sont plus simplement des consommateurs, mais acteurs.
 
 
 <div class="center">
@@ -196,7 +196,7 @@ L'open source permet aux projets de survivre non suelement à la faillite d'une 
 à une guerre économique.
 
 Et puisque ces services entrent dans le bien commun, qu'ils ne sont pas la propriété d'une entrprise particulière,
-ils deviennent plus résilient à des tentatives de censure.
+ils deviennent beaucoup plus résilients à des tentatives de censure.
 
 
 ### Open Access
@@ -220,22 +220,24 @@ La donnée est aujourd'hui comparée au pétrol, de la même manière que ce der
 explosion, la donnée est le carburant des [algorithmes](https://fr.wikipedia.org/wiki/Algorithme).
 
 C'est en récoltant beaucoup de données et en leur donnant du sens que nous pourrons avoir des véhicules
-autonomes et ainsi réduire drastiquement le nombre de morts sur les routes.
+autonomes et ainsi réduire drastiquement le nombre de morts sur les routes. C'est grâce à la donnée que
+nous pouvons grandement automatiser la détection de maladies. C'est grâce à la donnée que nous pouvons
+optimiser des flux logistique ou énergétique et ainsi réduire notre trop grande consommaiton énergétique.
 
 
-Le problèmes c'est qu'aujourd'hui ces données, produites par tout le monde, sont propriétés de grandes
+Le problèmes c'est qu'aujourd'hui ces données, produites par tout le monde, sont propriété de grandes
 entreprises (*les géants de la tech*), et sont utilisées entre autre pour [déstabiliser nos organisations politiques](https://fr.wikipedia.org/wiki/Cambridge_Analytica).
 
 
 Disposer des ces données en accès libre permettrait de multiplier la rapidité d'innovation dans les domaines
-de la robotique, de la médecine, des transoprts etc... mais surtout de grandement réduire les besoins en resource dans ces domaines.
+de la robotique, de la médecine, des transoprts etc... mais surtout de grandement réduire les besoins en resource dans tous les domaines.
 
 
 
 ### Transparence: vertueuse mais surtout nécessaire
 
 Toutes ces mouvances d'ouverture apportent de fait de la transparence. L'information devient accessible.
-N'importe qui, sans distinction aucune peut s'en saisir et l'enrichir.
+N'importe qui, sans distinction aucune peut s'en saisir, l'enrichir, lui donner du sens.
 
 Mais cette transparence vertueuse est surtout nécessaire, car si les vraies informations se propagent
 à la vitesse de la lumière, les fausse aussi (*fake news*). Aujourd'hui mises en avant car elles menacent la stabilité
@@ -253,7 +255,7 @@ elle permet d'apporter des faits contradictoires et prouvables (contrairement au
 La première étape de la transparence est de rendre les données publiques. La seconde est de les rendre facile
 d'accès, facile à chercher, facile à réutiliser.
 
-Sans transparence, il n'y a pas de vie publique. Sans transparence, il n'y a pas de société. La transparence
+Sans transparence, il n'y a pas de vie publique. Sans transparence, il n'y a pas de société stable. La transparence
 est le fondement même du contre-pouvoir.
 <!-- Sans transparence le *lobbying* ne doit être considéré que comme de la corruption. -->
 
@@ -272,7 +274,7 @@ ou si nous voulons d'un monde où les technologies sont au service du bien de to
 
 Bloom est une organisation qui grâce à l'Open source/access/data, redistribue gratuitement et librement
 sa production à large échelle en s'appuyant sur les nouvelles technologies pour le faire à moindre
-coût, plutôt que des les utiliser pour privatiser et comme outil impérialiste.
+coût, plutôt que des les utiliser pour privatiser ou comme outil impérialiste.
 
 Bloom reprend les codes et méthodes de *Startuplaland*: l'**inclinaison vers l'éxecution
 plutôt que pour la bureaucratie et les discussions sans fin pour lesquelles nous n'avons plus le temps**. Avec
@@ -295,13 +297,20 @@ et dont le code est disponible librement sur [GitHub](https://github.com/bloom42
 ### Contribuer
 
 Nous croyons en un monde ou toute personne peut contribuer, pas seulement des experts proclamés.
-C'est pourquoi nous sommes engagés à faciliter cette collaboration mondiale.
+**Où les consommateurs, citoyens deviennent acteurs.**
+C'est pourquoi nous sommes engagés à faciliter cette collaboration mondiale et sans barrière.
 
 
-#### Développement
+
+#### Communication
+
+Un chat Discord est disponible ici: <a href="https://discord.gg/HmDQDGv" target="_blank" rel="noopener">https://discord.gg/HmDQDGv</a>.
+
+
+#### Développement logiciel
 
 Vous pouvez contribuer librement au code sur [GitHub](https://github.com/bloom42), et avoir plus d'information
-sur nos proejts sur notre site [opensource.bloom.sh](https://opensource.bloom.sh).
+sur nos projets sur notre site [opensource.bloom.sh](https://opensource.bloom.sh).
 
 ##### Rust
 
@@ -314,8 +323,8 @@ sur nos proejts sur notre site [opensource.bloom.sh](https://opensource.bloom.sh
 * Un langage portable qui peut aussi bien être utilisé pour des services web que pour des robots
 
 
-Il sera utilisé pour **tous** les projets de Bloom sauf obligation contraire
-(Typescript + Vue pour les applicaitons web, Kotlin pour les applciation Android, Swift pour les applications IOS...).
+Il sera utilisé pour **tous** les projets de Bloom sauf impératif contraire
+(Typescript + Vue pour les applications web, Kotlin pour les applications Android, Swift pour les applications IOS...).
 
 
 #### Design
