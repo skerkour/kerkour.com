@@ -158,7 +158,7 @@ sur le travail effectué par d'autres pour y ajouter ce qu'elle estime être de 
 
 #### Organisations distribuées
 
-Les nouvelles technologies de communication (chat, visioconférences...) permettent aujourd'hui à des organisations et entreprises
+Les nouvelles technologies de communication (chat, visioconférence...) permettent aujourd'hui à des organisations et entreprises
 de s'affranchir des bureaux classiques. Les membres n'ont plus besoin de se réunir tous sur un même lieu de travail pour finalement
 rester la journée derrière un écran. Le personnel n'a plus besoin d'être dans la même ville, le même pays voire le même continent.
 
