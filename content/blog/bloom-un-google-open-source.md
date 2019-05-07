@@ -46,11 +46,15 @@ d'éviter que les choses ne tournent affreusement mal pour notre espèce. Agir o
 
 La crise écologique étant la plus importante car elle englobe beaucoup de facteurs, que ce soit les
 problemes d'accès à de l'eau potable,
-le réchauffement climatique, l'extinction d'espèces animales...
+le réchauffement climatique, l'extinction d'espèces animales, les éxodes climatiques, la pollution des sols et des reources aaqueuses,
+les maladies respiratoires, le 7ème continent de platique...
 
+Notre surconsommation entraîne la destruction de notre habitat et nous met donc en danger.
+
+Le constat est allarmant et l'immobilisme encore plus.
 
 A-t-on besoin d'utiliser une voiture de 900kg pour faire 2h de trajet journalier pour finalement
-travailler toute la journée derrière un ordinateur ? La question est bien sûr rhétorique, la reponse est non.
+travailler toute la journée derrière un ordinateur ? La question est bien sûr rhétorique, la réponse est non.
 
 
 ### La crise sociale
@@ -69,6 +73,8 @@ La technologie fait qu'on nécessite de moins en moins de travail humain pour r�
 À condition de ne pas voir un emploi comme un élément de réussite personnelle, de ne pas voir le chômage comme
 une variable qui doit tendre vers 0. Alors que les emplois se déplacent de plus en plus du secteur primaire
 vers le secteur tertiaire, le secteur tertiaire ne propose pas autant d'occupations que le nombre d'arrivants.
+À cela s'ajoute les impératifs écologiques dont la *seule solution* est la réduction drastique de notre consommation
+(énergétique et en resources)et donc laisse présager la réduction d'emplois nécessaires à la production.
 
 A-t-on besoin d'un restaurant par personne dans chaque ville ? A-ton besoin de de 100 ingénieurs pour concevoir
 un robot pouvant faire le travail de 100 agriculteurs ? NON !
@@ -78,6 +84,7 @@ Le chômage est donc voué à auguementer. Or cela va mettre à mal toute l'orga
 Par exemple le système des retraites Français, en prenant en compte une population vieillissante, comment allons nous
 faire qunad le nombre *d'inactifs* sera supérieur au nombre *d'actifs* ? (il va falloir trouver une solution
 rapidement car c'est pour bientôt, aujourd'hui il y aurait 1,4 *actif* pour 1 *inactif*).
+
 
 <!-- Les personnes qui mettent en valeur la création d'emplois sont dangereuses. On n'a besoin de "création d'emplois"
 que pour maintenir en vie un système malade. -->
@@ -91,7 +98,7 @@ que pour maintenir en vie un système malade. -->
 
 Le printemps arabe, les gilets jaunes, les populations dont la qualité de vie ne bénéficie pas des richesses qu'elles
 produisent remettent en cause le [contrat social](https://fr.wikipedia.org/wiki/Du_contrat_social).
-Il es impératif de trouver vite un nouveau système. Nous aovns besoin d'être unis pour faire face à la
+Il es impératif de trouver vite un nouveau système, un système unificateur pour faire face à la
 crise écologique.
 
 
@@ -143,8 +150,8 @@ Quand un développeur travail sur un projet propriétaire, les fruits de son trv
 précédemment.
 
 Quand un développeur contribue à un projet open source, le fruit de son travail lui beneficie à lui, aux
-utilisateurs du projet open source, et au reste de monde qui peut l'utiliser gratuitement, le modifier, l'améliorer.
-Quqnd il chqnge d'emploi, ou de projet, son précédent emploi continue à lui être bénéfique.
+utilisateurs du projet open source et au reste de monde qui peut l'utiliser gratuitement, le modifier, l'améliorer.
+Quand ce développeur change d'emploi, ou de projet, le résultat de son précédent emploi continue à lui être bénéfique.
 
 Chaque entreprise, chaque organisation, n'a plus à tout réinventer dans son coin, elle est libre de s'appuyer si elle le veut
 sur le travail effectué par d'autres pour y ajouter ce qu'elle estime être de la valeur.
@@ -153,13 +160,11 @@ sur le travail effectué par d'autres pour y ajouter ce qu'elle estime être de 
 #### Organisations distribuées
 
 Les nouvelles technologies de communication (chat, visioconférences...) permettent aujourd'hui à des organisations et entreprises
-de s'affranchir de bureaux classiques. Les membres n'ont plus besoin de se réunir tous sur un même lieu de travail pour finalement
+de s'affranchir des bureaux classiques. Les membres n'ont plus besoin de se réunir tous sur un même lieu de travail pour finalement
 rester la journée derrière un écran. Le personnel n'a plus besoin d'être dans la même ville, le même pays voire le même continent.
-
 
 Bien sûr cela pose des défis au niveau des interractions sociales, mais c'est un premier levier pour
 réduire notre consommation énergétique à l'échelle planétaire.
-
 
 
 #### Collaboration mondiale
