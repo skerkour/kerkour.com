@@ -30,14 +30,13 @@ et par [ici pour  contribuer](#contribuer). Ce n'est que le début d'une grande 
 
 Voici une nouvelle qui n'en n'est pas une: le début du XXIème siècle est un tournant décisif dans
 l'histoire de l'humanité. Si aujourd'hui la culture n'a plus de frontière (évènement sportifs, art ...)
-les problèmes non plus.
+les problèmes non plus. C'est tous ensemble que nous devons apporter des réponses à la fois aux enjeux de court terme (sociaux)
+et ceux du long terme (environnementaux).
 
 <!-- Les enjeux auxquels fait face l'humanité dépassent les Pays, les continents
 et menancent notre espèce entière. -->
 
-Nous devons donc nous unir, malgré nos différences et un passé où nos ancêtre se sont parfois opposés.
-C'est tous ensemble que nous devons apporter des réponses à la fois aux enjeux de court terme (sociaux)
-et ceux du long terme (environnementaux).
+<!-- Nous devons donc nous unir, malgré nos différences et un passé où nos ancêtre se sont parfois opposés. -->
 
 <!--
 Il n'y aura pas de perdants, que des gagnants la récompense étant simplement
@@ -47,16 +46,16 @@ d'éviter que les choses ne tournent affreusement mal pour notre espèce. Agir o
 ### La crise écologiques
 
 La crise écologique est la plus importante car elle englobe beaucoup de facteurs, que ce soit les
-problemes d'accès à de l'eau potable,
-le réchauffement climatique, l'extinction d'espèces animales, les éxodes climatiques, la pollution des sols et des reources aaqueuses,
+problèmes d'accès à de l'eau potable,
+le réchauffement climatique, l'extinction d'espèces animales, les exodes climatiques, la pollution des sols et des resources aqueuses,
 les maladies respiratoires, le 7ème continent de platique...
 
 Notre surconsommation entraîne la destruction de notre habitat et nous met en danger.
 
 Le constat est allarmant et l'immobilisme encore plus.
-
+<!--
 A-t-on besoin d'utiliser une voiture de 900kg pour faire 2h de trajet journalier pour finalement
-travailler toute la journée derrière un ordinateur ? La question est bien sûr rhétorique, la réponse est non.
+travailler toute la journée derrière un ordinateur ? La question est bien sûr rhétorique, la réponse est non. -->
 
 
 ### La crise sociale
@@ -76,10 +75,10 @@ La technologie fait qu'on nécessite de moins en moins de travail humain pour r�
 une variable qui doit tendre vers 0. Alors que les emplois se déplacent de plus en plus du secteur primaire
 vers le secteur tertiaire, le secteur tertiaire ne propose pas autant d'occupations que le nombre d'arrivants.
 À cela s'ajoute les impératifs écologiques dont la *seule solution* est la réduction drastique de notre consommation
-(énergétique et en resources)et donc laisse présager la réduction d'emplois nécessaires à la production.
+(énergétique et en resources) et donc laisse présager la réduction d'emplois nécessaires à la production.
 
-A-t-on besoin d'un restaurant par personne dans chaque ville ? A-ton besoin de de 100 ingénieurs pour concevoir
-un robot pouvant faire le travail de 100 agriculteurs ? NON !
+<!-- A-t-on besoin d'un restaurant par personne dans chaque ville ? -->
+A-ton besoin de de 100 ingénieurs pour concevoir un robot pouvant faire le travail de 100 agriculteurs ? NON !
 
 <div class="center">
   <img src="/posts/bloom-announcement/unemployment-vs-biggest10.jpg" height="300"/>
@@ -92,6 +91,7 @@ Le chômage est donc voué à auguementer. Or cela va mettre à mal toute l'orga
 Par exemple le système des retraites Français, en prenant en compte une population vieillissante, comment allons nous
 faire qunad le nombre *d'inactifs* sera supérieur au nombre *d'actifs* ? (il va falloir trouver une solution
 rapidement car c'est pour bientôt, aujourd'hui il y aurait 1,4 *actif* pour 1 *inactif*).
+Comment occuper toutes ces personnes ?
 
 
 <!-- Les personnes qui mettent en valeur la création d'emplois sont dangereuses. On n'a besoin de "création d'emplois"
