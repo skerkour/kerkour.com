@@ -143,7 +143,7 @@ Quamd un développeur contribue à un open source, le fruit de son travail lui b
 utilisateurs du projet open source, et au reste de monde qui peut l'utiliser gratuitement, le modifier, l'améliorer.
 
 Chaque entreprise, chaque organisation n'a plus à tout réinventer dans son coin, elle est libre de s'appuyer si elle le veut
-sur le travail effectuer par d'autres pour y ajouter ce qu'elle estime être de la valeur.
+sur le travail effectué par d'autres pour y ajouter ce qu'elle estime être de la valeur.
 
 
 #### Organisations distribuées
@@ -177,6 +177,7 @@ une collaboration globale. Les utilisateurs peuvent contribuer, participer à la
 
 Que se passerait-il si demain Google perdait tout intêret économique à faire des affaire et bloque son accès à l'Europe ?
 Que se passerait-il si demain Twitter faisait faillite et devait stopper ses services ?
+Que se passerait-il si demain un gouvernement tyrannique bloquait WhatsApp ?
 
 La crise financière de 2008 nous a douloureusement rappelé que des entreprises que l'on croyait intouchables
 peuvent faire faillite. Or depuis [la situation économique modiale](https://fr.wikipedia.org/wiki/Dette_publique) ne s'est pas améliorée.
@@ -184,6 +185,9 @@ peuvent faire faillite. Or depuis [la situation économique modiale](https://fr.
 
 L'open source permet aux projets de survivre non suelement à la faillite d'une entreprise mais aussi à une coupure d'internet ou encore
 à une guerre économique.
+
+Et puisque ces servies entrent dans le bien commun, qu'ils ne sont pas la propriété d'une entrprise particulière,
+il y a un intérêt commun à ce qu'un tyran ne censure pas ces services, et donc de l'opposition.
 
 
 ### Open Access
@@ -203,7 +207,7 @@ autonomes et ainsi réduire drastiquement le nombre de morts sur les routes.
 
 
 Le problèmes c'est qu'aujourd'hui ces données, produites par tout le monde, sont propriétés de grandes
-entreprises (*les géants de la tech*), et sont utilisées pour [destabiliser nos organisations politiques](https://fr.wikipedia.org/wiki/Cambridge_Analytica).
+entreprises (*les géants de la tech*), et sont utilisées entre autre pour [destabiliser nos organisations politiques](https://fr.wikipedia.org/wiki/Cambridge_Analytica).
 
 
 Disposer des ces données en accès libre permettrait
