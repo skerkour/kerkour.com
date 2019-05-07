@@ -40,6 +40,7 @@
 // Flexbox sticky footer FTW! https://j.mp/1Lt1vzH
 .site-content {
   flex: 1;
+  word-wrap: break-word;
 }
 
 .site-footer {
@@ -76,7 +77,6 @@
 
 .post {
   position: relative;
-  word-wrap: break-word;
   .post-header {
     font-weight: 700;
     text-align: center;

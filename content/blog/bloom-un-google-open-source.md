@@ -30,16 +30,18 @@ et par [ici pour  contribuer](#contribuer). Ce n'est que le début d'une grande 
 
 Voici une nouvelle qui n'en n'est pas une: le début du XXIème siècle est un tournant décisif dans
 l'histoire de l'humanité. Si aujourd'hui la culture n'a plus de frontière (évènement sportifs, art ...)
-les problèmes non plus. Les enjeux auxquels fait face l'humanité dépassent les Pays, les continents
-et menancent notre espèce entière.
+les problèmes non plus.
+
+<!-- Les enjeux auxquels fait face l'humanité dépassent les Pays, les continents
+et menancent notre espèce entière. -->
 
 Nous devons donc nous unir, malgré nos différences et un passé où nos ancêtre se sont parfois opposés.
 C'est tous ensemble que nous devons apporter des réponses à la fois aux enjeux de court terme (sociaux)
 et ceux du long terme (environnementaux).
 
-
+<!--
 Il n'y aura pas de perdants, que des gagnants la récompense étant simplement
-d'éviter que les choses ne tournent affreusement mal pour notre espèce. Agir ou subir.
+d'éviter que les choses ne tournent affreusement mal pour notre espèce. Agir ou subir. -->
 
 
 ### La crise écologiques
@@ -79,6 +81,12 @@ vers le secteur tertiaire, le secteur tertiaire ne propose pas autant d'occupati
 A-t-on besoin d'un restaurant par personne dans chaque ville ? A-ton besoin de de 100 ingénieurs pour concevoir
 un robot pouvant faire le travail de 100 agriculteurs ? NON !
 
+<div class="center">
+  <img src="/posts/bloom-announcement/unemployment-vs-biggest10.jpg" height="300"/>
+
+  Une des 10 plus grosses entreprises mondiale VS chômage mondial.
+  Données: <a href="https://donnees.banquemondiale.org/indicateur/SL.UEM.TOTL.ZS?end=2018&start=1991&view=chart" target="_blank" rel="noopener">Banque mondiale</a>
+</div>
 
 Le chômage est donc voué à auguementer. Or cela va mettre à mal toute l'organisation de nos sociétés.
 Par exemple le système des retraites Français, en prenant en compte une population vieillissante, comment allons nous
@@ -102,6 +110,7 @@ Il es impératif de trouver vite un nouveau système, un système où tout le mo
 crise écologique.
 
 
+<!--
 ### Le risque pandémique
 
 Je ne vais pas m'étendre sur le sujet par manque de données, de connaissances et de capacité d'action,
@@ -112,6 +121,7 @@ Le croisement des technologies de transport, du réchauffement climatique, de la
 d'antibiotiques aussi bien pour notre bétail que pour nous même fait peser un risque réel de maladie infectieuse face à laquelle nous serions impuissants.
 
 **Les antibiotiques, c’est pas automatique !**
+-->
 
 
 ## Open source, access, data ...
@@ -171,14 +181,6 @@ réduire notre consommation énergétique à l'échelle planétaire.
 Cette intersection des moyens de communication instantanée et de l'ouverture des moyens de production permettent
 une collaboration globale. Les utilisateurs peuvent contribuer, participer à la création des produits qu'ils utilisent.
 Ils ne sont plus simplement des consommateurs, mais acteurs.
-
-
-<div class="center">
-  <img src="/posts/bloom-announcement/unemployment-vs-biggest10.jpg" height="300"/>
-
-  Une des 10 plus grosses entreprises mondiale VS chômage mondial.
-  Données: <a href="https://donnees.banquemondiale.org/indicateur/SL.UEM.TOTL.ZS?end=2018&start=1991&view=chart" target="_blank" rel="noopener">Banque mondiale</a>
-</div>
 
 
 Entrer dans un modèle de collaboration plutôt que de compétition est la seule solution pour limiter
@@ -368,6 +370,9 @@ En faisant un don en crypto-monnaie:
 
 **XMR**: `4GdoN7NCTi8a5gZug7PrwZNKjvHFmKeV11L6pNJPgj5QNEHsN6eeX3DaAQFwZ1ufD4LYCZKArktt113W7QjWvQ7CW7fRk3auob6QWFSgYJ`
 
+
+Un grand merci aux personnes ayant déjà contribué:
+*
 
 
 ### En résumé
