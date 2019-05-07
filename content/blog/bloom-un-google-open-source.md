@@ -144,13 +144,13 @@ et [des téléphones](https://www.android.com) aujourd'hui.
 
 #### Interêts composés
 
-Quand un développeur travail sur un projet propriétaire, les fruits de son trvail bénéficient uniquement
+Quand Bob travaille sur un projet propriétaire, les fruits de son trvail bénéficient
 à son employeur et dans une moindre mesure à ses clients. Le jour où il change d'emploi, il perd tout le travail effectué
 précédemment.
 
-Quand un développeur contribue à un projet open source, le fruit de son travail lui beneficie à lui, aux
+Quand Jacque contribue ou travaille sur un projet open source, le fruit de son travail lui beneficie à lui, aux
 utilisateurs du projet open source et au reste de monde qui peut l'utiliser gratuitement, le modifier, l'améliorer.
-Quand ce développeur change d'emploi, ou de projet, le résultat de son précédent emploi continue à lui être bénéfique.
+Quand Jacque change d'emploi, ou de projet, le résultat de son précédent emploi continue à lui être bénéfique.
 
 Chaque entreprise, chaque organisation, n'a plus à tout réinventer dans son coin, elle est libre de s'appuyer si elle le veut
 sur le travail effectué par d'autres pour y ajouter ce qu'elle estime être de la valeur.
