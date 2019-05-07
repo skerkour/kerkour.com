@@ -20,7 +20,7 @@ lang = "fr"
 
 ## TL;DR
 
-Pour amorcer une réponse aux enjeux inédits de notre siècle j'ai créé une alternative gratuite,
+Pour amorcer une réponse aux enjeux universels et inédits de notre siècle j'ai créé une alternative gratuite,
 libre et open source à Google (et sans publicités / ciblage): Bloom.
 C'est par [ici pour la version en ligne](https://bloom.sh), par [ici pour le code](https://github.com/bloom42)
 et par [ici pour aider / contribuer](#contribuer-aider). Ce n'est que le début d'une grande aventure 🚀
@@ -92,7 +92,8 @@ que pour maintenir en vie un système malade. -->
 
 Le printemps arabe, les gilets jaunes, les populations dont la qualité de vie ne bénéficie pas des richesses qu'elles
 produisent remettent en cause le [contrat social](https://fr.wikipedia.org/wiki/Du_contrat_social).
-Pourquoi rester dans un système qui
+Il es impératif de trouver vite un nouveau système. Nous aovns besoin d'être unis pour faire face à la
+crise écologique.
 
 
 ### Le risque pandémique
@@ -123,7 +124,7 @@ si ce n'est criminel. Oui, bloquer des publications scientifiques derrière des 
 Toute cette bureaucratie n'est bien sur pas la bienvenue alors que l'humanité fait face à des problèmes majeurs.
 
 
-La niassance de l'open source / data / access... vient de personnes ne cherchant pas à maximiser leur
+La naissance de l'open source / data / access... vient de personnes ne cherchant pas à maximiser leur
 profit personnel, mais ayant compris que mettre à disposition gratuitement et librement les fruits de leur travail
 ne bénéficie pas seulement à eux, mais aussi à la société, à l'humanité entière.
 
@@ -144,7 +145,7 @@ Quamd un développeur travail sur un projet propriétaire, les fruits de son trv
 Quamd un développeur contribue à un open source, le fruit de son travail lui beneficie à lui, aux
 utilisateurs du projet open source, et au reste de monde qui peut l'utiliser gratuitement, le modifier, l'améliorer.
 
-Chaque entreprise, chaque organisation n'a plus à tout réinventer dans son coin, elle est libre de s'appuyer si elle le veut
+Chaque entreprise, chaque organisation, n'a plus à tout réinventer dans son coin, elle est libre de s'appuyer si elle le veut
 sur le travail effectué par d'autres pour y ajouter ce qu'elle estime être de la valeur.
 
 
@@ -175,11 +176,10 @@ une collaboration globale. Les utilisateurs peuvent contribuer, participer à la
 
 
 Entrer dans un modèle de collaboration plutôt que de compétition est la seule solution pour limiter
-notre surconsommation des resources, notre surexploitation de notre environnement, et surtout de notre
-propre empoisonnement.
+notre surconsommation des resources, la surexploitation de notre environnement, et surtout limiter notre propre empoisonnement.
 
-Le mot collaboratif est souvent associé aux associations et petit groupes s'occupant de potagers, mais
-l'esprit commun qui anime tous ces gens est de faire profiter a tout le monde des fruits de leur travail.
+La collaboration ce ne sont pas que les associations avec peu de moyens, c'est avant tout un état d'esprit,
+celui de faire profiter à tout le monde des richesses crées par le résultat de notre travail.
 
 
 #### Résilience
@@ -196,7 +196,7 @@ L'open source permet aux projets de survivre non suelement à la faillite d'une 
 à une guerre économique.
 
 Et puisque ces services entrent dans le bien commun, qu'ils ne sont pas la propriété d'une entrprise particulière,
-il y a un intérêt commun à ce qu'un tyran ne censure pas ces services, et donc de l'opposition.
+ils deviennent plus résilient à des tentatives de censure.
 
 
 ### Open Access
@@ -216,10 +216,11 @@ autonomes et ainsi réduire drastiquement le nombre de morts sur les routes.
 
 
 Le problèmes c'est qu'aujourd'hui ces données, produites par tout le monde, sont propriétés de grandes
-entreprises (*les géants de la tech*), et sont utilisées entre autre pour [destabiliser nos organisations politiques](https://fr.wikipedia.org/wiki/Cambridge_Analytica).
+entreprises (*les géants de la tech*), et sont utilisées entre autre pour [déstabiliser nos organisations politiques](https://fr.wikipedia.org/wiki/Cambridge_Analytica).
 
 
-Disposer des ces données en accès libre permettrait
+Disposer des ces données en accès libre permettrait de multiplier la rapidité d'innovations utiles dans le domaine
+de la robotique, de la médecine, des transoprts.
 
 
 
@@ -235,36 +236,37 @@ de nos sociétés il existe 2 grandes directions pour restreindre leurs effets:
 * La censure
 * La transparence
 
-La censure signifiant une communication à sens unique, d'une minorité ayant le pouvoir vers les masses.
+La censure signifiant une communication à sens unique, d'une infime minorité ayant le pouvoir vers les masses.
 
-La transparence quant à elle n'est pas suffisante à ellse seule pour mettre fin aux fausses informations, mais
-elle permet au moins d'apporter des faits contradictoires et prouvables.
+La transparence de son côté n'est pas suffisante à elle seule pour mettre fin aux fausses informations, mais
+elle permet d'apporter des faits contradictoires et prouvables (contrairement aux *fake news*).
 
 
 La première étape de la transparence est de rendre les données publiques. La seconde est de les rendre facile
 d'accès, facile à chercher, facile à réutiliser.
 
-Sans transparence, il n'y a pas de vie publique. Sans transparence, il n'y a pas de société.
-Sans transparence le *lobbying* ne doit être considéré que comme de la corruption.
+Sans transparence, il n'y a pas de vie publique. Sans transparence, il n'y a pas de société. La transparence
+est le fondement même du contre-pouvoir.
+<!-- Sans transparence le *lobbying* ne doit être considéré que comme de la corruption. -->
 
 
 ## Bloom: le master plan top secret
 
-Bloom se veut l'amorce d'un changement de paradigme dans la maniere dont nous consommons mais surtout dans
+Bloom se veut l'amorce d'un changement de paradigme dans la manière dont nous consommons mais surtout dans
 la manière dont nous produisons.
 
-Un monde de cooperation plutôt que de competition. On ne peut juste pas continuer a tous concourir pour les mêmes
+Un monde de coopération plutôt que de compétition. On ne peut juste pas continuer à tous concourir pour les mêmes
 resources finies, faisant fi des destructions et pollutions engendrées.
 
-C'est à nous de choisir aujourd'hui si nous voulons d'une monde d'esclavage permis par les nouvelles technologies,
+C'est à nous de choisir aujourd'hui si nous voulons travailler toujours plus pour entretenir et éxhacerber les inégalités déjà criantes,
 ou si nous voulons d'un monde où les technologies sont au service du bien de tous. Cet avenir n'est pas encore
 écrit.
 
 Bloom est une organisation qui grâce à l'Open source/access/data, redistribue gratuitement et librement
-sa production à large échelle en s'appuyant sur les nouvelles techonologies pour le faire à moindre
-coût, plutôt que des les utiliser pour privatiser et centraliser des richesses.
+sa production à large échelle en s'appuyant sur les nouvelles technologies pour le faire à moindre
+coût, plutôt que des les utiliser pour privatiser et comme outil impérialiste.
 
-Bloom reprend les codes et méthodes de *Startuplaland* ainsi que l'**inclinaison vers l'éxecution
+Bloom reprend les codes et méthodes de *Startuplaland*: l'**inclinaison vers l'éxecution
 plutôt que pour la bureaucratie et les discussions sans fin pour lesquelles nous n'avons plus le temps**. Avec
 pour objectif une meilleure qualité de vie universelle et non l'enrichissement privé.
 
@@ -276,19 +278,19 @@ Bloom propose aujourd'hui les services suivants:
 * <a href="https://bloom.sh/contacts" target="_blank" rel="noopener">Bloom Contacts</a>: un gestionnaire de contacts
 * <a href="https://bloom.sh/notes" target="_blank" rel="noopener">Bloom Notes</a>: une application de prise de notes
 * <a href="https://bloom.sh/bitflow" target="_blank" rel="noopener">Bitflow</a>: un gestionnaire de téléchargements, qui permet de télécharger des fichiers directement dans votre *drive*
-* <a href="https://bloom.sh/platform/phaser" target="_blank" rel="noopener">Phaser</a>: Un scanner de sécurité automatique pour sites webs
+* <a href="https://bloom.sh/platform/phaser" target="_blank" rel="noopener">Phaser</a>: un scanner de sécurité automatique pour sites webs
 
 Tous offrant un tier gratuit sans contrepartie (pas de ciblage, pas de publicité...)
 et dont le code est disponible librement sur [GitHub](https://github.com/bloom42).
 
 
-### Contribuer / aider
+### Contribuer
 
-Nous croyons en un monde ou tout le monde peut contribuer, pas seulement des experts en informatique.
+Nous croyons en un monde ou toute personne peut contribuer, pas seulement des experts proclamés.
 C'est pourquoi nous sommes engagés à faciliter cette collaboration mondiale.
 
 
-#### Developpement
+#### Développement
 
 Vous pouvez contribuer librement au code sur [GitHub](https://github.com/bloom42), et avoir plus d'information
 sur nos proejts sur notre site [opensource.bloom.sh](https://opensource.bloom.sh).
