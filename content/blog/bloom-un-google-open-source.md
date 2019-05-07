@@ -44,12 +44,12 @@ d'éviter que les choses ne tournent affreusement mal pour notre espèce. Agir o
 
 ### La crise écologiques
 
-La crise écologique étant la plus importante car elle englobe beaucoup de facteurs, que ce soit les
+La crise écologique est la plus importante car elle englobe beaucoup de facteurs, que ce soit les
 problemes d'accès à de l'eau potable,
 le réchauffement climatique, l'extinction d'espèces animales, les éxodes climatiques, la pollution des sols et des reources aaqueuses,
 les maladies respiratoires, le 7ème continent de platique...
 
-Notre surconsommation entraîne la destruction de notre habitat et nous met donc en danger.
+Notre surconsommation entraîne la destruction de notre habitat et nous met en danger.
 
 Le constat est allarmant et l'immobilisme encore plus.
 
@@ -98,18 +98,17 @@ que pour maintenir en vie un système malade. -->
 
 Le printemps arabe, les gilets jaunes, les populations dont la qualité de vie ne bénéficie pas des richesses qu'elles
 produisent remettent en cause le [contrat social](https://fr.wikipedia.org/wiki/Du_contrat_social).
-Il es impératif de trouver vite un nouveau système, un système unificateur pour faire face à la
+Il es impératif de trouver vite un nouveau système, un système où tout le monde y retrouve son compte, pour faire face ensemble à la
 crise écologique.
 
 
 ### Le risque pandémique
 
 Je ne vais pas m'étendre sur le sujet par manque de données, de connaissances et de capacité d'action,
-mais l'[épidémie du SRAS en 2002](https://fr.wikipedia.org/wiki/Syndrome_respiratoire_aigu_s%C3%A9v%C3%A8re_li%C3%A9_au_coronavirus),
-de [grippe A (H1N1) en 2009](https://fr.wikipedia.org/wiki/Grippe_A_(H1N1)_de_2009)
-laisse présager un futur turbulent.
+mais l'[épidémie du SRAS en 2002](https://fr.wikipedia.org/wiki/Syndrome_respiratoire_aigu_s%C3%A9v%C3%A8re_li%C3%A9_au_coronavirus) et celle de [grippe A (H1N1) en 2009](https://fr.wikipedia.org/wiki/Grippe_A_(H1N1)_de_2009)
+laissent présager un futur turbulent.
 
-Le croisement des technologies de transport, du réchauffement climatique, de l'élevage intensif et de la distribution intensive
+Le croisement des technologies de transport, du réchauffement climatique, de la distribution intensive
 d'antibiotiques aussi bien pour notre bétail que pour nous même fait peser un risque réel de maladie infectieuse face à laquelle nous serions impuissants.
 
 **Les antibiotiques, c’est pas automatique !**
@@ -132,7 +131,7 @@ si ce n'est criminel. Oui, bloquer des publications scientifiques derrière des 
 
 La naissance de l'open source / data / access... vient de personnes ne cherchant pas à maximiser leur
 profit personnel, mais ayant compris que mettre à disposition gratuitement et librement les fruits de leur travail
-ne bénéficie pas seulement à eux, mais aussi à la société, à l'humanité entière.
+ne bénéficie pas seulement à eux, mais aussi à la société, à l'humanité entière, rejetant les dérives du *Copyright*.
 
 
 ### Open source
