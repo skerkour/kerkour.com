@@ -117,7 +117,7 @@ aberration effarantes sont deja en place
 les derives des ayants droits sur youtubes,
 [les derives des journaux scientifiques](https://www.youtube.com/watch?v=WnxqoP-c0ZE),
 les [copyright trolls](https://en.wikipedia.org/wiki/Copyright_troll)...).
-et dont les externalités negaitves ne sont jamais, ne serait-ce que, mentionnées, sont "au mieux" de la cupidité
+et dont les externalités négaitves ne sont jamais, ne serait-ce que, mentionnées, sont "au mieux" de la cupidité
 si ce n'est criminel. Oui, bloquer des publications scientifiques derrière des abonnement hors de prix tue.
 
 **Toute cette bureaucratie n'est bien sûr pas la bienvenue alors que l'humanité fait face à des problèmes majeurs.**
@@ -138,11 +138,13 @@ et [des téléphones](https://www.android.com) aujourd'hui.
 
 #### Interêts composés
 
-Quamd un développeur travail sur un projet propriétaire, les fruits de son trvail bénéficient uniquement
-à son employeur et dans une moindre mesure à ses clients.
+Quand un développeur travail sur un projet propriétaire, les fruits de son trvail bénéficient uniquement
+à son employeur et dans une moindre mesure à ses clients. Le jour où il change d'emploi, il perd tout le travail effectué
+précédemment.
 
-Quamd un développeur contribue à un open source, le fruit de son travail lui beneficie à lui, aux
+Quand un développeur contribue à un projet open source, le fruit de son travail lui beneficie à lui, aux
 utilisateurs du projet open source, et au reste de monde qui peut l'utiliser gratuitement, le modifier, l'améliorer.
+Quqnd il chqnge d'emploi, ou de projet, son précédent emploi continue à lui être bénéfique.
 
 Chaque entreprise, chaque organisation, n'a plus à tout réinventer dans son coin, elle est libre de s'appuyer si elle le veut
 sur le travail effectué par d'autres pour y ajouter ce qu'elle estime être de la valeur.
