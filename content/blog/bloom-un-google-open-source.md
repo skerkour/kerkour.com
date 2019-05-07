@@ -201,6 +201,14 @@ ils deviennent plus résilient à des tentatives de censure.
 
 ### Open Access
 
+*L’open access (ou aussi « libre accès », ou encore « accès ouvert ») à la littérature scientifique est un mode de diffusion des articles de recherche sous forme numérique, gratuite et dans le respect du droit d’auteur.*
+
+[Le monde de la publication scientifique est gangréné](https://www.echosciences-grenoble.fr/articles/la-controverse-en-matiere-de-publication-des-articles-scientifiques).
+
+Il n'y a rien à dire, tout le monde voit l'intérêt pour le bien commun de publier publiquement et gratuitement les résultats
+des chercheurs financés aussi bien par le public que le privé.
+
+Je recommande le livre [Open Acces de Peter Suber](http://ia601805.us.archive.org/17/items/9780262517638OpenAccess/9780262517638_Open_Access.pdf) pour approfondir le sujet.
 
 
 ### Open data
@@ -219,8 +227,8 @@ Le problèmes c'est qu'aujourd'hui ces données, produites par tout le monde, so
 entreprises (*les géants de la tech*), et sont utilisées entre autre pour [déstabiliser nos organisations politiques](https://fr.wikipedia.org/wiki/Cambridge_Analytica).
 
 
-Disposer des ces données en accès libre permettrait de multiplier la rapidité d'innovations utiles dans le domaine
-de la robotique, de la médecine, des transoprts.
+Disposer des ces données en accès libre permettrait de multiplier la rapidité d'innovation dans les domaines
+de la robotique, de la médecine, des transoprts etc... mais surtout de grandement réduire les besoins en resource dans ces domaines.
 
 
 
