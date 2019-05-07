@@ -348,7 +348,7 @@ En faisant un don en crypto-monnaie:
 
 ### En résumé
 
-En résumé le master plan est:
+En résumé le master plan est le suivant:
 
 1. Créer des logiciels payants<br />
 2. Avec cet argent créer des logiciels gratuits et libres, libérer la donnée et l'accès a la connaissance scientifique pour le bien commun<br />
