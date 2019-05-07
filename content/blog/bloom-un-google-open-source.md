@@ -20,10 +20,10 @@ lang = "fr"
 
 ## TL;DR
 
-Pour amorcer une réponse aux enjeux universels et inédits de notre siècle j'ai créé une alternative gratuite,
+Pour sortir de l'immobilisme face aux enjeux universels et inédits de notre siècle j'ai créé une alternative gratuite,
 libre et open source à Google (et sans publicités / ciblage): Bloom.
 C'est par [ici pour la version en ligne](https://bloom.sh), par [ici pour le code](https://github.com/bloom42)
-et par [ici pour aider / contribuer](#contribuer-aider). Ce n'est que le début d'une grande aventure 🚀
+et par [ici pour  contribuer](#contribuer). Ce n'est que le début d'une grande aventure 🚀
 
 
 ## Des enjeux universels et inédits
@@ -250,13 +250,10 @@ Mais cette transparence vertueuse est surtout nécessaire, car si les vraies inf
 à la vitesse de la lumière, les fausse aussi (*fake news*). Aujourd'hui mises en avant car elles menacent la stabilité
 de nos sociétés il existe 2 grandes directions pour restreindre leurs effets:
 
-* La censure
+* La censure de masse
 * La transparence
 
-La censure signifiant une communication à sens unique, d'une infime minorité ayant le pouvoir vers les masses.
-
-La transparence de son côté n'est pas suffisante à elle seule pour mettre fin aux fausses informations, mais
-elle permet d'apporter des faits contradictoires et prouvables (contrairement aux *fake news*).
+D'un côté il est facile de comprendre pourquoi la censure de masse est néfaste, d'un autre côté la transparence n'est pas suffisante à elle seule pour mettre fin aux fausses informations. Elle permet avant tout d'apporter des faits contradictoires et prouvables (contrairement aux *fake news*).
 
 
 La première étape de la transparence est de rendre les données publiques. La seconde est de les rendre facile
@@ -269,10 +266,10 @@ est le fondement même du contre-pouvoir.
 
 ## Bloom: le master plan top secret
 
-Bloom se veut l'amorce d'un changement de paradigme dans la manière dont nous consommons mais surtout dans
+Bloom se veut l'amorce d'un changement de paradigme, dans la manière dont nous consommons mais surtout dans
 la manière dont nous produisons.
 
-Un monde de coopération plutôt que de compétition. On ne peut juste pas continuer à tous concourir pour les mêmes
+Un monde de coopération plutôt que de compétition. Nous n'avons simplement pas le luxe de continuer à concourir pour les mêmes
 resources finies, faisant fi des destructions et pollutions engendrées.
 
 C'est à nous de choisir aujourd'hui si nous voulons travailler toujours plus pour entretenir et éxhacerber les inégalités déjà criantes,
@@ -314,10 +311,14 @@ C'est pourquoi nous sommes engagés à faciliter cette collaboration mondiale et
 Un chat Discord est disponible ici: <a href="https://discord.gg/HmDQDGv" target="_blank" rel="noopener">https://discord.gg/HmDQDGv</a>.
 
 
-#### Développement logiciel
+Pour rester informé des dernières mises à jours suivez nous sur <a href="https://discord.gg/HmDQDGv" target="_blank" rel="noopener">Twitter</a>.
 
-Vous pouvez contribuer librement au code sur [GitHub](https://github.com/bloom42), et avoir plus d'information
-sur nos projets sur notre site [opensource.bloom.sh](https://opensource.bloom.sh).
+
+#### Développement
+
+Pour contribuer au code cela se passe sur [GitHub](https://github.com/bloom42).
+
+Plus d'informations sont disponibles sur notre site [opensource.bloom.sh](https://opensource.bloom.sh).
 
 ##### Rust
 
