@@ -29,17 +29,17 @@ et par [ici pour aider / contribuer](#contribuer-aider). Ce n'est que le début 
 ## Des enjeux universels et inédits
 
 Voici une nouvelle qui n'en n'est pas une: le début du XXIème siècle est un tournant décisif dans
-l'histoire de l'humanité. Si aujourd'hui la culture n'a plus de frontière (evenement sportifs, art, )
+l'histoire de l'humanité. Si aujourd'hui la culture n'a plus de frontière (évènement sportifs, art ...)
 les problèmes non plus. Les enjeux auxquels fait face l'humanité dépassent les Pays, les continents
 et menancent notre espèce entière.
 
-C'est donc tous ensemble que nous allons devoir nous unir,
+Nous devons donc nous unir,
 malgré nos différences et notre passé où nos ancêtre se sont parfois opposés.
-C'est tous ensemble que nous allons devoir apporter des réponses à la fois aux enjeux de court terme
-et ceux du long terme.
+C'est tous ensemble que nous devons apporter des réponses à la fois aux enjeux de court terme (sociaux)
+et ceux du long terme (environnementaux).
 
 
-Il n'y aura pas de gagnant, pas de vainqueur et donc pas de perdants, la récompense étant simplement
+Il n'y aura pas de perdants, que des gagnants la récompense étant simplement
 d'éviter que les choses ne tournent affreusement mal pour notre espèce.
 
 
@@ -59,23 +59,23 @@ travailler toute la journée derrière un ordinateur ? La question est bien sur 
 
 Une question m'obsède: Comment se fait-il que nous devions travailler toujours plus pour avoir accès
 à un niveau de vie convenable, quand on voit toutes les richesses produites dans le monde ? Ces
-richesses ne cumulent-elles pas ? Si nous sommes organisés en sociétés, alors pourquoi la société dans
-son ensemble n'en profite-t-elle pas ? Pourquoi ne travaillons nous simplement pas 2 mois par an ? ou 3 jours par semaine ?
+richesses ne se cumulent-elles pas ? Si nous sommes organisés en sociétés, alors pourquoi les sociétés dans
+leurs ensembles ne profitent-t-elles pas des ces richesses ? Pourquoi ne travaillons nous simplement pas 2 mois par an ? ou 3 jours par semaine ?
 
 Le mot clé est bien sur le mot *travail*. Les technologies de l'information, la robotique et
-l'intelligence artificielle remettent jour après jour en cause notre définition du travail.
+l'intelligence artificielle remettent en cause jour après jour notre définition du not *travail*.
 
 Avec l'impôts il est aujourd'hui notre seule méthode de redistribution des richesses.
-La technologie fait qu'on a de moins en moins de travail humain pour répondre à nos **besoins**. Et c'est une bonne chose.
+La technologie fait qu'on nécessite de moins en moins de travail humain pour répondre à nos **besoins**. Et c'est une bonne chose.
 À condition de ne pas voir un emploi comme un élément de réussite personnelle, de ne pas voir le chômage comme
 une variable qui doit tendre vers 0. Alors que les emplois se déplacent de plus en plus du secteur primaire
-vers le secteur tertiaire, le secteur tertiaire ne propose pas d'autant d'occupation que le npmbre d'arrivants.
+vers le secteur tertiaire, le secteur tertiaire ne propose pas autant d'occupations que le nombre d'arrivants.
 
 A-t-on besoin d'un restaurant par personne dans chaque ville ? A-ton besoin de de 100 ingénieurs pour concevoir
 un robot pouvant faire le travail de 100 agriculteurs ? NON !
 
 
-Le chômage est donc voué à auguementer. Or cela va mettre à mal toute l'organisation de notre société.
+Le chômage est donc voué à auguementer. Or cela va mettre à mal toute l'organisation de nos sociétés.
 Par exemple le système des retraites Français, en prenant en compte notre population vieillissante, comment allons nous
 faire qunad le nombre *d'inactifs* sera supérieur au nombre *d'actifs* ? (il va falloir trouver une solution
 rapidement car c'est pour bientôt, aujourd'hui il y aurait 1,4 *actif* pour 1 *inactif*).
@@ -186,7 +186,7 @@ peuvent faire faillite. Or depuis [la situation économique modiale](https://fr.
 L'open source permet aux projets de survivre non suelement à la faillite d'une entreprise mais aussi à une coupure d'internet ou encore
 à une guerre économique.
 
-Et puisque ces servies entrent dans le bien commun, qu'ils ne sont pas la propriété d'une entrprise particulière,
+Et puisque ces services entrent dans le bien commun, qu'ils ne sont pas la propriété d'une entrprise particulière,
 il y a un intérêt commun à ce qu'un tyran ne censure pas ces services, et donc de l'opposition.
 
 
@@ -196,7 +196,7 @@ il y a un intérêt commun à ce qu'un tyran ne censure pas ces services, et don
 
 ### Open data
 
-L’open data *ou donnée ouverte est une donnée numérique dont l'accès et l'usage sont laissés libres aux usagers.*
+L’open data *ou donnée ouverte est une donnée numérique dont l'accès et l'usage sont laissés libres.*
 
 
 La donnée est aujourd'hui comparée au pétrol, de la même manière que ce dernier est le carburant de nos moteurs à
@@ -221,7 +221,7 @@ N'importe qui, sans distinction aucune peut s'en saisir et l'enrichir.
 
 Mais cette transparence vertueuse est surtout nécessaire, car si les vraies informations se propagent
 à la vitesse de la lumière, les fausse aussi (*fake news*). Aujourd'hui mises en avant car elles menacent la stabilité
-des sociétés modernes il existe 2 grandes directions pour restreindre leurs effets:
+de nos sociétés il existe 2 grandes directions pour restreindre leurs effets:
 
 * La censure
 * La transparence
@@ -251,12 +251,13 @@ C'est à nous de choisir aujourd'hui si nous voulons d'une monde d'esclavage per
 ou si nous voulons d'un monde où les technologies sont au service du bien de tous. Cet avenir n'est pas encore
 écrit.
 
-Bloom une organisation qui grâce à l'Open source/access/data, redistribuera gratuitement et librement
-sa produciton à large échelle en s'appuyant sur les nouvelles techonologies pour le faire à moindre
+Bloom est une organisation qui grâce à l'Open source/access/data, redistribue gratuitement et librement
+sa production à large échelle en s'appuyant sur les nouvelles techonologies pour le faire à moindre
 coût, plutôt que des les utiliser pour privatiser et centraliser des richesses.
 
-Bloom reprend les codes et méthodes de *Startuplaland* ainsi que leurs inclinaison vers l'éxecution
-plutôt que pour la bureaucratie et les discussions sans fin pour lesquelles nous n'avons plus le temps.
+Bloom reprend les codes et méthodes de *Startuplaland* ainsi que l'**inclinaison vers l'éxecution
+plutôt que pour la bureaucratie et les discussions sans fin pour lesquelles nous n'avons plus le temps**. Avec
+pour objectif une meilleure qualité de vie universelle et non l'enrichissement privé.
 
 Bloom propose aujourd'hui les services suivants:
 
