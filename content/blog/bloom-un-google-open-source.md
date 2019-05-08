@@ -410,7 +410,7 @@ En résumé le master plan est le suivant:
 2. Avec cet argent réduire le prix de ces logiciels, libérer la donnée et l'accès a la connaissance scientifique<br />
 3. Avec cet argent et cette communauté créer l'infrastructure publique pour faire fonctionner ces logiciels et héberger ces données publiques
 
-Notre mission ? Émanciper tout un chacun, en créeant une infrastructure ouverte et globale, par le peuple, pour le peuple.
+Notre mission ? Faire du monde une meilleure place grâce à des technologies ouvertes, par le peuple, pour le peuple.
 
 Mais chuuut, c'est un secret 🤫
 
