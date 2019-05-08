@@ -289,9 +289,8 @@ Bloom est une organisation qui grâce à l'Open source/access/data..., redistrib
 sa production à large échelle en s'appuyant sur les nouvelles technologies pour le faire à moindre
 coût, plutôt que des les utiliser comme outil impérialiste.
 
-Bloom reprend les codes et méthodes de *Startuplaland*: l'**inclinaison vers l'éxecution
-plutôt que pour la bureaucratie et les discussions sans fin pour lesquelles nous n'avons plus le temps,
-une expérience utilisateur sans faille et une culture forte pour le produit**. Avec
+Bloom suit la * religion Startuplaland*: l'**inclinaison vers l'éxecution
+plutôt que pour la bureaucratie, une expérience utilisateur sans faille et une culture forte pour le produit**. Avec
 pour objectif une meilleure qualité de vie commune.
 
 Nous avons choisi la <a href="https://fr.wikipedia.org/wiki/Copyleft" target="_blank" rel="noopener">license virale</a> AGPL v3.0 pour la plupart de nos logiciels pour encourager d'autres personnes
