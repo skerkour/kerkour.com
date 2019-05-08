@@ -398,6 +398,9 @@ En faisant un don en crypto-monnaie:
 **XMR**: `4GdoN7NCTi8a5gZug7PrwZNKjvHFmKeV11L6pNJPgj5QNEHsN6eeX3DaAQFwZ1ufD4LYCZKArktt113W7QjWvQ7CW7fRk3auob6QWFSgYJ`
 
 
+ou tout simplement en souscrivant à un abonnement sur <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom</a>.
+
+
 Un grand merci aux personnes ayant déjà contribué:
 *
 
@@ -406,7 +409,7 @@ Un grand merci aux personnes ayant déjà contribué:
 
 En résumé le master plan est le suivant:
 
-1. Créer des logiciels libres dont l'hébergement et la sécurité des données est payant<br />
+1. Créer des logiciels libres et vendre l'hébergement ainsi la sécurité des données hébergées<br />
 2. Avec cet argent réduire le prix de ces logiciels, libérer la donnée et l'accès a la connaissance scientifique<br />
 3. Avec cet argent et cette communauté créer l'infrastructure publique pour faire fonctionner ces logiciels et héberger ces données publiques
 
