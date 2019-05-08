@@ -278,14 +278,14 @@ C'est à nous de choisir aujourd'hui si nous voulons travailler toujours plus po
 ou si nous voulons d'un monde où les technologies sont au service du bien de tous. Cet avenir n'est pas encore
 écrit.
 
-Bloom est une organisation qui grâce à l'Open source/access/data, redistribue gratuitement et librement
+Bloom est une organisation qui grâce à l'Open source/access/data..., redistribue gratuitement et librement
 sa production à large échelle en s'appuyant sur les nouvelles technologies pour le faire à moindre
 coût, plutôt que des les utiliser comme outil impérialiste.
 
 Bloom reprend les codes et méthodes de *Startuplaland*: l'**inclinaison vers l'éxecution
 plutôt que pour la bureaucratie et les discussions sans fin pour lesquelles nous n'avons plus le temps,
 une expérience utilisateur sans faille et une culture forte pour le produit**. Avec
-pour objectif une meilleure qualité de vie universelle.
+pour objectif une meilleure qualité de vie commune.
 
 Bloom propose aujourd'hui les services suivants:
 
@@ -301,7 +301,7 @@ Tous offrant un tier gratuit sans contrepartie (pas de ciblage, pas de publicit�
 et dont le code est disponible librement sur [GitHub](https://github.com/bloom42).
 
 
-**Bloom est le Linux du XXIème siècle.**
+**Bloom est le Linux du XXIème siècle. Bloom est le Wikipedia des services.**
 
 
 ### Contribuer
