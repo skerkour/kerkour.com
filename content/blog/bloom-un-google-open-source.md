@@ -210,6 +210,11 @@ Et puisque ces services entrent dans le bien commun, qu'ils ne sont pas la propr
 ils deviennent beaucoup plus résilients à des tentatives de censure.
 
 
+#### Open source dans l'éducation
+
+Une
+
+
 ### Open Access
 
 *L’open access (ou aussi « libre accès », ou encore « accès ouvert ») à la littérature scientifique est un mode de diffusion des articles de recherche sous forme numérique, gratuite et dans le respect du droit d’auteur.*
@@ -347,6 +352,12 @@ Il sera utilisé pour **tous** les projets de Bloom sauf impératif contraire
 
 Pour contribuer au design de Bloom cela se passe sur le repo [github.com/bloom42/design](https://github.com/z0mbie42/design).
 
+
+#### En partageant
+
+Répandez le mot, débattez avec vos amis, paratgez Bloom sur les réseaux sociaux !
+
+Nous ne sommes encore qu'au début de l'aventure et nous faire connaître nous aide ééénooormément !
 
 #### Financièrement
 
