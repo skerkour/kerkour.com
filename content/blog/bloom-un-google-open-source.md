@@ -342,6 +342,7 @@ Plus d'informations sont disponibles sur notre site [opensource.bloom.sh](https:
 * Un langage open-source et embrassant pleinement les valeurs de Bloom
 * Un langage permettant la fois des abstractions de haut niveau et des constructions de bas niveaux, sans coût de performance
 * Un langage portable qui peut aussi bien être utilisé pour des services web que pour des robots
+* Tous nos services doivent pouvoir être auto-hébergés sur un <a href="https://www.raspberrypi.org" target="_blank" rel="noopener">Raspberry pi</a>
 
 
 Il sera utilisé pour **tous** les projets de Bloom sauf impératif contraire
