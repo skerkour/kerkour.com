@@ -384,8 +384,8 @@ Un grand merci aux personnes ayant déjà contribué:
 
 En résumé le master plan est le suivant:
 
-1. Créer des logiciels payants<br />
-2. Avec cet argent créer des logiciels gratuits et libres, libérer la donnée et l'accès a la connaissance scientifique pour le bien commun<br />
+1. Créer des logiciels libres dont l'hébergement est payant<br />
+2. Avec cet argent réduire le prix de ces logiciels, libérer la donnée et l'accès a la connaissance scientifique<br />
 3. Avec cet argent et cette communauté créer l'infrastructure publique pour faire fonctionner ces logiciels et héberger ces données publiques
 
 
