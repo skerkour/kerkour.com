@@ -316,7 +316,7 @@ et dont le code est disponible librement sur [GitHub](https://github.com/bloom42
 
 Nous n'avons pas encore de réponse concernant la gouvernance mais nous sommes ouvert à un système
 de gouvernance ouvert, multi-latéral tout en préservant la sécurité et l'intergrité des systèmes
-( ce que ne permet pas par exemple la fédération simple, comme le montre les spams dans le monde des emails).
+(ce que ne permet pas par exemple la fédération simple, comme le montre les spams dans le monde des emails).
 
 
 ### Contribuer
@@ -410,6 +410,7 @@ En résumé le master plan est le suivant:
 2. Avec cet argent réduire le prix de ces logiciels, libérer la donnée et l'accès a la connaissance scientifique<br />
 3. Avec cet argent et cette communauté créer l'infrastructure publique pour faire fonctionner ces logiciels et héberger ces données publiques
 
+Notre mission ? Émanciper tout un chacun, en créeant une infrastructure ouverte et globale, par le peuple, pour le peuple.
 
 Mais chuuut, c'est un secret 🤫
 
