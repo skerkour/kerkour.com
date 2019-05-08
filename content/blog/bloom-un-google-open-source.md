@@ -64,7 +64,8 @@ travailler toute la journée derrière un ordinateur ? La question est bien sûr
 Une question m'obsède: Comment se fait-il que nous devions travailler toujours plus pour avoir accès
 à un niveau de vie convenable, quand on voit toutes les richesses produites dans le monde ? Ces
 richesses ne se cumulent-elles pas ? Si nous sommes organisés en sociétés, alors pourquoi les sociétés dans
-leurs ensembles ne profitent-t-elles pas des ces richesses ? Pourquoi ne travaillons nous simplement pas 2 mois par an ? ou 3 jours par semaine ?
+leurs ensembles ne profitent-t-elles pas des ces richesses ?
+<!-- Pourquoi ne travaillons nous simplement pas 2 mois par an ? ou 3 jours par semaine ? -->
 
 Le mot clé est bien sûr le mot *travail*. Depuis l'invention de la machine à vapeur jusqu'à la robotique et
 l'intelligence artificielle, la technologie remet en cause jour après jour notre définition du mot *travail*.
@@ -134,7 +135,7 @@ les derives des ayants droits sur youtubes,
 [les derives des journaux scientifiques](https://www.youtube.com/watch?v=WnxqoP-c0ZE),
 les [copyright trolls](https://en.wikipedia.org/wiki/Copyright_troll)...).
 et dont les externalités négaitves ne sont jamais, ne serait-ce que, mentionnées, sont "au mieux" de la cupidité
-si ce n'est criminel. Oui, bloquer des publications scientifiques derrière des abonnement hors de prix tue.
+si ce n'est criminel. Oui, les brevets sur les médicaments ou les semences tuent.
 
 **Toute cette bureaucratie n'est bien sûr pas la bienvenue alors que l'humanité fait face à des problèmes majeurs.**
 
@@ -299,6 +300,8 @@ Tous offrant un tier gratuit sans contrepartie (pas de ciblage, pas de publicit�
 et dont le code est disponible librement sur [GitHub](https://github.com/bloom42).
 
 
+**Bloom est le Linux du XXIème siècle.**
+
 
 ### Contribuer
 
@@ -394,3 +397,5 @@ Mais chuuut, c'est un secret 🤫
 ♪ [MC Solaar - Sauvez le monde](https://www.youtube.com/watch?v=dERx6uFUf6o)
 
 📖 [21 leçons pour le XXIe siècle, *Yuval Noah Harari*](https://www.ynharari.com/fr/book/21-lessons/)
+
+🎬 [Internet ou la révolution du partage | ARTE](https://www.youtube.com/watch?v=gr2uo-Nwot0)
