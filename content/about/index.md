@@ -10,9 +10,11 @@ template = "about.html"
   <!-- style="margin: 0 auto;display: block;"/> -->
 <!-- </div> -->
 
-Hey! I'm Sylvain Kerkour (*a.k.a* **z0mbie42**), INTJ, [42](https://www.42.fr) alumni,
+Hey! I'm Sylvain Kerkour (*a.k.a* **z0mbie42**), INTJ, <a href="https://www.42.fr" target="_blank" rel="noopener">42</a> alumni,
 
 creator of <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom: Open internet services</a>.
+
+**I'm on a mission to empower the world with open technologies, by the people, for the people.**
 
 You can find me on GitHub as [@z0mbie42](https://github.com/z0mbie42)<br/>
 and on Twitter as [@z0mbie42](https://twitter.com/z0mbie42)<br/>
@@ -21,7 +23,7 @@ Contact: <span id="email"></span>
 
 I'm currently on UTC+1
 
---------
+<hr size="1" />
 
 If you like my work, you can help it level up:
 
