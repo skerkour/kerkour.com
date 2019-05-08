@@ -283,7 +283,8 @@ sa production à large échelle en s'appuyant sur les nouvelles technologies pou
 coût, plutôt que des les utiliser comme outil impérialiste.
 
 Bloom reprend les codes et méthodes de *Startuplaland*: l'**inclinaison vers l'éxecution
-plutôt que pour la bureaucratie et les discussions sans fin pour lesquelles nous n'avons plus le temps**. Avec
+plutôt que pour la bureaucratie et les discussions sans fin pour lesquelles nous n'avons plus le temps,
+une expérience utilisateur sans faille et une culture forte pour le produit**. Avec
 pour objectif une meilleure qualité de vie universelle.
 
 Bloom propose aujourd'hui les services suivants:
