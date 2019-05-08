@@ -289,7 +289,7 @@ Bloom est une organisation qui grâce à l'Open source/access/data..., redistrib
 sa production à large échelle en s'appuyant sur les nouvelles technologies pour le faire à moindre
 coût, plutôt que des les utiliser comme outil impérialiste.
 
-Bloom suit la * religion Startuplaland*: l'**inclinaison vers l'éxecution
+Bloom suit la *religion Startuplaland*: l'**inclinaison vers l'éxecution
 plutôt que pour la bureaucratie, une expérience utilisateur sans faille et une culture forte pour le produit**. Avec
 pour objectif une meilleure qualité de vie commune.
 
