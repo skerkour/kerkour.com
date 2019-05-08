@@ -314,6 +314,10 @@ et dont le code est disponible librement sur [GitHub](https://github.com/bloom42
 
 **Bloom est le Linux du XXIème siècle. Bloom est le Wikipedia des services.**
 
+Nous n'avons pas encore de réponse concernant la gouvernance mais nous sommes ouvert à un système
+de gouvernance ouvert, multi-latéral tout en préservant la sécurité et l'intergrité des systèmes
+( ce que ne permet pas par exemple la fédération simple, comme le montre les spams dans le monde des emails).
+
 
 ### Contribuer
 
