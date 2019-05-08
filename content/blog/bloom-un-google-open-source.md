@@ -193,9 +193,11 @@ celui de faire profiter à tout le monde des richesses crées par le résultat d
 
 #### Résilience
 
-Que se passerait-il si demain Google perdait tout intêret économique à faire des affaire et bloque son accès à l'Europe ?
-Que se passerait-il si demain Twitter faisait faillite et devait stopper ses services ?
-Que se passerait-il si demain un gouvernement tyrannique bloquait WhatsApp ?
+<a href="https://nest.com/whats-happening" target="_blank" rel="noopener">Que se passerait-il si demain Google perdait tout intêret économique à faire des affaire et bloque son accès à l'Europe ?</a>
+
+<a href="https://techcrunch.com/2015/10/21/twitter-ceo-dorsey-apologizes-to-developers-says-he-wants-to-reset-relations" target="_blank" rel="noopener">Que se passerait-il si demain Twitter faisait faillite et stoppait ses services ?</a>
+
+<a  href="https://theintercept.com/2016/05/02/whatsapp-used-by-100-million-brazilians-was-shut-down-nationwide-today-by-a-single-judge" target="_blank" rel="noopener"> Que se passerait-il si demain un gouvernement tyrannique bloquait WhatsApp ?</a>
 
 La crise financière de 2008 nous a douloureusement rappelé que des entreprises que l'on croyait intouchables
 peuvent faire faillite. Or depuis [la situation économique modiale](https://fr.wikipedia.org/wiki/Dette_publique) ne s'est pas améliorée.
