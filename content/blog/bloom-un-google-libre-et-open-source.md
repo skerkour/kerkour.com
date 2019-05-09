@@ -15,6 +15,7 @@ lang = "fr"
 1. [Des enjeux universels et inédits](#des-enjeux-universels-et-inedits)
 2. [Open source, access, data ...](#open-source-access-data)
 3. [Bloom: le master plan top secret](#bloom-le-master-plan-top-secret)
+4. [En résumé](#en-résumé)]
 
 -------
 
@@ -43,7 +44,7 @@ Il n'y aura pas de perdants, que des gagnants la récompense étant simplement
 d'éviter que les choses ne tournent affreusement mal pour notre espèce. Agir ou subir. -->
 
 
-### La crise écologiques
+### La crise écologique
 
 La crise écologique est la plus importante car elle englobe beaucoup de sous problèmes, que ce soit les
 problèmes d'accès à de l'eau potable,
@@ -452,7 +453,7 @@ Un grand merci aux personnes ayant déjà contribué:
 * Anne Kerkour
 
 
-### En résumé
+## En résumé
 
 En résumé le master plan est le suivant:
 
