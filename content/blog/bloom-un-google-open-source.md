@@ -421,7 +421,7 @@ En faisant un don en crypto-monnaie:
 **XMR**: `4GdoN7NCTi8a5gZug7PrwZNKjvHFmKeV11L6pNJPgj5QNEHsN6eeX3DaAQFwZ1ufD4LYCZKArktt113W7QjWvQ7CW7fRk3auob6QWFSgYJ`
 
 
-ou tout simplement en souscrivant à un abonnement sur <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom</a>.
+ou tout simplement en souscrivant à un abonnement sur <a href="https://bloom.sh" target="_blank" rel="noopener">bloom.sh</a>.
 
 
 Un grand merci aux personnes ayant déjà contribué:
