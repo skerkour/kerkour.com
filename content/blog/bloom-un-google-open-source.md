@@ -209,8 +209,9 @@ Ils ne sont plus simplement des consommateurs, mais acteurs.
 Entrer dans un modèle de collaboration plutôt que de compétition est la seule solution pour limiter
 notre surconsommation des resources, la surexploitation de notre environnement et surtout limiter notre propre empoisonnement.
 
-La collaboration ce ne sont pas que les associations avec peu de moyens, c'est avant tout un état d'esprit,
-celui de faire profiter à tout le monde des richesses crées par le résultat de notre travail.
+**La collaboration c'est avant tout un état d'esprit,
+celui de faire profiter à tout le monde des richesses issues de notre labeur, et ce sans distinction de status d'employé
+ou de chômeur.**
 
 
 #### Résilience
