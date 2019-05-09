@@ -61,7 +61,7 @@ travailler toute la journée derrière un ordinateur ? La question est bien sûr
 ### La crise sociale
 
 
-Une question m'obsède: Comment se fait-il que nous devions travailler toujours plus pour avoir accès
+Une question m'obsède: comment se fait-il que nous devions travailler toujours plus pour avoir accès
 à un niveau de vie convenable, quand on voit toutes les richesses produites dans le monde ?
 <!-- Ces richesses ne se cumulent-elles pas ? Si nous sommes organisés en sociétés, alors pourquoi les sociétés dans -->
 <!-- leurs ensembles ne profitent-t-elles pas des ces richesses ? -->
@@ -70,7 +70,7 @@ Une question m'obsède: Comment se fait-il que nous devions travailler toujours 
 <!-- Le mot clé est bien sûr le mot *travail*. Depuis l'invention de la machine à vapeur jusqu'à la robotique et -->
 <!-- l'intelligence artificielle, la technologie remet en cause jour après jour notre définition du mot *travail*. -->
 
-Avec l'impôt le travail est aujourd'hui notre seul moyen de redistribution des richesses.
+Avec l'impôt, le travail est aujourd'hui notre seul moyen de redistribution des richesses.
 La technologie fait qu'on nécessite de moins en moins de travail humain pour répondre à nos **besoins**.
 
 <!-- Moins de travail signifiant moins de revenu
