@@ -80,7 +80,7 @@ Par exemple le système des retraites Français, en prenant en compte une popula
 faire quand le nombre *d'inactifs* sera supérieur au nombre *d'actifs* ? (il va falloir trouver une solution
 rapidement car c'est pour bientôt, aujourd'hui il y aurait 1,4 *actif* pour 1 *inactif*). -->
 
-Deux solutions se présentent:
+Deux possibilités se présentent:
 
 * Consommer toujours plus
 * Mieux redistribuer les richesses
