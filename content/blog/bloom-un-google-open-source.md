@@ -95,8 +95,8 @@ Moins de nécessité de production = moins de travil = + de chômage et donc moi
   Distribution des richesses. World economic forum.
 </div>
 
-La question est donc la suivante: Comment mieux redistribuer les richesses de manière à améliorer le niveau de vie
-universel, sans nous autodétruire du fait de la surconsommation ?
+La question est donc la suivante: **Comment mieux redistribuer les richesses de manière à améliorer le niveau de vie
+universel, sans nous autodétruire du fait de la surconsommation ?**
 
 
 Le printemps arabe, les gilets jaunes, les populations dont la qualité de vie ne bénéficie pas des richesses qu'elles
