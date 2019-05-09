@@ -241,7 +241,7 @@ n'est que la garantie d'une mort lente et douloureuse.
 L'Open source profite triplement à l'éducation:
 * En réduisant drastiquement les coûts
 * En améliorant la qualité des matériaux éducatifs
-* En permettant d'étudier, de comprendre les systèmes éxistants
+* En permettant d'étudier librement les systèmes éxistants
 
 
 ### Open data
