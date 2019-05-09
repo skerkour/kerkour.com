@@ -173,7 +173,8 @@ ne bénéficie pas seulement à elles, mais aussi à la société, à l'humanit�
 
 L'exemple le plus connu d'open source est [Linux](https://fr.wikipedia.org/wiki/Linux), un système d'exploitation
 libre et gratuit qui est utilisés par la majorité des [serveurs](https://fr.wikipedia.org/wiki/Serveur_informatique)
-et [des téléphones](https://www.android.com) aujourd'hui.
+et [des téléphones](https://www.android.com) aujourd'hui. Que votre téléphone reopse sur Android ou IOS, il contient forcément
+des logiciels open source en plus ou moins grande quantité.
 
 #### Interêts composés
 
