@@ -21,7 +21,7 @@ lang = "fr"
 ## TL;DR
 
 Pour sortir de l'immobilisme face aux enjeux universels et inédits de notre siècle j'ai créé une alternative gratuite,
-libre et open source à Google (et sans publicités ni ciblage): Bloom.
+libre et open source à Google (et sans publicité ni ciblage): Bloom.
 C'est par [ici pour la version en ligne](https://bloom.sh), par [ici pour le code](https://github.com/bloom42)
 et par [ici pour  contribuer](#contribuer). Ce n'est que le début d'une grande aventure 🚀
 
@@ -212,8 +212,8 @@ Entrer dans un modèle de collaboration plutôt que de compétition est la seule
 la surexploitation de notre environnement et donc limiter notre propre empoisonnement.
 
 **La collaboration c'est avant tout un état d'esprit,
-celui de faire profiter à au monde entier des richesses issues de notre labeur (ou passion), et ce que nous soyons employé
-ou chômeur.**
+celui de créer et de profiter ensemble, que nous soyons employé
+ou non.**
 
 
 #### Résilience
@@ -237,7 +237,8 @@ ils deviennent beaucoup plus résilients à des tentatives de censure.
 
 #### Un tremplin pour l'éducation
 
-L'éducation façonne nos sociétés. Lui imposer des limites artificielles (*Copyright*, prix excessifs...)
+L'éducation façonne nos sociétés. Lui imposer des limites artificielles (*Copyright*, prix excessifs,
+<a  href="https://fr.wikipedia.org/wiki/Gestion_des_droits_num%C3%A9riques" target="_blank" rel="noopener">DRM</a> ...)
 n'est que la garantie d'une mort lente et douloureuse.
 
 L'Open source profite triplement à l'éducation:
@@ -279,7 +280,7 @@ de sa modification.
 [Le monde de la publication scientifique est gangréné](https://www.echosciences-grenoble.fr/articles/la-controverse-en-matiere-de-publication-des-articles-scientifiques).
 
 Il n'y a rien à dire, tout le monde voit l'intérêt pour le bien commun de publier publiquement et gratuitement les résultats
-des chercheurs financés aussi bien par le public que le privé.
+des chercheurs financés aussi bien par le secteur public que privé.
 
 Je recommande le livre [Open Acces de Peter Suber](http://ia601805.us.archive.org/17/items/9780262517638OpenAccess/9780262517638_Open_Access.pdf) pour approfondir le sujet.
 
@@ -328,7 +329,6 @@ plutôt que la bureaucratie, une expérience utilisateur sans faille et une cult
 pour objectif une meilleure qualité de vie commune.
 
 Nous avons choisi la <a href="https://fr.wikipedia.org/wiki/Copyleft" target="_blank" rel="noopener">license virale</a>
-
 <a href="https://www.gnu.org/licenses/agpl-3.0.fr.html" target="_blank" rel="noopener">AGPL v3.0</a> pour la plupart de nos créations pour encourager d'autres personnes
 à faire de même. Pas d'*open core*, pas d'entourloupe.
 
@@ -349,8 +349,8 @@ et dont le code est disponible librement sur [GitHub](https://github.com/bloom42
 
 **Bloom est le Linux du XXIème siècle. Bloom est le Wikipedia des services.**
 
-Nous n'avons pas encore de réponse concernant la gouvernance mais nous sommes ouvert à un système
-de gouvernance ouvert, multi-latéral tout en préservant la sécurité et l'intergrité des systèmes
+Nous n'avons pas encore de réponse concernant la gouvernance mais nous réfléchissons à un système
+de gouvernance ouvert, multi-latéral tout en préservant la sécurité et l'intergrité du systèmes
 (ce que ne permet pas par exemple la fédération simple, comme le montre les spams dans le monde des emails).
 
 
