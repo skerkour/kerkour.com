@@ -249,7 +249,7 @@ L'Open source profite triplement à l'éducation:
 L’open data *ou donnée ouverte est une donnée numérique dont l'accès et l'usage sont laissés libres.*
 
 
-La donnée est aujourd'hui comparée au pétrol, de la même manière que ce dernier est le carburant de nos moteurs à
+La donnée est aujourd'hui comparée au pétrole, de la même manière que ce dernier est le carburant de nos moteurs à
 explosion, la donnée est le carburant des [algorithmes](https://fr.wikipedia.org/wiki/Algorithme).
 
 C'est en récoltant beaucoup de données et en leur donnant du sens que nous pourrons avoir des véhicules
@@ -268,6 +268,7 @@ de la robotique, de la médecine, des transoprts etc... mais surtout de grandeme
 À l'heure où nous déléguons de plus en plus notre mémoire à des entreprises dans des sillots privés nous n'avons
 absolument aucune garantie quant à l'avenir de cette mémoire, tant au niveau de sa destruction qu'au niveau
 de sa modification.
+
 
 ### Open Access
 
@@ -309,10 +310,10 @@ est le fondement même du contre-pouvoir.
 Bloom se veut l'amorce d'un changement de paradigme, dans la manière dont nous consommons mais surtout dans
 la manière dont nous produisons.
 
-Un monde de coopération plutôt que de compétition. Nous n'avons simplement pas le luxe de continuer à concourir pour les mêmes
+Un monde de collaboration plutôt que de compétition. Nous n'avons simplement pas le luxe de pouvoir continuer à concourir pour les mêmes
 resources finies, faisant fi des destructions et pollutions engendrées.
 
-C'est à nous de choisir aujourd'hui si nous voulons travailler toujours plus pour entretenir et éxhacerber les inégalités déjà criantes,
+C'est à nous de choisir aujourd'hui si nous voulons travailler toujours plus pour entretenir et éxhacerber des inégalités déjà criantes,
 ou si nous voulons d'un monde où les technologies sont au service du bien de tous. Cet avenir n'est pas encore
 écrit.
 
@@ -320,8 +321,8 @@ Bloom est une organisation qui grâce à l'Open source/access/data..., redistrib
 sa production à large échelle en s'appuyant sur les nouvelles technologies pour le faire à moindre
 coût, plutôt que des les utiliser comme outil impérialiste.
 
-Bloom suit la *religion Startuplaland*: l'**inclinaison vers l'éxecution
-plutôt que pour la bureaucratie, une expérience utilisateur sans faille et une culture forte pour le produit**. Avec
+Bloom suit la *religion de Startuplaland*: l'**l'éxecution radicale
+plutôt que la bureaucratie, une expérience utilisateur sans faille et une culture forte pour le produit**. Avec
 pour objectif une meilleure qualité de vie commune.
 
 Nous avons choisi la <a href="https://fr.wikipedia.org/wiki/Copyleft" target="_blank" rel="noopener">license virale</a> AGPL v3.0 pour la plupart de nos logiciels pour encourager d'autres personnes
