@@ -333,7 +333,7 @@ C'est pourquoi nous sommes engagés à faciliter cette collaboration mondiale et
 Un chat Discord est disponible ici: <a href="https://discord.gg/HmDQDGv" target="_blank" rel="noopener">https://discord.gg/HmDQDGv</a>.
 
 
-Pour rester informé des dernières mises à jours suivez nous sur <a href="https://discord.gg/HmDQDGv" target="_blank" rel="noopener">Twitter</a>.
+Pour rester informé des dernières mises à jours suivez nous sur Twitter <a href="https://discord.gg/HmDQDGv" target="_blank" rel="noopener">@bloom_cloud</a>.
 
 
 #### Développement
