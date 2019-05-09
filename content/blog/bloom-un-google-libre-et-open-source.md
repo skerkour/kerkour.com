@@ -320,12 +320,12 @@ Un monde de collaboration plutôt que de compétition. Nous n'avons simplement p
 resources finies, faisant fi des destructions et pollutions engendrées.
 
 C'est à nous de choisir aujourd'hui si nous voulons travailler toujours plus pour entretenir et éxhacerber des inégalités déjà criantes,
-ou si nous voulons d'un monde où les technologies sont au service du bien de tous. Cet avenir n'est pas encore
+ou si nous voulons un monde où les technologies sont au service du bien de tous. Cet avenir n'est pas encore
 écrit.
 
 Bloom est une organisation qui grâce à l'Open source/access/data..., redistribue gratuitement et librement
-sa production à large échelle en s'appuyant sur les nouvelles technologies pour le faire à moindre
-coût, plutôt que des les utiliser comme outil impérialiste.
+sa production à large échelle, en s'appuyant sur les nouvelles technologies pour le faire à moindre
+coût plutôt que des les utiliser comme outil impérialiste.
 
 Bloom suit la *religion de Startuplaland*: l'**l'éxecution radicale
 plutôt que la bureaucratie, une expérience utilisateur sans faille et une culture forte pour le produit**. Avec
@@ -349,18 +349,21 @@ Bloom propose aujourd'hui les services en ligne suivants:
 Tous offrant un tier gratuit sans contrepartie (pas de ciblage, pas de publicité...)
 et dont le code est disponible librement sur [GitHub](https://github.com/bloom42).
 
+Aujourd'hui orienté productivité car cela profite au plus grand nombre, nous planons de contribuer demain
+à des secteurs plus divers tels que l'agriculture, l'architecture, le transport...
 
 **Bloom est le Linux du XXIème siècle. Bloom est le Wikipedia des services.**
 
 Nous n'avons pas encore de réponse concernant la gouvernance mais nous réfléchissons à un système
-de gouvernance ouvert, multi-latéral tout en préservant la sécurité et l'intergrité du systèmes
-(ce que ne permet pas par exemple la fédération simple, comme le montre les spams dans le monde des emails).
+de gouvernance ouvert, multi-latéral tout en préservant la sécurité et l'intergrité du système
+(ce que ne permet pas par exemple la fédération simple, comme le montre les spams dans le monde des emails)
+et sommes ouvert à toute discussion, proposition.
 
 
 ### Contribuer
 
 Nous croyons en un monde ou toute personne peut contribuer, pas seulement des experts.
-**Où les consommateurs et citoyens deviennent acteurs.**
+**Où citoyens et consommateurs deviennent acteurs.**
 C'est pourquoi nous sommes engagés à faciliter cette collaboration mondiale et sans barrières.
 
 
@@ -406,6 +409,7 @@ Diffusez les idées, débattez avec vos amis, paratgez Bloom sur les réseaux so
 
 Nous ne sommes encore qu'au début de l'aventure et nous faire connaître nous aide ééénooormément !
 
+
 #### Financièrement
 
 Si vous n'avez pas le temps ou les compétences pour contribuer, mais que notre projet vous semble prometteur
@@ -440,16 +444,20 @@ ou tout simplement en souscrivant à un abonnement sur <a href="https://bloom.sh
 
 
 Un grand merci aux personnes ayant déjà contribué:
+
+* Kamel Kerkour
 *
+* Marina Da Silva
+* Anne Kerkour
 
 
 ### En résumé
 
 En résumé le master plan est le suivant:
 
-1. Créer des logiciels libres et vendre l'hébergement ainsi la sécurité des données hébergées<br />
-2. Avec cet argent réduire le prix de ces logiciels, libérer la donnée et l'accès a la connaissance scientifique<br />
-3. Avec cet argent et cette communauté créer l'infrastructure publique pour faire fonctionner ces logiciels et héberger ces données publiques
+1. Créer des logiciels libres et proposer l'hébergement, la sécurité des données hébergées et le supoprt entreprise payant<br />
+2. Avec cet argent réduire les prix, libérer la donnée et l'accès a la connaissance scientifique<br />
+3. Avec cet argent et cette communauté créer l'infrastructure ouverte pour faire fonctionner ces logiciels et héberger ces données ouvertes
 
 Notre mission ? Faire du monde une meilleure place grâce à des technologies ouvertes, par le peuple, pour le peuple.
 
