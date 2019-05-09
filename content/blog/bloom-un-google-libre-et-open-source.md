@@ -21,7 +21,7 @@ lang = "fr"
 
 ## TL;DR
 
-Pour faire face aux enjeux universels et inédits de notre siècle j'ai créé une alternative gratuite,
+Pour faire face aux enjeux universels et inédits de notre siècle, j'ai créé une alternative gratuite,
 libre et open source à Google (et sans publicité ni ciblage): Bloom.
 C'est par [ici pour la version en ligne](https://bloom.sh), par [ici pour le code](https://github.com/bloom42)
 et par [ici pour  contribuer](#contribuer). Ce n'est que le début d'une grande aventure 🚀
@@ -46,9 +46,8 @@ d'éviter que les choses ne tournent affreusement mal pour notre espèce. Agir o
 
 ### La crise écologique
 
-La crise écologique est la plus importante car elle englobe beaucoup de sous problèmes, que ce soit les
-problèmes d'accès à de l'eau potable,
-le réchauffement climatique, l'extinction d'espèces animales, les exodes climatiques, la pollution des sols et des resources aqueuses,
+La crise écologique est la plus importante car elle englobe beaucoup de problèmes sous-jacents, que ce soit l'accès à l'eau potable,
+le réchauffement planétaire, l'extinction d'espèces animales, les exodes climatiques, la pollution des sols et des réserves aqueuses,
 les maladies respiratoires, le 7ème continent de plastique...
 
 Notre surconsommation entraîne la destruction de notre habitat et nous met en danger.
@@ -62,7 +61,7 @@ travailler toute la journée derrière un ordinateur ? La question est bien sûr
 ### La crise sociale
 
 
-Deux questions m'obsèdent: Comment se fait-il que nous devions travailler toujours plus pour avoir accès
+Deux questions m'obsèdent: Comment se fait-il que nous devons travailler toujours plus pour accéder
 à un niveau de vie convenable, quand on voit toutes les richesses produites dans le monde ? Comment se fait-il
 que ce ne soit pas l'objectif prioritaire de chaque pouvoir public ?
 <!-- Ces richesses ne se cumulent-elles pas ? Si nous sommes organisés en sociétés, alors pourquoi les sociétés dans -->
@@ -82,14 +81,14 @@ Par exemple le système des retraites Français, en prenant en compte une popula
 faire quand le nombre *d'inactifs* sera supérieur au nombre *d'actifs* ? (il va falloir trouver une solution
 rapidement car c'est pour bientôt, aujourd'hui il y aurait 1,4 *actif* pour 1 *inactif*). -->
 
-Deux futurs se présentent:
+Deux futurs se présentent alors:
 
 * Consommer toujours plus
 * Mieux redistribuer les richesses
 
-Consommer toujours plus - économies et sociétés basées sur la croissance - n'est évidemment pas compatible avec la crise écologique.
+Consommer toujours plus - économies et sociétés reposant sur la croissance - n'est évidemment pas compatible avec la crise écologique.
 
-Moins de nécessité de production = moins de travil = + de chômage et donc moins de richesses distribuées.
+Moins de nécessité de production = moins de travail = encore plus de chômage et donc moins de richesses distribuées.
 
 <div class="center">
   <img src="/posts/bloom-announcement/wealth_dsitribution.png" height="500"/>
@@ -103,7 +102,7 @@ universel, sans ccontinuer à accélérer notre autodestruction ?**
 
 Le printemps arabe, les gilets jaunes, les populations dont la qualité de vie ne bénéficie pas des richesses qu'elles
 produisent remettent en cause le <a href="https://fr.wikipedia.org/wiki/Du_contrat_social" target="_blank" rel="noopener">contrat social</a>.
-Il est impératif de rapidement trouver un nouveau système, un système où tout le monde y retrouve son compte pour faire face ensemble à la
+Il est impératif de rapidement trouver un nouveau système, un système où tout le monde y trouve son compte pour faire face ensemble à la
 crise écologique qui nous affecte tous.
 
 
@@ -150,23 +149,35 @@ d'antibiotiques aussi bien pour notre bétail que pour nous même fait peser un 
 
 
 ## Open source, access, data ...
-
+<!--
 A l'heure du numérique où la copie et la diffusion d'un document digital ne coûte virtuellement rien,
-les volontés de renforcer le droit de la propriété intellectuelle alors que des
-aberration effarantes sont deja en place
+les volontés de renforcer le droit de la propriété intellectuelle, alors que des
+aberration effarantes sont déjà en place
 ([taxe pour copie privée](https://fr.wikipedia.org/wiki/R%C3%A9mun%C3%A9ration_pour_copie_priv%C3%A9e),
 les derives des ayants droits sur les plateformes de partage de contenu,
 [les derives des journaux scientifiques](https://www.youtube.com/watch?v=WnxqoP-c0ZE),
 les [copyright trolls](https://en.wikipedia.org/wiki/Copyright_troll)...)
-et dont les externalités négaitves ne sont jamais, ne serait-ce que mentionnées, sont "au mieux" de la cupidité
-si ce n'est criminel. Oui, les brevets sur les médicaments ou les semences tuent.
+les volontés de renforcer le droit de la propriété intellectuelle dont les externalités
+négaitves ne sont jamais, ne serait-ce que mentionnées, sont "au mieux" de la cupidité
+si ce n'est criminel. Oui, les brevets sur les médicaments ou les semences tuent. -->
+
+
+A l'heure du numérique où la copie et la diffusion d'un document digital ne coûte virtuellement rien
+et que des
+aberration effarantes sont déjà en place
+([taxe pour copie privée](https://fr.wikipedia.org/wiki/R%C3%A9mun%C3%A9ration_pour_copie_priv%C3%A9e),
+les derives des ayants droits sur les plateformes de partage de contenu,
+[les derives des journaux scientifiques](https://www.youtube.com/watch?v=WnxqoP-c0ZE),
+les [copyright trolls](https://en.wikipedia.org/wiki/Copyright_troll)...)
+la volonté de renforcer le droit de la propriété intellectuelle dont les externalités négaitves ne sont jamais mentionnées, est "au mieux" cupide,
+si ce n'est criminel. Car oui, les brevets sur les médicaments ou les semences tuent.
 
 **Toute cette bureaucratie n'est bien sûr pas la bienvenue alors que l'humanité fait face à des problèmes majeurs.**
 
 
-La naissance de l'open source / data / access... vient de personnes rejetant les dérives du *Copyright* et ne cherchant pas à maximiser leur
-profit personnel, mais qui ont comprise que mettre à disposition gratuitement et librement les fruits de leur labeur (ou passion)
-ne bénéficie pas seulement à elles, mais aussi à la société, à l'humanité entière.
+La naissance de l'open source / data / access... vient de personnes qui rejettent les dérives du *Copyright* et qui ne cherchent pas à maximiser leur
+profit personnel, mais qui ont compris que mettre à disposition gratuitement et librement les fruits de leur labeur (ou passion)
+ne leur bénéficie pas seulement à elles, mais aussi à la société, à l'humanité entière.
 
 
 ### Open source
@@ -174,10 +185,10 @@ ne bénéficie pas seulement à elles, mais aussi à la société, à l'humanit�
 [Open source](https://fr.wikipedia.org/wiki/Open_source): *La désignation open source, ou « code source ouvert », s'applique aux logiciels (et s'étend maintenant aux œuvres de l'esprit) dont la licence respecte des critères précisément établis par l'Open Source Initiative, c'est-à-dire les possibilités de libre redistribution, d'accès au code source et de création de travaux dérivés. Mis à la disposition du grand public, ce code source est généralement le résultat d'une collaboration entre programmeurs.*
 
 L'exemple le plus connu d'open source est [Linux](https://fr.wikipedia.org/wiki/Linux), un système d'exploitation
-libre et gratuit qui est utilisés par la majorité des [serveurs](https://fr.wikipedia.org/wiki/Serveur_informatique)
+libre et gratuit qui est utilisé par la majorité des [serveurs](https://fr.wikipedia.org/wiki/Serveur_informatique)
 et [des téléphones](https://www.android.com) aujourd'hui. Que votre téléphone reopse sur Android ou IOS, il contient forcément
 des logiciels open source en plus ou moins grande quantité. Il en va de même pour votre *box* internet, ou encore
-m'importe quel site web que vous pouvez consulter.
+n'importe quel site web que vous pouvez consulter.
 
 #### Interêts composés
 
@@ -185,10 +196,10 @@ Quand Bob travaille sur un projet propriétaire, les fruits de son trvail béné
 à son employeur et dans une moindre mesure à ses clients. Le jour où il change d'emploi, il perd tout le travail effectué
 précédemment.
 
-Quand Jacque contribue ou travaille sur un projet open source, le fruit de son travail lui beneficie à lui, aux
+Quand Jacques contribue ou travaille sur un projet open source, le fruit de son travail lui beneficie à lui, aux
 utilisateurs du projet open source et au reste de monde qui peut l'utiliser gratuitement, le modifier, l'améliorer.
-Quand Jacque change d'emploi ou le quitte simplement, le résultat de son précédent emploi lui reste accessible, il peut
-continuer d'en bénéficier.
+Quand Jacques change d'emploi ou le quitte, le résultat de son précédent travail lui reste accessible, il peut
+continuer à en bénéficier.
 
 Ainsi les richesses produites se cumulent, plutôt que de devoir être re-crées par chaque acteur.
 
@@ -202,7 +213,7 @@ Les nouvelles technologies de communication (chat, visioconférence...) permette
 de s'affranchir des bureaux classiques. Les membres n'ont plus besoin de se réunir tous sur un même lieu de travail pour finalement
 rester la journée derrière un écran. Le personnel n'a plus besoin d'être dans la même ville, le même pays voire le même continent.
 
-Bien sûr cela pose des défis au niveau des interractions sociales, mais c'est un premier levier pour
+Bien sûr, cela pose des défis au niveau des interractions sociales, mais c'est un premier levier pour
 réduire notre consommation énergétique à l'échelle planétaire.
 
 
@@ -210,7 +221,7 @@ réduire notre consommation énergétique à l'échelle planétaire.
 
 Cette intersection des moyens de communication instantanée et de l'ouverture des moyens de production permettent
 une collaboration globale. Les utilisateurs peuvent contribuer, participer à la création des produits qu'ils utilisent.
-Ils ne sont plus simplement des consommateurs, mais acteurs, et ce sans barrière géographiques.
+Ils ne sont plus simplement des consommateurs, mais acteurs, et ce sans barrière géographique.
 
 
 Entrer dans un modèle de collaboration plutôt que de compétition est la seule solution pour limiter
@@ -223,17 +234,17 @@ ou non.**
 
 #### Résilience
 
-<a href="https://nest.com/whats-happening" target="_blank" rel="noopener">Que se passerait-il si demain Google perdait tout intêret économique à faire des affaire et bloque son accès à l'Europe ?</a>
+<a href="https://nest.com/whats-happening" target="_blank" rel="noopener">Que se passerait-il si demain Google perdait tout intêret économique à faire des affaires et bloquait son accès à l'Europe ?</a>
 
 <a href="https://techcrunch.com/2015/10/21/twitter-ceo-dorsey-apologizes-to-developers-says-he-wants-to-reset-relations" target="_blank" rel="noopener">Que se passerait-il si demain Twitter faisait faillite et stoppait ses services ?</a>
 
 <a  href="https://theintercept.com/2016/05/02/whatsapp-used-by-100-million-brazilians-was-shut-down-nationwide-today-by-a-single-judge" target="_blank" rel="noopener"> Que se passerait-il si demain un gouvernement tyrannique bloquait WhatsApp ?</a>
 
 La crise financière de 2008 nous a douloureusement rappelé que des entreprises que l'on croyait intouchables
-peuvent faire faillite. Or depuis [la situation économique modiale](https://fr.wikipedia.org/wiki/Dette_publique) ne s'est pas améliorée.
+peuvent faire faillite. Or, depuis [la situation économique modiale](https://fr.wikipedia.org/wiki/Dette_publique) ne s'est pas améliorée.
 
 
-L'open source permet aux projets de survivre non seulement à la faillite d'une entreprise mais aussi à une coupure d'internet ou encore
+L'open source permet aux projets de survivre non seulement à la faillite d'une entreprise, mais aussi à une coupure d'internet ou encore
 à une guerre économique.
 
 Et puisque ces services entrent dans le bien commun, qu'ils ne sont pas la propriété d'une entrprise particulière,
@@ -244,12 +255,12 @@ ils deviennent beaucoup plus résilients à des tentatives de censure.
 
 L'éducation façonne nos sociétés. Lui imposer des limites artificielles (*Copyright*, prix excessifs,
 <a  href="https://fr.wikipedia.org/wiki/Gestion_des_droits_num%C3%A9riques" target="_blank" rel="noopener">DRM</a> ...)
-n'est que la garantie d'une mort lente et douloureuse pour ces dernières.
+n'est que la garantie d'une mort lente et douloureuse.
 
-L'Open source profite triplement à l'éducation:
+L'Open source, quant à lui, profite triplement à l'éducation:
 * En réduisant drastiquement les coûts
 * En améliorant la qualité des matériaux éducatifs
-* En permettant d'étudier librement les systèmes éxistants
+* En permettant d'étudier librement les systèmes existants
 
 
 ### Open data
@@ -263,18 +274,18 @@ explosion, la donnée est le carburant des [algorithmes](https://fr.wikipedia.or
 C'est en récoltant beaucoup de données et en leur donnant du sens que nous pourrons avoir des véhicules
 autonomes et ainsi réduire drastiquement le nombre de morts sur les routes. C'est grâce à la donnée que
 nous pouvons automatiser la détection de maladies. C'est grâce à la donnée que nous pouvons
-optimiser des flux logistique ou énergétique et ainsi réduire notre trop grande consommation énergétique.
+optimiser des flux logistiques ou énergétiques et ainsi réduire notre trop grande consommation.
 
 
-Le problèmes c'est qu'aujourd'hui ces données, produites par tout le monde, sont propriété de grandes
+Le problème c'est qu'aujourd'hui ces données, produites par tout le monde, deviennent la propriété de grandes
 entreprises (*les géants de la tech*), et sont utilisées entre autre pour [déstabiliser nos organisations politiques](https://fr.wikipedia.org/wiki/Cambridge_Analytica).
 
 
 Disposer des ces données en accès libre permettrait de multiplier la rapidité d'innovation dans les domaines
-de la robotique, de la médecine, des transoprts etc... mais surtout de grandement réduire les besoins en resource dans tous les domaines.
+de la robotique, de la médecine, des transoprts etc... mais surtout de grandement réduire les besoins en resource dans tous ces domaines.
 
-À l'heure où nous déléguons de plus en plus nos mémoires à des entreprises qui les enferment dans des sillots privés nous n'avons
-absolument aucune garantie quant à l'avenir de cette mémoire, tant au niveau de sa destruction qu'au niveau
+À l'heure où nous déléguons de plus en plus notre mémoire à des entreprises qui les enferment dans des sillots privés, nous n'avons
+absolument aucune garantie quant à l'avenir de celle-ce, tant au niveau de sa destruction qu'au niveau
 de sa modification.
 
 
@@ -282,9 +293,9 @@ de sa modification.
 
 *L’open access (ou aussi « libre accès », ou encore « accès ouvert ») à la littérature scientifique est un mode de diffusion des articles de recherche sous forme numérique, gratuite et dans le respect du droit d’auteur.*
 
-[Le monde de la publication scientifique est gangréné](https://www.echosciences-grenoble.fr/articles/la-controverse-en-matiere-de-publication-des-articles-scientifiques).
+[Le monde de la publication scientifique est gangrené](https://www.echosciences-grenoble.fr/articles/la-controverse-en-matiere-de-publication-des-articles-scientifiques).
 
-Il n'y a rien de plus à dire, tout le monde voit l'intérêt pour le bien commun de publier publiquement et gratuitement les résultats
+Il n'y a rien de plus à dire: tout le monde s'accorde sur l'intérêt pour le bien commun de publier publiquement et gratuitement les résultats
 des chercheurs financés aussi bien par le secteur public que privé.
 
 Je recommande le livre [Open Acces de Peter Suber](http://ia601805.us.archive.org/17/items/9780262517638OpenAccess/9780262517638_Open_Access.pdf) pour approfondir le sujet.
@@ -293,16 +304,16 @@ Je recommande le livre [Open Acces de Peter Suber](http://ia601805.us.archive.or
 ### Transparence: vertueuse mais surtout nécessaire
 
 Toutes ces mouvances d'ouverture apportent de fait de la transparence. L'information devient accessible.
-N'importe qui, sans distinction aucune peut s'en saisir, l'enrichir, lui donner du sens.
+N'importe qui, sans distinction aucune, peut s'en saisir, l'enrichir, lui donner du sens.
 
 Mais cette transparence vertueuse est surtout nécessaire, car si les vraies informations se propagent
-à la vitesse de la lumière, les fausse aussi (*fake news*). Aujourd'hui mises en avant car elles menacent la stabilité
-de nos sociétés il existe 2 grandes directions pour restreindre leurs effets:
+à la vitesse de la lumière, les fausses aussi (*fake news*). Aujourd'hui mises en avant car elles menacent la stabilité
+de nos sociétés, il existe 2 grandes directions pour restreindre leurs effets:
 
 * La censure de masse
 * La transparence
 
-D'un côté il est facile de comprendre pourquoi la censure de masse est néfaste, d'un autre côté la transparence n'est pas suffisante à elle seule pour mettre fin aux fausses informations. Elle permet avant tout d'apporter des faits contradictoires et prouvables (contrairement aux *fake news*).
+D'un côté il est facile de comprendre pourquoi la censure de masse est néfaste, mais de l'autre côté la transparence n'est pas suffisante à elle seule pour mettre fin aux fausses informations. Elle permet avant tout d'apporter des faits contradictoires et prouvables (contrairement aux *fake news*).
 
 
 La première étape de la transparence est de rendre les données publiques. La seconde est de les rendre facile
@@ -322,14 +333,14 @@ Un monde de collaboration plutôt que de compétition. Nous n'avons simplement p
 resources finies, faisant fi des destructions et pollutions engendrées.
 
 C'est à nous de choisir aujourd'hui si nous voulons travailler toujours plus pour entretenir et éxhacerber des inégalités déjà criantes,
-ou si nous voulons un monde où les technologies sont au service du bien de tous. Cet avenir n'est pas encore
+ou si nous voulons d'un monde où les technologies sont au service du bien de tous. Cet avenir n'est pas encore
 écrit.
 
 Bloom est une organisation qui grâce à l'Open source/access/data..., redistribue gratuitement et librement
 sa production à large échelle, en s'appuyant sur les nouvelles technologies pour le faire à moindre
 coût plutôt que des les utiliser comme outil impérialiste.
 
-Bloom suit la *religion de Startuplaland*: l'**l'éxecution radicale
+Bloom suit la *religion de Startuplaland*: **l'éxecution radicale
 plutôt que la bureaucratie, une expérience utilisateur sans faille et une culture forte pour le produit**. Avec
 pour objectif une meilleure qualité de vie commune.
 
@@ -340,8 +351,8 @@ Nous avons choisi la <a href="https://fr.wikipedia.org/wiki/Copyleft" target="_b
 
 Bloom propose aujourd'hui les services en ligne suivants:
 
-* <a href="https://bloom.sh/drive" target="_blank" rel="noopener">Bloom Drive</a>: un espace de stockage en ligne
-* <a href="https://bloom.sh/music" target="_blank" rel="noopener">Bloom Music</a>: un lecteur de musique en ligne lisant les musique directement depuis votre *drive*
+* <a href="https://bloom.sh/drive" target="_blank" rel="noopener">Bloom Drive</a>: un espace de stockage
+* <a href="https://bloom.sh/music" target="_blank" rel="noopener">Bloom Music</a>: un lecteur de musique lisant les musiques directement depuis votre *drive*
 * <a href="https://bloom.sh/gallery" target="_blank" rel="noopener">Bloom Gallery</a>: une gallerie pour vos photos et vidéos
 * <a href="https://bloom.sh/contacts" target="_blank" rel="noopener">Bloom Contacts</a>: un gestionnaire de contacts
 * <a href="https://bloom.sh/notes" target="_blank" rel="noopener">Bloom Notes</a>: une application de prise de notes
@@ -351,7 +362,7 @@ Bloom propose aujourd'hui les services en ligne suivants:
 Tous offrant un tier gratuit sans contrepartie (pas de ciblage, pas de publicité...)
 et dont le code est disponible librement sur [GitHub](https://github.com/bloom42).
 
-Aujourd'hui orienté productivité car cela profite au plus grand nombre, nous planons de contribuer demain
+Aujourd'hui orientés productivité puisque cela profite au plus grand nombre, nous contribuerons demain
 à des secteurs plus divers tels que l'agriculture, l'architecture, le transport...
 
 **Bloom est le Linux du XXIème siècle. Bloom est le Wikipedia des services.**
@@ -359,12 +370,12 @@ Aujourd'hui orienté productivité car cela profite au plus grand nombre, nous p
 Nous n'avons pas encore de réponse concernant la gouvernance mais nous réfléchissons à un système
 de gouvernance ouvert, multi-latéral tout en préservant la sécurité et l'intergrité du système
 (ce que ne permet pas par exemple la fédération simple, comme le montre les spams dans le monde des emails)
-et sommes ouvert à toute discussion, proposition.
+et sommes ouverts à toute discussion, proposition sur le sujet.
 
 
 ### Contribuer
 
-Nous croyons en un monde ou toute personne peut contribuer, pas seulement des experts.
+Nous croyons en un monde où toute personne peut contribuer, pas seulement des experts.
 **Où citoyens et consommateurs deviennent acteurs.**
 C'est pourquoi nous sommes engagés à faciliter cette collaboration mondiale et sans barrières.
 
@@ -389,9 +400,9 @@ Plus d'informations sont disponibles sur notre site [opensource.bloom.sh](https:
 [Rust](https://www.rust-lang.org/) est le langage de programmation officiel de Bloom, pour une multitude de raisons, les principales
 étant:
 
-* Une langage expressif et moderne
+* Un langage expressif et moderne
 * Un langage open-source et embrassant pleinement les valeurs de Bloom
-* Un langage permettant la fois des abstractions de haut niveau et des constructions de bas niveaux, sans coût de performance
+* Un langage permettant la fois des abstractions de haut niveau et des constructions de bas niveau, sans coût de performance
 * Un langage portable qui peut aussi bien être utilisé pour des services web que pour des robots
 * Tous nos services doivent pouvoir être auto-hébergés sur un <a href="https://www.raspberrypi.org" target="_blank" rel="noopener">Raspberry pi</a>
 
@@ -419,6 +430,9 @@ vous pouvez contribuer financièrement.
 
 Cet argent sera utilisé pour financer les personnes contribuant avec leur temps à un monde plus ouvert:
 
+En souscrivant à un abonnement sur <a href="https://bloom.sh" target="_blank" rel="noopener">bloom.sh</a>
+
+
 En devenant *patron*:
 
 <a href="https://www.patreon.com/bloom42" target="_blank" rel="noopener">
@@ -442,8 +456,6 @@ En faisant un don en crypto-monnaie:
 **XMR**: `4GdoN7NCTi8a5gZug7PrwZNKjvHFmKeV11L6pNJPgj5QNEHsN6eeX3DaAQFwZ1ufD4LYCZKArktt113W7QjWvQ7CW7fRk3auob6QWFSgYJ`
 
 
-ou tout simplement en souscrivant à un abonnement sur <a href="https://bloom.sh" target="_blank" rel="noopener">bloom.sh</a>.
-
 
 Un grand merci aux personnes ayant déjà contribué:
 
@@ -457,7 +469,7 @@ Un grand merci aux personnes ayant déjà contribué:
 
 En résumé le master plan est le suivant:
 
-1. Créer des logiciels libres et proposer l'hébergement, la sécurité des données hébergées et le supoprt entreprise payant<br />
+1. Créer des logiciels libres et faire payer l'hébergement, la sécurité des données hébergées et le supoprt entreprise<br />
 2. Avec cet argent réduire les prix, libérer la donnée et l'accès a la connaissance scientifique<br />
 3. Avec cet argent et cette communauté créer l'infrastructure ouverte pour faire fonctionner ces logiciels et héberger ces données ouvertes
 
