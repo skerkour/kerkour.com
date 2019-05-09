@@ -331,7 +331,7 @@ Nous avons choisi la <a href="https://fr.wikipedia.org/wiki/Copyleft" target="_b
 à faire de même. Pas d'*open core*, pas d'entourloupe.
 
 
-Bloom propose aujourd'hui les services suivants:
+Bloom propose aujourd'hui les services en ligne suivants:
 
 * <a href="https://bloom.sh/drive" target="_blank" rel="noopener">Bloom Drive</a>: un espace de stockage en ligne
 * <a href="https://bloom.sh/music" target="_blank" rel="noopener">Bloom Music</a>: un lecteur de musique en ligne lisant les musique directement depuis votre *drive*
@@ -365,12 +365,12 @@ C'est pourquoi nous sommes engagés à faciliter cette collaboration mondiale et
 Un chat Discord est disponible ici: <a href="https://discord.gg/HmDQDGv" target="_blank" rel="noopener">https://discord.gg/HmDQDGv</a>.
 
 
-Pour rester informé des dernières mises à jours suivez nous sur Twitter <a href="https://discord.gg/HmDQDGv" target="_blank" rel="noopener">@bloom_cloud</a>.
+Pour rester informé des dernières mises à jours suivez nous sur Twitter <a href="https://twitter.com/bloom_cloud" target="_blank" rel="noopener">@bloom_cloud</a>.
 
 
 #### Développement
 
-Pour contribuer au code cela se passe sur [GitHub](https://github.com/bloom42).
+Pour contribuer au code cela se passe sur [github.com/bloom42](https://github.com/bloom42).
 
 Plus d'informations sont disponibles sur notre site [opensource.bloom.sh](https://opensource.bloom.sh).
 
@@ -397,7 +397,7 @@ Pour contribuer au design de Bloom cela se passe sur le repo [github.com/bloom42
 
 #### En partageant
 
-Répandez le mot, débattez avec vos amis, paratgez Bloom sur les réseaux sociaux !
+Diffusez les idées, débattez avec vos amis, paratgez Bloom sur les réseaux sociaux !
 
 Nous ne sommes encore qu'au début de l'aventure et nous faire connaître nous aide ééénooormément !
 
