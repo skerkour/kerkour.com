@@ -61,8 +61,9 @@ travailler toute la journée derrière un ordinateur ? La question est bien sûr
 ### La crise sociale
 
 
-Une question m'obsède: comment se fait-il que nous devions travailler toujours plus pour avoir accès
-à un niveau de vie convenable, quand on voit toutes les richesses produites dans le monde ?
+Deux questions m'obsèdent: Comment se fait-il que nous devions travailler toujours plus pour avoir accès
+à un niveau de vie convenable, quand on voit toutes les richesses produites dans le monde ? Comment se fait-il
+que ce ne soit pas l'objectif prioritaire de chaque pouvoir public ?
 <!-- Ces richesses ne se cumulent-elles pas ? Si nous sommes organisés en sociétés, alors pourquoi les sociétés dans -->
 <!-- leurs ensembles ne profitent-t-elles pas des ces richesses ? -->
 <!-- Pourquoi ne travaillons nous simplement pas 2 mois par an ? ou 3 jours par semaine ? -->
