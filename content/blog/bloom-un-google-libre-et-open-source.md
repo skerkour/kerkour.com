@@ -8,7 +8,7 @@ tags = ["rust", "rustlang", "opensource", "google", "free software"]
 lang = "fr"
 +++
 
-*Il ne faut pas compter sur ceux qui ont crée les problèmes pour les résoudre.*
+*Il ne faut pas compter sur ceux qui ont créé les problèmes pour les résoudre.*
 
 🇬🇧 [English version here](/blog/bloom-an-open-source-google)
 
@@ -20,7 +20,7 @@ lang = "fr"
 
 ## TL;DR
 
-Pour sortir de l'immobilisme face aux enjeux universels et inédits de notre siècle j'ai créé une alternative gratuite,
+Pour faire face aux enjeux universels et inédits de notre siècle j'ai créé une alternative gratuite,
 libre et open source à Google (et sans publicité ni ciblage): Bloom.
 C'est par [ici pour la version en ligne](https://bloom.sh), par [ici pour le code](https://github.com/bloom42)
 et par [ici pour  contribuer](#contribuer). Ce n'est que le début d'une grande aventure 🚀
@@ -45,7 +45,7 @@ d'éviter que les choses ne tournent affreusement mal pour notre espèce. Agir o
 
 ### La crise écologiques
 
-La crise écologique est la plus importante car elle englobe beaucoup de facteurs, que ce soit les
+La crise écologique est la plus importante car elle englobe beaucoup de sous problèmes, que ce soit les
 problèmes d'accès à de l'eau potable,
 le réchauffement climatique, l'extinction d'espèces animales, les exodes climatiques, la pollution des sols et des resources aqueuses,
 les maladies respiratoires, le 7ème continent de plastique...
@@ -80,7 +80,7 @@ Par exemple le système des retraites Français, en prenant en compte une popula
 faire quand le nombre *d'inactifs* sera supérieur au nombre *d'actifs* ? (il va falloir trouver une solution
 rapidement car c'est pour bientôt, aujourd'hui il y aurait 1,4 *actif* pour 1 *inactif*). -->
 
-Deux possibilités se présentent:
+Deux futurs se présentent:
 
 * Consommer toujours plus
 * Mieux redistribuer les richesses
@@ -96,13 +96,13 @@ Moins de nécessité de production = moins de travil = + de chômage et donc moi
 </div>
 
 La question est donc la suivante: **Comment mieux redistribuer les richesses de manière à améliorer le niveau de vie
-universel, sans ccontinuer à accélérer notre autodestruction du fait de la surconsommation ?**
+universel, sans ccontinuer à accélérer notre autodestruction ?**
 
 
 Le printemps arabe, les gilets jaunes, les populations dont la qualité de vie ne bénéficie pas des richesses qu'elles
 produisent remettent en cause le <a href="https://fr.wikipedia.org/wiki/Du_contrat_social" target="_blank" rel="noopener">contrat social</a>.
-Il est impératif de rapidement trouver un nouveau système, un système où tout le monde y retrouve son compte, pour faire face ensemble à la
-crise écologique.
+Il est impératif de rapidement trouver un nouveau système, un système où tout le monde y retrouve son compte pour faire face ensemble à la
+crise écologique qui nous affecte tous.
 
 
 <!-- Et c'est une bonne chose. -->
@@ -153,7 +153,7 @@ A l'heure du numérique où la copie et la diffusion d'un document digital ne co
 les volontés de renforcer le droit de la propriété intellectuelle alors que des
 aberration effarantes sont deja en place
 ([taxe pour copie privée](https://fr.wikipedia.org/wiki/R%C3%A9mun%C3%A9ration_pour_copie_priv%C3%A9e),
-les derives des ayants droits sur youtubes,
+les derives des ayants droits sur les plateformes de partage de contenu,
 [les derives des journaux scientifiques](https://www.youtube.com/watch?v=WnxqoP-c0ZE),
 les [copyright trolls](https://en.wikipedia.org/wiki/Copyright_troll)...)
 et dont les externalités négaitves ne sont jamais, ne serait-ce que mentionnées, sont "au mieux" de la cupidité
@@ -163,7 +163,7 @@ si ce n'est criminel. Oui, les brevets sur les médicaments ou les semences tuen
 
 
 La naissance de l'open source / data / access... vient de personnes rejetant les dérives du *Copyright* et ne cherchant pas à maximiser leur
-profit personnel, mais ayant compris que mettre à disposition gratuitement et librement des fruits de leur labeur ou passion
+profit personnel, mais qui ont comprise que mettre à disposition gratuitement et librement les fruits de leur labeur (ou passion)
 ne bénéficie pas seulement à elles, mais aussi à la société, à l'humanité entière.
 
 
@@ -174,7 +174,8 @@ ne bénéficie pas seulement à elles, mais aussi à la société, à l'humanit�
 L'exemple le plus connu d'open source est [Linux](https://fr.wikipedia.org/wiki/Linux), un système d'exploitation
 libre et gratuit qui est utilisés par la majorité des [serveurs](https://fr.wikipedia.org/wiki/Serveur_informatique)
 et [des téléphones](https://www.android.com) aujourd'hui. Que votre téléphone reopse sur Android ou IOS, il contient forcément
-des logiciels open source en plus ou moins grande quantité.
+des logiciels open source en plus ou moins grande quantité. Il en va de même pour votre *box* internet, ou encore
+m'importe quel site web que vous pouvez consulter.
 
 #### Interêts composés
 
@@ -184,9 +185,10 @@ précédemment.
 
 Quand Jacque contribue ou travaille sur un projet open source, le fruit de son travail lui beneficie à lui, aux
 utilisateurs du projet open source et au reste de monde qui peut l'utiliser gratuitement, le modifier, l'améliorer.
-Quand Jacque change d'emploi, ou de projet, le résultat de son précédent emploi continue à lui être bénéfique.
+Quand Jacque change d'emploi ou le quitte simplement, le résultat de son précédent emploi lui reste accessible, il peut
+continuer d'en bénéficier.
 
-Ainsi les richesses produites se cumulent plutôt que de devoir être re-crées par chaque acteur.
+Ainsi les richesses produites se cumulent, plutôt que de devoir être re-crées par chaque acteur.
 
 <!-- Chaque entreprise, chaque organisation, n'a plus à tout réinventer dans son coin, elle est libre de s'appuyer si elle le veut
 sur le travail effectué par d'autres pour y ajouter ce qu'elle estime être de la valeur. -->
@@ -206,7 +208,7 @@ réduire notre consommation énergétique à l'échelle planétaire.
 
 Cette intersection des moyens de communication instantanée et de l'ouverture des moyens de production permettent
 une collaboration globale. Les utilisateurs peuvent contribuer, participer à la création des produits qu'ils utilisent.
-Ils ne sont plus simplement des consommateurs, mais acteurs.
+Ils ne sont plus simplement des consommateurs, mais acteurs, et ce sans barrière géographiques.
 
 
 Entrer dans un modèle de collaboration plutôt que de compétition est la seule solution pour limiter
@@ -240,7 +242,7 @@ ils deviennent beaucoup plus résilients à des tentatives de censure.
 
 L'éducation façonne nos sociétés. Lui imposer des limites artificielles (*Copyright*, prix excessifs,
 <a  href="https://fr.wikipedia.org/wiki/Gestion_des_droits_num%C3%A9riques" target="_blank" rel="noopener">DRM</a> ...)
-n'est que la garantie d'une mort lente et douloureuse.
+n'est que la garantie d'une mort lente et douloureuse pour ces dernières.
 
 L'Open source profite triplement à l'éducation:
 * En réduisant drastiquement les coûts
@@ -258,8 +260,8 @@ explosion, la donnée est le carburant des [algorithmes](https://fr.wikipedia.or
 
 C'est en récoltant beaucoup de données et en leur donnant du sens que nous pourrons avoir des véhicules
 autonomes et ainsi réduire drastiquement le nombre de morts sur les routes. C'est grâce à la donnée que
-nous pouvons grandement automatiser la détection de maladies. C'est grâce à la donnée que nous pouvons
-optimiser des flux logistique ou énergétique et ainsi réduire notre trop grande consommaiton énergétique.
+nous pouvons automatiser la détection de maladies. C'est grâce à la donnée que nous pouvons
+optimiser des flux logistique ou énergétique et ainsi réduire notre trop grande consommation énergétique.
 
 
 Le problèmes c'est qu'aujourd'hui ces données, produites par tout le monde, sont propriété de grandes
@@ -269,7 +271,7 @@ entreprises (*les géants de la tech*), et sont utilisées entre autre pour [dé
 Disposer des ces données en accès libre permettrait de multiplier la rapidité d'innovation dans les domaines
 de la robotique, de la médecine, des transoprts etc... mais surtout de grandement réduire les besoins en resource dans tous les domaines.
 
-À l'heure où nous déléguons de plus en plus notre mémoire à des entreprises dans des sillots privés nous n'avons
+À l'heure où nous déléguons de plus en plus nos mémoires à des entreprises qui les enferment dans des sillots privés nous n'avons
 absolument aucune garantie quant à l'avenir de cette mémoire, tant au niveau de sa destruction qu'au niveau
 de sa modification.
 
