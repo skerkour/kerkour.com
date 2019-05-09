@@ -325,8 +325,8 @@ Bloom suit la *religion de Startuplaland*: l'**l'éxecution radicale
 plutôt que la bureaucratie, une expérience utilisateur sans faille et une culture forte pour le produit**. Avec
 pour objectif une meilleure qualité de vie commune.
 
-Nous avons choisi la <a href="https://fr.wikipedia.org/wiki/Copyleft" target="_blank" rel="noopener">license virale</a> AGPL v3.0 pour la plupart de nos logiciels pour encourager d'autres personnes
-à ouvrir leur production. Pas d'*open core*, pas de *bullshit*.
+Nous avons choisi la <a href="https://fr.wikipedia.org/wiki/Copyleft" target="_blank" rel="noopener">license virale</a> AGPL v3.0 pour la plupart de nos créations pour encourager d'autres personnes
+à ouvrir les leurs. Pas d'*open core*, pas d'arnaque.
 
 
 Bloom propose aujourd'hui les services suivants:
