@@ -1,7 +1,7 @@
 +++
 date = 2019-03-01T12:42:42+02:00
 draft = true
-title = "Bloom: un Google Open Source"
+title = "Bloom: un Google libre et Open Source"
 tags = ["rust", "rustlang", "opensource", "google", "free software"]
 
 [extra]
@@ -70,7 +70,7 @@ Une question m'obsède: Comment se fait-il que nous devions travailler toujours 
 <!-- Le mot clé est bien sûr le mot *travail*. Depuis l'invention de la machine à vapeur jusqu'à la robotique et -->
 <!-- l'intelligence artificielle, la technologie remet en cause jour après jour notre définition du mot *travail*. -->
 
-Avec l'impôts le travail est aujourd'hui notre seul moyen de redistribution des richesses produites.
+Avec l'impôt le travail est aujourd'hui notre seul moyen de redistribution des richesses.
 La technologie fait qu'on nécessite de moins en moins de travail humain pour répondre à nos **besoins**.
 
 <!-- Moins de travail signifiant moins de revenu
@@ -155,16 +155,16 @@ aberration effarantes sont deja en place
 ([taxe pour copie privée](https://fr.wikipedia.org/wiki/R%C3%A9mun%C3%A9ration_pour_copie_priv%C3%A9e),
 les derives des ayants droits sur youtubes,
 [les derives des journaux scientifiques](https://www.youtube.com/watch?v=WnxqoP-c0ZE),
-les [copyright trolls](https://en.wikipedia.org/wiki/Copyright_troll)...).
-et dont les externalités négaitves ne sont jamais, ne serait-ce que, mentionnées, sont "au mieux" de la cupidité
+les [copyright trolls](https://en.wikipedia.org/wiki/Copyright_troll)...)
+et dont les externalités négaitves ne sont jamais, ne serait-ce que mentionnées, sont "au mieux" de la cupidité
 si ce n'est criminel. Oui, les brevets sur les médicaments ou les semences tuent.
 
 **Toute cette bureaucratie n'est bien sûr pas la bienvenue alors que l'humanité fait face à des problèmes majeurs.**
 
 
-La naissance de l'open source / data / access... vient de personnes ne cherchant pas à maximiser leur
-profit personnel, mais ayant compris que mettre à disposition gratuitement et librement les fruits de leur travail
-ne bénéficie pas seulement à eux, mais aussi à la société, à l'humanité entière, rejetant les dérives du *Copyright*.
+La naissance de l'open source / data / access... vient de personnes rejetant les dérives du *Copyright* et ne cherchant pas à maximiser leur
+profit personnel, mais ayant compris que mettre à disposition gratuitement et librement des fruits de leur labeur ou passion
+ne bénéficie pas seulement à elles, mais aussi à la société, à l'humanité entière.
 
 
 ### Open source
@@ -185,8 +185,10 @@ Quand Jacque contribue ou travaille sur un projet open source, le fruit de son t
 utilisateurs du projet open source et au reste de monde qui peut l'utiliser gratuitement, le modifier, l'améliorer.
 Quand Jacque change d'emploi, ou de projet, le résultat de son précédent emploi continue à lui être bénéfique.
 
-Chaque entreprise, chaque organisation, n'a plus à tout réinventer dans son coin, elle est libre de s'appuyer si elle le veut
-sur le travail effectué par d'autres pour y ajouter ce qu'elle estime être de la valeur.
+Les richesses produites se cumulent donc plutôt que
+
+<!-- Chaque entreprise, chaque organisation, n'a plus à tout réinventer dans son coin, elle est libre de s'appuyer si elle le veut
+sur le travail effectué par d'autres pour y ajouter ce qu'elle estime être de la valeur. -->
 
 
 #### Organisations distribuées
