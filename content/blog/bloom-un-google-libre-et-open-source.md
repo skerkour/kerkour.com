@@ -461,4 +461,4 @@ Mais chuuut, c'est un secret 🤫
 
 📖 [21 leçons pour le XXIe siècle, *Yuval Noah Harari*](https://www.ynharari.com/fr/book/21-lessons/)
 
-🎬 [Internet ou la révolution du partage | ARTE](https://www.youtube.com/watch?v=gr2uo-Nwot0)
+🎬 [Internet ou la révolution du partage | ARTE](https://www.youtube.com/watch?v=4yXKCnz9lRc)
