@@ -203,14 +203,14 @@ La crise financière de 2008 nous a douloureusement rappelé que des entreprises
 peuvent faire faillite. Or depuis [la situation économique modiale](https://fr.wikipedia.org/wiki/Dette_publique) ne s'est pas améliorée.
 
 
-L'open source permet aux projets de survivre non suelement à la faillite d'une entreprise mais aussi à une coupure d'internet ou encore
+L'open source permet aux projets de survivre non seulement à la faillite d'une entreprise mais aussi à une coupure d'internet ou encore
 à une guerre économique.
 
 Et puisque ces services entrent dans le bien commun, qu'ils ne sont pas la propriété d'une entrprise particulière,
 ils deviennent beaucoup plus résilients à des tentatives de censure.
 
 
-#### Open source dans l'éducation
+#### Un tremplin pour l'éducation
 
 Une
 
@@ -248,7 +248,9 @@ entreprises (*les géants de la tech*), et sont utilisées entre autre pour [dé
 Disposer des ces données en accès libre permettrait de multiplier la rapidité d'innovation dans les domaines
 de la robotique, de la médecine, des transoprts etc... mais surtout de grandement réduire les besoins en resource dans tous les domaines.
 
-
+À l'heure où nous déléguons de plus en plus notre mémoire à des entreprises dans des sillots privés nous n'avons
+absolument aucune garantie quant à l'avenir de cette mémoire, tant au niveau de sa destruction qu'au niveau
+de sa modification.
 
 ### Transparence: vertueuse mais surtout nécessaire
 
