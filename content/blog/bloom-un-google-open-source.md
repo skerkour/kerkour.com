@@ -48,7 +48,7 @@ d'éviter que les choses ne tournent affreusement mal pour notre espèce. Agir o
 La crise écologique est la plus importante car elle englobe beaucoup de facteurs, que ce soit les
 problèmes d'accès à de l'eau potable,
 le réchauffement climatique, l'extinction d'espèces animales, les exodes climatiques, la pollution des sols et des resources aqueuses,
-les maladies respiratoires, le 7ème continent de platique...
+les maladies respiratoires, le 7ème continent de plastique...
 
 Notre surconsommation entraîne la destruction de notre habitat et nous met en danger.
 
