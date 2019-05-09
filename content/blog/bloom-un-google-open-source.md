@@ -406,7 +406,7 @@ Nous ne sommes encore qu'au début de l'aventure et nous faire connaître nous a
 Si vous n'avez pas le temps ou les compétences pour contribuer, mais que notre projet vous semble prometteur
 vous pouvez contribuer financièrement.
 
-Cet argent sera utilisé pour financer les gens contribuant avec leur temps à un monde plus ouvert:
+Cet argent sera utilisé pour financer les personnes contribuant avec leur temps à un monde plus ouvert:
 
 En devenant *patron*:
 
