@@ -87,7 +87,7 @@ Deux solutions se présentent:
 
 Consommer toujours plus - économies et sociétés basées sur la croissance - n'est évidemment pas compatible avec la crise écologique.
 
-Moins de nécessité de production = moins de travil = plus (+) de chômage et donc moins de richesses distribuées.
+Moins de nécessité de production = moins de travil = + de chômage et donc moins de richesses distribuées.
 
 <div class="center">
   <img src="/posts/bloom-announcement/wealth_dsitribution.png" height="500"/>
