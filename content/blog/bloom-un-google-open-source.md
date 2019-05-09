@@ -62,41 +62,32 @@ travailler toute la journée derrière un ordinateur ? La question est bien sûr
 
 
 Une question m'obsède: Comment se fait-il que nous devions travailler toujours plus pour avoir accès
-à un niveau de vie convenable, quand on voit toutes les richesses produites dans le monde ? Ces
-richesses ne se cumulent-elles pas ? Si nous sommes organisés en sociétés, alors pourquoi les sociétés dans
-leurs ensembles ne profitent-t-elles pas des ces richesses ?
+à un niveau de vie convenable, quand on voit toutes les richesses produites dans le monde ?
+<!-- Ces richesses ne se cumulent-elles pas ? Si nous sommes organisés en sociétés, alors pourquoi les sociétés dans -->
+<!-- leurs ensembles ne profitent-t-elles pas des ces richesses ? -->
 <!-- Pourquoi ne travaillons nous simplement pas 2 mois par an ? ou 3 jours par semaine ? -->
 
-Le mot clé est bien sûr le mot *travail*. Depuis l'invention de la machine à vapeur jusqu'à la robotique et
-l'intelligence artificielle, la technologie remet en cause jour après jour notre définition du mot *travail*.
+<!-- Le mot clé est bien sûr le mot *travail*. Depuis l'invention de la machine à vapeur jusqu'à la robotique et -->
+<!-- l'intelligence artificielle, la technologie remet en cause jour après jour notre définition du mot *travail*. -->
 
-Avec l'impôts il est aujourd'hui notre seule méthode de redistribution des richesses.
-La technologie fait qu'on nécessite de moins en moins de travail humain pour répondre à nos **besoins**. Et c'est une bonne chose.
-À condition de ne pas voir un emploi comme un élément de réussite personnelle, de ne pas voir le chômage comme
-une variable qui doit tendre vers 0. Alors que les emplois se déplacent de plus en plus du secteur primaire
-vers le secteur tertiaire, le secteur tertiaire n'absorbant pas tous les arrivants.
-À cela s'ajoute les impératifs écologiques dont la *seule solution* est la réduction drastique de notre consommation
-(énergétique et en resources) et donc laisse présager la réduction d'emplois nécessaires à la production.
+Avec l'impôts il est aujourd'hui notre seule méthode de redistribution des richesses produites.
+La technologie fait qu'on nécessite de moins en moins de travail humain pour répondre à nos **besoins**.
 
-<!-- A-t-on besoin d'un restaurant par personne dans chaque ville ? -->
-A-ton besoin de de 100 ingénieurs pour concevoir un robot pouvant faire le travail de 100 agriculteurs ? NON !
-
-<div class="center">
-  <img src="/posts/bloom-announcement/unemployment-vs-biggest10.jpg" height="300"/>
-
-  Une des 10 plus grosses entreprises mondiale VS chômage mondial.
-  Données: <a href="https://donnees.banquemondiale.org/indicateur/SL.UEM.TOTL.ZS?end=2018&start=1991&view=chart" target="_blank" rel="noopener">Banque mondiale</a>
-</div>
+<!-- Moins de travail signifiant moins de revenu
 
 Le chômage est donc voué à auguementer. Or cela va mettre à mal toute l'organisation de nos sociétés.
 Par exemple le système des retraites Français, en prenant en compte une population vieillissante, comment allons nous
-faire qunad le nombre *d'inactifs* sera supérieur au nombre *d'actifs* ? (il va falloir trouver une solution
-rapidement car c'est pour bientôt, aujourd'hui il y aurait 1,4 *actif* pour 1 *inactif*).
-Comment occuper toutes ces personnes ?
+faire quand le nombre *d'inactifs* sera supérieur au nombre *d'actifs* ? (il va falloir trouver une solution
+rapidement car c'est pour bientôt, aujourd'hui il y aurait 1,4 *actif* pour 1 *inactif*). -->
 
+Deux solutions se présentent:
 
-<!-- Les personnes qui mettent en valeur la création d'emplois sont dangereuses. On n'a besoin de "création d'emplois"
-que pour maintenir en vie un système malade. -->
+* Consommer toujours plus
+* Mieux redistribuer les richesses
+
+Consommer toujours plus - économies et sociétés basées sur la croissance - n'est évidemment pas compatible avec la crise écologique.
+
+Moins de nécessité de production = moins de travil = plus (+) de chômage et donc moins de richesses distribuées.
 
 <div class="center">
   <img src="/posts/bloom-announcement/wealth_dsitribution.png" height="500"/>
@@ -104,11 +95,42 @@ que pour maintenir en vie un système malade. -->
   Distribution des richesses. World economic forum.
 </div>
 
+La question est donc la suivante: Comment mieux redistribuer les richesses de manière à améliorer le niveau de vie
+universel, sans nous autodétruire du fait de la surconsommation ?
+
 
 Le printemps arabe, les gilets jaunes, les populations dont la qualité de vie ne bénéficie pas des richesses qu'elles
-produisent remettent en cause le [contrat social](https://fr.wikipedia.org/wiki/Du_contrat_social).
-Il es impératif de trouver vite un nouveau système, un système où tout le monde y retrouve son compte, pour faire face ensemble à la
+produisent remettent en cause le <a href="https://fr.wikipedia.org/wiki/Du_contrat_social" target="_blank" rel="noopener">contrat social</a>.
+Il est impératif de rapidement trouver un nouveau système, un système où tout le monde y retrouve son compte, pour faire face ensemble à la
 crise écologique.
+
+
+<!-- Et c'est une bonne chose. -->
+<!-- À condition de ne pas voir un emploi comme un élément de réussite personnelle, de ne pas voir le chômage comme
+une variable qui doit tendre vers 0. Alors que les emplois se déplacent de plus en plus du secteur primaire
+vers le secteur tertiaire, le secteur tertiaire n'absorbant pas tous les arrivants.
+À cela s'ajoute les impératifs écologiques dont la *seule solution* est la réduction drastique de notre consommation
+(énergétique et en resources) et donc laisse présager la réduction d'emplois nécessaires à la production. -->
+
+<!-- A-t-on besoin d'un restaurant par personne dans chaque ville ? -->
+<!-- A-ton besoin de de 100 ingénieurs pour concevoir un robot pouvant faire le travail de 100 agriculteurs ? NON ! -->
+
+<!-- <div class="center">
+  <img src="/posts/bloom-announcement/unemployment-vs-biggest10.jpg" height="300"/>
+
+  Une des 10 plus grosses entreprises mondiale VS chômage mondial.
+  Données: <a href="https://donnees.banquemondiale.org/indicateur/SL.UEM.TOTL.ZS?end=2018&start=1991&view=chart" target="_blank" rel="noopener">Banque mondiale</a>
+</div> -->
+
+<!-- Comment occuper toutes ces personnes ? -->
+
+
+<!-- Les personnes qui mettent en valeur la création d'emplois sont dangereuses. On n'a besoin de "création d'emplois"
+que pour maintenir en vie un système malade. -->
+
+
+
+
 
 
 <!--
