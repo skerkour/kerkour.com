@@ -70,7 +70,7 @@ Une question m'obsède: Comment se fait-il que nous devions travailler toujours 
 <!-- Le mot clé est bien sûr le mot *travail*. Depuis l'invention de la machine à vapeur jusqu'à la robotique et -->
 <!-- l'intelligence artificielle, la technologie remet en cause jour après jour notre définition du mot *travail*. -->
 
-Avec l'impôts il est aujourd'hui notre seule méthode de redistribution des richesses produites.
+Avec l'impôts le travail est aujourd'hui notre seul moyen de redistribution des richesses produites.
 La technologie fait qu'on nécessite de moins en moins de travail humain pour répondre à nos **besoins**.
 
 <!-- Moins de travail signifiant moins de revenu
