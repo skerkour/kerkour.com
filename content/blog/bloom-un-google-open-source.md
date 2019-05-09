@@ -210,8 +210,8 @@ Entrer dans un modèle de collaboration plutôt que de compétition est la seule
 la surexploitation de notre environnement et donc limiter notre propre empoisonnement.
 
 **La collaboration c'est avant tout un état d'esprit,
-celui de faire profiter à tout le monde des richesses issues de notre labeur, et ce sans distinction de status d'employé
-ou de chômeur.**
+celui de faire profiter à au monde entier des richesses issues de notre labeur (ou passion), et ce que nous soyons employé
+ou chômeur.**
 
 
 #### Résilience
@@ -235,19 +235,13 @@ ils deviennent beaucoup plus résilients à des tentatives de censure.
 
 #### Un tremplin pour l'éducation
 
-Une
+L'éducation façonne nos sociétés. Lui imposer des limites artificielles (*Copyright*, prix excessifs...)
+n'est que la garantie d'une mort lente et douloureuse.
 
-
-### Open Access
-
-*L’open access (ou aussi « libre accès », ou encore « accès ouvert ») à la littérature scientifique est un mode de diffusion des articles de recherche sous forme numérique, gratuite et dans le respect du droit d’auteur.*
-
-[Le monde de la publication scientifique est gangréné](https://www.echosciences-grenoble.fr/articles/la-controverse-en-matiere-de-publication-des-articles-scientifiques).
-
-Il n'y a rien à dire, tout le monde voit l'intérêt pour le bien commun de publier publiquement et gratuitement les résultats
-des chercheurs financés aussi bien par le public que le privé.
-
-Je recommande le livre [Open Acces de Peter Suber](http://ia601805.us.archive.org/17/items/9780262517638OpenAccess/9780262517638_Open_Access.pdf) pour approfondir le sujet.
+L'Open source profite triplement à l'éducation:
+* En réduisant drastiquement les coûts
+* En améliorant la qualité des matériaux éducatifs
+* En permettant d'étudier, de comprendre les systèmes éxistants
 
 
 ### Open data
@@ -274,6 +268,18 @@ de la robotique, de la médecine, des transoprts etc... mais surtout de grandeme
 À l'heure où nous déléguons de plus en plus notre mémoire à des entreprises dans des sillots privés nous n'avons
 absolument aucune garantie quant à l'avenir de cette mémoire, tant au niveau de sa destruction qu'au niveau
 de sa modification.
+
+### Open Access
+
+*L’open access (ou aussi « libre accès », ou encore « accès ouvert ») à la littérature scientifique est un mode de diffusion des articles de recherche sous forme numérique, gratuite et dans le respect du droit d’auteur.*
+
+[Le monde de la publication scientifique est gangréné](https://www.echosciences-grenoble.fr/articles/la-controverse-en-matiere-de-publication-des-articles-scientifiques).
+
+Il n'y a rien à dire, tout le monde voit l'intérêt pour le bien commun de publier publiquement et gratuitement les résultats
+des chercheurs financés aussi bien par le public que le privé.
+
+Je recommande le livre [Open Acces de Peter Suber](http://ia601805.us.archive.org/17/items/9780262517638OpenAccess/9780262517638_Open_Access.pdf) pour approfondir le sujet.
+
 
 ### Transparence: vertueuse mais surtout nécessaire
 
