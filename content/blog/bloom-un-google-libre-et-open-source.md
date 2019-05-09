@@ -185,7 +185,7 @@ Quand Jacque contribue ou travaille sur un projet open source, le fruit de son t
 utilisateurs du projet open source et au reste de monde qui peut l'utiliser gratuitement, le modifier, l'améliorer.
 Quand Jacque change d'emploi, ou de projet, le résultat de son précédent emploi continue à lui être bénéfique.
 
-Les richesses produites se cumulent plutôt que de devoir être re-crées par chaque acteur.
+Ainsi les richesses produites se cumulent plutôt que de devoir être re-crées par chaque acteur.
 
 <!-- Chaque entreprise, chaque organisation, n'a plus à tout réinventer dans son coin, elle est libre de s'appuyer si elle le veut
 sur le travail effectué par d'autres pour y ajouter ce qu'elle estime être de la valeur. -->
