@@ -15,7 +15,7 @@ lang = "fr"
 1. [Des enjeux universels et inédits](#des-enjeux-universels-et-inedits)
 2. [Open source, access, data ...](#open-source-access-data)
 3. [Bloom: le master plan top secret](#bloom-le-master-plan-top-secret)
-4. [En résumé](#en-résumé)]
+4. [En résumé](#en-resume)]
 
 -------
 
