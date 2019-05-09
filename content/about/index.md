@@ -16,8 +16,8 @@ creator of <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom: Open
 
 **I'm on a mission to empower the world with open technologies, by the people, for the people.**
 
-You can find me on GitHub as [@z0mbie42](https://github.com/z0mbie42)<br/>
-and on Twitter as [@z0mbie42](https://twitter.com/z0mbie42)<br/>
+You can find me on GitHub [@z0mbie42](https://github.com/z0mbie42)<br/>
+and on Twitter [@z0mbie42](https://twitter.com/z0mbie42)<br/>
 
 Contact: <span id="email"></span>
 
