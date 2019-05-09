@@ -282,7 +282,7 @@ de sa modification.
 
 [Le monde de la publication scientifique est gangréné](https://www.echosciences-grenoble.fr/articles/la-controverse-en-matiere-de-publication-des-articles-scientifiques).
 
-Il n'y a rien à dire, tout le monde voit l'intérêt pour le bien commun de publier publiquement et gratuitement les résultats
+Il n'y a rien de plus à dire, tout le monde voit l'intérêt pour le bien commun de publier publiquement et gratuitement les résultats
 des chercheurs financés aussi bien par le secteur public que privé.
 
 Je recommande le livre [Open Acces de Peter Suber](http://ia601805.us.archive.org/17/items/9780262517638OpenAccess/9780262517638_Open_Access.pdf) pour approfondir le sujet.
