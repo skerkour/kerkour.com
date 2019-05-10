@@ -332,7 +332,7 @@ la manière dont nous produisons.
 Un monde de collaboration plutôt que de compétition. Nous n'avons simplement pas le luxe de pouvoir continuer à concourir pour les mêmes
 resources finies, faisant fi des destructions et pollutions engendrées.
 
-C'est à nous de choisir aujourd'hui si nous voulons travailler toujours plus pour entretenir et éxhacerber des inégalités déjà criantes,
+C'est à nous de choisir aujourd'hui si nous voulons travailler toujours plus pour entretenir et exacerber des inégalités déjà criantes,
 ou si nous voulons d'un monde où les technologies sont au service du bien de tous. Cet avenir n'est pas encore
 écrit.
 
@@ -459,8 +459,7 @@ En faisant un don en crypto-monnaie:
 
 Un grand merci aux personnes ayant déjà contribué:
 
-* Kamel Kerkour
-*
+gs
 * Marina Da Silva
 * Ma famille
 
