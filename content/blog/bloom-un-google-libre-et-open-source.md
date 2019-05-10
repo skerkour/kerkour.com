@@ -462,7 +462,7 @@ Un grand merci aux personnes ayant déjà contribué:
 * Kamel Kerkour
 *
 * Marina Da Silva
-* Anne Kerkour
+* Ma famille
 
 
 ## En résumé
