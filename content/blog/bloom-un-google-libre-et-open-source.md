@@ -326,7 +326,8 @@ est le fondement même du contre-pouvoir.
 
 ## Bloom: le master plan top secret
 
-Bloom se veut l'amorce d'un changement de paradigme, dans la manière dont nous consommons mais surtout dans
+<a href="https://bloom.sh" target="_blank" rel="noopener">Bloom</a>
+se veut l'amorce d'un changement de paradigme, dans la manière dont nous consommons mais surtout dans
 la manière dont nous produisons.
 
 Un monde de collaboration plutôt que de compétition. Nous n'avons simplement pas le luxe de pouvoir continuer à concourir pour les mêmes
@@ -358,6 +359,9 @@ Bloom propose aujourd'hui les services en ligne suivants:
 * <a href="https://bloom.sh/notes" target="_blank" rel="noopener">Bloom Notes</a>: une application de prise de notes
 * <a href="https://bloom.sh/bitflow" target="_blank" rel="noopener">Bitflow</a>: un gestionnaire de téléchargements, qui permet de télécharger des fichiers directement dans votre *drive*
 * <a href="https://bloom.sh/platform/phaser" target="_blank" rel="noopener">Phaser</a>: un scanner de sécurité automatique pour sites webs
+
+Ainsi qu'une applicaiton Android disponible ici:
+<a href="https://play.google.com/store/apps/details?id=com.bloom42.bloomx" target="_blank" rel="noopener">https://play.google.com/store/apps/details?id=com.bloom42.bloomx</a>
 
 Tous offrant un tier gratuit sans contrepartie (pas de ciblage, pas de publicité...)
 et dont le code est disponible librement sur [GitHub](https://github.com/bloom42).
