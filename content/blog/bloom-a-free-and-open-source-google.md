@@ -1,5 +1,5 @@
 +++
-date = 2019-03-01T12:42:42+02:00
+date = 2019-06-05T01:42:42
 draft = true
 title = "Bloom: an Open Source Google"
 tags = ["rust", "rustlang", "opensource", "google", "free software"]
