@@ -387,7 +387,11 @@ C'est pourquoi nous sommes engagés à faciliter cette collaboration mondiale et
 
 #### Communication
 
-Un chat Discord est disponible ici: <a href="https://discord.gg/HmDQDGv" target="_blank" rel="noopener">https://discord.gg/HmDQDGv</a>.
+La langue officielle de communication de Bloom est l'anglais.
+
+Un forum est disponible pour discuter des idées d'amélioration et demander de l'aide à la communauté: <a href="https://forum.bloom.sh" target="_blank" rel="noopener">https://forum.bloom.sh</a>
+
+Un chat Discord est disponible ici pour la communication plus informelle: <a href="https://discord.gg/HmDQDGv" target="_blank" rel="noopener">https://discord.gg/HmDQDGv</a>.
 
 
 Pour rester informé des dernières mises à jours suivez nous sur Twitter <a href="https://twitter.com/bloom_cloud" target="_blank" rel="noopener">@bloom_cloud</a>.
