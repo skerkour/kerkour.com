@@ -284,7 +284,7 @@ entreprises (*les géants de la tech*), et sont utilisées entre autre pour [dé
 Disposer des ces données en accès libre permettrait de multiplier la rapidité d'innovation dans les domaines
 de la robotique, de la médecine, des transoprts etc... mais surtout de grandement réduire les besoins en resource dans tous ces domaines.
 
-À l'heure où nous déléguons de plus en plus notre mémoire à des entreprises qui les enferment dans des sillots privés, nous n'avons
+À l'heure où nous déléguons de plus en plus notre mémoire et notre savoir à des entreprises qui les enferment dans des sillots privés, nous n'avons
 absolument aucune garantie quant à l'avenir de celle-ce, tant au niveau de sa destruction qu'au niveau
 de sa modification.
 
