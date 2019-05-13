@@ -54,48 +54,41 @@ template = "readings.html"
   <img src="/imgs/photos/201801/b4af35c36e262af9361dbd65b5df3b56.jpg">
 </a>
 
+
 <a href="#img7">
-  <img src="/imgs/photos/201803/34d1aa2f89eb07d13883022f08c511f7.jpg" class="thumbnail">
-</a>
-<a href="#" class="lightbox" id="img7">
-  <img src="/imgs/photos/201803/34d1aa2f89eb07d13883022f08c511f7.jpg">
-</a>
-
-
-<a href="#img8">
   <img src="/imgs/photos/201803/e4be30767e0e656991f30bbf3a1c0455.jpg" class="thumbnail">
 </a>
-<a href="#" class="lightbox" id="img8">
+<a href="#" class="lightbox" id="img7">
   <img src="/imgs/photos/201803/e4be30767e0e656991f30bbf3a1c0455.jpg">
 </a>
 
 
-<a href="#img9">
+<a href="#img8">
   <img src="/imgs/photos/201807/951ad00c00ad684ebfad5a915de3f9cd.jpg" class="thumbnail">
 </a>
-<a href="#" class="lightbox" id="img9">
+<a href="#" class="lightbox" id="img8">
   <img src="/imgs/photos/201807/951ad00c00ad684ebfad5a915de3f9cd.jpg">
 </a>
 
-<a href="#img10">
+<a href="#img9">
   <img src="/imgs/photos/201807/b40d4be95c10a7b39ed96ed27d466ff3.jpg" class="thumbnail">
 </a>
-<a href="#" class="lightbox" id="img10">
+<a href="#" class="lightbox" id="img9">
   <img src="/imgs/photos/201807/b40d4be95c10a7b39ed96ed27d466ff3.jpg">
 </a>
 
 
-<a href="#img11">
+<a href="#img10">
   <img src="/imgs/photos/201810/15925848b95e83b5133177f2fa69cc5e.jpg" class="thumbnail">
 </a>
-<a href="#" class="lightbox" id="img11">
+<a href="#" class="lightbox" id="img10">
   <img src="/imgs/photos/201810/15925848b95e83b5133177f2fa69cc5e.jpg">
 </a>
 
 
-<a href="#img12">
+<a href="#img11">
   <img src="/imgs/photos/201812/f6ce4b689537027ca875870cddc748ef.jpg" class="thumbnail">
 </a>
-<a href="#" class="lightbox" id="img12">
+<a href="#" class="lightbox" id="img11">
   <img src="/imgs/photos/201812/f6ce4b689537027ca875870cddc748ef.jpg">
 </a>
