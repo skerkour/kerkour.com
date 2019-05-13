@@ -12,7 +12,7 @@ lang = "fr"
 
 🇬🇧 [English version here](/blog/bloom-an-open-source-google)
 
-1. [Des enjeux universels et inédits](#des-enjeux-universels-et-inedits)
+1. [Des défis universels et inédits](#des-defis-universels-et-inedits)
 2. [Open source, access, data ...](#open-source-access-data)
 3. [Bloom: le master plan top secret](#bloom-le-master-plan-top-secret)
 4. [En résumé](#en-resume)
@@ -21,20 +21,20 @@ lang = "fr"
 
 ## TL;DR
 
-Pour faire face aux enjeux universels et inédits de notre siècle, j'ai créé une alternative gratuite,
+Pour faire face aux défis universels et inédits de notre siècle, j'ai créé une alternative gratuite,
 libre et open source à Google (et sans publicité ni ciblage): Bloom.
 C'est par [ici pour la version en ligne](https://bloom.sh), par [ici pour l'application Android](https://play.google.com/store/apps/details?id=com.bloom42.bloomx), par [ici pour le code](https://github.com/bloom42)
 et par [ici pour  contribuer](#contribuer). Ce n'est que le début d'une grande aventure 🚀
 
 
-## Des enjeux universels et inédits
+## Des défis universels et inédits
 
 Voici une nouvelle qui n'en n'est pas une: le début du XXIème siècle est un tournant décisif dans
-l'histoire de l'humanité. Si aujourd'hui la culture n'a plus de frontière (évènement sportifs, art ...)
-les problèmes non plus. C'est tous ensemble que nous devons apporter des réponses à la fois aux enjeux du court terme (sociaux)
+l'histoire de l'humanité. Si aujourd'hui la culture n'a plus de frontière (évènements sportifs, art ...)
+les problèmes non plus. C'est tous ensemble que nous devons apporter des réponses à la fois aux défis du court terme (sociaux)
 et ceux du long terme (environnementaux).
 
-<!-- Les enjeux auxquels fait face l'humanité dépassent les Pays, les continents
+<!-- Les défis auxquels fait face l'humanité dépassent les Pays, les continents
 et menancent notre espèce entière. -->
 
 <!-- Nous devons donc nous unir, malgré nos différences et un passé où nos ancêtre se sont parfois opposés. -->
@@ -86,7 +86,7 @@ Deux futurs se présentent alors:
 * Consommer toujours plus
 * Mieux redistribuer les richesses
 
-Consommer toujours plus - économies et sociétés reposant sur la croissance - n'est évidemment pas compatible avec la crise écologique.
+Consommer toujours plus - sociétés basées sur la croissance - n'est évidemment pas compatible avec la crise écologique.
 
 Moins de nécessité de production = moins de travail = encore plus de chômage et donc moins de richesses distribuées.
 
@@ -102,7 +102,7 @@ universel, sans ccontinuer à accélérer notre autodestruction ?**
 
 Le printemps arabe, les gilets jaunes, les populations dont la qualité de vie ne bénéficie pas des richesses qu'elles
 produisent remettent en cause le <a href="https://fr.wikipedia.org/wiki/Du_contrat_social" target="_blank" rel="noopener">contrat social</a>.
-Il est impératif de rapidement trouver un nouveau système, un système où tout le monde y trouve son compte pour faire face ensemble à la
+Il est impératif de rapidement trouver un nouveau système, un système où tout le monde y trouve son compte, pour faire face ensemble à la
 crise écologique qui nous affecte tous.
 
 
@@ -169,8 +169,7 @@ aberration effarantes sont déjà en place
 les derives des ayants droits sur les plateformes de partage de contenu,
 [les derives des journaux scientifiques](https://www.youtube.com/watch?v=WnxqoP-c0ZE),
 les [copyright trolls](https://en.wikipedia.org/wiki/Copyright_troll)...)
-la volonté de renforcer le droit de la propriété intellectuelle dont les externalités négaitves ne sont jamais mentionnées, est "au mieux" cupide,
-si ce n'est criminel. Car oui, les brevets sur les médicaments ou les semences tuent.
+la volonté de renforcer le droit de la propriété intellectuelle dont les externalités négaitves ne sont jamais mentionnées, est cupide et criminel. Car oui, les brevets sur les médicaments ou les semences tuent.
 
 **Toute cette bureaucratie n'est bien sûr pas la bienvenue alors que l'humanité fait face à des problèmes majeurs.**
 
@@ -201,7 +200,7 @@ utilisateurs du projet open source et au reste de monde qui peut l'utiliser grat
 Quand Jacques change d'emploi ou le quitte, le résultat de son précédent travail lui reste accessible, il peut
 continuer à en bénéficier.
 
-Ainsi les richesses produites se cumulent, plutôt que de devoir être re-crées par chaque acteur.
+Ainsi les richesses produites se cumulent, plutôt que de devoir être re-créées par chaque acteur de la société.
 
 <!-- Chaque entreprise, chaque organisation, n'a plus à tout réinventer dans son coin, elle est libre de s'appuyer si elle le veut
 sur le travail effectué par d'autres pour y ajouter ce qu'elle estime être de la valeur. -->
@@ -219,7 +218,7 @@ réduire notre consommation énergétique à l'échelle planétaire.
 
 #### Collaboration mondiale
 
-Cette intersection des moyens de communication instantanée et de l'ouverture des moyens de production permettent
+Cette intersection des moyens de communication instantanée et de l'ouverture des outils de production permettent
 une collaboration globale. Les utilisateurs peuvent contribuer, participer à la création des produits qu'ils utilisent.
 Ils ne sont plus simplement des consommateurs, mais acteurs, et ce sans barrière géographique.
 
@@ -255,7 +254,7 @@ ils deviennent beaucoup plus résilients à des tentatives de censure.
 
 L'éducation façonne nos sociétés. Lui imposer des limites artificielles (*Copyright*, prix excessifs,
 <a  href="https://fr.wikipedia.org/wiki/Gestion_des_droits_num%C3%A9riques" target="_blank" rel="noopener">DRM</a> ...)
-n'est que la garantie d'une mort lente et douloureuse.
+n'est que la garantie d'une mort lente et douloureuse de celles-ci.
 
 L'Open source, quant à lui, profite triplement à l'éducation:
 * En réduisant drastiquement les coûts
@@ -271,8 +270,9 @@ L’open data *ou donnée ouverte est une donnée numérique dont l'accès et l'
 La donnée est aujourd'hui comparée au pétrole, de la même manière que ce dernier est le carburant de nos moteurs à
 explosion, la donnée est le carburant des [algorithmes](https://fr.wikipedia.org/wiki/Algorithme).
 
-C'est en récoltant beaucoup de données et en leur donnant du sens que nous pourrons avoir des véhicules
-autonomes et ainsi réduire drastiquement le nombre de morts sur les routes. C'est grâce à la donnée que
+<!-- C'est en récoltant beaucoup de données et en leur donnant du sens que nous pourrons avoir des véhicules
+autonomes et ainsi réduire drastiquement le nombre de morts sur les routes. -->
+C'est en récoltant beaucoup de données et en leur donnant du sens
 nous pouvons automatiser la détection de maladies. C'est grâce à la donnée que nous pouvons
 optimiser des flux logistiques ou énergétiques et ainsi réduire notre trop grande consommation.
 
@@ -282,11 +282,11 @@ entreprises (*les géants de la tech*), et sont utilisées entre autre pour [dé
 
 
 Disposer des ces données en accès libre permettrait de multiplier la rapidité d'innovation dans les domaines
-de la robotique, de la médecine, des transoprts etc... mais surtout de grandement réduire les besoins en resource dans tous ces domaines.
+de la robotique, de la médecine, des transoprts, de l'agriculture etc... mais surtout de grandement réduire les besoins en resource dans tous ces domaines.
 
 À l'heure où nous déléguons de plus en plus notre mémoire et notre savoir à des entreprises qui les enferment dans des sillots privés, nous n'avons
-absolument aucune garantie quant à l'avenir de celle-ce, tant au niveau de sa destruction qu'au niveau
-de sa modification.
+absolument aucune garantie quant à leur avenir, tant au niveau de leur destruction qu'au niveau
+de leur modification.
 
 
 ### Open Access
@@ -296,7 +296,7 @@ de sa modification.
 [Le monde de la publication scientifique est gangrené](https://www.echosciences-grenoble.fr/articles/la-controverse-en-matiere-de-publication-des-articles-scientifiques).
 
 Il n'y a rien de plus à dire: tout le monde s'accorde sur l'intérêt pour le bien commun de publier publiquement et gratuitement les résultats
-des chercheurs financés aussi bien par le secteur public que privé.
+des chercheurs financés aussi bien par le secteur public que privé (ce dernier étant financé de toute façon par nos impôts...).
 
 Je recommande le livre [Open Acces de Peter Suber](http://ia601805.us.archive.org/17/items/9780262517638OpenAccess/9780262517638_Open_Access.pdf) pour approfondir le sujet.
 
@@ -316,7 +316,7 @@ de nos sociétés, il existe 2 grandes directions pour restreindre leurs effets:
 D'un côté il est facile de comprendre pourquoi la censure de masse est néfaste, mais de l'autre côté la transparence n'est pas suffisante à elle seule pour mettre fin aux fausses informations. Elle permet avant tout d'apporter des faits contradictoires et prouvables (contrairement aux *fake news*).
 
 
-La première étape de la transparence est de rendre les données publiques. La seconde est de les rendre facile
+La première étape de la transparence est de rendre l'information publique. La seconde est de la rendre facile
 d'accès, facile à chercher, facile à réutiliser.
 
 Sans transparence, il n'y a pas de vie publique. Sans transparence, il n'y a pas de société stable. La transparence
@@ -363,17 +363,18 @@ Bloom propose aujourd'hui les services en ligne suivants:
 Ainsi qu'une applicaiton Android disponible ici:
 <a href="https://play.google.com/store/apps/details?id=com.bloom42.bloomx" target="_blank" rel="noopener">https://play.google.com/store/apps/details?id=com.bloom42.bloomx</a>
 
-Tous offrant un tier gratuit sans contrepartie (pas de ciblage, pas de publicité...)
+Tous ces services offrant un tier gratuit sans contrepartie (pas de ciblage, pas de publicité...)
 et dont le code est disponible librement sur [GitHub](https://github.com/bloom42).
 
-Aujourd'hui orientés productivité puisque cela profite au plus grand nombre, nous contribuerons demain
+Aujourd'hui orientés productivité, puisque cela profite au plus grand nombre, nous contribuerons demain
 à des secteurs plus divers tels que l'agriculture, l'architecture, le transport...
 
-**Bloom est le Linux du XXIème siècle. Bloom est le Wikipedia des services.**
+**Bloom est le Linux du XXIème siècle.**
 
 Nous n'avons pas encore de réponse concernant la gouvernance mais nous réfléchissons à un système
-de gouvernance ouvert, multi-latéral tout en préservant la sécurité et l'intergrité du système
-(ce que ne permet pas par exemple la fédération simple, comme le montre les spams dans le monde des emails)
+de ouvert, multi-latéral tout en préservant la sécurité et l'intergrité du système
+(ce que ne permet pas par exemple la fédération simple, comme le montre les spams dans le monde des emails, ou des contenus
+illégaux dans le monde de Mastodon)
 et sommes ouverts à toute discussion, proposition sur le sujet.
 
 
@@ -391,7 +392,7 @@ La langue officielle de communication de Bloom est l'anglais.
 
 Un forum est disponible pour discuter des idées d'amélioration et demander de l'aide à la communauté: <a href="https://forum.bloom.sh" target="_blank" rel="noopener">https://forum.bloom.sh</a>
 
-Un chat Discord est disponible ici pour la communication plus informelle: <a href="https://discord.gg/HmDQDGv" target="_blank" rel="noopener">https://discord.gg/HmDQDGv</a>.
+Un chat Discord est disponible ici pour les communications plus informelles: <a href="https://discord.gg/HmDQDGv" target="_blank" rel="noopener">https://discord.gg/HmDQDGv</a>.
 
 
 Pour rester informé des dernières mises à jours suivez nous sur Twitter <a href="https://twitter.com/bloom_cloud" target="_blank" rel="noopener">@bloom_cloud</a>.
@@ -411,9 +412,9 @@ Plus d'informations sont disponibles sur notre site [opensource.bloom.sh](https:
 * Un langage expressif et moderne
 * Un langage open-source et embrassant pleinement les valeurs de Bloom
 * Un langage permettant la fois des abstractions de haut niveau et des constructions de bas niveau, sans coût de performance
-* Un langage portable qui peut aussi bien être utilisé pour des services web que pour des robots
 * Tous nos services doivent pouvoir être auto-hébergés sur un <a href="https://www.raspberrypi.org" target="_blank" rel="noopener">Raspberry pi</a>
-
+* Là encore les intérêts composés entrent en jeux, être expert dans langage capable à la fois de faire des services web
+et de la robotique permet de multiplier les capacités de création
 
 Il sera utilisé pour **tous** les projets de Bloom sauf impératif contraire
 (Typescript + Vue pour les applications web, Kotlin pour les applications Android, Swift pour les applications IOS...).
@@ -467,7 +468,6 @@ En faisant un don en crypto-monnaie:
 
 Un grand merci aux personnes ayant déjà contribué:
 
-gs
 * Marina Da Silva
 * Ma famille
 
@@ -480,7 +480,7 @@ En résumé le master plan est le suivant:
 2. Avec cet argent réduire les prix, libérer la donnée et l'accès a la connaissance scientifique<br />
 3. Avec cet argent et cette communauté créer l'infrastructure ouverte pour faire fonctionner ces logiciels et héberger ces données ouvertes
 
-Notre mission ? Faire du monde une meilleure place grâce à des technologies ouvertes, par le peuple, pour le peuple.
+Notre mission ? Faire du monde un meilleur endroit grâce à des technologies ouvertes, par le peuple, pour le peuple.
 
 Mais chuuut, c'est un secret 🤫
 
