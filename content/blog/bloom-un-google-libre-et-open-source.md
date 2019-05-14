@@ -433,7 +433,7 @@ Pour contribuer au design de Bloom cela se passe sur le repo [github.com/bloom42
 
 #### En partageant
 
-Diffusez les idées, débattez avec vos amis, paratgez Bloom sur les réseaux sociaux !
+Diffusez les idées, débattez avec votre entourage, paratgez Bloom sur les réseaux sociaux !
 
 Nous ne sommes encore qu'au début de l'aventure et nous faire connaître nous aide ééénooormément !
 
