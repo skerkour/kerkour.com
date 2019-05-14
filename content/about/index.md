@@ -12,8 +12,8 @@ template = "about.html"
 </div>
 
 INTJ,
-I cut my teeth on rugby fields and on boxing rings, then at <a href="https://www.42.fr" target="_blank" rel="noopener">42</a>
-and I'm now the creator of <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom: Open technologies</a>.
+I cut my teeth on rugby fields, on boxing rings, and then at <a href="https://www.42.fr" target="_blank" rel="noopener">42</a>.<br/>
+I'm now the creator of <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom: Open technologies</a>.
 
 I'm not a *new cool kid entrepreneur*, I'm a tireless inventor who study scaling laws, (macro and micro) economics, ecology, technology and learned the hard way how to deliver products.
 
