@@ -330,7 +330,7 @@ est le fondement même du contre-pouvoir.
 
 Nous croyons en un changement de paradigme
 dans la manière dont nous consommons mais surtout dans la manière dont nous produisons,
-nous croyons en un monde de collaboration plutôt que de compétition. C'est pourquoi nous avons créé
+**nous croyons en un monde de collaboration plutôt que de compétition**. C'est pourquoi nous avons créé
 <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom</a>.
 
 <!-- <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom</a>
@@ -380,9 +380,9 @@ Nous avons choisi la <a href="https://fr.wikipedia.org/wiki/Copyleft" target="_b
 
 Nous n'avons pas encore de réponse concernant la gouvernance mais nous réfléchissons à un système
 de ouvert, multi-latéral tout en préservant la sécurité et l'intergrité du système
-(ce que ne permet pas par exemple la fédération simple, comme le montre les spams dans le monde des emails, ou des contenus
-illégaux dans le monde de Mastodon)
-et sommes ouverts à toute discussion, proposition sur le sujet.
+(ce que ne permet pas par exemple la fédération simple, comme le montre les spams dans le monde des emails, ou les contenus
+illégaux dans le monde de Mastodon).
+Nous sommes ouverts à toute discussion, proposition sur le sujet.
 
 
 ### Contribuer
