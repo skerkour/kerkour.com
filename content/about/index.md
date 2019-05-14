@@ -7,7 +7,7 @@ template = "about.html"
 
 <div class="about-whoiam">
   <img src="/about/sylvain.jpg" alt="Sylvain Kerkour profile picture" height="256" width="256" />
-  <p>Hey! I'm Sylvain Kerkour (<i>a.k.a</i> <b>z0mbie42</b>)</p>
+  <p>Hey! I'm Sylvain Kerkour (<i>a.k.a</i> <b>z0mbie42</b>)  🙋‍♂️</p>
   <!-- style="margin: 0 auto;display: block;"/> -->
 </div>
 
@@ -15,7 +15,7 @@ template = "about.html"
 I cut my teeth on rugby fields and on boxing rings, then at <a href="https://www.42.fr" target="_blank" rel="noopener">42</a>
 and I'm now the creator of <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom: Open technologies</a>.
 
-I'm not a *new cool kid entrepreneur*, I'm a tireless inventor who study scaling laws, (macro and micro) economics, ecology, technology and management and love sport.
+I'm not a *new cool kid entrepreneur*, I'm a tireless inventor who study scaling laws, (macro and micro) economics, ecology, technology, management and love sport.
 
 **I'm on a mission to empower the world with open technologies, by the people, for the people.**
 
