@@ -22,7 +22,7 @@ I'm not a *new cool kid entrepreneur*, I'm a tireless inventor who study scaling
 You can find me on GitHub [@z0mbie42](https://github.com/z0mbie42)<br/>
 and on Twitter [@z0mbie42](https://twitter.com/z0mbie42)<br/>
 
-Contact: <span id="email"></span>
+Contact: <span id="email"></span> (Please do not expect a quick response).
 
 I'm currently on UTC+1
 
