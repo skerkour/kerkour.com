@@ -12,9 +12,9 @@ lang = "fr"
 
 🇬🇧 [English version here](/blog/bloom-an-open-source-google)
 
-1. [Des défis universels et inédits](#des-defis-universels-et-inedits)
-2. [Open source, access, data ...](#open-source-access-data)
-3. [Bloom: le master plan top secret](#bloom-le-master-plan-top-secret)
+1. [Des défis universels et inédits (Pourquoi ?)](#des-defis-universels-et-inedits-pourquoi)
+2. [Open source, access, data ... (Comment ?)](#open-source-access-data-comment)
+3. [Bloom: le master plan top secret (Quoi ?)](#bloom-le-master-plan-top-secret-quoi)
 4. [En résumé](#en-resume)
 
 -------
@@ -27,7 +27,7 @@ C'est par [ici pour la version en ligne](https://bloom.sh), par [ici pour l'appl
 et par [ici pour  contribuer](#contribuer). Ce n'est que le début d'une grande aventure 🚀
 
 
-## Des défis universels et inédits
+## Des défis universels et inédits (Pourquoi ?)
 
 Voici une nouvelle qui n'en n'est pas une: le début du XXIème siècle est un tournant décisif dans
 l'histoire de l'humanité. Si aujourd'hui la culture n'a plus de frontière (évènements sportifs, art ...)
@@ -148,7 +148,7 @@ d'antibiotiques aussi bien pour notre bétail que pour nous même fait peser un 
 -->
 
 
-## Open source, access, data ...
+## Open source, access, data ... (Comment ?)
 <!--
 A l'heure du numérique où la copie et la diffusion d'un document digital ne coûte virtuellement rien,
 les volontés de renforcer le droit de la propriété intellectuelle, alors que des
@@ -160,6 +160,8 @@ les [copyright trolls](https://en.wikipedia.org/wiki/Copyright_troll)...)
 les volontés de renforcer le droit de la propriété intellectuelle dont les externalités
 négaitves ne sont jamais, ne serait-ce que mentionnées, sont "au mieux" de la cupidité
 si ce n'est criminel. Oui, les brevets sur les médicaments ou les semences tuent. -->
+
+La solution ? Un enfant de 4 ans la trouverait sans problème : le partage.
 
 
 A l'heure du numérique où la copie et la diffusion d'un document digital ne coûte virtuellement rien
@@ -324,7 +326,7 @@ est le fondement même du contre-pouvoir.
 <!-- Sans transparence le *lobbying* ne doit être considéré que comme de la corruption. -->
 
 
-## Bloom: le master plan top secret
+## Bloom: le master plan top secret (Quoi ?)
 
 <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom</a>
 se veut l'amorce d'un changement de paradigme, dans la manière dont nous consommons mais surtout dans
