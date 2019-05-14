@@ -344,6 +344,11 @@ resources finies, faisant fi des destructions et pollutions engendrées. -->
 Bloom est une organisation qui grâce à l'Open source/access/data..., redistribue gratuitement et librement
 sa production à large échelle, en s'appuyant sur les nouvelles technologies pour le faire à moindre
 coût plutôt que des les utiliser comme outil impérialiste. L'éthique plutôt que le profit.
+Nous voulons briser la frontière entre entreprises et consommateurs.
+
+
+Notre mission ?
+**Faire de notre planète un meilleur endroit pour tout le monde grâce à des technologies ouvertes, par le peuple, pour le peuple.**
 
 C'est à nous de choisir aujourd'hui si nous voulons subir un monde où l'on doit travailler toujours plus pour entretenir et exacerber des inégalités déjà criantes,
 ou si nous voulons d'un monde où les technologies sont au service du bien de tous. Cet avenir n'est pas encore
