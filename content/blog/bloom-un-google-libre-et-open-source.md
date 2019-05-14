@@ -10,7 +10,7 @@ lang = "fr"
 
 *Il ne faut pas compter sur ceux qui ont créé les problèmes pour les résoudre.*
 
-🇬🇧 [English version here](/blog/bloom-an-open-source-google)
+🇬🇧 [English version here](/blog/bloom-a-free-and-open-source-google)
 
 1. [Des défis universels et inédits (Pourquoi ?)](#des-defis-universels-et-inedits-pourquoi)
 2. [Open source, access, data... (Comment ?)](#open-source-access-data-comment)
@@ -298,7 +298,7 @@ de leur modification.
 [Le monde de la publication scientifique est gangrené](https://www.echosciences-grenoble.fr/articles/la-controverse-en-matiere-de-publication-des-articles-scientifiques).
 
 Il n'y a rien de plus à dire: tout le monde s'accorde sur l'intérêt pour le bien commun de publier publiquement et gratuitement les résultats
-des chercheurs financés aussi bien par le secteur public que privé (ce dernier étant financé de toute façon par nos impôts...).
+des chercheurs financés aussi bien par le secteur public que privé ([ce dernier étant financé de toute façon par nos impôts](https://www.service-public.fr/professionnels-entreprises/vosdroits/F23533)...).
 
 Je recommande le livre [Open Acces de Peter Suber](http://ia601805.us.archive.org/17/items/9780262517638OpenAccess/9780262517638_Open_Access.pdf) pour approfondir le sujet.
 
@@ -362,10 +362,10 @@ Bloom propose aujourd'hui les services en ligne suivants:
 Ainsi qu'une applicaiton Android disponible ici:
 <a href="https://play.google.com/store/apps/details?id=com.bloom42.bloomx" target="_blank" rel="noopener">https://play.google.com/store/apps/details?id=com.bloom42.bloomx</a>
 
-Tous ces services offrants un tier gratuit sans contrepartie (pas de ciblage, pas de publicité...)
+Tous ces services offrent un tier gratuit (ou sont entièrement gratuits) sans contrepartie (pas de ciblage, pas de publicité...)
 et dont le code est disponible librement sur [GitHub](https://github.com/bloom42).
 
-Aujourd'hui orientés productivité, puisque cela profite au plus grand nombre, nous contribuerons demain
+Aujourd'hui orientés productivité nous contribuerons demain
 à des secteurs plus divers tels que l'agriculture, l'architecture, le transport...
 
 **Bloom est le Linux du XXIème siècle.**
