@@ -21,7 +21,7 @@ lang = "fr"
 
 ## TL;DR
 
-Pour faire face aux défis universels et inédits de notre siècle, j'ai créé une alternative gratuite,
+Pour faire face aux défis universels et inédits de notre siècle, nous avons créé une alternative gratuite,
 libre et open source à Google (et sans publicité ni ciblage): Bloom.
 C'est par [ici pour la version en ligne](https://bloom.sh), par [ici pour l'application Android](https://play.google.com/store/apps/details?id=com.bloom42.bloomx), par [ici pour le code](https://github.com/bloom42)
 et par [ici pour  contribuer](#contribuer). Ce n'est que le début d'une grande aventure 🚀
