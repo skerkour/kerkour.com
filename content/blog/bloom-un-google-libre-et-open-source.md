@@ -359,7 +359,7 @@ Bloom propose aujourd'hui les services en ligne suivants:
 * <a href="https://bloom.sh/bitflow" target="_blank" rel="noopener">Bitflow</a>: un gestionnaire de téléchargements, qui permet de télécharger des fichiers directement dans votre *drive*
 * <a href="https://bloom.sh/platform/phaser" target="_blank" rel="noopener">Phaser</a>: un scanner de sécurité automatique pour sites webs
 
-Ainsi qu'une applicaiton Android disponible ici:
+Une applicaiton Android est disponible:
 <a href="https://play.google.com/store/apps/details?id=com.bloom42.bloomx" target="_blank" rel="noopener">https://play.google.com/store/apps/details?id=com.bloom42.bloomx</a>
 
 Tous ces services offrent un tier gratuit (ou sont entièrement gratuits) sans contrepartie (pas de ciblage, pas de publicité...)
