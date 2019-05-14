@@ -386,7 +386,7 @@ et sommes ouverts à toute discussion, proposition sur le sujet.
 
 ### Contribuer
 
-Nous croyons en un monde où toute personne peut contribuer, pas seulement des experts.
+Nous croyons en un monde où chacun peut contribuer, pas seulement des experts.
 **Où citoyens et consommateurs deviennent acteurs.**
 C'est pourquoi nous sommes engagés à faciliter cette collaboration mondiale et sans barrières.
 
