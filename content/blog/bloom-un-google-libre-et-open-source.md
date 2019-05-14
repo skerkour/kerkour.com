@@ -402,7 +402,7 @@ Un forum est disponible pour discuter des idées d'amélioration et demander de 
 Un chat Discord est disponible ici pour les communications plus informelles: <a href="https://discord.gg/HmDQDGv" target="_blank" rel="noopener">discord.gg/HmDQDGv</a>.
 
 
-Et enfin, pour rester informé des dernières mises à jours suivez nous sur Twitter <a href="https://twitter.com/bloom_cloud" target="_blank" rel="noopener">@bloom_cloud</a>.
+Enfin, pour rester informé des dernières mises à jours suivez nous sur Twitter <a href="https://twitter.com/bloom_cloud" target="_blank" rel="noopener">@bloom_cloud</a>.
 
 
 #### Développement
