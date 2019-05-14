@@ -445,24 +445,24 @@ vous pouvez contribuer financièrement.
 
 Cet argent sera utilisé pour financer les personnes contribuant avec leur temps à un monde plus ouvert:
 
-En souscrivant à un abonnement sur <a href="https://bloom.sh" target="_blank" rel="noopener">bloom.sh</a>
+* En souscrivant à un abonnement sur <a href="https://bloom.sh" target="_blank" rel="noopener">bloom.sh</a>
 
 
-En devenant *patron*:
+* En devenant *patron*:
 
 <a href="https://www.patreon.com/bloom42" target="_blank" rel="noopener">
   <img src="/imgs/become_a_patron_button.png" height="42"/>
 </a>
 
 
-En faisant un don *Paypal*:
+* En faisant un don *Paypal*:
 
 <a href="https://paypal.me/z0mbie42" target="_blank" rel="noopener">
   <img src="/imgs/paypal_donate.gif" height="42"/>
 </a>
 
 
-En faisant un don en crypto-monnaie:
+* En faisant un don en crypto-monnaie:
 
 **BTC**: `38QY24nHRkMxUFsEDobwJU2b5QzuSL39Yb`
 
