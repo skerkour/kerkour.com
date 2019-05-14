@@ -328,9 +328,9 @@ est le fondement même du contre-pouvoir.
 
 ## Bloom: le master plan top secret (Quoi ?)
 
-Nous croyons en un changement de paradigme,
-dans la manière dont nous consommons mais surtout dans la manière dont nous produisons,
-**nous croyons en un monde de collaboration plutôt que de compétition**. C'est pourquoi nous avons créé
+<!-- Nous croyons en un changement de paradigme,
+dans la manière dont nous consommons mais surtout dans la manière dont nous produisons, -->
+**Nous croyons en un monde de partage et de collaboration plutôt que de compétition**. C'est pourquoi nous avons créé
 <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom</a>.
 
 <!-- <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom</a>
@@ -343,7 +343,7 @@ resources finies, faisant fi des destructions et pollutions engendrées. -->
 
 Bloom est une organisation qui grâce à l'Open source/access/data..., redistribue gratuitement et librement
 sa production à large échelle, en s'appuyant sur les nouvelles technologies pour le faire à moindre
-coût plutôt que des les utiliser comme outil impérialiste.
+coût plutôt que des les utiliser comme outil impérialiste. L'éthique plutôt que le profit.
 
 C'est à nous de choisir aujourd'hui si nous voulons subir un monde où l'on doit travailler toujours plus pour entretenir et exacerber des inégalités déjà criantes,
 ou si nous voulons d'un monde où les technologies sont au service du bien de tous. Cet avenir n'est pas encore
@@ -380,8 +380,8 @@ Nous avons choisi la <a href="https://fr.wikipedia.org/wiki/Copyleft" target="_b
 
 Nous n'avons pas encore de réponse concernant la gouvernance mais nous réfléchissons à un système
 de ouvert, multi-latéral tout en préservant la sécurité et l'intergrité du système
-(ce que ne permet pas par exemple la fédération simple, comme le montre les spams dans le monde des emails, ou les contenus
-illégaux dans le monde de Mastodon).
+(ce que ne permet pas par exemple la fédération simple, comme le montre les spams dans le monde des emails, les contenus
+illégaux dans le monde de Mastodon ou encore les attaques 51% contre les *blockchains*).
 Nous sommes ouverts à toute discussion, proposition sur le sujet.
 
 
