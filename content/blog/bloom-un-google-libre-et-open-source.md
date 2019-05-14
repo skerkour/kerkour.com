@@ -339,14 +339,14 @@ la manière dont nous produisons. -->
 <!-- Un monde de collaboration plutôt que de compétition. Nous n'avons simplement pas le luxe de pouvoir continuer à concourir pour les mêmes
 resources finies, faisant fi des destructions et pollutions engendrées. -->
 
-C'est à nous de choisir aujourd'hui si nous voulons subir un monde où l'on doit travailler toujours plus pour entretenir et exacerber des inégalités déjà criantes,
-ou si nous voulons d'un monde où les technologies sont au service du bien de tous. Cet avenir n'est pas encore
-écrit.
 
 Bloom est une organisation qui grâce à l'Open source/access/data..., redistribue gratuitement et librement
 sa production à large échelle, en s'appuyant sur les nouvelles technologies pour le faire à moindre
 coût plutôt que des les utiliser comme outil impérialiste.
 
+C'est à nous de choisir aujourd'hui si nous voulons subir un monde où l'on doit travailler toujours plus pour entretenir et exacerber des inégalités déjà criantes,
+ou si nous voulons d'un monde où les technologies sont au service du bien de tous. Cet avenir n'est pas encore
+écrit.
 
 Bloom propose aujourd'hui les services en ligne suivants:
 
