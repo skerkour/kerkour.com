@@ -383,11 +383,11 @@ Nous avons choisi la <a href="https://fr.wikipedia.org/wiki/Copyleft" target="_b
 <a href="https://www.gnu.org/licenses/agpl-3.0.fr.html" target="_blank" rel="noopener">AGPL v3.0</a> pour la plupart de nos créations pour encourager d'autres personnes
 à faire de même. Pas d'*open core*, pas d'entourloupe.
 
-Nous n'avons pas encore de réponse concernant la gouvernance mais nous réfléchissons à un système
+<!-- Nous n'avons pas encore de réponse concernant la gouvernance mais nous réfléchissons à un système
 de ouvert, multi-latéral tout en préservant la sécurité et l'intergrité du système
 (ce que ne permet pas par exemple la fédération simple, comme le montre les spams dans le monde des emails, les contenus
 illégaux dans le monde de Mastodon ou encore les attaques 51% contre les *blockchains*).
-Nous sommes ouverts à toute discussion, proposition sur le sujet.
+Nous sommes ouverts à toute discussion, proposition sur le sujet. -->
 
 
 ### Contribuer
