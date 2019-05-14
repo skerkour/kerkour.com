@@ -328,28 +328,24 @@ est le fondement même du contre-pouvoir.
 
 ## Bloom: le master plan top secret (Quoi ?)
 
-<a href="https://bloom.sh" target="_blank" rel="noopener">Bloom</a>
+Nous croyons en un monde de collaboration plutôt que de compétition, nous croyons en un changement de paradigme
+dans la manière dont nous consommons mais surtout dans la manière dont nous produisons. C'est pourquoi nous avons créé
+<a href="https://bloom.sh" target="_blank" rel="noopener">Bloom</a>.
+
+<!-- <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom</a>
 se veut l'amorce d'un changement de paradigme, dans la manière dont nous consommons mais surtout dans
-la manière dont nous produisons.
+la manière dont nous produisons. -->
 
-Un monde de collaboration plutôt que de compétition. Nous n'avons simplement pas le luxe de pouvoir continuer à concourir pour les mêmes
-resources finies, faisant fi des destructions et pollutions engendrées.
+<!-- Un monde de collaboration plutôt que de compétition. Nous n'avons simplement pas le luxe de pouvoir continuer à concourir pour les mêmes
+resources finies, faisant fi des destructions et pollutions engendrées. -->
 
-C'est à nous de choisir aujourd'hui si nous voulons travailler toujours plus pour entretenir et exacerber des inégalités déjà criantes,
+C'est à nous de choisir aujourd'hui si nous voulons subir un monde où l'on doit travailler toujours plus pour entretenir et exacerber des inégalités déjà criantes,
 ou si nous voulons d'un monde où les technologies sont au service du bien de tous. Cet avenir n'est pas encore
 écrit.
 
 Bloom est une organisation qui grâce à l'Open source/access/data..., redistribue gratuitement et librement
 sa production à large échelle, en s'appuyant sur les nouvelles technologies pour le faire à moindre
 coût plutôt que des les utiliser comme outil impérialiste.
-
-Bloom suit la *religion de Startuplaland*: **l'éxecution radicale
-plutôt que la bureaucratie, une expérience utilisateur sans faille et une culture forte pour le produit**. Avec
-pour objectif une meilleure qualité de vie commune.
-
-Nous avons choisi la <a href="https://fr.wikipedia.org/wiki/Copyleft" target="_blank" rel="noopener">license virale</a>
-<a href="https://www.gnu.org/licenses/agpl-3.0.fr.html" target="_blank" rel="noopener">AGPL v3.0</a> pour la plupart de nos créations pour encourager d'autres personnes
-à faire de même. Pas d'*open core*, pas d'entourloupe.
 
 
 Bloom propose aujourd'hui les services en ligne suivants:
@@ -372,6 +368,14 @@ Aujourd'hui orientés productivité, puisque cela profite au plus grand nombre, 
 à des secteurs plus divers tels que l'agriculture, l'architecture, le transport...
 
 **Bloom est le Linux du XXIème siècle.**
+
+Bloom suit la *religion de Startuplaland*: **l'éxecution radicale
+plutôt que la bureaucratie, une expérience utilisateur sans faille et une culture forte pour le produit**. Avec
+pour objectif une meilleure qualité de vie commune.
+
+Nous avons choisi la <a href="https://fr.wikipedia.org/wiki/Copyleft" target="_blank" rel="noopener">license virale</a>
+<a href="https://www.gnu.org/licenses/agpl-3.0.fr.html" target="_blank" rel="noopener">AGPL v3.0</a> pour la plupart de nos créations pour encourager d'autres personnes
+à faire de même. Pas d'*open core*, pas d'entourloupe.
 
 Nous n'avons pas encore de réponse concernant la gouvernance mais nous réfléchissons à un système
 de ouvert, multi-latéral tout en préservant la sécurité et l'intergrité du système
