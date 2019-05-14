@@ -397,9 +397,9 @@ C'est pourquoi nous sommes engagés à faciliter cette collaboration mondiale et
 
 La langue officielle de communication de Bloom est l'anglais.
 
-Un forum est disponible pour discuter des idées d'amélioration et demander de l'aide à la communauté: <a href="https://forum.bloom.sh" target="_blank" rel="noopener">https://forum.bloom.sh</a>
+Un forum est disponible pour discuter des idées d'amélioration et demander de l'aide à la communauté: <a href="https://forum.bloom.sh" target="_blank" rel="noopener">forum.bloom.sh</a>
 
-Un chat Discord est disponible ici pour les communications plus informelles: <a href="https://discord.gg/HmDQDGv" target="_blank" rel="noopener">https://discord.gg/HmDQDGv</a>.
+Un chat Discord est disponible ici pour les communications plus informelles: <a href="https://discord.gg/HmDQDGv" target="_blank" rel="noopener">discord.gg/HmDQDGv</a>.
 
 
 Et enfin, pour rester informé des dernières mises à jours suivez nous sur Twitter <a href="https://twitter.com/bloom_cloud" target="_blank" rel="noopener">@bloom_cloud</a>.
