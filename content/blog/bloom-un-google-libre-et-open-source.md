@@ -361,7 +361,7 @@ Bloom propose aujourd'hui les services en ligne suivants:
 Ainsi qu'une applicaiton Android disponible ici:
 <a href="https://play.google.com/store/apps/details?id=com.bloom42.bloomx" target="_blank" rel="noopener">https://play.google.com/store/apps/details?id=com.bloom42.bloomx</a>
 
-Tous ces services offrant un tier gratuit sans contrepartie (pas de ciblage, pas de publicité...)
+Tous ces services offrants un tier gratuit sans contrepartie (pas de ciblage, pas de publicité...)
 et dont le code est disponible librement sur [GitHub](https://github.com/bloom42).
 
 Aujourd'hui orientés productivité, puisque cela profite au plus grand nombre, nous contribuerons demain
