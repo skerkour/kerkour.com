@@ -477,6 +477,15 @@ Un grand merci aux personnes ayant déjà contribué:
 
 * Marina Da Silva
 * Ma famille
+* Ed Page
+* Jesse Szwedko
+* "mdouchement"
+* "erickeller"
+* Dmitriy Olshevskiy
+* Tyson Clugg
+* Ben Overmyer
+* "pulsonics"
+* Jose Nazario
 
 
 ## En résumé
