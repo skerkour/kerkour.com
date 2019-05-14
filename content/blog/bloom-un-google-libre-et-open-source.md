@@ -483,6 +483,7 @@ Un grand merci aux personnes ayant déjà contribué:
 * Marina Da Silva
 * Ma famille
 * Ed Page
+* Katerina Limpitsouni
 * Jesse Szwedko
 * "mdouchement"
 * "erickeller"
