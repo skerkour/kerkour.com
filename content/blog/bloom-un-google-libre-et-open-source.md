@@ -13,7 +13,7 @@ lang = "fr"
 🇬🇧 [English version here](/blog/bloom-an-open-source-google)
 
 1. [Des défis universels et inédits (Pourquoi ?)](#des-defis-universels-et-inedits-pourquoi)
-2. [Open source, access, data ... (Comment ?)](#open-source-access-data-comment)
+2. [Open source, access, data... (Comment ?)](#open-source-access-data-comment)
 3. [Bloom: le master plan top secret (Quoi ?)](#bloom-le-master-plan-top-secret-quoi)
 4. [En résumé](#en-resume)
 
@@ -328,8 +328,9 @@ est le fondement même du contre-pouvoir.
 
 ## Bloom: le master plan top secret (Quoi ?)
 
-Nous croyons en un monde de collaboration plutôt que de compétition, nous croyons en un changement de paradigme
-dans la manière dont nous consommons mais surtout dans la manière dont nous produisons. C'est pourquoi nous avons créé
+Nous croyons en un changement de paradigme
+dans la manière dont nous consommons mais surtout dans la manière dont nous produisons,
+nous croyons en un monde de collaboration plutôt que de compétition. C'est pourquoi nous avons créé
 <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom</a>.
 
 <!-- <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom</a>
@@ -486,7 +487,7 @@ En résumé le master plan est le suivant:
 2. Avec cet argent réduire les prix, libérer la donnée et l'accès a la connaissance scientifique<br />
 3. Avec cet argent et cette communauté créer l'infrastructure ouverte pour faire fonctionner ces logiciels et héberger ces données ouvertes
 
-Notre mission ? Faire du monde un meilleur endroit grâce à des technologies ouvertes, par le peuple, pour le peuple.
+Notre mission ? Faire de notre planète un meilleur endroit pour tout le monde grâce à des technologies ouvertes, par le peuple, pour le peuple.
 
 Mais chuuut, c'est un secret 🤫
 
