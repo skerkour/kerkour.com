@@ -495,6 +495,7 @@ Un grand merci aux personnes ayant déjà contribué:
 * "pulsonics"
 * Jose Nazario
 
+Et à tous les autres enthousaistes du partage sans qui cela n'aurait pas été possible.
 
 ## En résumé
 
