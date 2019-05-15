@@ -478,7 +478,7 @@ Cet argent sera utilisé pour financer les personnes contribuant avec leur temps
 
 
 
-Un grand merci aux personnes ayant déjà contribué:
+Un grand merci aux personnes ayant déjà contribué directement ou indirectement:
 
 * Marina Da Silva
 * Ma famille
@@ -494,6 +494,7 @@ Un grand merci aux personnes ayant déjà contribué:
 * Ben Overmyer
 * "pulsonics"
 * Jose Nazario
+* Andrew Gallant
 
 Et à tous les autres enthousaistes du partage sans qui cela n'aurait pas été possible.
 
