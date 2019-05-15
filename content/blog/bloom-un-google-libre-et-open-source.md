@@ -484,6 +484,7 @@ Un grand merci aux personnes ayant déjà contribué:
 * Ma famille
 * Katerina Limpitsouni
 * Nikolay Kim
+* Sean Griffin
 * Ed Page
 * Jesse Szwedko
 * "mdouchement"
