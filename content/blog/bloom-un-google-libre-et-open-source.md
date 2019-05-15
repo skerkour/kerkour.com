@@ -161,7 +161,7 @@ les volontés de renforcer le droit de la propriété intellectuelle dont les ex
 négaitves ne sont jamais, ne serait-ce que mentionnées, sont "au mieux" de la cupidité
 si ce n'est criminel. Oui, les brevets sur les médicaments ou les semences tuent. -->
 
-La solution ? Un enfant de 4 ans la trouverait sans problème : le partage.
+La solution ? Un enfant de 4 ans la trouverait sans problème : le **partage**.
 
 
 A l'heure du numérique où la copie et la diffusion d'un document digital ne coûte virtuellement rien
@@ -211,7 +211,7 @@ sur le travail effectué par d'autres pour y ajouter ce qu'elle estime être de 
 #### Organisations distribuées
 
 Les nouvelles technologies de communication (chat, visioconférence...) permettent aujourd'hui à des organisations et entreprises
-de s'affranchir des bureaux classiques. Les membres n'ont plus besoin de se réunir tous sur un même lieu de travail pour finalement
+de s'affranchir des bureaux classiques. Les membres n'ont plus besoin de tous se réunir sur un même lieu de travail pour finalement
 rester la journée derrière un écran. Le personnel n'a plus besoin d'être dans la même ville, le même pays voire le même continent.
 
 Bien sûr, cela pose des défis au niveau des interractions sociales, mais c'est un premier levier pour
@@ -245,11 +245,11 @@ La crise financière de 2008 nous a douloureusement rappelé que des entreprises
 peuvent faire faillite. Or, depuis [la situation économique modiale](https://fr.wikipedia.org/wiki/Dette_publique) ne s'est pas améliorée.
 
 
-L'open source permet aux projets de survivre non seulement à la faillite d'une entreprise, mais aussi à une coupure d'internet ou encore
+L'open source permet aux projets de survivre non seulement à la faillite d'une entreprise, mais aussi à une coupure d'internet,
 à une guerre économique.
-
+<!--
 Et puisque ces services entrent dans le bien commun, qu'ils ne sont pas la propriété d'une entrprise particulière,
-ils deviennent beaucoup plus résilients à des tentatives de censure.
+ils deviennent beaucoup plus résilients à des tentatives de censure. -->
 
 
 #### Un tremplin pour l'éducation
@@ -404,7 +404,7 @@ La langue officielle de communication de Bloom est l'anglais.
 
 Un forum est disponible pour discuter des idées d'amélioration et demander de l'aide à la communauté: <a href="https://forum.bloom.sh" target="_blank" rel="noopener">forum.bloom.sh</a>
 
-Un chat Discord est disponible ici pour les communications plus informelles: <a href="https://discord.gg/HmDQDGv" target="_blank" rel="noopener">discord.gg/HmDQDGv</a>.
+Un chat Discord est disponible pour les communications plus informelles: <a href="https://discord.gg/HmDQDGv" target="_blank" rel="noopener">discord.gg/HmDQDGv</a>.
 
 
 Enfin, pour rester informé des dernières mises à jours suivez nous sur Twitter <a href="https://twitter.com/bloom_cloud" target="_blank" rel="noopener">@bloom_cloud</a>.
@@ -414,7 +414,7 @@ Enfin, pour rester informé des dernières mises à jours suivez nous sur Twitte
 
 Pour contribuer au code cela se passe sur [github.com/bloom42](https://github.com/bloom42).
 
-Plus d'informations sont disponibles sur notre site [opensource.bloom.sh](https://opensource.bloom.sh).
+Plus d'informations est disponible sur notre site [opensource.bloom.sh](https://opensource.bloom.sh).
 
 ##### Rust
 
@@ -499,7 +499,7 @@ Un grand merci aux personnes ayant déjà contribué:
 En résumé le master plan est le suivant:
 
 1. Créer des logiciels libres et faire payer l'hébergement, la sécurité des données hébergées et le supoprt entreprise<br />
-2. Avec cet argent réduire les prix, libérer la donnée et l'accès a la connaissance scientifique<br />
+2. Avec cet argent réduire les prix, libérer la donnée et l'accès à la connaissance scientifique<br />
 3. Avec cet argent et cette communauté créer l'infrastructure ouverte pour faire fonctionner ces logiciels et héberger ces données ouvertes
 
 Notre mission ? Faire de notre planète un meilleur endroit pour tout le monde grâce à des technologies ouvertes, par le peuple, pour le peuple.
