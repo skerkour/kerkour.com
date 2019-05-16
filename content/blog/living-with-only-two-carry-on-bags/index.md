@@ -70,6 +70,7 @@ adequate.
 * 1 short swinsuit
 * 7 Uniqlo Airsim underpants
 * 7 Celio socks pairs
+* 4 Uniqlo airsim teeeshirts
 
 it also contains my toilet bag:
 
