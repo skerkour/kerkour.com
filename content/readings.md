@@ -12,6 +12,7 @@ template = "readings.html"
 * Hooked: How to Build Habit-Forming Products, *Eyal, Nir*
 * The Design of Everyday Things, *Don Norman*
 * The Art of UNIX Programming, *Eric S. Raymond*
+* The architecture of privacy, *Courtney Bowman, Ari Gesher, John K. Grant & Daniel Slate*
 
 <div style="text-align: center;">
   <h2>Science</h2>
