@@ -431,7 +431,7 @@ Plus d'informations est disponible sur notre site [opensource.bloom.sh](https://
 * Tous nos services doivent pouvoir être auto-hébergés sur un <a href="https://www.raspberrypi.org" target="_blank" rel="noopener">Raspberry pi</a>
 * Là encore les intérêts composés entrent en jeux, être experts un dans langage capable à la fois de faire des services web
 et de la robotique permet de multiplier les capacités de création
-* Car c'est le <a href="http://www.paulgraham.com/avg.html" target="_blank" rel="noopener">langage pour les gouverner tous</a>
+* Car c'est <a href="http://www.paulgraham.com/avg.html" target="_blank" rel="noopener">LE langage pour les gouverner tous</a>
 
 Il sera utilisé pour **tous** les projets de Bloom sauf impératif contraire
 (Typescript + Vue pour les applications web, Kotlin pour les applications Android, Swift pour les applications IOS...).
