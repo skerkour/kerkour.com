@@ -202,7 +202,7 @@ utilisateurs du projet open source et au reste de monde qui peut l'utiliser grat
 Quand Jacques change d'emploi ou le quitte, le résultat de son précédent travail lui reste accessible, il peut
 continuer à en bénéficier.
 
-Ainsi les richesses produites se cumulent, plutôt que de devoir être re-créées par chaque acteur de la société.
+Ainsi les richesses produites se cumulent, plutôt que chaque acteur de la société gaspille des ressources afin de les re-créer dans son coin.
 
 <!-- Chaque entreprise, chaque organisation, n'a plus à tout réinventer dans son coin, elle est libre de s'appuyer si elle le veut
 sur le travail effectué par d'autres pour y ajouter ce qu'elle estime être de la valeur. -->
