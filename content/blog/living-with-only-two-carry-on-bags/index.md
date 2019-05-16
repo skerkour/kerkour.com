@@ -21,7 +21,7 @@ other corner of the world in less than 20 minutes.
 
 ## Benefits
 
-The is many benefits to have all my stuff fitting in only two bags. Here is a few which come to my mind:
+There is many benefits to have all my stuff fitting in only two bags. Here is a few which come to my mind:
 
 * Don't have to pay for checked luggage.
 * I don't lose time everyday to chose my outfit.
@@ -30,7 +30,7 @@ The is many benefits to have all my stuff fitting in only two bags. Here is a fe
 * The places where I live are always in order, and easy to clean.
 * Unparalleled ability to travel and see beautiful places.
 * Wash cycles are easier (1 / week).
-
+* Reduced ecological footprint
 
 
 ## Drawbacks
@@ -47,7 +47,7 @@ Easpak Floid (Black - 16L)
 <img src="floid1.jpg" height="300"/>
 <img src="floid2.jpg" height="300"/>
 
-The 'frontpack' is actually my everyday backapck. It should carry enought stuff to sleep far from home.
+The 'frontpack' is actually my everyday backapck. It should carry enought stuff to sleep far from home for 2 days.
 
 * my 13' laptop
 * 1 socks pair
@@ -61,14 +61,15 @@ The North Face Base Camp Duffel XS (Black - 33L)
 <img src="northface1.jpg" height="300"/>
 
 The 'Backpack' is generally used when relocating to carry my clothes or when the 'frontpack' is not
-enought.
+adequate.
 
 
-* 1 Volcom Frozen Chino for formal events (very high quality)
-* 1 black jean for everyday use
+* 1 Volcom Frozen Chino for formal events (very high quality pant)
+* 2 Uniqlo men dry stretch sweatpants for everyday use
+* 2 Uniqlo men dry stretch sweat full-zip hoodie
 * 1 short swinsuit
-* 6 Uniqlo Airsim underpants
-* 6 Celio socks pairs
+* 7 Uniqlo Airsim underpants
+* 7 Celio socks pairs
 
 it also contains my toilet bag:
 
