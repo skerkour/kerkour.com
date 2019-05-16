@@ -30,8 +30,8 @@ There is many benefits to have all my stuff fitting in only two bags. Here is a 
 * The places where I live are always in order, and easy to clean.
 * Unparalleled ability to travel and see beautiful places.
 * Wash cycles are easier (1 / week).
-* Reduced ecological footprint
-
+* Reduced ecological footprint.
+* Reduced cognitive load to choose my daily outfit.
 
 ## Drawbacks
 
