@@ -385,7 +385,7 @@ Nous avons choisi la <a href="https://fr.wikipedia.org/wiki/Copyleft" target="_b
 
 
 La fédération est sur la feuille de route, mais nous devons d'abord trouver des solutions
-aux systèmes déjà existants (spams dans le monde des emails, les contenus illégaux dans le monde de Mastodon...).
+aux problèmes affectants les systèmes existants (spams dans le monde des emails, les contenus illégaux dans le monde de Mastodon...).
 
 <!-- Nous n'avons pas encore de réponse concernant la gouvernance mais nous réfléchissons à un système
 de ouvert, multi-latéral tout en préservant la sécurité et l'intergrité du système
