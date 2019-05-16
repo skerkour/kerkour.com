@@ -49,9 +49,11 @@ Easpak Floid (Black - 16L)
 
 The 'frontpack' is actually my everyday backapck. It should carry enought stuff to sleep far from home for 2 days.
 
-* my 13' laptop
+* my 13' laptop with it's powerbank
 * 1 socks pair
 * 1 underpant
+* 1 RaspberryPi 0 w for hacking
+* USB cables for my various stuff
 
 
 ## Backpack
