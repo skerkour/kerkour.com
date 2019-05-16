@@ -12,7 +12,7 @@ template = "readings.html"
 * Hooked: How to Build Habit-Forming Products, *Eyal, Nir*
 * The Design of Everyday Things, *Don Norman*
 * The Art of UNIX Programming, *Eric S. Raymond*
-* The architecture of privacy, *Courtney Bowman, Ari Gesher, John K. Grant & Daniel Slate*
+
 
 <div style="text-align: center;">
   <h2>Science</h2>
@@ -29,6 +29,14 @@ template = "readings.html"
 
 * Information Retrieval: Implementing and Evaluating Search Engines, *Buttcher, Stefan*
 * Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems, *Martin Kleppmann*
+* The architecture of privacy, *Courtney Bowman, Ari Gesher, John K. Grant & Daniel Slate*
+
+
+<div style="text-align: center;">
+  <h2>Humanities</h2>
+</div>
+* Energy and Civilization, *Vaclav Smil*
+* The Art of War, *Sun Tzu*
 
 
 <div style="text-align: center;">
@@ -38,9 +46,9 @@ template = "readings.html"
 * The Personal MBA, Master the art of Business, *Josh Kaufman*
 * Predictable Revenue: Turn Your Business into a Sales Machine With the $100 Million Best Practices of Salesforce.com, *Ross, Aaron*
 * Zero to One: Notes on Start Ups, or How to Build the Future, *Thiel, Peter*
-* The Art of War, *Sun Tzu*
 * Scale: The Universal Laws of Growth, Innovation, Sustainability, and the Pace of Life in Organisms, Cities, Economies, and Companies, *Geoffrey West*
 * Deep Work: Rules for Focused Success in a Distracted World, *Cal Newport*
+
 
 <div style="text-align: center;">
   <h2>Biographies</h2>
