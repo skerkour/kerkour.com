@@ -15,7 +15,7 @@ INTJ,
 I cut my teeth on rugby fields and boxing rings, and then at <a href="https://www.42.fr" target="_blank" rel="noopener">42</a>.<br/>
 I'm now the creator of <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom: Open technologies</a>.
 
-I'm not a *new cool kid greedy entrepreneur*, I'm a tireless trouble maker **on a mission to empower the world with open technologies, by the people, for the people**.
+I'm not a *new cool kid greedy entrepreneur*, I'm a tireless troublemaker **on a mission to empower the world with open technologies, by the people, for the people**.
 
 You can find me on GitHub [@z0mbie42](https://github.com/z0mbie42)<br/>
 on Twitter [@z0mbie42](https://twitter.com/z0mbie42)<br/>
