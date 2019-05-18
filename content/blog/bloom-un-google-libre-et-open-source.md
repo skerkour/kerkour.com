@@ -52,7 +52,7 @@ les maladies respiratoires, le 7ème continent de plastique...
 
 Notre surconsommation entraîne la destruction de notre habitat et nous met en danger.
 
-Le constat est alarmant et l'immobilisme encore plus.
+Le constat est alarmant, l'immobilisme encore plus.
 <!--
 A-t-on besoin d'utiliser une voiture de 900kg pour faire 2h de trajet journalier pour finalement
 travailler toute la journée derrière un ordinateur ? La question est bien sûr rhétorique, la réponse est non. -->
