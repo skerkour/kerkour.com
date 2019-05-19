@@ -17,7 +17,7 @@ I'm now the creator of <a href="https://bloom.sh" target="_blank" rel="noopener"
 
 I'm not a *new cool kid web tech entrepreneur*, I'm a **tireless troublemaker on a mission to empower the world with open technologies, by the people, for the people**.
 
-You can find me on GitHub [@z0mbie42](https://github.com/z0mbie42)<br/>
+You can find me on GitLab [@z0mbie42](https://gitlab.com/z0mbie42)<br/>
 on Twitter [@z0mbie42](https://twitter.com/z0mbie42)<br/>
 and on Mastodon [@z0mbie42@mastodon.social](https://mastodon.social/@z0mbie42)<br/>
 
