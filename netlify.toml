@@ -12,8 +12,8 @@
 
 
 [[redirects]]
-  from = "https://elated-wozniak-c841dd.netlify.com/*"
-  to = "https://bloom.sh/:splat"
+  from = "https://123-456-789.netlify.com/*"
+  to = "https://kerkour.com/:splat"
   status = 301
   force = true
 
