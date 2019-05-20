@@ -1,0 +1,49 @@
+[Settings]
+
+
+[build]
+  command = "curl -sL https://github.com/getzola/zola/releases/download/v0.7.0/zola-v0.7.0-x86_64-unknown-linux-gnu.tar.gz | tar zxv && ./zola build"
+  publish = "public/"
+
+
+####################################################################################################
+### kerkour.com
+####################################################################################################
+
+
+[[redirects]]
+  from = "https://elated-wozniak-c841dd.netlify.com/*"
+  to = "https://bloom.sh/:splat"
+  status = 301
+  force = true
+
+
+[[redirects]]
+  from = "https://www.kerkour.com/*"
+  to = "https://kerkour.com/:splat"
+  status = 301
+  force = true
+
+
+[[redirects]]
+  from = "https://www.kerkour.fr/*"
+  to = "https://kerkour.com/:splat"
+  status = 301
+  force = true
+  [[redirects]]
+  from = "https://kerkour.fr/*"
+  to = "https://kerkour.com/:splat"
+  status = 301
+  force = true
+
+
+[[redirects]]
+  from = "https://z0mbie42.com/*"
+  to = "https://kerkour.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.z0mbie42.com/*"
+  to = "https://kerkour.com/:splat"
+  status = 301
+  force = true
