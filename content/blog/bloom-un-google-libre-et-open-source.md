@@ -166,7 +166,7 @@ La solution ? Un enfant de 4 ans la trouverait sans problème : le **partage**.
 
 A l'heure du numérique où la copie et la diffusion d'un document digital ne coûte virtuellement rien
 et que des
-aberration effarantes sont déjà en place
+aberrations effarantes sont déjà en place
 ([taxe pour copie privée](https://fr.wikipedia.org/wiki/R%C3%A9mun%C3%A9ration_pour_copie_priv%C3%A9e),
 les derives des ayants droits sur les plateformes de partage de contenu,
 [les derives des journaux scientifiques](https://www.youtube.com/watch?v=WnxqoP-c0ZE),
