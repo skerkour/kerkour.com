@@ -501,7 +501,7 @@ Un grand merci aux personnes ayant déjà contribué directement ou indirectemen
 * Jose Nazario
 * Andrew Gallant
 
-Et à tous les autres enthousaistes du partage sans qui cela n'aurait pas été possible.
+Et à tous les autres enthousiastes du partage sans qui cela n'aurait pas été possible.
 
 ## En résumé
 
