@@ -35,6 +35,7 @@ template = "readings.html"
 <div style="text-align: center;">
   <h2>Humanities</h2>
 </div>
+
 * Energy and Civilization, *Vaclav Smil*
 * The Art of War, *Sun Tzu*
 
