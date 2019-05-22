@@ -8,9 +8,10 @@ tags = ["rust", "rustlang", "opensource", "google", "free software"]
 lang = "fr"
 +++
 
+🇬🇧 [English version here](/blog/bloom-a-free-and-open-source-google)
+
 *Il ne faut pas compter sur ceux qui ont créé les problèmes pour les résoudre.*
 
-🇬🇧 [English version here](/blog/bloom-a-free-and-open-source-google)
 
 1. [Des défis universels et inédits (Pourquoi ?)](#des-defis-universels-et-inedits-pourquoi)
 2. [Open source, access, data... (Comment ?)](#open-source-access-data-comment)
@@ -193,7 +194,7 @@ n'importe quel site web que vous pouvez consulter.
 
 #### Interêts composés
 
-Quand Bob travaille sur un projet propriétaire, les fruits de son trvail bénéficient
+Quand Bob travaille sur un projet propriétaire, les fruits de son travail bénéficient
 à son employeur et dans une moindre mesure à ses clients. Le jour où il change d'emploi, il perd tout le travail effectué
 précédemment.
 
@@ -367,7 +368,7 @@ Bloom propose aujourd'hui les services en ligne suivants:
 Une applicaiton Android est disponible:
 <a href="https://play.google.com/store/apps/details?id=com.bloom42.bloomx" target="_blank" rel="noopener">https://play.google.com/store/apps/details?id=com.bloom42.bloomx</a>
 
-Tous ces services offrent un tier gratuit (ou sont entièrement gratuits) sans contrepartie (pas de ciblage, pas de publicité...)
+Tous ces services offrent des tiers gratuits (ou sont entièrement gratuits) sans contrepartie (pas de ciblage, pas de publicité...)
 et dont le code est disponible librement sur [GitHub](https://github.com/bloom42).
 
 Aujourd'hui orientés productivité nous contribuerons demain
@@ -509,7 +510,7 @@ Et à tous les autres enthousiastes du partage sans qui cela n'aurait pas été 
 
 En résumé le master plan est le suivant:
 
-1. Créer des logiciels libres et faire payer l'hébergement, la sécurité des données hébergées et le supoprt entreprise<br />
+1. Créer des logiciels libres et faire payer l'hébergement, la sécurité des données hébergées et le support entreprise<br />
 2. Avec cet argent réduire les prix, libérer la donnée et l'accès à la connaissance scientifique<br />
 3. Avec cet argent et cette communauté créer l'infrastructure ouverte pour faire fonctionner ces logiciels et héberger ces données ouvertes
 
