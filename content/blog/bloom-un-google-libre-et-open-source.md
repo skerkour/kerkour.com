@@ -432,6 +432,8 @@ Plus d'informations est disponible sur notre site [opensource.bloom.sh](https://
 * Là encore les intérêts composés entrent en jeux, être experts un dans langage capable à la fois de faire des services web,
 de la robotique ou encore des blockchains, permet de multiplier les capacités de création
 * Car c'est <a href="http://www.paulgraham.com/avg.html" target="_blank" rel="noopener">LE langage pour les gouverner tous</a>
+* Il semble que <a href="https://insights.stackoverflow.com/survey/2019" target="_blank" rel="noopener">les développeurs l'aiment <3</a>
+
 
 Il sera utilisé pour **tous** les projets de Bloom sauf impératif contraire
 (Typescript + Vue pour les applications web, Kotlin pour les applications Android, Swift pour les applications IOS...).
