@@ -54,6 +54,7 @@ The 'frontpack' is actually my everyday backapck. It should carry enought stuff 
 * 1 underpant
 * 1 RaspberryPi 0 w for hacking
 * USB cables for my stuff
+* 1 ebook e-ink reader
 
 
 ## Backpack
