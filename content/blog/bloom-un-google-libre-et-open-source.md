@@ -108,6 +108,8 @@ crise écologique qui nous affecte tous.
 
 **Continuer à mutualiser les coûts et privatiser les bénéfices est fondamentalement incompatible avec notre organisation en sociétés.**
 
+Etonnamment, peu de personnes semblent décidées à trouver des solutions concrètes à ces problèmes.
+
 <!-- Et c'est une bonne chose. -->
 <!-- À condition de ne pas voir un emploi comme un élément de réussite personnelle, de ne pas voir le chômage comme
 une variable qui doit tendre vers 0. Alors que les emplois se déplacent de plus en plus du secteur primaire
