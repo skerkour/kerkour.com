@@ -106,6 +106,7 @@ produisent remettent en cause le <a href="https://fr.wikipedia.org/wiki/Du_contr
 Il est impératif de rapidement trouver un nouveau système, un système où tout le monde y trouve son compte, pour faire face ensemble à la
 crise écologique qui nous affecte tous.
 
+**Continuer à mutualiser les coûts et privatiser les bénéfices est fondamentalement incompatible avec notre organisation en sociétés.**
 
 <!-- Et c'est une bonne chose. -->
 <!-- À condition de ne pas voir un emploi comme un élément de réussite personnelle, de ne pas voir le chômage comme
@@ -163,8 +164,6 @@ négaitves ne sont jamais, ne serait-ce que mentionnées, sont "au mieux" de la 
 si ce n'est criminel. Oui, les brevets sur les médicaments ou les semences tuent. -->
 
 La solution ? Un enfant de 4 ans la trouverait sans problème : le **partage**.
-
-Continuer à mutualiser les coûts et privatiser les bénéfices est fondamentalement incompatible avec notre organisation en sociétés.
 
 A l'heure du numérique où la copie et la diffusion d'un document digital ne coûte virtuellement rien
 et que des
