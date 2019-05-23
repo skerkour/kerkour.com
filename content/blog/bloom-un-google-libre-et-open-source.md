@@ -162,7 +162,7 @@ les volontés de renforcer le droit de la propriété intellectuelle dont les ex
 négaitves ne sont jamais, ne serait-ce que mentionnées, sont "au mieux" de la cupidité
 si ce n'est criminel. Oui, les brevets sur les médicaments ou les semences tuent. -->
 
-La solution ? Un enfant de 4 ans la trouverait sans problème : le **partage**.
+La solution ? Un enfant de 4 ans la trouverait sans problème : le **partage**. Continuer à mutualiser les coûts et privatiser les bénéfices est fondamentalement incompatible avec notre organisation en sociétés.
 
 
 A l'heure du numérique où la copie et la diffusion d'un document digital ne coûte virtuellement rien
