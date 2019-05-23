@@ -219,17 +219,17 @@ Bien sûr, cela pose des défis au niveau des interractions sociales, mais c'est
 réduire notre consommation énergétique à l'échelle planétaire.
 
 
-#### Collaboration mondiale
+#### Coopération mondiale
 
 Cette intersection des moyens de communication instantanée et de l'ouverture des outils de production permettent
-une collaboration globale. Les utilisateurs peuvent contribuer, participer à la création des produits qu'ils utilisent.
+une coopération globale. Les utilisateurs peuvent contribuer, participer à la création des produits qu'ils utilisent.
 Ils ne sont plus simplement des consommateurs, mais acteurs, et ce sans barrière géographique.
 
 
-Entrer dans un modèle de collaboration plutôt que de compétition est la seule solution pour limiter
+Entrer dans un modèle de coopération plutôt que de compétition est la seule solution pour limiter
 la surexploitation de notre environnement et donc limiter notre propre empoisonnement.
 
-**La collaboration c'est avant tout un état d'esprit,
+**La coopération c'est avant tout un état d'esprit,
 celui de créer et de profiter ensemble, que nous soyons employé
 ou non.**
 
@@ -331,7 +331,7 @@ est le fondement même du contre-pouvoir.
 
 <!-- Nous croyons en un changement de paradigme,
 dans la manière dont nous consommons mais surtout dans la manière dont nous produisons, -->
-**Nous croyons en un monde de partage et de collaboration plutôt que de compétition**. C'est pourquoi nous avons créé
+**Nous croyons en un monde de partage et de coopération plutôt que de compétition**. C'est pourquoi nous avons créé
 <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom</a>.
 
 <!-- <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom</a>
@@ -399,7 +399,7 @@ Nous sommes ouverts à toute discussion, proposition sur le sujet. -->
 
 Nous croyons en un monde où chacun peut contribuer, pas seulement des experts.
 **Où citoyens et consommateurs deviennent acteurs.**
-C'est pourquoi nous sommes engagés à faciliter cette collaboration mondiale et sans barrières.
+C'est pourquoi nous sommes engagés à faciliter cette coopération mondiale et sans barrières.
 
 
 
