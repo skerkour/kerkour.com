@@ -529,8 +529,9 @@ Roadmap:
 * Q1/Q2 2019 - <a href="https://bloom.sh" target="_blank" rel="noopener">MVP</a>
 * Q3 2019 - <a href="https://www.inkandswitch.com/local-first.html" target="_blank" rel="noopener">Local first</a>
 * Q4 2019 - Crypto
-* Q1 2020 - IOS app
-* Q2/Q3 2020 - Federation
+* Q1 2020 - Add applications
+* Q2 2020 - IOS app
+* Q3/Q4 2020 - Federation
 
 Mais chuuut, c'est un secret 🤫
 
