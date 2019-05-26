@@ -525,6 +525,13 @@ En résumé le master plan est le suivant:
 
 Notre mission ? Faire de notre planète un meilleur endroit pour tout le monde grâce à des technologies ouvertes, par le peuple, pour le peuple.
 
+Roadmap:
+* Q1/Q2 2019 - <a href="https://bloom.sh" target="_blank" rel="noopener">MVP</a>
+* Q3 2019 - <a href="https://www.inkandswitch.com/local-first.html" target="_blank" rel="noopener">Local first</a>
+* Q4 2019 - Crypto
+* Q1 2020 - IOS app
+* Q2/Q3 2020 - Federation
+
 Mais chuuut, c'est un secret 🤫
 
 Contact: <span id="email"></span>
