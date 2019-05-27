@@ -526,12 +526,12 @@ En résumé le master plan est le suivant:
 Notre mission ? Faire de notre planète un meilleur endroit pour tout le monde grâce à des technologies ouvertes, par le peuple, pour le peuple.
 
 Roadmap:
-* Q1/Q2 2019 - <a href="https://bloom.sh" target="_blank" rel="noopener">MVP</a>
+* Q1/Q2 2019 - <a href="https://bloom.sh" target="_blank" rel="noopener">Prototype</a>
 * Q3 2019 - <a href="https://www.inkandswitch.com/local-first.html" target="_blank" rel="noopener">Offline first</a>
 * Q4 2019 - <a href="https://fr.wikipedia.org/wiki/Chiffrement_de_bout_en_bout" target="_blank" rel="noopener">End-to-end encryption</a> + Teams
-* Q1 2020 - Add applications
-* Q2 2020 - IOS app
-* Q3/Q4 2020 - Federation
+* Q1 2020 - Ajouter des applications à Bloom
+* Q2 2020 - Application IOS
+* Q3/Q4 2020 - Fédération
 
 Mais chuuut, c'est un secret 🤫
 
