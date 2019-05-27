@@ -527,8 +527,8 @@ Notre mission ? Faire de notre planète un meilleur endroit pour tout le monde g
 
 Roadmap:
 * Q1/Q2 2019 - <a href="https://bloom.sh" target="_blank" rel="noopener">MVP</a>
-* Q3 2019 - <a href="https://www.inkandswitch.com/local-first.html" target="_blank" rel="noopener">Local first</a> + Teams
-* Q4 2019 - Crypto
+* Q3 2019 - <a href="https://www.inkandswitch.com/local-first.html" target="_blank" rel="noopener">Offline first</a> + Teams
+* Q4 2019 - <a href="https://fr.wikipedia.org/wiki/Chiffrement_de_bout_en_bout" target="_blank" rel="noopener">End-to-end encryption</a>
 * Q1 2020 - Add applications
 * Q2 2020 - IOS app
 * Q3/Q4 2020 - Federation
