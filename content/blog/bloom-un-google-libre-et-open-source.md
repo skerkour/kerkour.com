@@ -101,7 +101,7 @@ La question est donc la suivante: **Comment mieux redistribuer les richesses de 
 universel, sans ccontinuer à accélérer notre autodestruction ?**
 
 
-Le printemps arabe, les gilets jaunes, les populations dont la qualité de vie ne bénéficie pas des richesses qu'elles
+Le printemps arabe, le Brexit, les gilets jaunes, les populations dont la qualité de vie ne bénéficie pas des richesses qu'elles
 produisent remettent en cause le <a href="https://fr.wikipedia.org/wiki/Du_contrat_social" target="_blank" rel="noopener">contrat social</a>.
 Il est impératif de rapidement trouver un nouveau système, un système où tout le monde y trouve son compte, pour faire face ensemble à la
 crise écologique qui nous affecte tous.
