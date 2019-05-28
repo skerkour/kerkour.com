@@ -13,37 +13,13 @@
 
 [[redirects]]
   from = "https://123-456-789.netlify.com/*"
-  to = "https://kerkour.com/:splat"
+  to = "https://www.kerkour.com/:splat"
   status = 301
   force = true
 
 
 [[redirects]]
-  from = "https://www.kerkour.com/*"
-  to = "https://kerkour.com/:splat"
-  status = 301
-  force = true
-
-
-[[redirects]]
-  from = "https://www.kerkour.fr/*"
-  to = "https://kerkour.com/:splat"
-  status = 301
-  force = true
-  [[redirects]]
-  from = "https://kerkour.fr/*"
-  to = "https://kerkour.com/:splat"
-  status = 301
-  force = true
-
-
-[[redirects]]
-  from = "https://z0mbie42.com/*"
-  to = "https://kerkour.com/:splat"
-  status = 301
-  force = true
-[[redirects]]
-  from = "https://www.z0mbie42.com/*"
-  to = "https://kerkour.com/:splat"
+  from = "https://kerkour.com/*"
+  to = "https://www.kerkour.com/:splat"
   status = 301
   force = true
