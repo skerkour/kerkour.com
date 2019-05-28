@@ -14,14 +14,7 @@ pages:
     - tar -xzf zola.tar.gz
     # Execute zola build
     - ./zola build
+    - "curl -X POST \"https://api.cloudflare.com/client/v4/zones/$CLOUDFLARE_ZONE/purge_cache\" -H \"X-Auth-Email: $CLOUDFLARE_USER\" -H \"X-Auth-Key: $CLOUDFLARE_TOKEN\" -H \"Content-Type: application/json\" --data '{\"purge_everything\":true}'"
   artifacts:
     paths:
     - public
-
-cache:
-  script:
-    - curl -X POST "https://api.cloudflare.com/client/v4/zones/$CLOUDFLARE_ZONE/purge_cache" \
-     -H "X-Auth-Email: $CLOUDFLARE_USER" \
-     -H "X-Auth-Key: $CLOUDFLARE_TOKEN" \
-     -H "Content-Type: application/json" \
-     --data '{"purge_everything":true}'
