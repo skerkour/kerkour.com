@@ -525,7 +525,7 @@ En résumé le master plan est le suivant:
 
 Notre mission ? Faire de notre planète un meilleur endroit pour tout le monde grâce à des technologies ouvertes, par le peuple, pour le peuple.
 
-Nos valeurs ? Coopération, Acuité, Transparence, Simplicité (**CATS**).
+Nos valeurs ? Coopération, Acuité, Transparence, Simplicité (**CATS** 🐱).
 
 Roadmap:
 * Q1/Q2 2019 - <a href="https://bloom.sh" target="_blank" rel="noopener">Prototype</a>
