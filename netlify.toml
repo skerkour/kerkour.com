@@ -12,7 +12,7 @@
 
 
 [[redirects]]
-  from = "https://123-456-789.netlify.com/*"
+  from = "https://distracted-agnesi-318c74.netlify.com/*"
   to = "https://www.kerkour.com/:splat"
   status = 301
   force = true
