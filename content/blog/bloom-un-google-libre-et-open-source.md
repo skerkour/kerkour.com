@@ -530,7 +530,7 @@ Nos valeurs ? Coopération, Acuité, Transparence, Simplicité (**CATS** 🐱).
 Roadmap:
 * Q1/Q2 2019 - <a href="https://bloom.sh" target="_blank" rel="noopener">Prototype</a>
 * Q3 2019 - <a href="https://www.inkandswitch.com/local-first.html" target="_blank" rel="noopener">Offline first</a> + auto-hébergement
-* Q4 2019 - <a href="https://fr.wikipedia.org/wiki/Chiffrement_de_bout_en_bout" target="_blank" rel="noopener">End-to-end encryption</a> + teams
+* Q4 2019 - <a href="https://fr.wikipedia.org/wiki/Chiffrement_de_bout_en_bout" target="_blank" rel="noopener">Chiffrement de bout en bout</a> + teams
 * Q1 2020 - Ajouter des applications à Bloom
 * Q2 2020 - Application IOS
 * Q3/Q4 2020 - Fédération
