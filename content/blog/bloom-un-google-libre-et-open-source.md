@@ -527,8 +527,8 @@ Notre mission ? Faire de notre planète un meilleur endroit pour tout le monde g
 
 Nos valeurs ? Coopération, Acuité, Transparence, Simplicité (**CATS** 🐱).
 
-Roadmap:
-* Q1/Q2 2019 - <a href="https://bloom.sh" target="_blank" rel="noopener">Prototype</a>
+Chronologie:
+* Q1/Q2 2019 - <a href="https://bloom.sh" target="_blank" rel="noopener">Beta</a>
 * Q3 2019 - <a href="https://www.inkandswitch.com/local-first.html" target="_blank" rel="noopener">Offline first</a> + auto-hébergement
 * Q4 2019 - <a href="https://fr.wikipedia.org/wiki/Chiffrement_de_bout_en_bout" target="_blank" rel="noopener">Chiffrement de bout en bout</a> + teams
 * Q1 2020 - Ajouter des services à Bloom
