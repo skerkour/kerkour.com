@@ -378,7 +378,7 @@ Aujourd'hui orientés productivité nous contribuerons demain
 
 **Bloom est le Linux du XXIème siècle.**
 
-Bloom concilie le meilleur de la **religion de Startuplaland**: *l'éxecution radicale
+Bloom concilie le meilleur de la **religion Startuplaland**: *l'éxecution radicale
 plutôt que la bureaucratie, une expérience utilisateur sans faille et une culture forte pour le produit*,
 et de l'**open source**: *un mode de développement qui a prouvé sa supériorité, une gouvernance ouverte
 et une symbiose parfaite des intérêts des développeurs et de ceux des utilisateurs.*
