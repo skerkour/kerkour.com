@@ -24,7 +24,7 @@ lang = "fr"
 
 Pour faire face aux défis universels et inédits de notre siècle, nous avons créé une alternative gratuite,
 libre et open source à Google (et sans publicité ni ciblage): Bloom.
-C'est par [ici pour la version en ligne](https://bloom.sh), par [ici pour l'application Android](https://play.google.com/store/apps/details?id=com.bloom42.bloomx), par [ici pour le code](https://github.com/bloom42)
+C'est par [ici pour la version en ligne](https://bloom.sh), par [ici pour l'application Android](https://play.google.com/store/apps/details?id=com.bloom42.bloomx), par [ici pour le code](https://gitlab.com/bloom42)
 et par [ici pour  contribuer](#contribuer). Ce n'est que le début d'une grande aventure 🚀
 
 
@@ -372,7 +372,7 @@ Une application Android est disponible:
 <a href="https://play.google.com/store/apps/details?id=com.bloom42.bloomx" target="_blank" rel="noopener">https://play.google.com/store/apps/details?id=com.bloom42.bloomx</a>
 
 Tous ces services offrent des tiers gratuits (ou sont entièrement gratuits) sans contrepartie (pas de ciblage, pas de publicité...),
-et dont le code source est disponible librement sur [GitHub](https://github.com/bloom42).
+et dont le code source est disponible librement sur [GitLab](https://gitlab.com/bloom42).
 
 Aujourd'hui orientés productivité nous contribuerons demain
 à des secteurs plus divers tels que l'agriculture, l'architecture, le transport...
@@ -422,7 +422,7 @@ Enfin, pour rester informé des dernières mises à jour suivez nous sur Twitter
 
 #### Développement
 
-Pour contribuer au code cela se passe sur [github.com/bloom42](https://github.com/bloom42).
+Pour contribuer au code cela se passe sur [gitlab.com/bloom42](https://gitlab.com/bloom42).
 
 Plus d'informations est disponible sur notre site [opensource.bloom.sh](https://opensource.bloom.sh).
 
@@ -447,7 +447,7 @@ Il sera utilisé pour **tous** les projets de Bloom sauf impératif contraire
 
 #### Design
 
-Pour contribuer au design de Bloom cela se passe sur le repo [github.com/bloom42/design](https://github.com/z0mbie42/design).
+Pour contribuer au design de Bloom cela se passe sur le repo [gitlab.com/bloom42/design](https://gitlab.com/z0mbie42/design).
 
 
 #### En partageant
