@@ -542,8 +542,8 @@ Chronologie:
 * Q1/Q2 2019 - <a href="https://bloom.sh" target="_blank" rel="noopener">Beta</a>
 * Q3 2019 - <a href="https://www.inkandswitch.com/local-first.html" target="_blank" rel="noopener">Offline first</a> + auto-hébergement
 * Q4 2019 - <a href="https://fr.wikipedia.org/wiki/Chiffrement_de_bout_en_bout" target="_blank" rel="noopener">Chiffrement de bout en bout</a> + teams
-* Q1 2020 - Ajouter des services à Bloom
-* Q2 2020 - Application IOS
+* Q1 2020 - Ajout de services
+* Q2 2020 - Application IOS + Portabilité des données
 * Q3/Q4 2020 - Fédération
 
 Mais chuuut, c'est un secret 🤫
