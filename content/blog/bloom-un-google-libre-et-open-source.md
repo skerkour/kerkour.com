@@ -371,7 +371,7 @@ Une applicaiton Android est disponible:
 <a href="https://play.google.com/store/apps/details?id=com.bloom42.bloomx" target="_blank" rel="noopener">https://play.google.com/store/apps/details?id=com.bloom42.bloomx</a>
 
 Tous ces services offrent des tiers gratuits (ou sont entièrement gratuits) sans contrepartie (pas de ciblage, pas de publicité...)
-et dont le code est disponible librement sur [GitHub](https://github.com/bloom42).
+et le code est disponible librement sur [GitHub](https://github.com/bloom42).
 
 Aujourd'hui orientés productivité nous contribuerons demain
 à des secteurs plus divers tels que l'agriculture, l'architecture, le transport...
@@ -379,7 +379,7 @@ Aujourd'hui orientés productivité nous contribuerons demain
 **Bloom est le Linux du XXIème siècle.**
 
 Bloom concilie le meilleur de la **religion Startuplaland**: *l'éxecution radicale
-plutôt que la bureaucratie, une expérience utilisateur sans faille et une culture forte pour le produit*,
+plutôt que la bureaucratie, une expérience utilisateur sans faille, une culture forte pour le produit*,
 et de l'**open source**: *un mode de développement qui a prouvé sa supériorité, une gouvernance ouverte
 et une symbiose parfaite des intérêts des développeurs et de ceux des utilisateurs.*
 
