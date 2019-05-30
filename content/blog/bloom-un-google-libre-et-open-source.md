@@ -380,7 +380,7 @@ Aujourd'hui orientés productivité nous contribuerons demain
 
 Bloom concilie le meilleur de la **religion de Startuplaland**: *l'éxecution radicale
 plutôt que la bureaucratie, une expérience utilisateur sans faille et une culture forte pour le produit*,
-et de l'**open source**: *un mode de dévelopment qui a prouvé sa supériorité, une gouvernance ouverte
+et de l'**open source**: *un mode de développement qui a prouvé sa supériorité, une gouvernance ouverte
 et une symbiose parfaite des intérêts des développeurs et de ceux des utilisateurs.*
 
 
@@ -436,8 +436,8 @@ Plus d'informations est disponible sur notre site [opensource.bloom.sh](https://
 * Tous nos services doivent pouvoir être auto-hébergés sur un <a href="https://www.raspberrypi.org" target="_blank" rel="noopener">Raspberry pi</a>
 * Là encore les intérêts composés entrent en jeux, être experts un dans langage capable à la fois de faire des services web,
 de la robotique ou encore des blockchains, permet de multiplier les capacités de création
+* <a href="https://insights.stackoverflow.com/survey/2019" target="_blank" rel="noopener">Les développeurs l'aiment <3</a>
 * Car c'est <a href="http://www.paulgraham.com/avg.html" target="_blank" rel="noopener">LE langage pour les gouverner tous</a>
-* Il semble que <a href="https://insights.stackoverflow.com/survey/2019" target="_blank" rel="noopener">les développeurs l'aiment <3</a>
 
 
 Il sera utilisé pour **tous** les projets de Bloom sauf impératif contraire
