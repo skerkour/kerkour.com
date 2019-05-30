@@ -360,12 +360,12 @@ ou si nous voulons d'un monde où les technologies sont au service du bien de to
 Bloom propose aujourd'hui les services en ligne suivants:
 
 * <a href="https://bloom.sh/drive" target="_blank" rel="noopener">Bloom Drive</a>: un espace de stockage
+* <a href="https://bloom.sh/platform/phaser" target="_blank" rel="noopener">Phaser</a>: un scanner de sécurité automatique pour sites webs
+* <a href="https://bloom.sh/bitflow" target="_blank" rel="noopener">Bitflow</a>: un gestionnaire de téléchargements, qui permet de télécharger des fichiers directement dans votre *drive* (torrents, HTTP).
 * <a href="https://bloom.sh/music" target="_blank" rel="noopener">Bloom Music</a>: un lecteur de musique lisant les musiques directement depuis votre *drive*
 * <a href="https://bloom.sh/gallery" target="_blank" rel="noopener">Bloom Gallery</a>: une gallerie pour vos photos et vidéos
 * <a href="https://bloom.sh/contacts" target="_blank" rel="noopener">Bloom Contacts</a>: un gestionnaire de contacts
 * <a href="https://bloom.sh/notes" target="_blank" rel="noopener">Bloom Notes</a>: une application de prise de notes
-* <a href="https://bloom.sh/bitflow" target="_blank" rel="noopener">Bitflow</a>: un gestionnaire de téléchargements, qui permet de télécharger des fichiers directement dans votre *drive*
-* <a href="https://bloom.sh/platform/phaser" target="_blank" rel="noopener">Phaser</a>: un scanner de sécurité automatique pour sites webs
 
 Une applicaiton Android est disponible:
 <a href="https://play.google.com/store/apps/details?id=com.bloom42.bloomx" target="_blank" rel="noopener">https://play.google.com/store/apps/details?id=com.bloom42.bloomx</a>
@@ -378,17 +378,19 @@ Aujourd'hui orientés productivité nous contribuerons demain
 
 **Bloom est le Linux du XXIème siècle.**
 
-Bloom suit la *religion de Startuplaland*: **l'éxecution radicale
-plutôt que la bureaucratie, une expérience utilisateur sans faille et une culture forte pour le produit**. Avec
-pour objectif une meilleure qualité de vie commune.
+Bloom concilie le meilleur de la **religion de Startuplaland**: *l'éxecution radicale
+plutôt que la bureaucratie, une expérience utilisateur sans faille et une culture forte pour le produit*,
+et de l'**open source**: *un mode de dévelopment qui a prouvé sa supériorité, une gouvernance ouverte
+et une symbiose parfaite des intérêts des développeurs et de ceux des utilisateurs.*
+
 
 Nous avons choisi la <a href="https://fr.wikipedia.org/wiki/Copyleft" target="_blank" rel="noopener">license virale</a>
-<a href="https://www.gnu.org/licenses/agpl-3.0.fr.html" target="_blank" rel="noopener">AGPL v3.0</a> pour la plupart de nos créations pour encourager d'autres personnes
+<a href="https://www.gnu.org/licenses/agpl-3.0.fr.html" target="_blank" rel="noopener">AGPL v3.0</a> pour la plupart de nos créations pour encourager d'autres personnes à contribuer en retour et
 à faire de même. Pas d'*open core*, pas d'entourloupe.
 
 
-La fédération est sur la feuille de route, mais nous devons d'abord trouver des solutions
-aux problèmes affectants les systèmes existants (spams dans le monde des emails, les contenus illégaux dans le monde de Mastodon...).
+Concernant la gouvernance, la fédération est sur la feuille de route, mais nous devons d'abord trouver des solutions
+aux problèmes affectants les systèmes existants (spams dans le monde des emails, les arbitrages législatifs dans le monde de Mastodon...).
 
 <!-- Nous n'avons pas encore de réponse concernant la gouvernance mais nous réfléchissons à un système
 de ouvert, multi-latéral tout en préservant la sécurité et l'intergrité du système
@@ -490,8 +492,8 @@ Cet argent sera utilisé pour financer les personnes contribuant avec leur temps
 
 Un grand merci aux personnes ayant déjà contribué directement ou indirectement:
 
-* Marina Da Silva
 * Ma famille
+* Marina Da Silva
 * Katerina Limpitsouni
 * Nikolay Kim
 * Sean Griffin
@@ -505,11 +507,14 @@ Un grand merci aux personnes ayant déjà contribué directement ou indirectemen
 * "pulsonics"
 * Jose Nazario
 * Andrew Gallant
+* L'école 42
+* Jean-Roger Callière
+* Jean-Christophe Scaringella
 
 Ainsi qu'à :
-- Pablo Servigne
-- Cécile Serrano
-- Josette Crastes
+* Pablo Servigne
+* Cécile Serrano
+* Josette Crastes
 
 pour la relecture,
 
