@@ -494,6 +494,9 @@ Un grand merci aux personnes ayant déjà contribué directement ou indirectemen
 
 * Ma famille
 * Marina Da Silva
+* L'école 42
+* Jean-Roger Callière
+* Jean-Christophe Scaringella
 * Katerina Limpitsouni
 * Nikolay Kim
 * Sean Griffin
@@ -507,9 +510,7 @@ Un grand merci aux personnes ayant déjà contribué directement ou indirectemen
 * "pulsonics"
 * Jose Nazario
 * Andrew Gallant
-* L'école 42
-* Jean-Roger Callière
-* Jean-Christophe Scaringella
+
 
 Ainsi qu'à :
 * Pablo Servigne
