@@ -171,8 +171,8 @@ La solution ? Un enfant de 4 ans la trouverait sans problème : le **partage**.
 et que des
 aberrations effarantes sont déjà en place
 ([taxe pour copie privée](https://fr.wikipedia.org/wiki/R%C3%A9mun%C3%A9ration_pour_copie_priv%C3%A9e),
-les derives des ayants droits sur les plateformes de partage de contenu,
-[les derives des journaux scientifiques](https://www.youtube.com/watch?v=WnxqoP-c0ZE),
+les dérives des ayants droits sur les plateformes de partage de contenu,
+[les dérives des journaux scientifiques](https://www.youtube.com/watch?v=WnxqoP-c0ZE),
 les [copyright trolls](https://en.wikipedia.org/wiki/Copyright_troll)...),
 la volonté de renforcer le droit de la propriété intellectuelle dont les externalités négatives ne sont jamais mentionnées, est cupide et criminel. Car oui, les brevets sur les médicaments ou les semences tuent.
 
@@ -302,7 +302,7 @@ de leur intégrité.
 [Le monde de la publication scientifique est gangrené](https://www.echosciences-grenoble.fr/articles/la-controverse-en-matiere-de-publication-des-articles-scientifiques).
 
 Il n'y a rien de plus à dire: tout le monde s'accorde sur l'intérêt pour le bien commun de publier publiquement et gratuitement les résultats
-des chercheurs financés aussi bien par le secteur public que privé ([ce dernier étant financé de toute façon par nos impôts](https://www.service-public.fr/professionnels-entreprises/vosdroits/F23533)...).
+des chercheurs financés aussi bien par le secteur public que privé ([ce dernier étant de toute façon financé par nos impôts](https://www.service-public.fr/professionnels-entreprises/vosdroits/F23533)...).
 
 Je recommande le livre [Open Acces de Peter Suber](http://ia601805.us.archive.org/17/items/9780262517638OpenAccess/9780262517638_Open_Access.pdf) pour approfondir le sujet.
 
