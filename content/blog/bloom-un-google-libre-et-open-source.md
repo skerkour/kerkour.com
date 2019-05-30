@@ -510,6 +510,8 @@ Un grand merci aux personnes ayant déjà contribué directement ou indirectemen
 * "pulsonics"
 * Jose Nazario
 * Andrew Gallant
+* "MC Solaar"
+* "Scylla"
 
 
 Ainsi qu'à :
@@ -543,18 +545,17 @@ Chronologie:
 
 Mais chuuut, c'est un secret 🤫
 
-Contact: <span id="email"></span>
+Contact: <span id="email">Javascript is required to access email address</span>
 
 -------
 
 *Pour triompher, le mal n’a besoin que de l’inaction des gens de bien...*
 
-♪ [MC Solaar - Sauvez le monde](https://www.youtube.com/watch?v=dERx6uFUf6o)
+♪ <a href="https://www.youtube.com/watch?v=dERx6uFUf6o" target="_blank" rel="noopener">MC Solaar - Sauvez le monde</a>
 
-📖 [21 leçons pour le XXIe siècle, *Yuval Noah Harari*](https://www.ynharari.com/fr/book/21-lessons/)
+📖 <a href="https://www.ynharari.com/fr/book/21-lessons" target="_blank" rel="noopener">21 leçons pour le XXIe siècle, Yuval Noah Harari</a>
 
-🎬 [Internet ou la révolution du partage | ARTE](https://www.youtube.com/watch?v=4yXKCnz9lRc)
-
+🎬 <a href="https://www.youtube.com/watch?v=4yXKCnz9lRc" target="_blank" rel="noopener">Internet ou la révolution du partage | ARTE</a>
 
 
 <script type="text/javascript">
