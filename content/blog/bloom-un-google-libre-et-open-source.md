@@ -511,9 +511,6 @@ Un grand merci aux personnes ayant déjà contribué directement ou indirectemen
 * "pulsonics"
 * Jose Nazario
 * Andrew Gallant
-* "MC Solaar"
-* "Scylla"
-* "MAP"
 
 
 Ainsi qu'à :
