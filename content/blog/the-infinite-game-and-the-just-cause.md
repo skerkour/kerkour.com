@@ -6,10 +6,6 @@ title = "The infinite game and the just cause"
 lang = "en"
 +++
 
-
-BE A INFINITE PLAYER: https://www.youtube.com/watch?v=KbYzF6Zy5tY
-Start with why: https://www.youtube.com/watch?v=u4ZoJKF_VuA
-
 <div class="center">
   <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/u4ZoJKF_VuA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video1"></iframe>
   <p>Start with <i>Why</i></p>
