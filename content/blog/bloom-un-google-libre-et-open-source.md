@@ -424,7 +424,7 @@ Enfin, pour rester informé des dernières mises à jour suivez nous sur Twitter
 
 Pour contribuer au code cela se passe sur [gitlab.com/bloom42](https://gitlab.com/bloom42).
 
-Plus d'informations est disponible sur notre site [opensource.bloom.sh](https://opensource.bloom.sh).
+Plus d'informations est disponible sur notre site [bloom.sh/open-source](https://bloom.sh/open-source).
 
 ##### Rust
 

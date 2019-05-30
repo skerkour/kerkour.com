@@ -40,7 +40,7 @@ with a shared set of quality standards, abilities and performances.
 [Logging is hard but unavoidable](https://kerkour.com/post/logging/) thus I think one of the opportunity
 for polyglot frameworks to shine is logging.
 
-This is why I started the [Astro](https://opensource.bloom.sh) framework, an universal logging framework.
+This is why I started the [Astro](https://bloom.sh/open-source) framework, an universal logging framework.
 
 Astro's goal is to provide a configurable and as fast as possible logging framework with the minimal
 API possile.
