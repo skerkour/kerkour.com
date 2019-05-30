@@ -194,13 +194,14 @@ et [des téléphones](https://www.android.com) aujourd'hui. Que votre téléphon
 des logiciels open source en plus ou moins grande quantité. Il en va de même pour votre *box* internet, ou encore
 n'importe quel site web que vous pouvez consulter.
 
+
 #### Interêts composés
 
 Quand Bob travaille sur un projet propriétaire, les fruits de son travail bénéficient
 à son employeur et dans une moindre mesure à ses clients. Le jour où il change d'emploi, il perd tout le travail effectué
 précédemment.
 
-Quand Jacques contribue ou travaille sur un projet open source, le fruit de son travail lui beneficie à lui, aux
+Quand Alice contribue ou travaille sur un projet open source, le fruit de son travail lui beneficie à lui, aux
 utilisateurs du projet open source et au reste de monde qui peut l'utiliser gratuitement, le modifier, l'améliorer.
 Quand Jacques change d'emploi ou le quitte, le résultat de son précédent travail lui reste accessible, il peut
 continuer à en bénéficier.
