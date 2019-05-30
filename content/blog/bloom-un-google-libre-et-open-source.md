@@ -30,8 +30,8 @@ et par [ici pour  contribuer](#contribuer). Ce n'est que le début d'une grande 
 
 ## Des défis universels et inédits (Pourquoi ?)
 
-Voici une nouvelle qui n'en n'est pas une: le début du XXIème siècle est un tournant décisif dans
-l'histoire de l'humanité. Si aujourd'hui la culture n'a plus de frontière (évènements sportifs, art ...)
+Voici une nouvelle qui n'en n'est pas une: le début du XXIe siècle est un tournant décisif dans
+l'histoire de l'humanité. Si aujourd'hui la culture n'a plus de frontière (évènements sportifs, art ...),
 les problèmes non plus. C'est tous ensemble que nous devons apporter des réponses à la fois aux défis du court terme (sociaux)
 et ceux du long terme (environnementaux).
 
@@ -49,7 +49,7 @@ d'éviter que les choses ne tournent affreusement mal pour notre espèce. Agir o
 
 La crise écologique est la plus importante car elle englobe beaucoup de problèmes sous-jacents, que ce soit l'accès à l'eau potable,
 le réchauffement planétaire, l'extinction d'espèces animales, les exodes climatiques, la pollution des sols et des réserves aqueuses,
-les maladies respiratoires, le 7ème continent de plastique...
+les maladies respiratoires, le 7e continent de plastique...
 
 Notre surconsommation entraîne la destruction de notre habitat et nous met en danger.
 
@@ -108,7 +108,7 @@ crise écologique qui nous affecte tous.
 
 **Continuer à mutualiser les coûts et privatiser les bénéfices est fondamentalement incompatible avec notre organisation en sociétés.**
 
-Etonnamment, peu de personnes semblent décidées à trouver des solutions concrètes à ces problèmes.
+Étonnamment, peu de personnes semblent décidées à trouver des solutions concrètes à ces problèmes.
 
 <!-- Et c'est une bonne chose. -->
 <!-- À condition de ne pas voir un emploi comme un élément de réussite personnelle, de ne pas voir le chômage comme
@@ -167,13 +167,13 @@ si ce n'est criminel. Oui, les brevets sur les médicaments ou les semences tuen
 
 La solution ? Un enfant de 4 ans la trouverait sans problème : le **partage**.
 
-A l'heure du numérique où la copie et la diffusion d'un document digital ne coûte virtuellement rien
+À l'heure du numérique où la copie et la diffusion d'un document digital ne coûte virtuellement rien
 et que des
 aberrations effarantes sont déjà en place
 ([taxe pour copie privée](https://fr.wikipedia.org/wiki/R%C3%A9mun%C3%A9ration_pour_copie_priv%C3%A9e),
 les derives des ayants droits sur les plateformes de partage de contenu,
 [les derives des journaux scientifiques](https://www.youtube.com/watch?v=WnxqoP-c0ZE),
-les [copyright trolls](https://en.wikipedia.org/wiki/Copyright_troll)...)
+les [copyright trolls](https://en.wikipedia.org/wiki/Copyright_troll)...),
 la volonté de renforcer le droit de la propriété intellectuelle dont les externalités négatives ne sont jamais mentionnées, est cupide et criminel. Car oui, les brevets sur les médicaments ou les semences tuent.
 
 **Toute cette bureaucratie n'est bien sûr pas la bienvenue alors que l'humanité fait face à des problèmes majeurs.**
@@ -195,18 +195,18 @@ des logiciels open source en plus ou moins grande quantité. Il en va de même p
 n'importe quel site web que vous pouvez consulter.
 
 
-#### Interêts composés
+#### Intérêts composés
 
 Quand Bob travaille sur un projet propriétaire, les fruits de son travail bénéficient
 à son employeur et dans une moindre mesure à ses clients. Le jour où il change d'emploi, il perd tout le travail effectué
 précédemment.
 
-Quand Alice contribue ou travaille sur un projet open source, le fruit de son travail lui beneficie à lui, aux
+Quand Alice contribue ou travaille sur un projet open source, le fruit de son travail lui bénéficie à lui, aux
 utilisateurs du projet open source et au reste de monde qui peut l'utiliser gratuitement, le modifier, l'améliorer.
 Quand Jacques change d'emploi ou le quitte, le résultat de son précédent travail lui reste accessible, il peut
 continuer à en bénéficier.
 
-Ainsi les richesses produites se cumulent, plutôt que chaque acteur de la société gaspille des ressources afin de les re-créer dans son coin.
+Ainsi les richesses produites se cumulent, plutôt que chaque acteur de la société gaspille des ressources afin de les recréer dans son coin.
 
 <!-- Chaque entreprise, chaque organisation, n'a plus à tout réinventer dans son coin, elle est libre de s'appuyer si elle le veut
 sur le travail effectué par d'autres pour y ajouter ce qu'elle estime être de la valeur. -->
@@ -218,7 +218,7 @@ Les nouvelles technologies de communication (chat, visioconférence...) permette
 de s'affranchir des bureaux classiques. Les membres n'ont plus besoin de tous se réunir sur un même lieu de travail pour finalement
 rester la journée derrière un écran. Le personnel n'a plus besoin d'être dans la même ville, le même pays voire le même continent.
 
-Bien sûr, cela pose des défis au niveau des interractions sociales, mais c'est un premier levier pour
+Bien sûr, cela pose des défis au niveau des interactions sociales, mais c'est un premier levier pour
 réduire notre consommation énergétique à l'échelle planétaire.
 
 
@@ -239,14 +239,14 @@ ou non.**
 
 #### Résilience
 
-<a href="https://nest.com/whats-happening" target="_blank" rel="noopener">Que se passerait-il si demain Google perdait tout intêret économique à faire des affaires et bloquait son accès à l'Europe ?</a>
+<a href="https://nest.com/whats-happening" target="_blank" rel="noopener">Que se passerait-il si demain Google perdait tout intérêt économique à faire des affaires et bloquait son accès à l'Europe ?</a>
 
 <a href="https://techcrunch.com/2015/10/21/twitter-ceo-dorsey-apologizes-to-developers-says-he-wants-to-reset-relations" target="_blank" rel="noopener">Que se passerait-il si demain Twitter faisait faillite et stoppait ses services ?</a>
 
 <a  href="https://theintercept.com/2016/05/02/whatsapp-used-by-100-million-brazilians-was-shut-down-nationwide-today-by-a-single-judge" target="_blank" rel="noopener"> Que se passerait-il si demain un gouvernement tyrannique bloquait WhatsApp ?</a>
 
 La crise financière de 2008 nous a douloureusement rappelé que des entreprises que l'on croyait intouchables
-peuvent faire faillite. Or, depuis [la situation économique modiale](https://fr.wikipedia.org/wiki/Dette_publique) ne s'est pas améliorée.
+peuvent faire faillite. Or, depuis [la situation économique mondiale](https://fr.wikipedia.org/wiki/Dette_publique) ne s'est pas améliorée.
 
 
 L'open source permet aux projets de survivre non seulement à la faillite d'une entreprise, mais aussi à une coupure d'internet,
@@ -263,7 +263,7 @@ L'éducation façonne nos sociétés. Lui imposer des limites artificielles (*Co
 n'est que la garantie d'une mort lente et douloureuse de celles-ci.
 
 L'Open source, quant à lui, profite triplement à l'éducation:
-* En réduisant drastiquement les coûts
+* En réduisant radicalement les coûts
 * En améliorant la qualité des matériaux éducatifs
 * En permettant d'étudier librement les systèmes existants
 
@@ -288,9 +288,9 @@ entreprises (*les géants de la tech*), et sont utilisées entre autre pour [dé
 
 
 Disposer des ces données en accès libre permettrait de multiplier la rapidité d'innovation dans les domaines
-de la robotique, de la médecine, des transoprts, de l'agriculture etc... mais surtout de grandement réduire les besoins en resource dans tous ces domaines.
+de la robotique, de la médecine, des transports, de l'agriculture etc... mais surtout de grandement réduire les besoins en resource dans tous ces domaines.
 
-À l'heure où nous déléguons de plus en plus notre mémoire et notre savoir à des entreprises qui les enferment dans des sillots privés, nous n'avons
+À l'heure où nous déléguons de plus en plus notre mémoire et notre savoir à des entreprises qui les enferment dans des silos privés, nous n'avons
 absolument aucune garantie quant à leur avenir, tant au niveau de leur préservation qu'au niveau
 de leur intégrité.
 
@@ -347,7 +347,7 @@ resources finies, faisant fi des destructions et pollutions engendrées. -->
 
 Bloom est une organisation qui grâce à l'Open source/access/data..., redistribue gratuitement et librement
 sa production à large échelle, en s'appuyant sur les nouvelles technologies pour le faire à moindre
-coût plutôt que des les utiliser comme outil impérialiste. L'éthique plutôt que le profit.
+coût plutôt que de les utiliser comme outil impérialiste. L'éthique plutôt que le profit.
 Nous voulons briser la frontière entre entreprises et consommateurs.
 
 
@@ -364,22 +364,22 @@ Bloom propose aujourd'hui les services en ligne suivants:
 * <a href="https://bloom.sh/platform/phaser" target="_blank" rel="noopener">Phaser</a>: un scanner de sécurité automatique pour sites webs
 * <a href="https://bloom.sh/bitflow" target="_blank" rel="noopener">Bitflow</a>: un gestionnaire de téléchargements, qui permet de télécharger des fichiers directement dans votre *drive* (torrents, HTTP).
 * <a href="https://bloom.sh/music" target="_blank" rel="noopener">Bloom Music</a>: un lecteur de musique lisant les musiques directement depuis votre *drive*
-* <a href="https://bloom.sh/gallery" target="_blank" rel="noopener">Bloom Gallery</a>: une gallerie pour vos photos et vidéos
+* <a href="https://bloom.sh/gallery" target="_blank" rel="noopener">Bloom Gallery</a>: une galerie pour vos photos et vidéos
 * <a href="https://bloom.sh/contacts" target="_blank" rel="noopener">Bloom Contacts</a>: un gestionnaire de contacts
 * <a href="https://bloom.sh/notes" target="_blank" rel="noopener">Bloom Notes</a>: une application de prise de notes
 
-Une applicaiton Android est disponible:
+Une application Android est disponible:
 <a href="https://play.google.com/store/apps/details?id=com.bloom42.bloomx" target="_blank" rel="noopener">https://play.google.com/store/apps/details?id=com.bloom42.bloomx</a>
 
-Tous ces services offrent des tiers gratuits (ou sont entièrement gratuits) sans contrepartie (pas de ciblage, pas de publicité...)
-et le code est disponible librement sur [GitHub](https://github.com/bloom42).
+Tous ces services offrent des tiers gratuits (ou sont entièrement gratuits) sans contrepartie (pas de ciblage, pas de publicité...),
+et dont le code source est disponible librement sur [GitHub](https://github.com/bloom42).
 
 Aujourd'hui orientés productivité nous contribuerons demain
 à des secteurs plus divers tels que l'agriculture, l'architecture, le transport...
 
-**Bloom est le Linux du XXIème siècle.**
+**Bloom est le Linux du XXIe siècle.**
 
-Bloom concilie le meilleur de la **religion Startuplaland**: *l'éxecution radicale
+Bloom concilie le meilleur de la **religion Startuplaland**: *l'exécution radicale
 plutôt que la bureaucratie, la scalabilité, une expérience utilisateur sans faille, une culture forte pour le produit, un processus itératif*,
 et de l'**open source**: *un mode de développement qui a prouvé sa supériorité, une gouvernance ouverte
 et une symbiose parfaite des intérêts des développeurs et de ceux des utilisateurs.*
@@ -391,7 +391,7 @@ Nous avons choisi la <a href="https://fr.wikipedia.org/wiki/Copyleft" target="_b
 
 
 Concernant la gouvernance, la fédération est sur la feuille de route, mais nous devons d'abord trouver des solutions
-aux problèmes affectants les systèmes existants (spams dans le monde des emails, les arbitrages législatifs dans le monde de Mastodon...).
+aux problèmes affectant les systèmes existants (spams dans le monde des emails, les arbitrages législatifs dans le monde de Mastodon...).
 
 <!-- Nous n'avons pas encore de réponse concernant la gouvernance mais nous réfléchissons à un système
 de ouvert, multi-latéral tout en préservant la sécurité et l'intergrité du système
@@ -417,7 +417,7 @@ Un forum est disponible pour discuter des idées d'amélioration et demander de 
 Un chat Discord est disponible pour les communications plus informelles: <a href="https://discord.gg/HmDQDGv" target="_blank" rel="noopener">discord.gg/HmDQDGv</a>.
 
 
-Enfin, pour rester informé des dernières mises à jours suivez nous sur Twitter <a href="https://twitter.com/42bloom" target="_blank" rel="noopener">@42bloom</a>.
+Enfin, pour rester informé des dernières mises à jour suivez nous sur Twitter <a href="https://twitter.com/42bloom" target="_blank" rel="noopener">@42bloom</a>.
 
 
 #### Développement
@@ -452,7 +452,7 @@ Pour contribuer au design de Bloom cela se passe sur le repo [github.com/bloom42
 
 #### En partageant
 
-Diffusez les idées, débattez avec votre entourage, paratgez Bloom sur les réseaux sociaux !
+Diffusez les idées, débattez avec votre entourage, partagez Bloom sur les réseaux sociaux !
 
 Nous ne sommes encore qu'au début de l'aventure et nous faire connaître nous aide ééénooormément !
 
