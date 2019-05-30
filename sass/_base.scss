@@ -46,6 +46,7 @@ blockquote {
 img, video {
   border: 1px solid $border-color;
   max-width: 100%;
+  height: auto;
 }
 
 .center, .center p {
