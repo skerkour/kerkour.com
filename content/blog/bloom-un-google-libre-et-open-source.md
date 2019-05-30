@@ -520,6 +520,7 @@ Ainsi qu'à :
 * Pablo Servigne
 * Cécile Serrano
 * Josette Crastes
+* Étienne Théodore
 
 pour la relecture,
 
