@@ -98,7 +98,7 @@ Moins de nécessité de production = moins de travail = encore plus de chômage 
 </div>
 
 La question est donc la suivante: **Comment mieux redistribuer les richesses de manière à améliorer le niveau de vie
-universel, sans ccontinuer à accélérer notre autodestruction ?**
+universel, sans continuer à accélérer notre autodestruction ?**
 
 
 Le printemps arabe, le Brexit, les gilets jaunes, les populations dont la qualité de vie ne bénéficie pas des richesses qu'elles
@@ -174,7 +174,7 @@ aberrations effarantes sont déjà en place
 les derives des ayants droits sur les plateformes de partage de contenu,
 [les derives des journaux scientifiques](https://www.youtube.com/watch?v=WnxqoP-c0ZE),
 les [copyright trolls](https://en.wikipedia.org/wiki/Copyright_troll)...)
-la volonté de renforcer le droit de la propriété intellectuelle dont les externalités négaitves ne sont jamais mentionnées, est cupide et criminel. Car oui, les brevets sur les médicaments ou les semences tuent.
+la volonté de renforcer le droit de la propriété intellectuelle dont les externalités négatives ne sont jamais mentionnées, est cupide et criminel. Car oui, les brevets sur les médicaments ou les semences tuent.
 
 **Toute cette bureaucratie n'est bien sûr pas la bienvenue alors que l'humanité fait face à des problèmes majeurs.**
 
@@ -190,7 +190,7 @@ ne leur bénéficie pas seulement à elles, mais aussi à la société, à l'hum
 
 L'exemple le plus connu d'open source est [Linux](https://fr.wikipedia.org/wiki/Linux), un système d'exploitation
 libre et gratuit qui est utilisé par la majorité des [serveurs](https://fr.wikipedia.org/wiki/Serveur_informatique)
-et [des téléphones](https://www.android.com) aujourd'hui. Que votre téléphone reopse sur Android ou IOS, il contient forcément
+et [des téléphones](https://www.android.com) aujourd'hui. Que votre téléphone repose sur Android ou IOS, il contient forcément
 des logiciels open source en plus ou moins grande quantité. Il en va de même pour votre *box* internet, ou encore
 n'importe quel site web que vous pouvez consulter.
 
