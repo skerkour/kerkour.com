@@ -17,3 +17,7 @@ lang = "en"
   <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KbYzF6Zy5tY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video2"></iframe>
   <p>The infinite game and the infinites players</p>
 </div>
+
+
+And before you ask, my just cause? Empowering the world with open technologies. I've created
+<a href="https://bloom.sh" target="_blank" rel="noopener">Bloom</a> to fulfill this purpose.
