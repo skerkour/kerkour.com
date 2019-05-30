@@ -513,6 +513,7 @@ Un grand merci aux personnes ayant déjà contribué directement ou indirectemen
 * Andrew Gallant
 * "MC Solaar"
 * "Scylla"
+* "MAP"
 
 
 Ainsi qu'à :
