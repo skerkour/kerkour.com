@@ -325,7 +325,8 @@ D'un côté il est facile de comprendre pourquoi la censure de masse est néfast
 La première étape de la transparence est de rendre l'information publique. La seconde est de la rendre facile
 d'accès, facile à chercher, facile à réutiliser.
 
-Sans transparence, il n'y a pas de vie publique. Sans transparence, il n'y a pas de société stable. La transparence
+Sans transparence, il n'y a pas de vie publique. Sans transparence, il n'y a pas de confiance possible.
+Sans transparence, il n'y a pas de société stable. La transparence
 est le fondement même du contre-pouvoir.
 <!-- Sans transparence le *lobbying* ne doit être considéré que comme de la corruption. -->
 
