@@ -291,8 +291,8 @@ Disposer des ces données en accès libre permettrait de multiplier la rapidité
 de la robotique, de la médecine, des transoprts, de l'agriculture etc... mais surtout de grandement réduire les besoins en resource dans tous ces domaines.
 
 À l'heure où nous déléguons de plus en plus notre mémoire et notre savoir à des entreprises qui les enferment dans des sillots privés, nous n'avons
-absolument aucune garantie quant à leur avenir, tant au niveau de leur destruction qu'au niveau
-de leur modification.
+absolument aucune garantie quant à leur avenir, tant au niveau de leur préservation qu'au niveau
+de leur intégrité.
 
 
 ### Open Access
