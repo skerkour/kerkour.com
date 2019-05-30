@@ -1,6 +1,6 @@
 +++
 date = 2019-05-30T12:42:42+01:00
-title = "The infinite game and the just cause"
+title = "The just cause and the infinite game"
 
 [extra]
 lang = "en"
