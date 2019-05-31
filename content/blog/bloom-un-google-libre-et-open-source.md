@@ -499,7 +499,6 @@ Un grand merci aux personnes ayant déjà contribué directement ou indirectemen
 * Marina Da Silva
 * L'école 42
 * Jean-Roger Callière
-* Jean-Christophe Scaringella
 * Katerina Limpitsouni
 * Nikolay Kim
 * Sean Griffin
