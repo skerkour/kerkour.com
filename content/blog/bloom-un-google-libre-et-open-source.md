@@ -237,7 +237,7 @@ celui de créer et de profiter ensemble, que nous soyons employé
 ou non.**
 
 
-#### Résilience
+#### Résilience et durabilité
 
 <a href="https://nest.com/whats-happening" target="_blank" rel="noopener">Que se passerait-il si demain Google perdait tout intérêt économique à faire des affaires et bloquait son accès à l'Europe ?</a>
 
