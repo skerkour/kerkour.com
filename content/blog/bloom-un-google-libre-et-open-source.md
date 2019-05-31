@@ -465,7 +465,7 @@ vous pouvez contribuer financièrement.
 
 Cet argent sera utilisé pour financer les personnes contribuant avec leur temps à un monde plus ouvert:
 
-* En souscrivant à un abonnement sur <a href="https://bloom.sh" target="_blank" rel="noopener">bloom.sh</a>
+* <s>En souscrivant à un abonnement sur <a href="https://bloom.sh" target="_blank" rel="noopener">bloom.sh</a></s> Ouverture des paiements dans 1 semaine.
 
 
 * En devenant *patron*:
