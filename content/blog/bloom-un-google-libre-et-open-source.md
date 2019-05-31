@@ -434,7 +434,7 @@ Plus d'informations est disponible sur notre site [bloom.sh/open-source](https:/
 
 * Un langage expressif et moderne
 * Un langage open-source et embrassant pleinement les valeurs de Bloom
-* Un langage permettant la fois des abstractions de haut niveau et des constructions de bas niveau, sans coût de performance
+* Un langage permettant à la fois des abstractions de haut niveau et des constructions de bas niveau, sans coût de performance
 * Tous nos services doivent pouvoir être auto-hébergés sur un <a href="https://www.raspberrypi.org" target="_blank" rel="noopener">Raspberry pi</a>
 * Là encore les intérêts composés entrent en jeux, être experts un dans langage capable à la fois de faire des services web,
 de la robotique ou encore des blockchains, permet de multiplier les capacités de création
