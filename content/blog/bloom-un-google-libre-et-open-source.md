@@ -437,7 +437,7 @@ Plus d'informations est disponible sur notre site [bloom.sh/open-source](https:/
 * Un langage open-source et embrassant pleinement les valeurs de Bloom
 * Un langage permettant à la fois des abstractions de haut niveau et des constructions de bas niveau, sans coût de performance
 * Tous nos services doivent pouvoir être auto-hébergés sur un <a href="https://www.raspberrypi.org" target="_blank" rel="noopener">Raspberry pi</a>
-* Là encore les intérêts composés entrent en jeux, être experts dans un langage capable à la fois de faire des services web,
+* Là encore les intérêts composés entrent en jeux, être expert dans un langage capable à la fois de faire des services web,
 de la robotique ou encore des blockchains, permet de multiplier les capacités de création
 * <a href="https://insights.stackoverflow.com/survey/2019" target="_blank" rel="noopener">Les développeurs l'aiment <3</a>
 * Car c'est <a href="http://www.paulgraham.com/avg.html" target="_blank" rel="noopener">LE langage pour les gouverner tous</a>
