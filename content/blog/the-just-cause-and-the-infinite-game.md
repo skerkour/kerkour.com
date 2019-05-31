@@ -6,6 +6,14 @@ title = "The just cause and the infinite game"
 lang = "en"
 +++
 
+
+<!--
+
+
+
+ -->
+
+
 <div class="center">
   <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/u4ZoJKF_VuA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video1"></iframe>
   <p>Start with <i>Why</i></p>
