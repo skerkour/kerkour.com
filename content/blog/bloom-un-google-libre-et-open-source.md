@@ -418,7 +418,7 @@ Un forum est disponible pour discuter des idées d'amélioration et demander de 
 Un chat Discord est disponible pour les communications plus informelles: <a href="https://discord.gg/HmDQDGv" target="_blank" rel="noopener">discord.gg/HmDQDGv</a>.
 
 
-Enfin, pour rester informé des dernières mises à jour suivez nous sur Twitter <a href="https://twitter.com/42bloom" target="_blank" rel="noopener">@42bloom</a> ou sur Mastodon: <a href="https://mastodon.social/web/accounts/809003" target="_blank" rel="noopener">@z0mbie42@mastodon.social</a>.
+Enfin, pour rester informé des dernières mises à jour suivez nous sur Twitter <a href="https://twitter.com/42bloom" target="_blank" rel="noopener">@42bloom</a> et sur Mastodon: <a href="https://mastodon.social/web/accounts/809003" target="_blank" rel="noopener">@z0mbie42@mastodon.social</a>.
 
 
 #### Développement
@@ -532,11 +532,11 @@ En résumé le master plan est le suivant:
 2. Avec cet argent réduire les prix, libérer la donnée et l'accès à la connaissance scientifique<br />
 3. Avec cet argent et cette communauté créer l'infrastructure ouverte pour faire fonctionner ces logiciels et héberger ces données ouvertes
 
-Notre mission ? Faire de notre planète un meilleur endroit pour tout le monde grâce à des technologies ouvertes, par le peuple, pour le peuple.
+**Notre mission ?** Faire de notre planète un meilleur endroit pour tout le monde grâce à des technologies ouvertes, par le peuple, pour le peuple.
 
-Nos valeurs ? Coopération, Acuité, Transparence, Simplicité (**CATS** 🐱).
+**Nos valeurs ?** Coopération, Acuité, Transparence, Simplicité (**CATS** 🐱).
 
-Chronologie:
+**Chronologie :**
 * Q1/Q2 2019 - <a href="https://bloom.sh" target="_blank" rel="noopener">Beta</a>
 * Q3 2019 - <a href="https://www.inkandswitch.com/local-first.html" target="_blank" rel="noopener">Offline first</a> + auto-hébergement
 * Q4 2019 - <a href="https://fr.wikipedia.org/wiki/Chiffrement_de_bout_en_bout" target="_blank" rel="noopener">Chiffrement de bout en bout</a> + teams
