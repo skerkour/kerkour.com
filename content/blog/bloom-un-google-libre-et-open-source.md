@@ -103,7 +103,7 @@ universel, sans continuer à accélérer notre autodestruction ?**
 
 Le printemps arabe, le Brexit, les gilets jaunes, les populations dont la qualité de vie ne bénéficie pas des richesses qu'elles
 produisent remettent en cause le <a href="https://fr.wikipedia.org/wiki/Du_contrat_social" target="_blank" rel="noopener">contrat social</a>.
-Il est impératif de rapidement trouver un nouveau système, un système où tout le monde y trouve son compte, pour faire face ensemble à la
+Il est impératif de rapidement trouver un nouveau système, un système où tout le monde trouve son compte, pour faire face ensemble à la
 crise écologique qui nous affecte tous.
 
 **Continuer à mutualiser les coûts et privatiser les bénéfices est fondamentalement incompatible avec notre organisation en sociétés.**
@@ -201,9 +201,9 @@ Quand Bob travaille sur un projet propriétaire, les fruits de son travail bén�
 à son employeur et dans une moindre mesure à ses clients. Le jour où il change d'emploi, il perd tout le travail effectué
 précédemment.
 
-Quand Alice contribue ou travaille sur un projet open source, le fruit de son travail lui bénéficie à lui, aux
+Quand Alice contribue ou travaille sur un projet open source, le fruit de son travail lui bénéficie à elle, aux
 utilisateurs du projet open source et au reste de monde qui peut l'utiliser gratuitement, le modifier, l'améliorer.
-Quand Jacques change d'emploi ou le quitte, le résultat de son précédent travail lui reste accessible, il peut
+Quand Alice change d'emploi ou le quitte, le résultat de son précédent travail lui reste accessible, elle peut
 continuer à en bénéficier.
 
 Ainsi les richesses produites se cumulent, plutôt que chaque acteur de la société gaspille des ressources afin de les recréer dans son coin.
@@ -437,7 +437,7 @@ Plus d'informations est disponible sur notre site [bloom.sh/open-source](https:/
 * Un langage open-source et embrassant pleinement les valeurs de Bloom
 * Un langage permettant à la fois des abstractions de haut niveau et des constructions de bas niveau, sans coût de performance
 * Tous nos services doivent pouvoir être auto-hébergés sur un <a href="https://www.raspberrypi.org" target="_blank" rel="noopener">Raspberry pi</a>
-* Là encore les intérêts composés entrent en jeux, être experts un dans langage capable à la fois de faire des services web,
+* Là encore les intérêts composés entrent en jeux, être experts dans un langage capable à la fois de faire des services web,
 de la robotique ou encore des blockchains, permet de multiplier les capacités de création
 * <a href="https://insights.stackoverflow.com/survey/2019" target="_blank" rel="noopener">Les développeurs l'aiment <3</a>
 * Car c'est <a href="http://www.paulgraham.com/avg.html" target="_blank" rel="noopener">LE langage pour les gouverner tous</a>
