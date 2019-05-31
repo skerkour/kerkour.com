@@ -64,6 +64,7 @@ template = "readings.html"
   <h2>Novels</h2>
 </div>
 
+* Fight Club, *Chuck Palahniuk*
 * The Hitchhiker's Guide to the Galaxy, *Douglas Adams*
 * The Restaurant at the End of the Universe, *Douglas Adams*
 * Life, the Universe and Everything, *Douglas Adams*
