@@ -19,5 +19,5 @@ lang = "en"
 </div>
 
 
-And before you ask, my just cause? Empowering the world with open technologies. I've created
+And before you ask, my just cause? **Empowering the world with open technologies**. I've created
 <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom</a> to fulfill this purpose.
