@@ -250,7 +250,8 @@ peuvent faire faillite. Or, depuis [la situation économique mondiale](https://f
 
 
 L'open source permet aux projets de survivre non seulement à la faillite d'une entreprise, mais aussi à une coupure d'internet,
-à une guerre économique.
+<a href="https://www.lemonde.fr/pixels/article/2019/05/20/google-coupe-les-ponts-avec-huawei-ce-que-ca-change-pour-les-utilisateurs_5464500_4408996.html" target="_blank" rel="noopener">à une guerre économique</a>.
+
 <!--
 Et puisque ces services entrent dans le bien commun, qu'ils ne sont pas la propriété d'une entrprise particulière,
 ils deviennent beaucoup plus résilients à des tentatives de censure. -->
