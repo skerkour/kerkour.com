@@ -1,6 +1,6 @@
 +++
 date = 2019-05-30T12:42:42+01:00
-title = "The just cause and the infinite games"
+title = "The just cause and the infinite game"
 
 [extra]
 lang = "en"
@@ -30,7 +30,7 @@ And before you ask, my just cause? **Empowering the world with open technologies
 
 <div class="center">
   <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KbYzF6Zy5tY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video2"></iframe>
-  <p>The infinite games and the infinite players</p>
+  <p>The infinite game and the infinite players</p>
 </div>
 
 
