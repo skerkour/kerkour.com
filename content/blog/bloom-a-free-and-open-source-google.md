@@ -51,7 +51,7 @@ put us in danger. The	assessment is alarming, the imobilism even more.
 
 ### Social crisis
 
-One question obsess us: Why do we need to work still more to access
+One question obsess us: Why do we need to work more and more to access
 a correct standard of living, when we see the global wealth produced?
 
 
@@ -60,9 +60,14 @@ With taxes, work is today our only way to redistribute wealth. Due to technology
 
 Two futures show off:
 
-* Consume still more
+* Consuming more and more
 * Better wealth redistribution
 
+
+Consuming more and more - growth and debt based economies - is obviously not compatible with the cological crisis.
+
+At the opposite, the reduction of production needs = less work = event more
+unemployment and so less redistributed wealth.
 
 
 <div class="center">
@@ -70,3 +75,17 @@ Two futures show off:
 
   Global wealth distribution. World economic forum.
 </div>
+
+
+THE question is therefore: **How to improve global standard of living without continuing to accelerate our self destruction?**
+
+Keep going mutualising cost and privatising benefits is fundamentally incompatible with the <a href="https://en.wikipedia.org/wiki/The_Social_Contract" target="_blank" rel="noopener">social contract</a> (Arab spring, Brexit, Yellow vests...).
+
+
+
+## Open source, access, data... (How ?)
+
+
+The solution? Even a 4 years old child would seamlessly find it: sharing.
+
+

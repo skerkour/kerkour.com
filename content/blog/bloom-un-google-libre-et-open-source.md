@@ -96,7 +96,7 @@ Consommer toujours plus - sociétés basées sur la dette et la croissance - n'e
   Distribution des richesses. World economic forum.
 </div>
 
-La question est donc la suivante : **Comment améliorer le niveau de vie
+LA question est donc : **Comment améliorer le niveau de vie
 universel sans continuer à accélérer notre autodestruction ?**
 
 Continuer à mutualiser les coûts et privatiser les bénéfices est fondamentalement incompatible avec le <a href="https://fr.wikipedia.org/wiki/Du_contrat_social" target="_blank" rel="noopener">contrat social</a> (printemps arabe, Brexit, gilets jaunes...).
