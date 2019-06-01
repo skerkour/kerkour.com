@@ -24,7 +24,7 @@ lang = "fr"
 
 Pour faire face aux défis universels et inédits de notre siècle, nous avons créé un "Google"
 libre et open source (et sans publicité ni ciblage) : Bloom.
-C'est par [ici pour la version en ligne](https://bloom.sh), par [ici pour l'application Android](https://play.google.com/store/apps/details?id=com.bloom42.bloomx), par [ici pour le code](https://gitlab.com/bloom42)
+C'est par <a href="https://bloom.sh" target="_blank" rel="noopener">ici pour la version en ligne</a>, <a href="https://play.google.com/store/apps/details?id=com.bloom42.bloomx" target="_blank" rel="noopener">par ici pour l'application Android</a>, <a href="https://gitlab.com/bloom42" target="_blank" rel="noopener">par ici pour le code</a>
 et par [ici pour  contribuer](#contribuer). Ce n'est que le début d'une grande aventure 🚀
 
 
@@ -171,10 +171,10 @@ La solution ? Un enfant de 4 ans la trouverait sans problème : le **partage**.
 À l'heure du numérique où la copie et la diffusion d'un document digital ne coûte virtuellement rien
 et que des
 aberrations sont déjà en place
-([taxe pour copie privée](https://fr.wikipedia.org/wiki/R%C3%A9mun%C3%A9ration_pour_copie_priv%C3%A9e),
+(<a href="https://fr.wikipedia.org/wiki/R%C3%A9mun%C3%A9ration_pour_copie_priv%C3%A9e" target="_blank" rel="noopener">taxe pour copie privée</a>,
 les dérives des ayants droits sur les plateformes de partage de contenu,
-[les dérives des journaux scientifiques](https://www.youtube.com/watch?v=WnxqoP-c0ZE),
-les [copyright trolls](https://en.wikipedia.org/wiki/Copyright_troll)...),
+<a href="https://www.youtube.com/watch?v=WnxqoP-c0ZE" target="_blank" rel="noopener">les dérives des journaux scientifiques</a>,
+les <a href="https://en.wikipedia.org/wiki/Copyright_troll" target="_blank" rel="noopener">copyright trolls</a>...),
 la volonté de renforcer le droit de la propriété intellectuelle dont les externalités négatives ne sont jamais mentionnées, est cupide et criminel. Car oui, les brevets sur les médicaments ou les semences tuent.
 
 **Toute cette bureaucratie n'est bien sûr pas la bienvenue alors que l'humanité fait face à des crises majeures.**
@@ -187,11 +187,11 @@ ne leur bénéficie pas seulement à elles, mais aussi à la société, à l'hum
 
 ### Open source
 
-[Open source](https://fr.wikipedia.org/wiki/Open_source) : *La désignation open source, ou « code source ouvert », s'applique aux logiciels (et s'étend maintenant aux œuvres de l'esprit) dont la licence respecte des critères précisément établis par l'Open Source Initiative, c'est-à-dire les possibilités de libre redistribution, d'accès au code source et de création de travaux dérivés. Mis à la disposition du grand public, ce code source est généralement le résultat d'une collaboration entre programmeurs.*
+<a href="https://fr.wikipedia.org/wiki/Open_source" target="_blank" rel="noopener">Open source</a> : *La désignation open source, ou « code source ouvert », s'applique aux logiciels (et s'étend maintenant aux œuvres de l'esprit) dont la licence respecte des critères précisément établis par l'Open Source Initiative, c'est-à-dire les possibilités de libre redistribution, d'accès au code source et de création de travaux dérivés. Mis à la disposition du grand public, ce code source est généralement le résultat d'une collaboration entre programmeurs.*
 
-L'exemple le plus connu d'open source est [GNU/Linux](https://fr.wikipedia.org/wiki/Linux), un système d'exploitation
-libre et gratuit qui est utilisé par la majorité des [serveurs](https://fr.wikipedia.org/wiki/Serveur_informatique)
-et [des téléphones](https://www.android.com) aujourd'hui.
+L'exemple le plus connu d'open source est <a href="https://fr.wikipedia.org/wiki/Linux" target="_blank" rel="noopener">GNU/Linux</a>, un système d'exploitation
+libre et gratuit qui est utilisé par la majorité des <a href="https://fr.wikipedia.org/wiki/Serveur_informatique" target="_blank" rel="noopener">serveurs</a>
+et <a href="https://www.android.com" target="_blank" rel="noopener">des téléphones</a> aujourd'hui.
 
 <!-- Que votre téléphone repose sur Android ou IOS, il contient forcément
 des logiciels open source en plus ou moins grande quantité. Il en va de même pour votre *box* internet, ou encore
@@ -222,7 +222,9 @@ de s'affranchir des bureaux classiques. Le personnel n'a plus besoin d'être dan
 
 
 Cela pose de nouveaux défis au niveau des interactions sociales, mais c'est un premier levier pour
-réduire notre consommation énergétique à l'échelle planétaire.
+réduire notre  <a href="https://fr.wikipedia.org/wiki/%C3%89quation_de_Kaya" target="_blank" rel="noopener">consommation énergétique à l'échelle planétaire</a>.
+
+
 <!-- Les membres n'ont plus besoin de tous se réunir sur un même lieu de travail pour finalement
 rester la journée derrière un écran. -->
 
@@ -251,7 +253,7 @@ ou non.** -->
 <a  href="https://theintercept.com/2016/05/02/whatsapp-used-by-100-million-brazilians-was-shut-down-nationwide-today-by-a-single-judge" target="_blank" rel="noopener"> Que se passerait-il si demain un gouvernement tyrannique bloquait WhatsApp ?</a>
 
 La crise financière de 2008 nous a douloureusement rappelé que des entreprises que l'on croyait intouchables
-peuvent faire faillite. Or, depuis [la situation économique mondiale](https://fr.wikipedia.org/wiki/Dette_publique) ne s'est pas améliorée.
+peuvent faire faillite. Or, depuis <a href="https://fr.wikipedia.org/wiki/Dette_publique" target="_blank" rel="noopener">la situation économique mondiale</a> ne s'est pas améliorée.
 
 
 L'open source permet aux projets de survivre non seulement à la faillite d'une entreprise, mais aussi à une coupure d'internet,
@@ -280,7 +282,7 @@ L’open data *ou donnée ouverte est une donnée numérique dont l'accès et l'
 
 
 La donnée est aujourd'hui comparée au pétrole, de la même manière que ce dernier est le carburant de nos moteurs à
-explosion, la donnée est le carburant des [algorithmes](https://fr.wikipedia.org/wiki/Algorithme).
+explosion, la donnée est le carburant des <a href="https://fr.wikipedia.org/wiki/Algorithme" target="_blank" rel="noopener">algorithmes</a>.
 
 <!-- C'est en récoltant beaucoup de données et en leur donnant du sens que nous pourrons avoir des véhicules
 autonomes et ainsi réduire drastiquement le nombre de morts sur les routes. -->
@@ -292,7 +294,7 @@ optimiser des flux logistiques ou énergétiques et ainsi réduire notre trop gr
 
 
 Le problème c'est qu'aujourd'hui ces données, produites par tout le monde, deviennent la propriété de grandes
-entreprises (*les géants de la tech*), et sont utilisées entre autre pour [déstabiliser nos organisations politiques](https://fr.wikipedia.org/wiki/Cambridge_Analytica).
+entreprises (*les géants de la tech*), et sont utilisées entre autre pour <a href="https://fr.wikipedia.org/wiki/Cambridge_Analytica" target="_blank" rel="noopener">déstabiliser nos organisations politiques</a>.
 
 
 Disposer des ces données en accès libre permettrait de multiplier la rapidité et la qualité de l'innovation dans tous domaines.
@@ -307,12 +309,12 @@ de leur intégrité.
 
 *L’open access (ou aussi « libre accès », ou encore « accès ouvert ») à la littérature scientifique est un mode de diffusion des articles de recherche sous forme numérique, gratuite et dans le respect du droit d’auteur.*
 
-[Le monde de la publication scientifique est gangrené](https://www.echosciences-grenoble.fr/articles/la-controverse-en-matiere-de-publication-des-articles-scientifiques).
+<a href="https://www.echosciences-grenoble.fr/articles/la-controverse-en-matiere-de-publication-des-articles-scientifiques" target="_blank" rel="noopener">Le monde de la publication scientifique est gangrené</a>.
 
 Il n'y a rien de plus à dire: tout le monde s'accorde sur l'intérêt pour le bien commun de publier publiquement et gratuitement les résultats
-des chercheurs financés aussi bien par le secteur public que privé ([ce dernier étant de toute façon financé par nos impôts](https://www.service-public.fr/professionnels-entreprises/vosdroits/F23533)...).
+des chercheurs financés aussi bien par le secteur public que privé (<a href="https://www.service-public.fr/professionnels-entreprises/vosdroits/F23533" target="_blank" rel="noopener">ce dernier étant de toute façon financé par nos impôts</a>...).
 
-Je recommande le livre [Open Acces de Peter Suber](http://ia601805.us.archive.org/17/items/9780262517638OpenAccess/9780262517638_Open_Access.pdf) pour approfondir le sujet.
+Je recommande le livre <a href="http://ia601805.us.archive.org/17/items/9780262517638OpenAccess/9780262517638_Open_Access.pdf" target="_blank" rel="noopener">Open Acces de Peter Suber</a> pour approfondir le sujet.
 
 
 ### Transparence : vertueuse mais surtout nécessaire
@@ -382,7 +384,7 @@ Une application Android est disponible :
 <a href="https://play.google.com/store/apps/details?id=com.bloom42.bloomx" target="_blank" rel="noopener">https://play.google.com/store/apps/details?id=com.bloom42.bloomx</a>
 
 Tous ces services offrent des tiers gratuits (ou sont entièrement gratuits) sans contrepartie (pas de ciblage, pas de publicité...),
-et dont le code source est disponible librement sur [GitLab](https://gitlab.com/bloom42).
+et dont le code source est disponible librement sur <a href="https://gitlab.com/bloom42" target="_blank" rel="noopener">GitLab</a>.
 
 Aujourd'hui orientés productivité nous contribuerons demain
 à des secteurs plus divers tels que l'agriculture, l'architecture, le transport...
@@ -430,13 +432,13 @@ Enfin, pour rester informé des dernières mises à jour suivez nous sur Twitter
 
 #### Développement
 
-Pour contribuer au code cela se passe sur [gitlab.com/bloom42](https://gitlab.com/bloom42).
+Pour contribuer au code cela se passe sur <a href="https://gitlab.com/bloom42" target="_blank" rel="noopener">gitlab.com/bloom42</a>.
 
-Plus d'informations est disponible sur notre site [bloom.sh/open-source](https://bloom.sh/open-source).
+Plus d'informations est disponible sur notre site <a href="https://bloom.sh/open-source" target="_blank" rel="noopener">bloom.sh/open-source</a>.
 
 ##### Rust
 
-[Rust](https://www.rust-lang.org/) est le langage de programmation officiel de Bloom, pour une multitude de raisons, les principales
+<a href="https://www.rust-lang.org/" target="_blank" rel="noopener">Rust</a> est le langage de programmation officiel de Bloom, pour une multitude de raisons, les principales
 étant :
 
 * Un langage expressif et moderne
@@ -455,7 +457,7 @@ Il sera utilisé pour **tous** les projets de Bloom sauf impératif contraire
 
 #### Design
 
-Pour contribuer au design de Bloom cela se passe sur le repo [gitlab.com/bloom42/design](https://gitlab.com/z0mbie42/design).
+Pour contribuer au design de Bloom cela se passe sur le repo <a href="https://gitlab.com/z0mbie42/design" target="_blank" rel="noopener">gitlab.com/bloom42/design</a>.
 
 
 #### En partageant
