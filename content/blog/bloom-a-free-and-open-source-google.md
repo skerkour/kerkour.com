@@ -14,9 +14,9 @@ lang = "en"
 *We cannot solve our problems with the same thinking we used when we created them.*
 
 
-1. [Universal and unprecedented challenges (Why ?)](#universal-and-unprecedented-challenges-why)
-2. [Open source, access, data... (How ?)](#open-source-access-data-how)
-3. [Bloom: The top-secret master plan (What ?)](#bloom-the-top-secret-master-plan-what)
+1. [Universal and unprecedented challenges (Why?)](#universal-and-unprecedented-challenges-why)
+2. [Open source, access, data... (How?)](#open-source-access-data-how)
+3. [Bloom: The top-secret master plan (What?)](#bloom-the-top-secret-master-plan-what)
 4. [In summary](#in-summary)
 
 -------
@@ -30,7 +30,7 @@ and go [here to learn how to contribute](#contribute). This is just the beginnin
 
 
 
-## Universal and unprecedented challenges (Why ?)
+## Universal and unprecedented challenges (Why?)
 
 
 It's not news: the beggining of the 21st century is a
@@ -79,7 +79,7 @@ Continuing to mutualise cost and privatize profits is fundamentally incompatible
 
 
 
-## Open source, access, data... (How ?)
+## Open source, access, data... (How?)
 
 
 The solution? Even a child of 4 years would find it without problem: sharing.
@@ -153,3 +153,90 @@ The problem is that today these data, produced by everyone, become the property 
 Having these data open access would increase the speed and quality of innovation in all areas.
 
 At a time when we are increasingly delegating our memory and knowledge to companies that enclose them in private silos, we have absolutely no guarantee about their future, both in terms of their preservation and their integrity.
+
+
+### Open Access
+
+<a href="https://en.wikipedia.org/wiki/Open_access" target="_blank" rel="noopener">Open access</a>: *Open access (OA) is a mechanism by which research outputs are distributed online, free of cost or other barriers,[1] and, in its most precise meaning, with the addition of an open license that removes most restrictions on use and reuse.*
+
+
+<a href="https://www.echosciences-grenoble.fr/articles/la-controverse-en-matiere-de-publication-des-articles-scientifiques" target="_blank" rel="noopener">The world of scientific publishing is rotten.</a>
+
+There is nothing more to say: everyone agrees on the interest for the common good to publish publicly and free the results of researchers funded by both the public and private sectors (<a href="https://www.service-public.fr/professionnels-entreprises/vosdroits/F23533" target="_blank" rel="noopener">the latter being anyway financed by our taxes</a>...).
+
+I recommend <a href="http://ia601805.us.archive.org/17/items/9780262517638OpenAccess/9780262517638_Open_Access.pdf" target="_blank" rel="noopener">Peter Suber's book *Open Acces*</a> to deepen the subject.
+
+
+
+### Transparency: virtuous but above all necessary
+
+All these movements of openness bring transparency. The information becomes accessible. Anyone, without distinction, can grasp it, enrich it, give it meaning.
+
+
+But this virtuous transparency is especially necessary, because if the real information spreads at the speed of light, **fake news** too.
+
+
+There are 2 main directions to limit effects of the latter:
+
+* Mass censorship
+* Transparency
+
+
+On the one hand, it is easy to understand why mass censorship is harmful, but on the other hand, transparency alone is not enough to put an end to false information. Above all, it provides contradictory and provable facts (unlike fake news).
+
+The first step of transparency is to make the information public. The second is to make it easy to access, easy to search, easy to reuse.
+
+Without transparency, there is no public life, no trust, no stable society. Transparency is the very foundation of counter-power.
+
+
+## Bloom: the top-secret master plan (What?)
+
+
+We believe in a world of sharing and cooperation rather than competition. That's why we created <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom</a>.
+
+
+Bloom is an organization that by using open source / access / data ..., redistributes freely its production on a large scale, relying on new technologies to do it cheaply at scale, rather than using them as an imperialist tool. Ethics rather than profit. We want to break the frontier between business and consumers.
+
+
+Our mission? Empowering the world with open technologies, by the people, for the people.
+
+ Bloom today offers the following online services:
+
+* <a href="https://bloom.sh/drive" target="_blank" rel="noopener">Bloom Drive</a>: an online Drive
+* <a href="https://bloom.sh/platform/phaser" target="_blank" rel="noopener">Phaser</a>: an automatic security scanner for websites
+* <a href="https://bloom.sh/bitflow" target="_blank" rel="noopener">Bitflow</a>: a download manager, which allows you to download files directly into your *drive* (torrents, HTTP).
+* <a href="https://bloom.sh/music" target="_blank" rel="noopener">Bloom Music</a>: a music player that reads music directly from your *drive*
+* <a href="https://bloom.sh/gallery" target="_blank" rel="noopener">Bloom Gallery</a>: a gallery for your photos and videos
+* <a href="https://bloom.sh/contacts" target="_blank" rel="noopener">Bloom Contacts</a>: a contact manager
+* <a href="https://bloom.sh/notes" target="_blank" rel="noopener">Bloom Notes</a>: a note-taking app
+
+
+An Android app is also available: <a href="https://play.google.com/store/apps/details?id=com.bloom42.bloomx" target="_blank" rel="noopener">https://play.google.com/store/apps/details?id=com.bloom42.bloomx</a>
+
+
+All these services have a free tier (or are completely free) for no counterpart (no targeting, no advertising ...), and whose source code is freely available on <a href="https://gitlab.com/bloom42" target="_blank" rel="noopener">GitLab</a>.
+
+Today productivity oriented we will contribute tomorrow to more diverse sectors such as agriculture, architecture, transport...
+
+**Bloom is the 21st century Linux.**
+
+
+Bloom conciliate the best of the **Startuplaland religion**: *radical execution rather than bureaucracy, scalability, flawless user experience, strong product culture, iterative process*, and **open source**: *a mode of development that has proven its superiority, open governance and a perfect symbiosis between the interests of developers and users'*.
+
+We chose the <a href="https://www.gnu.org/licenses/agpl-3.0.html" target="_blank" rel="noopener">AGPL v3.0 viral license</a> for most of our creations to encourage others to contribute back and to do the same. **No open core, no bullshit.**
+
+
+Regarding governance, federation is on the roadmap, but we must first find solutions to problems affecting existing systems (spam in the world of emails, legislative arbitrations in the world of Mastodon...).
+
+
+### Contribute
+
+We believe in a world where everyone can contribute, not just experts. **Where citizens and consumers become actors**. That is why we are committed to facilitate this global and barrier-free cooperation.
+
+
+#### Communication
+
+Bloom's official language of communication is English.
+
+
+A forum is available to discuss improvement and seek help from the community: <a href="https://forum.bloom.sh" target="_blank" rel="noopener">forum.bloom.sh</a>, as well as a Discord chat for more informal communications: <a href="https://discord.gg/HmDQDGv" target="_blank" rel="noopener">discord.gg/HmDQDGv</a>.
