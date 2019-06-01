@@ -240,3 +240,161 @@ Bloom's official language of communication is English.
 
 
 A forum is available to discuss improvement and seek help from the community: <a href="https://forum.bloom.sh" target="_blank" rel="noopener">forum.bloom.sh</a>, as well as a Discord chat for more informal communications: <a href="https://discord.gg/HmDQDGv" target="_blank" rel="noopener">discord.gg/HmDQDGv</a>.
+
+
+To stay informed of the latest updates follow us on Twitter <a href="https://twitter.com/42bloom" target="_blank" rel="noopener">@42bloom</a> and on Mastodon: <a href="https://mastodon.social/web/accounts/809003" target="_blank" rel="noopener">@z0mbie42@ mastodon.social</a>.
+
+
+#### Development
+
+Developement happens on: <a href="https://gitlab.com/bloom42" target="_blank" rel="noopener">gitlab.com/bloom42</a>.
+
+More information is available on our website <a href="https://bloom.sh/open-source" target="_blank" rel="noopener">bloom.sh/open-source</a>.
+
+
+##### Rust
+
+
+<a href="https://www.rust-lang.org/" target="_blank" rel="noopener">Rust</a> is Bloom's official programming language, for a multitude of reasons, the main ones being:
+
+
+* An expressive and modern language
+* An open-source language that fully embraces Bloom's values
+* A language that allows both high-level abstractions and low-level constructs, without * performance cost
+* All our services must be able to be self-hosted on a <a href="https://www.raspberrypi.org" target="_blank" rel="noopener">Raspberry pi</a>
+* Here again the compound interests come into play, being expert in a language capable of * both web services, robotics and blockchains, can multiply the creative capabilities
+* <a href="https://insights.stackoverflow.com/survey/2019" target="_blank" rel="noopener">Developers love it <3</a>
+* Because it is <a href="http://www.paulgraham.com/avg.html" target="_blank" rel="noopener">THE language to rule them all</a>
+
+
+It is (and will be) used for **all** Bloom projects unless otherwise required (Typescript + VueJS for web applications, Kotlin for Android applications, Swift for IOS applications...).
+
+
+#### Design
+
+To contribute to Bloom's design, please follow this link: <a href="https://gitlab.com/z0mbie42/design" target="_blank" rel="noopener">gitlab.com/bloom42/design</a>.
+
+
+
+#### By sharing
+
+Spread the word, talk with your entourage, share Bloom on social networks! We are still at the beginning of the adventure breaking the news would help us a loooooot!
+
+
+#### Financially
+
+If you do not have the time or skills to contribute, but our project seems promising to you, you can contribute financially.
+
+This money will be used to finance people who contribute with their time to a more open world:
+
+
+* <s>By subscribing on <a href="https://bloom.sh" target="_blank" rel="noopener">bloom.sh</a></s> Opening of payments in 1 week.
+
+* By becoming *patron*:
+
+<a href="https://www.patreon.com/bloom42" target="_blank" rel="noopener">
+  <img src="/imgs/become_a_patron_button.png" height="42"/>
+</a>
+
+
+* By making a *Paypal* donation:
+
+<a href="https://paypal.me/z0mbie42" target="_blank" rel="noopener">
+  <img src="/imgs/paypal_donate.gif" height="42"/>
+</a>
+
+
+* By making a donation in cryptocurrency:
+
+**BTC**: `38QY24nHRkMxUFsEDobwJU2b5QzuSL39Yb`
+
+**ETH**: `0x5121FE2A1014C4d57FCD2E8C4134A179851aFe6F`
+
+**XMR**: `4GdoN7NCTi8a5gZug7PrwZNKjvHFmKeV11L6pNJPgj5QNEHsN6eeX3DaAQFwZ1ufD4LYCZKArktt113W7QjWvQ7CW7fRk3auob6QWFSgYJ`
+
+Many thanks to those who have already contributed directly or indirectly:
+
+* My family
+* Marina Da Silva
+* 42 school
+* Jean-Roger Callière
+* Katerina Limpitsouni
+* Nikolay Kim
+* Sean Griffin
+* Ed Page
+* Jesse Szwedko
+* "mdouchement"
+* "erickeller"
+* Dmitriy Olshevskiy
+* Tyson Clugg
+* Ben Overmyer
+* "pulsonics"
+* Jose Nazario
+* Andrew Gallant
+
+As well as:
+
+* Pablo Servigne
+* Cécile Serrano
+* Josette Crastes
+* Étienne Théodore
+* Music'All's 'Ks'
+
+for proofreading,
+
+ And to all the other enthusiasts of sharing without whom it would not have been possible.
+
+
+ ## In summary
+
+In summary the master plan is as follows:
+
+1. Build free software and charge for hosting, hosted data security and enterprise support
+2. With this money reduce prices, free data and access to scientific knowledge
+3. With this money and this community create the open infrastructure to run these software and host this open data
+
+**Our mission?** Empowering the world with open technologies.
+
+**Our values​​?** Cooperation, Acuity, Transparency, Simplicity (CATS 🐱).
+
+Roadmap:
+* Q1 / Q2 2019 - <a href="https://bloom.sh" target="_blank" rel="noopener">Beta</a>
+* Q3 2019 - <a href="https://www.inkandswitch.com/local-first.html" target="_blank" rel="noopener">Offline first</a> + self-hosting
+* Q4 2019 - <a href="https://en.wikipedia.org/wiki/End-to-end_encryption" target="_blank" rel="noopener">End-to-end encryption</a> + teams
+* Q1 2020 - Add services
+* Q2 2020 - IOS Application + Data Portability
+* Q3 / Q4 2020 - Federation
+
+But shhh, it's a secret 🤫
+
+Contact : <span id="email">Javascript is required to access email address</span>
+
+
+--------------
+
+*It has been
+said that the only thing necessary for the triumph of evil is for good people to do nothing...*
+
+♪ <a href="https://www.youtube.com/watch?v=dERx6uFUf6o" target="_blank" rel="noopener">MC Solaar - Save the world</a>
+
+📖 <a href="https://www.ynharari.com/book/21-lessons" target="_blank" rel="noopener">21 Lessons for the 21st Century, Yuval Noah Harari</a>
+
+🎬 <a href="https://www.youtube.com/watch?v=4yXKCnz9lRc" target="_blank" rel="noopener">Internet: the revolution of sharing | ARTE</a>
+
+
+<script type="text/javascript">
+  window.addEventListener("load", function(){
+    var email = document.getElementById("email");
+    if (email) {
+        email.innerHTML = rot13('<n uers="znvygb:uryyb@oybbz.fu">uryyb@oybbz.fu</n>');
+    }
+  });
+  function rot13(s) {
+    return (s ? s : this).split('').map(function(_){
+      if (!_.match(/[A-Za-z]/)) return _;
+      c = Math.floor(_.charCodeAt(0) / 97);
+      k = (_.toLowerCase().charCodeAt(0) - 83) % 26 || 26;
+      return String.fromCharCode(k + ((c == 0) ? 64 : 96));
+    }).join('');
+  }
+</script>
