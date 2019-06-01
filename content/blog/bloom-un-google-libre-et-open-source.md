@@ -22,8 +22,8 @@ lang = "fr"
 
 ## TL;DR
 
-Pour faire face aux défis universels et inédits de notre siècle, nous avons créé une alternative gratuite,
-libre et open source à Google (et sans publicité ni ciblage) : Bloom.
+Pour faire face aux défis universels et inédits de notre siècle, nous avons créé un "Google"
+libre et open source (et sans publicité ni ciblage) : Bloom.
 C'est par [ici pour la version en ligne](https://bloom.sh), par [ici pour l'application Android](https://play.google.com/store/apps/details?id=com.bloom42.bloomx), par [ici pour le code](https://gitlab.com/bloom42)
 et par [ici pour  contribuer](#contribuer). Ce n'est que le début d'une grande aventure 🚀
 
@@ -51,9 +51,7 @@ La crise écologique est la plus importante car elle englobe beaucoup de problè
 le réchauffement planétaire, l'extinction d'espèces animales, les exodes climatiques, la pollution des sols et des réserves aqueuses,
 les maladies respiratoires, le 7e continent de plastique...
 
-Notre surconsommation entraîne la destruction de notre habitat et nous met en danger.
-
-Le constat est alarmant, l'immobilisme encore plus.
+Notre surconsommation entraîne la destruction de notre habitat et nous met en danger. Le constat est alarmant, l'immobilisme encore plus.
 <!--
 A-t-on besoin d'utiliser une voiture de 900kg pour faire 2h de trajet journalier pour finalement
 travailler toute la journée derrière un ordinateur ? La question est bien sûr rhétorique, la réponse est non. -->
@@ -101,13 +99,15 @@ Moins de nécessité de production = moins de travail = encore plus de chômage 
 La question est donc la suivante : **Comment améliorer le niveau de vie
 universel sans continuer à accélérer notre autodestruction ?**
 
+Continuer à mutualiser les coûts et privatiser les bénéfices est fondamentalement incompatible avec le <a href="https://fr.wikipedia.org/wiki/Du_contrat_social" target="_blank" rel="noopener">contrat social</a> (printemps arabe, Brexit, gilets jaunes...).
 
-Le printemps arabe, le Brexit, les gilets jaunes, les populations dont la qualité de vie ne bénéficie pas des richesses qu'elles
-produisent remettent en cause le <a href="https://fr.wikipedia.org/wiki/Du_contrat_social" target="_blank" rel="noopener">contrat social</a>.
-Il est impératif de rapidement trouver un nouveau <!--  système, un -->système où tout le monde trouve son compte, pour faire face ensemble à la
-crise écologique qui nous affecte tous.
 
-**Continuer à mutualiser les coûts et privatiser les bénéfices est fondamentalement incompatible avec notre organisation en sociétés.**
+<!-- Le printemps arabe, le Brexit, les gilets jaunes, les populations dont la qualité de vie ne bénéficie pas des richesses qu'elles
+produisent remettent en cause le .
+Il est impératif de rapidement trouver un nouveau <!--  système, un système où tout le monde trouve son compte, pour faire face ensemble à la
+crise écologique qui nous affecte tous. -->
+
+<!-- **Continuer à mutualiser les coûts et privatiser les bénéfices est fondamentalement incompatible avec notre organisation en sociétés.** -->
 
 <!-- Étonnamment, peu de personnes semblent décidées à trouver des solutions concrètes à ces problèmes. -->
 
@@ -170,36 +170,38 @@ La solution ? Un enfant de 4 ans la trouverait sans problème : le **partage**.
 
 À l'heure du numérique où la copie et la diffusion d'un document digital ne coûte virtuellement rien
 et que des
-aberrations effarantes sont déjà en place
+aberrations sont déjà en place
 ([taxe pour copie privée](https://fr.wikipedia.org/wiki/R%C3%A9mun%C3%A9ration_pour_copie_priv%C3%A9e),
 les dérives des ayants droits sur les plateformes de partage de contenu,
 [les dérives des journaux scientifiques](https://www.youtube.com/watch?v=WnxqoP-c0ZE),
 les [copyright trolls](https://en.wikipedia.org/wiki/Copyright_troll)...),
 la volonté de renforcer le droit de la propriété intellectuelle dont les externalités négatives ne sont jamais mentionnées, est cupide et criminel. Car oui, les brevets sur les médicaments ou les semences tuent.
 
-**Toute cette bureaucratie n'est bien sûr pas la bienvenue alors que l'humanité fait face à des problèmes majeurs.**
+**Toute cette bureaucratie n'est bien sûr pas la bienvenue alors que l'humanité fait face à des crises majeures.**
 
 
-La naissance de l'open source / data / access... vient de personnes qui rejettent les dérives du *Copyright* et qui ne cherchent pas à maximiser leur
+<!-- La naissance de l'open source / data / access... vient de personnes qui rejettent les dérives du *Copyright* et qui ne cherchent pas à maximiser leur
 profit personnel, mais qui ont compris que mettre à disposition gratuitement et librement les fruits de leur labeur (ou passion)
-ne leur bénéficie pas seulement à elles, mais aussi à la société, à l'humanité entière.
+ne leur bénéficie pas seulement à elles, mais aussi à la société, à l'humanité entière. -->
 
 
 ### Open source
 
 [Open source](https://fr.wikipedia.org/wiki/Open_source) : *La désignation open source, ou « code source ouvert », s'applique aux logiciels (et s'étend maintenant aux œuvres de l'esprit) dont la licence respecte des critères précisément établis par l'Open Source Initiative, c'est-à-dire les possibilités de libre redistribution, d'accès au code source et de création de travaux dérivés. Mis à la disposition du grand public, ce code source est généralement le résultat d'une collaboration entre programmeurs.*
 
-L'exemple le plus connu d'open source est [Linux](https://fr.wikipedia.org/wiki/Linux), un système d'exploitation
+L'exemple le plus connu d'open source est [GNU/Linux](https://fr.wikipedia.org/wiki/Linux), un système d'exploitation
 libre et gratuit qui est utilisé par la majorité des [serveurs](https://fr.wikipedia.org/wiki/Serveur_informatique)
-et [des téléphones](https://www.android.com) aujourd'hui. Que votre téléphone repose sur Android ou IOS, il contient forcément
+et [des téléphones](https://www.android.com) aujourd'hui.
+
+<!-- Que votre téléphone repose sur Android ou IOS, il contient forcément
 des logiciels open source en plus ou moins grande quantité. Il en va de même pour votre *box* internet, ou encore
-n'importe quel site web que vous pouvez consulter.
+n'importe quel site web que vous pouvez consulter. -->
 
 
 #### Intérêts composés
 
 Quand Bob travaille sur un projet propriétaire, les fruits de son travail bénéficient
-à son employeur et dans une moindre mesure à ses clients. Le jour où il change d'emploi, il perd tout le travail effectué
+à son employeur et dans une moindre mesure aux clients de ce dernier. Le jour où il change d'emploi, il perd tout le travail effectué
 précédemment.
 
 Quand Alice contribue ou travaille sur un projet open source, le fruit de son travail lui bénéficie à elle, aux
@@ -216,26 +218,28 @@ sur le travail effectué par d'autres pour y ajouter ce qu'elle estime être de 
 #### Organisations distribuées
 
 Les nouvelles technologies de communication (chat, visioconférence...) permettent aujourd'hui à des organisations et entreprises
-de s'affranchir des bureaux classiques. Les membres n'ont plus besoin de tous se réunir sur un même lieu de travail pour finalement
-rester la journée derrière un écran. Le personnel n'a plus besoin d'être dans la même ville, le même pays voire le même continent.
+de s'affranchir des bureaux classiques. Le personnel n'a plus besoin d'être dans la même ville, le même pays voire le même continent.
 
-Bien sûr, cela pose des défis au niveau des interactions sociales, mais c'est un premier levier pour
+
+Cela pose de nouveaux défis au niveau des interactions sociales, mais c'est un premier levier pour
 réduire notre consommation énergétique à l'échelle planétaire.
+<!-- Les membres n'ont plus besoin de tous se réunir sur un même lieu de travail pour finalement
+rester la journée derrière un écran. -->
 
 
 #### Coopération mondiale
 
 Cette intersection des moyens de communication instantanée et de l'ouverture des outils de production permettent
 une coopération globale. Les utilisateurs peuvent contribuer, participer à la création des produits qu'ils utilisent.
-Ils ne sont plus simplement des consommateurs, mais acteurs, et ce sans barrière géographique.
+<!-- Ils ne sont plus simplement des consommateurs, mais acteurs, et ce sans barrière géographique. -->
 
 
 Entrer dans un modèle de coopération plutôt que de compétition est la seule solution pour limiter
 la surexploitation de notre environnement et donc limiter notre propre empoisonnement.
 
-**La coopération c'est avant tout un état d'esprit,
+<!-- **La coopération c'est avant tout un état d'esprit,
 celui de créer et de profiter ensemble, que nous soyons employé
-ou non.**
+ou non.** -->
 
 
 #### Résilience et durabilité
@@ -281,16 +285,18 @@ explosion, la donnée est le carburant des [algorithmes](https://fr.wikipedia.or
 <!-- C'est en récoltant beaucoup de données et en leur donnant du sens que nous pourrons avoir des véhicules
 autonomes et ainsi réduire drastiquement le nombre de morts sur les routes. -->
 C'est en récoltant beaucoup de données et en leur donnant du sens
-nous pouvons automatiser la détection de maladies. C'est grâce à la donnée que nous pouvons
-optimiser des flux logistiques ou énergétiques et ainsi réduire notre trop grande consommation.
+nous pouvons améliorer la détection de maladies, améliorer le recyclage, reduire notre consommation énergétique.
+
+<!-- C'est grâce à la donnée que nous pouvons
+optimiser des flux logistiques ou énergétiques et ainsi réduire notre trop grande consommation. -->
 
 
 Le problème c'est qu'aujourd'hui ces données, produites par tout le monde, deviennent la propriété de grandes
 entreprises (*les géants de la tech*), et sont utilisées entre autre pour [déstabiliser nos organisations politiques](https://fr.wikipedia.org/wiki/Cambridge_Analytica).
 
 
-Disposer des ces données en accès libre permettrait de multiplier la rapidité d'innovation dans les domaines
-de la robotique, de la médecine, des transports, de l'agriculture etc... mais surtout de grandement réduire les besoins en resource dans tous ces domaines.
+Disposer des ces données en accès libre permettrait de multiplier la rapidité et la qualité de l'innovation dans tous domaines.
+<!-- de la robotique, de la médecine, des transports, de l'agriculture etc... mais surtout de grandement réduire les besoins en resource dans tous ces domaines. -->
 
 À l'heure où nous déléguons de plus en plus notre mémoire et notre savoir à des entreprises qui les enferment dans des silos privés, nous n'avons
 absolument aucune garantie quant à leur avenir, tant au niveau de leur préservation qu'au niveau
@@ -315,8 +321,10 @@ Toutes ces mouvances d'ouverture apportent de fait de la transparence. L'informa
 N'importe qui, sans distinction aucune, peut s'en saisir, l'enrichir, lui donner du sens.
 
 Mais cette transparence vertueuse est surtout nécessaire, car si les vraies informations se propagent
-à la vitesse de la lumière, les fausses aussi (*fake news*). Aujourd'hui mises en avant car elles menacent la stabilité
-de nos sociétés, il existe 2 grandes directions pour restreindre leurs effets:
+à la vitesse de la lumière, les fausses aussi (*fake news*).
+<!-- Aujourd'hui mises en avant car elles menacent la stabilité
+de nos sociétés,  -->
+Il existe 2 grandes directions pour restreindre leurs effets :
 
 * La censure de masse
 * La transparence
@@ -327,8 +335,7 @@ D'un côté il est facile de comprendre pourquoi la censure de masse est néfast
 La première étape de la transparence est de rendre l'information publique. La seconde est de la rendre facile
 d'accès, facile à chercher, facile à réutiliser.
 
-Sans transparence, il n'y a pas de vie publique. Sans transparence, il n'y a pas de confiance possible.
-Sans transparence, il n'y a pas de société stable. La transparence
+Sans transparence, il n'y a pas de vie publique, pas de confiance possible, société stable. La transparence
 est le fondement même du contre-pouvoir.
 <!-- Sans transparence le *lobbying* ne doit être considéré que comme de la corruption. -->
 
@@ -357,9 +364,9 @@ Nous voulons briser la frontière entre entreprises et consommateurs.
 Notre mission ?
 **Faire de notre planète un meilleur endroit pour tout le monde grâce à des technologies ouvertes, par le peuple, pour le peuple.**
 
-C'est à nous de choisir aujourd'hui si nous voulons subir un monde où l'on doit travailler toujours plus pour entretenir et exacerber des inégalités déjà criantes,
+<!-- C'est à nous de choisir aujourd'hui si nous voulons subir un monde où l'on doit travailler toujours plus pour entretenir et exacerber des inégalités déjà criantes,
 ou si nous voulons d'un monde où les technologies sont au service du bien de tous. Cet avenir n'est pas encore
-écrit.
+écrit. -->
 
 Bloom propose aujourd'hui les services en ligne suivants :
 
@@ -390,7 +397,7 @@ et une symbiose parfaite des intérêts des développeurs et de ceux des utilisa
 
 Nous avons choisi la <a href="https://fr.wikipedia.org/wiki/Copyleft" target="_blank" rel="noopener">license virale</a>
 <a href="https://www.gnu.org/licenses/agpl-3.0.fr.html" target="_blank" rel="noopener">AGPL v3.0</a> pour la plupart de nos créations pour encourager d'autres personnes à contribuer en retour et
-à faire de même. **Pas d'*open core***, pas d'entourloupe.
+à faire de même. **Pas d'open core, pas d'entourloupe**.
 
 
 Concernant la gouvernance, la fédération est sur la feuille de route, mais nous devons d'abord trouver des solutions
@@ -415,9 +422,7 @@ C'est pourquoi nous sommes engagés à faciliter cette coopération mondiale et 
 
 La langue officielle de communication de Bloom est l'anglais.
 
-Un forum est disponible pour discuter des idées d'amélioration et demander de l'aide à la communauté : <a href="https://forum.bloom.sh" target="_blank" rel="noopener">forum.bloom.sh</a>
-
-Un chat Discord est disponible pour les communications plus informelles : <a href="https://discord.gg/HmDQDGv" target="_blank" rel="noopener">discord.gg/HmDQDGv</a>.
+Un forum est disponible pour discuter des idées d'amélioration et demander de l'aide à la communauté : <a href="https://forum.bloom.sh" target="_blank" rel="noopener">forum.bloom.sh</a>, ainsi qu'un chat Discord pour les communications plus informelles : <a href="https://discord.gg/HmDQDGv" target="_blank" rel="noopener">discord.gg/HmDQDGv</a>.
 
 
 Enfin, pour rester informé des dernières mises à jour suivez nous sur Twitter <a href="https://twitter.com/42bloom" target="_blank" rel="noopener">@42bloom</a> et sur Mastodon: <a href="https://mastodon.social/web/accounts/809003" target="_blank" rel="noopener">@z0mbie42@mastodon.social</a>.
@@ -455,9 +460,7 @@ Pour contribuer au design de Bloom cela se passe sur le repo [gitlab.com/bloom42
 
 #### En partageant
 
-Diffusez les idées, débattez avec votre entourage, partagez Bloom sur les réseaux sociaux !
-
-Nous ne sommes encore qu'au début de l'aventure et nous faire connaître nous aide ééénooormément !
+Diffusez les idées, débattez avec votre entourage, partagez Bloom sur les réseaux sociaux ! Nous ne sommes encore qu'au début de l'aventure et nous faire connaître nous aide ééénooormément !
 
 
 #### Financièrement
@@ -520,6 +523,7 @@ Ainsi qu'à :
 * Cécile Serrano
 * Josette Crastes
 * Étienne Théodore
+* Les "K" de Music'All
 
 pour la relecture,
 
