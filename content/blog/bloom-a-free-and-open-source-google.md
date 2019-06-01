@@ -33,7 +33,7 @@ and go [here to learn how to contribute](#contribute). This is just the beginnin
 ## Universal and unprecedented challenges (Why?)
 
 
-It's not news: the beggining of the 21st century is a
+It's not news: the beginning of the 21st century is a
 decisive turn in the history of humanity. If today culture doesn't have frontiers  (sport events, art...), the problems either. It is all together that we must respond to both short-term (social) and long-term (environmental) challenges.
 
 
@@ -61,7 +61,7 @@ Two futures show off:
 * Better distribution of wealth
 
 
-Consuming more and more - economies based on debt and growth - is obviously not compatible with the cological crisis.
+Consuming more and more - economies based on debt and growth - is obviously not compatible with the ecological crisis.
 
 Conversely, reducing the need for production = less work = even more unemployment and therefore less redistributed wealth.
 
@@ -75,7 +75,7 @@ Conversely, reducing the need for production = less work = even more unemploymen
 
 So THE question is: **How to improve the global standard of living without continuing to accelerate our self-destruction?**
 
-Continuing to mutualise cost and privatize profits is fundamentally incompatible with the <a href="https://en.wikipedia.org/wiki/The_Social_Contract" target="_blank" rel="noopener">social contract</a> (Arab spring, Brexit, Yellow vests...).
+Continuing to mutualize cost and privatize profits is fundamentally incompatible with the <a href="https://en.wikipedia.org/wiki/The_Social_Contract" target="_blank" rel="noopener">social contract</a> (Arab spring, Brexit, Yellow vests...).
 
 
 
@@ -141,7 +141,7 @@ Open source allows projects to survive not only the bankruptcy of a company, but
 
 #### A springboard for education
 
-Education shapes our societies. Imposing artificial limits (copyright , excessive prices, <a  href="https://en.wikipedia.org/wiki/Digital_rights_management" target="_blank" rel="noopener">DRM</a>...) is only the guarantee of a slow and painful death of the formers.
+Education shapes our societies. Imposing artificial limits (copyright , excessive prices, <a  href="https://en.wikipedia.org/wiki/Digital_rights_management" target="_blank" rel="noopener">DRM</a>...) is only the guarantee of a slow and painful death of them.
 
 Open source, on the other hand, benefits triply to education:
 
@@ -257,7 +257,7 @@ To stay informed of the latest updates follow us on Twitter <a href="https://twi
 
 #### Development
 
-Developement happens on: <a href="https://gitlab.com/bloom42" target="_blank" rel="noopener">gitlab.com/bloom42</a>.
+Development happens on: <a href="https://gitlab.com/bloom42" target="_blank" rel="noopener">gitlab.com/bloom42</a>.
 
 More information is available on our website <a href="https://bloom.sh/open-source" target="_blank" rel="noopener">bloom.sh/open-source</a>.
 
