@@ -452,7 +452,7 @@ de la robotique ou encore des blockchains, permet de multiplier les capacités d
 
 
 Il sera utilisé pour **tous** les projets de Bloom sauf impératif contraire
-(Typescript + Vue pour les applications web, Kotlin pour les applications Android, Swift pour les applications IOS...).
+(Typescript + VueJS pour les applications web, Kotlin pour les applications Android, Swift pour les applications IOS...).
 
 
 #### Design
