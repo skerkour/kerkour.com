@@ -1,7 +1,7 @@
 +++
 date = 2019-06-05T01:42:42
 draft = true
-title = "Bloom: un Google libre et Open Source"
+title = "Bloom: un Google libre et open source"
 tags = ["rust", "rustlang", "opensource", "google", "free software"]
 
 [extra]
