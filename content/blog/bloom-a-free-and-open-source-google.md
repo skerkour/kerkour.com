@@ -126,6 +126,16 @@ Entering a model of cooperation rather than competition is the only way to limit
 #### Resilience and sustainability
 
 
+<a href="https://nest.com/whats-happening" target="_blank" rel="noopener">What would happen if tomorrow Google lose economic interest in operating some of his service vital for your life?</a>
+
+<a href="https://techcrunch.com/2015/10/21/twitter-ceo-dorsey-apologizes-to-developers-says-he-wants-to-reset-relations" target="_blank" rel="noopener">What would happen if tomorrow Twitter went bankrupt and stop its services?</a>
+
+<a  href="https://theintercept.com/2016/05/02/whatsapp-used-by-100-million-brazilians-was-shut-down-nationwide-today-by-a-single-judge" target="_blank" rel="noopener">What would happen if tomorrow a tyrannical government block WhatsApp?</a>
+
+
+The financial crisis of 2008 has painfully reminded us that companies that we thought were untouchable can go bankrupt. But since <a href="https://en.wikipedia.org/wiki/Government_debt" target="_blank" rel="noopener">the global economic situation has not improved</a>.
+
+Open source allows projects to survive not only the bankruptcy of a company, but also to a cut of the Internet, or <a href="https://www.reuters.com/article/us-huawei-tech-alphabet-exclusive/exclusive-google-suspends-some-business-with-huawei-after-trump-blacklist-source-idUSKCN1SP0NB" target="_blank" rel="noopener">an economic war</a>.
 
 
 
