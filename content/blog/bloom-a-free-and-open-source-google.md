@@ -14,7 +14,7 @@ lang = "en"
 *We cannot solve our problems with the same thinking we used when we created them.*
 
 
-1. [Des défis universels et inédits (Why ?)](#des-defis-universels-et-inedits-pourquoi)
+1. [Universal and unprecedented challenges (Why ?)](#universal-and-unprecedented-challenges-why)
 2. [Open source, access, data... (How ?)](#open-source-access-data-how)
 3. [Bloom: The top-secret master plan (What ?)](#bloom-the-top-secret-master-plan-what)
 4. [In summary](#in-summary)
@@ -24,12 +24,49 @@ lang = "en"
 
 ## TL;DR
 
-I've made an open source google.
+To bring an answer to the universal and unprecedented challenges of our century, we created a free and open source 'Google' (without ads nor tracking) : Bloom.
+You can find the <a href="https://bloom.sh" target="_blank" rel="noopener">online website here</a>, the <a href="https://play.google.com/store/apps/details?id=com.bloom42.bloomx" target="_blank" rel="noopener">Android app here</a>
+and go [here to learn how to contribute](#contribute). It's just the beginning of a great adventure 🚀
 
 
-## Open source
-### Global collaboration
 
-## Why rust
+## Universal and unprecedented challenges (Why ?)
 
-## Google vs OS
+
+Here is a news that isn't: the beggining of the XXIe century is a
+decisive turn in human history. If culture hasn't frontiers today (sport events, art...), problems neither have. It's together that we need to bring answers to short term challenges (social) and those
+of the long term (environmental).
+
+
+### The ecological crisis
+
+The ecological crisis is the most important because it's composed of
+multiple underlying probles, whether it's access to drinking water,
+global warming, extinction of animal species, climate exoduses,
+lands pollution, respiratory diseases, 7th plastic continent...
+
+Out overconsumption precipitate the destruction of our habitat and
+put us in danger. The	assessment is alarming, the imobilism even more.
+
+
+### Social crisis
+
+One question obsess us: Why do we need to work still more to access
+a correct standard of living, when we see the global wealth produced?
+
+
+With taxes, work is today our only way to redistribute wealth. Due to technology, we need less and less human work to satisfy our **needs**.
+
+
+Two futures show off:
+
+* Consume still more
+* Better wealth redistribution
+
+
+
+<div class="center">
+  <img src="/posts/bloom-announcement/wealth_dsitribution.png" height="500"/>
+
+  Global wealth distribution. World economic forum.
+</div>

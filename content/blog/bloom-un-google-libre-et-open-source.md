@@ -24,8 +24,8 @@ lang = "fr"
 
 Pour faire face aux défis universels et inédits de notre siècle, nous avons créé un "Google"
 libre et open source (et sans publicité ni ciblage) : Bloom.
-C'est par <a href="https://bloom.sh" target="_blank" rel="noopener">ici pour la version en ligne</a>, <a href="https://play.google.com/store/apps/details?id=com.bloom42.bloomx" target="_blank" rel="noopener">par ici pour l'application Android</a>, <a href="https://gitlab.com/bloom42" target="_blank" rel="noopener">par ici pour le code</a>
-et par [ici pour  contribuer](#contribuer). Ce n'est que le début d'une grande aventure 🚀
+C'est par <a href="https://bloom.sh" target="_blank" rel="noopener">ici pour la version en ligne</a>, <a href="https://play.google.com/store/apps/details?id=com.bloom42.bloomx" target="_blank" rel="noopener">par ici pour l'application Android</a>, par <a href="https://gitlab.com/bloom42" target="_blank" rel="noopener">ici pour le code</a>
+et par [ici pour contribuer](#contribuer). Ce n'est que le début d'une grande aventure 🚀
 
 
 ## Des défis universels et inédits (Pourquoi ?)
@@ -72,7 +72,7 @@ Une question nous obsède : Comment se fait-il que nous devons travailler toujou
 <!-- l'intelligence artificielle, la technologie remet en cause jour après jour notre définition du mot *travail*. -->
 
 Avec l'impôt, le travail est aujourd'hui notre seul moyen de redistribution des richesses.
-La technologie fait qu'on nécessite de moins en moins de travail humain pour répondre à nos **besoins**.
+La technologie fait qu'on nécessite de moins en moins de travail humain pour satisfaire nos **besoins**.
 
 <!-- Moins de travail signifiant moins de revenu
 
@@ -84,11 +84,11 @@ rapidement car c'est pour bientôt, aujourd'hui il y aurait 1,4 *actif* pour 1 *
 Deux futurs se présentent alors :
 
 * Consommer toujours plus
-* Mieux redistribuer les richesses
+* Meilleure répartition des richesses
 
 Consommer toujours plus - sociétés basées sur la dette et la croissance - n'est évidemment pas compatible avec la crise écologique.
 
-Moins de nécessité de production = moins de travail = encore plus de chômage et donc moins de richesses distribuées.
+À l'inverse, la réduction de la nécessité de production = moins de travail = encore plus de chômage et donc moins de richesses redistribuées.
 
 <div class="center">
   <img src="/posts/bloom-announcement/wealth_dsitribution.png" height="500"/>
@@ -166,7 +166,7 @@ les volontés de renforcer le droit de la propriété intellectuelle dont les ex
 négaitves ne sont jamais, ne serait-ce que mentionnées, sont "au mieux" de la cupidité
 si ce n'est criminel. Oui, les brevets sur les médicaments ou les semences tuent. -->
 
-La solution ? Un enfant de 4 ans la trouverait sans problème : le **partage**.
+La solution ? Un enfant de 4 ans la trouverait sans problème : **le partage**.
 
 À l'heure du numérique où la copie et la diffusion d'un document digital ne coûte virtuellement rien
 et que des
