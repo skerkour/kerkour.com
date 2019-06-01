@@ -1,7 +1,7 @@
 +++
 date = 2019-06-05T01:42:42
 draft = true
-title = "Bloom: un Google libre et open source"
+title = "Bloom : un Google libre et open source"
 tags = ["rust", "rustlang", "opensource", "google", "free software"]
 
 [extra]
@@ -15,7 +15,7 @@ lang = "fr"
 
 1. [Des défis universels et inédits (Pourquoi ?)](#des-defis-universels-et-inedits-pourquoi)
 2. [Open source, access, data... (Comment ?)](#open-source-access-data-comment)
-3. [Bloom: le master plan top secret (Quoi ?)](#bloom-le-master-plan-top-secret-quoi)
+3. [Bloom : le master plan top secret (Quoi ?)](#bloom-le-master-plan-top-secret-quoi)
 4. [En résumé](#en-resume)
 
 -------
@@ -23,15 +23,15 @@ lang = "fr"
 ## TL;DR
 
 Pour faire face aux défis universels et inédits de notre siècle, nous avons créé une alternative gratuite,
-libre et open source à Google (et sans publicité ni ciblage): Bloom.
+libre et open source à Google (et sans publicité ni ciblage) : Bloom.
 C'est par [ici pour la version en ligne](https://bloom.sh), par [ici pour l'application Android](https://play.google.com/store/apps/details?id=com.bloom42.bloomx), par [ici pour le code](https://gitlab.com/bloom42)
 et par [ici pour  contribuer](#contribuer). Ce n'est que le début d'une grande aventure 🚀
 
 
 ## Des défis universels et inédits (Pourquoi ?)
 
-Voici une nouvelle qui n'en n'est pas une: le début du XXIe siècle est un tournant décisif dans
-l'histoire de l'humanité. Si aujourd'hui la culture n'a plus de frontière (évènements sportifs, art ...),
+Voici une nouvelle qui n'en n'est pas une : le début du XXIe siècle est un tournant décisif dans
+l'histoire de l'humanité. Si aujourd'hui la culture n'a plus de frontière (évènements sportifs, art...),
 les problèmes non plus. C'est tous ensemble que nous devons apporter des réponses à la fois aux défis du court terme (sociaux)
 et ceux du long terme (environnementaux).
 
@@ -62,9 +62,10 @@ travailler toute la journée derrière un ordinateur ? La question est bien sûr
 ### La crise sociale
 
 
-Deux questions m'obsèdent: Comment se fait-il que nous devons travailler toujours plus pour accéder
-à un niveau de vie convenable, quand on voit toutes les richesses produites dans le monde ? Comment se fait-il
-que ce ne soit pas l'objectif prioritaire de chaque pouvoir public ?
+Une question nous obsède : Comment se fait-il que nous devons travailler toujours plus pour accéder
+à un niveau de vie convenable, quand on voit toutes les richesses produites dans le monde ?
+<!-- Comment se fait-il -->
+<!-- que ce ne soit pas l'objectif prioritaire de chaque pouvoir public ? -->
 <!-- Ces richesses ne se cumulent-elles pas ? Si nous sommes organisés en sociétés, alors pourquoi les sociétés dans -->
 <!-- leurs ensembles ne profitent-t-elles pas des ces richesses ? -->
 <!-- Pourquoi ne travaillons nous simplement pas 2 mois par an ? ou 3 jours par semaine ? -->
@@ -82,12 +83,12 @@ Par exemple le système des retraites Français, en prenant en compte une popula
 faire quand le nombre *d'inactifs* sera supérieur au nombre *d'actifs* ? (il va falloir trouver une solution
 rapidement car c'est pour bientôt, aujourd'hui il y aurait 1,4 *actif* pour 1 *inactif*). -->
 
-Deux futurs se présentent alors:
+Deux futurs se présentent alors :
 
 * Consommer toujours plus
 * Mieux redistribuer les richesses
 
-Consommer toujours plus - sociétés basées sur la croissance - n'est évidemment pas compatible avec la crise écologique.
+Consommer toujours plus - sociétés basées sur la dette et la croissance - n'est évidemment pas compatible avec la crise écologique.
 
 Moins de nécessité de production = moins de travail = encore plus de chômage et donc moins de richesses distribuées.
 
@@ -97,18 +98,18 @@ Moins de nécessité de production = moins de travail = encore plus de chômage 
   Distribution des richesses. World economic forum.
 </div>
 
-La question est donc la suivante: **Comment mieux redistribuer les richesses de manière à améliorer le niveau de vie
-universel, sans continuer à accélérer notre autodestruction ?**
+La question est donc la suivante : **Comment améliorer le niveau de vie
+universel sans continuer à accélérer notre autodestruction ?**
 
 
 Le printemps arabe, le Brexit, les gilets jaunes, les populations dont la qualité de vie ne bénéficie pas des richesses qu'elles
 produisent remettent en cause le <a href="https://fr.wikipedia.org/wiki/Du_contrat_social" target="_blank" rel="noopener">contrat social</a>.
-Il est impératif de rapidement trouver un nouveau système, un système où tout le monde trouve son compte, pour faire face ensemble à la
+Il est impératif de rapidement trouver un nouveau <!--  système, un -->système où tout le monde trouve son compte, pour faire face ensemble à la
 crise écologique qui nous affecte tous.
 
 **Continuer à mutualiser les coûts et privatiser les bénéfices est fondamentalement incompatible avec notre organisation en sociétés.**
 
-Étonnamment, peu de personnes semblent décidées à trouver des solutions concrètes à ces problèmes.
+<!-- Étonnamment, peu de personnes semblent décidées à trouver des solutions concrètes à ces problèmes. -->
 
 <!-- Et c'est une bonne chose. -->
 <!-- À condition de ne pas voir un emploi comme un élément de réussite personnelle, de ne pas voir le chômage comme
@@ -152,7 +153,7 @@ d'antibiotiques aussi bien pour notre bétail que pour nous même fait peser un 
 -->
 
 
-## Open source, access, data ... (Comment ?)
+## Open source, access, data... (Comment ?)
 <!--
 A l'heure du numérique où la copie et la diffusion d'un document digital ne coûte virtuellement rien,
 les volontés de renforcer le droit de la propriété intellectuelle, alors que des
@@ -186,7 +187,7 @@ ne leur bénéficie pas seulement à elles, mais aussi à la société, à l'hum
 
 ### Open source
 
-[Open source](https://fr.wikipedia.org/wiki/Open_source): *La désignation open source, ou « code source ouvert », s'applique aux logiciels (et s'étend maintenant aux œuvres de l'esprit) dont la licence respecte des critères précisément établis par l'Open Source Initiative, c'est-à-dire les possibilités de libre redistribution, d'accès au code source et de création de travaux dérivés. Mis à la disposition du grand public, ce code source est généralement le résultat d'une collaboration entre programmeurs.*
+[Open source](https://fr.wikipedia.org/wiki/Open_source) : *La désignation open source, ou « code source ouvert », s'applique aux logiciels (et s'étend maintenant aux œuvres de l'esprit) dont la licence respecte des critères précisément établis par l'Open Source Initiative, c'est-à-dire les possibilités de libre redistribution, d'accès au code source et de création de travaux dérivés. Mis à la disposition du grand public, ce code source est généralement le résultat d'une collaboration entre programmeurs.*
 
 L'exemple le plus connu d'open source est [Linux](https://fr.wikipedia.org/wiki/Linux), un système d'exploitation
 libre et gratuit qui est utilisé par la majorité des [serveurs](https://fr.wikipedia.org/wiki/Serveur_informatique)
@@ -260,7 +261,7 @@ ils deviennent beaucoup plus résilients à des tentatives de censure. -->
 #### Un tremplin pour l'éducation
 
 L'éducation façonne nos sociétés. Lui imposer des limites artificielles (*Copyright*, prix excessifs,
-<a  href="https://fr.wikipedia.org/wiki/Gestion_des_droits_num%C3%A9riques" target="_blank" rel="noopener">DRM</a> ...)
+<a  href="https://fr.wikipedia.org/wiki/Gestion_des_droits_num%C3%A9riques" target="_blank" rel="noopener">DRM</a>...)
 n'est que la garantie d'une mort lente et douloureuse de celles-ci.
 
 L'Open source, quant à lui, profite triplement à l'éducation:
@@ -308,7 +309,7 @@ des chercheurs financés aussi bien par le secteur public que privé ([ce dernie
 Je recommande le livre [Open Acces de Peter Suber](http://ia601805.us.archive.org/17/items/9780262517638OpenAccess/9780262517638_Open_Access.pdf) pour approfondir le sujet.
 
 
-### Transparence: vertueuse mais surtout nécessaire
+### Transparence : vertueuse mais surtout nécessaire
 
 Toutes ces mouvances d'ouverture apportent de fait de la transparence. L'information devient accessible.
 N'importe qui, sans distinction aucune, peut s'en saisir, l'enrichir, lui donner du sens.
@@ -332,7 +333,7 @@ est le fondement même du contre-pouvoir.
 <!-- Sans transparence le *lobbying* ne doit être considéré que comme de la corruption. -->
 
 
-## Bloom: le master plan top secret (Quoi ?)
+## Bloom : le master plan top secret (Quoi ?)
 
 <!-- Nous croyons en un changement de paradigme,
 dans la manière dont nous consommons mais surtout dans la manière dont nous produisons, -->
@@ -360,7 +361,7 @@ C'est à nous de choisir aujourd'hui si nous voulons subir un monde où l'on doi
 ou si nous voulons d'un monde où les technologies sont au service du bien de tous. Cet avenir n'est pas encore
 écrit.
 
-Bloom propose aujourd'hui les services en ligne suivants:
+Bloom propose aujourd'hui les services en ligne suivants :
 
 * <a href="https://bloom.sh/drive" target="_blank" rel="noopener">Bloom Drive</a>: un espace de stockage
 * <a href="https://bloom.sh/platform/phaser" target="_blank" rel="noopener">Phaser</a>: un scanner de sécurité automatique pour sites webs
@@ -370,10 +371,10 @@ Bloom propose aujourd'hui les services en ligne suivants:
 * <a href="https://bloom.sh/contacts" target="_blank" rel="noopener">Bloom Contacts</a>: un gestionnaire de contacts
 * <a href="https://bloom.sh/notes" target="_blank" rel="noopener">Bloom Notes</a>: une application de prise de notes
 
-Une application Android est disponible:
+Une application Android est disponible :
 <a href="https://play.google.com/store/apps/details?id=com.bloom42.bloomx" target="_blank" rel="noopener">https://play.google.com/store/apps/details?id=com.bloom42.bloomx</a>
 
-Tous ces services offrent de tiers gratuits (ou sont entièrement gratuits) sans contrepartie (pas de ciblage, pas de publicité...),
+Tous ces services offrent des tiers gratuits (ou sont entièrement gratuits) sans contrepartie (pas de ciblage, pas de publicité...),
 et dont le code source est disponible librement sur [GitLab](https://gitlab.com/bloom42).
 
 Aujourd'hui orientés productivité nous contribuerons demain
@@ -381,7 +382,7 @@ Aujourd'hui orientés productivité nous contribuerons demain
 
 **Bloom est le Linux du XXIe siècle.**
 
-Bloom concilie le meilleur de la **religion Startuplaland**: *l'exécution radicale
+Bloom concilie le meilleur de la **religion Startuplaland** : *l'exécution radicale
 plutôt que la bureaucratie, la scalabilité, une expérience utilisateur sans faille, une culture forte pour le produit, un processus itératif*,
 et de l'**open source**: *un mode de développement qui a prouvé sa supériorité, une gouvernance ouverte
 et une symbiose parfaite des intérêts des développeurs et de ceux des utilisateurs.*
@@ -414,9 +415,9 @@ C'est pourquoi nous sommes engagés à faciliter cette coopération mondiale et 
 
 La langue officielle de communication de Bloom est l'anglais.
 
-Un forum est disponible pour discuter des idées d'amélioration et demander de l'aide à la communauté: <a href="https://forum.bloom.sh" target="_blank" rel="noopener">forum.bloom.sh</a>
+Un forum est disponible pour discuter des idées d'amélioration et demander de l'aide à la communauté : <a href="https://forum.bloom.sh" target="_blank" rel="noopener">forum.bloom.sh</a>
 
-Un chat Discord est disponible pour les communications plus informelles: <a href="https://discord.gg/HmDQDGv" target="_blank" rel="noopener">discord.gg/HmDQDGv</a>.
+Un chat Discord est disponible pour les communications plus informelles : <a href="https://discord.gg/HmDQDGv" target="_blank" rel="noopener">discord.gg/HmDQDGv</a>.
 
 
 Enfin, pour rester informé des dernières mises à jour suivez nous sur Twitter <a href="https://twitter.com/42bloom" target="_blank" rel="noopener">@42bloom</a> et sur Mastodon: <a href="https://mastodon.social/web/accounts/809003" target="_blank" rel="noopener">@z0mbie42@mastodon.social</a>.
@@ -431,7 +432,7 @@ Plus d'informations est disponible sur notre site [bloom.sh/open-source](https:/
 ##### Rust
 
 [Rust](https://www.rust-lang.org/) est le langage de programmation officiel de Bloom, pour une multitude de raisons, les principales
-étant:
+étant :
 
 * Un langage expressif et moderne
 * Un langage open-source et embrassant pleinement les valeurs de Bloom
@@ -464,26 +465,26 @@ Nous ne sommes encore qu'au début de l'aventure et nous faire connaître nous a
 Si vous n'avez pas le temps ou les compétences pour contribuer, mais que notre projet vous semble prometteur
 vous pouvez contribuer financièrement.
 
-Cet argent sera utilisé pour financer les personnes contribuant avec leur temps à un monde plus ouvert:
+Cet argent sera utilisé pour financer les personnes contribuant avec leur temps à un monde plus ouvert :
 
 * <s>En souscrivant à un abonnement sur <a href="https://bloom.sh" target="_blank" rel="noopener">bloom.sh</a></s> Ouverture des paiements dans 1 semaine.
 
 
-* En devenant *patron*:
+* En devenant *patron* :
 
 <a href="https://www.patreon.com/bloom42" target="_blank" rel="noopener">
   <img src="/imgs/become_a_patron_button.png" height="42"/>
 </a>
 
 
-* En faisant un don *Paypal*:
+* En faisant un don *Paypal* :
 
 <a href="https://paypal.me/z0mbie42" target="_blank" rel="noopener">
   <img src="/imgs/paypal_donate.gif" height="42"/>
 </a>
 
 
-* En faisant un don en crypto-monnaie:
+* En faisant un don en crypto-monnaie :
 
 **BTC**: `38QY24nHRkMxUFsEDobwJU2b5QzuSL39Yb`
 
@@ -493,7 +494,7 @@ Cet argent sera utilisé pour financer les personnes contribuant avec leur temps
 
 
 
-Un grand merci aux personnes ayant déjà contribué directement ou indirectement:
+Un grand merci aux personnes ayant déjà contribué directement ou indirectement :
 
 * Ma famille
 * Marina Da Silva
@@ -526,7 +527,7 @@ Et à tous les autres enthousiastes du partage sans qui cela n'aurait pas été 
 
 ## En résumé
 
-En résumé le master plan est le suivant:
+En résumé le master plan est le suivant :
 
 1. Créer des logiciels libres et faire payer l'hébergement, la sécurité des données hébergées et le support entreprise<br />
 2. Avec cet argent réduire les prix, libérer la donnée et l'accès à la connaissance scientifique<br />
@@ -546,7 +547,7 @@ En résumé le master plan est le suivant:
 
 Mais chuuut, c'est un secret 🤫
 
-Contact: <span id="email">Javascript is required to access email address</span>
+Contact : <span id="email">Javascript is required to access email address</span>
 
 -------
 
