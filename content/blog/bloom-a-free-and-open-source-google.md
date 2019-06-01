@@ -52,7 +52,7 @@ put us in danger. The	assessment is alarming, the imobilism even more.
 One question obsesses us: How is it that we have to work ever harder to reach a decent standard of living when we see all the wealth produced in the world?
 
 
-With taxes, work is today our only means of wealth redistribution . Technology is making less and less human work necessary to meet our **needs**.
+With taxes, work is today our only means of wealth redistribution. Technology is making less and less human work necessary to meet our **needs**.
 
 
 Two futures show off:
@@ -85,7 +85,7 @@ Continuing to mutualise cost and privatize profits is fundamentally incompatible
 The solution? Even a child of 4 years would find it without problem: sharing.
 
 
-In the digital age when the copying and distribution of a digital document costs virtually nothing and aberrations are already in place (<a href="https://en.wikipedia.org/wiki/Private_copying_levy" target="_blank" rel="noopener">private copying levy</a> , excesses of rights holders on content sharing platforms, <a href="https://www.youtube.com/watch?v=WnxqoP-c0ZE" target="_blank" rel="noopener">drifting of scientific journals</a>, copyright trolls ...), the desire to strengthen intellectual property laws whose negative externalities are never even mentioned, is greedy AND criminal. Yes, patents on drugs or seeds kill.
+In the digital age when the copying and distribution of a digital document costs virtually nothing and aberrations are already in place (<a href="https://en.wikipedia.org/wiki/Private_copying_levy" target="_blank" rel="noopener">private copying levy</a> , excesses of rights holders on content sharing platforms, <a href="https://www.youtube.com/watch?v=WnxqoP-c0ZE" target="_blank" rel="noopener">drifting of scientific journals</a>, copyright trolls...), the desire to strengthen intellectual property laws whose negative externalities are never even mentioned, is greedy AND criminal. Yes, patents on drugs or seeds kill.
 
 **All this bureaucracy is of course not welcome as humanity faces major crises.**
 
@@ -110,7 +110,7 @@ Thus the wealth produced is accumulated, rather than each actor of society waste
 
 #### Distributed organizations
 
-New communication technologies (chat, video-conferencing ...) are now enabling organizations and companies to break away from traditional offices. Staff no longer need to be in the same city, the same country or even the same continent.
+New communication technologies (chat, video-conferencing...) are now enabling organizations and companies to break away from traditional offices. Staff no longer need to be in the same city, the same country or even the same continent.
 
 This poses new challenges in terms of social interactions, but it is a first lever to reduce our <a href="https://en.wikipedia.org/wiki/Kaya_identity" target="_blank" rel="noopener"> global energy consumption</a>.
 
@@ -205,7 +205,7 @@ Without transparency, there is no public life, no trust, no stable society. Tran
 We believe in a world of sharing and cooperation rather than competition. That's why we created <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom</a>.
 
 
-Bloom is an organization that by using open source / access / data ..., redistributes freely its production on a large scale, relying on new technologies to do it cheaply at scale, rather than using them as an imperialist tool. Ethics rather than profit. We want to break the frontier between business and consumers.
+Bloom is an organization that by using open source / access / data..., redistributes freely its production on a large scale, relying on new technologies to do it cheaply at scale, rather than using them as an imperialist tool. Ethics rather than profit. We want to break the frontier between business and consumers.
 
 
 Our mission? Empowering the world with open technologies, by the people, for the people.
@@ -224,7 +224,7 @@ Our mission? Empowering the world with open technologies, by the people, for the
 An Android app is also available: <a href="https://play.google.com/store/apps/details?id=com.bloom42.bloomx" target="_blank" rel="noopener">https://play.google.com/store/apps/details?id=com.bloom42.bloomx</a>
 
 
-All these services have a free tier (or are completely free) for no counterpart (no targeting, no advertising ...), and whose source code is freely available on <a href="https://gitlab.com/bloom42" target="_blank" rel="noopener">GitLab</a>.
+All these services have a free tier (or are completely free) for no counterpart (no targeting, no advertising...), and whose source code is freely available on <a href="https://gitlab.com/bloom42" target="_blank" rel="noopener">GitLab</a>.
 
 Today productivity oriented we will contribute tomorrow to more diverse sectors such as agriculture, architecture, transport...
 
