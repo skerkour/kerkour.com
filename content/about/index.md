@@ -54,7 +54,7 @@ Source  code for this website is available on <a href="https://gitlab.com/z0mbie
   window.addEventListener("load", function(){
     var email = document.getElementById("email");
     if (email) {
-        email.innerHTML = rot13('<n uers="znvygb:flyinva@xrexbhe.pbz">flyinva@xrexbhe.pbz</n>');
+        email.innerHTML = rot13('<n uers="znvygb:flyinva@xrexbhe.se">flyinva@xrexbhe.se</n>');
     }
   });
   function rot13(s) {
