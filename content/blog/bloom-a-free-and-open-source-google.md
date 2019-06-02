@@ -82,10 +82,10 @@ Continuing to mutualize cost and privatize profits is fundamentally incompatible
 ## Open source, access, data... (How?)
 
 
-The solution? Even a child of 4 years would find it without problem: sharing.
+The solution? Even a child of 4 years would find it without problem: **sharing**.
 
 
-In the digital age when the copying and distribution of a digital document costs virtually nothing and aberrations are already in place (<a href="https://en.wikipedia.org/wiki/Private_copying_levy" target="_blank" rel="noopener">private copying levy</a> , excesses of rights holders on content sharing platforms, <a href="https://www.youtube.com/watch?v=WnxqoP-c0ZE" target="_blank" rel="noopener">drifting of scientific journals</a>, copyright trolls...), the desire to strengthen intellectual property laws whose negative externalities are never even mentioned, is greedy AND criminal. Yes, patents on drugs or seeds kill.
+In our digital age where copying and distributing a digital document costs virtually nothing and where aberrations are already in place (<a href="https://en.wikipedia.org/wiki/Private_copying_levy" target="_blank" rel="noopener">private copying levy</a> , excesses of rights holders on content sharing platforms, <a href="https://www.youtube.com/watch?v=WnxqoP-c0ZE" target="_blank" rel="noopener">drifting of scientific journals</a>, copyright trolls...), the desire to strengthen intellectual property laws whose negative externalities are never even mentioned, is greedy AND criminal. Yes, patents on drugs or seeds kill.
 
 **All this bureaucracy is of course not welcome as humanity faces major crises.**
 
