@@ -85,7 +85,7 @@ Continuing to mutualize cost and privatize profits is fundamentally incompatible
 The solution? Even a child of 4 years would find it without problem: **sharing**.
 
 
-In our digital age where copying and distributing a digital document costs virtually nothing and where aberrations are already in place (<a href="https://en.wikipedia.org/wiki/Private_copying_levy" target="_blank" rel="noopener">private copying levy</a> , excesses of rights holders on content sharing platforms, <a href="https://www.youtube.com/watch?v=WnxqoP-c0ZE" target="_blank" rel="noopener">drifting of scientific journals</a>, copyright trolls...), the desire to strengthen intellectual property laws whose negative externalities are never even mentioned, is greedy AND criminal. Yes, patents on drugs or seeds kill.
+In our digital age where copying and distributing a digital document costs virtually nothing and where aberrations are already in place (<a href="https://en.wikipedia.org/wiki/Private_copying_levy" target="_blank" rel="noopener">private copying levy</a>, excesses of rights holders on content sharing platforms, <a href="https://www.youtube.com/watch?v=WnxqoP-c0ZE" target="_blank" rel="noopener">drifting of scientific journals</a>, copyright trolls...), the desire to strengthen intellectual property laws whose negative externalities are never even mentioned, is greedy AND criminal. Yes, patents on drugs or seeds kill.
 
 **All this bureaucracy is of course not welcome as humanity faces major crises.**
 
@@ -141,7 +141,7 @@ Open source allows projects to survive not only the bankruptcy of a company, but
 
 #### A springboard for education
 
-Education shapes our societies. Imposing artificial limits (copyright , excessive prices, <a  href="https://en.wikipedia.org/wiki/Digital_rights_management" target="_blank" rel="noopener">DRM</a>...) is only the guarantee of a slow and painful death of them.
+Education shapes our societies. Imposing artificial limits (copyright, excessive prices, <a  href="https://en.wikipedia.org/wiki/Digital_rights_management" target="_blank" rel="noopener">DRM</a>...) is only the guarantee of a slow and painful death of them.
 
 Open source, on the other hand, benefits triply to education:
 
@@ -172,7 +172,7 @@ At a time when we are increasingly delegating our memory and knowledge to compan
 
 <a href="https://www.echosciences-grenoble.fr/articles/la-controverse-en-matiere-de-publication-des-articles-scientifiques" target="_blank" rel="noopener">The world of scientific publishing is rotten.</a>
 
-There is nothing more to say: everyone agrees on the interest for the common good to publish publicly and free the results of researchers funded by both the public and private sectors (<a href="https://www.service-public.fr/professionnels-entreprises/vosdroits/F23533" target="_blank" rel="noopener">the latter being anyway financed by our taxes</a>...).
+There is nothing more to say: everyone agrees on the interest for the common good to publish publicly and freely the results of researchers funded by both the public and private sectors (<a href="https://www.service-public.fr/professionnels-entreprises/vosdroits/F23533" target="_blank" rel="noopener">the latter being anyway financed by our taxes</a>...).
 
 I recommend <a href="http://ia601805.us.archive.org/17/items/9780262517638OpenAccess/9780262517638_Open_Access.pdf" target="_blank" rel="noopener">Peter Suber's book *Open Acces*</a> to deepen the subject.
 
@@ -205,10 +205,10 @@ Without transparency, there is no public life, no trust, no stable society. Tran
 We believe in a world of sharing and cooperation rather than competition. That's why we created <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom</a>.
 
 
-Bloom is an organization that by using open source / access / data..., redistributes freely its production on a large scale, relying on new technologies to do it cheaply at scale, rather than using them as an imperialist tool. Ethics rather than profit. We want to break the frontier between business and consumers.
+Bloom is an organization using open source / access / data..., to redistribute freely its production on a large scale, relying on new technologies to do it cheaply at scale, rather than using them as an imperialist tool. Ethics rather than profit. We want to break the frontier between businesses and consumers.
 
 
-Our mission? Empowering the world with open technologies, by the people, for the people.
+Our mission? **Empowering the world with open technologies, by the people, for the people**.
 
  Bloom today offers the following online services:
 
