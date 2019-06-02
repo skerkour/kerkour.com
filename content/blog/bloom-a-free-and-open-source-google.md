@@ -103,9 +103,9 @@ The best known example of open source is <a href="https://en.wikipedia.org/wiki/
 
 When Bob works on a proprietary project, the fruits of his work benefit his employer and to a lesser extent the clients of the latter. The day he changes job, he loses all the work done previously.
 
-When Alice contributes or works on an open source project, the fruit of her work benefits her, users of the open source project and the rest of the world who can use it for free, modify it, improve it. When Alice changes her job or leaves, the result of her previous work remains accessible to her, she can continue to benefit.
+When Alice contributes or works on an open source project, the fruits of her work benefits her, users of the open source project and the rest of the world who can use it for free, modify it, improve it. When Alice changes her job or leaves, the result of her previous work remains accessible to her, she can continue to benefit.
 
-Thus the wealth produced is accumulated, rather than each actor of society wastes resources to recreate them in his corner.
+Thus the wealth produced is accumulated, rather than each actor of society wastes resources to recreate it in his corner.
 
 
 #### Distributed organizations
