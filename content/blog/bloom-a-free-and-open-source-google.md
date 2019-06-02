@@ -249,15 +249,15 @@ We believe in a world where everyone can contribute, not just experts. **Where c
 Bloom's official language of communication is English.
 
 
-A forum is available to discuss improvement and seek help from the community: <a href="https://forum.bloom.sh" target="_blank" rel="noopener">forum.bloom.sh</a>, as well as a Discord chat for more informal communications: <a href="https://discord.gg/HmDQDGv" target="_blank" rel="noopener">discord.gg/HmDQDGv</a>.
+A forum is available to discuss improvements and seek help from the community: <a href="https://forum.bloom.sh" target="_blank" rel="noopener">forum.bloom.sh</a>, as well as a Discord chat for more informal communications: <a href="https://discord.gg/HmDQDGv" target="_blank" rel="noopener">discord.gg/HmDQDGv</a>.
 
 
-To stay informed of the latest updates follow us on Twitter <a href="https://twitter.com/42bloom" target="_blank" rel="noopener">@42bloom</a> and on Mastodon: <a href="https://mastodon.social/web/accounts/809003" target="_blank" rel="noopener">@z0mbie42@ mastodon.social</a>.
+To stay informed of the latest updates follow us on Twitter <a href="https://twitter.com/42bloom" target="_blank" rel="noopener">@42bloom</a> and on Mastodon: <a href="https://mastodon.social/web/accounts/809003" target="_blank" rel="noopener">@z0mbie42@mastodon.social</a>.
 
 
 #### Development
 
-Development happens on: <a href="https://gitlab.com/bloom42" target="_blank" rel="noopener">gitlab.com/bloom42</a>.
+Development happens here: <a href="https://gitlab.com/bloom42" target="_blank" rel="noopener">gitlab.com/bloom42</a>.
 
 More information is available on our website <a href="https://bloom.sh/open-source" target="_blank" rel="noopener">bloom.sh/open-source</a>.
 
@@ -269,7 +269,7 @@ More information is available on our website <a href="https://bloom.sh/open-sour
 
 
 * An expressive and modern language
-* An open-source language that fully embraces Bloom's values
+* An open-source language that fully embraces our values
 * A language that allows both high-level abstractions and low-level constructs, without * performance cost
 * All our services must be able to be self-hosted on a <a href="https://www.raspberrypi.org" target="_blank" rel="noopener">Raspberry pi</a>
 * Here again the compound interests come into play, being expert in a language capable of * both web services, robotics and blockchains, can multiply the creative capabilities

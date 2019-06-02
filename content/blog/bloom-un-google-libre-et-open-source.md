@@ -442,7 +442,7 @@ Plus d'informations est disponible sur notre site <a href="https://bloom.sh/open
 étant :
 
 * Un langage expressif et moderne
-* Un langage open-source et embrassant pleinement les valeurs de Bloom
+* Un langage open-source et embrassant pleinement nos valeurs
 * Un langage permettant à la fois des abstractions de haut niveau et des constructions de bas niveau, sans coût de performance
 * Tous nos services doivent pouvoir être auto-hébergés sur un <a href="https://www.raspberrypi.org" target="_blank" rel="noopener">Raspberry pi</a>
 * Là encore les intérêts composés entrent en jeux, être expert dans un langage capable à la fois de faire des services web,
