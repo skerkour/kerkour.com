@@ -215,7 +215,7 @@ Our mission? **Empowering the world with open technologies, by the people, for t
 * <a href="https://bloom.sh/drive" target="_blank" rel="noopener">Bloom Drive</a>: an online Drive
 * <a href="https://bloom.sh/platform/phaser" target="_blank" rel="noopener">Phaser</a>: an automatic security scanner for websites
 * <a href="https://bloom.sh/bitflow" target="_blank" rel="noopener">Bitflow</a>: a download manager, which allows you to download files directly into your *drive* (torrents, HTTP).
-* <a href="https://bloom.sh/music" target="_blank" rel="noopener">Bloom Music</a>: a music player that reads music directly from your *drive*
+* <a href="https://bloom.sh/music" target="_blank" rel="noopener">Bloom Music</a>: a music player that plays music directly from your *drive*
 * <a href="https://bloom.sh/gallery" target="_blank" rel="noopener">Bloom Gallery</a>: a gallery for your photos and videos
 * <a href="https://bloom.sh/contacts" target="_blank" rel="noopener">Bloom Contacts</a>: a contact manager
 * <a href="https://bloom.sh/notes" target="_blank" rel="noopener">Bloom Notes</a>: a note-taking app
@@ -236,7 +236,7 @@ Bloom conciliate the best of the **Startuplaland religion**: *radical execution 
 We chose the <a href="https://www.gnu.org/licenses/agpl-3.0.html" target="_blank" rel="noopener">AGPL v3.0 viral license</a> for most of our creations to encourage others to contribute back and to do the same. **No open core, no bullshit.**
 
 
-Regarding governance, federation is on the roadmap, but we must first find solutions to problems affecting existing systems (spam in the world of emails, legislative arbitrations in the world of Mastodon...).
+Regarding governance, federation is on the roadmap but we must first find solutions to problems affecting existing systems (spam in the world of emails, legislative arbitrations in the world of Mastodon...).
 
 
 ### Contribute
