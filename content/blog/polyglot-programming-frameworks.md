@@ -37,7 +37,7 @@ with a shared set of quality standards, abilities and performances.
 
 ## Astro
 
-[Logging is hard but unavoidable](https://kerkour.com/post/logging/) thus I think one of the opportunity
+[Logging is hard but unavoidable](blog/logging/) thus I think one of the opportunity
 for polyglot frameworks to shine is logging.
 
 This is why I started the [Astro](https://bloom.sh/open-source) framework, an universal logging framework.

@@ -7,19 +7,19 @@
 
 
 ####################################################################################################
-### kerkour.com
+### kerkour.fr
 ####################################################################################################
 
 
 [[redirects]]
   from = "https://distracted-agnesi-318c74.netlify.com/*"
-  to = "https://www.kerkour.com/:splat"
+  to = "https://www.kerkour.fr/:splat"
   status = 301
   force = true
 
 
 [[redirects]]
-  from = "https://kerkour.com/*"
-  to = "https://www.kerkour.com/:splat"
+  from = "https://kerkour.fr/*"
+  to = "https://www.kerkour.fr/:splat"
   status = 301
   force = true

@@ -47,7 +47,7 @@ If you like my work, you can help it level up:
 
 -----------------
 
-Source  code for this website is available on <a href="https://gitlab.com/z0mbie42/kerkour.com" target="_blank" rel="noopener">GitLab</a>.
+Source  code for this website is available on <a href="https://gitlab.com/z0mbie42/kerkour.fr" target="_blank" rel="noopener">GitLab</a>.
 
 
 <script type="text/javascript">
