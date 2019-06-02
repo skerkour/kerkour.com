@@ -16,7 +16,7 @@ lang = "en"
 
 1. [Universal and unprecedented challenges (Why?)](#universal-and-unprecedented-challenges-why)
 2. [Open source, access, data... (How?)](#open-source-access-data-how)
-3. [Bloom: The top-secret master plan (What?)](#bloom-the-top-secret-master-plan-what)
+3. [Bloom: the top-secret master plan (What?)](#bloom-the-top-secret-master-plan-what)
 4. [In summary](#in-summary)
 
 -------
@@ -24,7 +24,7 @@ lang = "en"
 
 ## TL;DR
 
-To bring an answer to the universal and unprecedented challenges of our century, we have created a free and open source 'Google' (and without advertising or targeting) : Bloom.
+To bring an answer to the universal and unprecedented challenges of our century, we have created a free and open source 'Google' (and without advertising or targeting): Bloom.
 You can find the <a href="https://bloom.sh" target="_blank" rel="noopener">online website here</a>, the <a href="https://play.google.com/store/apps/details?id=com.bloom42.bloomx" target="_blank" rel="noopener">Android app here</a>
 and go [here to learn how to contribute](#contribute). This is just the beginning of a great adventure 🚀
 
@@ -49,7 +49,7 @@ put us in danger. The	assessment is alarming, the imobilism even more.
 
 ### The social crisis
 
-One question obsesses us: How is it that we have to work ever harder to reach a decent standard of living when we see all the wealth produced in the world?
+One question obsesses us: Why do we have to work harder and harder to reach a decent standard of living, when we see all the wealth produced in the world?
 
 
 With taxes, work is today our only means of wealth redistribution. Technology is making less and less human work necessary to meet our **needs**.
@@ -377,7 +377,7 @@ Roadmap:
 
 But shhh, it's a secret 🤫
 
-Contact : <span id="email">Javascript is required to access email address</span>
+Contact: <span id="email">Javascript is required to access email address</span>
 
 
 --------------
