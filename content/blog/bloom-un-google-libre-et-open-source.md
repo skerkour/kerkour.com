@@ -174,8 +174,8 @@ aberrations sont déjà en place
 (<a href="https://fr.wikipedia.org/wiki/R%C3%A9mun%C3%A9ration_pour_copie_priv%C3%A9e" target="_blank" rel="noopener">taxe pour copie privée</a>,
 les dérives des ayants droits sur les plateformes de partage de contenu,
 <a href="https://www.youtube.com/watch?v=WnxqoP-c0ZE" target="_blank" rel="noopener">les dérives des journaux scientifiques</a>,
-les <a href="https://en.wikipedia.org/wiki/Copyright_troll" target="_blank" rel="noopener">copyright trolls</a>...),
-<a href="https://saveyourinternet.eu/" target="_blank" rel="noopener">la volonté de renforcer le droit de la propriété intellectuelle</a> dont les externalités négatives ne sont jamais mentionnées, est cupide ET criminel. Car oui, les brevets sur les médicaments ou les semences tuent.
+les <a href="https://en.wikipedia.org/wiki/Copyright_troll" target="_blank" rel="noopener">copyright trolls</a>...), la
+<a href="https://saveyourinternet.eu/" target="_blank" rel="noopener">volonté de renforcer le droit de la propriété intellectuelle</a> dont les externalités négatives ne sont jamais mentionnées, est cupide ET criminel. Car oui, les brevets sur les médicaments ou les semences tuent.
 
 **Toute cette bureaucratie n'est bien sûr pas la bienvenue alors que l'humanité fait face à des crises majeures.**
 
