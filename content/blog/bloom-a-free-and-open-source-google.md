@@ -213,7 +213,7 @@ We believe in a world of sharing and cooperation. That's why we created <a href=
 Bloom is an organization using open source / access / data..., to redistribute freely its production at scale, relying on new technologies to do it cheaply at scale, rather than using them as an imperialist tool. Ethics rather than profit. We want to break the frontier between businesses and consumers.
 
 
-Our mission? **Empowering the world with open technologies, by the people, for the people**.
+Our mission? **Empowering the world with open technologies**.
 
  Bloom today offers the following online services:
 
