@@ -75,7 +75,7 @@ Conversely, reducing the need for production = less work = even more unemploymen
 
 If the question of the last decades was: *How to produce more and more?*, today, THE question is: **How to improve the global standard of living without continuing to accelerate our self-destruction?**
 
-Continuing to mutualize cost and privatize profits is fundamentally incompatible with the <a href="https://en.wikipedia.org/wiki/The_Social_Contract" target="_blank" rel="noopener">social contract</a> (Arab spring, Brexit, Yellow vests...).
+Continuing to mutualize cost and privatize profits is fundamentally incompatible with the <a href="https://en.wikipedia.org/wiki/The_Social_Contract" target="_blank" rel="noopener">social contract</a> (Arab spring, Occupy Wall Street, Brexit, Yellow vests...).
 
 
 
@@ -85,7 +85,7 @@ Continuing to mutualize cost and privatize profits is fundamentally incompatible
 The solution? Even a child of 4 years would find it without problem: **sharing**.
 
 
-In our digital age where copying and distributing a digital document costs virtually nothing and where aberrations are already in place (<a href="https://en.wikipedia.org/wiki/Private_copying_levy" target="_blank" rel="noopener">private copying tax</a>, excesses of rights holders on content sharing platforms, <a href="https://www.youtube.com/watch?v=WnxqoP-c0ZE" target="_blank" rel="noopener">drifting of scientific journals</a>, copyright trolls...), the desire to strengthen intellectual property laws whose negative externalities are never even mentioned, is greedy AND criminal. Yes, patents on drugs or seeds kill.
+In our digital age where copying and distributing a digital document costs virtually nothing and where aberrations are already in place (<a href="https://en.wikipedia.org/wiki/Private_copying_levy" target="_blank" rel="noopener">private copying tax</a>, excesses of rights holders on content sharing platforms, <a href="https://www.youtube.com/watch?v=WnxqoP-c0ZE" target="_blank" rel="noopener">drifting of scientific journals</a>, copyright trolls...), <a href="https://saveyourinternet.eu/" target="_blank" rel="noopener">the desire to strengthen intellectual property laws</a> whose negative externalities are never even mentioned, is greedy AND criminal. Yes, patents on drugs or seeds kill.
 
 **All this bureaucracy is of course not welcome as humanity faces major crises.**
 
@@ -210,7 +210,7 @@ We believe in a world of sharing and cooperation. That's why we created <a href=
 </div>
 
 
-Bloom is an organization using open source / access / data..., to redistribute freely its production on a large scale, relying on new technologies to do it cheaply at scale, rather than using them as an imperialist tool. Ethics rather than profit. We want to break the frontier between businesses and consumers.
+Bloom is an organization using open source / access / data..., to redistribute freely its production at scale, relying on new technologies to do it cheaply at scale, rather than using them as an imperialist tool. Ethics rather than profit. We want to break the frontier between businesses and consumers.
 
 
 Our mission? **Empowering the world with open technologies, by the people, for the people**.
@@ -236,7 +236,7 @@ Today productivity oriented we will contribute tomorrow to more diverse sectors 
 **Bloom is the 21st century Linux.**
 
 
-Bloom conciliate the best of the **Startuplaland religion**: *radical execution rather than bureaucracy, scalability, flawless user experience, strong product culture, iterative process*, and **open source**: *a mode of development that has proven its superiority, open governance and a perfect symbiosis between the interests of developers and users'*.
+Bloom conciliate the best of the **Startuplaland religion**: *radical execution rather than bureaucracy, scalability, flawless user experience, strong product culture, iterative process*, and **open source**: *a mode of development that has proven its superiority, open governance, an unmatched durability and a perfect symbiosis between the interests of developers and users'*.
 
 We chose the <a href="https://www.gnu.org/licenses/agpl-3.0.html" target="_blank" rel="noopener">AGPL v3.0 viral license</a> for most of our creations to encourage others to contribute back and to do the same. **No open core, no bullshit.**
 

@@ -99,7 +99,7 @@ Consommer toujours plus - sociétés basées sur la dette et la croissance - n'e
 Si la question des dernières décennie était: *Comment produire toujours plus ?**, LA question aujourd'hui est : **Comment améliorer le niveau de vie
 universel sans continuer à accélérer notre autodestruction ?**
 
-Continuer à mutualiser les coûts et privatiser les bénéfices est fondamentalement incompatible avec le <a href="https://fr.wikipedia.org/wiki/Du_contrat_social" target="_blank" rel="noopener">contrat social</a> (printemps arabe, Brexit, gilets jaunes...).
+Continuer à mutualiser les coûts et privatiser les bénéfices est fondamentalement incompatible avec le <a href="https://fr.wikipedia.org/wiki/Du_contrat_social" target="_blank" rel="noopener">contrat social</a> (printemps arabe, les indignés, Brexit, gilets jaunes...).
 
 
 <!-- Le printemps arabe, le Brexit, les gilets jaunes, les populations dont la qualité de vie ne bénéficie pas des richesses qu'elles
@@ -175,7 +175,7 @@ aberrations sont déjà en place
 les dérives des ayants droits sur les plateformes de partage de contenu,
 <a href="https://www.youtube.com/watch?v=WnxqoP-c0ZE" target="_blank" rel="noopener">les dérives des journaux scientifiques</a>,
 les <a href="https://en.wikipedia.org/wiki/Copyright_troll" target="_blank" rel="noopener">copyright trolls</a>...),
-la volonté de renforcer le droit de la propriété intellectuelle dont les externalités négatives ne sont jamais mentionnées, est cupide ET criminel. Car oui, les brevets sur les médicaments ou les semences tuent.
+<a href="https://saveyourinternet.eu/" target="_blank" rel="noopener">la volonté de renforcer le droit de la propriété intellectuelle</a> dont les externalités négatives ne sont jamais mentionnées, est cupide ET criminel. Car oui, les brevets sur les médicaments ou les semences tuent.
 
 **Toute cette bureaucratie n'est bien sûr pas la bienvenue alors que l'humanité fait face à des crises majeures.**
 
@@ -398,7 +398,7 @@ Aujourd'hui orientés productivité nous contribuerons demain
 
 Bloom concilie le meilleur de la **religion Startuplaland** : *l'exécution radicale
 plutôt que la bureaucratie, la scalabilité, une expérience utilisateur sans faille, une culture forte pour le produit, un processus itératif*,
-et de l'**open source**: *un mode de développement qui a prouvé sa supériorité, une gouvernance ouverte
+et de l'**open source**: *un mode de développement qui a prouvé sa supériorité, une gouvernance ouverte, une durabilité inégalée
 et une symbiose parfaite des intérêts des développeurs et de ceux des utilisateurs.*
 
 
