@@ -206,7 +206,7 @@ We believe in a world of sharing and cooperation. That's why we created <a href=
 
 
 <div class="center">
-  <img src="/posts/bloom-announcement/og_image.png" height="400"/>
+  <img src="/posts/bloom-announcement/blog.png" height="400"/>
 </div>
 
 
