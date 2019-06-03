@@ -73,7 +73,7 @@ Conversely, reducing the need for production = less work = even more unemploymen
 </div>
 
 
-So THE question is: **How to improve the global standard of living without continuing to accelerate our self-destruction?**
+If the question of the last decades was: *How to produce more and more?*, today, THE question is: **How to improve the global standard of living without continuing to accelerate our self-destruction?**
 
 Continuing to mutualize cost and privatize profits is fundamentally incompatible with the <a href="https://en.wikipedia.org/wiki/The_Social_Contract" target="_blank" rel="noopener">social contract</a> (Arab spring, Brexit, Yellow vests...).
 
@@ -85,7 +85,7 @@ Continuing to mutualize cost and privatize profits is fundamentally incompatible
 The solution? Even a child of 4 years would find it without problem: **sharing**.
 
 
-In our digital age where copying and distributing a digital document costs virtually nothing and where aberrations are already in place (<a href="https://en.wikipedia.org/wiki/Private_copying_levy" target="_blank" rel="noopener">private copying levy</a>, excesses of rights holders on content sharing platforms, <a href="https://www.youtube.com/watch?v=WnxqoP-c0ZE" target="_blank" rel="noopener">drifting of scientific journals</a>, copyright trolls...), the desire to strengthen intellectual property laws whose negative externalities are never even mentioned, is greedy AND criminal. Yes, patents on drugs or seeds kill.
+In our digital age where copying and distributing a digital document costs virtually nothing and where aberrations are already in place (<a href="https://en.wikipedia.org/wiki/Private_copying_levy" target="_blank" rel="noopener">private copying tax</a>, excesses of rights holders on content sharing platforms, <a href="https://www.youtube.com/watch?v=WnxqoP-c0ZE" target="_blank" rel="noopener">drifting of scientific journals</a>, copyright trolls...), the desire to strengthen intellectual property laws whose negative externalities are never even mentioned, is greedy AND criminal. Yes, patents on drugs or seeds kill.
 
 **All this bureaucracy is of course not welcome as humanity faces major crises.**
 
