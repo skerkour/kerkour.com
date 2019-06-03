@@ -34,7 +34,7 @@ and go [here to learn how to contribute](#contribute). This is just the beginnin
 
 
 It's not news: the beginning of the 21st century is a
-decisive turn in the history of humanity. If today culture doesn't have frontiers  (sport events, art...), the problems either. It is all together that we must respond to both short-term (social) and long-term (environmental) challenges.
+decisive turn in the history of humanity. If today, culture doesn't have frontiers (sport events, art...), the problems either. It is all together that we must respond to both short-term (social) and long-term (environmental) challenges.
 
 
 ### The ecological crisis
