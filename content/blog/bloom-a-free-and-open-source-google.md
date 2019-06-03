@@ -52,12 +52,12 @@ put us in danger. The	assessment is alarming, the imobilism even more.
 One question obsesses us: Why do we have to work harder and harder to reach a decent standard of living, when we see all the wealth produced in the world?
 
 
-With taxes, work is today our only means of wealth redistribution. Technology is making less and less human work necessary to meet our **needs**.
+With taxes, work is today our only means of wealth redistribution. Technology is making human work less and less necessary to meet our **needs**.
 
 
 Two futures show off:
 
-*  Consume more and more
+* Consume more and more
 * Better distribution of wealth
 
 
