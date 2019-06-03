@@ -236,7 +236,7 @@ Today productivity oriented we will contribute tomorrow to more diverse sectors 
 **Bloom is the 21st century Linux.**
 
 
-Bloom conciliate the best of the **Startuplaland religion**: *radical execution rather than bureaucracy, scalability, flawless user experience, strong product culture, iterative process*, and **open source**: *a mode of development that has proven its superiority, open governance, an unmatched durability and a perfect symbiosis between the interests of developers and users*.
+Bloom conciliate the best of the **Startuplaland religion**: *radical execution rather than bureaucracy, scalability, flawless user experience, strong product culture, iterative process*, and **open source**: *a mode of development that has proven its superiority, open governance, an unmatched sustainability and a perfect symbiosis between the interests of developers and users*.
 
 We chose the <a href="https://www.gnu.org/licenses/agpl-3.0.html" target="_blank" rel="noopener">AGPL v3.0 viral license</a> for most of our creations to encourage others to contribute back and to do the same. **No open core, no bullshit.**
 
