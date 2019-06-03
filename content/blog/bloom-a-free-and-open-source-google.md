@@ -117,7 +117,7 @@ This poses new challenges in terms of social interactions, but it is a first lev
 
 #### Global cooperation
 
-This intersection of the means of instant communication and the opening of the production tools allow a global cooperation. Users can contribute, participate in the creation of the products they use.
+This intersection of the means of instant communication and the opening of the production tools allow global cooperation. Users can contribute, participate in the creation of the products they use.
 
 Entering a model of cooperation rather than competition is the only way to limit the overexploitation of our environment and thus limit our own poisoning.
 
@@ -126,16 +126,16 @@ Entering a model of cooperation rather than competition is the only way to limit
 #### Resilience and sustainability
 
 
-<a href="https://nest.com/whats-happening" target="_blank" rel="noopener">What would happen if tomorrow Google lose economic interest in operating some of his service vital for your life?</a>
+<a href="https://nest.com/whats-happening" target="_blank" rel="noopener">What would happen if tomorrow Google lose economic interest in operating some of his service which are vital for your life?</a>
 
 <a href="https://techcrunch.com/2015/10/21/twitter-ceo-dorsey-apologizes-to-developers-says-he-wants-to-reset-relations" target="_blank" rel="noopener">What would happen if tomorrow Twitter went bankrupt and stop its services?</a>
 
 <a  href="https://theintercept.com/2016/05/02/whatsapp-used-by-100-million-brazilians-was-shut-down-nationwide-today-by-a-single-judge" target="_blank" rel="noopener">What would happen if tomorrow a tyrannical government block WhatsApp?</a>
 
 
-The financial crisis of 2008 has painfully reminded us that companies that we thought were untouchable can go bankrupt. But since <a href="https://en.wikipedia.org/wiki/Government_debt" target="_blank" rel="noopener">the global economic situation has not improved</a>.
+The financial crisis of 2008 has painfully reminded us that companies that we thought were untouchable can go bankrupt. But since, <a href="https://en.wikipedia.org/wiki/Government_debt" target="_blank" rel="noopener">the global economic situation has not improved</a>.
 
-Open source allows projects to survive not only the bankruptcy of a company, but also to a cut of the Internet, or <a href="https://www.reuters.com/article/us-huawei-tech-alphabet-exclusive/exclusive-google-suspends-some-business-with-huawei-after-trump-blacklist-source-idUSKCN1SP0NB" target="_blank" rel="noopener">an economic war</a>.
+Open source allows projects to survive not only to the bankruptcy of a company, but also to a cut of the Internet, or <a href="https://www.reuters.com/article/us-huawei-tech-alphabet-exclusive/exclusive-google-suspends-some-business-with-huawei-after-trump-blacklist-source-idUSKCN1SP0NB" target="_blank" rel="noopener">an economic war</a>.
 
 
 
@@ -160,9 +160,9 @@ It is by collecting a lot of data and giving them meaning we can improve the det
 
 The problem is that today these data, produced by everyone, become the property of big companies (*the giants of tech*), and are used among other things to <a href="https://en.wikipedia.org/wiki/Cambridge_Analytica" target="_blank" rel="noopener">destabilize our political organizations</a>.
 
-Having these data open access would increase the speed and quality of innovation in all areas.
+Having these data in open access would increase the speed and quality of innovation in all areas.
 
-At a time when we are increasingly delegating our memory and knowledge to companies that enclose them in private silos, we have absolutely no guarantee about their future, both in terms of their preservation and their integrity.
+At a time when we are increasingly delegating our memory and knowledge to companies that enclose them in private silos, **we have absolutely no guarantee about their future, both in terms of their preservation and their integrity.**
 
 
 ### Open Access
@@ -192,7 +192,7 @@ There are 2 main directions to limit effects of the latter:
 * Transparency
 
 
-On the one hand, it is easy to understand why mass censorship is harmful, but on the other hand, transparency alone is not enough to put an end to false information. Above all, it provides contradictory and provable facts (unlike fake news).
+On one hand, it is easy to understand why mass censorship is harmful, but on the other hand, transparency alone is not enough to put an end to false information. Above all, it provides contradictory and provable facts (unlike fake news).
 
 The first step of transparency is to make the information public. The second is to make it easy to access, easy to search, easy to reuse.
 
@@ -210,12 +210,12 @@ We believe in a world of sharing and cooperation. That's why we created <a href=
 </div>
 
 
-Bloom is an organization using open source / access / data..., to redistribute freely its production at scale, relying on new technologies to do it cheaply at scale, rather than using them as an imperialist tool. Ethics rather than profit. We want to break the frontier between businesses and consumers.
+Bloom is an organization which use open source / access / data... to redistribute freely its production, relying on new technologies to do it cheaply at scale, rather than using them as an imperialist weapon. Ethics rather than profit. We want to break the frontier between businesses and consumers.
 
 
 Our mission? **Empowering the world with open technologies**.
 
- Bloom today offers the following online services:
+Bloom offers today the following online services:
 
 * <a href="https://bloom.sh/drive" target="_blank" rel="noopener">Bloom Drive</a>: an online Drive
 * <a href="https://bloom.sh/platform/phaser" target="_blank" rel="noopener">Phaser</a>: an automatic security scanner for websites
@@ -365,7 +365,7 @@ for proofreading,
 In summary the master plan is as follows:
 
 1. Build free software and charge for hosting, hosted data security and enterprise support
-2. With this money reduce prices, free data and access to scientific knowledge
+2. With this money reduce prices, free the data and the access to scientific knowledge
 3. With this money and this community create the open infrastructure to run these software and host this open data
 
 **Our mission?** Empowering the world with open technologies.
