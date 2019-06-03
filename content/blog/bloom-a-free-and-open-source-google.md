@@ -202,7 +202,12 @@ Without transparency, there is no public life, no trust, no stable society. Tran
 ## Bloom: the top-secret master plan (What?)
 
 
-We believe in a world of sharing and cooperation rather than competition. That's why we created <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom</a>.
+We believe in a world of sharing and cooperation. That's why we created <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom</a>.
+
+
+<div class="center">
+  <img src="/posts/bloom-announcement/og_image.png" height="400"/>
+</div>
 
 
 Bloom is an organization using open source / access / data..., to redistribute freely its production on a large scale, relying on new technologies to do it cheaply at scale, rather than using them as an imperialist tool. Ethics rather than profit. We want to break the frontier between businesses and consumers.

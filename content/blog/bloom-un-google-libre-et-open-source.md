@@ -344,10 +344,15 @@ est le fondement même du contre-pouvoir.
 
 ## Bloom : le master plan top secret (Quoi ?)
 
+
 <!-- Nous croyons en un changement de paradigme,
 dans la manière dont nous consommons mais surtout dans la manière dont nous produisons, -->
-**Nous croyons en un monde de partage et de coopération plutôt que de compétition**. C'est pourquoi nous avons créé
+**Nous croyons en un monde de partage et de coopération**. C'est pourquoi nous avons créé
 <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom</a>.
+
+<div class="center">
+  <img src="/posts/bloom-announcement/og_image.png" height="400"/>
+</div>
 
 <!-- <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom</a>
 se veut l'amorce d'un changement de paradigme, dans la manière dont nous consommons mais surtout dans
