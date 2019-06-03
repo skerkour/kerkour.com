@@ -369,7 +369,7 @@ Nous voulons briser la frontière entre entreprises et consommateurs.
 
 
 Notre mission ?
-**Faire de notre planète un meilleur endroit pour tout le monde grâce à des technologies ouvertes, par le peuple, pour le peuple.**
+**Faire de notre planète un meilleur endroit pour tout le monde grâce aux technologies ouvertes, par le peuple, pour le peuple.**
 
 <!-- C'est à nous de choisir aujourd'hui si nous voulons subir un monde où l'on doit travailler toujours plus pour entretenir et exacerber des inégalités déjà criantes,
 ou si nous voulons d'un monde où les technologies sont au service du bien de tous. Cet avenir n'est pas encore
@@ -544,7 +544,7 @@ En résumé le master plan est le suivant :
 2. Avec cet argent réduire les prix, libérer la donnée et l'accès à la connaissance scientifique<br />
 3. Avec cet argent et cette communauté créer l'infrastructure ouverte pour faire fonctionner ces logiciels et héberger ces données ouvertes
 
-**Notre mission ?** Faire de notre planète un meilleur endroit pour tout le monde grâce à des technologies ouvertes, par le peuple, pour le peuple.
+**Notre mission ?** Faire de notre planète un meilleur endroit pour tout le monde grâce aux technologies ouvertes, par le peuple, pour le peuple.
 
 **Nos valeurs ?** Coopération, Acuité, Transparence, Simplicité (**CATS** 🐱).
 
