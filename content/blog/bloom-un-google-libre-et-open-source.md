@@ -351,7 +351,7 @@ dans la manière dont nous consommons mais surtout dans la manière dont nous pr
 <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom</a>.
 
 <div class="center">
-  <img src="/posts/bloom-announcement/og_image.png" height="400"/>
+  <img src="/posts/bloom-announcement/blog.png" height="400"/>
 </div>
 
 <!-- <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom</a>
