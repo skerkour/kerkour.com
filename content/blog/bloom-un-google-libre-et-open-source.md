@@ -412,7 +412,7 @@ et une symbiose parfaite des intérêts des développeurs et de ceux des utilisa
 
 
 Nous avons choisi la <a href="https://fr.wikipedia.org/wiki/Copyleft" target="_blank" rel="noopener">license virale</a>
-<a href="https://www.gnu.org/licenses/agpl-3.0.fr.html" target="_blank" rel="noopener">AGPL v3.0</a> pour la plupart de nos créations pour encourager d'autres personnes à contribuer en retour et
+<a href="https://www.gnu.org/licenses/agpl-3.0.fr.html" target="_blank" rel="noopener">AGPL v3.0</a> pour la plupart de nos créations afin d'encourager d'autres personnes à contribuer en retour et
 à faire de même. **Pas d'open core, pas d'entourloupe**.
 
 
