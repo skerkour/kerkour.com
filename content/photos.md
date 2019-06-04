@@ -16,6 +16,16 @@ template = "readings.html"
   <img src="/imgs/photos/201711/7e4bd6675bdcaf8cad5bfba95f0b20e4.jpg">
 </a>
 
+
+
+<a href="#img6">
+  <img src="/imgs/photos/201801/b4af35c36e262af9361dbd65b5df3b56.jpg" class="thumbnail">
+</a>
+<a href="#" class="lightbox" id="img6">
+  <img src="/imgs/photos/201801/b4af35c36e262af9361dbd65b5df3b56.jpg">
+</a>
+
+
 <a href="#img2">
   <img src="/imgs/photos/201711/a0b789775436f38c646364a608911194.jpg" class="thumbnail">
 </a>
@@ -44,14 +54,6 @@ template = "readings.html"
 </a>
 <a href="#" class="lightbox" id="img5">
   <img src="/imgs/photos/201712/89b273c6f2dc80ab701ac6859caf94d9.jpg">
-</a>
-
-
-<a href="#img6">
-  <img src="/imgs/photos/201801/b4af35c36e262af9361dbd65b5df3b56.jpg" class="thumbnail">
-</a>
-<a href="#" class="lightbox" id="img6">
-  <img src="/imgs/photos/201801/b4af35c36e262af9361dbd65b5df3b56.jpg">
 </a>
 
 
