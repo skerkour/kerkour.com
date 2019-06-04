@@ -531,6 +531,7 @@ Ainsi qu'à :
 * Josette Crastes
 * Étienne Théodore
 * Les "K" de Music'All
+* Nabil Brizini
 
 pour la relecture,
 
