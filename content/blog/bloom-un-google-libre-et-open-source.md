@@ -96,7 +96,7 @@ Consommer toujours plus - sociétés basées sur la dette et la croissance - n'e
   Distribution des richesses. World economic forum.
 </div>
 
-Si la question des dernières décennie était: *Comment produire toujours plus ?**, LA question aujourd'hui est : **Comment améliorer le niveau de vie
+Si la question des dernières décennie était: *Comment produire toujours plus ?*, LA question aujourd'hui est : **Comment améliorer le niveau de vie
 universel sans continuer à accélérer notre autodestruction ?**
 
 Continuer à mutualiser les coûts et privatiser les bénéfices est fondamentalement incompatible avec le <a href="https://fr.wikipedia.org/wiki/Du_contrat_social" target="_blank" rel="noopener">contrat social</a> (printemps arabe, les indignés, Brexit, gilets jaunes...).
