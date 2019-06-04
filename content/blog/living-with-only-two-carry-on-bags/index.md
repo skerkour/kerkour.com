@@ -6,7 +6,7 @@ title = "Living with only two carry-on bags"
 lang = "en"
 +++
 
-During the fall of 2017 I leaved Paris, France to start a company (Phaser, which is now [Bloom](https://bloom.sh)) from
+During the fall of 2017 I left Paris, France to start a company (Phaser, which is now [Bloom](https://bloom.sh)) from
 anywhere in the world.
 
 Here is how I achieved to live with only 2 carry-on bags and be able to pack my stuff and move to the
