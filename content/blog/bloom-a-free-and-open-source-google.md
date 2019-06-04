@@ -215,13 +215,13 @@ Bloom is an organization which use open source / access / data... to redistribut
 Bloom is an organization which use open source / access / data... to redistribute freely its production, relying on new technologies to do it cheaply at scale, rather than using them as an imperialist weapon. Ethics rather than profit, even if the latter
 is not neglected to ensure the sustainability of the organization.
 
-The result of this mode of operation is also a considerably reduced ecological footprint since
+This new paradigm makes it possible to significantly reduce our global ecological footprint since
 the rest of the world does not have to waste resources and energy to reinvent
 what we (or others) have already developed.
 
 
 It is thus a virtuous circle that is formed, where cooperation breaks the frontiers between companies and consumers.
-Where production no longer rhymes with audo-destruction.
+Where production no longer rhymes with auto-destruction.
 
 
 Our mission? **Empowering the world with open technologies**.
@@ -368,7 +368,7 @@ As well as:
 * Yanaël Barbier
 * Nabil Brizini
 
-for proofreading,
+for proofreading (of the French version),
 
  And to all the other enthusiasts of sharing without whom it would not have been possible.
 
@@ -386,12 +386,15 @@ In summary the master plan is as follows:
 **Our values​​?** Cooperation, Acuity, Transparency, Simplicity (CATS 🐱).
 
 Roadmap:
+* 2018 - Failed to find our just cause, our mission
 * Q1 / Q2 2019 - <a href="https://bloom.sh" target="_blank" rel="noopener">Beta</a>
 * Q3 2019 - <a href="https://www.inkandswitch.com/local-first.html" target="_blank" rel="noopener">Offline first</a> + self-hosting
 * Q4 2019 - <a href="https://en.wikipedia.org/wiki/End-to-end_encryption" target="_blank" rel="noopener">End-to-end encryption</a> + teams
 * Q1 2020 - Add services
 * Q2 2020 - IOS Application + Data Portability
 * Q3 / Q4 2020 - Federation
+* ∞ Never stop challenging the *statu quo*
+
 
 But shhh, it's a secret 🤫
 

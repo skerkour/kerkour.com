@@ -368,13 +368,13 @@ coût plutôt que de les utiliser comme outil impérialiste. L'éthique plutôt 
 n'est pas négligé afin d'assurer la longévité de l'organisation.
 <!-- Nous voulons briser la frontière entre entreprises et consommateurs. -->
 
-Le résultat de ce mode de fonctionnement est également un impact écologique considérablement réduit puisque
+Ce nouveau paradgime permet de réduire considérablement notre impact écologique à l'échelle globale puisque
 le reste du monde n'a pas à gaspiller des ressources et de l'énergie pour réinventer
 ce que nous (ou d'autres) avons déjà développé.
 
 
 C'est ainsi un cercle vertueux qui se forme, où la coopération brise la frontière entre entreprises et consommateurs.
-Où production ne rime plus avec audto-destruction.
+Où production ne rime plus avec auto-destruction.
 
 
 Notre mission ?
@@ -561,12 +561,14 @@ En résumé le master plan est le suivant :
 **Nos valeurs ?** Coopération, Acuité, Transparence, Simplicité (**CATS** 🐱).
 
 **Chronologie :**
+* 2018 - Échec de trouver notre mission, notre vision
 * Q1/Q2 2019 - <a href="https://bloom.sh" target="_blank" rel="noopener">Beta</a>
 * Q3 2019 - <a href="https://www.inkandswitch.com/local-first.html" target="_blank" rel="noopener">Offline first</a> + auto-hébergement
 * Q4 2019 - <a href="https://fr.wikipedia.org/wiki/Chiffrement_de_bout_en_bout" target="_blank" rel="noopener">Chiffrement de bout en bout</a> + teams
 * Q1 2020 - Ajout de services
 * Q2 2020 - Application IOS + Portabilité des données
 * Q3/Q4 2020 - Fédération
+* ∞ Ne jamais arrêter de défier le *statu quo*
 
 Mais chuuut, c'est un secret 🤫
 
