@@ -561,7 +561,7 @@ En résumé le master plan est le suivant :
 **Nos valeurs ?** Coopération, Acuité, Transparence, Simplicité (**CATS** 🐱).
 
 **Chronologie :**
-* 2018 - Échec de trouver <a href="/blog/the-just-cause-and-the-infinite-game/" target="_blank" rel="noopener">notre mission, notre vision</a>
+* 2018 - Échec de trouver <a href="/blog/the-just-cause-and-the-infinite-game/" target="_blank" rel="noopener">LE *pourquoi ?*</a>
 * Q1/Q2 2019 - <a href="https://bloom.sh" target="_blank" rel="noopener">Beta</a>
 * Q3 2019 - <a href="https://www.inkandswitch.com/local-first.html" target="_blank" rel="noopener">Offline first</a> + auto-hébergement
 * Q4 2019 - <a href="https://fr.wikipedia.org/wiki/Chiffrement_de_bout_en_bout" target="_blank" rel="noopener">Chiffrement de bout en bout</a> + teams
