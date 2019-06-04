@@ -212,6 +212,17 @@ We believe in a world of sharing and cooperation. That's why we created <a href=
 
 Bloom is an organization which use open source / access / data... to redistribute freely its production, relying on new technologies to do it cheaply at scale, rather than using them as an imperialist weapon. Ethics rather than profit. We want to break the frontier between businesses and consumers.
 
+Bloom is an organization which use open source / access / data... to redistribute freely its production, relying on new technologies to do it cheaply at scale, rather than using them as an imperialist weapon. Ethics rather than profit, even if the latter
+is not neglected to ensure the sustainability of the organization.
+
+The result of this mode of operation is also a considerably reduced ecological footprint since
+the rest of the world does not have to waste resources and energy to reinvent
+what we (or others) have already developed.
+
+
+It is thus a virtuous circle that is formed, where cooperation breaks the frontiers between companies and consumers.
+Where production no longer rhymes with audo-destruction.
+
 
 Our mission? **Empowering the world with open technologies**.
 
@@ -303,7 +314,7 @@ If you do not have the time or skills to contribute, but our project seems promi
 This money will be used to finance people who contribute with their time to a more open world:
 
 
-* <s>By subscribing on <a href="https://bloom.sh" target="_blank" rel="noopener">bloom.sh</a></s> Opening of payments in 1 week.
+* <s>By subscribing on <a href="https://bloom.sh" target="_blank" rel="noopener">bloom.sh</a></s> Opening of subscriptions in 1 week.
 
 * By becoming *patron*:
 

@@ -364,8 +364,17 @@ resources finies, faisant fi des destructions et pollutions engendrées. -->
 
 Bloom est une organisation qui grâce à l'Open source/access/data..., redistribue gratuitement et librement
 sa production à large échelle, en s'appuyant sur les nouvelles technologies pour le faire à moindre
-coût plutôt que de les utiliser comme outil impérialiste. L'éthique plutôt que le profit.
-Nous voulons briser la frontière entre entreprises et consommateurs.
+coût plutôt que de les utiliser comme outil impérialiste. L'éthique plutôt que le profit, même si ce dernier
+n'est pas négligé afin d'assurer la longévité de l'organisation.
+<!-- Nous voulons briser la frontière entre entreprises et consommateurs. -->
+
+Le résultat de ce mode de fonctionnement est également un impact écologique considérablement réduit puisque
+le reste du monde n'a pas à gaspiller des ressources et de l'énergie pour réinventer
+ce que nous (ou d'autres) avons déjà développé.
+
+
+C'est ainsi un cercle vertueux qui se forme, où la coopération brise la frontière entre entreprises et consommateurs.
+Où production ne rime plus avec audto-destruction.
 
 
 Notre mission ?
@@ -477,7 +486,7 @@ vous pouvez contribuer financièrement.
 
 Cet argent sera utilisé pour financer les personnes contribuant avec leur temps à un monde plus ouvert :
 
-* <s>En souscrivant à un abonnement sur <a href="https://bloom.sh" target="_blank" rel="noopener">bloom.sh</a></s> Ouverture des paiements dans 1 semaine.
+* <s>En souscrivant à un abonnement sur <a href="https://bloom.sh" target="_blank" rel="noopener">bloom.sh</a></s> Ouverture des abonnements dans 1 semaine.
 
 
 * En devenant *patron* :
