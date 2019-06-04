@@ -368,7 +368,7 @@ As well as:
 * Yanaël Barbier
 * Nabil Brizini
 
-for proofreading (of the French version),
+for proofreading (of the [French version](/blog/bloom-un-google-libre-et-open-source)),
 
  And to all the other enthusiasts of sharing without whom it would not have been possible.
 
