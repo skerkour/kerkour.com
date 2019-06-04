@@ -286,7 +286,7 @@ More information is available on our website <a href="https://bloom.sh/open-sour
 
 * An expressive and modern language
 * An open-source language that fully embraces our values
-* A language that allows both high-level abstractions and low-level constructs, without * performance cost
+* A language that allows both high-level abstractions and low-level constructs, without performance cost
 * All our services must be able to be self-hosted on a <a href="https://www.raspberrypi.org" target="_blank" rel="noopener">Raspberry pi</a>
 * Here again the compound interests come into play, being expert in a language capable of * both web services, robotics and blockchains, can multiply the creative capabilities
 * <a href="https://insights.stackoverflow.com/survey/2019" target="_blank" rel="noopener">Developers love it <3</a>
@@ -386,7 +386,7 @@ In summary the master plan is as follows:
 **Our values​​?** Cooperation, Acuity, Transparency, Simplicity (CATS 🐱).
 
 Roadmap:
-* 2018 - Failed to find our <a href="/blog/the-just-cause-and-the-infinite-game/" target="_blank" rel="noopener">THE *why*</a>
+* 2018 - Failed to find our <a href="/blog/the-just-cause-and-the-infinite-game/" target="_blank" rel="noopener">THE *why?*</a>
 * Q1 / Q2 2019 - <a href="https://bloom.sh" target="_blank" rel="noopener">Beta</a>
 * Q3 2019 - <a href="https://www.inkandswitch.com/local-first.html" target="_blank" rel="noopener">Offline first</a> + self-hosting
 * Q4 2019 - <a href="https://en.wikipedia.org/wiki/End-to-end_encryption" target="_blank" rel="noopener">End-to-end encryption</a> + teams
