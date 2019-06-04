@@ -12,7 +12,7 @@ template = "about.html"
 </div>
 
 INTJ,
-I cut my teeth on rugby fields, boxing rings and MMA tatamis, then at <a href="https://www.42.fr" target="_blank" rel="noopener">42</a>.<br/>
+I cut my teeth on rugby fields, boxing rings and MMA tatamis, and then at <a href="https://www.42.fr" target="_blank" rel="noopener">42</a>.<br/>
 I'm now the creator of <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom: Open technologies</a>.
 
 I'm not a *new cool kid web tech entrepreneur*, I'm a **tireless troublemaker on a mission to empower the world with open technologies**.
