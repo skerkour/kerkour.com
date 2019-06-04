@@ -354,6 +354,7 @@ As well as:
 * Josette Crastes
 * Étienne Théodore
 * Music'All's 'Ks'
+* Yanaël Barbier
 * Nabil Brizini
 
 for proofreading,
