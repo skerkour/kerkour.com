@@ -2,7 +2,6 @@
 date = 2019-06-05T01:42:42+02:00
 title = "Bloom : un Google libre et open source"
 tags = ["rust", "rustlang", "opensource", "google", "free software"]
-draft = true
 
 [extra]
 lang = "fr"
