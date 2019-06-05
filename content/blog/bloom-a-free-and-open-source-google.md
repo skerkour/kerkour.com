@@ -298,7 +298,7 @@ It is (and will be) used for **all** Bloom projects unless otherwise required (T
 
 #### Design
 
-To contribute to Bloom's design, please follow this link: <a href="https://gitlab.com/z0mbie42/design" target="_blank" rel="noopener">gitlab.com/bloom42/design</a>.
+To contribute to Bloom's design, please follow this link: <a href="https://gitlab.com/bloom42/design" target="_blank" rel="noopener">gitlab.com/bloom42/design</a>.
 
 
 

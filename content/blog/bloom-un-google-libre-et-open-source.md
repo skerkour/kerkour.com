@@ -470,7 +470,7 @@ Il sera utilisé pour **tous** les projets de Bloom sauf impératif contraire
 
 #### Design
 
-Pour contribuer au design de Bloom cela se passe sur le repo <a href="https://gitlab.com/z0mbie42/design" target="_blank" rel="noopener">gitlab.com/bloom42/design</a>.
+Pour contribuer au design de Bloom cela se passe sur le repo <a href="https://gitlab.com/bloom42/design" target="_blank" rel="noopener">gitlab.com/bloom42/design</a>.
 
 
 #### En partageant
