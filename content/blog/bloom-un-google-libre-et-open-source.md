@@ -236,7 +236,7 @@ une coopération globale. Les utilisateurs peuvent contribuer, participer à la 
 <!-- Ils ne sont plus simplement des consommateurs, mais acteurs, et ce sans barrière géographique. -->
 
 
-Entrer dans un modèle de coopération plutôt que de compétition est la seule solution pour limiter
+Entrer dans un modèle de coopération est la seule solution pour limiter
 la surexploitation de notre environnement et donc limiter notre propre empoisonnement.
 
 <!-- **La coopération c'est avant tout un état d'esprit,

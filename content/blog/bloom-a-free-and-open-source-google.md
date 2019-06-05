@@ -118,7 +118,7 @@ This poses new challenges in terms of social interactions, but it is a first lev
 
 This intersection of the means of instant communication and the opening of the production tools allow global cooperation. Users can contribute, participate in the creation of the products they use.
 
-Entering a model of cooperation rather than competition is the only way to limit the overexploitation of our environment and thus limit our own poisoning.
+Entering a model of cooperation is the only way to limit the overexploitation of our environment and thus limit our own poisoning.
 
 
 
