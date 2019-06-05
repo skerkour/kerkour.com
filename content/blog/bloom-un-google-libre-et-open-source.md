@@ -22,7 +22,10 @@ lang = "fr"
 ## TL;DR
 
 Pour faire face aux défis universels et inédits de notre siècle, nous avons créé un "Google"
-libre et open source (et sans publicité ni ciblage) : Bloom.
+libre et open source (et sans publicité ni ciblage) : Bloom - aujourd'hui une suite d'applications de productivité,
+il y aura demain une application pour chacun de vos besoins quotidiens. Nous pensons que l'open source
+est la seule voie pour contruire un future durable.
+
 C'est par <a href="https://bloom.sh" target="_blank" rel="noopener">ici pour la version en ligne</a>, <a href="https://play.google.com/store/apps/details?id=com.bloom42.bloomx" target="_blank" rel="noopener">par ici pour l'application Android</a>, par <a href="https://gitlab.com/bloom42" target="_blank" rel="noopener">ici pour le code</a>
 et par [ici pour contribuer](#contribuer). Ce n'est que le début d'une grande aventure 🚀
 
