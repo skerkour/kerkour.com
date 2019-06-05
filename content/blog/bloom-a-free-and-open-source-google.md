@@ -25,7 +25,7 @@ lang = "en"
 ## TL;DR
 
 To bring an answer to the universal and unprecedented challenges of our century, we have created a free and open source 'Google' (and without advertising or targeting): Bloom - currently a suite of productivity apps, and later the only ecosystem you will need
-to meet your daily needs. We think that open source is the only way to build a sustainable future.
+to meet your daily needs. We believe that open source is the only way to build a sustainable future.
 
 You can find the <a href="https://bloom.sh" target="_blank" rel="noopener">online website here</a>, the <a href="https://play.google.com/store/apps/details?id=com.bloom42.bloomx" target="_blank" rel="noopener">Android app here</a>
 and go [here to learn how to contribute](#contribute). This is just the beginning of a great adventure 🚀
