@@ -212,7 +212,7 @@ We believe in a world of sharing and cooperation. That's why we created <a href=
 </div>
 
 
-Bloom is an organization which use open source / access / data... to redistribute freely its production, relying on new technologies to do it cheaply at scale, rather than using them as an imperialist weapon. We want to break the frontier between businesses and consumers.
+Bloom is an organization which use open source / access / data... to redistribute freely its production, relying on new technologies to do it cheaply at scale, rather than using them as an imperialist weapon.
 Ethics rather than profit, even if the latter
 is not neglected to ensure the sustainability of the organization.
 
