@@ -504,7 +504,7 @@ Cet argent sera utilisé pour financer les personnes contribuant avec leur temps
   <img src="/imgs/paypal_donate.gif" height="42"/>
 </a>
 
-
+<!--
 * En faisant un don en crypto-monnaie :
 
 **BTC**: `38QY24nHRkMxUFsEDobwJU2b5QzuSL39Yb`
@@ -512,7 +512,7 @@ Cet argent sera utilisé pour financer les personnes contribuant avec leur temps
 **ETH**: `0x5121FE2A1014C4d57FCD2E8C4134A179851aFe6F`
 
 **XMR**: `4GdoN7NCTi8a5gZug7PrwZNKjvHFmKeV11L6pNJPgj5QNEHsN6eeX3DaAQFwZ1ufD4LYCZKArktt113W7QjWvQ7CW7fRk3auob6QWFSgYJ`
-
+ -->
 
 
 Un grand merci aux personnes ayant déjà contribué directement ou indirectement :
