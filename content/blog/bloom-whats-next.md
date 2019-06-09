@@ -78,8 +78,8 @@ On a second time, an open source blacklist will be implemented for the <a href="
 It's not a question, but you are right.
 
 Providing the same services as internet giants (or NextCloud, or others...) is just a side effect
-of our mission: **Empowering the world with open technologies**. If tomorrow the world need open source tractors,
-we will build it.
+of our mission: **Empowering the world with open technologies**. If tomorrow the world need open source tractors
+or an open source electric bike, we will build it.
 
 We've dared the big G comparison because we have a plan to have the same impact on the world, nothing less.
 
