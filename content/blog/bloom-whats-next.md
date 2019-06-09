@@ -78,7 +78,7 @@ On a second time, an open source blacklist will be implemented for the <a href="
 It's not a question, but you are right.
 
 Providing the same services as internet giants (or NextCloud, or others...) is just a side effect
-of our mission: Empowering the world with open technologies. You can totally imagine having a Bloom open source tractor
+of our mission: **Empowering the world with open technologies**. You can totally imagine having a Bloom open source tractor
 in a few years, if we think the world need it.
 
 We've dared the big G comparison because we have a plan to have the same impact on the world, nothing less.
@@ -125,3 +125,6 @@ Weekly sprints will also be planned on Sunday afternoons.
 You can track the current (and next sprints) on the following page: <a href="https://gitlab.com/groups/bloom42/-/epics" target="_blank" rel="noopener">https://gitlab.com/groups/bloom42/-/epics</a>.
 
 The current sprint is the following one: <a href="https://gitlab.com/groups/bloom42/-/epics/5" target="_blank" rel="noopener">https://gitlab.com/groups/bloom42/-/epics/5</a>.
+
+
+At large, the <a href="/blog/bloom-a-free-and-open-source-google/#in-summary" target="_blank" rel="noopener">roadmap stay the same</a>.
