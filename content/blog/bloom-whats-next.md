@@ -1,7 +1,7 @@
 +++
 date = 2019-06-10T01:42:42+02:00
 title = "Bloom: What's next"
-tags = ["rust", "rustlang", "opensource", "google", "free software"]
+tags = ["rust", "rustlang", "opensource", "free software"]
 draft = true
 
 [extra]
@@ -29,20 +29,20 @@ Here is some clarifications about the <a href="/blog/bloom-a-free-and-open-sourc
 ## How can we be sure that the project won't shutdown in a few weeks?
 
 We currently are <a href="https://bloom.sh/about" target="_blank" rel="noopener">a team of 2</a>, with enough funds
-to eat for years.
+to eat for years. The goal is to grow quickly. To hit current monopolies hard and precisely.
 
 
-In a few weeks Billing will be released and thus the beginning of the enterprise offering: <a href="https://bloom.sh/platform/phaser" target="_blank" rel="noopener">Phaser - The cloud native security scanner</a> to handle Bloom's growth.
+In a few weeks Billing will be released and thus the beginning of the enterprise offering: <a href="https://bloom.sh/platform/phaser" target="_blank" rel="noopener">Phaser - The cloud native security scanner</a> to secure revenues to grow.
 
 Bloom is <a href="https://en.wikipedia.org/wiki/Gratis_versus_libre" target="_blank" rel="noopener">free as in speech, not as in beer</a>. As a reminder, here is the <a href="/blog/bloom-a-free-and-open-source-google/#in-summary" target="_blank" rel="noopener">business plan</a>.
 
 In parallel, we released Bloom's code because we sincerly think that open software/data/science... is an industrial revolution
 enabling global scale collaboration and thus we expect community contributions (wether it be code, bug report, design suggestions...).
 
-Coming from <a href="https://www.42.fr/" target="_blank" rel="noopener">42</a> and <a href="https://www.edhec.edu/en" target="_blank" rel="noopener">EDHEC</a>, we are relatively well connected and if we need to raise fund to accelerate our mission,
+Coming from <a href="https://www.42.fr/" target="_blank" rel="noopener">42</a> and <a href="https://www.edhec.edu/en" target="_blank" rel="noopener">EDHEC</a>, we are relatively well connected and if we need to raise capital to accelerate the pursuit of our mission,
 we will.
 
-Also we love ramen 😉.
+Also we love <a href="http://www.paulgraham.com/ramenprofitable.html" target="_blank" rel="noopener">ramen</a> 😉.
 
 
 ## What will you do if other companies use your work to hijack your revenues?
@@ -81,7 +81,7 @@ Providing the same services as internet giants (or NextCloud, or others...) is j
 of our mission: Empowering the world with open technologies. You can totally imagine having a Bloom open source tractor
 in a few years, if we think the world need it.
 
-We've dared the Google comparison because we have a plan to have the same impact on the world, nothing less.
+We've dared the big G comparison because we have a plan to have the same impact on the world, nothing less.
 
 <a href="/blog/the-just-cause-and-the-infinite-game" target="_blank" rel="noopener">We are playing the infinite game</a>.
 
@@ -91,14 +91,14 @@ We've dared the Google comparison because we have a plan to have the same impact
 Again, it's not a question, but no. We believe in **sharing**, it's totally different.
 
 
-## Did big G sue you for trademark infringement?
+<!-- ## Did big G sue you for trademark infringement?
 
-Not yet.
+Not yet. -->
 
 
 ## Are you crazy?
 
-Not clinically proven (yet).
+it's not clinically proven (yet).
 
 
 <hr />
@@ -107,22 +107,21 @@ Not clinically proven (yet).
 
 
 We will use GitLab awesome project management tools to coordinate.
+You can <a href="https://www.buggycoder.com/project-management-with-gitlab/" target="_blank" rel="noopener">read here more details</a>
+about the worflow.
 
-https://gitlab.com/bloom42.
+We will use the <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" target="_blank" rel="noopener">Git flow</a> (on the `dev` branch instead of `develop`) therefore **merge requests on master won't be accepted**.
+Contributors should merge requests to `dev`. All developement **must happen on `dev`**
 
-
-
-We work with 1 week sprints.
-
-
-https://www.atlassian.com/agile/scrum/sprints
-and will release every Sunday mornings, t oallow sunday afternoon to catch bugs and eventually rollback,
-and to plan next week sprints.
+All the project management happen on GitLab</a>.
 
 
+We work on 1 week sprints</a> basis.
+Releases will happen every Sunday mornings to allow Sunday afternoons to catch bugs and eventually rollback.
+Weekly sprints will also be planned on Sunday afternoons.
 
-You can find teh
 
-https://gitlab.com/groups/bloom42/-/epics
 
-and current's week sprint https://gitlab.com/groups/bloom42/-/epics/5
+You can track the current (and next sprints) on the following page: <a href="https://gitlab.com/groups/bloom42/-/epics" target="_blank" rel="noopener">https://gitlab.com/groups/bloom42/-/epics</a>.
+
+The current sprint is the following one: <a href="https://gitlab.com/groups/bloom42/-/epics/5" target="_blank" rel="noopener">https://gitlab.com/groups/bloom42/-/epics/5</a>.
