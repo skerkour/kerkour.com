@@ -57,9 +57,9 @@ In our vision, tomorrow's world is composed of a federation of Bloom providers, 
 (or <a href="https://matrix.org/blog/index" target="_blank" rel="noopener">matrix</a> or <a href="https://joinmastodon.org/" target="_blank" rel="noopener">Mastodon</a>).
 
 
-Bloom's and associated services marks and logos are trademarked.
+Also Bloom's and associated services marks and logos are trademarked.
 
-Also we have a lot of hacker friends in case somes try to not comply 🙃.
+And finally, we have a lot of hacker friends in case somes try to not comply 🙃.
 
 
 ## How will you handle copyright infringements on Bitflow or other services?
@@ -112,5 +112,16 @@ https://gitlab.com/bloom42.
 
 
 
-We work on 1 week sprints. https://www.atlassian.com/agile/scrum/sprints
-and will release on each Sunday.
+We work with 1 week sprints.
+
+
+https://www.atlassian.com/agile/scrum/sprints
+and will release every Sunday mornings.
+
+
+
+You can find teh
+
+https://gitlab.com/groups/bloom42/-/epics
+
+and current's week sprint https://gitlab.com/groups/bloom42/-/epics/5
