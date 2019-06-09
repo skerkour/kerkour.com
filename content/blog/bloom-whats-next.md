@@ -104,3 +104,13 @@ Not clinically proven (yet).
 <hr />
 
 # Next steps
+
+
+We will use GitLab awesome project management tools to coordinate.
+
+https://gitlab.com/bloom42.
+
+
+
+We work on 1 week sprints. https://www.atlassian.com/agile/scrum/sprints
+and will release on each Sunday.
