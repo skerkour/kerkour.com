@@ -9,7 +9,7 @@ lang = "en"
 +++
 
 
-Thank you very much for the support! It was pretty intense and rwe eally didn't expect such traction.
+Thank you very much for the support! It was pretty intense and we really didn't expect such traction.
 
 We sincerly apologize for the bugs and latencies: our systems were not scaled to handle the load
 (which in a sense is a good news 😊).
