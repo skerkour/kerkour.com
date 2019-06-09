@@ -106,6 +106,8 @@ It's not clinically proven (yet).
 # Next steps
 
 
+### Project management and contributions
+
 We will use GitLab awesome project management tools to coordinate.
 You can <a href="https://www.buggycoder.com/project-management-with-gitlab/" target="_blank" rel="noopener">read here more details</a>
 about the worflow.
@@ -121,6 +123,9 @@ Releases will happen every Sunday mornings to allow Sunday afternoons to catch b
 Weekly sprints will also be planned on Sunday afternoons.
 
 
+Forum et discord
+
+### Roadmap
 
 You can track the current (and next sprints) on the following page: <a href="https://gitlab.com/groups/bloom42/-/epics" target="_blank" rel="noopener">https://gitlab.com/groups/bloom42/-/epics</a>.
 
