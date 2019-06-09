@@ -14,7 +14,7 @@ Thank you very much for the support! It was pretty intense and rwe eally didn't 
 We sincerly apologize for the bugs and latencies: our systems were not scaled to handle the load
 (which in a sense is a good news 😊).
 
-Here is some clarifications about the launching blog post (manifesto) and what are the next steps.
+Here is some clarifications about the <a href="/blog/bloom-a-free-and-open-source-google/" target="_blank" rel="noopener">launching blog post (manifesto)</a> and what are the next steps.
 
 
 <div class="center">
