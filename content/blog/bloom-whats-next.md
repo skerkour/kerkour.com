@@ -116,7 +116,8 @@ We work with 1 week sprints.
 
 
 https://www.atlassian.com/agile/scrum/sprints
-and will release every Sunday mornings.
+and will release every Sunday mornings, t oallow sunday afternoon to catch bugs and eventually rollback,
+and to plan next week sprints.
 
 
 
