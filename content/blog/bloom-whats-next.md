@@ -28,8 +28,8 @@ Here is some clarifications about the <a href="/blog/bloom-a-free-and-open-sourc
 
 ## How can we be sure that the project won't shutdown in a few weeks?
 
-We currently are <a href="https://bloom.sh/about" target="_blank" rel="noopener">a team of 2</a>, with enough funds
-to eat for years. The goal is to grow quickly. To hit current monopolies hard and precisely.
+We currently are <a href="https://bloom.sh/about" target="_blank" rel="noopener">a team of 2</a> with enough funds
+to eat for years. The goal is to grow quickly to hit current monopolies hard and precisely.
 
 
 In a few weeks Billing will be released and thus the beginning of the enterprise offering: <a href="https://bloom.sh/platform/phaser" target="_blank" rel="noopener">Phaser - The cloud native security scanner</a> to secure revenues to grow.
@@ -37,7 +37,7 @@ In a few weeks Billing will be released and thus the beginning of the enterprise
 Bloom is <a href="https://en.wikipedia.org/wiki/Gratis_versus_libre" target="_blank" rel="noopener">free as in speech, not as in beer</a>. As a reminder, here is the <a href="/blog/bloom-a-free-and-open-source-google/#in-summary" target="_blank" rel="noopener">business plan</a>.
 
 In parallel, we released Bloom's code because we sincerly think that open software/data/science... is an industrial revolution
-enabling global scale collaboration and thus we expect community contributions (wether it be code, bug report, design suggestions...).
+enabling global scale collaboration and thus we expect community to contribute (wether it be code, bug report, design suggestions...).
 
 Coming from <a href="https://www.42.fr/" target="_blank" rel="noopener">42</a> and <a href="https://www.edhec.edu/en" target="_blank" rel="noopener">EDHEC</a>, we are relatively well connected and if we need to raise capital to accelerate the pursuit of our mission,
 we will.
@@ -78,8 +78,8 @@ On a second time, an open source blacklist will be implemented for the <a href="
 It's not a question, but you are right.
 
 Providing the same services as internet giants (or NextCloud, or others...) is just a side effect
-of our mission: **Empowering the world with open technologies**. You can totally imagine having a Bloom open source tractor
-in a few years, if we think the world need it.
+of our mission: **Empowering the world with open technologies**. If tomorrow the world need open source tractors,
+we will build it.
 
 We've dared the big G comparison because we have a plan to have the same impact on the world, nothing less.
 
@@ -98,7 +98,7 @@ Not yet. -->
 
 ## Are you crazy?
 
-it's not clinically proven (yet).
+It's not clinically proven (yet).
 
 
 <hr />
