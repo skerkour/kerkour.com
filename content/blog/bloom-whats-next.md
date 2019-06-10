@@ -81,7 +81,7 @@ It's not a question.
 
 Providing the same services as internet giants (or *NextCloud*, or others...) is just a side effect
 of our mission: **Empowering the world with open technologies**. If tomorrow the world need open source tractors
-or an open source electric bike, we will build it.
+or an open source 3D printed electric bike, we will build it.
 
 We've dared the big G comparison because we have a plan to have the same impact on the world, nothing less.
 **Big players have missed the free and open source software turn to build a sustainable future and use it
