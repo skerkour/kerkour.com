@@ -51,9 +51,7 @@ It would be fantastic!
 
 We believe that business models relying on donations to survive is not the right way to tackle current monopolies.
 
-Thanks to the <a href="https://www.gnu.org/licenses/agpl-3.0.en.html" target="_blank" rel="noopener">GNU Affero General Public License v3.0</a> we use, if some modifies our work they are bound by law to redistribute it under the same terms.
-
-Thus, they will be able to pay more people to work on Bloom's codebase and we enter the free software <a href="/blog/bloom-a-free-and-open-source-google/#open-source-access-data-how" target="_blank" rel="noopener">virtuous circle</a>.
+Thanks to the <a href="https://www.gnu.org/licenses/agpl-3.0.en.html" target="_blank" rel="noopener">GNU Affero General Public License v3.0</a> we use, if some modifies our work they are bound by law to redistribute it under the same terms. Thus, they will be able to pay more people to work on Bloom's codebase and we enter the free software <a href="/blog/bloom-a-free-and-open-source-google/#open-source-access-data-how" target="_blank" rel="noopener">virtuous circle</a>.
 
 In our vision, tomorrow's world is composed of a <a href="http://brucemacvarish.com/2012/08/26/twitter-federation/" target="_blank" rel="noopener">federation</a> of Bloom providers, like email providers today
 (or <a href="https://matrix.org/blog/index" target="_blank" rel="noopener">matrix</a> or <a href="https://joinmastodon.org/" target="_blank" rel="noopener">Mastodon</a>).
