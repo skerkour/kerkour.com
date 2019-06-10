@@ -2,7 +2,6 @@
 date = 2019-06-10T01:42:42+02:00
 title = "Bloom: What's next"
 tags = ["rust", "rustlang", "opensource", "free software"]
-draft = true
 
 [extra]
 lang = "en"
@@ -123,7 +122,7 @@ about the workflow.
 We will use the <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" target="_blank" rel="noopener">Git flow</a> (on the `dev` branch instead of `develop`), therefore **merge requests on master won't be accepted**.
 Contributors should create requests to merge to `dev`. All development **must happen on the `dev` branch**.
 
-All the project management happen on GitLab</a>.
+All the project management happens on GitLab</a>.
 
 
 We work on <a href="https://www.atlassian.com/agile/scrum/sprints" target="_blank" rel="noopener">1 week/sprint</a> basis.
@@ -139,7 +138,7 @@ The best places to report bugs are (in the following order):
 * On the <a href="https://forum.bloom.sh" target="_blank" rel="noopener">forum</a> (and we will open a ticket on GitLab for you).
 * On the Discord chat
 
-But it’s better to avoid the latter for bug reports, to not lost them.
+But it’s better to avoid the latter for bug reports, not to lose them.
 
 ### How to suggest features or improvements?
 
@@ -149,7 +148,7 @@ The best places to suggest features or improvements are (in the following order)
 * On <a href="https://gitlab.com/bloom42" target="_blank" rel="noopener">Gitlab on the respective projects</a>.
 * On the Discord chat
 
-But it’s better to avoid the latter for suggestions, to not lost them.
+But it’s better to avoid the latter for suggestions, not to lose them.
 
 ### Roadmap
 
@@ -158,4 +157,4 @@ You can track the current (and next sprints) on the following page: <a href="htt
 You can find this week's sprint here: <a href="https://gitlab.com/groups/bloom42/-/epics/5" target="_blank" rel="noopener">https://gitlab.com/groups/bloom42/-/epics/5</a>.
 
 
-At large, the <a href="/blog/bloom-a-free-and-open-source-google/#in-summary" target="_blank" rel="noopener">roadmap stay the same</a>.
+At large, the <a href="/blog/bloom-a-free-and-open-source-google/#in-summary" target="_blank" rel="noopener">roadmap stays the same</a>.
