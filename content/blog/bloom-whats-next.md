@@ -91,7 +91,7 @@ We will fix it.**
 <a href="/blog/the-just-cause-and-the-infinite-game" target="_blank" rel="noopener">We are playing the infinite game</a>.
 
 
-## You communist, you idiot.
+## You communist. You idiot.
 
 Again, it's not a question, but no. We believe in **sharing**, it's totally different.
 
