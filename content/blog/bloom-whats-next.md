@@ -63,14 +63,14 @@ In our vision, tomorrow's world is composed of a <a href="http://brucemacvarish.
 Also, we have a lot of hacker friends in case some try to trick the law 🙃.
 
 
-## How will you handle copyright infringements on Bitflow or other services?
+<!-- ## How will you handle copyright infringements on Bitflow or other services?
 
 Even if we do not 100% agree with current copyright laws, we will do our best to respect them.
 
 As mentioned in our terms, by using <a href="https://bloom.sh" target="_blank" rel="noopener">bloom.sh</a>,
 users must respect the law and we keep the right to ban bad actors.
 
-In a second step, a collaborative blacklist will be implemented for the <a href="https://bloom.sh/bitflow" target="_blank" rel="noopener">hosted version</a>.
+In a second step, a collaborative blacklist will be implemented for the <a href="https://bloom.sh/bitflow" target="_blank" rel="noopener">hosted version</a>. -->
 
 
 
