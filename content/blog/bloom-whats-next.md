@@ -75,9 +75,9 @@ In a second step, a collaborative blacklist will be implemented for the <a href=
 
 
 
-## You'll never reach big G level. You stupid.
+## You'll never reach big G feature parity. You stupid.
 
-It's not a question, but you are right.
+It's not a question, but you are (mostly) right.
 
 Providing the same services as internet giants (or *NextCloud*, or others...) is just a side effect
 of our mission: **Empowering the world with open technologies**. If tomorrow the world need open source tractors
