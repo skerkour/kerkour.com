@@ -97,7 +97,7 @@ We will fix it.**
 Again, it's not a question, but no. We believe in **sharing**, it's totally different.
 
 Our point is not that wealth should be equally distributed in the world. Our point is that extrem inequalities (and growing)
-can only create more and more social crises, which is really a bad idea to face the ecological crisis.
+can only create more and more social crises and it's really a bad idea while humanity is facing the ecological crisis.
 
 
 <!-- ## Did big G sue you for trademark infringement?
