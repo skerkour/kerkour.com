@@ -37,7 +37,7 @@ In a few weeks billing will be released and thus the beginning of the enterprise
 Bloom is <a href="https://en.wikipedia.org/wiki/Gratis_versus_libre" target="_blank" rel="noopener">free as in speech, not as in beer</a>. As a reminder, here is the <a href="/blog/bloom-a-free-and-open-source-google/#in-summary" target="_blank" rel="noopener">business plan</a>.
 
 In parallel, we released Bloom's code because we sincerely think that open software/data/science... is an industrial revolution
-enabling global scale collaboration and thus we expect community to contribute (whether it's code, bug reports, features suggestions...).
+enabling global scale collaboration and thus we expect community to contribute (whether it's code, bug reports, feature suggestions...).
 
 Coming from <a href="https://www.42.fr/" target="_blank" rel="noopener">42</a> and <a href="https://www.edhec.edu/en" target="_blank" rel="noopener">EDHEC</a>, we are relatively well connected and if we need to raise capital to accelerate the pursuit of <a href="/blog/bloom-a-free-and-open-source-google/#mission" target="_blank" rel="noopener">our mission</a>,
 we will.
@@ -51,7 +51,7 @@ It would be fantastic!
 
 We believe that business models relying on donations to survive is not the right way to tackle current monopolies.
 
-Thanks to the <a href="https://www.gnu.org/licenses/agpl-3.0.en.html" target="_blank" rel="noopener">GNU Affero General Public License v3.0</a> we use, if someone modifies our work they are bound by law to redistribute it under the same terms.
+Thanks to the <a href="https://www.gnu.org/licenses/agpl-3.0.en.html" target="_blank" rel="noopener">GNU Affero General Public License v3.0</a> we use, if some modifies our work they are bound by law to redistribute it under the same terms.
 
 Thus, they will be able to pay more people to work on Bloom's codebase and we enter the free software <a href="/blog/bloom-a-free-and-open-source-google/#open-source-access-data-how" target="_blank" rel="noopener">virtuous circle</a>.
 
@@ -84,8 +84,7 @@ of our mission: **Empowering the world with open technologies**. If tomorrow the
 or an open source electric bike, we will build it.
 
 We've dared the big G comparison because we have a plan to have the same impact on the world, nothing less.
-
-**Big players have missed the free and open source software turn to build a sustainable future, and use it
+**Big players have missed the free and open source software turn to build a sustainable future and use it
 as a <a href="https://www.joelonsoftware.com/2002/06/12/strategy-letter-v/" target="_blank" rel="noopener">strategic asset</a>.
 We will fix it.**
 
@@ -97,7 +96,7 @@ We will fix it.**
 Again, it's not a question, but no. We believe in **sharing**, it's totally different.
 
 Our point is not that wealth should be equally distributed in the world. Our point is that extreme inequalities (and growing)
-can only create more and more social crises and it's really a bad idea while humanity is facing the ecological crisis.
+can only create more and more social crises and it's really a very **very** bad idea while humanity is facing the ecological crisis.
 
 
 <!-- ## Did big G sue you for trademark infringement?
