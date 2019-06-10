@@ -120,8 +120,8 @@ We will use GitLab's awesome project management tools to coordinate.
 You can <a href="https://www.buggycoder.com/project-management-with-gitlab/" target="_blank" rel="noopener">read here more details</a>
 about the workflow.
 
-We will use the <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" target="_blank" rel="noopener">Git flow</a> (on the `dev` branch instead of `develop`) therefore **merge requests on master won't be accepted**.
-Contributors should merge requests to `dev`. All development **must happen on the `dev` branch**.
+We will use the <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" target="_blank" rel="noopener">Git flow</a> (on the `dev` branch instead of `develop`), therefore **merge requests on master won't be accepted**.
+Contributors should create requests to merge to `dev`. All development **must happen on the `dev` branch**.
 
 All the project management happen on GitLab</a>.
 
@@ -143,7 +143,7 @@ But it’s better to avoid the latter for bug reports, to not lost them.
 
 ### How to suggest features or improvements?
 
-The best suggest features or improvements are (in the following order):
+The best places to suggest features or improvements are (in the following order):
 
 * On the <a href="https://forum.bloom.sh" target="_blank" rel="noopener">forum</a> (and we will open a ticket on GitLab for you).
 * On <a href="https://gitlab.com/bloom42" target="_blank" rel="noopener">Gitlab on the respective projects</a>.
