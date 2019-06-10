@@ -1,6 +1,6 @@
 +++
 date = 2019-06-10T01:42:42+02:00
-title = "Bloom: What's next"
+title = "Bloom: What's next?"
 tags = ["rust", "rustlang", "opensource", "free software"]
 
 [extra]
@@ -33,7 +33,7 @@ to eat for years. The goal is to grow quickly to **hit current monopolies hard a
 
 In a few weeks billing will be released and thus the beginning of the enterprise offering: <a href="https://bloom.sh/platform/phaser" target="_blank" rel="noopener">Phaser - The cloud native security scanner</a>, to secure revenues to scale.
 
-Bloom is <a href="https://en.wikipedia.org/wiki/Gratis_versus_libre" target="_blank" rel="noopener">free as in speech, not as in beer</a>. As a reminder, here is the <a href="/blog/bloom-a-free-and-open-source-google/#in-summary" target="_blank" rel="noopener">business plan</a>.
+Bloom is '<a href="https://en.wikipedia.org/wiki/Gratis_versus_libre" target="_blank" rel="noopener">free as in speech, not as in beer</a>'. As a reminder, here is the <a href="/blog/bloom-a-free-and-open-source-google/#in-summary" target="_blank" rel="noopener">business plan</a>.
 
 In parallel, we released Bloom's code because we sincerely think that open software/data/science... is an industrial revolution
 enabling global scale collaboration and thus we expect community to contribute (whether it's code, bug reports, feature suggestions...).
