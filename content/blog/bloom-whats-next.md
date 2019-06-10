@@ -9,12 +9,12 @@ lang = "en"
 +++
 
 
-Thank you very much for the support! It was pretty intense and we really didn't expect such traction.
+Thank you very much for the support! The past days were pretty intense and we really didn't expect such traction.
 
 We sincerly apologize for the bugs and latencies: our systems were not scaled to handle the load
 (which in a sense is a good news 😊).
 
-Here is some clarifications about the <a href="/blog/bloom-a-free-and-open-source-google/" target="_blank" rel="noopener">launching blog post (manifesto)</a> and what are the next steps.
+Here are some clarifications about the <a href="/blog/bloom-a-free-and-open-source-google/" target="_blank" rel="noopener">master plan</a> and what are the next steps.
 
 
 <div class="center">
@@ -26,20 +26,20 @@ Here is some clarifications about the <a href="/blog/bloom-a-free-and-open-sourc
 # Clarifications
 
 
-## How can we be sure that the project won't shutdown in a few weeks?
+## How can we be sure the project won't shutdown in a few weeks?
 
-We currently are <a href="https://bloom.sh/about" target="_blank" rel="noopener">a team of 2</a> with enough funds
+We currently are <a href="https://bloom.sh/about" target="_blank" rel="noopener">a core team of 2</a> with enough funds
 to eat for years. The goal is to grow quickly to hit current monopolies hard and precisely.
 
 
-In a few weeks Billing will be released and thus the beginning of the enterprise offering: <a href="https://bloom.sh/platform/phaser" target="_blank" rel="noopener">Phaser - The cloud native security scanner</a> to secure revenues to grow.
+In a few weeks Billing will be released and thus the beginning of the enterprise offering: <a href="https://bloom.sh/platform/phaser" target="_blank" rel="noopener">Phaser - The cloud native security scanner</a> to secure revenues to scale.
 
 Bloom is <a href="https://en.wikipedia.org/wiki/Gratis_versus_libre" target="_blank" rel="noopener">free as in speech, not as in beer</a>. As a reminder, here is the <a href="/blog/bloom-a-free-and-open-source-google/#in-summary" target="_blank" rel="noopener">business plan</a>.
 
 In parallel, we released Bloom's code because we sincerly think that open software/data/science... is an industrial revolution
-enabling global scale collaboration and thus we expect community to contribute (wether it be code, bug report, design suggestions...).
+enabling global scale collaboration and thus we expect community to contribute (wether it be code, bug reports, features suggestions...).
 
-Coming from <a href="https://www.42.fr/" target="_blank" rel="noopener">42</a> and <a href="https://www.edhec.edu/en" target="_blank" rel="noopener">EDHEC</a>, we are relatively well connected and if we need to raise capital to accelerate the pursuit of our mission,
+Coming from <a href="https://www.42.fr/" target="_blank" rel="noopener">42</a> and <a href="https://www.edhec.edu/en" target="_blank" rel="noopener">EDHEC</a>, we are relatively well connected and if we need to raise capital to accelerate the pursuit of <a href="/blog/bloom-a-free-and-open-source-google/#mission" target="_blank" rel="noopener">our mission</a>,
 we will.
 
 Also we love <a href="http://www.paulgraham.com/ramenprofitable.html" target="_blank" rel="noopener">ramen</a> 😉.
@@ -51,7 +51,7 @@ It would be fantastic!
 
 Thanks to the <a href="https://www.gnu.org/licenses/agpl-3.0.en.html" target="_blank" rel="noopener">GNU Affero General Public License v3.0</a> we use, if someone modify our work they are bound by law to redistribue it under the same terms.
 
-Thus they will be able to pay more people to work on Bloom's codebase and we enter the free software <a href="https://www.kerkour.fr/blog/bloom-a-free-and-open-source-google/#open-source-access-data-how" target="_blank" rel="noopener">virtuous circle</a>.
+Thus they will be able to pay more people to work on Bloom's codebase and we enter the free software <a href="/blog/bloom-a-free-and-open-source-google/#open-source-access-data-how" target="_blank" rel="noopener">virtuous circle</a>.
 
 In our vision, tomorrow's world is composed of a federation of Bloom providers, like email providers today
 (or <a href="https://matrix.org/blog/index" target="_blank" rel="noopener">matrix</a> or <a href="https://joinmastodon.org/" target="_blank" rel="noopener">Mastodon</a>).
@@ -90,6 +90,9 @@ We've dared the big G comparison because we have a plan to have the same impact 
 
 Again, it's not a question, but no. We believe in **sharing**, it's totally different.
 
+Our point is not wealth should be equally distributed in the world. Our point is that extrem inequalities (and growing)
+can only create more and more social crises.
+
 
 <!-- ## Did big G sue you for trademark infringement?
 
@@ -108,9 +111,9 @@ It's not clinically proven (yet).
 
 ### Project management and contributions
 
-We will use GitLab awesome project management tools to coordinate.
+We will use GitLab's awesome project management tools to coordinate.
 You can <a href="https://www.buggycoder.com/project-management-with-gitlab/" target="_blank" rel="noopener">read here more details</a>
-about the worflow.
+about the workflow.
 
 We will use the <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" target="_blank" rel="noopener">Git flow</a> (on the `dev` branch instead of `develop`) therefore **merge requests on master won't be accepted**.
 Contributors should merge requests to `dev`. All developement **must happen on `dev`**
@@ -118,12 +121,30 @@ Contributors should merge requests to `dev`. All developement **must happen on `
 All the project management happen on GitLab</a>.
 
 
-We work on 1 week sprints</a> basis.
+We work on <a href="https://www.atlassian.com/agile/scrum/sprints" target="_blank" rel="noopener">1 week/sprint</a> basis.
 Releases will happen every Sunday mornings to allow Sunday afternoons to catch bugs and eventually rollback.
 Weekly sprints will also be planned on Sunday afternoons.
 
 
-Forum et discord
+### How to report bugs?
+
+The best places to report bugs are (in the following order):
+
+* On <a href="https://gitlab.com/bloom42" target="_blank" rel="noopener">Gitlab on the respective projects</a>.
+* On the <a href="https://forum.bloom.sh" target="_blank" rel="noopener">forum</a> (and we will open a ticket on GitLab for you).
+* On the Discord chat
+
+But it’s better to avoid the latter for bug reports, to not lost them.
+
+### How to suggest features or improvements?
+
+The best suggest features or improvements are (in the following order):
+
+* On the <a href="https://forum.bloom.sh" target="_blank" rel="noopener">forum</a> (and we will open a ticket on GitLab for you).
+* On <a href="https://gitlab.com/bloom42" target="_blank" rel="noopener">Gitlab on the respective projects</a>.
+* On the Discord chat
+
+But it’s better to avoid the latter for suggestions, to not lost them.
 
 ### Roadmap
 
