@@ -85,9 +85,9 @@ or an open source electric bike, we will build it.
 
 We've dared the big G comparison because we have a plan to have the same impact on the world, nothing less.
 
-Big players have missed the free and open source software to build a sustainable future, and use it
+**Big players have missed the free and open source software turn to build a sustainable future, and use it
 as a <a href="https://www.joelonsoftware.com/2002/06/12/strategy-letter-v/" target="_blank" rel="noopener">strategic asset</a>.
-We will fix it.
+We will fix it.**
 
 <a href="/blog/the-just-cause-and-the-infinite-game" target="_blank" rel="noopener">We are playing the infinite game</a>.
 
