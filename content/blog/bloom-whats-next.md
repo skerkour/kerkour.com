@@ -69,7 +69,7 @@ Also, we have a lot of hacker friends in case some try to trick the law 🙃.
 Even if we do not 100% agree with current copyright laws, we will do our best to respect them.
 
 As mentioned in our terms, by using <a href="https://bloom.sh" target="_blank" rel="noopener">bloom.sh</a>,
-users must respect the law, and we keep the right to ban bad actors.
+users must respect the law and we keep the right to ban bad actors.
 
 On a second time, an open source blacklist will be implemented for the <a href="https://bloom.sh/bitflow" target="_blank" rel="noopener">hosted version</a>.
 
