@@ -14,7 +14,7 @@ Thank you very much for the support! The past days were pretty intense and we re
 We sincerly apologize for the bugs and latencies: our systems were not scaled to handle the load
 (which in a sense is a good news 😊).
 
-Here are some clarifications about the <a href="/blog/bloom-a-free-and-open-source-google/" target="_blank" rel="noopener">master plan</a> and what are the next steps.
+Here are some clarifications about the <a href="/blog/bloom-a-free-and-open-source-google/" target="_blank" rel="noopener">master plan</a> and more details about the next steps.
 
 
 <div class="center">
@@ -29,10 +29,10 @@ Here are some clarifications about the <a href="/blog/bloom-a-free-and-open-sour
 ## How can we be sure the project won't shutdown in a few weeks?
 
 We currently are <a href="https://bloom.sh/about" target="_blank" rel="noopener">a core team of 2</a> with enough funds
-to eat for years. The goal is to grow quickly to hit current monopolies hard and precisely.
+to eat for years. The goal is to grow quickly to **hit current monopolies hard and surgically**.
 
 
-In a few weeks Billing will be released and thus the beginning of the enterprise offering: <a href="https://bloom.sh/platform/phaser" target="_blank" rel="noopener">Phaser - The cloud native security scanner</a> to secure revenues to scale.
+In a few weeks billing will be released and thus the beginning of the enterprise offering: <a href="https://bloom.sh/platform/phaser" target="_blank" rel="noopener">Phaser - The cloud native security scanner</a>, to secure revenues to scale.
 
 Bloom is <a href="https://en.wikipedia.org/wiki/Gratis_versus_libre" target="_blank" rel="noopener">free as in speech, not as in beer</a>. As a reminder, here is the <a href="/blog/bloom-a-free-and-open-source-google/#in-summary" target="_blank" rel="noopener">business plan</a>.
 
@@ -45,9 +45,11 @@ we will.
 Also we love <a href="http://www.paulgraham.com/ramenprofitable.html" target="_blank" rel="noopener">ramen</a> 😉.
 
 
-## What will you do if other companies use your work to hijack your revenues?
+## What will you do if other companies use your work to hijack some of your revenues?
 
 It would be fantastic!
+
+We believe that business models relying on donations to survive is not the right way to tackle current monopolies.
 
 Thanks to the <a href="https://www.gnu.org/licenses/agpl-3.0.en.html" target="_blank" rel="noopener">GNU Affero General Public License v3.0</a> we use, if someone modify our work they are bound by law to redistribue it under the same terms.
 
@@ -57,9 +59,9 @@ In our vision, tomorrow's world is composed of a federation of Bloom providers, 
 (or <a href="https://matrix.org/blog/index" target="_blank" rel="noopener">matrix</a> or <a href="https://joinmastodon.org/" target="_blank" rel="noopener">Mastodon</a>).
 
 
-Also Bloom's and associated services marks and logos are trademarked.
+<!-- Also Bloom's and associated services marks and logos are trademarked. -->
 
-And finally, we have a lot of hacker friends in case somes try to not comply 🙃.
+Also, we have a lot of hacker friends in case somes try to trick the law 🙃.
 
 
 ## How will you handle copyright infringements on Bitflow or other services?
@@ -77,11 +79,15 @@ On a second time, an open source blacklist will be implemented for the <a href="
 
 It's not a question, but you are right.
 
-Providing the same services as internet giants (or NextCloud, or others...) is just a side effect
+Providing the same services as internet giants (or *NextCloud*, or others...) is just a side effect
 of our mission: **Empowering the world with open technologies**. If tomorrow the world need open source tractors
 or an open source electric bike, we will build it.
 
 We've dared the big G comparison because we have a plan to have the same impact on the world, nothing less.
+
+Big players have missed the free and open source software to build a sustainable future, and use it
+as a <a href="https://www.joelonsoftware.com/2002/06/12/strategy-letter-v/" target="_blank" rel="noopener">strategic asset</a>.
+We will fix it.
 
 <a href="/blog/the-just-cause-and-the-infinite-game" target="_blank" rel="noopener">We are playing the infinite game</a>.
 
@@ -90,8 +96,8 @@ We've dared the big G comparison because we have a plan to have the same impact 
 
 Again, it's not a question, but no. We believe in **sharing**, it's totally different.
 
-Our point is not wealth should be equally distributed in the world. Our point is that extrem inequalities (and growing)
-can only create more and more social crises.
+Our point is not that wealth should be equally distributed in the world. Our point is that extrem inequalities (and growing)
+can only create more and more social crises, which is really a bad idea to face the ecological crisis.
 
 
 <!-- ## Did big G sue you for trademark infringement?
@@ -116,7 +122,7 @@ You can <a href="https://www.buggycoder.com/project-management-with-gitlab/" tar
 about the workflow.
 
 We will use the <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" target="_blank" rel="noopener">Git flow</a> (on the `dev` branch instead of `develop`) therefore **merge requests on master won't be accepted**.
-Contributors should merge requests to `dev`. All developement **must happen on `dev`**
+Contributors should merge requests to `dev`. All developement **must happen on the `dev` branch**.
 
 All the project management happen on GitLab</a>.
 
@@ -150,7 +156,7 @@ But it’s better to avoid the latter for suggestions, to not lost them.
 
 You can track the current (and next sprints) on the following page: <a href="https://gitlab.com/groups/bloom42/-/epics" target="_blank" rel="noopener">https://gitlab.com/groups/bloom42/-/epics</a>.
 
-The current sprint is the following one: <a href="https://gitlab.com/groups/bloom42/-/epics/5" target="_blank" rel="noopener">https://gitlab.com/groups/bloom42/-/epics/5</a>.
+You can find this week's sprint here: <a href="https://gitlab.com/groups/bloom42/-/epics/5" target="_blank" rel="noopener">https://gitlab.com/groups/bloom42/-/epics/5</a>.
 
 
 At large, the <a href="/blog/bloom-a-free-and-open-source-google/#in-summary" target="_blank" rel="noopener">roadmap stay the same</a>.
