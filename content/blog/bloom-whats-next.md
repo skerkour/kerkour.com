@@ -12,7 +12,7 @@ lang = "en"
 Thank you very much for the support! The past days were pretty intense and we really didn't expect such traction.
 
 We sincerely apologize for the bugs and latencies: our systems were not scaled to handle the load
-(which in a sense is a good news 😊).
+(which in a sense is good news 😊).
 
 Here are some clarifications about the <a href="/blog/bloom-a-free-and-open-source-google/" target="_blank" rel="noopener">master plan</a> and more details about the next steps.
 
