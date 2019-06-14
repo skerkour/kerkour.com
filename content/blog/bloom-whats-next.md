@@ -92,7 +92,8 @@ We will fix it.**
 
 ## You communist. You idiot.
 
-Again, it's not a question, but no. We believe in **sharing**, it's totally different.
+Again, it's not a question, but no. We believe that **sharing** and **collaboration** is the only
+way to build a sustainable future in a **finite world**, it's totally different.
 
 Our point is not that wealth should be equally distributed in the world. Our point is that extreme inequalities (and growing)
 can only create more and more social crises and it's really a very **very** bad idea while humanity is facing the ecological crisis.
