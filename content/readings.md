@@ -21,6 +21,7 @@ template = "readings.html"
 * Les secrets de la matière, *Étienne Klein*
 * The Structure of Scientific Revolutions, *Kuhn*
 * L'Univers des plasmas, *Pascal Bradu*
+* The Future of Humanity, *Michio Kaku*
 
 
 <div style="text-align: center;">
