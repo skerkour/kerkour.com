@@ -440,7 +440,7 @@ C'est pourquoi nous sommes engagés à faciliter cette coopération mondiale et 
 
 La langue officielle de communication de Bloom est l'anglais.
 
-Un forum est disponible pour discuter des idées d'amélioration et demander de l'aide à la communauté : <a href="https://forum.bloom.sh" target="_blank" rel="noopener">forum.bloom.sh</a>, ainsi qu'un chat Discord pour les communications plus informelles : <a href="https://discord.gg/HmDQDGv" target="_blank" rel="noopener">discord.gg/HmDQDGv</a>.
+Un chat Discord est disponible pour demander de l'aide à la communauté: <a href="https://discord.gg/HmDQDGv" target="_blank" rel="noopener">discord.gg/HmDQDGv</a>.
 
 
 Enfin, pour rester informé des dernières mises à jour suivez nous sur Twitter <a href="https://twitter.com/42bloom" target="_blank" rel="noopener">@42bloom</a> et sur Mastodon: <a href="https://mastodon.social/web/accounts/809003" target="_blank" rel="noopener">@z0mbie42@mastodon.social</a>.
