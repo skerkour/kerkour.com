@@ -29,10 +29,6 @@ I'm currently on UTC+1
 
 If you like my work, you can help it level up:
 
-<a href="https://www.patreon.com/bloom42" target="_blank" rel="noopener">
-  <img src="/imgs/become_a_patron_button.png" height="42"/>
-</a>
-
 <a href="https://paypal.me/z0mbie42" target="_blank" rel="noopener">
   <img src="/imgs/paypal_donate.gif" height="42"/>
 </a>
