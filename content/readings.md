@@ -40,6 +40,7 @@ template = "readings.html"
 * Energy and Civilization, *Vaclav Smil*
 * The Art of War, *Sun Tzu*
 * 21 Lessons for the 21st century, *Yuval Noah Harari*
+* Striking Thoughts, *Bruce lee*
 
 
 <div style="text-align: center;">
