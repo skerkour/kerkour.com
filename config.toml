@@ -1,6 +1,6 @@
 title = "Sylvain Kerkour"
 description = "The canonical web presence of Sylvain Kerkour. I'm on a mission to empower the world with open technologies."
-base_url = "https://kerkour.fr"
+base_url = "https://www.kerkour.fr"
 generate_categories_pages = false
 generate_tags_pages = false
 generate_rss = true
