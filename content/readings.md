@@ -62,6 +62,7 @@ template = "readings.html"
 * Alibaba: The House That Jack Ma Built, *Clark, Duncan*
 * Xavier Niel - La voie du pirate, *GODELUCK, Solveig*
 * Rebel Code: Linux And The Open Source Revolution, *Glyn Moody*
+* Permanent Record, *Edward Snowden*
 
 <div style="text-align: center;">
   <h2>Novels</h2>
