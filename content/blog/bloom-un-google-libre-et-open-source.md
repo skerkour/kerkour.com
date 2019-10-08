@@ -491,13 +491,6 @@ Cet argent sera utilisé pour financer les personnes contribuant avec leur temps
 * <s>En souscrivant à un abonnement sur <a href="https://bloom.sh" target="_blank" rel="noopener">bloom.sh</a></s> Ouverture des abonnements dans 1 semaine.
 
 
-* En devenant *patron* :
-
-<a href="https://www.patreon.com/bloom42" target="_blank" rel="noopener">
-  <img src="/imgs/become_a_patron_button.png" height="42"/>
-</a>
-
-
 * En faisant un don *Paypal* :
 
 <a href="https://paypal.me/z0mbie42" target="_blank" rel="noopener">
@@ -507,7 +500,7 @@ Cet argent sera utilisé pour financer les personnes contribuant avec leur temps
 
 * En faisant un don en crypto-monnaie :
 
-<!-- **BTC**: `38QY24nHRkMxUFsEDobwJU2b5QzuSL39Yb` -->
+**BTC**: `38QY24nHRkMxUFsEDobwJU2b5QzuSL39Yb`
 
 **ETH**: `0x5121FE2A1014C4d57FCD2E8C4134A179851aFe6F`
 

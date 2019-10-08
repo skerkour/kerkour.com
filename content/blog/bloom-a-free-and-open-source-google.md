@@ -317,13 +317,6 @@ This money will be used to finance people who contribute with their time to a mo
 
 * <s>By subscribing on <a href="https://bloom.sh" target="_blank" rel="noopener">bloom.sh</a></s> Opening of subscriptions in 1 week.
 
-* By becoming *patron*:
-
-<a href="https://www.patreon.com/bloom42" target="_blank" rel="noopener">
-  <img src="/imgs/become_a_patron_button.png" height="42"/>
-</a>
-
-
 * By making a *Paypal* donation:
 
 <a href="https://paypal.me/z0mbie42" target="_blank" rel="noopener">
@@ -333,7 +326,7 @@ This money will be used to finance people who contribute with their time to a mo
 
 * By making a donation in cryptocurrency:
 
-<!-- **BTC**: `38QY24nHRkMxUFsEDobwJU2b5QzuSL39Yb` -->
+**BTC**: `38QY24nHRkMxUFsEDobwJU2b5QzuSL39Yb`
 
 **ETH**: `0x5121FE2A1014C4d57FCD2E8C4134A179851aFe6F`
 
