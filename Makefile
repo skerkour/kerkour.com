@@ -5,7 +5,7 @@ BUILD_DIR := public
 all: build
 
 dev:
-	zola serve
+	zola serve --drafts
 
 build:
 	zola build
