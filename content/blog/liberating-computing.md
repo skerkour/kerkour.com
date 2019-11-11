@@ -8,11 +8,10 @@ draft = true
 lang = "en"
 +++
 
-### OS Layer
+### Hardware
 
-### Network layer
+### OS
 
+### Applications
 
-### Service layer
-
-### Federation layer
+### Federation

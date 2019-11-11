@@ -31,6 +31,7 @@ template = "readings.html"
 * Information Retrieval: Implementing and Evaluating Search Engines, *Buttcher, Stefan*
 * Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems, *Martin Kleppmann*
 * The architecture of privacy, *Courtney Bowman, Ari Gesher, John K. Grant & Daniel Slate*
+* Serious Cryptography, A Practical Introduction to Modern Encryption, *Jean-Philippe Aumasson*
 
 
 <div style="text-align: center;">
