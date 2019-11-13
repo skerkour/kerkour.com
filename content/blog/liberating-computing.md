@@ -8,6 +8,8 @@ draft = true
 lang = "en"
 +++
 
+Data, applications (programs) and networking.
+
 ### Hardware
 
 ### OS
