@@ -42,6 +42,7 @@ template = "readings.html"
 * The Art of War, *Sun Tzu*
 * 21 Lessons for the 21st century, *Yuval Noah Harari*
 * Striking Thoughts, *Bruce lee*
+* Comment tout peut s’effondrer. Petit manuel de collapsologie à l’usage des générations présentes, *Pablo Servigne & Raphaël Stevens*
 
 
 <div style="text-align: center;">
