@@ -34,7 +34,7 @@ If you like my work, you can help it level up:
 </a>
 
 
-<!-- **BTC**: `38QY24nHRkMxUFsEDobwJU2b5QzuSL39Yb` -->
+**BTC**: `38QY24nHRkMxUFsEDobwJU2b5QzuSL39Yb`
 
 **ETH**: `0x5121FE2A1014C4d57FCD2E8C4134A179851aFe6F`
 
