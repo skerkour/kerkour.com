@@ -1,11 +1,11 @@
 @charset "utf-8";
 
-$base-font-family: 'Noto Serif', serif;
-$title-font-family: 'Noto Sans', sans-serif;
-$code-font-family: 'Roboto Mono', monospace;
-$base-font-size:   16px;
-$small-font-size:  0.875rem;
-$base-line-height: 1.5;
+$base-font-family:  serif;
+$title-font-family: sans-serif;
+$code-font-family:  monospace;
+$base-font-size:    18px;
+$small-font-size:   1rem;
+$base-line-height:  1.5;
 
 $text-color:   #333;
 $link-color:   #0074d9;
@@ -13,7 +13,7 @@ $anchor-color: rgba(0, 116, 217, 0.686);
 $meta-color:   #a0a0a0;
 $border-color: #ddd;
 
-@import "fonts";
+// @import "fonts";
 @import "base";
 @import "layout";
 
@@ -47,4 +47,8 @@ $border-color: #ddd;
 
 	/** Unhide lightbox **/
 	display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
 }
