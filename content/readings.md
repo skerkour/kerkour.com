@@ -43,6 +43,8 @@ template = "readings.html"
 * 21 Lessons for the 21st century, *Yuval Noah Harari*
 * Striking Thoughts, *Bruce lee*
 * Comment tout peut s’effondrer. Petit manuel de collapsologie à l’usage des générations présentes, *Pablo Servigne & Raphaël Stevens*
+* L'Âge des low tech, *Philippe Bihouix*
+* The Inevitable: Understanding the 12 Technological Forces That Will Shape Our Future, *Kevin Kelly*
 
 
 <div style="text-align: center;">
@@ -65,6 +67,7 @@ template = "readings.html"
 * Xavier Niel - La voie du pirate, *GODELUCK, Solveig*
 * Rebel Code: Linux And The Open Source Revolution, *Glyn Moody*
 * Permanent Record, *Edward Snowden*
+
 
 <div style="text-align: center;">
   <h2>Novels</h2>
