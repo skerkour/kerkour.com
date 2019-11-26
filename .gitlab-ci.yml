@@ -6,7 +6,7 @@ stages:
   - deploy
 
 delpoy: # pages
-  image: node:lts
+  image: debian:latest
   # This config will only publish changes that are pushed on the master branch
   only:
     - master
@@ -18,9 +18,6 @@ delpoy: # pages
     - tar -xzf zola.tar.gz
     # Execute zola build
     - ./zola build
-    - npm install netlify-cli -g
-    - netlify --telemetry-disable
-    - netlify deploy --prod
   # artifacts:
   #   paths:
   #   - public
