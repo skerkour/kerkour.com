@@ -5,7 +5,7 @@ variables:
 stages:
   - deploy
 
-delpoy: # pages
+pages:
   image: debian:latest
   # This config will only publish changes that are pushed on the master branch
   only:
@@ -18,6 +18,6 @@ delpoy: # pages
     - tar -xzf zola.tar.gz
     # Execute zola build
     - ./zola build
-  # artifacts:
-  #   paths:
-  #   - public
+  artifacts:
+    paths:
+    - public
