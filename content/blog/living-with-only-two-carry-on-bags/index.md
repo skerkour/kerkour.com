@@ -90,8 +90,16 @@ it also contains my toilet bag:
 | ----- | ---- |
 | dww | ddwd |
 
-## Clothes
+## Clothing
+
+## Documents?
+
+## Toiletries + Medicine?
+
+immodium
 
 ## Extras ?
+
+https://lighterpack.com/r/2j9p5q
 
 -->
