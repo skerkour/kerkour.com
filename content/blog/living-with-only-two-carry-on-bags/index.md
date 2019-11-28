@@ -80,3 +80,18 @@ it also contains my toilet bag:
 * 1 nail clipper
 * 1 tweezers
 * 1 toothbrush
+
+
+
+<!--
+## Accessories/Bags
+
+| Model | Qty. |
+| ----- | ---- |
+| dww | ddwd |
+
+## Clothes
+
+## Extras ?
+
+-->
