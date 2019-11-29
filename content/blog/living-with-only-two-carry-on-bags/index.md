@@ -80,26 +80,3 @@ it also contains my toilet bag:
 * 1 nail clipper
 * 1 tweezers
 * 1 toothbrush
-
-
-
-<!--
-## Accessories/Bags
-
-| Model | Qty. |
-| ----- | ---- |
-| dww | ddwd |
-
-## Clothing
-
-## Documents?
-
-## Toiletries + Medicine?
-
-immodium
-
-## Extras ?
-
-https://lighterpack.com/r/2j9p5q
-
--->
