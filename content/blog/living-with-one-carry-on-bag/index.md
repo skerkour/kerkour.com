@@ -124,4 +124,4 @@ They key here is to have only USB-C devies/cables/charger.
 | copy of ID card | 1 |
 | debit cards | 2 |
 
-The copies of passport, ID card and the emergency vrick phone are kept in a small waterproof pocket.
+The copies of passport, ID card, 1 debit card and the emergency brick phone are kept in a small waterproof pocket.
