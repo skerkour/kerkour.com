@@ -61,6 +61,7 @@ I don't know if it's because I'm overly enthusiast, but I had really hard time t
 | Uniqlo | HeatTech legging | 1 |
 | Uniqlo | Airsim tee shirt | 4 |
 | Uniqlo | HeatTeach tee shirt | 2 |
+| Uniqlo | turtleneck | 2 |
 | Uniqlo | Dry Stretch joggers | 2 |
 | Uniqlo | Dry Stretch sweat zipped hoodies | 2 |
 | Arena | Swim short | 2 |
@@ -74,6 +75,8 @@ I don't know if it's because I'm overly enthusiast, but I had really hard time t
 
 
 For a <a href="https://reddit.com/r/onebag" target="_blank" rel="noopener"><i>oneBagger</i></a> I have a lot of underwears, it allows me to do sport 3 times per week and still have to worry about washing my clothes only once a week.
+
+The black jean is used with a black turtleneck when formal dressing is *required*.
 
 ## Toiletries / Medicine
 
