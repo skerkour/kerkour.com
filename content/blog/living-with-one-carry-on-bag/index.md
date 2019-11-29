@@ -1,6 +1,6 @@
 +++
 date = 2019-11-28T12:42:42+02:00
-title = "Living with only one carry-on bag"
+title = "Living with one carry-on bag"
 draft = true
 
 [extra]
@@ -8,10 +8,32 @@ lang = "en"
 +++
 
 
-Since the end of 2017 [I live with all my stuff encased in two small bags](/blog/living-with-only-two-carry-on-bags).
+Since the end of 2017 [I lived with all my stuff encased in two small bags](/blog/living-with-only-two-carry-on-bags).
 
-Today I've managed to reduce my list to only one bag. Here it is:
+Today I've managed to reduce the list to fit in only one bag:
 
+<!-- TODO: photo du sac plein -->
+
+There is a LOOOOT of benefits but also some drawbacks that may not fit everbody's routine.
+
+## Benefits
+
+I can't list them all but here is a few which come to my mind:
+* don't have to pay for checked luggage
+* reduced cognitive load to choose my daily outfit
+* ability to pack and relocate to anywhere in the world in less than 20 minutes
+* all my stuff is high quality. If something is damaged, it's fixed or replaced
+* the places where I live are always in order and easy to clean
+* an unparalleled ability to travel and see beautiful places
+* wash cycles are easier (1 / week)
+* reduced ecological footprint
+* you can keep a similar bag at your parrent's or girlfriend's house in case your's got stolen
+
+## Drawbacks
+
+I don't know if it's because I'm overly enthusiast, but I had really hard time to find those drawbacks:
+* your friends will see you everyday with the same clothes and may behave strangely
+* you can't travel from a hot country to a very cold one without buying a warm jacket
 
 ## Bag / Accessories
 
@@ -22,6 +44,9 @@ Today I've managed to reduce my list to only one bag. Here it is:
 | - | small wallet | 1 |
 | - | backpack rain cover (35-55L) | 1 |
 | - | foldable 20L backpack | 1 |
+
+<!-- TODO: photos des items -->
+
 
 ## Clothing
 
@@ -34,24 +59,17 @@ Today I've managed to reduce my list to only one bag. Here it is:
 | Uniqlo | HeatTeach tee shirts | 2 |
 | Uniqlo | Dry Stretch joggers | 2 |
 | Uniqlo | Dry Stretch sweat zipped hoodies | 2 |
-| Uniqlo | Swim shorts | 2 |
+| Arena | Swim shorts | 2 |
 | - | pair of flip flops | 1 |
 | Nike | Free RN shoes | 1 |
 | Zara | black jean | 1 |
 | The North Face | light gloves | 1 |
 | Uniqlo | BlockTech parka | 1 |
 
-## Documents
+<!-- TODO: photos des items -->
 
-| Item | Qty. |
-| ---- | ---- |
-| Passport | 1 |
-| ID Card | 1 |
-| 1 sheet of paper with important phone numvers | 1 |
-| copy of passport | 1 |
-| copy of ID card | 1 |
-| debit cards | 2 |
 
+For a <a href="https://reddit.com/r/onebag" target="_blank" rel="noopener"><i>one bagger</i></a> I have a lot of underwears, it allows me to do sport 3 times per week and have to worry about washing my clothes only once a week.
 
 ## Toiletries / Medicine
 
@@ -64,6 +82,9 @@ Today I've managed to reduce my list to only one bag. Here it is:
 | ear plugs | 3 |
 
 <!-- immodium -->
+
+<!-- TODO: photos des items -->
+
 
 ## Tech
 
@@ -79,7 +100,19 @@ Today I've managed to reduce my list to only one bag. Here it is:
 | - | micro-USB cable| 1 |
 | - | USB-C to USB/HDMI hub | 1 |
 
-## Extras ?
+<!-- TODO: photos des items -->
 
-https://lighterpack.com/r/2j9p5q
+They key here is to have only USB-C devies/cables/chargers.
 
+## Other
+
+| Item | Qty. |
+| ---- | ---- |
+| Passport | 1 |
+| ID Card | 1 |
+| 1 sheet of paper with important phone numbers | 1 |
+| copy of passport | 1 |
+| copy of ID card | 1 |
+| debit cards | 2 |
+
+The copies of passport and ID card are in a snall waterproof pocket.
