@@ -28,6 +28,7 @@ I can't list them all but here is a few which come to my mind:
 * wash cycles are easier (1 / week)
 * reduced ecological footprint
 * you can keep a similar bag at your parrent's or girlfriend's house in case your's got stolen
+* don't have to spend time selling old stuff
 
 ## Drawbacks
 
@@ -56,10 +57,10 @@ I don't know if it's because I'm overly enthusiast, but I had really hard time t
 | Celio | socks | 10 |
 | Uniqlo | HeatTech legging | 1 |
 | Uniqlo | Airsim tee shirt | 4 |
-| Uniqlo | HeatTeach tee shirts | 2 |
+| Uniqlo | HeatTeach tee shirt | 2 |
 | Uniqlo | Dry Stretch joggers | 2 |
 | Uniqlo | Dry Stretch sweat zipped hoodies | 2 |
-| Arena | Swim shorts | 2 |
+| Arena | Swim short | 2 |
 | - | pair of flip flops | 1 |
 | Nike | Free RN shoes | 1 |
 | Zara | black jean | 1 |
@@ -69,7 +70,7 @@ I don't know if it's because I'm overly enthusiast, but I had really hard time t
 <!-- TODO: photos des items -->
 
 
-For a <a href="https://reddit.com/r/onebag" target="_blank" rel="noopener"><i>one bagger</i></a> I have a lot of underwears, it allows me to do sport 3 times per week and have to worry about washing my clothes only once a week.
+For a <a href="https://reddit.com/r/onebag" target="_blank" rel="noopener"><i>oneBagger</i></a> I have a lot of underwears, it allows me to do sport 3 times per week and still have to worry about washing my clothes only once a week.
 
 ## Toiletries / Medicine
 
@@ -94,15 +95,17 @@ For a <a href="https://reddit.com/r/onebag" target="_blank" rel="noopener"><i>on
 | - | 13" laptop | 1 |
 | - | 13" laptop cover | 1 |
 | - | Ebook reader | 1 |
+| - | emergency brick phone | 1 |
 | Anker | PowerCore speed 20000 USB-C | 1 |
 | Anker | PowerPort Atom III 30W | 1 |
 | - | 1.5m USB-C cable | 1 |
+| - | small USB-C cable | 1 |
 | - | micro-USB cable| 1 |
 | - | USB-C to USB/HDMI hub | 1 |
 
 <!-- TODO: photos des items -->
 
-They key here is to have only USB-C devies/cables/chargers.
+They key here is to have only USB-C devies/cables/charger.
 
 ## Other
 
