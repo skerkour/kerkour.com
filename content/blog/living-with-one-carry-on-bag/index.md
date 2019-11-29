@@ -34,6 +34,7 @@ I can't list them all but here is a few which come to my mind:
 ## Drawbacks
 
 I don't know if it's because I'm overly enthusiast, but I had really hard time to find those drawbacks:
+* I love to do martial arts and combat sport. I had to leave my stuff at my parents' home and usually need to rent/borrow stuff when abroad
 * your friends will see you everyday with the same clothes and may behave strangely
 * you can't travel from a hot country to a very cold one without buying a warm jacket
 
