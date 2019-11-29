@@ -7,6 +7,7 @@ draft = true
 lang = "en"
 +++
 
+*The things you own end up owning you.*
 
 Since the end of 2017 [I lived with all my stuff encased in two small bags](/blog/living-with-only-two-carry-on-bags).
 
@@ -35,6 +36,7 @@ I can't list them all but here is a few which come to my mind:
 I don't know if it's because I'm overly enthusiast, but I had really hard time to find those drawbacks:
 * your friends will see you everyday with the same clothes and may behave strangely
 * you can't travel from a hot country to a very cold one without buying a warm jacket
+
 
 ## Bag / Accessories
 
