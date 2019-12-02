@@ -74,7 +74,7 @@ I don't know if it's because I'm overly enthusiast, but I had really hard time t
 <!-- TODO: photos des items -->
 
 
-For a <a href="https://reddit.com/r/onebag" target="_blank" rel="noopener"><i>oneBagger</i></a> I have a lot of underwears, it allows me to do sport 3 times per week and still have to worry about washing my clothes only once a week.
+For a <a href="https://reddit.com/r/onebag" target="_blank" rel="noopener"><i>oneBagger</i></a> I have a lot of underwears: it allows me to do sport 3 times per week and still have to worry about washing my clothes only once a week.
 
 The black jean is used with a black turtleneck when formal dressing is *required*.
 
