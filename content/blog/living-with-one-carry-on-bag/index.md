@@ -30,6 +30,7 @@ I can't list them all but here is a few which come to my mind:
 * reduced ecological footprint
 * you can keep a similar bag at your parrent's or girlfriend's house in case your's got stolen
 * don't have to spend time selling old stuff
+* my hands are free when I need to carry something else (girlfriend's bag, shopping...)
 
 ## Drawbacks
 
