@@ -2,8 +2,9 @@ variables:
   # Specify the zola version you want to use here
   ZOLA_VERSION: "v0.9.0"
 
-pages:
-  image: debian:latest
+#pages:
+deploy:
+  image: node:lts
   # This config will only publish changes that are pushed on the master branch
   only:
     - master
@@ -14,6 +15,10 @@ pages:
     - tar -xzf zola.tar.gz
     # Execute zola build
     - ./zola build
-  artifacts:
-    paths:
-    - public
+    # deploy with netlify
+    - npm install netlify-cli -g
+    - netlify --telemetry-disable
+    - netlify deploy --site $NETLIFY_WEBSITE_ID --auth $NETLIFY_TOKEN --prod
+  # artifacts:
+  #   paths:
+  #   - public

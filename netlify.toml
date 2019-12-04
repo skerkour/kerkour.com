@@ -8,7 +8,7 @@
 ####################################################################################################
 
 [[redirects]]
-  from = "https://competent-yalow-ad91d6.netlify.com/*"
+  from = "https://focused-bhaskara-c3513b.netlify.com/*"
   to = "https://www.kerkour.fr/:splat"
   status = 301
   force = true
@@ -16,6 +16,18 @@
 
 [[redirects]]
   from = "https://kerkour.fr/*"
+  to = "https://www.kerkour.fr/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://kerkour.com/*"
+  to = "https://www.kerkour.fr/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.kerkour.com/*"
   to = "https://www.kerkour.fr/:splat"
   status = 301
   force = true
