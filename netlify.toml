@@ -31,3 +31,17 @@
   to = "https://www.kerkour.fr/:splat"
   status = 301
   force = true
+
+
+[[headers]]
+  # Define which paths this specific [[headers]] block will cover.
+  for = "/*"
+
+  [headers.values]
+    "X-XSS-Protection" = "1; mode=block"
+    "X-Content-Type-Options" = "nosniff"
+    "X-Download-Options" = "noopen"
+    "X-Frame-Options" = "DENY"
+    "Referrer-Policy" = "same-origin"
+    "Expect-CT" = "max-age=86400; enforce"
+    "Strict-Transport-Security" = "max-age=63072000; includeSubDomains; preload"
