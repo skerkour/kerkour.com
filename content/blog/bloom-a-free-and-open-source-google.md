@@ -269,7 +269,7 @@ Bloom's official language of communication is English.
 A Discord chat is available seek help from the community: <a href="https://discord.gg/HmDQDGv" target="_blank" rel="noopener">discord.gg/HmDQDGv</a>.
 
 
-To stay informed of the latest updates follow us on Twitter <a href="https://twitter.com/42bloom" target="_blank" rel="noopener">@42bloom</a> and on Mastodon: <a href="https://mastodon.social/web/accounts/947209" target="_blank" rel="noopener">@42bloom@mastodon.social </a>.
+To stay informed of the latest updates follow us on Twitter <a href="https://twitter.com/42bloom" target="_blank" rel="noopener">@42bloom</a> and on Mastodon: <a href="https://mastodon.social/@42bloom" target="_blank" rel="noopener">@42bloom@mastodon.social </a>.
 
 
 #### Development
