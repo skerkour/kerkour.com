@@ -65,7 +65,7 @@ I don't know if it's because I'm overly enthusiast, but I had really hard time t
 | Uniqlo | turtleneck | 2 |
 | Uniqlo | Dry Stretch joggers | 2 |
 | Uniqlo | Dry Stretch sweat zipped hoodies | 2 |
-| Arena | Swim short | 2 |
+| Arena | Swim short | 1 |
 | - | pair of flip flops | 1 |
 | Nike | Free RN shoes | 1 |
 | Zara | black jean | 1 |
