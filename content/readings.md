@@ -45,7 +45,8 @@ template = "readings.html"
 * Comment tout peut s’effondrer. Petit manuel de collapsologie à l’usage des générations présentes, *Pablo Servigne & Raphaël Stevens*
 * L'Âge des low tech, *Philippe Bihouix*
 * The Inevitable: Understanding the 12 Technological Forces That Will Shape Our Future, *Kevin Kelly*
-
+* Le Bug humain: Pourquoi notre cerveau nous pousse à détruire la planète et comment l'en empêcher, *Sébastien Bohler*
+* The Knowledge: How to Rebuild Our World from Scratch, *Lewis Dartnell*
 
 <div style="text-align: center;">
   <h2>Business</h2>
