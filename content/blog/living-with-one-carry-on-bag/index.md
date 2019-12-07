@@ -1,7 +1,6 @@
 +++
-date = 2019-11-28T12:42:42+02:00
+date = 2019-12-07T12:42:42+02:00
 title = "Living with one carry-on bag"
-draft = true
 
 [extra]
 lang = "en"
@@ -61,8 +60,8 @@ I don't know if it's because I'm overly enthusiast, but I had really hard time t
 | Celio | socks | 10 |
 | Uniqlo | HeatTech legging | 1 |
 | Uniqlo | Airsim tee shirt | 4 |
-| Uniqlo | HeatTeach tee shirt | 2 |
-| Uniqlo | turtleneck | 2 |
+| Uniqlo | HeatTech tee shirt | 2 |
+| Uniqlo | HeatTech turtleneck | 2 |
 | Uniqlo | Dry Stretch joggers | 2 |
 | Uniqlo | Dry Stretch sweat zipped hoodies | 2 |
 | Arena | Swim short | 1 |
