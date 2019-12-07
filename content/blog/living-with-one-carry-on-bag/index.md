@@ -14,7 +14,7 @@ Today I've managed to reduce the list to fit in only one bag:
 
 <!-- TODO: photo du sac plein -->
 
-There is a LOOOOT of benefits but also some drawbacks that may not fit everbody's routine.
+There is a LOOOOT of benefits but also some drawbacks that may not fit everyone's routine.
 
 ## Benefits
 
