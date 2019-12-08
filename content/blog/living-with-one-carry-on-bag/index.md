@@ -10,7 +10,7 @@ lang = "en"
 
 Since the end of 2017 [I lived with all my stuff encased in two small bags](/blog/living-with-only-two-carry-on-bags).
 
-Today I've managed to reduce the list to fit in only one bag:
+Today I've managed to reduce the list to fit in only one bag.
 
 <!-- TODO: photo du sac plein -->
 
