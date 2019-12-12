@@ -47,7 +47,7 @@ template = "readings.html"
 * The Inevitable: Understanding the 12 Technological Forces That Will Shape Our Future, *Kevin Kelly*
 * Le Bug humain: Pourquoi notre cerveau nous pousse à détruire la planète et comment l'en empêcher, *Sébastien Bohler*
 * The Knowledge: How to Rebuild Our World from Scratch, *Lewis Dartnell*
-
+* The 4-Hour Workweek: Escape 9-5, Live Anywhere, and Join the New Rich, *Timothy Ferriss*
 <div style="text-align: center;">
   <h2>Business</h2>
 </div>
