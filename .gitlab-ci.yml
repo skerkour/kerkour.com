@@ -8,12 +8,16 @@ pages:
   only:
     - master
   script:
-    - apt update && apt install curl -y
+    - apt update && apt install curl make python3 python3-pip -y
+    - pip3 install mkdocs pymdown-extensions # for the-guide
     - curl -L https://github.com/getzola/zola/releases/download/$ZOLA_VERSION/zola-$ZOLA_VERSION-x86_64-unknown-linux-gnu.tar.gz > zola.tar.gz
     # Unpack the zola executable
     - tar -xzf zola.tar.gz
     # Execute zola build
     - ./zola build
+    # build the wiki
+    - make wiki
+    - mv wiki/dist public/wiki
     # deploy with netlify
     - npm install netlify-cli -g
     - netlify --telemetry-disable

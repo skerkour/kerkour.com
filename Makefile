@@ -1,4 +1,4 @@
-.PHONY: all dev build push
+.PHONY: all dev build push wiki
 
 BUILD_DIR := public
 
@@ -18,3 +18,6 @@ push:
 	git add .
 	git commit -m "add"
 	git push
+
+wiki:
+	make -C wiki build
