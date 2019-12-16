@@ -16,6 +16,8 @@ pages:
     # Execute zola build
     - ./zola build
     # build the wiki
+    - "export LC_ALL=C.UTF-8"
+    - "export LANG=C.UTF-8"
     - make wiki
     - mv wiki/dist public/wiki
     # deploy with netlify
