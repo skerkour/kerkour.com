@@ -48,6 +48,8 @@ template = "readings.html"
 * Le Bug humain: Pourquoi notre cerveau nous pousse à détruire la planète et comment l'en empêcher, *Sébastien Bohler*
 * The Knowledge: How to Rebuild Our World from Scratch, *Lewis Dartnell*
 * The 4-Hour Workweek: Escape 9-5, Live Anywhere, and Join the New Rich, *Timothy Ferriss*
+
+
 <div style="text-align: center;">
   <h2>Business</h2>
 </div>
@@ -57,7 +59,7 @@ template = "readings.html"
 * Zero to One: Notes on Start Ups, or How to Build the Future, *Thiel, Peter*
 * Scale: The Universal Laws of Growth, Innovation, Sustainability, and the Pace of Life in Organisms, Cities, Economies, and Companies, *Geoffrey West*
 * Deep Work: Rules for Focused Success in a Distracted World, *Cal Newport*
-
+* Rework, *Jason Fried*
 
 <div style="text-align: center;">
   <h2>Biographies</h2>
