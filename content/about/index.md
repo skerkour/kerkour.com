@@ -20,7 +20,7 @@ I'm not a *new cool kid web tech entrepreneur*, I'm a **tireless troublemaker on
 You can find me on GitLab [@z0mbie42](https://gitlab.com/z0mbie42)<br/>
 and on Twitter [@z0mbie42](https://twitter.com/z0mbie42)<br/>
 
-Contact: <span id="email">Javascript is required to access email address</span> (Please do not expect a quick response).
+Contact: <span id="email">Javascript is required to access email address</span> (I respond to emails each wednesday and sunday. Do not expect a response the other days).
 
 I'm currently on UTC+1
 
