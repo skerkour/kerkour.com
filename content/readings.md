@@ -60,6 +60,8 @@ template = "readings.html"
 * Scale: The Universal Laws of Growth, Innovation, Sustainability, and the Pace of Life in Organisms, Cities, Economies, and Companies, *Geoffrey West*
 * Deep Work: Rules for Focused Success in a Distracted World, *Cal Newport*
 * Rework, *Jason Fried*
+* Remote: Office Not Required, *Jason Fried*
+
 
 <div style="text-align: center;">
   <h2>Biographies</h2>
