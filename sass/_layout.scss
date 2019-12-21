@@ -48,7 +48,7 @@
   margin-top: 2rem;
   margin-bottom: 0.5rem;
   color: $meta-color;
-  font-size: $small-font-size;
+  // font-size: $small-font-size;
 
   > a {
     color: lighten($link-color, 25%);
@@ -63,7 +63,7 @@
     span {
       color: $meta-color;
       margin-right: 1.5rem;
-      font-size: $small-font-size;
+      // font-size: $small-font-size;
     }
     a {
       color: $text-color;
@@ -86,7 +86,7 @@
     margin: 0;
     text-align: center;
     color: $meta-color;
-    font-size: $small-font-size;
+    // font-size: $small-font-size;
   }
 }
 

@@ -7,6 +7,9 @@ body {
   line-height: $base-line-height;
   color: $text-color;
   background-color: #f6f6ef;
+  @media (max-width: 600px) {
+    font-size: $small-font-size;
+  }
 }
 
 p {
