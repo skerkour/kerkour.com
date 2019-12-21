@@ -61,13 +61,13 @@
   function _redirect(domain){
     var hostname = location.hostname;
     if (hostname != domain && hostname != 'localhost' && hostname != '127.0.0.1') {
-      location.href = domain;
+      location.href = 'https://' + domain;
     }
   }
 
   //invoke the functions
   window.onload = function() {
-      _redirect("https://www.kerkour.fr");
+      _redirect("www.kerkour.fr");
   };
   </script>
 </html>
