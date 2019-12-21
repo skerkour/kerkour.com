@@ -58,24 +58,16 @@
     </div>
   </body>
   <script>
-  //auto redirect from current *.gitlab.io to custom domain
-  //send destination domain as domainTo (FQDN)
-  function _notGitLab(domainTo=true){
-    var x = location.hostname.search("gitlab.io")!= -1 ? true : false; // true if *.gitlab.io
-    if(x) location.href = domainTo;
-  }
-
-  //auto redirect from custom domain to www
-  //send destination domain as domainTo (FQDN)
-  function _notWWW(domainTo=true){
-    var x = location.hostname.search("www.")!= 0 ? true : false; // true if "www." in domain
-    if(x) location.href = domainTo;
+  function _redirect(domain){
+    var hostname = location.hostname;
+    if (hostname != domain && hostname != 'localhost') {
+      location.href = domain;
+    }
   }
 
   //invoke the functions
   window.onload = function() {
-      _notGitLab("https://www.kerkour.fr");
-      _notWWW("https://www.kerkour.fr");
+      _redirect("https://www.kerkour.fr");
   };
   </script>
 </html>

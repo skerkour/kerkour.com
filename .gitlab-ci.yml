@@ -14,18 +14,8 @@ pages:
     - tar -xzf zola.tar.gz
     # Execute zola build
     - ./zola build
+    # comrepss files ahead of time
     - gzip -k -9 $(find public -type f)
-    # build the wiki
-    # - apt install make python3 python3-pip -y
-    # - pip3 install mkdocs pymdown-extensions
-    # - "export LC_ALL=C.UTF-8"
-    # - "export LANG=C.UTF-8"
-    # - make wiki
-    # - mv wiki/dist public/wiki
-    # deploy with netlify
-    - npm install netlify-cli -g
-    - netlify --telemetry-disable
-    - netlify deploy --site $NETLIFY_WEBSITE_ID --auth $NETLIFY_TOKEN --prod
   artifacts:
     paths:
     - public
