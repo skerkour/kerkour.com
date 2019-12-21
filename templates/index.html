@@ -60,7 +60,7 @@
   <script>
   function _redirect(domain){
     var hostname = location.hostname;
-    if (hostname != domain && hostname != 'localhost') {
+    if (hostname != domain && hostname != 'localhost' && hostname != '127.0.0.1') {
       location.href = domain;
     }
   }
