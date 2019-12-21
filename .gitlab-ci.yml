@@ -15,7 +15,7 @@ pages:
     # Execute zola build
     - ./zola build
     # comrepss files ahead of time
-    - gzip -k -9 $(find public -type f)
+    - gzip -k -9 -r public
   artifacts:
     paths:
     - public
