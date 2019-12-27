@@ -20,6 +20,15 @@
     <!-- <meta http-equiv="refresh" content="0; url=http://www.kerkour.fr"> -->
     <link rel='stylesheet' href='/main.css'>
   </head>
+  <script>
+    function _redirect(domain){
+      var hostname = location.hostname;
+      if (hostname != domain && hostname != 'localhost' && hostname != '127.0.0.1') {
+        location.href = 'https://' + domain;
+      }
+    }
+    _redirect();
+  </script>
   <body>
     <div class='site-container'>
       <header class='site-header'>
@@ -57,17 +66,4 @@
       </footer>
     </div>
   </body>
-  <script>
-  function _redirect(domain){
-    var hostname = location.hostname;
-    if (hostname != domain && hostname != 'localhost' && hostname != '127.0.0.1') {
-      location.href = 'https://' + domain;
-    }
-  }
-
-  //invoke the functions
-  window.onload = function() {
-      _redirect("www.kerkour.fr");
-  };
-  </script>
 </html>
