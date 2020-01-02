@@ -48,7 +48,7 @@ template = "readings.html"
 * Le Bug humain: Pourquoi notre cerveau nous pousse à détruire la planète et comment l'en empêcher, *Sébastien Bohler*
 * The Knowledge: How to Rebuild Our World from Scratch, *Lewis Dartnell*
 * The 4-Hour Workweek: Escape 9-5, Live Anywhere, and Join the New Rich, *Timothy Ferriss*
-
+* dormez tranquiles jusqu'en 2100: et autres malentendus sur le climat et l'énergie, *Jean-Marc Jancovici*
 
 <div style="text-align: center;">
   <h2>Business</h2>
