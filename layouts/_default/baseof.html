@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
   {{ partial "head.html" . }}
+  <script>
+    function _redirect(domain){
+      var hostname = location.hostname;
+      if (hostname != domain && hostname != 'localhost' && hostname != '127.0.0.1') {
+        location.href = 'https://' + domain;
+      }
+    }
+    _redirect('www.kerkour.fr');
+  </script>
   <body>
     {{ partial "nav.html" . }}
     <!-- Page Header -->
