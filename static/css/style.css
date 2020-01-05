@@ -33,7 +33,7 @@ main {
   border-radius: 0px !important;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 992px) {
   body {
     font-size: 18px;
   }
