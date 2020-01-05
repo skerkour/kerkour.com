@@ -1,0 +1,12 @@
+title = "Sylvain Kerkour"
+description = "The canonical web presence of Sylvain Kerkour. I'm on a mission to empower people with open technologies."
+base_url = "https://www.kerkour.fr"
+generate_categories_pages = false
+generate_tags_pages = false
+generate_rss = true
+highlight_code = true
+highlight_theme = "gruvbox-dark"
+compile_sass = true
+
+[extra]
+author = "Sylvain Kerkour"

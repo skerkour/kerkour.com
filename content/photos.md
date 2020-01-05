@@ -1,8 +1,8 @@
 +++
-title = "Readings"
-description = "My Readings list"
+title = "Photos"
+description = "Some scenes taken from my past"
 url = "photos"
-template = "readings.html"
+type = "page"
 +++
 
 <br/>

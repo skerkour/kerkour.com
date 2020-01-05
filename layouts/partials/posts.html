@@ -1,0 +1,24 @@
+<div class="jumbotron bg-dark">
+  <div class="container text-center">
+    <h1 class="display-3 text-white font-national2">{{ .Site.Title }}</h1>
+    <p style="color: yellow"><i>{{ .Site.Params.DescriptionHtml | safeHTML }}</i></p>
+
+  </div>
+</div>
+
+<div class="container">
+  <div class="row d-flex justify-content-center">
+    <div class="
+      col-xl-8
+      col-lg-8
+      col-md-10
+      col-sm-12
+      col-xs-12">
+
+      <div class="text-justify text-left mt-3">
+        {{ .Content }}
+      </div>
+
+    </div>
+  </div>
+</div>

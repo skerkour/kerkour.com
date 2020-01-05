@@ -1,22 +1,18 @@
 +++
 title = "Readings"
 description = "My Readings list"
-url = "readings"
-template = "readings.html"
+type = "page"
+date = 2019-02-05T01:42:42+02:00
 +++
 
-<div style="text-align: center;">
-  <h2>Design</h2>
-</div>
+## Design
 
 * Hooked: How to Build Habit-Forming Products, *Eyal, Nir*
 * The Design of Everyday Things, *Don Norman*
 * The Art of UNIX Programming, *Eric S. Raymond*
 
 
-<div style="text-align: center;">
-  <h2>Science</h2>
-</div>
+## Science
 
 * Les secrets de la matière, *Étienne Klein*
 * The Structure of Scientific Revolutions, *Kuhn*
@@ -24,9 +20,7 @@ template = "readings.html"
 * The Future of Humanity, *Michio Kaku*
 
 
-<div style="text-align: center;">
-  <h2>Computer Science and Software Engineering</h2>
-</div>
+## Computer Science and Software Engineering
 
 * Information Retrieval: Implementing and Evaluating Search Engines, *Buttcher, Stefan*
 * Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems, *Martin Kleppmann*
@@ -34,9 +28,7 @@ template = "readings.html"
 * Serious Cryptography, A Practical Introduction to Modern Encryption, *Jean-Philippe Aumasson*
 
 
-<div style="text-align: center;">
-  <h2>Humanities</h2>
-</div>
+## Humanities
 
 * Energy and Civilization, *Vaclav Smil*
 * The Art of War, *Sun Tzu*
@@ -50,9 +42,7 @@ template = "readings.html"
 * The 4-Hour Workweek: Escape 9-5, Live Anywhere, and Join the New Rich, *Timothy Ferriss*
 * dormez tranquiles jusqu'en 2100: et autres malentendus sur le climat et l'énergie, *Jean-Marc Jancovici*
 
-<div style="text-align: center;">
-  <h2>Business</h2>
-</div>
+## Business
 
 * The Personal MBA, Master the art of Business, *Josh Kaufman*
 * Predictable Revenue: Turn Your Business into a Sales Machine With the $100 Million Best Practices of Salesforce.com, *Ross, Aaron*
@@ -63,9 +53,7 @@ template = "readings.html"
 * Remote: Office Not Required, *Jason Fried*
 
 
-<div style="text-align: center;">
-  <h2>Biographies</h2>
-</div>
+## Biographies
 
 * Elon Musk: How the Billionaire CEO of SpaceX and Tesla is Shaping our Future, *Vance, Ashlee*
 * Alibaba: The House That Jack Ma Built, *Clark, Duncan*
@@ -74,9 +62,7 @@ template = "readings.html"
 * Permanent Record, *Edward Snowden*
 
 
-<div style="text-align: center;">
-  <h2>Novels</h2>
-</div>
+## Novels
 
 * Fight Club, *Chuck Palahniuk*
 * The Hitchhiker's Guide to the Galaxy, *Douglas Adams*

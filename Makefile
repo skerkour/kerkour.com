@@ -1,23 +1,14 @@
-.PHONY: all dev build push wiki
-
-BUILD_DIR := public
-
+.PHONY: all
 all: build
 
-dev:
-	zola serve --drafts
-
+.PHONY: build
 build:
-	zola build
+	hugo
 
-clean:
-	rm -rf $(BUILD_DIR)
+.PHONY: dev
+dev:
+	hugo server --buildDrafts
 
-push:
-	make
-	git add .
-	git commit -m "add"
-	git push
-
-wiki:
-	make -C wiki build
+.PHONY: gzip
+gzip:
+	gzip -k -9 -r -f public

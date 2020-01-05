@@ -1,0 +1,44 @@
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+
+  <meta name="apple-mobile-web-app-status-bar-style" content="#343a40" />
+  <meta name="theme-color" content="#343a40" />
+  <meta name="msapplication-TileColor" content="#343a40" />
+
+  <link rel="shortcut icon" href="{{ "imgs/favicon.svg" | relURL }}"/>
+
+  {{ if .IsHome -}}
+    <title>{{ .Site.Title }}</title>
+  {{- else -}}
+    <title>{{ .Site.Title }} - {{ .Title }}</title>
+  {{- end }}
+
+  <meta name="description" content="{{ .Site.Params.Description }}" />
+
+
+  <!-- Social -->
+  <meta name="og:title" property="og:title" content="{{ .Site.Title }}" />
+  <!-- <meta property="og:description" content="Open internet services. Build, collaborate, innovate and play with Bloom." /> -->
+  <meta name="og:description" property="og:description" content="{{ .Site.Params.Description }}" />
+  <meta name="og:type" property="og:type" content="website" />
+  <meta name="og:url" property="og:url" content="{{ .Site.BaseURL }}" />
+  <!-- <meta name="og:image" property="og:image" content="https://www.bloom.sh/static/imgs/og_image.png"> -->
+
+  <!-- <meta name="twitter:card" property="twitter:card" content="summary_large_image"> -->
+  <meta name="twitter:url" property="twitter:url" content="{{ .Site.BaseURL }}">
+  <meta name="twitter:title" property="twitter:title" content="{{ .Site.Title }}">
+  <meta name="twitter:description" property="twitter:description" content="{{ .Site.Params.Description }}">
+  <!-- <meta name="twitter:image" property="twitter:image" content="https://www.bloom.sh/static/imgs/og_image.png"> -->
+
+
+  {{ with .OutputFormats.Get "rss" -}}
+      {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end -}}
+
+  <!-- css -->
+  <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+</head>

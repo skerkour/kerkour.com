@@ -1,0 +1,7 @@
+{{ define "main" -}}
+  {{ if eq .Type "post"}}
+    {{ partial "post.html" . }}
+  {{ else }}
+    {{ partial "page.html" . }}
+  {{ end }}
+{{ end }}

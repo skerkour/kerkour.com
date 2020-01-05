@@ -10,5 +10,5 @@ $ make dev
 ## Build
 
 ```
-$ make
+$ make build
 ```

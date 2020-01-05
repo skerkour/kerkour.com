@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  {{ partial "head.html" . }}
+  <body>
+    {{ partial "nav.html" . }}
+    <!-- Page Header -->
+    {{ block "header" .}}
+    <!-- <header class="intro-header" style="background-image: url('{{ .Site.Params.header_image | relURL }}')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
+                    <div class="site-heading">
+                        <!-- <h1>{{ .Site.Title}} </h1>
+                        <!--<hr class="small">
+                      <span class="subheading">{{ .Site.Params.slogan }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header> -->
+    {{ end }}
+    <main>
+      {{ block "main" . }} {{ end }}
+    </main>
+
+    {{ partial "footer.html" . }}
+  </body>
+  <!-- js -->
+  <script src="{{ "js/jquery-3.4.1.slim.min.js" | relURL }}"></script>
+  <script src="{{ "js/popper.min.js" | relURL }}"></script>
+  <script src="{{ "js/bootstrap.min.js" | relURL }}"></script>
+  <script src="{{ "js/index.js" | relURL }}"></script>
+</html>
