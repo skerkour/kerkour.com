@@ -9,4 +9,4 @@ disableHugoGeneratorInject = true
 
 [params]
   description = "The canonical web presence of Sylvain Kerkour. I'm on a mission to empower people with open technologies."
-  descriptionHtml = "I'm on a mission to empower people with open technologies."
+  descriptionHtml = "On a mission to empower people with open technologies."
