@@ -22,8 +22,6 @@ and on Twitter [@z0mbie42](https://twitter.com/z0mbie42)<br/>
 
 Contact: <span id="email">Javascript is required to access email address</span> (I reply to emails each wednesday and sunday).
 
-I'm currently on UTC+1
-
 <hr size="1" />
 
 If you like my work, you can help it level up:
