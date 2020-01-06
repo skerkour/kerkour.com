@@ -5,7 +5,7 @@ template = "about.html"
 type = "page"
 +++
 <div class="text-center">
-  <img src="/imgs/sylvain.jpg" alt="Sylvain Kerkour profile picture" height="256" width="256" />
+  <img src="/imgs/sylvain.jpg" alt="Sylvain Kerkour profile picture" height="256" width="256" style="border-radius: 50%;"/>
   <p>Hey! I'm Sylvain Kerkour (<i>a.k.a</i> <b>z0mbie42</b>)  🙋‍♂️</p>
   <!-- style="margin: 0 auto;display: block;"/> -->
 </div>
