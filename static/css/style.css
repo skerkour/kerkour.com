@@ -123,6 +123,10 @@ a:hover {
   text-decoration: underline;
 }
 
+.bloom-promo p {
+  color: black;
+}
+
 .post-meta, .entry-meta {
   margin: 0;
   text-align: center;
