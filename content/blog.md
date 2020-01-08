@@ -6,12 +6,9 @@ type = "page"
 +++
 
 <script>
-function _redirect(domain){
-  var hostname = location.hostname;
-  var path = location.pathname;
-  if (hostname != domain && hostname != 'localhost' && hostname != '127.0.0.1') {
-    location.href = 'https://' + domain + path;
-  }
+function _redirect_blog(domain){
+  var path = location.pathname.replace('/blog', '/');;
+  location.href = 'https://' + domain + path;
 }
-_redirect('fatalentropy.com');
+_redirect_blog('fatalentropy.com');
 </script>
