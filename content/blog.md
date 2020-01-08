@@ -6,5 +6,5 @@ type = "page"
 +++
 
 <script>
-  location.href = 'https://bloom42.gitlab.io/blog';
+  location.href = 'https://fatalentropy.com';
 </script>

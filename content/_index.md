@@ -13,7 +13,7 @@ type = "page"
 INTJ,
 I cut my teeth on rugby fields, boxing rings and MMA tatamis, and then at <a href="https://www.42.fr" target="_blank" rel="noopener">42</a>.
 
-I am the creator of <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom: Open technologies</a>. I am also a frequent author on the [Pretty Entropy blog](https://bloom42.gitlab.io/blog) where I discuss about design, tech and humanity.
+I am the creator of <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom: Open technologies</a>. I am also a frequent author on the [Fatal Entropy blog](https://fatalentropy.com) where I discuss about design, tech and humanity.
 
 I'm not a *new cool kid web tech entrepreneur*, I'm a **tireless troublemaker on a mission to empower people with open technologies**.
 
