@@ -68,6 +68,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a, a:visited {
   color: #5522FA;
+  outline: 0;
   /* transition: color 0.25s; */
 }
 
