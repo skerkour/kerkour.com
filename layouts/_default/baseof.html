@@ -4,7 +4,7 @@
   <script>
     function _redirect(domain){
       var hostname = location.hostname;
-      var path = location.pathname.replace('/blog', '');;
+      var path = location.pathname;
       if (hostname != domain && hostname != 'localhost' && hostname != '127.0.0.1') {
         location.href = 'https://' + domain + path;
       }
