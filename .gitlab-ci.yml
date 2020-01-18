@@ -1,6 +1,6 @@
 variables:
   GO_IMAGE: golang:latest
-  HUGO_VERSION: 0.62.1
+  HUGO_VERSION: 0.62.2
 
 pages:
   image: $GO_IMAGE
