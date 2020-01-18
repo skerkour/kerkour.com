@@ -1,8 +1,8 @@
 +++
-title = "Blog"
-description = "blog"
-url = "blog"
+title = "The just cause and the infinite game"
+description = "The just cause and the infinite game"
 type = "page"
+date = 2019-02-05T01:42:42+02:00
 +++
 
 <script>

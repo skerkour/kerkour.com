@@ -1,8 +1,8 @@
 +++
-title = "Blog"
-description = "blog"
-url = "blog"
+title = "Cut the bullshit"
+description =  "Cut the bullshit"
 type = "page"
+date = 2019-02-05T01:42:42+02:00
 +++
 
 <script>

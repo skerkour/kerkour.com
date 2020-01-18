@@ -1,8 +1,8 @@
 +++
-title = "Blog"
-description = "blog"
-url = "blog"
+title = "Bloom: un Google libre et open source"
+description = "Bloom: un Google libre et open source"
 type = "page"
+date = 2019-02-05T01:42:42+02:00
 +++
 
 <script>

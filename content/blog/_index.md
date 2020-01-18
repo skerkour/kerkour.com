@@ -1,7 +1,6 @@
 +++
 title = "Blog"
 description = "blog"
-url = "blog"
 type = "page"
 +++
 

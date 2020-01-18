@@ -12,3 +12,10 @@ dev:
 .PHONY: gzip
 gzip:
 	gzip -k -9 -r -f public
+
+.PHONY: clean
+clean:
+	rm -rf public
+
+.PHONY: re
+re: clean build
