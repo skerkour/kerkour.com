@@ -20,7 +20,7 @@ I'm not a *new cool kid web tech entrepreneur*, I'm a **tireless troublemaker on
 You can find me on GitLab [@z0mbie42](https://gitlab.com/z0mbie42)<br/>
 and on Twitter [@z0mbie42](https://twitter.com/z0mbie42)<br/>
 
-Contact: Use the chatbox at the bottom right of this website.
+Contact: Use the <a onclick="$crisp.push(['do', 'chat:open'])" href="#">Chatbox</a> at the bottom right of this website.
 
 <hr size="1" />
 
