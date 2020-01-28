@@ -20,7 +20,7 @@ I'm not a *new cool kid web tech entrepreneur*, I'm a **tireless troublemaker on
 You can find me on GitLab [@z0mbie42](https://gitlab.com/z0mbie42)<br/>
 and on Twitter [@z0mbie42](https://twitter.com/z0mbie42)<br/>
 
-Contact: <span id="email">Javascript is required to access email address</span>.
+Contact: Use the chatbox at the bottom right of this website.
 
 <hr size="1" />
 
@@ -44,20 +44,6 @@ If you like my work, you can help it level up:
 
 The source code of this website is available on <a href="https://gitlab.com/z0mbie42/kerkour.fr" target="_blank" rel="noopener">GitLab</a>.
 
-
 <script type="text/javascript">
-  window.addEventListener("load", function(){
-    var email = document.getElementById("email");
-    if (email) {
-        email.innerHTML = rot13('<n uers="znvygb:flyinva@xrexbhe.se">flyinva@xrexbhe.se</n>');
-    }
-  });
-  function rot13(s) {
-    return (s ? s : this).split('').map(function(_){
-      if (!_.match(/[A-Za-z]/)) return _;
-      c = Math.floor(_.charCodeAt(0) / 97);
-      k = (_.toLowerCase().charCodeAt(0) - 83) % 26 || 26;
-      return String.fromCharCode(k + ((c == 0) ? 64 : 96));
-    }).join('');
-  }
+  window.$crisp=[];window.CRISP_WEBSITE_ID="5b2d6a0d-a14a-4b3b-996b-8429198f8562";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
 </script>
