@@ -71,3 +71,8 @@ date = 2019-02-05T01:42:42+02:00
 * So Long, and Thanks for All the Fish, *Douglas Adams*
 * Mostly Harmless, *Douglas Adams*
 * And Another Thing..., *Eoin Colfer*
+
+
+<script type="text/javascript">
+  window.$crisp=[];window.CRISP_WEBSITE_ID="f8eba044-c4ee-49a2-a074-81d9a2042316";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
+</script>
