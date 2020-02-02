@@ -94,7 +94,3 @@ type = "page"
 <a href="#" class="lightbox" id="img11">
   <img src="/imgs/photos/201812/f6ce4b689537027ca875870cddc748ef.jpg">
 </a>
-
-<script type="text/javascript">
-  window.$crisp=[];window.CRISP_WEBSITE_ID="f8eba044-c4ee-49a2-a074-81d9a2042316";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
-</script>
