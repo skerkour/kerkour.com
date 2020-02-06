@@ -38,11 +38,6 @@ If you like my work, you can help it level up:
 **XMR**: `4GdoN7NCTi8a5gZug7PrwZNKjvHFmKeV11L6pNJPgj5QNEHsN6eeX3DaAQFwZ1ufD4LYCZKArktt113W7QjWvQ7CW7fRk3auob6QWFSgYJ` -->
 
 
------------------
-
-The source code of this website is available on <a href="https://gitlab.com/z0mbie42/kerkour.fr" target="_blank" rel="noopener">GitLab</a>.
-
-
 <script type="text/javascript">
   window.addEventListener("load", function(){
     var email = document.getElementById("email");
