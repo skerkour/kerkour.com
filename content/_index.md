@@ -15,8 +15,6 @@ I cut my teeth on rugby fields, boxing rings and MMA tatamis, and then at <a hre
 
 I am the creator of <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom: A safe place for all your data</a>. I am also a frequent author on the [Fatal Entropy blog](https://fatalentropy.com) where I discuss about design, tech and humanity.
 
-I'm not a *new cool kid web tech entrepreneur*, I'm a **tireless troublemaker on a mission to empower people with open technologies**.
-
 You can find me on GitLab [@z0mbie42](https://gitlab.com/z0mbie42)<br/>
 and on Twitter [@z0mbie42](https://twitter.com/z0mbie42)<br/>
 
