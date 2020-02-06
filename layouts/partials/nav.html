@@ -1,26 +1,23 @@
-<nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark" id="navbar">
+<nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark justify-content-between" id="navbar">
   <a class="navbar-brand" href="{{ "/" | relURL }}">{{ .Site.Title }}</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse align-items-center" id="navbarToggler">
+  <div class="align-items-center" id="navbarToggler">
     <ul class="navbar-nav ml-auto align-items-center">
       <li class="nav-item">
         <a class="nav-link" href="https://fatalentropy.com">Blog</a>
       </li>
-      <li class="nav-item d-none d-md-block">
+      <!-- <li class="nav-item d-none d-md-block">
         /
-      </li>
-      <li class="nav-item">
+      </li> -->
+      <!-- <li class="nav-item">
         <a class="nav-link" href="{{ "readings" | relURL }}">Readings</a>
       </li>
       <li class="nav-item d-none d-md-block">
         /
-      </li>
-      <li class="nav-item">
+      </li> -->
+      <!-- <li class="nav-item">
         <a class="nav-link" href="{{ "photos" | relURL }}">Photos</a>
-      </li>
+      </li> -->
     </ul>
   </div>
 </nav>
