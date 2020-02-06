@@ -18,7 +18,7 @@ I am the creator of <a href="https://bloom.sh" target="_blank" rel="noopener">Bl
 You can find me on GitLab [@z0mbie42](https://gitlab.com/z0mbie42)<br/>
 and on Twitter [@z0mbie42](https://twitter.com/z0mbie42)<br/>
 
-Contact: <span id="email">Javascript is required to access email address</span>.
+Contact: <span id="email">Javascript is required to access email address</span>
 
 <hr size="1" />
 
