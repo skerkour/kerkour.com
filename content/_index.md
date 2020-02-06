@@ -24,9 +24,9 @@ Contact: <span id="email">Javascript is required to access email address</span>
 
 If you like my work, you can help it level up:
 
-<div class="text-center">
+<div class="text-center" style="margin-bottom: 10px;">
   <a href="https://paypal.me/z0mbie42" target="_blank" rel="noopener">
-    <img src="/imgs/paypal_donate.gif" height="42"/>
+    <img src="/imgs/paypal_donate.gif" height="42" style="border: none;"/>
   </a>
 </div>
 
