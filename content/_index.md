@@ -11,7 +11,7 @@ type = "page"
 </div>
 
 INTJ,
-I cut my teeth on rugby fields, boxing rings and MMA tatamis, and then at <a href="https://www.42.fr" target="_blank" rel="noopener">42</a>.
+I cut my teeth on rugby fields, boxing rings, MMA tatamis and at <a href="https://www.42.fr" target="_blank" rel="noopener">42</a>.
 
 I am the creator of <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom: A safe place for all your data</a>. I am also a frequent author on the [Fatal Entropy blog](https://fatalentropy.com) where I discuss about design, tech and humanity.
 
