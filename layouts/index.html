@@ -1,54 +1,10 @@
 {{ define "main" }}
-<!-- <div class="jumbotron bg-dark">
-  <div class="container text-center">
-    <h1 class="display-3 text-white font-national2">{{ .Site.Title }}</h1>
-    <p style="color: yellow"><i>{{ .Site.Params.DescriptionHtml | safeHTML }}</i></p>
 
-  </div>
-</div>
-
-<div class="container">
-  <div class="row d-flex justify-content-center">
-    <div class="
-      col-xl-8
-      col-lg-8
-      col-md-10
-      col-sm-12
-      col-xs-12">
-
-      <div class="text-justify text-left mt-3 post-content">
-        {{ .Content }}
-      </div>
-    </div>
-  </div>
-  <div class="row d-flex justify-content-center">
-    <div class="col-xl-10
-    col-lg-10
-    col-md-12
-    col-sm-12
-    col-xs-12">
-      {{ partial "promo.html" . }}
-    </div>
-  </div>
-</div> -->
-
-<body>
-  <div class='site-container'>
-    <header class='site-header'>
-      <h1 class='site-title'><a href='{{ .Site.BaseURL }}'>{{ .Site.Title }}</a></h1>
-      <nav class='site-nav'>
-
-      </nav>
-    </header>
-    <main class='site-content'>
+<div >
+    <main class="site-content">
       {{ .Content }}
     </main>
-    <!-- <footer class='site-footer'>
-      All the content on this website is licensed under the
-      <a rel="noopener noreferer" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/" >CC BY-SA 4.0 License</a><br/>
-      <a href='rss.xml'>RSS Feed</a>
-    </footer> -->
-  </div>
-</body>
+
+</div>
 
 {{ end }}

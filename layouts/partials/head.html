@@ -4,9 +4,9 @@
   <meta name="mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
 
-  <meta name="apple-mobile-web-app-status-bar-style" content="#343a40" />
-  <meta name="theme-color" content="#343a40" />
-  <meta name="msapplication-TileColor" content="#343a40" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="#ff6600" />
+  <meta name="theme-color" content="#ff6600" />
+  <meta name="msapplication-TileColor" content="#ff6600" />
 
   <link rel="shortcut icon" href="{{ "imgs/favicon.svg" | relURL }}"/>
 
@@ -34,12 +34,15 @@
   <!-- <meta name="twitter:image" property="twitter:image" content="https://www.bloom.sh/static/imgs/og_image.png"> -->
 
 
-  {{ with .OutputFormats.Get "rss" -}}
+  <!-- {{ with .OutputFormats.Get "rss" -}}
       {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-  {{ end -}}
+  {{ end -}} -->
 
   <!-- css -->
   <!-- <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | relURL }}">
   <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
   <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}"> -->
+  {{ $styles := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
+
 </head>

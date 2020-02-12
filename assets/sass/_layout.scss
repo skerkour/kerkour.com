@@ -41,6 +41,7 @@
 .site-content {
   flex: 1;
   word-wrap: break-word;
+  margin-top: 21px;
 }
 
 .site-footer {
@@ -98,4 +99,9 @@
   p {
     text-align: center;
   }
+}
+
+
+.text-center {
+  text-align: center;
 }
