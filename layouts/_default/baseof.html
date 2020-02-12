@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
   {{ partial "head.html" . }}
+
+  {{ with resources.Get "sass/main.scss"   }}
+      <style >{{ (. | toCSS).Content }}</style>
+  {{ end }}
   <script>
     function _redirect(siteBaseUrl) {
       var baseUrl = window.location.origin.replace(/\/$/, '');
@@ -10,10 +14,11 @@
     }
     _redirect('{{ .Site.BaseURL }}'.replace(/\/$/, ''));
   </script>
+
   <body>
-    {{ partial "nav.html" . }}
+    <!-- {{ partial "nav.html" . }} -->
     <!-- Page Header -->
-    {{ block "header" .}}
+    <!-- {{ block "header" .}} -->
     <!-- <header class="intro-header" style="background-image: url('{{ .Site.Params.header_image | relURL }}')">
         <div class="container">
             <div class="row">

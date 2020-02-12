@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  color: $text-color;
+  background-color: #f6f6ef;
+  @media (max-width: 600px) {
+    font-size: $small-font-size;
+  }
+}
+
+p {
+  text-align: left;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+  &.anchor {
+    color: $anchor-color;
+  }
+  &.anchor:hover {
+    color: $link-color;
+  }
+  &:not(.anchor):hover {
+    text-decoration: underline;
+  }
+  code {
+    color: $link-color;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $title-font-family;
+  font-weight: 800;
+  word-break: break-word;
+  color: #000
+}
+
+blockquote {
+  font-style: italic;
+  padding-left: 1rem;
+  border-left: 3px solid $border-color;
+}
+
+img, video {
+  border: 1px solid $border-color;
+  max-width: 100%;
+  height: auto;
+}
+
+.center, .center p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+figure {
+  margin: 1rem 0rem;
+}
+
+figcaption {
+  font-size: 0.75rem;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  max-width: 100%;
+  width: 100%;
+}
+
+th, td {
+  padding: 0.5rem;
+  line-height: inherit;
+}
+
+th {
+  text-align: left;
+  vertical-align: bottom;
+  border-bottom: 2px solid $border-color;
+}
+
+td {
+  vertical-align: top;
+  border-bottom: 1px solid $border-color;
+}
+
+pre, code {
+  overflow: auto;
+  border-radius: 3px;
+  font-family: $code-font-family;
+}
+
+pre {
+  display: block;
+  padding: 1.25rem;
+  font-size: 85%;
+}
+
+code {
+  background-color: rgba(0, 0, 0, 0.04);
+  padding: 0.09rem 0.125rem;
+  color: rgb(51, 51, 51);
+}

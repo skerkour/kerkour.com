@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+.site-container {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-header {
+  .site-title {
+    font-weight: 400;
+    > a {
+      color: $text-color;
+      text-decoration: none;
+      &:hover {
+        border-bottom: 2px solid #666;
+      }
+    }
+  }
+  .site-nav {
+    > a {
+      color: $text-color;
+      text-decoration: none;
+      &:hover {
+        border-bottom: 2px solid #666;
+      }
+      &.active {
+        border-bottom: 2px solid #666;
+      }
+      + a {
+        margin-left: 0.8rem;
+      }
+    }
+  }
+}
+
+// Flexbox sticky footer FTW! https://j.mp/1Lt1vzH
+.site-content {
+  flex: 1;
+  word-wrap: break-word;
+}
+
+.site-footer {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  color: $meta-color;
+  // font-size: $small-font-size;
+
+  > a {
+    color: lighten($link-color, 25%);
+  }
+}
+
+.posts {
+  list-style: none;
+  padding: 0;
+  > li {
+    line-height: 1.75;
+    span {
+      color: $meta-color;
+      margin-right: 1.5rem;
+      // font-size: $small-font-size;
+    }
+    a {
+      color: $text-color;
+      &:hover {
+        text-decoration: none;
+        border-bottom: 2px solid #666;
+      }
+    }
+  }
+}
+
+.post {
+  position: relative;
+  .post-header {
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .post-meta {
+    margin: 0;
+    text-align: center;
+    color: $meta-color;
+    // font-size: $small-font-size;
+  }
+}
+
+
+.about-whoiam {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-align: center;
+  p {
+    text-align: center;
+  }
+}

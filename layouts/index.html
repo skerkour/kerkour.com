@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div class="jumbotron bg-dark">
+<!-- <div class="jumbotron bg-dark">
   <div class="container text-center">
     <h1 class="display-3 text-white font-national2">{{ .Site.Title }}</h1>
     <p style="color: yellow"><i>{{ .Site.Params.DescriptionHtml | safeHTML }}</i></p>
@@ -30,6 +30,25 @@
       {{ partial "promo.html" . }}
     </div>
   </div>
-</div>
+</div> -->
+
+<body>
+  <div class='site-container'>
+    <header class='site-header'>
+      <h1 class='site-title'><a href='{{ .Site.BaseURL }}'>{{ .Site.Title }}</a></h1>
+      <nav class='site-nav'>
+
+      </nav>
+    </header>
+    <main class='site-content'>
+      {{ .Content }}
+    </main>
+    <!-- <footer class='site-footer'>
+      All the content on this website is licensed under the
+      <a rel="noopener noreferer" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/" >CC BY-SA 4.0 License</a><br/>
+      <a href='rss.xml'>RSS Feed</a>
+    </footer> -->
+  </div>
+</body>
 
 {{ end }}
