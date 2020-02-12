@@ -33,15 +33,7 @@
   <meta name="twitter:description" property="twitter:description" content="{{ .Site.Params.Description }}">
   <!-- <meta name="twitter:image" property="twitter:image" content="https://www.bloom.sh/static/imgs/og_image.png"> -->
 
-
-  <!-- {{ with .OutputFormats.Get "rss" -}}
-      {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-  {{ end -}} -->
-
   <!-- css -->
-  <!-- <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | relURL }}">
-  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
-  <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}"> -->
   {{ $styles := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
 
