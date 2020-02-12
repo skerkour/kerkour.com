@@ -2,14 +2,13 @@
 <html lang="{{ .Site.LanguageCode }}">
   {{ partial "head.html" . }}
   <script>
-    function _redirect(domain){
-      var hostname = location.hostname;
-      var path = location.pathname;
-      if (hostname != domain && hostname != 'localhost' && hostname != '127.0.0.1') {
-        location.href = 'https://' + domain + path;
+    function _redirect(siteBaseUrl) {
+      var baseUrl = window.location.origin.replace(/\/$/, '');
+      if (baseUrl != siteBaseUrl) {
+        location.href = '{{ .Site.BaseURL }}';
       }
     }
-    _redirect('kerkour.fr');
+    _redirect('{{ .Site.BaseURL }}'.replace(/\/$/, ''));
   </script>
   <body>
     {{ partial "nav.html" . }}
