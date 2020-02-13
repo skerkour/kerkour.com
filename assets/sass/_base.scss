@@ -19,12 +19,6 @@ p {
 a {
   color: $link-color;
   text-decoration: none;
-  &.anchor {
-    color: $anchor-color;
-  }
-  &.anchor:hover {
-    color: $link-color;
-  }
   &:not(.anchor):hover {
     text-decoration: underline;
   }

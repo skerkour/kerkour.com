@@ -16,7 +16,7 @@
       color: $text-color;
       text-decoration: none;
       &:hover {
-        border-bottom: 2px solid #666;
+        border-bottom: 2px solid $text-color;
       }
     }
   }
@@ -25,10 +25,10 @@
       color: $text-color;
       text-decoration: none;
       &:hover {
-        border-bottom: 2px solid #666;
+        border-bottom: 2px solid $text-color;
       }
       &.active {
-        border-bottom: 2px solid #666;
+        border-bottom: 2px solid $text-color;
       }
       + a {
         margin-left: 0.8rem;
@@ -52,10 +52,6 @@
   // font-size: $small-font-size;
 
   a {
-    text-decoration: none;
-    &:hover {
-      text-decoration: none;
-    }
     h1, h2, h3, h4, h5 {
       &:hover {
         text-decoration: underline;
@@ -93,4 +89,8 @@
 	// border: 1px solid $border-color;
 	// border-radius: 8px;
 	// padding: 20px;
+}
+
+.no-decoration, .no-decoration:hover {
+  text-decoration: none !important;
 }
