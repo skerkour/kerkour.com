@@ -2,11 +2,14 @@ baseURL = "https://kerkour.fr"
 languageCode = "en-us"
 title = "Sylvain Kerkour"
 disableHugoGeneratorInject = true
-
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "tags"]
 
 [markup.goldmark.renderer]
-  unsafe= true
+  unsafe = true
 
 [params]
   description = "The canonical web presence of Sylvain Kerkour, a tireless troublemaker on a mission to empower people with open technologies."
   descriptionHtml = "<s>Co0l kid W3b tEch Entr3pReneuR</s> Tireless troublemaker on a mission to empower people with open technologies."
+
+[outputs]
+  home     = ["HTML"]
