@@ -48,11 +48,19 @@
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 0.5rem;
-  color: $meta-color;
+  // color: $meta-color;
   // font-size: $small-font-size;
 
-  > a {
-    color: lighten($link-color, 25%);
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
+    h1, h2, h3, h4, h5 {
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 }
 
