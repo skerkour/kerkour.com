@@ -40,7 +40,8 @@ date = 2019-02-05T01:42:42+02:00
 * Le Bug humain: Pourquoi notre cerveau nous pousse à détruire la planète et comment l'en empêcher, *Sébastien Bohler*
 * The Knowledge: How to Rebuild Our World from Scratch, *Lewis Dartnell*
 * The 4-Hour Workweek: Escape 9-5, Live Anywhere, and Join the New Rich, *Timothy Ferriss*
-* dormez tranquiles jusqu'en 2100: et autres malentendus sur le climat et l'énergie, *Jean-Marc Jancovici*
+* Dormez tranquiles jusqu'en 2100: et autres malentendus sur le climat et l'énergie, *Jean-Marc Jancovici*
+* Les voraces, *Vincent Jauvert*
 
 ## Business
 
@@ -51,7 +52,12 @@ date = 2019-02-05T01:42:42+02:00
 * Deep Work: Rules for Focused Success in a Distracted World, *Cal Newport*
 * Rework, *Jason Fried*
 * Remote: Office Not Required, *Jason Fried*
-
+* Votre empire dans un sac-à-dos, *Stan Leloup*
+* Company of one, *Paul Jarvis*
+* The $100 startup, *Chris Guillebeau*
+* Make, *Pieter levels*
+* Tools of Titans, *Timothy Ferriss*
+* It Doesn't Have to Be Crazy at Work, *David Heinemeier Hansson & Jason Fried*
 
 ## Biographies
 
