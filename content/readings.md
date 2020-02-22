@@ -58,6 +58,7 @@ date = 2019-02-05T01:42:42+02:00
 * Make, *Pieter levels*
 * Tools of Titans, *Timothy Ferriss*
 * It Doesn't Have to Be Crazy at Work, *David Heinemeier Hansson & Jason Fried*
+* The innovator's dilemma, *Clayton Christensen*
 
 ## Biographies
 
