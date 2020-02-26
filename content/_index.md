@@ -18,9 +18,9 @@ I am also a frequent author on the
 <a href="https://fatalentropy.com" target="_blank" rel="noopener">Fatal Entropy blog</a>
 where I share strong opinions
 and crazy ideas on tech, entrepreneurship and everything in between. <br/>
-And finally I write for
+Finally I write for
 <a href="https://opensourceweekly.org" target="_blank" rel="noopener">OpenSourceWeekly.org</a>:
-a weekly newsletter of the best projects, people and articles on open source, curated by hand.
+a weekly newsletter of the best projects, people and articles on open source, lovely curated by hand.
 
 You can find me on GitLab [@z0mbie42](https://gitlab.com/z0mbie42)<br/>
 and on Twitter [@SylvainKerkour](https://twitter.com/@SylvainKerkour)<br/>
