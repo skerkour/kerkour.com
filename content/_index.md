@@ -13,9 +13,14 @@ INTJ,
 I cut my teeth on rugby fields, boxing rings, MMA tatamis and at <a href="https://www.42.fr" target="_blank" rel="noopener">42</a>.
 
 I am the creator of <a href="https://bloom.sh" target="_blank" rel="noopener">
-Bloom: An open source, privacy friendly and encrypted productivity app</a>.
-I am also a frequent author on the [Fatal Entropy blog](https://fatalentropy.com) where I share strong opinions
-and crazy ideas on tech, entrepreneurship and everything in between.
+Bloom: An open source, privacy friendly and encrypted productivity app</a>.<br/>
+I am also a frequent author on the
+<a href="https://fatalentropy.com" target="_blank" rel="noopener">Fatal Entropy blog</a>
+where I share strong opinions
+and crazy ideas on tech, entrepreneurship and everything in between. <br/>
+And finally I write for
+<a href="https://opensourceweekly.org" target="_blank" rel="noopener">OpenSourceWeekly.org</a>:
+a weekly newsletter of the best projects, people and articles on open source, curated by hand.
 
 You can find me on GitLab [@z0mbie42](https://gitlab.com/z0mbie42)<br/>
 and on Twitter [@SylvainKerkour](https://twitter.com/@SylvainKerkour)<br/>
