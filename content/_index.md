@@ -22,8 +22,8 @@ Finally, I am a frequent author on the
 where I share strong opinions
 and crazy ideas on tech, entrepreneurship and everything in between. <br/>
 
-You can find me on GitLab [@z0mbie42](https://gitlab.com/z0mbie42)<br/>
-and on Twitter [@SylvainKerkour](https://twitter.com/@SylvainKerkour)<br/>
+You can find me on Twitter [@SylvainKerkour](https://twitter.com/@SylvainKerkour)<br/>
+and on GitLab [@z0mbie42](https://gitlab.com/z0mbie42)<br/>
 
 Contact: <span id="email">Javascript is required to access email address</span>
 
