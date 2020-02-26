@@ -15,12 +15,12 @@ I cut my teeth on rugby fields, boxing rings, MMA tatamis and at <a href="https:
 
 My projects:
 * You no longer trust tech monopolies with your data? Me neither, this is why I built <a href="https://bloom.sh" target="_blank" rel="noopener">
-Bloom: An open source, privacy friendly and encrypted productivity app</a><br/>
+Bloom: An open source, privacy friendly and encrypted productivity app</a>.<br/>
 * <a href="https://opensourceweekly.org" target="_blank" rel="noopener">OpenSourceWeekly.org</a>:
-a weekly letter of the best projects, people and articles on open source, lovely curated by hand<br/>
+a weekly letter of the best projects, people and articles on open source, lovely curated by hand.<br/>
 * The <a href="https://fatalentropy.com" target="_blank" rel="noopener">Fatal Entropy blog</a>
 where I share strong opinions
-and crazy ideas on tech, entrepreneurship and everything in between <br/>
+and crazy ideas on tech, entrepreneurship and everything in between.<br/>
 
 You can find me on Twitter [@SylvainKerkour](https://twitter.com/@SylvainKerkour)<br/>
 and on GitLab [@z0mbie42](https://gitlab.com/z0mbie42)<br/>
