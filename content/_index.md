@@ -22,8 +22,9 @@ a weekly letter of the best projects, people and articles on open source, lovely
 where I share strong opinions
 and crazy ideas on tech, entrepreneurship and everything in between.<br/>
 
-You can find me on Twitter [@SylvainKerkour](https://twitter.com/@SylvainKerkour)<br/>
-and on GitLab [@z0mbie42](https://gitlab.com/z0mbie42)<br/>
+You can find me on Twitter
+<a href="https://twitter.com/@SylvainKerkour" target="_blank" rel="noopener">@SylvainKerkour</a><br/>
+and on GitLab <a href="https://gitlab.com/z0mbie42" target="_blank" rel="noopener">@z0mbie42</a><br/>
 
 Contact: <span id="email">Javascript is required to access email address</span>
 
