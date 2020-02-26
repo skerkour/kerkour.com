@@ -29,7 +29,7 @@ Contact: <span id="email">Javascript is required to access email address</span>
 
 <hr size="1" />
 
-If you like my work, you can help it level up:
+You like my work? You can help it level up:
 
 <div class="text-center" style="margin-bottom: 20px;">
   <a href="https://paypal.me/z0mbie42" target="_blank" rel="noopener">
