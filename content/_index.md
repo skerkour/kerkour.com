@@ -14,13 +14,13 @@ I cut my teeth on rugby fields, boxing rings, MMA tatamis and at <a href="https:
 
 I am the creator of <a href="https://bloom.sh" target="_blank" rel="noopener">
 Bloom: An open source, privacy friendly and encrypted productivity app</a>.<br/>
-I am also a frequent author on the
+Also, I write for
+<a href="https://opensourceweekly.org" target="_blank" rel="noopener">OpenSourceWeekly.org</a>:
+a weekly newsletter of the best projects, people and articles on open source, lovely curated by hand.<br/>
+Finally, I am a frequent author on the
 <a href="https://fatalentropy.com" target="_blank" rel="noopener">Fatal Entropy blog</a>
 where I share strong opinions
 and crazy ideas on tech, entrepreneurship and everything in between. <br/>
-Finally I write for
-<a href="https://opensourceweekly.org" target="_blank" rel="noopener">OpenSourceWeekly.org</a>:
-a weekly newsletter of the best projects, people and articles on open source, lovely curated by hand.
 
 You can find me on GitLab [@z0mbie42](https://gitlab.com/z0mbie42)<br/>
 and on Twitter [@SylvainKerkour](https://twitter.com/@SylvainKerkour)<br/>
