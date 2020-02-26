@@ -6,21 +6,21 @@ type = "page"
 +++
 <div class="text-center">
   <img src="/imgs/sylvain.jpg" alt="Sylvain Kerkour profile picture" class="sysy-pp"/>
-  <p class="text-center">Hey! I'm Sylvain Kerkour (<i>a.k.a</i> <b>z0mbie42</b>)  🙋‍♂️</p>
+  <p class="text-center">Hey! I'm Sylvain Kerkour<!-- (<i>a.k.a</i> <b>z0mbie42</b>) --> 🙋‍♂️</p>
 </div>
 
 INTJ,
 I cut my teeth on rugby fields, boxing rings, MMA tatamis and at <a href="https://www.42.fr" target="_blank" rel="noopener">42</a>.
 
-I am the creator of <a href="https://bloom.sh" target="_blank" rel="noopener">
-Bloom: An open source, privacy friendly and encrypted productivity app</a>.<br/>
-Also, I write for
-<a href="https://opensourceweekly.org" target="_blank" rel="noopener">OpenSourceWeekly.org</a>:
-a weekly letter of the best projects, people and articles on open source, lovely curated by hand.<br/>
-Finally, I am a frequent author on the
-<a href="https://fatalentropy.com" target="_blank" rel="noopener">Fatal Entropy blog</a>
+
+My projects:
+* You no longer trust tech monopolies with your data? This is why I built <a href="https://bloom.sh" target="_blank" rel="noopener">
+Bloom: An open source, privacy friendly and encrypted productivity app</a><br/>
+* <a href="https://opensourceweekly.org" target="_blank" rel="noopener">OpenSourceWeekly.org</a>:
+a weekly letter of the best projects, people and articles on open source, lovely curated by hand<br/>
+* The <a href="https://fatalentropy.com" target="_blank" rel="noopener">Fatal Entropy blog</a>
 where I share strong opinions
-and crazy ideas on tech, entrepreneurship and everything in between. <br/>
+and crazy ideas on tech, entrepreneurship and everything in between <br/>
 
 You can find me on Twitter [@SylvainKerkour](https://twitter.com/@SylvainKerkour)<br/>
 and on GitLab [@z0mbie42](https://gitlab.com/z0mbie42)<br/>
