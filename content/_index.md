@@ -16,7 +16,7 @@ I am the creator of <a href="https://bloom.sh" target="_blank" rel="noopener">
 Bloom: An open source, privacy friendly and encrypted productivity app</a>.<br/>
 Also, I write for
 <a href="https://opensourceweekly.org" target="_blank" rel="noopener">OpenSourceWeekly.org</a>:
-a weekly newsletter of the best projects, people and articles on open source, lovely curated by hand.<br/>
+a weekly letter of the best projects, people and articles on open source, lovely curated by hand.<br/>
 Finally, I am a frequent author on the
 <a href="https://fatalentropy.com" target="_blank" rel="noopener">Fatal Entropy blog</a>
 where I share strong opinions
