@@ -28,15 +28,15 @@ and on GitLab <a href="https://gitlab.com/z0mbie42" target="_blank" rel="noopene
 
 Contact: <span id="email">Javascript is required to access email address</span>
 
-<hr size="1" />
+<!-- <hr size="1" />
 
-You like my work? You can help it level up:
+You like my work? You can help it level up: -->
 
-<div class="text-center" style="margin-bottom: 20px;">
+<!-- <div class="text-center" style="margin-bottom: 20px;">
   <a href="https://paypal.me/z0mbie42" target="_blank" rel="noopener">
     <img src="/imgs/paypal_donate.gif" height="42" style="border: none;"/>
   </a>
-</div>
+</div> -->
 
 
 <!-- **BTC**: `38QY24nHRkMxUFsEDobwJU2b5QzuSL39Yb`
