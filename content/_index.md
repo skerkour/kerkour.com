@@ -15,7 +15,7 @@ I cut my teeth on rugby fields, boxing rings, MMA tatamis and at <a href="https:
 
 My projects:
 * You no longer trust tech monopolies with your data? Neither do I, this is why I built <a href="https://bloom.sh" target="_blank" rel="noopener">
-Bloom: An open source, privacy friendly and encrypted productivity app (Drive, Calendar, Contacts...)</a>.<br/>
+Bloom: An open source and encrypted productivity app (Drive, Calendar, Contacts...)</a>.<br/>
 * <a href="https://opensourceweekly.org" target="_blank" rel="noopener">OpenSourceWeekly.org</a>:
 a weekly letter of the best projects, people and articles on open source, lovely curated by hand.<br/>
 * The <a href="https://fatalentropy.com" target="_blank" rel="noopener">Fatal Entropy blog</a>
