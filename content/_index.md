@@ -23,8 +23,6 @@ where I share strong opinions
 and crazy ideas on tech, entrepreneurship and everything in between.<br/>
 
 You can find me on Mastodon <a href="https://social.kerkour.fr/@sylvain" target="_blank" rel="noopener">@sylvain@kerkour.fr</a><br/>
-on Twitter
-<a href="https://twitter.com/@SylvainKerkour" target="_blank" rel="noopener">@SylvainKerkour</a><br/>
 and on GitLab <a href="https://gitlab.com/z0mbie42" target="_blank" rel="noopener">@z0mbie42</a><br/>
 
 Contact: <span id="email">Javascript is required to access email address</span>
