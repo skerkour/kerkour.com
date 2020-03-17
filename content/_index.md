@@ -22,7 +22,7 @@ a weekly letter of the best projects, people and articles on open source, lovely
 where I share strong opinions
 and crazy ideas on tech, entrepreneurship and everything in between.<br/>
 
-You can find me on Mastodon <a href="https://social.kerkour.fr/@sylvain" target="_blank" rel="noopener">sylvain@kerkour.fr</a><br/>
+You can find me on Mastodon <a href="https://social.kerkour.fr/@sylvain" target="_blank" rel="noopener"><span id="mastodon">Javascript is required to access mastodon username</span></a><br/>
 and on GitLab <a href="https://gitlab.com/z0mbie42" target="_blank" rel="noopener">@z0mbie42</a><br/>
 
 Contact: <span id="email">Javascript is required to access email address</span>
@@ -50,6 +50,10 @@ You like my work? You can help it level up: -->
     var email = document.getElementById("email");
     if (email) {
         email.innerHTML = rot13('<n uers="znvygb:flyinva@xrexbhe.se">flyinva@xrexbhe.se</n>');
+    }
+    var mastodon = document.getElementById("mastodon");
+    if (mastodon) {
+        mastodon.innerHTML = rot13('<n uers="znvygb:flyinva@xrexbhe.se">flyinva@xrexbhe.se</n>');
     }
   });
   function rot13(s) {
