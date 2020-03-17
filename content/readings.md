@@ -61,6 +61,7 @@ date = 2019-02-05T01:42:42+02:00
 * The innovator's dilemma, *Clayton Christensen*
 * The ONE Thing, *Gary W. Keller & Jay Papasan*
 
+
 ## Biographies
 
 * Elon Musk: How the Billionaire CEO of SpaceX and Tesla is Shaping our Future, *Vance, Ashlee*
