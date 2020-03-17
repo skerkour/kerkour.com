@@ -53,7 +53,7 @@ You like my work? You can help it level up: -->
     }
     var mastodon = document.getElementById("mastodon");
     if (mastodon) {
-        mastodon.innerHTML = rot13('<n uers="znvygb:flyinva@xrexbhe.se">flyinva@xrexbhe.se</n>');
+        mastodon.innerHTML = rot13('flyinva@xrexbhe.se');
     }
   });
   function rot13(s) {
