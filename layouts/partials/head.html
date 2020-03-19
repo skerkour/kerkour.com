@@ -36,7 +36,7 @@
   <a rel="me" href="https://social.kerkour.fr/@sylvain" style="display: none;">Mastodon</a>
 
   <!-- css -->
-  {{ $styles := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
-  <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
-
+  {{ with resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
+    <style>{{ .Content | safeCSS }}</style>
+  {{ end }}
 </head>
