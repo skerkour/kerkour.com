@@ -25,7 +25,7 @@ and crazy ideas on tech, entrepreneurship and everything in between.<br/>
 You can find me on Mastodon <a href="https://social.kerkour.fr/@sylvain" target="_blank" rel="noopener"><span id="mastodon">Javascript is required to access mastodon username</span></a><br/>
 and on GitLab <a href="https://gitlab.com/z0mbie42" target="_blank" rel="noopener">@z0mbie42</a><br/>
 
-Contact: <span id="email">Javascript is required to access email address</span>
+Contact: <span id="email">Javascript is required to access email address</span> (public key: [0998ae9fcae05245bc84d776cc3e866219f64707](/publickey.txt))
 
 <!-- <hr size="1" />
 
