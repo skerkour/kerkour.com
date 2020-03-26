@@ -15,9 +15,6 @@ header {
     > a {
       color: $text-color;
       text-decoration: none;
-      // &:hover {
-      //   border-bottom: 2px solid $text-color;
-      // }
     }
   }
   nav {
@@ -78,10 +75,10 @@ footer {
 
 
 .lightbox {
-	/** Default lightbox to hidden */
+	/* Default lightbox to hidden */
 	display: none;
 
-	/** Position and style */
+	/* Position and style */
 	position: fixed;
 	z-index: 999;
 	width: 100%;
@@ -93,16 +90,16 @@ footer {
 }
 
 .lightbox img {
-	/** Pad the lightbox image */
+	/* Pad the lightbox image */
 	max-width: 90%;
 	max-height: 80%;
 	margin-top: 2%;
 }
 
 .lightbox:target {
-	/** Remove default browser outline */
+	/* Remove default browser outline */
 	outline: none;
 
-	/** Unhide lightbox **/
+	/* Unhide lightbox **/
 	display: block;
 }
