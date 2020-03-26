@@ -27,24 +27,6 @@ and on GitLab <a href="https://gitlab.com/z0mbie42" target="_blank" rel="noopene
 
 Contact: <span id="email">Javascript is required to access email address</span> (public key: [0998ae9fcae05245bc84d776cc3e866219f64707](/publickey.txt))
 
-<!-- <hr size="1" />
-
-You like my work? You can help it level up: -->
-
-<!-- <div class="text-center" style="margin-bottom: 20px;">
-  <a href="https://paypal.me/z0mbie42" target="_blank" rel="noopener">
-    <img src="/imgs/paypal_donate.gif" height="42" style="border: none;"/>
-  </a>
-</div> -->
-
-
-<!-- **BTC**: `38QY24nHRkMxUFsEDobwJU2b5QzuSL39Yb`
-
-**ETH**: `0x5121FE2A1014C4d57FCD2E8C4134A179851aFe6F`
-
-**XMR**: `4GdoN7NCTi8a5gZug7PrwZNKjvHFmKeV11L6pNJPgj5QNEHsN6eeX3DaAQFwZ1ufD4LYCZKArktt113W7QjWvQ7CW7fRk3auob6QWFSgYJ` -->
-
-
 <script type="text/javascript">
   window.addEventListener("load", function(){
     var email = document.getElementById("email");
