@@ -13,9 +13,9 @@
     _redirect('kerkour.fr');
   </script>
 
-  <body class="site-container">
-    <header class="site-header">
-      <h1 class="site-title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+  <body>
+    <header>
+      <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
       {{ partial "nav.html" . }}
     </header>
 
@@ -23,6 +23,8 @@
       {{ block "main" . }} {{ end }}
     </main>
 
-    {{ partial "footer.html" . }}
+    <footer>
+      {{ partial "footer.html" . }}
+    </footer>
   </body>
 </html>

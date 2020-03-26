@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-.site-container {
+body {
   max-width: 48rem;
   margin: 0 auto;
   padding: 0 2rem;
@@ -9,24 +9,21 @@
   flex-direction: column;
 }
 
-.site-header {
-  .site-title {
+header {
+  h1 {
     font-weight: 400;
     > a {
       color: $text-color;
       text-decoration: none;
-      &:hover {
-        border-bottom: 2px solid $text-color;
-      }
+      // &:hover {
+      //   border-bottom: 2px solid $text-color;
+      // }
     }
   }
-  .site-nav {
+  nav {
     > a {
       color: $text-color;
       text-decoration: none;
-      &:hover {
-        border-bottom: 2px solid $text-color;
-      }
       &.active {
         border-bottom: 2px solid $text-color;
       }
@@ -38,13 +35,13 @@
 }
 
 // Flexbox sticky footer FTW! https://j.mp/1Lt1vzH
-.site-content {
+main {
   flex: 1;
   word-wrap: break-word;
   margin-top: 21px;
 }
 
-.site-footer {
+footer {
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 0.5rem;
