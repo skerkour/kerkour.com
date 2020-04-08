@@ -13,7 +13,7 @@ INTJ,
 I cut my teeth on rugby fields, boxing rings, MMA tatamis and at <a href="https://www.42.fr" target="_blank" rel="noopener">42</a>.
 
 
-## My Projects
+## My Projects 🚀
 
 * You no longer trust tech monopolies with your data? Neither do I, this is why I built <a href="https://bloom.sh" target="_blank" rel="noopener">
 Bloom: An open source and encrypted productivity app (Drive, Calendar, Contacts...)</a>.<br/>
@@ -25,7 +25,7 @@ and crazy ideas on tech, entrepreneurship and everything in between.<br/>
 
 
 
-## Social
+## Social 🐣
 
 You can find me on Mastodon <a href="https://social.kerkour.fr/@sylvain" target="_blank" rel="noopener"><span id="mastodon">Javascript is required to access mastodon username</span></a><br/>
 and on GitLab <a href="https://gitlab.com/z0mbie42" target="_blank" rel="noopener">@z0mbie42</a><br/>
