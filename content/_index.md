@@ -27,7 +27,7 @@ and crazy ideas on tech, entrepreneurship and everything in between.<br/>
 
 ## Social 🐣
 
-Email: <span id="email">Javascript is required to access email address</span> (public key: [0998ae9fcae05245bc84d776cc3e866219f64707](/publickey.txt))
+Email: <span id="email">Javascript is required to access email address</span> (public key: [0998 AE9F CAE0 5245 BC84 D776 CC3E 8662 19F6 4707](/publickey.txt))
 
 GitLab: <a href="https://gitlab.com/sylvain_kerkour" target="_blank" rel="noopener">@sylvain_kerkour</a><br/>
 
