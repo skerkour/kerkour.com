@@ -33,6 +33,10 @@
   <meta name="twitter:description" property="twitter:description" content="{{ .Site.Params.Description }}">
   <!-- <meta name="twitter:image" property="twitter:image" content="https://www.bloom.sh/static/imgs/og_image.png"> -->
 
+  <link rel="canonical" href="{{ .Permalink }}" />
+  <link rel="alternate" hreflang="en" href="{{ .Permalink }}" />
+  <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}" />
+
   <!-- css -->
   {{ with resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
     <style>{{ .Content | safeCSS }}</style>
