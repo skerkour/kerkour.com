@@ -12,7 +12,7 @@ type = "page"
 INTJ,
 I cut my teeth on rugby fields, boxing rings, MMA tatamis and at <a href="https://www.42.fr" target="_blank" rel="noopener">42</a>.
 
-I'm into minimalist living, challenging the status quo and various outdoor activities like biking
+I'm a into minimalist living, challenging the status quo, bookworming and various outdoor activities like biking
 and long distance running.
 
 ## My Projects 🚀
