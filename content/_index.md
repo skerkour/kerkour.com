@@ -27,7 +27,7 @@ and crazy ideas on tech, open source, entrepreneurship and everything in between
 
 ## Social 🐣
 
-You won't find me on social networks because they are too noisy and time sucking. However, feed free to
+You won't find me on social networks because they are too noisy and time sucking. However, feel free to
 conatct me by email: <span id="email">Javascript is required to access email address</span> (public key: [0998 AE9F CAE0 5245 BC84 D776 CC3E 8662 19F6 4707](/publickey.txt))
 
 
