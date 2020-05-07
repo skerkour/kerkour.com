@@ -12,6 +12,7 @@ type = "page"
 INTJ,
 I cut my teeth on rugby fields, boxing rings, MMA tatamis and at <a href="https://www.42.fr" target="_blank" rel="noopener">42</a>.
 
+I'm into minimalist living and challenging the status quo.
 
 ## My Projects 🚀
 
@@ -25,9 +26,8 @@ and crazy ideas on tech, open source, entrepreneurship and everything in between
 
 ## Social 🐣
 
-Email: <span id="email">Javascript is required to access email address</span> (public key: [0998 AE9F CAE0 5245 BC84 D776 CC3E 8662 19F6 4707](/publickey.txt))
-
-GitLab: <a href="https://gitlab.com/sylvain_kerkour" target="_blank" rel="noopener">@sylvain_kerkour</a><br/>
+You won't find me on social networks because they are too noisy and time sucking. However, feed free to
+conatct me by email: <span id="email">Javascript is required to access email address</span> (public key: [0998 AE9F CAE0 5245 BC84 D776 CC3E 8662 19F6 4707](/publickey.txt))
 
 
 <script type="text/javascript">
