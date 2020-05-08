@@ -1,10 +1,13 @@
 @charset "utf-8";
 
-$base-font-family:  'Times New Roman', serif;
-$title-font-family: arial, sans-serif;
+@import "const.scss";
+
+
+$base-font-family:  $font-family-sans-serif;
+$title-font-family: $font-family-sans-serif;
 $code-font-family:  monospace;
-$base-font-size:    20px;
-$small-font-size:   18px;
+$base-font-size:    18px;
+$small-font-size:   16px;
 $base-line-height:  1.5;
 
 $text-color:   #333;
