@@ -8,7 +8,7 @@ disableKinds = ["section", "taxonomy", "taxonomyTerm", "tags"]
   unsafe = true
 
 [params]
-  description = "The canonical web presence of Sylvain Kerkour, creator of Bloom."
+  description = "The canonical web presence of Sylvain Kerkour, creator of Bloom and author of FatalEntropy.com"
 
 [outputs]
   home     = ["HTML"]
