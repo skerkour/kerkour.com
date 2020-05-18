@@ -15,7 +15,7 @@ I cut my teeth on rugby fields, boxing rings, MMA tatamis and at <a href="https:
 I'm a into minimalism, bookworming, challenging the statu quo and various outdoor activities like biking
 and long distance running.
 
-## My Projects 🚀
+## Projects 🚀
 
 * You no longer trust tech monopolies with your data? Neither do I, this is why I built <a href="https://bloom.sh" target="_blank" rel="noopener">
 Bloom: An open source and encrypted productivity app (Files, Notes, Calendar, Contacts...)</a>.<br/>
