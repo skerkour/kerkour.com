@@ -6,6 +6,9 @@
      function _redirect(domain){
       var hostname = location.hostname;
       var path = location.pathname;
+      if (path.startsWith('/blog')) {
+        location.href = 'https://fatalentrop.com' + path.replace('/blog', '');
+      }
       if (hostname != domain && hostname != 'localhost' && hostname != '127.0.0.1') {
         location.href = 'https://' + domain + path;
       }
