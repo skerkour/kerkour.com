@@ -21,7 +21,7 @@ and long distance running.
 Bloom: An open source and encrypted productivity app (Files, Notes, Calendar, Contacts...)</a>.<br/>
 * The <a href="https://fatalentropy.com" target="_blank" rel="noopener">Fatal Entropy blog</a>
 where I share strong opinions
-and crazy ideas on tech, open source, entrepreneurship and everything in between.<br/>
+and crazy ideas on Open source, entrepreneurship, sustainability and everything in between.<br/>
 
 
 
