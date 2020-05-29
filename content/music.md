@@ -7,6 +7,7 @@ type = "page"
 
 ## Music
 
+* MC Solaar
 * Kery James
 * Hugo TSR
 * Sofiane
