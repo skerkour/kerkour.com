@@ -26,7 +26,7 @@ date = 2019-02-05T01:42:42+02:00
 * Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems, *Martin Kleppmann*
 * The architecture of privacy, *Courtney Bowman, Ari Gesher, John K. Grant & Daniel Slate*
 * Serious Cryptography, A Practical Introduction to Modern Encryption, *Jean-Philippe Aumasson*
-
+* The Hardware Hacker: Adventures in Making and Breaking Hardware, *Andrew Bunnie Huang*
 
 ## Humanities
 
