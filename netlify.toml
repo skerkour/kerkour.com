@@ -9,13 +9,24 @@
 ####################################################################################################
 
 [[redirects]]
-  from = "https://fatalentropy.com/*"
-  to = "https://www.fatalentropy.com/:splat"
+  from = "https://kerkour.fr/*"
+  to = "https://www.kerkour.fr/:splat"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/*"
   to = "https://www.fatalentropy.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://kerkour.com/*"
+  to = "https://www.kerkour.fr/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.kerkour.com/*"
+  to = "https://www.kerkour.fr/:splat"
   status = 301
   force = true
