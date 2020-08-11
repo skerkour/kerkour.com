@@ -1,0 +1,21 @@
+[Settings]
+
+[build]
+  publish = "public/"
+
+
+####################################################################################################
+### www.kerkour.fr
+####################################################################################################
+
+[[redirects]]
+  from = "https://fatalentropy.com/*"
+  to = "https://www.fatalentropy.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/*"
+  to = "https://www.fatalentropy.com/:splat"
+  status = 301
+  force = true

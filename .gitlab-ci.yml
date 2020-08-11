@@ -1,8 +1,14 @@
 variables:
+  NODE_IMAGE: node:latest
   GO_IMAGE: golang:latest
-  HUGO_VERSION: 0.64.0
+  HUGO_VERSION: 0.71.0
 
-pages:
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
   image: $GO_IMAGE
   only:
     - master
@@ -10,6 +16,27 @@ pages:
     - wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.deb
     - dpkg -i hugo_extended_${HUGO_VERSION}_Linux-64bit.deb
     - make build
+  artifacts:
+    paths:
+    - public
+
+netlify:
+  stage: deploy
+  image: $NODE_IMAGE
+  script:
+    - npm i -g netlify-cli
+    - netlify --telemetry-disable
+    - netlify deploy --site ${NETLIFY_SITE_ID} --auth ${NETLIFY_AUTH_TOKEN} --prod
+  only:
+    - master
+
+
+pages:
+  stage: deploy
+  image: $GO_IMAGE
+  only:
+    - master
+  script:
     - make gzip
   artifacts:
     paths:

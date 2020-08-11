@@ -2,20 +2,6 @@
 <html lang="{{ .Site.LanguageCode }}">
   {{ partial "head.html" . }}
   <body>
-    <script>
-      function _redirect(domain){
-       var hostname = location.hostname;
-       var path = location.pathname;
-       if (path.startsWith('/blog')) {
-         location.href = 'https://fatalentropy.com' + path.replace('/blog', '');
-       }
-       if (hostname != domain && hostname != 'localhost' && hostname != '127.0.0.1') {
-         location.href = 'https://' + domain + path;
-       }
-     }
-     _redirect('kerkour.fr');
-   </script>
-
     <header>
       <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
       {{ partial "nav.html" . }}
