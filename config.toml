@@ -1,4 +1,4 @@
-baseURL = "https://www.kerkour.fr"
+baseURL = "https://kerkour.fr"
 languageCode = "en-us"
 title = "Sylvain Kerkour"
 disableHugoGeneratorInject = true
