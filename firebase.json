@@ -1,0 +1,49 @@
+{
+  "hosting": {
+    // Drops `.html` from uploaded URLs
+    "cleanUrls": true,
+    "public": "public",
+    // Removes trailing slashes from URLs
+    "trailingSlash": false,
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      ".git/",
+      ".git*"
+    ],
+    "redirects": [
+      {
+        "source": "https://www.kerkour.fr/:path*",
+        "destination": "https://kerkour.fr/:path",
+        "type": 301
+      },
+      {
+        "source": "https://www.kerkour.com/:path*",
+        "destination": "https://kerkour.fr/:path",
+        "type": 301
+      },
+      {
+        "source": "https://kerkour.com/:path*",
+        "destination": "https://kerkour.fr/:path",
+        "type": 301
+      },
+      {
+        "source": "/blog/:post*",
+        "destination": "https://www.fatalentropy.com/:post",
+        "type": 301
+      }
+    ],
+    "headers": [
+      {
+        "source": "**/*.@(eot|otf|ttf|ttc|woff|css|js|png|jpg|jpeg|gif|tiff)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=3600, s-maxage=172800"
+          }
+        ]
+      }
+    ]
+  }
+}
