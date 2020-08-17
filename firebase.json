@@ -36,11 +36,20 @@
     ],
     "headers": [
       {
+        "source": "**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=0, s-maxage=31536000"
+          }
+        ]
+      },
+      {
         "source": "**/*.@(eot|otf|ttf|ttc|woff|css|js|png|jpg|jpeg|gif|tiff)",
         "headers": [
           {
             "key": "Cache-Control",
-            "value": "public, max-age=3600, s-maxage=172800"
+            "value": "public, max-age=3600, s-maxage=31536000"
           }
         ]
       }
