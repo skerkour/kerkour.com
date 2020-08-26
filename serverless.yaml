@@ -1,0 +1,25 @@
+service: skerkour-kerkourfr
+
+frameworkVersion: '>=1.28.0 <2.0.0'
+
+provider:
+  name: aws
+  stage: ${opt:stage, 'production'} # Set the default stage used. Default is production
+  runtime: go1.x
+  region: eu-west-1
+  versionFunctions: false
+  httpApi:
+    payload: '1.0'
+  logRetentionInDays: 14
+
+package:
+  artifact: dist/blog.zip
+
+functions:
+  kerkourfr:
+    memorySize: 128
+    timeout: 8
+    reservedConcurrency: 25
+    handler: server
+    events:
+      - httpApi: '*'

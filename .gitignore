@@ -25,3 +25,5 @@ resources/_gen/
 
 # Local Netlify folder
 .netlify
+.serverless
+dist
