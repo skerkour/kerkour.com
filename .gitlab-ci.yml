@@ -20,25 +20,6 @@ build:
     paths:
     - public
 
-# netlify:
-#   stage: deploy
-#   image: $NODE_IMAGE
-#   script:
-#     - npm i -g netlify-cli
-#     - netlify --telemetry-disable
-#     - netlify deploy --site ${NETLIFY_SITE_ID} --auth ${NETLIFY_AUTH_TOKEN} --prod
-#   only:
-#     - master
-
-firebase:
-  stage: deploy
-  image: $NODE_IMAGE
-  only:
-    - master
-  script:
-    - npm install -g firebase-tools
-    - firebase deploy --only hosting -m "Commit $CI_COMMIT_SHA" -P ${FIREBASE_PROJECT} --token ${FIREBASE_TOKEN}
-
 pages:
   stage: deploy
   image: $GO_IMAGE
@@ -49,3 +30,23 @@ pages:
   artifacts:
     paths:
     - public
+
+# netlify:
+#   stage: deploy
+#   image: $NODE_IMAGE
+#   script:
+#     - npm i -g netlify-cli
+#     - netlify --telemetry-disable
+#     - netlify deploy --site ${NETLIFY_SITE_ID} --auth ${NETLIFY_AUTH_TOKEN} --prod
+#   only:
+#     - master
+
+# firebase:
+#   stage: deploy
+#   image: $NODE_IMAGE
+#   only:
+#     - master
+#   script:
+#     - npm install -g firebase-tools
+#     - firebase deploy --only hosting -m "Commit $CI_COMMIT_SHA" -P ${FIREBASE_PROJECT} --token ${FIREBASE_TOKEN}
+
