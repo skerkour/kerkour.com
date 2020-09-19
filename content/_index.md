@@ -28,4 +28,4 @@ and crazy ideas on Open source, entrepreneurship, sustainability and everything 
 ## Social 🐣
 
 You won't find me on social networks because they are too noisy and time sucking. However,
-if you want to contact me, you can through Bloom: <a href="https://bloom.sh/contact" target="_blank" rel="noopener">https://bloom.sh/contact</a>
+if you want to contact me, you can through Bloom: <a href="https://bloom.sh/contact" target="_blank" rel="noopener">bloom.sh/contact</a>
