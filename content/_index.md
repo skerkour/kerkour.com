@@ -27,23 +27,5 @@ and crazy ideas on Open source, entrepreneurship, sustainability and everything 
 
 ## Social 🐣
 
-You won't find me on social networks because they are too noisy and time sucking. However, feel free to
-conatct me by email: <span id="email">Javascript is required to access email address</span> (public key: [0998 AE9F CAE0 5245 BC84 D776 CC3E 8662 19F6 4707](/publickey.txt))
-
-
-<script type="text/javascript">
-  window.addEventListener("load", function(){
-    var email = document.getElementById("email");
-    if (email) {
-        email.innerHTML = rot13('<n uers="znvygb:flyinva@xrexbhe.se">flyinva@xrexbhe.se</n>');
-    }
-  });
-  function rot13(s) {
-    return (s ? s : this).split('').map(function(_){
-      if (!_.match(/[A-Za-z]/)) return _;
-      c = Math.floor(_.charCodeAt(0) / 97);
-      k = (_.toLowerCase().charCodeAt(0) - 83) % 26 || 26;
-      return String.fromCharCode(k + ((c == 0) ? 64 : 96));
-    }).join('');
-  }
-</script>
+You won't find me on social networks because they are too noisy and time sucking. However, you can still
+contact me through Bloom: <a href="https://bloom.sh/contact" target="_blank" rel="noopener">https://bloom.sh/contact</a>
