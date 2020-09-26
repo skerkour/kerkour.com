@@ -1,4 +1,4 @@
-module gitlab.com/skerkour/kerkour.fr
+module github.com/skerkour/kerkour.fr
 
 go 1.15
 
