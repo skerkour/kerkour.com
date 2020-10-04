@@ -8,8 +8,8 @@ type = "page"
 ## Music
 
 * MC Solaar
-* Scylla
 * Kery James
 * Hugo TSR
-* Sofiane
 * Keny Arkana
+* Sofiane
+* Scylla
