@@ -24,11 +24,6 @@ RUN adduser \
     --uid "${UID}" \
     "${USER}"
 
-# WORKDIR /hugo
-# RUN git clone https://github.com/gohugoio/hugo.git
-# WORKDIR /hugo/hugo
-# RUN go install --tags extended
-
 
 WORKDIR /skerkour
 
