@@ -7,7 +7,7 @@ FROM golang:alpine AS builder_go
 # Install git + SSL ca certificates.
 # Git is required for fetching the dependencies.
 # Ca-certificates is required to call HTTPS endpoints.
-RUN apk update && apk add --no-cache git ca-certificates make
+RUN apk update && apk add --no-cache git ca-certificates make gcc
 RUN update-ca-certificates
 
 # Create appuser
