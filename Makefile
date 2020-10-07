@@ -2,6 +2,8 @@ DIST_DIR = dist
 PUBLIC_DIR = public
 SERVER_BIN = server
 LAMBDA_ZIP = blog.zip
+DOCKER_IMAGE = ghcr.io/skerkour/kerkour.fr
+
 
 .PHONY: all
 all: build
@@ -12,7 +14,7 @@ build: clean
 	mkdir -p dist
 	GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go build -ldflags="-s -w" -o $(DIST_DIR)/$(SERVER_BIN) main.go
 	cp -r $(PUBLIC_DIR) $(DIST_DIR)
-	cd $(DIST_DIR) && zip -r $(LAMBDA_ZIP) .
+	# cd $(DIST_DIR) && zip -r $(LAMBDA_ZIP) .
 
 .PHONY: dev
 dev:
@@ -42,3 +44,7 @@ deploy:
 .PHONY: tidy
 tidy:
 	go mod tidy
+
+.PHONY: docker
+docker:
+	docker build -t $(DOCKER_IMAGE):latest .
