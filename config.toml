@@ -9,6 +9,18 @@ disableKinds = ["section", "taxonomy", "taxonomyTerm", "tags"]
 
 [params]
   description = "Strong opinions and crazy ideas on open source, minimalism, sustainability and everything in between. By Sylvain Kerkour, creator of Bloom."
+  git = "https://github.com/skerkour/kerkour.fr"
+  ogimage = "https://www.fatalentropy.com/imgs/og_image.jpg"
+
+
+[outputFormats.jsonfeed]
+  mediaType = "application/json"
+  baseName = "feed"
+  isPlainText = true
+
+[outputFormats.RSS]
+  mediatype = "application/rss"
+  baseName = "feed"
 
 [outputs]
-  home     = ["HTML"]
+  home = ["HTML", "RSS", "jsonfeed"]

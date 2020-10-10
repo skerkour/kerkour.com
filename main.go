@@ -64,7 +64,12 @@ func RedirectMiddleware(next http.Handler) http.Handler {
 		// 	path := strings.TrimPrefix(r.URL.Path, "/blog")
 		// 	http.Redirect(w, r, "https://kerkour.fr"+path, http.StatusMovedPermanently)
 		// } else {
-		next.ServeHTTP(w, r)
+		path := strings.ToLower(r.URL.Path)
+		if path == "/index.xml" {
+			http.Redirect(w, r, "/feed.xml", http.StatusMovedPermanently)
+		} else {
+			next.ServeHTTP(w, r)
+		}
 		// }
 	}
 
