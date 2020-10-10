@@ -30,7 +30,7 @@
       },
       {
         "source": "/blog/:post*",
-        "destination": "https://www.fatalentropy.com/:post",
+        "destination": "https://www.kerkour.fr/:post",
         "type": 301
       }
     ],

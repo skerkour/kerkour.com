@@ -11,7 +11,7 @@ I’ll write you once a week about open source, sustainability and avoiding comp
 
 
 <noscript>
-  <strong>We're sorry but Fatal Entropy doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+  <strong>We're sorry but this website doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
 </noscript>
 
 <div id="fe-alert"></div>

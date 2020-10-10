@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.fatalentropy.com/sitemap.xml
+Sitemap: https://www.kerkour.fr/sitemap.xml

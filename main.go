@@ -60,12 +60,12 @@ func CaheHeadersMiddleware(h http.Handler) http.Handler {
 
 func RedirectMiddleware(next http.Handler) http.Handler {
 	fn := func(w http.ResponseWriter, r *http.Request) {
-		if strings.HasPrefix(r.URL.Path, "/blog") {
-			path := strings.TrimPrefix(r.URL.Path, "/blog")
-			http.Redirect(w, r, "https://fatalentropy.com"+path, http.StatusMovedPermanently)
-		} else {
-			next.ServeHTTP(w, r)
-		}
+		// if strings.HasPrefix(r.URL.Path, "/blog") {
+		// 	path := strings.TrimPrefix(r.URL.Path, "/blog")
+		// 	http.Redirect(w, r, "https://kerkour.fr"+path, http.StatusMovedPermanently)
+		// } else {
+		next.ServeHTTP(w, r)
+		// }
 	}
 
 	return http.HandlerFunc(fn)

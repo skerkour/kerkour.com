@@ -16,7 +16,7 @@
 
 [[redirects]]
   from = "/blog/*"
-  to = "https://www.fatalentropy.com/:splat"
+  to = "https://www.kerkour.fr/:splat"
   status = 301
   force = true
 
