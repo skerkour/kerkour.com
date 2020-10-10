@@ -39,4 +39,4 @@ if you want to contact me, you can through Bloom: <a href="https://bloom.sh/cont
 
 ## Music 🎶
 
-[Here](/readings/)
+[Here](/music/)
