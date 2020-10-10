@@ -1,0 +1,15 @@
+{{ define "main" -}}
+<div>
+  <div>
+    <div class="text-center">
+
+      <img src="{{ "imgs/404.svg" | relURL }}" />
+
+        <h1>Page not found</h1>
+
+        <h3><i><a href="{{ .Site.BaseURL }}">Back to Home</a></i></h3>
+
+    </div>
+  </div>
+</div>
+{{- end }}

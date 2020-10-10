@@ -1,0 +1,29 @@
+<article>
+  <h1 class="center">{{ .Title }}</h1>
+
+  <p class="post-meta">
+    <span><a href="https://kerkour.fr">{{ index .Params.authors 0 }}</a></span>
+    /
+    <time datetime={{ .Date.Format "2006-01-02T15:04:05Z0700" }}>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+  </p>
+
+  <div class="center">
+    <h3><a href="/subscribe"><button type="button">Subscribe</button></a></h3>
+    <small>
+      I’ll write you once a week on open source, sustainability and avoiding complexity. <br />
+      You can subscribe by Email, RSS or Mastodon
+    </small>
+  </div>
+
+  <div>
+    {{ .Content }}
+  </div>
+
+  <div class="center">
+    <h3><a href="/subscribe"><button type="button">Subscribe</button></a></h3>
+    <small>
+      I’ll write you once a week on open source, sustainability and avoiding complexity. <br />
+      You can subscribe by Email, RSS or Mastodon
+    </small>
+  </div>
+</article>

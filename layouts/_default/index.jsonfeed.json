@@ -1,0 +1,25 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "{{ .Site.Title }}",
+  "home_page_url": "{{ .Permalink }}",
+  "feed_url": "{{ .Permalink }}feed.json",
+  "description": "{{ .Site.Params.Description }}",
+  "language": "en",
+  "author": {
+    "contact": "{{ .Site.Author.email }}",
+    "name": "{{ .Site.Author.name }}"
+  },
+  "items": [ {{ range $index, $item :=  (where (where .Site.Pages "Type" "post") "IsPage" true) }}{{if $index}}, {{end}}
+     {
+      "id": "{{ .Permalink }}",
+      "title": "{{ .Title }}",
+      "url": "{{ if isset .Params "redirect" }}{{ .Params.redirect }}{{ else }}{{ .Permalink }}{{ end }}",
+      "content_html": "{{ replace .Content "\n" "\\n" | replaceRE "\\\\[^n]" "\\\\" | replaceRE "\"" "\\\"" | replaceRE "\t" "\\t"}}{{ if isset .Params "redirect" }}<p><a href=\"{{ .Permalink }}\">Read on site</a></p>{{ end }}",
+      "summary": "{{ replace .Summary "\n" "\\n" | replaceRE "\\\\[^n]" "\\\\" | replaceRE "\"" "\\\"" | replaceRE "\t" "\\t" }}",
+      {{ range $taxonomy := .Params.categories }}"banner_image": "https://ig.nore.me/img/categories/category-{{ $taxonomy | urlize }}-full.jpg",{{ end }}
+      {{ if isset .Params "ogimage" }}"image": "{{ .Params.ogimage }}",{{ end }}
+      "date_published": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+      "date_modified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}"
+    }{{ end }}
+  ]
+}

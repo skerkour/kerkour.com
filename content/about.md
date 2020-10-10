@@ -19,7 +19,8 @@ and long distance running.
 
 * You no longer trust tech monopolies with your data? Neither do I, this is why I built <a href="https://bloom.sh" target="_blank" rel="noopener">
 Bloom: An open source and encrypted productivity app (Files, Notes, Calendar, Contacts...)</a>.<br/>
-* The <a href="https://fatalentropy.com" target="_blank" rel="noopener">Fatal Entropy blog</a>
+
+* This website
 where I share strong opinions
 and crazy ideas on Open source, entrepreneurship, sustainability and everything in between.<br/>
 
@@ -29,3 +30,13 @@ and crazy ideas on Open source, entrepreneurship, sustainability and everything 
 
 You won't find me on social networks because they are too noisy and time sucking. However,
 if you want to contact me, you can through Bloom: <a href="https://bloom.sh/contact" target="_blank" rel="noopener">bloom.sh/contact</a>
+
+
+## Reading list 📖
+
+[Here](/readings/)
+
+
+## Music 🎶
+
+[Here](/readings/)

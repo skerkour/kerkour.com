@@ -1,7 +1,10 @@
 {{ define "main" }}
 
-<div >
-  {{ .Content }}
-</div>
+{{ $types := slice "" }}
+{{ $paginator := .Paginate (where (where .Site.Pages "Type" "post") "IsPage" true) }}
+
+{{ partial "post_list.html" . }}
+{{ partial "pagination.html" . }}
+
 
 {{ end }}

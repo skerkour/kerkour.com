@@ -1,0 +1,116 @@
+@import "theme.scss";
+
+nav {
+  .active {
+    text-decoration: underline;
+  }
+}
+
+.entry-title {
+  color: $font-color;
+  a, a:visited {
+    color: $font-color;
+    text-decoration: none;
+  }
+}
+
+
+.center, .center p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.left, .left p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.post-meta {
+  margin: 0;
+  text-align: center;
+  color: #8a8a8a;
+  font-size: $font-size-base + 1px;
+}
+
+.read-more {
+  margin: 21px 0;
+  font-weight: bold;
+}
+
+.pagination {
+  font-weight: bold;
+  margin: 21px 0px;
+}
+
+.loader {
+  border: 8px solid #f3f3f3; /* Light grey */
+  border-top: 8px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.subscribe-form {
+  margin-top: 10px;
+  // margin-bottom: 20px;
+  input, button {
+    margin-bottom: 17px;
+    margin-top: 10px;
+  }
+
+  @media (max-width: 600px) {
+    input {
+      margin-bottom: 8px;
+    }
+  }
+}
+
+
+.alert {
+  border-radius: $border-radius;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+}
+
+.alert-info {
+  color: #004085;
+  background-color: #cce5ff;
+  border-color: #b8daff;
+}
+
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+.alert-success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.alert-primary {
+  color: #004085;
+  background-color: #cce5ff;
+  border-color: #b8daff;
+}
+
+
+.sysy-pp {
+	height: 256px;
+	width: 256px;
+	border-radius: 50%;
+	margin-bottom: 0px;
+}

@@ -1,0 +1,12 @@
+{{ define "main" -}}
+<ul>
+{{ range .Data.Pages -}}
+  <li>
+    <span>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+    </span>
+  </li>
+{{- end }}
+</ul>
+{{- end }}

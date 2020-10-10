@@ -1,0 +1,133 @@
+@import "const.scss";
+
+body {
+  margin: 0 auto;
+  font-family: $font-family-serif;
+  font-size: $font-size-base;
+  line-height: 1.5;
+  color: $font-color;
+  background-color: #ffffff;
+  @media (max-width: 600px) {
+    font-size: $font-size-small;
+  }
+  max-width: 700px;
+  padding: 0 21px;
+  padding-bottom: 21px;
+}
+
+a, a:visited {
+  color: $font-color;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  // font-weight: 420;
+  color: $font-color;
+}
+
+hr {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border: 0;
+  border-top: 1px solid rgba(0,0,0,.1);
+  box-sizing: content-box;
+	height: 0;
+	overflow: visible;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+
+button {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  font-family: $font-family-sans-serif;
+  color: #fff;
+  background-color: #5772ff;
+  border-color: #5772ff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3959ff;
+  border-color: #3959ff;
+  text-decoration: none;
+}
+
+input,
+select,
+textarea {
+    border: 1px solid #e9e9e9;
+    border-radius: $border-radius;
+    // margin-bottom: 1rem;
+    padding: 0.4rem 0.8rem;
+    font-size: 20px;
+}
+
+nav {
+  font-size: $font-size-base + 2px;
+  a {
+    padding-right: 10px;
+  }
+
+  // description
+  p {
+    margin: 10px 0px;
+    opacity: 0.8;
+    font-size: $font-size-base - 2px;
+
+    a, a:visited {
+      color: $links-color;
+    }
+  }
+}
+
+
+main {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+
+  a, a:visited {
+    color: $links-color;
+    &:hover {
+      color: $links-color;
+    }
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    // font-weight: 420;
+    color: $font-color;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 21px;
+    margin-bottom: 21px;
+  }
+}
