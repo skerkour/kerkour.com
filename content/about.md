@@ -9,7 +9,6 @@ type = "page"
   <p class="text-center">Hey! I'm Sylvain Kerkour 🙋‍♂️</p>
 </div>
 
-INTJ,
 I cut my teeth on rugby fields, boxing rings, MMA tatamis and at <a href="https://www.42.fr" target="_blank" rel="noopener">42</a>.
 
 I'm into minimalism, bookworming, challenging the statu quo and various outdoor activities like biking
