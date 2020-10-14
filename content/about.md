@@ -21,7 +21,7 @@ Bloom: An open source and encrypted productivity app (Files, Notes, Calendar, Co
 
 * This website
 where I share strong opinions
-and crazy ideas on Open source, entrepreneurship, sustainability and everything in between.<br/>
+and crazy ideas on Open source, entrepreneurship, minimalism, sustainability and everything in between.<br/>
 
 
 
