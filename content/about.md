@@ -16,19 +16,18 @@ and long distance running.
 
 ## Projects 🚀
 
-* You no longer trust tech monopolies with your data? Neither do I, this is why I built <a href="https://bloom.sh" target="_blank" rel="noopener">
-Bloom: An open source and encrypted productivity app (Files, Notes, Calendar, Contacts...)</a>.<br/>
-
+* <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom: an automation platform (support, growth, emails, tasks...) that work for you 24 / 7</a>.
 * This website
 where I share strong opinions
 and crazy ideas on Open source, entrepreneurship, minimalism, sustainability and everything in between.<br/>
 
 
+<!-- * You no longer trust tech monopolies with your data? Neither do I, this is why I built <a href="https://bloom.sh" target="_blank" rel="noopener"> -->
 
 ## Social 🐣
 
 You won't find me on social networks because they are too noisy and time sucking, by design. However,
-if you want to contact me, you can through Bloom: <a href="https://bloom.sh/contact" target="_blank" rel="noopener">bloom.sh/contact</a>
+if you want to contact me, you can using the chatbox at the bottom right of this page, or through Bloom: <a href="https://bloom.sh/contact" target="_blank" rel="noopener">bloom.sh/contact</a>
 
 
 ## Reading list 📖
