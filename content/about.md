@@ -39,3 +39,9 @@ if you want to contact me, you can through Bloom: <a href="https://bloom.sh/cont
 ## Music 🎶
 
 [Here](/music/)
+
+
+<script type="text/javascript">
+window.$bloom = { project: 'b4b08b87-82e8-4e39-9b16-db3d7d2bf4db', url: 'https://beta.bloom42.com' };
+(function(){d=document;s=d.createElement("script");s.src="https://beta.bloom42.com/libs/bloom.js"; s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
+</script>
