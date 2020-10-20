@@ -22,4 +22,13 @@
     {{ $myjs.Content | safeJS}}
     </script>
   </body>
+  <script type="text/javascript">
+    if (!window.$bloom) {
+      window.$bloom = {
+        project: 'dbec2db4-3b5e-4dc2-8433-752c109026f7',
+        chatbox: false,
+      };
+    }
+    (function(){d=document;s=d.createElement("script");s.src="https://bloom.sh/libs/bloom.js"; s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
+  </script>
 </html>

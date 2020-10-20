@@ -41,6 +41,7 @@ if you want to contact me, you can using the chatbox at the bottom right of this
 
 
 <script type="text/javascript">
-window.$bloom = { project: 'b4b08b87-82e8-4e39-9b16-db3d7d2bf4db' };
-(function(){d=document;s=d.createElement("script");s.src="https://bloom.sh/libs/bloom.js"; s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
+window.$bloom = {
+  project: 'dbec2db4-3b5e-4dc2-8433-752c109026f7',
+};
 </script>
