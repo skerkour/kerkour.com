@@ -30,6 +30,14 @@ You won't find me on social networks because they are too noisy and time sucking
 if you want to contact me, you can using the chatbox at the bottom right of this page, or through Bloom: <a href="https://bloom.sh/contact" target="_blank" rel="noopener">bloom.sh/contact</a>
 
 
+
+## License
+
+All the content on this website is licensed under the
+[CC BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/).
+
+
+
 ## Reading list 📖
 
 [Here](/readings/)
@@ -38,6 +46,13 @@ if you want to contact me, you can using the chatbox at the bottom right of this
 ## Music 🎶
 
 [Here](/music/)
+
+
+## Open source
+
+The source code of this website is available on GitHub:
+[{{< giturl >}}]({{< giturl >}})
+
 
 
 <script type="text/javascript">
