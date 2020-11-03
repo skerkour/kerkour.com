@@ -16,7 +16,7 @@ and long distance running.
 
 ## Projects 🚀
 
-* <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom: an automation platform (support, growth, emails, tasks...) that work for you 24 / 7</a>.
+* <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom: an automation platform that work for you 24 / 7</a>.
 * This website
 where I share strong opinions
 and crazy ideas on Open source, entrepreneurship, minimalism, sustainability and everything in between.<br/>
