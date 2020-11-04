@@ -26,8 +26,8 @@ and crazy ideas on Open source, entrepreneurship, minimalism, sustainability and
 
 ## Social 🐣
 
-You won't find me on social networks because they are too noisy and time sucking, by design. However,
-if you want to contact me, you can using the chatbox at the bottom right of this page.
+You won't find me on social networks because they are too noisy and time sucking, by design. However you still can contact
+me can using the chatbox at the bottom right of this page.
 
 
 
