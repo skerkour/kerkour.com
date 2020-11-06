@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.kerkour.fr/sitemap.xml
+Sitemap: https://kerkour.fr/sitemap.xml

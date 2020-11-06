@@ -127,11 +127,21 @@ func FileServer(router *chi.Mux, path string, root http.FileSystem) {
 		rctx := chi.RouteContext(r.Context())
 		pathPrefix := strings.TrimSuffix(rctx.RoutePattern(), "/*")
 		fs := http.StripPrefix(pathPrefix, http.FileServer(root))
-		if _, err := os.Stat(fmt.Sprintf("%s", root) + r.RequestURI); os.IsNotExist(err) {
+		requestedFilePath := fmt.Sprintf("%s", root) + r.RequestURI
+		fileInfo, err := os.Stat(requestedFilePath)
+		if os.IsNotExist(err) {
 			router.NotFoundHandler().ServeHTTP(w, r)
-		} else {
-			fs.ServeHTTP(w, r)
+			return
+		} else if fileInfo.IsDir() {
+			index := filepath.Join(requestedFilePath, "index.html")
+			_, err := os.Stat(index)
+			if os.IsNotExist(err) {
+				router.NotFoundHandler().ServeHTTP(w, r)
+				return
+			}
 		}
+
+		fs.ServeHTTP(w, r)
 		// fs.ServeHTTP(w, r)
 	})
 }

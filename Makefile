@@ -37,9 +37,9 @@ gzip:
 	gzip -k -9 -r -f $(PUBLIC_DIR)
 
 
-.PHONY: deploy
-deploy:
-	sls deploy -s production
+# .PHONY: deploy
+# deploy:
+# 	sls deploy -s production
 
 .PHONY: tidy
 tidy:
