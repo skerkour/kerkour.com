@@ -19,7 +19,7 @@ If you don't see it within a couple minutes check your spam folder.
 
 
 
-<!-- ### 2. Add {{< email >}} to your address book
+<!-- ### 2. Add to your address book
 
 To help ensure that you get each issue of Open Source Weekly please add my email to your address book.
 This is especially true if you use Gmail as it may mark it as spam. -->
