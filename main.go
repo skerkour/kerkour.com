@@ -65,8 +65,17 @@ func RedirectMiddleware(next http.Handler) http.Handler {
 		// 	http.Redirect(w, r, "https://kerkour.fr"+path, http.StatusMovedPermanently)
 		// } else {
 		path := strings.ToLower(r.URL.Path)
+		normalizedPath := strings.TrimRight(path, "/")
 		if path == "/index.xml" {
 			http.Redirect(w, r, "/feed.xml", http.StatusMovedPermanently)
+		} else if strings.HasPrefix(path, "/open-source-weekly/") {
+			http.Redirect(w, r, filepath.Join("/blog", path), http.StatusMovedPermanently)
+		} else if normalizedPath == "/bloom-a-free-and-open-source-google" {
+			http.Redirect(w, r, filepath.Join("/blog", path), http.StatusMovedPermanently)
+		} else if normalizedPath == "/bloom-un-google-libre-et-open-source" {
+			http.Redirect(w, r, filepath.Join("/blog", path), http.StatusMovedPermanently)
+		} else if normalizedPath == "/bloom-whats-next" {
+			http.Redirect(w, r, filepath.Join("/blog", path), http.StatusMovedPermanently)
 		} else {
 			next.ServeHTTP(w, r)
 		}
