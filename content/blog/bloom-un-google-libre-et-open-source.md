@@ -94,7 +94,7 @@ Consommer toujours plus - sociétés basées sur la dette et la croissance - n'e
 À l'inverse, la réduction de la nécessité de production = moins de travail = encore plus de chômage et donc moins de richesses redistribuées.
 
 <div class="center">
-  <img src="/bloom-a-free-and-open-source-google/wealth_dsitribution.png" height="500"/>
+  <img src="/blog/bloom-a-free-and-open-source-google/wealth_dsitribution.png" height="500"/>
 
   Distribution des richesses. World economic forum.
 </div>
@@ -354,7 +354,7 @@ dans la manière dont nous consommons mais surtout dans la manière dont nous pr
 <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom</a>.
 
 <div class="center">
-  <img src="/bloom-a-free-and-open-source-google/blog.png" height="400"/>
+  <img src="/blog/bloom-a-free-and-open-source-google/blog.png" height="400"/>
 </div>
 
 <!-- <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom</a>

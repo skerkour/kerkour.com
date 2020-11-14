@@ -70,7 +70,7 @@ Consuming more and more - economies based on debt and growth - is obviously not 
 Conversely, reducing the need for production = less work = even more unemployment and therefore less redistributed wealth.
 
 <div class="center">
-  <img src="/bloom-a-free-and-open-source-google/wealth_dsitribution.png" height="500"/>
+  <img src="/blog/bloom-a-free-and-open-source-google/wealth_dsitribution.png" height="500"/>
 
   Global wealth distribution. World economic forum.
 </div>
@@ -209,7 +209,7 @@ We believe in a world of sharing and cooperation. That's why we created <a href=
 
 
 <div class="center">
-  <img src="/bloom-a-free-and-open-source-google/blog.png" height="400"/>
+  <img src="/blog/bloom-a-free-and-open-source-google/blog.png" height="400"/>
 </div>
 
 
