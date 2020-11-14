@@ -19,7 +19,7 @@ Here are some clarifications about the <a href="/blog/bloom-a-free-and-open-sour
 
 
 <div class="center">
-  <img src="/bloom-whats-next/bloom_logo_details.png" height="500"/>
+  <img src="/blog/bloom-whats-next/bloom_logo_details.png" height="500"/>
 </div>
 
 <hr />
