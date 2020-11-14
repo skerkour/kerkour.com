@@ -54,9 +54,4 @@ The source code of this website is available on GitHub:
 [{{< giturl >}}]({{< giturl >}})
 
 
-
-<script type="text/javascript">
-window.$bloom = {
-  project: 'dbec2db4-3b5e-4dc2-8433-752c109026f7',
-};
-</script>
+{{< chatbox >}}

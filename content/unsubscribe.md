@@ -20,3 +20,7 @@ Are you Sure?
 
 <a href="/"><button type="button" class="btn btn-primary">Cancel</button></a>
 <button type="button" class="btn btn-danger" id="osw-unsubscribe-btn">Yes, unsubscribe me</button>
+
+
+{{< chatbox >}}
+{{< js >}}

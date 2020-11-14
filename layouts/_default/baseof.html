@@ -13,15 +13,17 @@
     <footer>
       {{ partial "footer.html" . }}
     </footer>
-
-    {{/* <!-- <script src="{{ "js/cash-0.7.1.min.js" | relURL }}"></script> --> */}}
-    {{ $cash := resources.Get "js/cash-0.7.1.min.js" | minify }}
-    {{ $myjs := resources.Get "js/index.js" | minify }}
-    <script type="text/javascript">
-    {{ $cash.Content | safeJS }}
-    {{ $myjs.Content | safeJS}}
-    </script>
   </body>
+  <script type="text/javascript">
+    // open all links in new tab
+    var links = document.getElementsByTagName('a');
+    for (var iLinks = 0; iLinks < links.length; iLinks += 1) {
+      if (links[iLinks].hostname != window.location.hostname) {
+        links[iLinks].target = '_blank';
+        links[iLinks].rel = 'noopener';
+      }
+    }
+  </script>
   <script type="text/javascript">
     if (!window.$bloom) {
       window.$bloom = {

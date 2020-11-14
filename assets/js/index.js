@@ -9,16 +9,6 @@ window.shibuiProjectId = 'ONUWIORPF5ZWQ2LCOVUS6UDSN5VGKY3UF4YQ';
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 // Functions
 ////////////////////////////////////////////////////////////////////////////////////////////////////
-function rot13(s) {
-  return (s ? s : this).split('').map(function(_){
-    if (!_.match(/[A-Za-z]/)) return _;
-    c = Math.floor(_.charCodeAt(0) / 97);
-    k = (_.toLowerCase().charCodeAt(0) - 83) % 26 || 26;
-    return String.fromCharCode(k + ((c == 0) ? 64 : 96));
-  }).join('');
-}
-
-
 function displayError(message) {
   $('#fe-alert').html('<div class="alert alert-danger" role="alert">'
     + message +
@@ -139,12 +129,6 @@ hideLoader();
 // document ready
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 $(document).ready(function() {
-  // open all links in new tab
-  $(document.links).filter(function() {
-    return this.hostname != window.location.hostname;
-  }).attr('target', '_blank').attr('rel', 'noopener');
-
-
   // subscribe
   if ($("#fe-subscribe-button-input").length) {
     $("#fe-subscribe-button-input").on('click', function(e) {
@@ -194,5 +178,4 @@ $(document).ready(function() {
       unsubscribe();
     });
   }
-
 });

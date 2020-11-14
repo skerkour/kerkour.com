@@ -1,0 +1,7 @@
+{{/* <!-- <script src="{{ "js/cash-0.7.1.min.js" | relURL }}"></script> --> */}}
+{{ $cash := resources.Get "js/cash-0.7.1.min.js" | minify }}
+{{ $myjs := resources.Get "js/index.js" | minify }}
+<script type="text/javascript">
+{{ $cash.Content | safeJS }}
+{{ $myjs.Content | safeJS}}
+</script>

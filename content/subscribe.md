@@ -47,8 +47,5 @@ Prefer Twitter? Follow
 <a href="https://twitter.com/@42bloom" target="_blank" rel="noopener">@42bloom</a>
 
 
-<script type="text/javascript">
-window.$bloom = {
-  project: 'dbec2db4-3b5e-4dc2-8433-752c109026f7',
-};
-</script>
+{{< chatbox >}}
+{{< js >}}

@@ -36,3 +36,6 @@ Thanks for subscribing! <br/>
 Sylvain
 
 </div>
+
+
+{{< js >}}
