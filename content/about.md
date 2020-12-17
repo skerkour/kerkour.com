@@ -30,14 +30,6 @@ You won't find me on social networks because they are too noisy and time sucking
 me can by sending your message and your email address in the chatbox at the bottom right of this page.
 
 
-
-## License
-
-All the content on this website is licensed under the
-[CC BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/).
-
-
-
 ## Reading list 📖
 
 [Here](/readings/)
@@ -48,10 +40,18 @@ All the content on this website is licensed under the
 [Here](/music/)
 
 
+## License
+
+Unless indicated otherwise, all the content on this website is licensed under the
+[CC BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/).
+
+
+
 ## Open source
 
 The source code of this website is available on GitHub:
 [{{< giturl >}}]({{< giturl >}})
+
 
 
 {{< chatbox >}}
