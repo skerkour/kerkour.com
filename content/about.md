@@ -19,7 +19,7 @@ and long distance running.
 * <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom: an automation platform that work for you 24 / 7</a>.
 * This website
 where I share strong opinions
-and crazy ideas on Open source, entrepreneurship, minimalism, sustainability and everything in between.<br/>
+and crazy ideas on minimalism, tech and everything in between.<br/>
 
 
 <!-- * You no longer trust tech monopolies with your data? Neither do I, this is why I built <a href="https://bloom.sh" target="_blank" rel="noopener"> -->
