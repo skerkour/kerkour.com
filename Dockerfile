@@ -56,7 +56,7 @@ USER skerkour:skerkour
 EXPOSE 8080 8443
 CMD ["/skerkour/server"]
 
-LABEL maintainer="skerkour <https://kerkour.fr>"
-LABEL homepage=https://kerkour.fr
-LABEL org.opencontainers.image.name=kerkour.fr
-LABEL repository=https://github.com/skerkour/kerkour.fr
+LABEL maintainer="skerkour <https://kerkour.com>"
+LABEL homepage=https://kerkour.com
+LABEL org.opencontainers.image.name=kerkour.com
+LABEL repository=https://github.com/skerkour/kerkour.com

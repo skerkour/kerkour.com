@@ -12,7 +12,7 @@ jobs:
       - name: Build and tag Docker image
         run: |
           make docker
-          docker tag ghcr.io/skerkour/kerkour.fr registry.heroku.com/${{ secrets.HEROKU_APP }}/web
+          docker tag ghcr.io/skerkour/kerkour.com registry.heroku.com/${{ secrets.HEROKU_APP }}/web
 
       - name: Login to container registries
         env:

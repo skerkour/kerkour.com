@@ -14,23 +14,23 @@
     ],
     "redirects": [
       {
-        "source": "https://www.kerkour.fr/:path*",
-        "destination": "https://kerkour.fr/:path",
+        "source": "https://www.kerkour.com/:path*",
+        "destination": "https://kerkour.com/:path",
         "type": 301
       },
       {
         "source": "https://www.kerkour.com/:path*",
-        "destination": "https://kerkour.fr/:path",
+        "destination": "https://kerkour.com/:path",
         "type": 301
       },
       {
         "source": "https://kerkour.com/:path*",
-        "destination": "https://kerkour.fr/:path",
+        "destination": "https://kerkour.com/:path",
         "type": 301
       },
       {
         "source": "/blog/:post*",
-        "destination": "https://www.kerkour.fr/:post",
+        "destination": "https://www.kerkour.com/:post",
         "type": 301
       }
     ],

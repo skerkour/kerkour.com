@@ -2,7 +2,7 @@ DIST_DIR = dist
 PUBLIC_DIR = public
 SERVER_BIN = server
 LAMBDA_ZIP = blog.zip
-DOCKER_IMAGE = ghcr.io/skerkour/kerkour.fr
+DOCKER_IMAGE = ghcr.io/skerkour/kerkour.com
 
 
 .PHONY: all

@@ -1,4 +1,4 @@
-baseURL = "https://kerkour.fr"
+baseURL = "https://kerkour.com"
 languageCode = "en-us"
 title = "Sylvain Kerkour"
 disableHugoGeneratorInject = true
@@ -9,7 +9,7 @@ disableKinds = ["section", "taxonomy", "taxonomyTerm", "tags"]
 
 [params]
   description = "Strong opinions and crazy ideas on minimalism, tech and everything in between. By Sylvain Kerkour, creator of Bloom."
-  git = "https://github.com/skerkour/kerkour.fr"
+  git = "https://github.com/skerkour/kerkour.com"
   ogimage = "https://www.fatalentropy.com/imgs/og_image.jpg"
 
 

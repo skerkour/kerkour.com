@@ -1,9 +1,9 @@
-# [kerkour.fr](https://kerkour.fr)
+# [kerkour.com](https://kerkour.com)
 
 
 Strong opinions and crazy ideas on minimalism, tech and everything in between. By the creators of Bloom.
 
-https://kerkour.fr
+https://kerkour.com
 
 ## Licensing
 
