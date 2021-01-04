@@ -1,7 +1,7 @@
 # [kerkour.com](https://kerkour.com)
 
 
-Strong opinions and crazy ideas on minimalism, tech and everything in between. By the creators of Bloom.
+Strong opinions and crazy ideas on hacking, tech and everything in between. By the creators of Bloom.
 
 https://kerkour.com
 

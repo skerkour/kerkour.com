@@ -11,7 +11,7 @@ type = "page"
 
 I cut my teeth on rugby fields, boxing rings, MMA tatamis and at <a href="https://www.42.fr" target="_blank" rel="noopener">42</a>.
 
-I'm into minimalism, bookworming, challenging the statu quo and various outdoor activities like biking
+I'm into minimalism, hacking, bookworming, challenging the statu quo and various outdoor activities like biking
 and long distance running.
 
 ## Projects 🚀
@@ -19,7 +19,7 @@ and long distance running.
 * <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom: an automation platform that work for you 24 / 7</a>.
 * This website
 where I share strong opinions
-and crazy ideas on minimalism, tech and everything in between.<br/>
+and crazy ideas on minimalism, hacking and everything in between.<br/>
 
 
 <!-- * You no longer trust tech monopolies with your data? Neither do I, this is why I built <a href="https://bloom.sh" target="_blank" rel="noopener"> -->
