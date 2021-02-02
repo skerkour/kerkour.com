@@ -53,7 +53,7 @@ Follow
 ## Twitter
 
 Follow
-<a href="https://twitter.com/@42Bloom" target="_blank" rel="noopener">@42Bloom</a> on Twitter to never miss an issue.
+<a href="https://twitter.com/sylvain_kerkour" target="_blank" rel="noopener">@sylvain_kerkour</a> on Twitter to never miss an issue.
 
 
 

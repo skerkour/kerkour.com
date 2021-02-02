@@ -44,7 +44,7 @@ Prefer RSS? Use this URL in your favorite RSS reader: <br />
 ## Twitter
 
 Prefer Twitter? Follow
-<a href="https://twitter.com/@42bloom" target="_blank" rel="noopener">@42bloom</a>
+<a href="https://twitter.com/sylvain_kerkour" target="_blank" rel="noopener">@sylvain_kerkour</a>
 
 
 {{< chatbox >}}
