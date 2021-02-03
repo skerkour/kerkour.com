@@ -1,9 +1,9 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 // vars
 ////////////////////////////////////////////////////////////////////////////////////////////////////
-window.apiBaseUrl = 'https://shibui.bloom42.com/api';
+window.apiBaseUrl = 'https://bloom.sh/api';
 // window.apiBaseUrl = 'http://localhost:8000/api';
-window.shibuiProjectId = 'ONUWIORPF5ZWQ2LCOVUS6UDSN5VGKY3UF4YQ';
+window.newsletterListId = 'TODO';
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -36,20 +36,16 @@ function showLoader() {
   $('.loader').show();
 }
 
-function graphqlReq(query, variables) {
-  var payload = {
-    query: query,
-    variables: variables,
-  };
+function apiReq(route, input) {
   var data = {
-    body : JSON.stringify(payload),
+    body : JSON.stringify(input),
     headers: {
       'Accept': 'application/json',
       'Content-Type': 'application/json'
     },
     method : 'POST',
   };
-  return fetch(window.apiBaseUrl+'/graphql', data)
+  return fetch(window.apiBaseUrl+route, data)
     .then(function(res) {
       if (res.status !== 200) {
         throw new Error();
@@ -63,14 +59,12 @@ function subscribeToNewsletter(email) {
   showLoader();
   hideAlert();
 
-  var query = 'mutation($input: SubscribeContactInput!) { subscribeContact(input: $input) }';
-  var variables = {
-    input: {
-      projectId: window.shibuiProjectId,
-      email: email,
-    },
+  var route = '/newsletter/commands/subscribe_to_list';
+  var input = {
+    list_id: window.newsletterListId,
+    email: email,
   };
-  graphqlReq(query, variables)
+  apiReq(route, input)
   .then(function(data) {
     if (data.errors && data.errors.length > 0) {
       displayError(data.errors[0].message);
@@ -104,7 +98,7 @@ function unsubscribe() {
       token: token,
     },
   };
-  graphqlReq(query, variables)
+  apiReq(query, variables)
   .then(function(data) {
     if (data.errors && data.errors.length > 0) {
        displayError(data.errors[0].message);
@@ -155,7 +149,7 @@ $(document).ready(function() {
         token: token,
       },
     };
-    graphqlReq(query, variables)
+    apiReq(query, variables)
     .then(function(data) {
       if (data.errors && data.errors.length > 0) {
          displayError(data.errors[0].message);

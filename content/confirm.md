@@ -4,7 +4,7 @@ type = "page"
 date = 2019-02-05T01:42:42+02:00
 +++
 
-<br />
+<!-- <br />
 
 # Please confirm your email address
 
@@ -16,7 +16,7 @@ date = 2019-02-05T01:42:42+02:00
 
 To complete the subscription process, please click the link in the email I just sent you.
 If you don't see it within a couple minutes check your spam folder.
-
+ -->
 
 
 <!-- ### 2. Add to your address book
@@ -32,7 +32,7 @@ When it comes to newsletters, word of mouth is powerful!
  -->
 
 
-Thanks for subscribing! <br/>
+Thank you for subscribing, You will receive your first email soon! <br/>
 Sylvain
 
 </div>
