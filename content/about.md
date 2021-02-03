@@ -9,14 +9,15 @@ type = "page"
   <p class="text-center">Hey! I'm Sylvain Kerkour 🙋‍♂️</p>
 </div>
 
-I cut my teeth on rugby fields, boxing rings, MMA tatamis and at <a href="https://www.42.fr" target="_blank" rel="noopener">42</a>.
+I cut my teeth on rugby fields, boxing rings, MMA tatamis and at <a href="https://www.42.fr">42</a>.
 
 I'm into minimalism, hacking, bookworming, challenging the statu quo and various outdoor activities like biking
 and long distance running.
 
 ## Projects 🚀
 
-* <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom: an automation platform that work for you 24 / 7</a>.
+* The book <a href="https://academy.kerkour.com/black-hat-rust">Black Hat Rust - Deep dive into offensive security with the Rust programming language</a>.
+* <a href="https://bloom.sh">Bloom - The simplest way to de-Google your life and business: Inbox, Files, Contacts & much more.</a>.
 * This website
 where I share strong opinions
 and crazy ideas on minimalism, hacking and everything in between.<br/>
