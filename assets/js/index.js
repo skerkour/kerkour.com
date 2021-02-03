@@ -16,7 +16,6 @@ function displayError(message) {
   $('#fe-alert').show();
 }
 
-
 function displaySuccess(message) {
   $('#fe-alert').html('<div class="alert alert-success" role="alert">'
     + message +
