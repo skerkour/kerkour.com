@@ -36,15 +36,15 @@ I'll never share your email and you can unsubscribe at anytime. Also there is no
 Prefer RSS? Use this URL in your favorite RSS reader: <br />
 [{{< rssurl >}}]({{< rssurl >}})
 
-## Mastodon
-
- Prefer Mastodon? Follow <a href="https://mastodon.social/@42bloom" target="_blank" rel="me noopener">@42bloom@mastodon.social</a>
-
-
 ## Twitter
 
 Prefer Twitter? Follow
 <a href="https://twitter.com/sylvain_kerkour" target="_blank" rel="noopener">@sylvain_kerkour</a>
+
+
+## Mastodon
+
+ Prefer Mastodon? Follow <a href="https://mastodon.social/@42bloom" target="_blank" rel="me noopener">@42bloom@mastodon.social</a>
 
 
 {{< chatbox >}}
