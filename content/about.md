@@ -39,11 +39,6 @@ me can by sending your message and your email address in the chatbox at the bott
 [Here](/readings/)
 
 
-## Music 🎶
-
-[Here](/music/)
-
-
 ## License
 
 Unless indicated otherwise, all the content on this website is licensed under the
