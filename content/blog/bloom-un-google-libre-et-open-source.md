@@ -27,7 +27,7 @@ libre et open source (et sans publicité ni ciblage) : Bloom - aujourd'hui une s
 il y aura demain une application pour chacuns de vos besoins quotidiens. Nous pensons que l'open source
 est la seule voie pour construire un monde durable.
 
-C'est par <a href="https://bloom.sh" target="_blank" rel="noopener">ici pour la version en ligne</a>, <a href="https://play.google.com/store/apps/details?id=com.bloom42.bloomx" target="_blank" rel="noopener">par ici pour l'application Android</a>, par <a href="https://gitlab.com/bloom42" target="_blank" rel="noopener">ici pour le code</a>
+C'est par <a href="https://bloom.sh" target="_blank" rel="noopener">ici pour la version en ligne</a>, par <a href="https://github.com/skerkour/bloom" target="_blank" rel="noopener">ici pour le code</a>
 et par [ici pour contribuer](#contribuer). Ce n'est que le début d'une grande aventure 🚀
 
 
@@ -397,11 +397,11 @@ Bloom propose aujourd'hui les services en ligne suivants :
 * <a href="https://bloom.sh/contacts" target="_blank" rel="noopener">Bloom Contacts</a>: un gestionnaire de contacts
 * <a href="https://bloom.sh/notes" target="_blank" rel="noopener">Bloom Notes</a>: une application de prise de notes
 
-Une application Android est disponible :
-<a href="https://play.google.com/store/apps/details?id=com.bloom42.bloomx" target="_blank" rel="noopener">https://play.google.com/store/apps/details?id=com.bloom42.bloomx</a>
+<!-- Une application Android est disponible :
+<a href="https://play.google.com/store/apps/details?id=com.bloom42.bloomx" target="_blank" rel="noopener">https://play.google.com/store/apps/details?id=com.bloom42.bloomx</a> -->
 
 Tous ces services offrent des tiers gratuits (ou sont entièrement gratuits) sans contrepartie (pas de ciblage, pas de publicité...),
-et dont le code source est disponible librement sur <a href="https://gitlab.com/bloom42" target="_blank" rel="noopener">GitLab</a>.
+et dont le code source est disponible librement sur <a href="https://github.com/skerkour/bloom" target="_blank" rel="noopener">GitHub</a>.
 
 Aujourd'hui orientés productivité nous contribuerons demain
 à des secteurs plus divers tels que l'agriculture, l'architecture, le transport...
@@ -449,7 +449,7 @@ Enfin, pour rester informé des dernières mises à jour suivez nous sur Twitter
 
 #### Développement
 
-Pour contribuer au code cela se passe sur <a href="https://gitlab.com/bloom42" target="_blank" rel="noopener">gitlab.com/bloom42</a>.
+Pour contribuer au code cela se passe sur <a href="https://github.com/skerkour/bloom" target="_blank" rel="noopener">github.com/skerkour/bloom</a>.
 
 Plus d'informations est disponible sur notre site <a href="https://bloom.sh/open-source" target="_blank" rel="noopener">bloom.sh/open-source</a>.
 
@@ -474,7 +474,7 @@ Il sera utilisé pour **tous** les projets de Bloom sauf impératif contraire
 
 #### Design
 
-Pour contribuer au design de Bloom cela se passe sur le repo <a href="https://gitlab.com/bloom42/design" target="_blank" rel="noopener">gitlab.com/bloom42/design</a>.
+Pour contribuer au design de Bloom cela se passe sur le repo <a href="https://github.com/skerkour/bloom" target="_blank" rel="noopener">github.com/skerkour/bloom</a>.
 
 
 #### En partageant

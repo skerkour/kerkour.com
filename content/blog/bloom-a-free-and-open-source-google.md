@@ -29,7 +29,7 @@ lang = "en"
 To bring an answer to the universal and unprecedented challenges of our century, we have created a free and open source 'Google' (and without advertising or targeting): Bloom - currently a suite of productivity apps but tomorrow the only ecosystem you will need
 to meet your daily needs. We believe that open source is the only way to build a sustainable world.
 
-You can find the <a href="https://bloom.sh" target="_blank" rel="noopener">online website here</a>, the <a href="https://play.google.com/store/apps/details?id=com.bloom42.bloomx" target="_blank" rel="noopener">Android app here</a>
+You can find the <a href="https://bloom.sh" target="_blank" rel="noopener">online website here</a>
 and go [here to learn how to contribute](#contribute). This is just the beginning of a great adventure 🚀
 
 
@@ -238,11 +238,11 @@ Bloom offers today the following online services:
 * <a href="https://bloom.sh/contacts" target="_blank" rel="noopener">Bloom Contacts</a>: a contact manager
 * <a href="https://bloom.sh/notes" target="_blank" rel="noopener">Bloom Notes</a>: a note-taking app
 
+<!-- 
+An Android app is also available: <a href="https://play.google.com/store/apps/details?id=com.bloom42.bloomx" target="_blank" rel="noopener">https://play.google.com/store/apps/details?id=com.bloom42.bloomx</a> -->
 
-An Android app is also available: <a href="https://play.google.com/store/apps/details?id=com.bloom42.bloomx" target="_blank" rel="noopener">https://play.google.com/store/apps/details?id=com.bloom42.bloomx</a>
 
-
-All these services have a free tier (or are completely free) for no counterpart (no targeting, no advertising...), and whose source code is freely available on <a href="https://gitlab.com/bloom42" target="_blank" rel="noopener">GitLab</a>.
+All these services have a free tier (or are completely free) for no counterpart (no targeting, no advertising...), and whose source code is freely available on <a href="https://github.com/skerkour/bloom" target="_blank" rel="noopener">GitHub</a>.
 
 Today productivity oriented we will contribute tomorrow to more diverse sectors such as agriculture, architecture, transport...
 
@@ -275,7 +275,7 @@ To stay informed of the latest updates follow us on Twitter <a href="https://twi
 
 #### Development
 
-Development happens here: <a href="https://gitlab.com/bloom42" target="_blank" rel="noopener">gitlab.com/bloom42</a>.
+Development happens here: <a href="https://github.com/skerkour/bloom" target="_blank" rel="noopener">github.com/skerkour/bloom</a>.
 
 More information is available on our website <a href="https://bloom.sh/open-source" target="_blank" rel="noopener">bloom.sh/open-source</a>.
 
@@ -300,7 +300,7 @@ It is (and will be) used for **all** Bloom projects unless otherwise required (T
 
 #### Design
 
-To contribute to Bloom's design, please follow this link: <a href="https://gitlab.com/bloom42/design" target="_blank" rel="noopener">gitlab.com/bloom42/design</a>.
+To contribute to Bloom's design, please follow this link: <a href="https://github.com/skerkour/bloom" target="_blank" rel="noopener">github.com/skerkour/bloom</a>.
 
 
 

@@ -137,21 +137,17 @@ Weekly sprints will also be planned on Sunday afternoons.
 
 The best places to report bugs are (in the following order):
 
-* On <a href="https://gitlab.com/bloom42" target="_blank" rel="noopener">Gitlab on the respective projects</a>.
-* On the <a href="https://forum.bloom.sh" target="_blank" rel="noopener">forum</a> (and we will open a ticket on GitLab for you).
-* On the Discord chat
+* On <a href="https://github.com/skerkour/bloom" target="_blank" rel="noopener">GitHub</a>.
+* On the <a href="https://github.com/skerkour/bloom/discussions" target="_blank" rel="noopener">forum</a> (and we will open a ticket on GitLab for you).
 
-But it’s better to avoid the latter for bug reports, not to lose them.
 
 ### How to suggest features or improvements?
 
 The best places to suggest features or improvements are (in the following order):
 
-* On the <a href="https://forum.bloom.sh" target="_blank" rel="noopener">forum</a> (and we will open a ticket on GitLab for you).
-* On <a href="https://gitlab.com/bloom42" target="_blank" rel="noopener">Gitlab on the respective projects</a>.
-* On the Discord chat
+* On the <a href="https://github.com/skerkour/bloom/discussions" target="_blank" rel="noopener">forum</a>.
+* On <a href="https://github.com/skerkour/bloom" target="_blank" rel="noopener">GitHub</a>.
 
-But it’s better to avoid the latter for suggestions, not to lose them.
 
 ### Roadmap
 
