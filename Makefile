@@ -18,7 +18,7 @@ build: clean
 
 .PHONY: dev
 dev:
-	hugo server --buildDrafts
+	hugo server --buildDrafts --bind 0.0.0.0
 
 .PHONY: server
 server:
