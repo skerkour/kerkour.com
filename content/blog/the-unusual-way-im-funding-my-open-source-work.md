@@ -47,7 +47,8 @@ Why not turn these thousand hours of experience into a profit which will allow m
 Some friends suggested that I launch an Udemy course, but I was not a fan of the idea because I find the ratio of information / time of these video courses too low compared to a good old book.
 
 So I decided to write a book about Rust. As I had previous experience with offensive security (developing an automated vulnerability scanner, reverse engineering applications and helping plenty of companies to secure their assets) I narrowed the scope of the book to offensive security programming with Rust. <br />
-Rust is not only a great fit for offensive programming, but the only one-size-fits-all programming language able to meet all the needs of this field: from shellcodes and exploits to servers, RATs and phishing pages in WebAssembly, Rust is polyvalent enough to shine in all those tasks.
+Rust is not only a great fit for offensive programming, but the only one-size-fits-all programming language able to meet all the needs of this field: from shellcodes and exploits to servers, RATs and phishing pages in WebAssembly, Rust is polyvalent enough to shine in all those tasks. <br />
+*Black Hat Rust, Deep dive into offensive security with the Rust programming language* was born!
 
 [I announced the (extremely) early-access edition of the book on Reddit](https://www.reddit.com/r/rust/comments/lcow5j/black_hat_rust_im_writing_a_book_about_offensive) last week and received a lot of positive feedback. <br />
 Funding secured. Idea validated. 🥳 <br />
