@@ -51,7 +51,7 @@ Rust is not only a great fit for offensive programming, but the only one-size-fi
 *Black Hat Rust - Deep dive into offensive security with the Rust programming language* was born!
 
 [I announced the (extremely) early-access edition of the book on Reddit](https://www.reddit.com/r/rust/comments/lcow5j/black_hat_rust_im_writing_a_book_about_offensive) last week and received a lot of positive feedback. <br />
-Funding secured. Idea validated. 🥳 <br />
+Idea validated. Funding secured. 🥳 <br />
 Even if the hardest part is yet to come, I just want to say a big **THANK YOU** to all the people who are making this possible. <br />
 Since this Monday I have started to work 4 days a week on the book and 2 days on Bloom (yes, as an indie hacker my workweek is 6 days long 🤷‍♂️).
 
