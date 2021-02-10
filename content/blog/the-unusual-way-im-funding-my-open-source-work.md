@@ -1,6 +1,6 @@
 +++
 date = 2021-02-10T12:42:42+01:00
-title = "The unusual way I’m funding my open source work"
+title = "The unusual way I'm funding my open source work"
 type = "post"
 tags = ["bloom", "hacking", "open source", "black hat rust"]
 authors = ["Sylvain Kerkour"]
@@ -20,13 +20,13 @@ A [lot](https://news.ycombinator.com/item?id=23218943) has been written about [a
 * Hosting: where you offer a fully-managed version of your project. It’s certainly the easiest way to scale revenues but it’s not appropriate for all products.
 * Paying support: popularized by Red Hat and other Linux distributions, this model has 
 * Patronage: patrons are helping artists make a living since forever. Unfortunately as you are depending on the goodwill of your patrons, it’s an extremely precarious way of life without a huge audience.
-* VC: According to my empirical study, it’s extremely hard to create a long term business whose interests are aligned with those of its users, when investors want 5-10x their money back.
+* [VC](https://en.wikipedia.org/wiki/Venture_capital): According to my empirical study, it’s extremely hard to create a long term business whose interests are aligned with those of its users going this way.
 * Having a real job™ beside: but is your project worth sacrificing all your free time for it?
 
 
 ## Bloom
 
-Early in 2019, I innocently started working on [Bloom](https://bloom.sh) with one mission: putting an end to digital feudalism (Why? How? What? 👉 [You can read the launch post here](https://kerkour.com/blog/bloom-a-free-and-open-source-google)).
+Early in 2019, I innocently started working on [Bloom](https://github.com/skerkour/bloom) with one mission: putting an end to digital feudalism (Why? How? What? 👉 [You can read the launch post here](https://kerkour.com/blog/bloom-a-free-and-open-source-google)).
 The idea resonated with a lot of people and I received more positive feedback than I would ever have imagined.
 
 But the way to success was still not clear: I launched the project as a self-hostable web application with a plan to create native applications with end-to-end encryption later. It quickly turned into a full-time R&D project as end-to-end encryption is not yet a solved problem (especially its key distribution part) and neither is native applications distribution (App stores being controlled by two companies that are more and more user hostile).
@@ -42,12 +42,12 @@ So, how to survive the valley of death and stay alive enough time to reach produ
 
 <img src="https://kerkour.com/blog/github_contributions.png" />
 
-While developing Bloom, I have written and deleted a hundred thousand lines of code in Rust, if not more. From achieving great development speed to designing and implementing an en-to-end encrypted synchronization protocol, I’ve learned a lot of things along the way. <br />
+While developing Bloom, I have written and deleted a hundred thousand lines of code of Rust, if not more. From achieving great development speed to designing and implementing an en-to-end encrypted synchronization protocol, I’ve learned a lot of things along the way. <br />
 Why not turn these thousand hours of experience into a profit which will allow me to arrange free hours during the week to work on Bloom? <br />
 Some friends suggested that I launch an Udemy course, but I was not a fan of the idea because I find the ratio of information / time of these video courses too low compared to a good old book.
 
-So I decided to write a book about Rust. As I had previous experience with offensive security (developing an automated vulnerability scanner, reverse engineering applications and helping companies secure their assets) I narrowed the scope of the book to offensive security programming with Rust. <br />
-It turned out that Rust was not only a great fit for offensive programming, but the only one-size-fits-all programming language able to meet all the needs of this field: from shellcodes and exploits to servers and RATs, Rust is polyvalent enough to shine in all those tasks.
+So I decided to write a book about Rust. As I had previous experience with offensive security (developing an automated vulnerability scanner, reverse engineering applications and helping plenty of companies to secure their assets) I narrowed the scope of the book to offensive security programming with Rust. <br />
+Rust is not only a great fit for offensive programming, but the only one-size-fits-all programming language able to meet all the needs of this field: from shellcodes and exploits to servers and RATs, Rust is polyvalent enough to shine in all those tasks.
 
 [I announced the (extremely) early-access edition of the book on Reddit](https://www.reddit.com/r/rust/comments/lcow5j/black_hat_rust_im_writing_a_book_about_offensive) last week and received a lot of positive feedback. <br />
 Funding secured. Idea validated. 🥳 <br />
