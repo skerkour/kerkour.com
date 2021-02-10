@@ -40,7 +40,9 @@ So, how to survive the valley of death and stay alive enough time to reach produ
 
 ## Black Hat Rust
 
-<img src="https://kerkour.com/blog/github_contributions.png" />
+<a href="https://github.com/skerkour">
+    <img src="https://kerkour.com/blog/github_contributions.png" />
+</a>
 
 While developing Bloom, I have written and deleted a hundred thousand lines of code of Rust, if not more. From achieving great development speed to designing and implementing an en-to-end encrypted synchronization protocol, passing by handling millions of HTTP requests a day, I’ve learned a lot of things along the way. <br />
 Why not turn these thousand hours of experience into a profit which will allow me to arrange free hours during the week to work on Bloom? <br />
