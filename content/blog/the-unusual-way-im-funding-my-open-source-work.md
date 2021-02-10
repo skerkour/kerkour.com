@@ -29,7 +29,7 @@ A [lot](https://news.ycombinator.com/item?id=23218943) has been written about [a
 Early in 2019, I innocently started working on [Bloom](https://github.com/skerkour/bloom) with one mission: putting an end to digital feudalism (Why? How? What? 👉 [You can read the launch post here](https://kerkour.com/blog/bloom-a-free-and-open-source-google)).
 The idea resonated with a lot of people and I received more positive feedback than I would ever have imagined.
 
-But the way to success was still not clear: I launched the project as a self-hostable web application with a plan to create native applications with end-to-end encryption later. It quickly turned into a full-time R&D project as end-to-end encryption is not yet a solved problem (especially its key distribution part) and neither is native applications distribution (App stores being controlled by two companies that are more and more user hostile).
+But the path to success was still not clear: I launched the project as a self-hostable web application with a plan to create native applications with end-to-end encryption later. It quickly turned into a full-time R&D project as end-to-end encryption is not yet a solved problem (especially its key distribution part) and neither is native applications distribution (App stores being controlled by two companies that are more and more user hostile).
 
 <img src="https://kerkour.com/blog/valley_of_death.jpg" />
 
