@@ -7,27 +7,19 @@
     <time datetime={{ .Date.Format "2006-01-02T15:04:05Z0700" }}>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
   </p>
 
-  <div class="center">
+  <!-- <div class="center">
     <h3><a href="/subscribe"><button type="button">Subscribe</button></a></h3>
     <small>
       I’ll write you once a week on avoiding complexity, hacking and entrepreneurship. <br />
       You can subscribe by Email, RSS or Mastodon
     </small>
-  </div>
+  </div> -->
 
   <div>
     {{ .Content }}
   </div>
 
-  <div class="bhr-alert">
-      <img src="/imgs/black_hat_rust_cover.png" height="200" />
-      <p>
-          I'm writing a book about <b>Rust and offensive security!</b> <br />
-          <a href="https://academy.kerkour.com/black-hat-rust">You can already start reading it in early-access!</a>
-      </p>
-  </div>
-
-  <div class="center">
+  <div class="center" style="margin-bottom: 20px;">
     <h3><a href="/subscribe"><button type="button">Subscribe</button></a></h3>
     <small>
       <!-- I’ll write you once a week on open source, sustainability and avoiding complexity. <br /> -->
@@ -35,4 +27,12 @@
       You can subscribe by Email, RSS or Mastodon
     </small>
   </div>
+
+  <div class="bhr-alert">
+    <img src="/imgs/black_hat_rust_cover.png" height="200" />
+    <p>
+        I'm writing a book about <b>Rust and offensive security!</b> <br />
+        <a href="https://academy.kerkour.com/black-hat-rust">You can already start reading it in early-access!</a>
+    </p>
+</div>
 </article>
