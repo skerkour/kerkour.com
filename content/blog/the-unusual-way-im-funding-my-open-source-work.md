@@ -51,7 +51,7 @@ Rust is not only a great fit for offensive programming, but the only one-size-fi
 
 [I announced the (extremely) early-access edition of the book on Reddit](https://www.reddit.com/r/rust/comments/lcow5j/black_hat_rust_im_writing_a_book_about_offensive) last week and received a lot of positive feedback. <br />
 Funding secured. Idea validated. 🥳 <br />
-Even if the hardest part is yet to come, I just want to say a big THANK YOU to all the people who are making this possible. Starting this Monday I have started to work 4 days a week on the book and 2 days on Bloom (yes, as an indie hacker my workweek is 6 days long 🤷‍♂️).
+Even if the hardest part is yet to come, I just want to say a big THANK YOU to all the people who are making this possible. Since this Monday I have started to work 4 days a week on the book and 2 days on Bloom (yes, as an indie hacker my workweek is 6 days long 🤷‍♂️).
 
 If you find the idea compelling and want to be part of the adventure, here is a coupon to save 10€ on the book: [https://academy.kerkour.com/black-hat-rust?coupon=BLOG](https://academy.kerkour.com/black-hat-rust?coupon=BLOG).
 
