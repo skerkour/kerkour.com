@@ -44,7 +44,7 @@ So, how to survive the valley of death and stay alive enough time to reach produ
     <img src="https://kerkour.com/blog/github_contributions.png" />
 </a>
 
-While developing Bloom, I have written and deleted a hundred thousand lines of code of Rust, if not more. From achieving great development speed to designing and implementing an en-to-end encrypted synchronization protocol, passing by handling millions of HTTP requests a day, I’ve learned a lot of things along the way. <br />
+While developing Bloom, I have written and deleted a hundred thousand lines of code of Rust, if not more. From achieving great development speed to designing and implementing an en-to-end encrypted synchronization protocol, passing by handling millions of HTTP requests a day, I’ve learned a few things along the way. <br />
 Why not turn these thousand hours of experience into a profit which will allow me to arrange free hours during the week to work on Bloom? <br />
 Some friends suggested that I launch an Udemy course, but I was not a fan of the idea because I find the ratio of information / time of these video courses too low compared to a good old book.
 
