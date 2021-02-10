@@ -10,17 +10,18 @@ authors = ["Sylvain Kerkour"]
 lang = "en"
 +++
 
-From the Linux kernel to Firefox and Wordpress, Open Source is changing the world for the better. But how to achieve financial sustainability when you produce something that can legally be copied at zero cost?
+From the Linux kernel to Firefox and Wordpress, Open Source is changing the world for the better. But how to achieve financial sustainability when you produce something that can legally be copied, by design, at zero cost?
+
 
 ## Revenue models for Open Source
 
-A [lot](https://plausible.io/blog/open-source-funding) [has](https://news.ycombinator.com/item?id=23218943) been written about achieving profitability for open source projects, still it’s not a solved problem. Here are the most common ways for open source projects to generate profit:
+A [lot](https://news.ycombinator.com/item?id=23218943) has been written about [achieving profitability](https://plausible.io/blog/open-source-funding) for open source projects, still it’s not a solved problem. Here are the most common ways for open source projects to generate profit:
 
 * Hosting: where you offer a fully-managed version of your project. It’s certainly the easiest way to scale revenues but it’s not appropriate for all products.
 * Paying support: popularized by Red Hat and other Linux distributions, this model has 
 * Patronage: patrons are helping artists make a living since forever. Unfortunately as you are depending on the goodwill of your patrons, it’s an extremely precarious way of life without a huge audience.
-* VC: going the venture capital way seems to be the easiest way to achieve great social status quickly. Unfortunately, according to my empirical study, it’s extremely hard to create a long term business whose interests are aligned with thoses of its users when the vision of the initial creators is no longer the
-* Having a real job™ beside: but is your project worth sacrificing your free time for it?
+* VC: According to my empirical study, it’s extremely hard to create a long term business whose interests are aligned with those of its users, when investors want 5-10x their money back.
+* Having a real job™ beside: but is your project worth sacrificing all your free time for it?
 
 
 ## Bloom
@@ -41,16 +42,16 @@ So, how to survive the valley of death and stay alive enough time to reach produ
 
 <img src="https://kerkour.com/blog/github_contributions.png" />
 
-While developing Bloom, I have written and deleted a hundred thousand lines of code in Rust, if not more. From achieving great development speed to designing and implementing an en-to-end encrypted synchronization protocol, I’ve learned a lot of things along the way.
-Why not turn these thousand hours of experience into a profit which will allow me to arrange free hours during the week to work on Bloom?
+While developing Bloom, I have written and deleted a hundred thousand lines of code in Rust, if not more. From achieving great development speed to designing and implementing an en-to-end encrypted synchronization protocol, I’ve learned a lot of things along the way. <br />
+Why not turn these thousand hours of experience into a profit which will allow me to arrange free hours during the week to work on Bloom? <br />
 Some friends suggested that I launch an Udemy course, but I was not a fan of the idea because I find the ratio of information / time of these video courses too low compared to a good old book.
 
-So I decided to write a book about Rust. As I had previous experience with offensive security (developing an automated vulnerability scanner, reverse engineering applications and helping companies secure their assets) I narrowed the scope of the book to offensive security programming with Rust.
-It turned out that Rust was not only a great fit for offensive programming, but the only one-size-fits-all programming language able to meet the needs of this field: from shellcodes and exploits to servers and RATs, Rust is polyvalent enough to shine in all those tasks.
+So I decided to write a book about Rust. As I had previous experience with offensive security (developing an automated vulnerability scanner, reverse engineering applications and helping companies secure their assets) I narrowed the scope of the book to offensive security programming with Rust. <br />
+It turned out that Rust was not only a great fit for offensive programming, but the only one-size-fits-all programming language able to meet all the needs of this field: from shellcodes and exploits to servers and RATs, Rust is polyvalent enough to shine in all those tasks.
 
-[I announced the (extremely) early-access edition of the book on Reddit](https://www.reddit.com/r/rust/comments/lcow5j/black_hat_rust_im_writing_a_book_about_offensive) last week and received a lot of positive feedback.
-Idea validated. Funding secured 🥳
-Even if the hardest part is yet to come, I just want to say a big THANK YOU to all the people who are making this possible. Starting this Monday I have started to to work 4 days a week on the book and 2 days on Bloom (yes, as an indie hacker, my workweek is 6 days long 🤷‍♂️).
+[I announced the (extremely) early-access edition of the book on Reddit](https://www.reddit.com/r/rust/comments/lcow5j/black_hat_rust_im_writing_a_book_about_offensive) last week and received a lot of positive feedback. <br />
+Funding secured. Idea validated. 🥳 <br />
+Even if the hardest part is yet to come, I just want to say a big THANK YOU to all the people who are making this possible. Starting this Monday I have started to work 4 days a week on the book and 2 days on Bloom (yes, as an indie hacker my workweek is 6 days long 🤷‍♂️).
 
 If you find the idea compelling and want to be part of the adventure, here is a coupon to save 10€ on the book: [https://academy.kerkour.com/black-hat-rust?coupon=BLOG](https://academy.kerkour.com/black-hat-rust?coupon=BLOG).
 
