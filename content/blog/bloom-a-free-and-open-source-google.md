@@ -316,7 +316,7 @@ If you do not have the time or skills to contribute, but our project seems promi
 This money will be used to finance people who contribute with their time to a more open world:
 
 
-* <s>By subscribing on <a href="https://bloom.sh" target="_blank" rel="noopener">bloom.sh</a></s> Opening of subscriptions in 1 week.
+* By subscribing on <a href="https://bloom.sh" target="_blank" rel="noopener">bloom.sh</a>
 
 
 Many thanks to those who have already contributed directly or indirectly:
