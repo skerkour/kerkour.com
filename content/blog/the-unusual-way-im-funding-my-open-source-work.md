@@ -20,7 +20,7 @@ A [lot](https://news.ycombinator.com/item?id=23218943) has been written about [a
 * Hosting: where you offer a fully-managed version of your project. It’s certainly the easiest way to scale revenues but it’s not appropriate for all products.
 * Paying support: popularized by Red Hat and other Linux distributions, this model is hard to scale and create bizarre incentives. 
 * Patronage: patrons are helping artists make a living since forever. Unfortunately as you are depending on the goodwill of your patrons, it’s an extremely precarious way of life without a huge audience.
-* [VC](https://en.wikipedia.org/wiki/Venture_capital): According to my empirical study, it’s extremely hard to create a long term business whose interests are aligned with those of its users going this way.
+* [VC](https://en.wikipedia.org/wiki/Venture_capital): According to my empirical study it’s extremely hard to create a long term business whose interests are aligned with those of its users going this way.
 * Having a real job™ beside: but is your project worth sacrificing all your free time for it?
 
 
