@@ -42,10 +42,6 @@ Prefer Twitter? Follow
 <a href="https://twitter.com/sylvain_kerkour" target="_blank" rel="noopener">@sylvain_kerkour</a>
 
 
-## Mastodon
-
- Prefer Mastodon? Follow <a href="https://mastodon.social/@42bloom" target="_blank" rel="me noopener">@42bloom@mastodon.social</a>
-
 
 {{< chatbox >}}
 {{< js >}}
