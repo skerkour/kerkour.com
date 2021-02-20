@@ -26,7 +26,7 @@ I’ll write you every two weeks about avoiding complexity, hacking and entrepre
 
 <small>
 I hate spam even more than you do.
-I'll never share your email and you can unsubscribe at any time. Also there is no tracking or ads.
+I'll never share your email, and you can unsubscribe at any time. Also, there is no tracking or ads.
 </small>
 
 <br />
