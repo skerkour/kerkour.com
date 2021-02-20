@@ -22,7 +22,7 @@ This is why I created the Open Source Weekly letter: the best projects, people a
 <div class="text-center mb-5 mt-5">
   <a href="https://opensourceweekly.org" target="_blank" rel="noopener">https://OpenSourceWeekly.org</a>
   <!-- <small class="form-text text-muted">We hate spam even more than you do.
-        We'll never share your email and you can unsubscribe at anytime.</small> -->
+        We'll never share your email and you can unsubscribe at any time.</small> -->
 </div>
 
 Whether you want to make your first contribution, discover interesting projects or people, I will do my best to satisfy you.
