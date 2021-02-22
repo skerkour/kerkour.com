@@ -151,9 +151,9 @@ The best places to suggest features or improvements are (in the following order)
 
 ### Roadmap
 
-You can track the current (and next sprints) on the following page: <a href="https://gitlab.com/groups/bloom42/-/epics" target="_blank" rel="noopener">https://gitlab.com/groups/bloom42/-/epics</a>.
+You can track the current (and next sprints) on the following page: <a href="https://github.com/skerkour/bloom" target="_blank" rel="noopener">https://github.com/skerkour/bloom</a>.
 
-You can find this week's sprint here: <a href="https://gitlab.com/groups/bloom42/-/epics/5" target="_blank" rel="noopener">https://gitlab.com/groups/bloom42/-/epics/5</a>.
+You can find this week's sprint here: <a href="https://github.com/skerkour/bloom/5" target="_blank" rel="noopener">https://github.com/skerkour/bloom/5</a>.
 
 
 At large, the <a href="/blog/bloom-a-free-and-open-source-google/#in-summary" target="_blank" rel="noopener">roadmap stays the same</a>.
