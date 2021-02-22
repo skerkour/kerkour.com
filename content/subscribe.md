@@ -32,12 +32,6 @@ I'll never share your email, and you can unsubscribe at any time. Also, there is
 <br />
 
 
-## Telegram
-
-Prefer Telegram? Join the channel here: <br />
-<a href="https://t.me/skerkour">t.me/skerkour</a>
-
-
 ## RSS
 
 Prefer RSS? Use this URL in your favorite RSS reader: <br />
