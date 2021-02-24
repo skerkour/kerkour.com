@@ -19,7 +19,7 @@ I started developing web services (JSON APIs) in Rust a little bit more than 2 y
 
 **Memory management is a distraction**: Actually, no. I don't use that many lexical lifetimes and use instead smart pointers. So yes, I have to understand the differences between a `Box`, an `Rc` and an `Arc`, but my productivity is not impacted compared to Node.JS or Go.
 
-**Compiler is a pain in the a****: At the beginning, yes. But after a few months, you'll be able to understand all the errors instantly and fix them in a blink. Today I really don't spend much time fighting with the compiler. Instead, it became my best friend, especially when refactoring large portions of code or upgrading dependencies :)
+**Compiler is a pain in the a****: At the beginning, yes. But after a few months, I was able to understand all the errors instantly and fix them in a blink. Today I really don't spend much time fighting with the compiler. Instead, it became my best friend, especially when refactoring large portions of code or upgrading dependencies :)
 
 **Slow compile times**: I accord you this one. When in Node.JS or Go a medium-sized service's Docker image takes 5 to 10 mins to build and deploy, in Rust it will be about 30 minutes.
 
