@@ -27,7 +27,7 @@ I started developing web services in Rust a little bit more than 2 years ago, so
 
 ## A few things I particularly appreciate
 
-**Cross compilation / static linking is remarkably easy**: Creating [small Docker images](https://github.com/skerkour/bloom/blob/main/Dockerfile) `FROM scratch` is a delight.
+**Cross compilation / static linking is remarkably easy**: Creating [small Docker images](https://github.com/skerkour/bloom/blob/main/Dockerfile) is a delight.
 
 **Rust will make you a better programmer**: Rust is complicated and won't leave you alone if you don't understand how it works in detail. It takes time and patience to master, but once you do, you'll have learned so many things that you'll never approach programming as before. I understood how Go's runtime works while learning how Rust's `tokio` works.
 
