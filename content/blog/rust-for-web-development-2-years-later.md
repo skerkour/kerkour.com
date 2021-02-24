@@ -40,6 +40,7 @@ I started developing web services in Rust a little bit more than 2 years ago, so
 * [rusoto](https://github.com/rusoto/rusoto) to interface with AWS services for storage, background jobs and sending emails.
 * [tera](https://github.com/Keats/tera) for email templates.
 * [thiserror](https://github.com/dtolnay/thiserror) for my error types.
+* [sentry](https://github.com/getsentry/sentry-rust) for error monitoring.
 
 ## Conclusion
 
