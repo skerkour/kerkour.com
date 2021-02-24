@@ -15,7 +15,7 @@ I started developing web services in Rust a little bit more than 2 years ago, so
 
 ## The prejudices
 
-**Rust code is ugly**: Rust is explicit. Undeniably. But when I'm writing code, my IDE is helping a lot, and I don't have to press that much key. When I read code, this explicitness is just awesome! No hidden surprises, no weird things.
+**Rust code is ugly**: Rust is explicit. Undeniably. But when I write code, my IDE helps me a lot, and I don't have to press that much key. When I read code, this explicitness is just awesome! No hidden surprises, no weird things.
 
 **Memory management is a distraction**: Actually, no. I don't use that many lexical lifetimes and use instead smart pointers. So yes, I have to understand the differences between a `Box`, an `Rc` and an `Arc`, but my productivity is not impacted compared to Node.JS or Go.
 
