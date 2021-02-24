@@ -31,7 +31,7 @@ I started developing web services (for JSON APIs) in Rust a little bit more than
 
 **Rust will make you a better programmer**: Rust is complicated and won't leave you alone if you don't understand how it works in detail. It takes time and patience to master, but once you do, you'll have learned so many things that you'll never approach programming as before. I understood how Go's runtime works while learning how [tokio](https://github.com/tokio-rs/tokio) works.
 
-**Once it compiles, it works** (usually). This is my favorite thing about Rust. When my program compiles, it works as I planned. Just remember not to block the event loop, and the compiler will take care of everything else. You no longer have to spend time writing tests for the quirks of the language.
+**Once it compiles, it works** (usually). This is my favorite thing about Rust. When my program compiles, it works as I planned. Just remember not to block the event loop, and the compiler will take care of the rest. You no longer have to spend time writing tests for the quirks of the language.
 
 **Rust is productive**: Because Rust is multi-paradigm, it really shines when writing complex business logic, thanks to its functional aspects.
 
