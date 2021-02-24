@@ -38,7 +38,7 @@ I started developing web services (JSON APIs) in Rust a little bit more than 2 y
 **Crates I use**:
 * [actix-web](https://github.com/actix/actix-web) for the HTTP layer.
 * [sqlx](https://github.com/launchbadge/sqlx) for the database (PostgreSQL).
-* [rusoto](https://github.com/rusoto/rusoto) to interface with AWS services for storage, background jobs and sending emails.
+* [rusoto](https://github.com/rusoto/rusoto) to interface with AWS services for storage (S3), background jobs (SQS) and sending emails (SES).
 * [tera](https://github.com/Keats/tera) for email templates.
 * [thiserror](https://github.com/dtolnay/thiserror) for my error types.
 * [sentry](https://github.com/getsentry/sentry-rust) for error monitoring.
