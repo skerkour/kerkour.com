@@ -25,6 +25,9 @@ and crazy ideas on minimalism, hacking and everything in between.<br/>
 
 <!-- * You no longer trust tech monopolies with your data? Neither do I, this is why I built <a href="https://bloom.sh" target="_blank" rel="noopener"> -->
 
+{{< subscribe_btn >}}
+
+
 ## Social 🐣
 
 I'm not really active on social networks because they are too noisy and time sucking, by design. You can contact
