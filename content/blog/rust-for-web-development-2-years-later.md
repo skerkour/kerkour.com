@@ -48,7 +48,7 @@ I started developing web services (for JSON APIs) in Rust a little bit more than
 Rust is a real pleasure to use for web development, and I thoroughly recommend to give it a try.
 <!-- It is so versatile that, without a doubt, it's the last programming language I learn. Ever. -->
 
-It's a long journey to become effective, but totally worth it, and even if you don't use it every day, you'll for sure become a better programmer by learning it and, if lost, rediscover the joy of programming 🤗
+It's a <ins>loooong</ins> journey to become effective, but totally worth it, and even if you don't use it every day, you'll for sure become a better programmer by learning it and, if lost, rediscover the joy of programming 🤗
 
 In a word: Rust is boring. No more bad surprises at 3 A.M. No more bugs because a dependency updated its API. No more annoying manual configuration for auto-scaling or whatever. And welcome response times so small that your users will fall in love with your product.
 
