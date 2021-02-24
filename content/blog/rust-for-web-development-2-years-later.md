@@ -17,7 +17,7 @@ I started developing web services (JSON APIs) in Rust a little bit more than 2 y
 
 **Rust code is ugly**: Rust is explicit. Undeniably. But when I write code, my IDE helps me a lot, and I don't have to press that many keys. When I read code, this explicitness is just awesome! No hidden surprises, no weird things.
 
-**Memory management is a distraction**: Actually, no. I don't use that many lexical lifetimes and use instead non-lexical lifetimes and smart pointers. So yes, I have to understand the differences between a `Box`, an `Rc` and an `Arc`, but my productivity is not impacted compared to Node.JS or Go.
+**Memory management is a distraction**: Actually, no. I don't use that many lexical lifetimes and use instead smart pointers. So yes, I have to understand the differences between a `Box`, an `Rc` and an `Arc`, but my productivity is not impacted compared to Node.JS or Go.
 
 **Compiler is a pain in the a****: At the beginning, yes. But after a few months, you'll be able to understand all the errors instantly and fix them in a blink. Today I really don't spend much time fighting with the compiler. Instead, it became my best friend, especially when refactoring large portions of code or upgrading dependencies :)
 
