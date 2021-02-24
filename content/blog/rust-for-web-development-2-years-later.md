@@ -1,0 +1,50 @@
++++
+date = 2021-02-24T12:42:42+01:00
+title = "Rust for web development: 2 years later"
+type = "post"
+tags = ["bloom","rust", "open source", "web dev"]
+authors = ["Sylvain Kerkour"]
+draft = true
+
+[extra]
+lang = "en"
++++
+
+
+I started developing web services in Rust a little bit more than 2 years ago, so I thought it was time to shake the preconceived ideas and share what I've learned.
+
+> I'm writing a book about Rust where I share everything I've learned and more. Here is a [coupon to save 10€ on the book](https://academy.kerkour.com/black-hat-rust?coupon=BLOG).
+
+## The prejudices
+
+**Rust code is ugly**: Rust is explicit. Undeniably. But when I'm writing code, my IDE is helping a lot, and I don't have to press that much key. When I read code, this explicitness is just awesome! No hidden surprises, no weird things.
+
+**Memory management is a distraction**: Actually, no. I don't use that many lexical lifetimes and use instead smart pointers. So yes, I have to understand the differences between a `Box`, an `Rc` and an `Arc`, but my productivity is not impacted compared to Node.JS or Go.
+
+**Compiler is a pain in the a****: At the beginning, yes. But after a few months, you'll be able to understand all the errors instantly and fix them in a blink. Today I really don't spend much time fighting with the compiler. Instead, it became my best friend :)
+
+**Slow compile times**: I accord you this one. When in Node.JS or Go a medium-sized service's Docker image takeΩ 5 to 10 mins to build and deploy, in Rust it will be about 30 minutes.
+
+**The ecosystem is not there**. Yet. Yes, some pieces are missing, such as a Stripe SDK or an official AWS library, but the community is really active and created all those missing pieces.
+
+
+## A few things I particularly appreciate
+
+**Static linking is remarkably easy**: Creating [small Docker images](https://github.com/skerkour/bloom/blob/main/Dockerfile) `FROM scratch` is a delight.
+
+**Rust will make you a better programmer**: Rust is complicated and won't leave you alone if you don't understand how it works in detail. It takes time and patience to master, but once you do, you'll have learned so many things that you'll never approach programming as before. I understood how Go's runtime works while learning how Rust's `tokio` works.
+
+**Once it compiles, it works** (usually). This is my favorite thing about Rust. When my program compiles, it works as I imagined it. You have to keep in mind not blocking the event loop, and the compiler will take care of everything else. You no longer have to spend time writing tests for the quirks of the language.
+
+
+## Conclusion
+
+Rust is a real pleasure to use for web development and I completely recommend it. It is without a doubt the last programming language I learned. Ever. It's a long journey to become effective, but totally worth it and even if you 
+
+
+
+
+Rust is boring: You'll no longer have bad surprise at 3A.M because one of your service is crashing or some other joy 
+your web services will become so reliable that you'll finally be able to sleep well and your response times so small that your users will fall in love with your product.
+
+If you want to learn more from real-world Rust experience, I'm writing a book (available in early access) where, among other things, we will create and deploy HTTP services in Rust. Here is a coupon to save 10€ on the book: [https://academy.kerkour.com/black-hat-rust?coupon=BLOG](https://academy.kerkour.com/black-hat-rust?coupon=BLOG) 
