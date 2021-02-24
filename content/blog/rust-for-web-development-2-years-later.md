@@ -4,7 +4,6 @@ title = "Rust for web development: 2 years later"
 type = "post"
 tags = ["bloom","rust", "open source", "web dev"]
 authors = ["Sylvain Kerkour"]
-draft = true
 
 [extra]
 lang = "en"
@@ -36,12 +35,18 @@ I started developing web services in Rust a little bit more than 2 years ago, so
 
 **Rust is productive**: Because Rust is multi-paradigm, it really shines when writing business logic, thanks to its functional aspects.
 
+**Crates I use**:
+* [actix-web](https://github.com/actix/actix-web) for the HTTP layer.
+* [rusoto](https://github.com/rusoto/rusoto) to interface with AWS services for storage, background jobs and sending emails.
+* [tera](https://github.com/Keats/tera) for email templates.
+
+
 ## Conclusion
 
 Rust is a real pleasure to use for web development, and I thoroughly recommend it. It is so versatile that, without a doubt, it's the last programming language I learned. Ever.
 
 It's a long journey to become effective, but totally worth it, and even if you don't use it every day, you'll for sure become a better programmer by learning it and, if lost, rediscover the joy of programming 🤗
 
-In a word: Rust is boring. No more bad surprises at 3 A.M. No more bugs because a dependency updated its API. No more needs to configure auto-scaling and whatever. And welcome response times so small that your users will fall in love with your product.
+In a word: Rust is boring. No more bad surprises at 3 A.M. No more bugs because a dependency updated its API. No more annoying manual configuration for auto-scaling and whatever. And welcome response times so small that your users will fall in love with your product.
 
-If you want to learn more from real-world Rust experience, I'm writing a book (available in early access) where, among other things, we will create and deploy HTTP services in Rust. Here is a coupon to save 10€ on the book: [https://academy.kerkour.com/black-hat-rust?coupon=BLOG](https://academy.kerkour.com/black-hat-rust?coupon=BLOG) 
+<!-- If you want to learn more from real-world Rust experience, I'm writing a book (available in early access) where, among other things, we will create and deploy HTTP services in Rust. Here is a coupon to save 10€ on the book: [https://academy.kerkour.com/black-hat-rust?coupon=BLOG](https://academy.kerkour.com/black-hat-rust?coupon=BLOG) -->
