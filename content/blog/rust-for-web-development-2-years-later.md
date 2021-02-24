@@ -9,7 +9,7 @@ authors = ["Sylvain Kerkour"]
 lang = "en"
 +++
 
-I started developing web services (JSON APIs) in Rust a little bit more than 2 years ago, so I thought it was time to shake the preconceived ideas and share what I've learned.
+I started developing web services (for JSON APIs) in Rust a little bit more than 2 years ago, so I thought it was time to shake the preconceived ideas and share what I've learned.
 
 > I'm writing a book  (available in early access) about Rust where I share everything I've learned and more. Here is a [coupon to save 10€ on the book](https://academy.kerkour.com/black-hat-rust?coupon=BLOG).
 
@@ -45,7 +45,7 @@ I started developing web services (JSON APIs) in Rust a little bit more than 2 y
 
 ## Conclusion
 
-Rust is a real pleasure to use for web development, and I thoroughly recommend it. It is so versatile that, without a doubt, it's the last programming language I learned. Ever.
+Rust is a real pleasure to use for web development, and I thoroughly recommend to give it a try. It is so versatile that, without a doubt, it's the last programming language I learned. Ever.
 
 It's a long journey to become effective, but totally worth it, and even if you don't use it every day, you'll for sure become a better programmer by learning it and, if lost, rediscover the joy of programming 🤗
 
