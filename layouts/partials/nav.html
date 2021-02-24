@@ -1,23 +1,16 @@
 <nav>
+  <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+
   {{ if ne "/subscribe/" (.Permalink | relURL) }}
 
-    <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
     <a href="{{ .Site.BaseURL }}" {{ if eq "/" .Permalink }}class="active"{{ end }}>Home</a>
     <a href="{{ "/subscribe/" | relURL }}" {{ if eq "/subscribe/" (.Permalink | relURL) }}class="active"{{ end }}>Subscribe</a>
     <a href="{{ "/about/" | relURL }}" {{ if eq "/about/" (.Permalink | relURL) }}class="active"{{ end }}>About</a>
     <a href="https://academy.kerkour.com/black-hat-rust?coupon=BLOG">My Book</a>
+  {{ end }}
   
     <p>
       Minimalism, hacking, entrepreneurship. By Sylvain Kerkour, creator of
    <a href="https://bloom.sh">Bloom</a> and author of <a href="https://academy.kerkour.com/black-hat-rust?coupon=BLOG">Black Hat Rust</a>
     </p>
-
-    {{ else }}
-
-      <p>
-        Minimalism, hacking, entrepreneurship. By <a href="https://kerkour.com" target="_blank">Sylvain Kerkour</a>, creator of
-    <a href="https://bloom.sh">Bloom</a> and author of <a href="https://academy.kerkour.com/black-hat-rust?coupon=BLOG">Black Hat Rust</a>
-      </p>
-
-    {{ end }}
 </nav>

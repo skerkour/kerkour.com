@@ -5,8 +5,6 @@ date = 2019-02-05T01:42:42+02:00
 +++
 
 
-# Subscribe
-
 I’ll write you every two weeks about avoiding complexity, hacking and entrepreneurship. <br />
 
 
