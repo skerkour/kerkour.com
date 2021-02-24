@@ -39,6 +39,7 @@ I started developing web services in Rust a little bit more than 2 years ago, so
 * [actix-web](https://github.com/actix/actix-web) for the HTTP layer.
 * [rusoto](https://github.com/rusoto/rusoto) to interface with AWS services for storage, background jobs and sending emails.
 * [tera](https://github.com/Keats/tera) for email templates.
+* [reqwest](https://github.com/seanmonstar/reqwest) for HTTP requests.
 
 
 ## Conclusion
