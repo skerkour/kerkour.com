@@ -33,7 +33,7 @@ I started developing web services in Rust a little bit more than 2 years ago, so
 
 **Once it compiles, it works** (usually). This is my favorite thing about Rust. When my program compiles, it works as I planned. You have to keep in mind not blocking the event loop, and the compiler will take care of everything else. You no longer have to spend time writing tests for the quirks of the language.
 
-**Rust is productive**: Because Rust is multi-paradigm, it really shines when writing business logic, thanks to its functional aspects.
+**Rust is productive**: Because Rust is multi-paradigm, it really shines when writing complex business logic, thanks to its functional aspects.
 
 **Crates I use**:
 * [actix-web](https://github.com/actix/actix-web) for the HTTP layer.
