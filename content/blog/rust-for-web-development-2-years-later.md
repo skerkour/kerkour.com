@@ -37,6 +37,7 @@ I started developing web services in Rust a little bit more than 2 years ago, so
 
 **Crates I use**:
 * [actix-web](https://github.com/actix/actix-web) for the HTTP layer.
+* [sqlx](https://github.com/launchbadge/sqlx) for the database (PostgreSQL).
 * [rusoto](https://github.com/rusoto/rusoto) to interface with AWS services for storage, background jobs and sending emails.
 * [tera](https://github.com/Keats/tera) for email templates.
 * [thiserror](https://github.com/dtolnay/thiserror) for my error types.
