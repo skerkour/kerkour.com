@@ -45,7 +45,8 @@ I started developing web services (for JSON APIs) in Rust a little bit more than
 
 ## Conclusion
 
-Rust is a real pleasure to use for web development, and I thoroughly recommend to give it a try. It is so versatile that, without a doubt, it's the last programming language I learn. Ever.
+Rust is a real pleasure to use for web development, and I thoroughly recommend to give it a try.
+<!-- It is so versatile that, without a doubt, it's the last programming language I learn. Ever. -->
 
 It's a long journey to become effective, but totally worth it, and even if you don't use it every day, you'll for sure become a better programmer by learning it and, if lost, rediscover the joy of programming 🤗
 
