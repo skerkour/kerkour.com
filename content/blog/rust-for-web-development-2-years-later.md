@@ -9,7 +9,7 @@ authors = ["Sylvain Kerkour"]
 lang = "en"
 +++
 
-I started developing web services in Rust a little bit more than 2 years ago, so I thought it was time to shake the preconceived ideas and share what I've learned.
+I started developing web services (JSON APIs) in Rust a little bit more than 2 years ago, so I thought it was time to shake the preconceived ideas and share what I've learned.
 
 > I'm writing a book  (available in early access) about Rust where I share everything I've learned and more. Here is a [coupon to save 10€ on the book](https://academy.kerkour.com/black-hat-rust?coupon=BLOG).
 
