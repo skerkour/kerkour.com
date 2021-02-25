@@ -21,7 +21,7 @@ I started developing web services (JSON APIs) in Rust a little bit more than 2 y
 
 **Compiler is a pain in the a****: At the beginning, yes. But after a few months, I was able to understand all the errors instantly and fix them in a blink. Today I really don't spend much time fighting with the compiler. Instead, it became my best friend, especially when refactoring large portions of code or upgrading dependencies :)
 
-**Slow compile times**: I accord you this one. When in Node.JS or Go a medium-sized service's Docker image takes 5 to 10 mins to build and deploy, in Rust it will be about 30 minutes.
+**Slow compile times**: I accord you this one. When in Node.JS or Go a medium-sized service's Docker image takes 3 to 10 mins to build and deploy, in Rust it will be about 30 minutes.
 
 **The ecosystem is not there**: Yet. Yes, some pieces are missing, such as a Stripe SDK or an official AWS library, but the community is really active and created all those missing pieces.
 
