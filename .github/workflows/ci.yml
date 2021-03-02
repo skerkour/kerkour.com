@@ -7,7 +7,10 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    # runs-on: ubuntu-latest
+    # temporary fix: https://github.com/aws/aws-cli/issues/5262
+    runs-on: ubuntu-18.04 
+
 
     steps:
       - uses: actions/checkout@v2
@@ -34,8 +37,6 @@ jobs:
         run: heroku container:release -a ${{ secrets.HEROKU_APP }} web
 
       - name: Purge CDN
-        # temporary fix: https://github.com/aws/aws-cli/issues/5262
-        runs-on: ubuntu-18.04 
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
