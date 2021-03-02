@@ -24,3 +24,4 @@ disableKinds = ["section", "taxonomy", "taxonomyTerm", "tags"]
 
 [outputs]
   home = ["HTML", "RSS", "jsonfeed"]
+
