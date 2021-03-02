@@ -1,7 +1,7 @@
 # [kerkour.com](https://kerkour.com)
 
 
-Strong opinions and crazy ideas on minimalism, hacking and everything in between. By the creators of Bloom.
+The journey of a developer turned entrepreneur. By the creator of [Bloom](https://bloom.sh) and author of [Black Hat Rust](https://academy.kerkour.com/black-hat-rust).
 
 https://kerkour.com
 
