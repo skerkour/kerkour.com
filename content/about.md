@@ -17,7 +17,7 @@ and long distance running.
 ## Projects 🚀
 
 * The book <a href="https://academy.kerkour.com/black-hat-rust?coupon=BLOG">Black Hat Rust - Deep dive into offensive security with the Rust programming language</a>.
-* <a href="https://bloom.sh">Bloom - The simplest way to de-Google your life and business: Open Source Inbox, Calendar, Files, Contacts & much more</a>.
+* <a href="https://bloom.sh">Bloom - The all-in-one workspace for your life and business: Open Source Inbox, Calendar, Files, Contacts & much more</a>.
 * This website
 where I share strong opinions
 and crazy ideas on minimalism, hacking and everything in between.<br/>
