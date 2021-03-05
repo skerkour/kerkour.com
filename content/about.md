@@ -40,12 +40,6 @@ To never miss an update you can [subscribe to my newsletter](/subscribe) where I
 [Here](/readings/)
 
 
-## License
-
-Unless indicated otherwise, all the content on this website is licensed under the
-[CC BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/).
-
-
 
 ## Open source
 
