@@ -8,7 +8,7 @@ disableKinds = ["section", "taxonomy", "taxonomyTerm", "tags"]
   unsafe = true
 
 [params]
-  description = "The journey of a developer turned nomadic entrepreneur. By Sylvain Kerkour, creator of Bloom and author of Black Hat Rust."
+  description = "The journey of a developer turned entrepreneur. By Sylvain Kerkour, creator of Bloom and author of Black Hat Rust."
   git = "https://github.com/skerkour/kerkour.com"
   ogimage = "https://www.fatalentropy.com/imgs/og_image.jpg"
 
