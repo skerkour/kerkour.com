@@ -19,7 +19,7 @@ and long distance running.
 * The book <a href="https://academy.kerkour.com/black-hat-rust?coupon=BLOG">Black Hat Rust - Deep dive into offensive security with the Rust programming language</a>.
 * <a href="https://bloom.sh">Bloom - The all-in-one workspace for your life and business: Open Source Inbox, Calendar, Files, Contacts & much more</a>.
 * My [newsletter
-where I share everything I learn](/subscribe) in my journey to free myself from contemporary slavery: hacking, entrepreneurship, minimalism and more.<br/>
+where I share everything I learn](/subscribe) in my journey to free myself from contemporary slavery: hacking, nomadic entrepreneurship, minimalism and more.<br/>
 
 
 <!-- * You no longer trust tech monopolies with your data? Neither do I, this is why I built <a href="https://bloom.sh" target="_blank" rel="noopener"> -->
