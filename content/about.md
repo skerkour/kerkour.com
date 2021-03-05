@@ -21,9 +21,6 @@ and long distance running.
 * [My newsletter
 where I share everything I learn](/subscribe) in my journey to free myself from contemporary slavery: hacking, nomadic entrepreneurship, minimalism and more.<br/>
 
-
-<!-- * You no longer trust tech monopolies with your data? Neither do I, this is why I built <a href="https://bloom.sh" target="_blank" rel="noopener"> -->
-
 {{< subscribe_btn >}}
 
 
