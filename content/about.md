@@ -30,11 +30,10 @@ and crazy ideas on minimalism, hacking and everything in between.<br/>
 
 ## Social 🐣
 
-<!-- I'm not really active on social networks because they are too noisy and time sucking, by design. You can contact
-me can by sending your message and your email address in the chatbox at the bottom right of this page. -->
-
 You won't find me on social networks because they are too noisy and time sucking, by design. You can contact
 me can by sending your message and your email address in the chatbox at the bottom right of this page.
+
+To never miss an update you can [subscribe to my newsletter](/subscribe) where I share everything I learn in my quest to freedom.
 
 
 ## Reading list 📖
