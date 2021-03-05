@@ -40,12 +40,4 @@ To never miss an update you can [subscribe to my newsletter](/subscribe) where I
 [Here](/readings/)
 
 
-
-## Open source
-
-The source code of this website is available on GitHub:
-[{{< giturl >}}]({{< giturl >}})
-
-
-
 {{< chatbox >}}
