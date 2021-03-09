@@ -1,7 +1,7 @@
 +++
 date = 2019-06-05T01:42:42+02:00
 title = "Bloom : un Google libre et open source"
-tags = ["rust", "rustlang", "opensource", "google", "free software", "french"]
+tags = ["rust", "bloom", "opensource", "google", "free software", "french"]
 type = "post"
 authors = ["Sylvain Kerkour"]
 [extra]

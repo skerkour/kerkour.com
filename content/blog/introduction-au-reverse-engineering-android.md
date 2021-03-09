@@ -3,7 +3,9 @@ date = 2013-12-27T12:42:42+02:00
 title = "Introduction au reverse engineering - Android"
 authors = ["Sylvain Kerkour"]
 type = "post"
-tags = ["french"]
+tags = ["french", "hacking"]
+
+
 [extra]
 lang = "fr"
 +++

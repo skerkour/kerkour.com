@@ -3,6 +3,8 @@ date = 2017-04-23T22:40:43+02:00
 title = "Cut the bullshit"
 authors = ["Sylvain Kerkour"]
 type = "post"
+tags = ["entrepreneurship"]
+
 [extra]
 lang = "en"
 +++

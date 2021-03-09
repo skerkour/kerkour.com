@@ -2,7 +2,7 @@
 date = 2021-02-10T12:42:42+01:00
 title = "The unusual way I'm funding my open source work"
 type = "post"
-tags = ["bloom", "hacking", "open source", "black hat rust"]
+tags = ["bloom", "hacking", "open source", "black hat rust", "entrepreneurship"]
 authors = ["Sylvain Kerkour"]
 
 
