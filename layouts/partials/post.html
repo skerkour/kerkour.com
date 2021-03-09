@@ -19,6 +19,17 @@
     {{ .Content }}
   </div>
 
+  <div style="margin-top: 30px; margin-bottom: 30px;">
+    {{ $taxo := "tags" }} <!-- Use the plural form here -->
+    {{ with .Param $taxo }}
+        <strong>Tag{{ if gt (len .) 1 }}s{{ end }}:</strong>
+        {{ range $index, $tag := ($.GetTerms "tags") }}
+            {{- if gt $index 0 }}, {{ end -}}
+            <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+        {{- end -}}
+    {{ end }}
+  </div>
+
   <div class="center" style="margin-bottom: 20px;">
     <h3><a href="/subscribe"><button type="button">Subscribe</button></a></h3>
     <small>

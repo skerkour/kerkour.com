@@ -2,7 +2,12 @@ baseURL = "https://kerkour.com"
 languageCode = "en-us"
 title = "Sylvain Kerkour"
 disableHugoGeneratorInject = true
-disableKinds = ["section", "taxonomy", "taxonomyTerm", "tags"]
+# https://gohugo.io/content-management/taxonomies/
+# disableKinds = ["section", "taxonomy"]
+disableKinds = ["section"]
+
+[taxonomies]
+  tag = "tags"
 
 [markup.goldmark.renderer]
   unsafe = true
