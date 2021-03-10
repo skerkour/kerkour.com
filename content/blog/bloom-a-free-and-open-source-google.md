@@ -374,7 +374,7 @@ Roadmap:
 * Q1 2020 - Add services
 * Q2 2020 - IOS Application + Data Portability
 * Q3 / Q4 2020 - Federation
-* ∞ Never stop challenging the *statu quo*
+* ∞ Never stop challenging the *status quo*
 
 
 But shhh, it's a secret 🤫

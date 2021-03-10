@@ -547,7 +547,7 @@ En résumé le master plan est le suivant :
 * Q1 2020 - Ajout de services
 * Q2 2020 - Application IOS + Portabilité des données
 * Q3/Q4 2020 - Fédération
-* ∞ Ne jamais arrêter de défier le *statu quo*
+* ∞ Ne jamais arrêter de défier le *status quo*
 
 Mais chuuut, c'est un secret 🤫
 

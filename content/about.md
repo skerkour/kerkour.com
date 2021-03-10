@@ -11,7 +11,7 @@ type = "page"
 
 I cut my teeth on rugby fields, boxing rings, MMA tatamis and at <a href="https://www.42.fr">42</a>.
 
-I'm into minimalism, nomad entrepreneurship, hacking, bookworming, challenging the statu quo and various outdoor activities like biking
+I'm into minimalism, nomad entrepreneurship, hacking, bookworming, challenging the status quo and various outdoor activities like biking
 and long distance running.
 
 ## Projects 🚀
