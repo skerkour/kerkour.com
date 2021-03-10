@@ -66,7 +66,7 @@ func RedirectMiddleware(next http.Handler) http.Handler {
 		// } else {
 		path := strings.ToLower(r.URL.Path)
 		normalizedPath := strings.TrimRight(path, "/")
-		if path == "/index.xml" {
+		if path == "/index.xml" || path == "/rss.xml" || path == "/rss"{
 			http.Redirect(w, r, "/feed.xml", http.StatusMovedPermanently)
 		} else if strings.HasPrefix(path, "/open-source-weekly/") {
 			http.Redirect(w, r, filepath.Join("/blog", path), http.StatusMovedPermanently)
