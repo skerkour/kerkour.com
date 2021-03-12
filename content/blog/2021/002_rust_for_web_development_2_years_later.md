@@ -4,6 +4,7 @@ title = "Rust for web development: 2 years later"
 type = "post"
 tags = ["bloom","rust", "open source", "web dev"]
 authors = ["Sylvain Kerkour"]
+url = "/blog/rust-for-web-development-2-years-later"
 
 [extra]
 lang = "en"

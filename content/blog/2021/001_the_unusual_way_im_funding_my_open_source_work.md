@@ -4,7 +4,7 @@ title = "The unusual way I'm funding my open source work"
 type = "post"
 tags = ["bloom", "hacking", "open source", "black hat rust", "entrepreneurship", "nomad"]
 authors = ["Sylvain Kerkour"]
-
+url = "/blog/the-unusual-way-im-funding-my-open-source-work"
 
 [extra]
 lang = "en"
