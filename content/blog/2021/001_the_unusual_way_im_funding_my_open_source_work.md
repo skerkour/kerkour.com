@@ -13,6 +13,8 @@ lang = "en"
 From the Linux kernel to Firefox and Wordpress, Open Source is changing the world for the better. But how to achieve financial sustainability when you produce something that can legally be copied, by design, at zero cost?
 
 
+{{< bhr_banner >}}
+
 ## Revenue models for Open Source
 
 A [lot](https://news.ycombinator.com/item?id=23218943) has been written about [achieving profitability](https://plausible.io/blog/open-source-funding) for open source projects, still it’s not a solved problem. Here are the most common ways for open source projects to generate profit:
