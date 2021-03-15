@@ -6,8 +6,8 @@ on:
       - main
 
   schedule:
-    # every day at 08:05 UTC
-    - cron:  '05 8 * * *'
+    # every day at 07:05 UTC
+    - cron:  '05 7 * * *'
 
 jobs:
   build:
