@@ -14,6 +14,8 @@ lang = "en"
 
 Sending emails in Rust can be achieved in two ways: either by using an SMTP server or by using a third-party service with an API such as AWS SES or Sendgrid.
 
+{{< bhr_banner >}}
+
 ## SMTP
 
 SMTP is the standard protocol for sending emails. Thus, it's the most portable way to send emails as every provider accepts it.
@@ -134,3 +136,5 @@ async fn send_email_ses(
     Ok(())
 }
 ```
+
+If you want to learn more from real-world Rust experience, I'm writing a book (available in early access). Here is a coupon to save 10€ on the book: [https://academy.kerkour.com/black-hat-rust?coupon=BLOG](https://academy.kerkour.com/black-hat-rust?coupon=BLOG)
