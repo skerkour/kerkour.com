@@ -139,7 +139,14 @@ main {
     border-left: 5px solid #f1f1f1;
   }
 
-  code {
+  pre {
+    display: block;
+    background-color: #f1f1f1;
+    overflow-x: scroll;
+    padding: 5px;
+  }
+
+  :not(pre) > code {
     background-color: #f1f1f1;
     padding: 1px;
   }
