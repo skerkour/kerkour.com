@@ -1,5 +1,5 @@
 +++
-date = 2021-03-15T08:00:00+01:00
+date = 2021-03-16T06:00:00Z
 title = "How to send emails with Rust"
 type = "post"
 tags = ["tutorial", "rust", "web dev", "email"]
@@ -14,7 +14,6 @@ lang = "en"
 
 Sending emails in Rust can be achieved in two ways: either by using an SMTP server or by using a third-party service with an API such as AWS SES or Sendgrid.
 
-{{< bhr_banner >}}
 
 ## SMTP
 
