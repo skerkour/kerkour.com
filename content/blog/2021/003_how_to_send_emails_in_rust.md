@@ -1,12 +1,10 @@
 +++
-date = 2021-03-16T00:00:00Z
+date = 2021-03-16T07:00:00Z
 title = "How to send emails with Rust"
 type = "post"
 tags = ["tutorial", "rust", "web dev", "email"]
 authors = ["Sylvain Kerkour"]
 url = "/blog/rust-send-email"
-
-draft = true
 
 [extra]
 lang = "en"
