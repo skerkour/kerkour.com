@@ -1,7 +1,7 @@
 # [kerkour.com](https://kerkour.com)
 
 
-The journey of a developer turned entrepreneur. By the creator of [Bloom](https://bloom.sh) and author of [Black Hat Rust](https://academy.kerkour.com/black-hat-rust).
+The journey of a software craftsman. By the creator of [Bloom](https://bloom.sh) and author of [Black Hat Rust](https://academy.kerkour.com/black-hat-rust).
 
 https://kerkour.com
 
