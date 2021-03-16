@@ -1,5 +1,5 @@
 +++
-date = 2021-03-16T06:00:00Z
+date = 2021-03-16T00:00:00Z
 title = "How to send emails with Rust"
 type = "post"
 tags = ["tutorial", "rust", "web dev", "email"]
