@@ -75,7 +75,7 @@ your email provider imposes a limit on the messages' throughout sent through SMT
 
 To send an email with SES, we first need to create and format the email appropriately and then send it through its API.
 
-We need to use the `lettre` crate with only the `builder` feature enabled (to reduces bloat) to format the email and send it with the `rusoto` crate which is the unofficial AWS SDK.
+We need to use the [`lettre`](https://github.com/lettre/lettre) crate with only the `builder` feature enabled (to reduces bloat) to format the email and send it with the [`rusoto`](https://github.com/rusoto/rusoto) crate which is the unofficial AWS SDK.
 
 
 **Cargo.toml**
