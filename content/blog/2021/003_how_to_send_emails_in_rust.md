@@ -4,7 +4,7 @@ title = "How to send emails with Rust"
 type = "post"
 tags = ["tutorial", "rust", "web dev", "email"]
 authors = ["Sylvain Kerkour"]
-url = "/blog/send-email-in-rust"
+url = "/blog/rust-send-email"
 
 [extra]
 lang = "en"
