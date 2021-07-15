@@ -44,7 +44,7 @@ fn main() {
 //     println!("{}", result);
 // }
 
-// #[tokio::main(flavor = "multi_thread")]
+// #[tokio::main]
 // async fn main() {
 //     let jobs = 0..100;
 //     let concurrency = 42;
