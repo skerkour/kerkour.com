@@ -4,4 +4,4 @@ CREATE TABLE IF NOT EXISTS users (
     username TEXT NOT NULL
 );
 
--- CREATE UNIQUE INDEX idx_users_on_id ON users(id);
+CREATE UNIQUE INDEX idx_users_on_id ON users(id);
