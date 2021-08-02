@@ -22,7 +22,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
                 .short("c")
                 .long("concurrency")
                 .help("Number of concurrent inserts")
-                .default_value("1"),
+                .default_value("10"),
         )
         .arg(
             Arg::with_name("inserts")
