@@ -2,6 +2,7 @@ use warp::Filter;
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
+    // because Heroku injects the port as an environment variable
     let port = std::env::var("PORT")
         .ok()
         .map(|val| val.parse::<u16>())
