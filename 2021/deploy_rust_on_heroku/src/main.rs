@@ -18,6 +18,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     let routes = hello.or(world).or(fallback);
 
+    println!("Starting server on port: {}", port);
     let (_addr, server) =
         warp::serve(routes).bind_with_graceful_shutdown(([0, 0, 0, 0], port), async {
             tokio::signal::ctrl_c()
