@@ -51,7 +51,7 @@ jobs:
         run: docker images
 
 
-      - name: Login to container registries
+      - name: Login to container registry
         env:
           HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
         run: |
