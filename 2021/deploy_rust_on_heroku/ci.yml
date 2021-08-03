@@ -28,6 +28,7 @@ jobs:
 
       - name: Test
         run: |
+          cargo clippy -- -D warnings
           cargo check
           cargo test --all
 
