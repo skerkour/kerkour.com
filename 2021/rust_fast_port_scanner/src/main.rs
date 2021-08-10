@@ -97,7 +97,7 @@ async fn scan_port(hostname: &str, port: u16) -> bool {
 
 fn get_ports(full: bool) -> Box<dyn Iterator<Item = u16>> {
     if full {
-        Box::new((0..u16::MAX).into_iter())
+        Box::new((1..=u16::MAX).into_iter())
     } else {
         Box::new(ports::MOST_COMMON_PORTS_1002.to_owned().into_iter())
     }
