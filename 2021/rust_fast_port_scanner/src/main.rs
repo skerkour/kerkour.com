@@ -1,7 +1,7 @@
 use clap::{App, Arg};
 use futures::{stream, StreamExt};
 use std::{
-    net::{SocketAddr, ToSocketAddrs},
+    net::{IpAddr, SocketAddr, ToSocketAddrs},
     time::Duration,
 };
 use tokio::net::TcpStream;
@@ -74,12 +74,18 @@ async fn main() -> Result<(), anyhow::Error> {
         );
     }
 
-    scan(target, full, concurrency, timeout).await;
+    let socket_addresses: Vec<SocketAddr> = format!("{}:0", target).to_socket_addrs()?.collect();
+
+    if socket_addresses.is_empty() {
+        return Err(anyhow::anyhow!("Socket_addresses list is empty"));
+    }
+
+    scan(socket_addresses[0].ip(), full, concurrency, timeout).await;
 
     Ok(())
 }
 
-async fn scan(target: &str, full: bool, concurrency: usize, timeout: u64) {
+async fn scan(target: IpAddr, full: bool, concurrency: usize, timeout: u64) {
     let ports = stream::iter(get_ports(full));
 
     ports
@@ -87,18 +93,11 @@ async fn scan(target: &str, full: bool, concurrency: usize, timeout: u64) {
         .await;
 }
 
-async fn scan_port(hostname: &str, port: u16, timeout: u64) {
+async fn scan_port(target: IpAddr, port: u16, timeout: u64) {
     let timeout = Duration::from_secs(timeout);
-    let socket_addresses: Vec<SocketAddr> = format!("{}:{}", hostname, port)
-        .to_socket_addrs()
-        .expect("Creating socket address")
-        .collect();
+    let socket_address = SocketAddr::new(target.clone(), port);
 
-    if socket_addresses.len() == 0 {
-        return;
-    }
-
-    if tokio::time::timeout(timeout, TcpStream::connect(&socket_addresses[0]))
+    if tokio::time::timeout(timeout, TcpStream::connect(&socket_address))
         .await
         .is_ok()
     {
