@@ -37,6 +37,13 @@ async fn main() -> Result<(), anyhow::Error> {
                 .help("Scan all 65535 ports")
                 .long("full"),
         )
+        .arg(
+            Arg::with_name("timeout")
+                .help("Connection timeout")
+                .long("timeout")
+                .short("t")
+                .default_value("3"),
+        )
         .setting(clap::AppSettings::ArgRequiredElseHelp)
         .setting(clap::AppSettings::VersionlessSubcommands)
         .get_matches();
@@ -48,51 +55,55 @@ async fn main() -> Result<(), anyhow::Error> {
         .unwrap()
         .parse::<usize>()
         .unwrap_or(1002);
+    let timeout = cli_matches
+        .value_of("timeout")
+        .unwrap()
+        .parse::<u64>()
+        .unwrap_or(3);
     let target = cli_matches.value_of("target").unwrap();
 
     if verbose {
         let ports = if full {
-            String::from("all 65535 ports")
+            String::from("all the 65535 ports")
         } else {
-            String::from("the most 1002 common ports")
+            String::from("the most common 1002 ports")
         };
         println!(
-            "Scanning {} of {}. Concurrency: {:?}",
-            &ports, target, concurrency
+            "Scanning {} of {}. Concurrency: {:?}. Timeout: {:?}",
+            &ports, target, concurrency, timeout
         );
     }
 
-    scan(target, full, concurrency).await;
+    scan(target, full, concurrency, timeout).await;
 
     Ok(())
 }
 
-async fn scan(target: &str, full: bool, concurrency: usize) {
+async fn scan(target: &str, full: bool, concurrency: usize, timeout: u64) {
     let ports = stream::iter(get_ports(full));
 
     ports
-        .for_each_concurrent(concurrency, |port| async move {
-            if scan_port(target, port).await {
-                println!("{:?}", port);
-            }
-        })
+        .for_each_concurrent(concurrency, |port| scan_port(target, port, timeout))
         .await;
 }
 
-async fn scan_port(hostname: &str, port: u16) -> bool {
-    let timeout = Duration::from_secs(3);
+async fn scan_port(hostname: &str, port: u16, timeout: u64) {
+    let timeout = Duration::from_secs(timeout);
     let socket_addresses: Vec<SocketAddr> = format!("{}:{}", hostname, port)
         .to_socket_addrs()
         .expect("Creating socket address")
         .collect();
 
     if socket_addresses.len() == 0 {
-        return false;
+        return;
     }
 
-    tokio::time::timeout(timeout, TcpStream::connect(&socket_addresses[0]))
+    if tokio::time::timeout(timeout, TcpStream::connect(&socket_addresses[0]))
         .await
         .is_ok()
+    {
+        println!("{}", port);
+    }
 }
 
 fn get_ports(full: bool) -> Box<dyn Iterator<Item = u16>> {
