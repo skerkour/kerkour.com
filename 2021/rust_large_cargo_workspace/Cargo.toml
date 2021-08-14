@@ -1,0 +1,10 @@
+[workspace]
+
+members = [
+    "app",
+    "libs",
+
+    "subcrate_one",
+    "subcrate_two",
+    "subcrate_three",
+]
