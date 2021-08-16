@@ -4,7 +4,11 @@ members = [
     "app",
     "libs",
 
-    "subcrate_one",
-    "subcrate_two",
-    "subcrate_three",
+    "one",
+    "two",
+    "three",
+]
+
+default-members = [
+  "app",
 ]
