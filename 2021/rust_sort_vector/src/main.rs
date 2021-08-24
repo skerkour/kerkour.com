@@ -1,3 +1,4 @@
+use rayon::prelude::*;
 use std::cmp::Ordering;
 
 #[derive(Debug)]
@@ -29,5 +30,10 @@ fn main() {
             Ordering::Greater
         }
     });
+    println!("{:?}", v);
+
+    // par_sort
+    let mut v = vec![3, 2, 90, 78, 64, 32, 1, -10, 10, 10000];
+    v.par_sort();
     println!("{:?}", v);
 }
