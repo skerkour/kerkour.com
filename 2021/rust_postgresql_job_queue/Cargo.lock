@@ -922,6 +922,7 @@ dependencies = [
  "anyhow",
  "async-trait",
  "chrono",
+ "futures",
  "serde",
  "sqlx",
  "thiserror",

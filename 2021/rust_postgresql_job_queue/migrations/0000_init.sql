@@ -8,5 +8,5 @@ CREATE TABLE queue (
   status INT NOT NULL,
   message JSONB NOT NULL
 );
-CREATE INDEX index_queue_on_scheduled_for ON kernel_queue (scheduled_for);
-CREATE INDEX index_queue_on_status ON kernel_queue (status);
+CREATE INDEX index_queue_on_scheduled_for ON queue (scheduled_for);
+CREATE INDEX index_queue_on_status ON queue (status);
