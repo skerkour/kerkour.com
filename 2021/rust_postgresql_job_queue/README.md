@@ -1,4 +1,4 @@
-# How to build a job queue with Rust and PostgreSQL
+# [How to build a job queue with Rust and PostgreSQL](https://kerkour.com/blog/rust-job-queue-with-postgresql/)
 
 
 ```shell
