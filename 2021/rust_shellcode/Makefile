@@ -8,8 +8,8 @@ build_shellcode:
 dump_shellcode: build_shellcode
 	objdump -D -b binary -mi386 -Mx86-64 -Mintel -z shellcode.bin
 
-.PHONY: run_shellcode
-run_shellcode: build_shellcode execute
+.PHONY: execute_shellcode
+execute_shellcode: build_shellcode execute
 
 .PHONY: execute
 execute:
