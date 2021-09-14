@@ -21,27 +21,42 @@ impl ChatService {
         ChatService { db }
     }
 
-    pub fn find_messages(after: Uuid) -> Result<Vec<Message>, Error> {
-        todo!();
+    pub async fn find_messages(&self, after: Option<Uuid>) -> Result<Vec<Message>, Error> {
+        let query = "SELECT *
+            FROM messages
+            WHERE id > $1";
+
+        let messages: Vec<Message> = sqlx::query_as::<_, Message>(query)
+            .bind(after.unwrap_or(Uuid::nil()))
+            .fetch_all(&self.db)
+            .await?;
+
+        Ok(messages)
     }
 
-    pub async fn create_message(&self, body: String) -> Result<(), Error> {
+    pub async fn create_message(&self, body: String) -> Result<Message, Error> {
         if body.len() > 10_000 {
             return Err(Error::InvalidArgument("Message is too large".to_string()));
         }
 
-        let now = chrono::Utc::now();
-        let message_id: Uuid = Ulid::new().into();
+        let created_at = chrono::Utc::now();
+        let id: Uuid = Ulid::new().into();
+
         let query = "INSERT INTO messages
             (id, created_at, body)
             VALUES ($1, $2, $3)";
 
         sqlx::query(query)
-            .bind(message_id)
-            .bind(now)
-            .bind(body)
+            .bind(id)
+            .bind(created_at)
+            .bind(&body)
             .execute(&self.db)
             .await?;
-        Ok(())
+
+        Ok(Message {
+            id,
+            created_at,
+            body,
+        })
     }
 }

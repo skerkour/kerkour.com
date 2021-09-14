@@ -2,7 +2,8 @@
 
 In shell 1:
 ```shell
-$ cargo run
+$ docker run --name rust_long_polling -d -e POSTGRES_USER=rust -e POSTGRES_PASSWORD=long_polling -p 5432:5432 postgres:latest
+$ DATABASE_URL=postgres://rust:long_polling@localhost:5432/rust cargo run
 ```
 
 

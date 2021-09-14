@@ -17,3 +17,4 @@ ulid = { version = "0.4", features = ["uuid"] }
 chrono = { version = "0.4", features = ["serde"] }
 thiserror = "1"
 anyhow = "1"
+serde_json = "1"
