@@ -91,8 +91,8 @@ async fn handler_find_messages(
 ) -> Result<Json<Vec<Message>>, Error> {
     let sleep_for = Duration::from_secs(1);
 
-    // long polling: 5 secs
-    for _ in 0..5u64 {
+    // long polling: 10 secs
+    for _ in 0..10u64 {
         let messages = ctx.chat_service.find_messages(query_params.after).await?;
         if messages.len() != 0 {
             return Ok(messages.into());
