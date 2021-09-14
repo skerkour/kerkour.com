@@ -30,7 +30,6 @@ async fn main() -> Result<(), anyhow::Error> {
     let chat_service = chat::ChatService::new(db);
     let ctx = Arc::new(ServerContext::new(chat_service));
 
-    // build our application with a single route
     let app = Router::new()
         .route(
             "/messages",
