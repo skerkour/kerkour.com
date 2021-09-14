@@ -1,0 +1,6 @@
+CREATE TABLE messages (
+  id UUID PRIMARY KEY,
+  created_at TIMESTAMP WITH TIME ZONE NOT NULL,
+
+  body TEXT NOT NULL
+);

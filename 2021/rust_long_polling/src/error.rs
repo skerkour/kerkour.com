@@ -10,6 +10,8 @@ pub enum Error {
     NotFound(String),
     #[error("Migrating database: {0}")]
     DatabaseMigration(String),
+    #[error("Invalid argument: {0}")]
+    InvalidArgument(String),
 }
 
 impl std::convert::From<sqlx::Error> for Error {
