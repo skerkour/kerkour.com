@@ -3,6 +3,7 @@ Code accompanying my blog [https://kerkour.com](https://kerkour.com)
 
 ## 2021
 
+* [How to implement HTTP Long Polling in Rust](https://kerkour.com/blog/rust-http-long-polling/)
 * [How to Write and Compile Shellcode in Rust](https://kerkour.com/blog/shellcode-in-rust/)
 * [How to build a job queue with Rust and PostgreSQL](https://kerkour.com/blog/rust-job-queue-with-postgresql/)
 * [How to sort a vector in Rust](https://kerkour.com/blog/rust-how-to-sort-a-vector/)
