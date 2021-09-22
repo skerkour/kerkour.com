@@ -1,0 +1,18 @@
+[build]
+target = "xtensa-esp32-espidf"
+
+[target.xtensa-esp32-espidf]
+linker = "ldproxy"
+
+[unstable]
+build-std = ["std", "panic_abort"]
+build-std-features = ["panic_immediate_abort"]
+configurable-env = true # No longer necessary since 1.56, as it was stabilized: https://github.com/rust-lang/cargo/blob/master/src/cargo/core/features.rs#L698
+extra-link-arg = true   # No longer necessary since 1.56, as it was stabilized: https://github.com/rust-lang/cargo/blob/master/src/cargo/core/features.rs#L695
+
+[env]
+ESP_IDF_SYS_GLOB_BASE = { value = ".", relative = true }
+
+ESP_IDF_SYS_GLOB_0 = { value = "/sdkconfig.release" }
+ESP_IDF_SYS_GLOB_1 = { value = "/sdkconfig.debug" }
+ESP_IDF_SYS_GLOB_2 = { value = "/sdkconfig.defaults" }
