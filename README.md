@@ -3,6 +3,7 @@ Code accompanying my blog [https://kerkour.com](https://kerkour.com)
 
 ## 2021
 
+* [Reproductibe cross-compilation for Rust (with Docker)](https://kerkour.com/blog/rust-reproductible-cross-compilation-with-docker/)
 * [Rust on ESP32](https://kerkour.com/blog/rust-on-esp32)
 * [How to implement HTTP Long Polling in Go](https://kerkour.com/blog/go-http-long-polling/)
 * [How to implement HTTP Long Polling in Rust](https://kerkour.com/blog/rust-http-long-polling/)
