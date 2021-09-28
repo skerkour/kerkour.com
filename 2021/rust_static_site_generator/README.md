@@ -1,4 +1,4 @@
-# [Buildnig a static site generator in 100 lines of Rust](https://kerkour.com/blog/rust-static-site-generator)
+# [Building a static site generator in 100 lines of Rust](https://kerkour.com/blog/rust-static-site-generator)
 
 
 ```shell
