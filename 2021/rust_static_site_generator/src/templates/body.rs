@@ -1,4 +1,4 @@
-pub fn format_body(body: &str) -> String {
+pub fn render_body(body: &str) -> String {
     format!(
         r#"  <body>
     <nav>

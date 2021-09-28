@@ -62,7 +62,7 @@ fn rebuild_site(content_dir: &str, output_dir: &str) -> Result<(), anyhow::Error
         let mut body = String::new();
         pulldown_cmark::html::push_html(&mut body, parser);
 
-        html.push_str(templates::format_body(&body).as_str());
+        html.push_str(templates::render_body(&body).as_str());
         html.push_str(templates::FOOTER);
 
         let html_file = file
@@ -91,7 +91,7 @@ fn write_index(files: Vec<String>, output_dir: &str) -> Result<(), anyhow::Error
         .collect::<Vec<String>>()
         .join("<br />\n");
 
-    html.push_str(templates::format_body(&body).as_str());
+    html.push_str(templates::render_body(&body).as_str());
     html.push_str(templates::FOOTER);
 
     let index_path = Path::new(&output_dir).join("index.html");
