@@ -7,3 +7,9 @@ edition = "2018"
 
 [dependencies]
 pulldown-cmark = "0.8.0"
+hotwatch = "0.4"
+tokio = { version = "1", features = ["full"] }
+anyhow = "1"
+walkdir = "2"
+axum = "0.2"
+tower-http = { version = "0.1", features = ["fs"] }
