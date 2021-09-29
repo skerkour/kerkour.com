@@ -39,11 +39,13 @@ async fn main() -> Result<(), anyhow::Error> {
     axum::Server::bind(&addr)
         .serve(app.into_make_service())
         .await?;
+
     Ok(())
 }
 
 fn rebuild_site(content_dir: &str, output_dir: &str) -> Result<(), anyhow::Error> {
     let _ = fs::remove_dir_all(output_dir);
+
     let markdown_files: Vec<String> = walkdir::WalkDir::new(content_dir)
         .into_iter()
         .filter_map(|e| e.ok())
@@ -52,13 +54,11 @@ fn rebuild_site(content_dir: &str, output_dir: &str) -> Result<(), anyhow::Error
         .collect();
     let mut html_files = Vec::with_capacity(markdown_files.len());
 
-    let mut options = pulldown_cmark::Options::empty();
-    options.insert(pulldown_cmark::Options::ENABLE_STRIKETHROUGH);
-
     for file in &markdown_files {
         let mut html = templates::HEADER.to_owned();
         let markdown = fs::read_to_string(&file)?;
-        let parser = pulldown_cmark::Parser::new_ext(&markdown, options);
+        let parser = pulldown_cmark::Parser::new_ext(&markdown,  pulldown_cmark::Options::all());
+
         let mut body = String::new();
         pulldown_cmark::html::push_html(&mut body, parser);
 
