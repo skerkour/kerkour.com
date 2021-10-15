@@ -49,7 +49,7 @@ fn _start() {
             SYS_WRITE,
             STDOUT,
             MESSAGE.as_ptr() as usize,
-            MESSAGE.len() as usize,
+            MESSAGE.len(),
         );
 
         syscall1(SYS_EXIT, 0)
