@@ -1,3 +1,5 @@
+# (Ab)using technology for fun & profit.
+
 Code accompanying my blog [https://kerkour.com](https://kerkour.com)
 
 
