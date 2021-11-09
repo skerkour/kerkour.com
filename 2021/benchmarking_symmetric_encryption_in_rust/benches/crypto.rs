@@ -39,7 +39,7 @@ fn bench(c: &mut Criterion) {
     });
     group.bench_function("ChaCha20-Poly1305", |b| {
         b.iter(|| {
-            chacha20_poly1305.encrypt_in_place_detached(nonce_192.as_ref().into(), &ad, &mut in_out)
+            chacha20_poly1305.encrypt_in_place_detached(nonce_96.as_ref().into(), &ad, &mut in_out)
         });
     });
     group.bench_function("ring ChaCha20-Poly1305", |b| {
@@ -86,7 +86,7 @@ fn bench(c: &mut Criterion) {
     });
     group.bench_function("ChaCha20-Poly1305", |b| {
         b.iter(|| {
-            chacha20_poly1305.encrypt_in_place_detached(nonce_192.as_ref().into(), &ad, &mut in_out)
+            chacha20_poly1305.encrypt_in_place_detached(nonce_96.as_ref().into(), &ad, &mut in_out)
         });
     });
     group.bench_function("ring ChaCha20-Poly1305", |b| {
@@ -133,7 +133,7 @@ fn bench(c: &mut Criterion) {
     });
     group.bench_function("ChaCha20-Poly1305", |b| {
         b.iter(|| {
-            chacha20_poly1305.encrypt_in_place_detached(nonce_192.as_ref().into(), &ad, &mut in_out)
+            chacha20_poly1305.encrypt_in_place_detached(nonce_96.as_ref().into(), &ad, &mut in_out)
         });
     });
     group.bench_function("ring ChaCha20-Poly1305", |b| {
@@ -180,7 +180,7 @@ fn bench(c: &mut Criterion) {
     });
     group.bench_function("ChaCha20-Poly1305", |b| {
         b.iter(|| {
-            chacha20_poly1305.encrypt_in_place_detached(nonce_192.as_ref().into(), &ad, &mut in_out)
+            chacha20_poly1305.encrypt_in_place_detached(nonce_96.as_ref().into(), &ad, &mut in_out)
         });
     });
     group.bench_function("ring ChaCha20-Poly1305", |b| {
@@ -227,7 +227,7 @@ fn bench(c: &mut Criterion) {
     });
     group.bench_function("ChaCha20-Poly1305", |b| {
         b.iter(|| {
-            chacha20_poly1305.encrypt_in_place_detached(nonce_192.as_ref().into(), &ad, &mut in_out)
+            chacha20_poly1305.encrypt_in_place_detached(nonce_96.as_ref().into(), &ad, &mut in_out)
         });
     });
     group.bench_function("ring ChaCha20-Poly1305", |b| {
@@ -274,7 +274,7 @@ fn bench(c: &mut Criterion) {
     });
     group.bench_function("ChaCha20-Poly1305", |b| {
         b.iter(|| {
-            chacha20_poly1305.encrypt_in_place_detached(nonce_192.as_ref().into(), &ad, &mut in_out)
+            chacha20_poly1305.encrypt_in_place_detached(nonce_96.as_ref().into(), &ad, &mut in_out)
         });
     });
     group.bench_function("ring ChaCha20-Poly1305", |b| {
@@ -321,7 +321,7 @@ fn bench(c: &mut Criterion) {
     });
     group.bench_function("ChaCha20-Poly1305", |b| {
         b.iter(|| {
-            chacha20_poly1305.encrypt_in_place_detached(nonce_192.as_ref().into(), &ad, &mut in_out)
+            chacha20_poly1305.encrypt_in_place_detached(nonce_96.as_ref().into(), &ad, &mut in_out)
         });
     });
     group.bench_function("ring ChaCha20-Poly1305", |b| {
