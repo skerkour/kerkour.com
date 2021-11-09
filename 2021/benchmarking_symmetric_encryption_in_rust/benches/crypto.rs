@@ -1,8 +1,9 @@
-use benchmarking_symmetric_encryption_in_rust::*;
-use chacha20poly1305::{aead::NewAead, ChaCha20Poly1305, XChaCha20Poly1305};
+use chacha20poly1305::{
+    aead::{AeadInPlace, NewAead},
+    ChaCha20Poly1305, XChaCha20Poly1305,
+};
 use criterion::*;
 use rand::RngCore;
-use ring::aead::{BoundKey, NonceSequence};
 
 fn bench(c: &mut Criterion) {
     let mut rand_generator = black_box(rand::rngs::OsRng {});
@@ -28,10 +29,18 @@ fn bench(c: &mut Criterion) {
     let mut group = c.benchmark_group("100B");
     group.throughput(Throughput::Bytes(in_out.len() as u64));
     group.bench_function("XChaCha20-Poly1305", |b| {
-        b.iter(|| encrypt_xchacha20_poly1305(&xchacha20_poly1305, &nonce_192, &ad, &mut in_out));
+        b.iter(|| {
+            xchacha20_poly1305.encrypt_in_place_detached(
+                nonce_192.as_ref().into(),
+                &ad,
+                &mut in_out,
+            )
+        });
     });
     group.bench_function("ChaCha20-Poly1305", |b| {
-        b.iter(|| encrypt_chacha20_poly1305(&chacha20_poly1305, &nonce_96, &ad, &mut in_out));
+        b.iter(|| {
+            chacha20_poly1305.encrypt_in_place_detached(nonce_192.as_ref().into(), &ad, &mut in_out)
+        });
     });
     group.bench_function("ring ChaCha20-Poly1305", |b| {
         b.iter(|| {
@@ -67,10 +76,18 @@ fn bench(c: &mut Criterion) {
     let mut group = c.benchmark_group("1kB");
     group.throughput(Throughput::Bytes(in_out.len() as u64));
     group.bench_function("XChaCha20-Poly1305", |b| {
-        b.iter(|| encrypt_xchacha20_poly1305(&xchacha20_poly1305, &nonce_192, &ad, &mut in_out));
+        b.iter(|| {
+            xchacha20_poly1305.encrypt_in_place_detached(
+                nonce_192.as_ref().into(),
+                &ad,
+                &mut in_out,
+            )
+        });
     });
     group.bench_function("ChaCha20-Poly1305", |b| {
-        b.iter(|| encrypt_chacha20_poly1305(&chacha20_poly1305, &nonce_96, &ad, &mut in_out));
+        b.iter(|| {
+            chacha20_poly1305.encrypt_in_place_detached(nonce_192.as_ref().into(), &ad, &mut in_out)
+        });
     });
     group.bench_function("ring ChaCha20-Poly1305", |b| {
         b.iter(|| {
@@ -106,10 +123,18 @@ fn bench(c: &mut Criterion) {
     let mut group = c.benchmark_group("100kB");
     group.throughput(Throughput::Bytes(in_out.len() as u64));
     group.bench_function("XChaCha20-Poly1305", |b| {
-        b.iter(|| encrypt_xchacha20_poly1305(&xchacha20_poly1305, &nonce_192, &ad, &mut in_out));
+        b.iter(|| {
+            xchacha20_poly1305.encrypt_in_place_detached(
+                nonce_192.as_ref().into(),
+                &ad,
+                &mut in_out,
+            )
+        });
     });
     group.bench_function("ChaCha20-Poly1305", |b| {
-        b.iter(|| encrypt_chacha20_poly1305(&chacha20_poly1305, &nonce_96, &ad, &mut in_out));
+        b.iter(|| {
+            chacha20_poly1305.encrypt_in_place_detached(nonce_192.as_ref().into(), &ad, &mut in_out)
+        });
     });
     group.bench_function("ring ChaCha20-Poly1305", |b| {
         b.iter(|| {
@@ -145,10 +170,18 @@ fn bench(c: &mut Criterion) {
     let mut group = c.benchmark_group("1MB");
     group.throughput(Throughput::Bytes(in_out.len() as u64));
     group.bench_function("XChaCha20-Poly1305", |b| {
-        b.iter(|| encrypt_xchacha20_poly1305(&xchacha20_poly1305, &nonce_192, &ad, &mut in_out));
+        b.iter(|| {
+            xchacha20_poly1305.encrypt_in_place_detached(
+                nonce_192.as_ref().into(),
+                &ad,
+                &mut in_out,
+            )
+        });
     });
     group.bench_function("ChaCha20-Poly1305", |b| {
-        b.iter(|| encrypt_chacha20_poly1305(&chacha20_poly1305, &nonce_96, &ad, &mut in_out));
+        b.iter(|| {
+            chacha20_poly1305.encrypt_in_place_detached(nonce_192.as_ref().into(), &ad, &mut in_out)
+        });
     });
     group.bench_function("ring ChaCha20-Poly1305", |b| {
         b.iter(|| {
@@ -184,10 +217,18 @@ fn bench(c: &mut Criterion) {
     let mut group = c.benchmark_group("10MB");
     group.throughput(Throughput::Bytes(in_out.len() as u64));
     group.bench_function("XChaCha20-Poly1305", |b| {
-        b.iter(|| encrypt_xchacha20_poly1305(&xchacha20_poly1305, &nonce_192, &ad, &mut in_out));
+        b.iter(|| {
+            xchacha20_poly1305.encrypt_in_place_detached(
+                nonce_192.as_ref().into(),
+                &ad,
+                &mut in_out,
+            )
+        });
     });
     group.bench_function("ChaCha20-Poly1305", |b| {
-        b.iter(|| encrypt_chacha20_poly1305(&chacha20_poly1305, &nonce_96, &ad, &mut in_out));
+        b.iter(|| {
+            chacha20_poly1305.encrypt_in_place_detached(nonce_192.as_ref().into(), &ad, &mut in_out)
+        });
     });
     group.bench_function("ring ChaCha20-Poly1305", |b| {
         b.iter(|| {
@@ -223,10 +264,18 @@ fn bench(c: &mut Criterion) {
     let mut group = c.benchmark_group("100MB");
     group.throughput(Throughput::Bytes(in_out.len() as u64));
     group.bench_function("XChaCha20-Poly1305", |b| {
-        b.iter(|| encrypt_xchacha20_poly1305(&xchacha20_poly1305, &nonce_192, &ad, &mut in_out));
+        b.iter(|| {
+            xchacha20_poly1305.encrypt_in_place_detached(
+                nonce_192.as_ref().into(),
+                &ad,
+                &mut in_out,
+            )
+        });
     });
     group.bench_function("ChaCha20-Poly1305", |b| {
-        b.iter(|| encrypt_chacha20_poly1305(&chacha20_poly1305, &nonce_96, &ad, &mut in_out));
+        b.iter(|| {
+            chacha20_poly1305.encrypt_in_place_detached(nonce_192.as_ref().into(), &ad, &mut in_out)
+        });
     });
     group.bench_function("ring ChaCha20-Poly1305", |b| {
         b.iter(|| {
@@ -262,10 +311,18 @@ fn bench(c: &mut Criterion) {
     let mut group = c.benchmark_group("1GB");
     group.throughput(Throughput::Bytes(in_out.len() as u64));
     group.bench_function("XChaCha20-Poly1305", |b| {
-        b.iter(|| encrypt_xchacha20_poly1305(&xchacha20_poly1305, &nonce_192, &ad, &mut in_out));
+        b.iter(|| {
+            xchacha20_poly1305.encrypt_in_place_detached(
+                nonce_192.as_ref().into(),
+                &ad,
+                &mut in_out,
+            )
+        });
     });
     group.bench_function("ChaCha20-Poly1305", |b| {
-        b.iter(|| encrypt_chacha20_poly1305(&chacha20_poly1305, &nonce_96, &ad, &mut in_out));
+        b.iter(|| {
+            chacha20_poly1305.encrypt_in_place_detached(nonce_192.as_ref().into(), &ad, &mut in_out)
+        });
     });
     group.bench_function("ring ChaCha20-Poly1305", |b| {
         b.iter(|| {
