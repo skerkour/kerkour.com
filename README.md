@@ -5,7 +5,7 @@ Code accompanying my blog [https://kerkour.com](https://kerkour.com)
 
 ## 2021
 
-* [Benchmarking symmetric encryption (AEAD) in Rust](https://kerkour.com/rust-benchmark-symmetric-encryption-aead/)
+* [Benchmarking symmetric encryption (AEAD) in Rust](https://kerkour.com/rust-symmetric-encryption-aead-benchmark/)
 * [Building a static site generator in 100 lines of Rust](https://kerkour.com/rust-static-site-generator)
 * [Reproductibe cross-compilation for Rust (with Docker)](https://kerkour.com/rust-reproductible-cross-compilation-with-docker/)
 * [Rust on ESP32](https://kerkour.com/rust-on-esp32)
