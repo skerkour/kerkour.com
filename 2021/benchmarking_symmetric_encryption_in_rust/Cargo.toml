@@ -8,10 +8,11 @@ edition = "2021"
 [dependencies]
 chacha20poly1305 = "0.8"
 ring = "0.16"
+aes-gcm = "0.9"
 
 [dev-dependencies]
 criterion = "0.3"
-rand = "0.8.4"
+rand = "0.8"
 
 [[bench]]
 name = "crypto"
