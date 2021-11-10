@@ -55,7 +55,6 @@ fn bench(c: &mut Criterion) {
             let ring_ad = ring::aead::Aad::from(black_box(&ad));
             ring_key_chacha20
                 .seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
-                .unwrap()
         });
     });
     group.bench_function("ring AES-256-GCM", |b| {
@@ -64,7 +63,6 @@ fn bench(c: &mut Criterion) {
             let ring_ad = ring::aead::Aad::from(black_box(&ad));
             ring_key_aesgcm
                 .seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
-                .unwrap()
         });
     });
     group.finish();
@@ -108,7 +106,6 @@ fn bench(c: &mut Criterion) {
             let ring_ad = ring::aead::Aad::from(black_box(&ad));
             ring_key_chacha20
                 .seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
-                .unwrap()
         });
     });
     group.bench_function("ring AES-256-GCM", |b| {
@@ -117,7 +114,6 @@ fn bench(c: &mut Criterion) {
             let ring_ad = ring::aead::Aad::from(black_box(&ad));
             ring_key_aesgcm
                 .seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
-                .unwrap()
         });
     });
     group.finish();
@@ -161,7 +157,6 @@ fn bench(c: &mut Criterion) {
             let ring_ad = ring::aead::Aad::from(black_box(&ad));
             ring_key_chacha20
                 .seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
-                .unwrap()
         });
     });
     group.bench_function("ring AES-256-GCM", |b| {
@@ -170,7 +165,6 @@ fn bench(c: &mut Criterion) {
             let ring_ad = ring::aead::Aad::from(black_box(&ad));
             ring_key_aesgcm
                 .seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
-                .unwrap()
         });
     });
     group.finish();
@@ -214,7 +208,6 @@ fn bench(c: &mut Criterion) {
             let ring_ad = ring::aead::Aad::from(black_box(&ad));
             ring_key_chacha20
                 .seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
-                .unwrap()
         });
     });
     group.bench_function("ring AES-256-GCM", |b| {
@@ -223,7 +216,6 @@ fn bench(c: &mut Criterion) {
             let ring_ad = ring::aead::Aad::from(black_box(&ad));
             ring_key_aesgcm
                 .seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
-                .unwrap()
         });
     });
     group.finish();
@@ -267,7 +259,6 @@ fn bench(c: &mut Criterion) {
             let ring_ad = ring::aead::Aad::from(black_box(&ad));
             ring_key_chacha20
                 .seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
-                .unwrap()
         });
     });
     group.bench_function("ring AES-256-GCM", |b| {
@@ -276,7 +267,6 @@ fn bench(c: &mut Criterion) {
             let ring_ad = ring::aead::Aad::from(black_box(&ad));
             ring_key_aesgcm
                 .seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
-                .unwrap()
         });
     });
     group.finish();
@@ -320,7 +310,6 @@ fn bench(c: &mut Criterion) {
             let ring_ad = ring::aead::Aad::from(black_box(&ad));
             ring_key_chacha20
                 .seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
-                .unwrap()
         });
     });
     group.bench_function("ring AES-256-GCM", |b| {
@@ -329,7 +318,6 @@ fn bench(c: &mut Criterion) {
             let ring_ad = ring::aead::Aad::from(black_box(&ad));
             ring_key_aesgcm
                 .seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
-                .unwrap()
         });
     });
     group.finish();
@@ -373,7 +361,6 @@ fn bench(c: &mut Criterion) {
             let ring_ad = ring::aead::Aad::from(black_box(&ad));
             ring_key_chacha20
                 .seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
-                .unwrap()
         });
     });
     group.bench_function("ring AES-256-GCM", |b| {
@@ -382,7 +369,6 @@ fn bench(c: &mut Criterion) {
             let ring_ad = ring::aead::Aad::from(black_box(&ad));
             ring_key_aesgcm
                 .seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
-                .unwrap()
         });
     });
     group.finish();
