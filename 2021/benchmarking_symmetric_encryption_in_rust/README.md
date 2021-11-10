@@ -1,4 +1,4 @@
-## [Benchmarking symmetric encryption (AEAD) in Rust](https://kerkour.com/rust-benchmarking-symmetric-encryption-aead)
+## [Benchmarking symmetric encryption (AEAD) in Rust](https://kerkour.com/rust-symmetric-encryption-aead-benchmark/)
 
 
 ```shell
@@ -10,6 +10,7 @@ $ cargo bench
 ### Raw results
 
 ```shell
+$ cat /proc/cpuinfo
 processor       : 0
 vendor_id       : GenuineIntel
 cpu family      : 6
