@@ -1,21 +1,22 @@
 use anyhow::anyhow;
 use chacha20poly1305::{
-    aead::{Aead, NewAead},
+    aead::{
+        stream::{self, NewStream, StreamPrimitive},
+        Aead, NewAead,
+    },
     XChaCha20Poly1305,
 };
-use rand::RngCore;
+use rand::{rngs::OsRng, RngCore};
 use std::{
     fs::{self, File},
     io::{Read, Write},
 };
 
 fn main() -> Result<(), anyhow::Error> {
-    let mut rand_generator = rand::rngs::OsRng {};
-
     let mut small_file_key = [0u8; 32];
     let mut small_file_nonce = [0u8; 24];
-    rand_generator.fill_bytes(&mut small_file_key);
-    rand_generator.fill_bytes(&mut small_file_nonce);
+    OsRng.fill_bytes(&mut small_file_key);
+    OsRng.fill_bytes(&mut small_file_nonce);
 
     println!("Encrypting 100.bin to 100.encrypted");
     encrypt_small_file(
@@ -33,11 +34,26 @@ fn main() -> Result<(), anyhow::Error> {
         &small_file_nonce,
     )?;
 
+    let mut large_file_key = [0u8; 32];
+    let mut large_file_nonce = [0u8; 19];
+    OsRng.fill_bytes(&mut large_file_key);
+    OsRng.fill_bytes(&mut large_file_nonce);
+
     println!("Encrypting 2048.bin to 2048.encrypted");
-    encrypt_large_file("2048.bin", "2048.encrypted")?;
+    encrypt_large_file(
+        "2048.bin",
+        "2048.encrypted",
+        &large_file_key,
+        &large_file_nonce,
+    )?;
 
     println!("Decrypting 2048.encrypted to 2048.decrypted");
-    decrypt_large_file("2048.encrypted", "2048.decrypted")?;
+    decrypt_large_file(
+        "2048.encrypted",
+        "2048.decrypted",
+        &large_file_key,
+        &large_file_nonce,
+    )?;
 
     Ok(())
 }
@@ -80,26 +96,37 @@ fn decrypt_small_file(
     Ok(())
 }
 
-fn encrypt_large_file(filepath: &str, dist: &str) -> Result<(), anyhow::Error> {
-    let mut rand_generator = rand::rngs::OsRng {};
-    let mut key = [0u8; 32];
-    let mut nonce = [0u8; 24];
+fn encrypt_large_file(
+    source_file_path: &str,
+    dist_file_path: &str,
+    key: &[u8; 32],
+    nonce: &[u8; 19],
+) -> Result<(), anyhow::Error> {
+    let aead = XChaCha20Poly1305::new(key.as_ref().into());
+    let aead_stream = stream::StreamBE32::from_aead(aead, nonce.as_ref().into());
+    let mut stream_encryptor = aead_stream.encryptor();
 
-    rand_generator.fill_bytes(&mut key);
-    rand_generator.fill_bytes(&mut nonce);
-    let cipher = XChaCha20Poly1305::new(key.as_ref().into());
-
-    const BUFFER_LEN: usize = 1000;
+    const BUFFER_LEN: usize = 500;
     let mut buffer = [0u8; BUFFER_LEN];
 
-    let mut file = File::open(filepath)?;
-    let mut dist_file = File::create(dist)?;
+    let mut source_file = File::open(source_file_path)?;
+    let mut dist_file = File::create(dist_file_path)?;
 
     loop {
-        let read_count = file.read(&mut buffer)?;
-        dist_file.write(&buffer[..read_count])?;
+        let read_count = source_file.read(&mut buffer)?;
 
-        if read_count != BUFFER_LEN {
+        if read_count == 0 {
+            break;
+        } else if read_count == BUFFER_LEN {
+            let ciphertext = stream_encryptor
+                .encrypt_next(&buffer[..read_count])
+                .map_err(|err| anyhow!("Encrypting large file: {}", err))?;
+            dist_file.write(&ciphertext)?;
+        } else {
+            let ciphertext = stream_encryptor
+                .encrypt_last(&buffer[..read_count])
+                .map_err(|err| anyhow!("Encrypting large file: {}", err))?;
+            dist_file.write(&ciphertext)?;
             break;
         }
     }
@@ -107,26 +134,38 @@ fn encrypt_large_file(filepath: &str, dist: &str) -> Result<(), anyhow::Error> {
     Ok(())
 }
 
-fn decrypt_large_file(encrypted_file_path: &str, dist: &str) -> Result<(), anyhow::Error> {
-    let mut rand_generator = rand::rngs::OsRng {};
-    let mut key = [0u8; 32];
-    let mut nonce = [0u8; 24];
+fn decrypt_large_file(
+    encrypted_file_path: &str,
+    dist: &str,
+    key: &[u8; 32],
+    nonce: &[u8; 19],
+) -> Result<(), anyhow::Error> {
+    let aead = XChaCha20Poly1305::new(key.as_ref().into());
+    let aead_stream =
+        stream::StreamBE32::<XChaCha20Poly1305>::from_aead(aead, nonce.as_ref().into());
+    let mut stream_decryptor = aead_stream.decryptor();
 
-    rand_generator.fill_bytes(&mut key);
-    rand_generator.fill_bytes(&mut nonce);
-    let cipher = XChaCha20Poly1305::new(key.as_ref().into());
-
-    const BUFFER_LEN: usize = 1000;
+    const BUFFER_LEN: usize = 500 + 16;
     let mut buffer = [0u8; BUFFER_LEN];
 
-    let mut file = File::open(encrypted_file_path)?;
+    let mut encrypted_file = File::open(encrypted_file_path)?;
     let mut dist_file = File::create(dist)?;
 
     loop {
-        let read_count = file.read(&mut buffer)?;
-        dist_file.write(&buffer[..read_count])?;
+        let read_count = encrypted_file.read(&mut buffer)?;
 
-        if read_count != BUFFER_LEN {
+        if read_count == 0 {
+            break;
+        } else if read_count == BUFFER_LEN {
+            let plaintext = stream_decryptor
+                .decrypt_next(&buffer[..read_count])
+                .map_err(|err| anyhow!("Decrypting large file: {}", err))?;
+            dist_file.write(&plaintext)?;
+        } else if read_count != BUFFER_LEN {
+            let plaintext = stream_decryptor
+                .decrypt_last(&buffer[..read_count])
+                .map_err(|err| anyhow!("Encrypting large file: {}", err))?;
+            dist_file.write(&plaintext)?;
             break;
         }
     }
