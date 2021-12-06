@@ -1,9 +1,6 @@
 use anyhow::anyhow;
 use chacha20poly1305::{
-    aead::{
-        stream::{self, NewStream, StreamPrimitive},
-        Aead, NewAead,
-    },
+    aead::{stream, Aead, NewAead},
     XChaCha20Poly1305,
 };
 use rand::{rngs::OsRng, RngCore};
@@ -103,8 +100,7 @@ fn encrypt_large_file(
     nonce: &[u8; 19],
 ) -> Result<(), anyhow::Error> {
     let aead = XChaCha20Poly1305::new(key.as_ref().into());
-    let aead_stream = stream::StreamBE32::from_aead(aead, nonce.as_ref().into());
-    let mut stream_encryptor = aead_stream.encryptor();
+    let mut stream_encryptor = stream::EncryptorBE32::from_aead(aead, nonce.as_ref().into());
 
     const BUFFER_LEN: usize = 500;
     let mut buffer = [0u8; BUFFER_LEN];
@@ -139,9 +135,7 @@ fn decrypt_large_file(
     nonce: &[u8; 19],
 ) -> Result<(), anyhow::Error> {
     let aead = XChaCha20Poly1305::new(key.as_ref().into());
-    let aead_stream =
-        stream::StreamBE32::<XChaCha20Poly1305>::from_aead(aead, nonce.as_ref().into());
-    let mut stream_decryptor = aead_stream.decryptor();
+    let mut stream_decryptor = stream::DecryptorBE32::from_aead(aead, nonce.as_ref().into());
 
     const BUFFER_LEN: usize = 500 + 16;
     let mut buffer = [0u8; BUFFER_LEN];
