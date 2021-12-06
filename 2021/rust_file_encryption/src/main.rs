@@ -115,9 +115,7 @@ fn encrypt_large_file(
     loop {
         let read_count = source_file.read(&mut buffer)?;
 
-        if read_count == 0 {
-            break;
-        } else if read_count == BUFFER_LEN {
+        if read_count == BUFFER_LEN {
             let ciphertext = stream_encryptor
                 .encrypt_next(&buffer[..read_count])
                 .map_err(|err| anyhow!("Encrypting large file: {}", err))?;
@@ -154,9 +152,7 @@ fn decrypt_large_file(
     loop {
         let read_count = encrypted_file.read(&mut buffer)?;
 
-        if read_count == 0 {
-            break;
-        } else if read_count == BUFFER_LEN {
+        if read_count == BUFFER_LEN {
             let plaintext = stream_decryptor
                 .decrypt_next(&buffer[..read_count])
                 .map_err(|err| anyhow!("Decrypting large file: {}", err))?;
