@@ -1,4 +1,4 @@
-# How to encrypt files in Rust
+# [How to encrypt files in Rust](https://kerkour.com/rust-file-encryption)
 
 
 ```shell
