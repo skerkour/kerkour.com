@@ -34,8 +34,8 @@ fn read_file_line_by_line(filepath: &str) -> Result<(), Box<dyn std::error::Erro
 }
 
 fn read_file_buffer(filepath: &str) -> Result<(), Box<dyn std::error::Error>> {
-    const BUFFER_LEN: usize = 500;
-    let mut buffer = [0u8; BUFFER_LEN];
+    const BUFFER_LEN: usize = 512;
+    let mut buffer = [0u8; 512];
 
     let mut file = File::open(filepath)?;
 
