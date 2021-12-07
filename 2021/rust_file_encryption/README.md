@@ -1,4 +1,4 @@
-# [How to encrypt files in Rust (Using streaming AEAD encryption)](https://kerkour.com/rust-file-encryption)
+# [How to encrypt a file in Rust (Using streaming AEAD encryption)](https://kerkour.com/rust-file-encryption)
 
 
 ```shell
