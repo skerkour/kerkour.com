@@ -113,7 +113,7 @@ fn encrypt_large_file(
 
         if read_count == BUFFER_LEN {
             let ciphertext = stream_encryptor
-                .encrypt_next(&buffer[..read_count])
+                .encrypt_next(buffer.as_slice())
                 .map_err(|err| anyhow!("Encrypting large file: {}", err))?;
             dist_file.write(&ciphertext)?;
         } else {
@@ -148,7 +148,7 @@ fn decrypt_large_file(
 
         if read_count == BUFFER_LEN {
             let plaintext = stream_decryptor
-                .decrypt_next(&buffer[..read_count])
+                .decrypt_next(buffer.as_slice())
                 .map_err(|err| anyhow!("Decrypting large file: {}", err))?;
             dist_file.write(&plaintext)?;
         } else if read_count != BUFFER_LEN {
