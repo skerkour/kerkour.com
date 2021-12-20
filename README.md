@@ -4,15 +4,21 @@ Code accompanying my blog [https://kerkour.com](https://kerkour.com)
 
 ## Install Rust
 
+```ShellSession
 curl <https://sh.rustup.rs> -sSf | sh
+```
 
 ## Install Rust Updater
 
+```ShellSession
 cargo install cargo-update && cargo install cargo-audit && cargo install cargo-audit --features=fix
+```
 
 ## Fix Cargo Vulnerabilities
 
+```ShellSession
 cargo install-update -a && cargo update && cargo audit fix
+```
 
 ## 2022
 
