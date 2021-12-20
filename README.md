@@ -22,7 +22,7 @@ cargo install-update -a && cargo update && cargo audit fix
 
 ## 2022
 
-* [Check last dependencies versions go to](https://docs.rs/)
+* [Check last dependencies versions](https://docs.rs/)
 * [The Rust community’s crate registry](https://crates.io/)
 * [4 ways to read a file in Rust](https://kerkour.com/rust-read-file)
 * [How to encrypt a file in Rust (Using streaming AEAD encryption)](https://kerkour.com/rust-file-encryption)
