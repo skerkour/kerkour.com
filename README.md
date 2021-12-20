@@ -3,7 +3,7 @@
 Code accompanying my blog [https://kerkour.com](https://kerkour.com)
 
 
-## 2021
+## 2022
 
 * [4 ways to read a file in Rust](https://kerkour.com/rust-read-file)
 * [How to encrypt a file in Rust (Using streaming AEAD encryption)](https://kerkour.com/rust-file-encryption)
