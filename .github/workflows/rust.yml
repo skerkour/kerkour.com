@@ -1,25 +1,31 @@
-name: Rust
-
+name: Rust with Security Audit
+    
+# The workflow runs on main branch only
 on:
   push:
     branches: [ main ]
   pull_request:
-    branches: [ main ]
+    branches: [ main ]  
+    paths: 
+      - '**/Cargo.toml'
+      - '**/Cargo.lock'
 
 env:
   CARGO_TERM_COLOR: always
 
 jobs:
-  build:
-
-    runs-on: kali-latest
-
+  security_audit:
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - uses: actions-rs/audit-check@v2
     - name: Update
-      run: cargo install cargo-update
+      run: cargo install cargo-update && cargo install cargo-audit && cargo install cargo-audit --features=fix
     - name: Upgrade
-      run: cargo install-update -a  
+      run: cargo install-update -a && cargo update && cargo audit fix
+      #with:
+      #  token: ${{ secrets.GITHUB_TOKEN }}
+    - uses: actions/checkout@v2
     - name: Build
       run: cargo build --verbose
     - name: Run tests
