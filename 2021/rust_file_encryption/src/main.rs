@@ -155,7 +155,7 @@ fn decrypt_large_file(
             dist_file.write(&plaintext)?;
         } else if read_count == 0 {
             break;
-        } else if read_count != BUFFER_LEN {
+        } else {
             let plaintext = stream_decryptor
                 .decrypt_last(&buffer[..read_count])
                 .map_err(|err| anyhow!("Decrypting large file: {}", err))?;
