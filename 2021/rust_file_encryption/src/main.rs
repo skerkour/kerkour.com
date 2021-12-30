@@ -116,8 +116,6 @@ fn encrypt_large_file(
                 .encrypt_next(buffer.as_slice())
                 .map_err(|err| anyhow!("Encrypting large file: {}", err))?;
             dist_file.write(&ciphertext)?;
-        } else if read_count == 0 {
-            break;
         } else {
             let ciphertext = stream_encryptor
                 .encrypt_last(&buffer[..read_count])
