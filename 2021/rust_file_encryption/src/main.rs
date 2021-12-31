@@ -52,6 +52,22 @@ fn main() -> Result<(), anyhow::Error> {
         &large_file_nonce,
     )?;
 
+    println!("Encrypting 500.bin to 500.encrypted");
+    encrypt_large_file(
+        "500.bin",
+        "500.encrypted",
+        &large_file_key,
+        &large_file_nonce,
+    )?;
+
+    println!("Decrypting 500.encrypted to 500.decrypted");
+    decrypt_large_file(
+        "500.encrypted",
+        "500.decrypted",
+        &large_file_key,
+        &large_file_nonce,
+    )?;
+
     Ok(())
 }
 
