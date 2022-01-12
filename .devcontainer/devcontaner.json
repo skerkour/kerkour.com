@@ -1,0 +1,11 @@
+{
+  "dockerFile": "Dockerfile",
+  "extensions": [
+    "matklad.rust-analyzer"
+  ],
+  "forwardPorts": [
+    8000,
+    8080
+  ],
+  "containerUser": "skerkour"
+}
