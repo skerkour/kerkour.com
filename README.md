@@ -2,6 +2,10 @@
 
 Code accompanying my blog [https://kerkour.com](https://kerkour.com)
 
+## 2022
+
+* [Secure and immutable development environments with Dev Containers](https://kerkour.com/secure-programming-with-vscode-dev-containers)
+
 
 ## 2021
 
