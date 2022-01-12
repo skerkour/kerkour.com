@@ -2,7 +2,7 @@ FROM ubuntu:latest
 
 RUN apt update && apt upgrade -y
 
-RUN apt install -y gcc curl wget git vim zip sqlite3 libdigest-sha-perl zsh
+RUN apt install -y gcc curl wget git vim zip sqlite3 libdigest-sha-perl zsh build-essential make
 
 ARG USERNAME=skerkour
 ARG USER_UID=10001
