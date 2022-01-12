@@ -4,24 +4,22 @@ RUN apt update && apt upgrade -y
 
 RUN apt install -y gcc curl wget git vim zip sqlite3 libdigest-sha-perl zsh build-essential make
 
-ARG USERNAME=skerkour
-ARG USER_UID=10001
-ARG USER_GID=$USER_UID
+ARG USER=skerkour
 
 RUN adduser \
    --system \
    --shell /bin/bash \
-   --gecos $USERNAME \
+   --gecos $USER \
    --group \
    --disabled-password \
-   --home /home/$USERNAME \
-   $USERNAME
+   --home /home/$USER \
+   $USER
 
 
 # Set up Rust
-USER $USERNAME
+USER $USER
 
-COPY bashrc /home/$USERNAME/.bashrc
+COPY bashrc /home/$USER/.bashrc
 
 RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | bash -s -- -y
 
