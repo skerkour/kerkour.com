@@ -4,6 +4,7 @@ Code accompanying my blog [https://kerkour.com](https://kerkour.com)
 
 ## 2022
 
+* [How to encrypt a file with a password in Rust (using Streaming Encryption + Argon2)](https://kerkour.com/rust-file-encryption-chacha20poly1305-argon2/)
 * [Secure and immutable development environments with Dev Containers](https://kerkour.com/secure-programming-with-vscode-dev-containers)
 
 
