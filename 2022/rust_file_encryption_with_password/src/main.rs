@@ -33,14 +33,20 @@ fn main() -> Result<(), anyhow::Error> {
     Ok(())
 }
 
+fn argon2_config<'a>() -> argon2::Config<'a> {
+    let mut argon2_config = argon2::Config::default();
+    argon2_config.variant = argon2::Variant::Argon2id;
+    argon2_config.hash_length = 32;
+
+    return argon2_config;
+}
+
 fn encrypt_file(
     source_file_path: &str,
     dist_file_path: &str,
     password: &str,
 ) -> Result<(), anyhow::Error> {
-    let mut argon2_config = argon2::Config::default();
-    argon2_config.variant = argon2::Variant::Argon2id;
-    argon2_config.hash_length = 32;
+    let argon2_config = argon2_config();
 
     let mut salt = [0u8; 32];
     let mut nonce = [0u8; 19];
@@ -106,9 +112,7 @@ fn decrypt_file(
         return Err(anyhow!("Error reading nonce."));
     }
 
-    let mut argon2_config = argon2::Config::default();
-    argon2_config.variant = argon2::Variant::Argon2id;
-    argon2_config.hash_length = 32;
+    let argon2_config = argon2_config();
 
     let mut key = argon2::hash_raw(password.as_bytes(), &salt, &argon2_config)?;
 
