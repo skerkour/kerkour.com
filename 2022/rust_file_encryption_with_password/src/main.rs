@@ -8,7 +8,6 @@ use std::{
     env,
     fs::File,
     io::{Read, Write},
-    time::Instant,
 };
 use zeroize::Zeroize;
 
