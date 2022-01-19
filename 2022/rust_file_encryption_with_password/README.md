@@ -1,4 +1,4 @@
-
+# [How to encrypt a file with a password in Rust (using Streaming Encryption + Argon2)](https://kerkour.com/rust-file-encryption-chacha20poly1305-argon2/)
 
 ## Usage
 
