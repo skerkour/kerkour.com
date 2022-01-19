@@ -36,11 +36,14 @@ fn main() -> Result<(), anyhow::Error> {
 }
 
 fn argon2_config<'a>() -> argon2::Config<'a> {
-    let mut argon2_config = argon2::Config::default();
-    argon2_config.variant = argon2::Variant::Argon2id;
-    argon2_config.hash_length = 32;
-
-    return argon2_config;
+    return argon2::Config{
+        variant: argon2::Variant::Argon2id,
+        hash_length: 32,
+        lanes: 8,
+        mem_cost: 4 * 4096,
+        time_cost: 12,
+        ..Default::default()
+    };
 }
 
 fn encrypt_file(
