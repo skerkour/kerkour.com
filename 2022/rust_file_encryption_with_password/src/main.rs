@@ -11,6 +11,8 @@ use std::{
 };
 use zeroize::Zeroize;
 
+const BUFFER_LEN: usize = 500;
+
 fn main() -> Result<(), anyhow::Error> {
     let args: Vec<String> = env::args().collect();
     if args.len() != 2 {
@@ -58,7 +60,6 @@ fn encrypt_file(
     let aead = XChaCha20Poly1305::new(key[..32].as_ref().into());
     let mut stream_encryptor = stream::EncryptorBE32::from_aead(aead, nonce.as_ref().into());
 
-    const BUFFER_LEN: usize = 500;
     let mut buffer = [0u8; BUFFER_LEN];
 
     let mut source_file = File::open(source_file_path)?;
@@ -119,7 +120,6 @@ fn decrypt_file(
     let aead = XChaCha20Poly1305::new(key[..32].as_ref().into());
     let mut stream_decryptor = stream::DecryptorBE32::from_aead(aead, nonce.as_ref().into());
 
-    const BUFFER_LEN: usize = 500 + 16;
     let mut buffer = [0u8; BUFFER_LEN];
 
     loop {
