@@ -41,7 +41,7 @@ fn argon2_config<'a>() -> argon2::Config<'a> {
         variant: argon2::Variant::Argon2id,
         hash_length: 32,
         lanes: 8,
-        mem_cost: 4 * 4096,
+        mem_cost: 16 * 1024,
         time_cost: 8,
         ..Default::default()
     };
