@@ -20,7 +20,7 @@ fn main() -> Result<(), anyhow::Error> {
     let mut salt = [0u8; 32];
     OsRng.fill_bytes(&mut salt);
 
-    let master_key = argon2::hash_raw(password.as_bytes(), &salt, &argon2_config)?;
+    let mut master_key = argon2::hash_raw(password.as_bytes(), &salt, &argon2_config)?;
 
     let mut encryption_kdf = blake2::VarBlake2b::new_keyed(&master_key, KEY_SIZE);
     encryption_kdf.update(ENCRYPTION_DOMAIN.as_bytes());
@@ -30,10 +30,12 @@ fn main() -> Result<(), anyhow::Error> {
     auth_kdf.update(AUTH_DOMAIN.as_bytes());
     let mut auth_key = auth_kdf.finalize_boxed();
 
+    println!("master key:     {}", hex::encode(&master_key));
     println!("encryption key: {}", hex::encode(&encryption_key));
-    println!("auth key: {}", hex::encode(&auth_key));
+    println!("auth key:       {}", hex::encode(&auth_key));
 
     password.zeroize();
+    master_key.zeroize();
     encryption_key.zeroize();
     auth_key.zeroize();
 
