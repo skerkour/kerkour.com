@@ -8,6 +8,4 @@ edition = "2021"
 [dependencies]
 blake2 = "0.9"
 x25519-dalek = "1"
-anyhow = "1.0"
-zeroize = "1"
 rand = "0.7"

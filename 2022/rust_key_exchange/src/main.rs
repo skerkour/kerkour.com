@@ -1,12 +1,9 @@
 use blake2::digest::{Update, VariableOutput};
 use rand::rngs::OsRng;
-use x25519_dalek::{EphemeralSecret, PublicKey, StaticSecret};
+use x25519_dalek::{PublicKey, StaticSecret};
 
-pub const X25519_PRIVATE_KEY_SIZE: usize = 32;
-pub const X25519_PUBLIC_KEY_SIZE: usize = 32;
-pub const X25519_SECRET_SIZE: usize = 32;
-pub const XCHACHA20_POLY1305_KEY_SIZE: usize = 32;
-pub const STATIC_DATA: &str = "rust_key_exchange";
+const XCHACHA20_POLY1305_KEY_SIZE: usize = 32;
+const STATIC_DATA: &str = "rust_key_exchange";
 
 fn main() {
     let alice_private_key = StaticSecret::new(OsRng);
@@ -16,9 +13,11 @@ fn main() {
     let bob_public_key = PublicKey::from(&bob_private_key);
 
     let bob_secret = derive_secret_for_bob(&bob_private_key, &alice_public_key);
-    let alice_secret = derive_secret_for_bob(&bob_private_key, &alice_public_key);
+    let alice_secret = derive_secret_for_alice(&alice_private_key, &bob_public_key);
 
     assert!(bob_secret == alice_secret);
+
+    println!("Everything is good!");
 }
 
 fn derive_secret_for_bob(bob_private_key: &StaticSecret, alice_public_key: &PublicKey) -> Vec<u8> {
