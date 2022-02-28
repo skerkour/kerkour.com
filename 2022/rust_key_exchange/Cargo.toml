@@ -1,0 +1,13 @@
+[package]
+name = "rust_key_exchange"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+blake2 = "0.9"
+x25519-dalek = "1"
+anyhow = "1.0"
+zeroize = "1"
+rand = "0.7"
