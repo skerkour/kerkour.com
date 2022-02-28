@@ -23,12 +23,11 @@ fn main() {
 fn derive_secret_for_bob(bob_private_key: &StaticSecret, alice_public_key: &PublicKey) -> Vec<u8> {
     let dh_secret = bob_private_key.diffie_hellman(&alice_public_key);
 
-    let mut encryption_kdf =
-        blake2::VarBlake2b::new_keyed(dh_secret.as_bytes(), XCHACHA20_POLY1305_KEY_SIZE);
-    encryption_kdf.update(STATIC_DATA.as_bytes());
-    let encryption_key = encryption_kdf.finalize_boxed();
+    let mut kdf = blake2::VarBlake2b::new_keyed(dh_secret.as_bytes(), XCHACHA20_POLY1305_KEY_SIZE);
+    kdf.update(STATIC_DATA.as_bytes());
+    let shared_key = kdf.finalize_boxed();
 
-    return encryption_key.into();
+    return shared_key.into();
 }
 
 fn derive_secret_for_alice(
@@ -37,10 +36,9 @@ fn derive_secret_for_alice(
 ) -> Vec<u8> {
     let dh_secret = alice_private_key.diffie_hellman(&bob_public_key);
 
-    let mut encryption_kdf =
-        blake2::VarBlake2b::new_keyed(dh_secret.as_bytes(), XCHACHA20_POLY1305_KEY_SIZE);
-    encryption_kdf.update(STATIC_DATA.as_bytes());
-    let encryption_key = encryption_kdf.finalize_boxed();
+    let mut kdf = blake2::VarBlake2b::new_keyed(dh_secret.as_bytes(), XCHACHA20_POLY1305_KEY_SIZE);
+    kdf.update(STATIC_DATA.as_bytes());
+    let shared_key = kdf.finalize_boxed();
 
-    return encryption_key.into();
+    return shared_key.into();
 }
