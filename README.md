@@ -4,6 +4,7 @@ Code accompanying my blog [https://kerkour.com](https://kerkour.com)
 
 ## 2022
 
+* [The foundations of end-to-end encryption: Key exchange](kerkour.com/end-to-end-encryption-key-exchange-cryptography-rust)
 * [The foundations of end-to-end encryption: domain separation](https://kerkour.com/end-to-end-encryption-domain-separation-cryptography)
 * [How to securely encrypt a file with an insecure password in Rust (using Streaming Encryption + Argon2)](https://kerkour.com/rust-file-encryption-chacha20poly1305-argon2/)
 * [Secure and immutable development environments with Dev Containers](https://kerkour.com/secure-programming-with-vscode-dev-containers)
