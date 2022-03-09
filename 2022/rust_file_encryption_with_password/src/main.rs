@@ -1,4 +1,4 @@
-use anyhow::anyhow;
+use anyhow::{anyhow, Context};
 use chacha20poly1305::{
     aead::{stream, NewAead},
     XChaCha20Poly1305,
@@ -64,6 +64,7 @@ fn encrypt_file(
     let mut stream_encryptor = stream::EncryptorBE32::from_aead(aead, nonce.as_ref().into());
 
     let mut buffer = [0u8; BUFFER_LEN];
+    let mut filled = 0;
 
     let mut source_file = File::open(source_file_path)?;
     let mut dest_file = File::create(dest_file_path)?;
@@ -72,16 +73,18 @@ fn encrypt_file(
     dest_file.write_all(&nonce)?;
 
     loop {
-        let read_count = source_file.read(&mut buffer)?;
+        let read_count = source_file.read(&mut buffer[filled..])?;
+        filled += read_count;
 
-        if read_count == BUFFER_LEN {
+        if filled == BUFFER_LEN {
             let ciphertext = stream_encryptor
                 .encrypt_next(buffer.as_slice())
                 .map_err(|err| anyhow!("Encrypting large file: {}", err))?;
             dest_file.write_all(&ciphertext)?;
-        } else {
+            filled = 0;
+        } else if read_count == 0 {
             let ciphertext = stream_encryptor
-                .encrypt_last(&buffer[..read_count])
+                .encrypt_last(&buffer[..filled])
                 .map_err(|err| anyhow!("Encrypting large file: {}", err))?;
             dest_file.write_all(&ciphertext)?;
             break;
@@ -106,15 +109,13 @@ fn decrypt_file(
     let mut encrypted_file = File::open(encrypted_file_path)?;
     let mut dest_file = File::create(dest)?;
 
-    let mut read_count = encrypted_file.read(&mut salt)?;
-    if read_count != salt.len() {
-        return Err(anyhow!("Error reading salt."));
-    }
+    encrypted_file
+        .read_exact(&mut salt)
+        .context("Error reading salt.")?;
 
-    read_count = encrypted_file.read(&mut nonce)?;
-    if read_count != nonce.len() {
-        return Err(anyhow!("Error reading nonce."));
-    }
+    encrypted_file
+        .read_exact(&mut nonce)
+        .context("Error reading nonce.")?;
 
     let argon2_config = argon2_config();
 
@@ -123,21 +124,23 @@ fn decrypt_file(
     let aead = XChaCha20Poly1305::new(key[..32].as_ref().into());
     let mut stream_decryptor = stream::DecryptorBE32::from_aead(aead, nonce.as_ref().into());
 
-    let mut buffer = [0u8; BUFFER_LEN];
+    // ⚠ 16 bytes for the Tag appended by any Poly1305 variant
+    let mut buffer = [0u8; BUFFER_LEN + 16];
+    let mut filled = 0;
 
     loop {
-        let read_count = encrypted_file.read(&mut buffer)?;
+        let read_count = encrypted_file.read(&mut buffer[filled..])?;
+        filled += read_count;
 
-        if read_count == BUFFER_LEN {
+        if filled == buffer.len() {
             let plaintext = stream_decryptor
                 .decrypt_next(buffer.as_slice())
                 .map_err(|err| anyhow!("Decrypting large file: {}", err))?;
             dest_file.write_all(&plaintext)?;
+            filled = 0;
         } else if read_count == 0 {
-            break;
-        } else {
             let plaintext = stream_decryptor
-                .decrypt_last(&buffer[..read_count])
+                .decrypt_last(&buffer[..filled])
                 .map_err(|err| anyhow!("Decrypting large file: {}", err))?;
             dest_file.write_all(&plaintext)?;
             break;
@@ -149,4 +152,18 @@ fn decrypt_file(
     key.zeroize();
 
     Ok(())
+}
+
+#[test]
+fn roundtrip() {
+    let source_file_path = "file.bin";
+    let dest_file_path = "file.bin.encrypted";
+    let password = "a very secure password!";
+    let decrypted_file_path = "file.bin.decrypted";
+    encrypt_file(source_file_path, dest_file_path, password).unwrap();
+    decrypt_file(dest_file_path, decrypted_file_path, password).unwrap();
+    assert_eq!(
+        std::fs::read(source_file_path).unwrap(),
+        std::fs::read(decrypted_file_path).unwrap()
+    );
 }
