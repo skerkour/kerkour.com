@@ -68,8 +68,8 @@ fn encrypt_file(
     let mut source_file = File::open(source_file_path)?;
     let mut dest_file = File::create(dest_file_path)?;
 
-    dest_file.write(&salt)?;
-    dest_file.write(&nonce)?;
+    dest_file.write_all(&salt)?;
+    dest_file.write_all(&nonce)?;
 
     loop {
         let read_count = source_file.read(&mut buffer)?;
@@ -78,12 +78,12 @@ fn encrypt_file(
             let ciphertext = stream_encryptor
                 .encrypt_next(buffer.as_slice())
                 .map_err(|err| anyhow!("Encrypting large file: {}", err))?;
-            dest_file.write(&ciphertext)?;
+            dest_file.write_all(&ciphertext)?;
         } else {
             let ciphertext = stream_encryptor
                 .encrypt_last(&buffer[..read_count])
                 .map_err(|err| anyhow!("Encrypting large file: {}", err))?;
-            dest_file.write(&ciphertext)?;
+            dest_file.write_all(&ciphertext)?;
             break;
         }
     }
@@ -132,14 +132,14 @@ fn decrypt_file(
             let plaintext = stream_decryptor
                 .decrypt_next(buffer.as_slice())
                 .map_err(|err| anyhow!("Decrypting large file: {}", err))?;
-            dest_file.write(&plaintext)?;
+            dest_file.write_all(&plaintext)?;
         } else if read_count == 0 {
             break;
         } else {
             let plaintext = stream_decryptor
                 .decrypt_last(&buffer[..read_count])
                 .map_err(|err| anyhow!("Decrypting large file: {}", err))?;
-            dest_file.write(&plaintext)?;
+            dest_file.write_all(&plaintext)?;
             break;
         }
     }
