@@ -23,11 +23,11 @@ fn main() -> Result<(), anyhow::Error> {
     let mut password = rpassword::prompt_password_stdout("password:")?;
 
     if file.ends_with(".encrypted") {
-        let dist = file.strip_suffix(".encrypted").unwrap().to_string() + ".decrypted";
-        decrypt_file(&file, &dist, &password)?;
+        let dest = file.strip_suffix(".encrypted").unwrap().to_string() + ".decrypted";
+        decrypt_file(&file, &dest, &password)?;
     } else {
-        let dist = file.clone() + ".encrypted";
-        encrypt_file(&file, &dist, &password)?;
+        let dest = file.clone() + ".encrypted";
+        encrypt_file(&file, &dest, &password)?;
     }
 
     password.zeroize();
@@ -48,7 +48,7 @@ fn argon2_config<'a>() -> argon2::Config<'a> {
 
 fn encrypt_file(
     source_file_path: &str,
-    dist_file_path: &str,
+    dest_file_path: &str,
     password: &str,
 ) -> Result<(), anyhow::Error> {
     let argon2_config = argon2_config();
@@ -66,10 +66,10 @@ fn encrypt_file(
     let mut buffer = [0u8; BUFFER_LEN];
 
     let mut source_file = File::open(source_file_path)?;
-    let mut dist_file = File::create(dist_file_path)?;
+    let mut dest_file = File::create(dest_file_path)?;
 
-    dist_file.write(&salt)?;
-    dist_file.write(&nonce)?;
+    dest_file.write(&salt)?;
+    dest_file.write(&nonce)?;
 
     loop {
         let read_count = source_file.read(&mut buffer)?;
@@ -78,12 +78,12 @@ fn encrypt_file(
             let ciphertext = stream_encryptor
                 .encrypt_next(buffer.as_slice())
                 .map_err(|err| anyhow!("Encrypting large file: {}", err))?;
-            dist_file.write(&ciphertext)?;
+            dest_file.write(&ciphertext)?;
         } else {
             let ciphertext = stream_encryptor
                 .encrypt_last(&buffer[..read_count])
                 .map_err(|err| anyhow!("Encrypting large file: {}", err))?;
-            dist_file.write(&ciphertext)?;
+            dest_file.write(&ciphertext)?;
             break;
         }
     }
@@ -97,14 +97,14 @@ fn encrypt_file(
 
 fn decrypt_file(
     encrypted_file_path: &str,
-    dist: &str,
+    dest: &str,
     password: &str,
 ) -> Result<(), anyhow::Error> {
     let mut salt = [0u8; 32];
     let mut nonce = [0u8; 19];
 
     let mut encrypted_file = File::open(encrypted_file_path)?;
-    let mut dist_file = File::create(dist)?;
+    let mut dest_file = File::create(dest)?;
 
     let mut read_count = encrypted_file.read(&mut salt)?;
     if read_count != salt.len() {
@@ -132,14 +132,14 @@ fn decrypt_file(
             let plaintext = stream_decryptor
                 .decrypt_next(buffer.as_slice())
                 .map_err(|err| anyhow!("Decrypting large file: {}", err))?;
-            dist_file.write(&plaintext)?;
+            dest_file.write(&plaintext)?;
         } else if read_count == 0 {
             break;
         } else {
             let plaintext = stream_decryptor
                 .decrypt_last(&buffer[..read_count])
                 .map_err(|err| anyhow!("Decrypting large file: {}", err))?;
-            dist_file.write(&plaintext)?;
+            dest_file.write(&plaintext)?;
             break;
         }
     }
