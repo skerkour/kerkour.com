@@ -7,7 +7,7 @@ use rand::{rngs::OsRng, RngCore};
 use std::{
     env,
     fs::File,
-    io::{Read, Write},
+    io::{BufReader, BufWriter, Read, Write},
 };
 use zeroize::Zeroize;
 
@@ -26,10 +26,16 @@ fn main() -> Result<(), anyhow::Error> {
 
     if file.ends_with(".encrypted") {
         let dest = file.strip_suffix(".encrypted").unwrap().to_string() + ".decrypted";
-        decrypt_file(&file, &dest, &password)?;
+
+        let encrypted = BufReader::new(File::open(file)?);
+        let dest = BufWriter::new(File::create(dest)?);
+        decrypt_file(encrypted, dest, &password)?;
     } else {
         let dest = file.clone() + ".encrypted";
-        encrypt_file(&file, &dest, &password)?;
+
+        let source = BufReader::new(File::open(&file)?);
+        let dest = BufWriter::new(File::create(&dest)?);
+        encrypt_file(source, dest, &password)?;
     }
 
     password.zeroize();
@@ -49,8 +55,8 @@ fn argon2_config() -> argon2::Config<'static> {
 }
 
 fn encrypt_file(
-    source_file_path: &str,
-    dest_file_path: &str,
+    mut source_file: impl Read,
+    mut dest_file: impl Write,
     password: &str,
 ) -> Result<(), anyhow::Error> {
     let argon2_config = argon2_config();
@@ -64,9 +70,6 @@ fn encrypt_file(
 
     let aead = XChaCha20Poly1305::new(key[..32].as_ref().into());
     let mut stream_encryptor = stream::EncryptorBE32::from_aead(aead, nonce.as_ref().into());
-
-    let mut source_file = File::open(source_file_path)?;
-    let mut dest_file = File::create(dest_file_path)?;
 
     dest_file.write_all(&salt)?;
     dest_file.write_all(&nonce)?;
@@ -104,15 +107,12 @@ fn encrypt_file(
 }
 
 fn decrypt_file(
-    encrypted_file_path: &str,
-    dest: &str,
+    mut encrypted_file: impl Read,
+    mut dest_file: impl Write,
     password: &str,
 ) -> Result<(), anyhow::Error> {
     let mut salt = [0u8; 32];
     let mut nonce = [0u8; 19];
-
-    let mut encrypted_file = File::open(encrypted_file_path)?;
-    let mut dest_file = File::create(dest)?;
 
     encrypted_file
         .read_exact(&mut salt)
@@ -163,13 +163,23 @@ fn decrypt_file(
 }
 
 #[test]
-fn roundtrip() {
+fn roundtrip_file() {
     let source_file_path = "file.bin";
     let dest_file_path = "file.bin.encrypted";
     let password = "a very secure password!";
     let decrypted_file_path = "file.bin.decrypted";
-    encrypt_file(source_file_path, dest_file_path, password).unwrap();
-    decrypt_file(dest_file_path, decrypted_file_path, password).unwrap();
+    encrypt_file(
+        BufReader::new(File::open(source_file_path).unwrap()),
+        BufWriter::new(File::create(dest_file_path).unwrap()),
+        password,
+    )
+    .unwrap();
+    decrypt_file(
+        BufReader::new(File::open(dest_file_path).unwrap()),
+        BufWriter::new(File::create(decrypted_file_path).unwrap()),
+        password,
+    )
+    .unwrap();
     assert_eq!(
         std::fs::read(source_file_path).unwrap(),
         std::fs::read(decrypted_file_path).unwrap()
