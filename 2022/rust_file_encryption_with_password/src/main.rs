@@ -1,26 +1,25 @@
-use anyhow::{anyhow, Context};
-use chacha20poly1305::{
-    aead::{stream, NewAead},
-    XChaCha20Poly1305,
-};
+use aead::{stream, NewAead};
+use anyhow::Context;
+use chacha20poly1305::XChaCha20Poly1305;
 use rand::{rngs::OsRng, Rng};
+use zeroize::Zeroize;
+
 use std::{
     env,
     fs::File,
     io::{BufReader, BufWriter, Read, Write},
     path::PathBuf,
 };
-use zeroize::Zeroize;
 
 const MSG_LEN: usize = 500;
 /// the size of `chacha20poly1305::Tag`;
 const TAG_LEN: usize = 16;
 
-fn main() -> Result<(), anyhow::Error> {
+fn main() -> anyhow::Result<()> {
     let mut args = env::args();
     let path = match (args.next(), args.next(), args.next()) {
         (Some(_), Some(file_path), None) => file_path,
-        _ => return Err(anyhow!("Usage: ./encryptor <file>")),
+        _ => anyhow::bail!("Usage: ./encryptor <file>"),
     };
     let mut path: PathBuf = path.try_into()?;
     let file = BufReader::new(File::open(&path)?);
@@ -54,7 +53,7 @@ fn encrypt_file(
     mut source_file: impl Read,
     mut dest_file: impl Write,
     password: &str,
-) -> Result<(), anyhow::Error> {
+) -> anyhow::Result<()> {
     let mut salt: [u8; 32] = OsRng.gen();
     let mut nonce: [u8; 19] = OsRng.gen();
 
@@ -78,14 +77,14 @@ fn encrypt_file(
             buffer.truncate(MSG_LEN);
             stream_encryptor
                 .encrypt_next_in_place(&[], &mut buffer)
-                .map_err(|err| anyhow!("Encrypting large file: {}", err))?;
+                .context("Encrypting large file")?;
             dest_file.write_all(&buffer)?;
             filled = 0;
         } else if read_count == 0 {
             buffer.truncate(filled);
             stream_encryptor
                 .encrypt_last_in_place(&[], &mut buffer)
-                .map_err(|err| anyhow!("Encrypting large file: {}", err))?;
+                .context("Encrypting large file")?;
             dest_file.write_all(&buffer)?;
             break;
         }
@@ -102,7 +101,7 @@ fn decrypt_file(
     mut encrypted_file: impl Read,
     mut dest_file: impl Write,
     password: &str,
-) -> Result<(), anyhow::Error> {
+) -> anyhow::Result<()> {
     let mut salt = [0u8; 32];
     let mut nonce = [0u8; 19];
 
@@ -131,15 +130,15 @@ fn decrypt_file(
         if filled == MSG_LEN + TAG_LEN {
             stream_decryptor
                 .decrypt_next_in_place(&[], &mut buffer)
-                .map_err(|err| anyhow!("Decrypting large file: {}", err))?;
+                .context("Decrypting large file")?;
             dest_file.write_all(&buffer)?;
             filled = 0;
-            buffer.extend([0; TAG_LEN]);
+            buffer.resize(MSG_LEN + TAG_LEN, 0);
         } else if read_count == 0 {
             buffer.truncate(filled);
             stream_decryptor
                 .decrypt_last_in_place(&[], &mut buffer)
-                .map_err(|err| anyhow!("Decrypting large file: {}", err))?;
+                .context("Decrypting large file")?;
             dest_file.write_all(&buffer)?;
             break;
         }
