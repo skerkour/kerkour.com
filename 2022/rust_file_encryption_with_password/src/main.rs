@@ -3,7 +3,7 @@ use chacha20poly1305::{
     aead::{stream, NewAead},
     XChaCha20Poly1305,
 };
-use rand::{rngs::OsRng, RngCore};
+use rand::{rngs::OsRng, Rng};
 use std::{
     env,
     fs::File,
@@ -50,33 +50,18 @@ fn main() -> Result<(), anyhow::Error> {
     Ok(())
 }
 
-fn argon2_config() -> argon2::Config<'static> {
-    argon2::Config {
-        variant: argon2::Variant::Argon2id,
-        hash_length: 32,
-        lanes: 8,
-        mem_cost: 16 * 1024,
-        time_cost: 8,
-        ..Default::default()
-    }
-}
-
 fn encrypt_file(
     mut source_file: impl Read,
     mut dest_file: impl Write,
     password: &str,
 ) -> Result<(), anyhow::Error> {
-    let argon2_config = argon2_config();
+    let mut salt: [u8; 32] = OsRng.gen();
+    let mut nonce: [u8; 19] = OsRng.gen();
 
-    let mut salt = [0u8; 32];
-    let mut nonce = [0u8; 19];
-    OsRng.fill_bytes(&mut salt);
-    OsRng.fill_bytes(&mut nonce);
+    let mut key = derive_key(password, &salt);
 
-    let mut key = argon2::hash_raw(password.as_bytes(), &salt, &argon2_config)?;
-
-    let aead = XChaCha20Poly1305::new(key[..32].as_ref().into());
-    let mut stream_encryptor = stream::EncryptorBE32::from_aead(aead, nonce.as_ref().into());
+    let aead = XChaCha20Poly1305::new(&key);
+    let mut stream_encryptor = stream::EncryptorBE32::from_aead(aead, &nonce.into());
 
     dest_file.write_all(&salt)?;
     dest_file.write_all(&nonce)?;
@@ -129,12 +114,10 @@ fn decrypt_file(
         .read_exact(&mut nonce)
         .context("Error reading nonce.")?;
 
-    let argon2_config = argon2_config();
+    let mut key = derive_key(password, &salt);
 
-    let mut key = argon2::hash_raw(password.as_bytes(), &salt, &argon2_config)?;
-
-    let aead = XChaCha20Poly1305::new(key[..32].as_ref().into());
-    let mut stream_decryptor = stream::DecryptorBE32::from_aead(aead, nonce.as_ref().into());
+    let aead = XChaCha20Poly1305::new(&key);
+    let mut stream_decryptor = stream::DecryptorBE32::from_aead(aead, &nonce.into());
 
     // ⚠ TAG_LEN bytes for the Tag appended by any Poly1305 variant
     let mut buffer = vec![0u8; MSG_LEN + TAG_LEN];
@@ -167,6 +150,22 @@ fn decrypt_file(
     key.zeroize();
 
     Ok(())
+}
+
+fn derive_key(password: &str, salt: &[u8; 32]) -> chacha20poly1305::Key {
+    let config = &argon2::Config {
+        variant: argon2::Variant::Argon2id,
+        hash_length: 32,
+        lanes: 8,
+        mem_cost: 16 * 1024,
+        time_cost: 8,
+        ..Default::default()
+    };
+    let key: [u8; 32] = argon2::hash_raw(password.as_bytes(), salt, config)
+        .expect("our hardcoded config is valid")
+        .try_into()
+        .expect("we configured it to be 32");
+    key.into()
 }
 
 #[test]
