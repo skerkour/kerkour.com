@@ -169,6 +169,25 @@ fn derive_key(password: &str, salt: &[u8; 32]) -> chacha20poly1305::Key {
 }
 
 #[test]
+fn roundtrip() {
+    let mut rng = rand::thread_rng();
+    let mut source = [0u8; 8 * 1024];
+    rng.fill(source.as_mut());
+    let password: String = rng
+        .sample_iter(&rand::distributions::Alphanumeric)
+        .take(8)
+        .map(char::from)
+        .collect();
+    let expected_len = source.len() + (source.len() + MSG_LEN - 1) / MSG_LEN * TAG_LEN + 32 + 19;
+    let mut encrypted = Vec::with_capacity(expected_len);
+    encrypt_file(std::io::Cursor::new(&source), &mut encrypted, &password).unwrap();
+    assert_eq!(encrypted.len(), expected_len);
+    let mut decrypted = Vec::with_capacity(source.len());
+    decrypt_file(std::io::Cursor::new(&encrypted), &mut decrypted, &password).unwrap();
+    assert_eq!(decrypted, source);
+}
+
+#[test]
 fn roundtrip_file() {
     let source_file_path = "file.bin";
     let dest_file_path = "file.bin.encrypted";
