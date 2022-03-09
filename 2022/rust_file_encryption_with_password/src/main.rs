@@ -63,30 +63,33 @@ fn encrypt_file(
     let aead = XChaCha20Poly1305::new(key[..32].as_ref().into());
     let mut stream_encryptor = stream::EncryptorBE32::from_aead(aead, nonce.as_ref().into());
 
-    let mut buffer = [0u8; BUFFER_LEN];
-    let mut filled = 0;
-
     let mut source_file = File::open(source_file_path)?;
     let mut dest_file = File::create(dest_file_path)?;
 
     dest_file.write_all(&salt)?;
     dest_file.write_all(&nonce)?;
 
+    let mut buffer = vec![0; BUFFER_LEN + 16];
+    let mut filled = 0;
+
     loop {
-        let read_count = source_file.read(&mut buffer[filled..])?;
+        // We leave space for the tag
+        let read_count = source_file.read(&mut buffer[filled..BUFFER_LEN])?;
         filled += read_count;
 
         if filled == BUFFER_LEN {
-            let ciphertext = stream_encryptor
-                .encrypt_next(buffer.as_slice())
+            buffer.truncate(BUFFER_LEN);
+            stream_encryptor
+                .encrypt_next_in_place(&[], &mut buffer)
                 .map_err(|err| anyhow!("Encrypting large file: {}", err))?;
-            dest_file.write_all(&ciphertext)?;
+            dest_file.write_all(&buffer)?;
             filled = 0;
         } else if read_count == 0 {
-            let ciphertext = stream_encryptor
-                .encrypt_last(&buffer[..filled])
+            buffer.truncate(filled);
+            stream_encryptor
+                .encrypt_last_in_place(&[], &mut buffer)
                 .map_err(|err| anyhow!("Encrypting large file: {}", err))?;
-            dest_file.write_all(&ciphertext)?;
+            dest_file.write_all(&buffer)?;
             break;
         }
     }
@@ -125,24 +128,27 @@ fn decrypt_file(
     let mut stream_decryptor = stream::DecryptorBE32::from_aead(aead, nonce.as_ref().into());
 
     // ⚠ 16 bytes for the Tag appended by any Poly1305 variant
-    let mut buffer = [0u8; BUFFER_LEN + 16];
+    let mut buffer = vec![0u8; BUFFER_LEN + 16];
     let mut filled = 0;
 
     loop {
+        // here we fill all the way to BUFFER_LEN + 16, so we can omit the range end
         let read_count = encrypted_file.read(&mut buffer[filled..])?;
         filled += read_count;
 
-        if filled == buffer.len() {
-            let plaintext = stream_decryptor
-                .decrypt_next(buffer.as_slice())
+        if filled == BUFFER_LEN + 16 {
+            stream_decryptor
+                .decrypt_next_in_place(&[], &mut buffer)
                 .map_err(|err| anyhow!("Decrypting large file: {}", err))?;
-            dest_file.write_all(&plaintext)?;
+            dest_file.write_all(&buffer)?;
             filled = 0;
+            buffer.extend([0; 16]);
         } else if read_count == 0 {
-            let plaintext = stream_decryptor
-                .decrypt_last(&buffer[..filled])
+            buffer.truncate(filled);
+            stream_decryptor
+                .decrypt_last_in_place(&[], &mut buffer)
                 .map_err(|err| anyhow!("Decrypting large file: {}", err))?;
-            dest_file.write_all(&plaintext)?;
+            dest_file.write_all(&buffer)?;
             break;
         }
     }
