@@ -11,7 +11,9 @@ use std::{
 };
 use zeroize::Zeroize;
 
-const BUFFER_LEN: usize = 500;
+const MSG_LEN: usize = 500;
+/// the size of `chacha20poly1305::Tag`;
+const TAG_LEN: usize = 16;
 
 fn main() -> Result<(), anyhow::Error> {
     let args: Vec<String> = env::args().collect();
@@ -69,16 +71,16 @@ fn encrypt_file(
     dest_file.write_all(&salt)?;
     dest_file.write_all(&nonce)?;
 
-    let mut buffer = vec![0; BUFFER_LEN + 16];
+    let mut buffer = vec![0; MSG_LEN + TAG_LEN];
     let mut filled = 0;
 
     loop {
         // We leave space for the tag
-        let read_count = source_file.read(&mut buffer[filled..BUFFER_LEN])?;
+        let read_count = source_file.read(&mut buffer[filled..MSG_LEN])?;
         filled += read_count;
 
-        if filled == BUFFER_LEN {
-            buffer.truncate(BUFFER_LEN);
+        if filled == MSG_LEN {
+            buffer.truncate(MSG_LEN);
             stream_encryptor
                 .encrypt_next_in_place(&[], &mut buffer)
                 .map_err(|err| anyhow!("Encrypting large file: {}", err))?;
@@ -127,22 +129,22 @@ fn decrypt_file(
     let aead = XChaCha20Poly1305::new(key[..32].as_ref().into());
     let mut stream_decryptor = stream::DecryptorBE32::from_aead(aead, nonce.as_ref().into());
 
-    // ⚠ 16 bytes for the Tag appended by any Poly1305 variant
-    let mut buffer = vec![0u8; BUFFER_LEN + 16];
+    // ⚠ TAG_LEN bytes for the Tag appended by any Poly1305 variant
+    let mut buffer = vec![0u8; MSG_LEN + TAG_LEN];
     let mut filled = 0;
 
     loop {
-        // here we fill all the way to BUFFER_LEN + 16, so we can omit the range end
+        // here we fill all the way to MSG_LEN + TAG_LEN, so we can omit the range end
         let read_count = encrypted_file.read(&mut buffer[filled..])?;
         filled += read_count;
 
-        if filled == BUFFER_LEN + 16 {
+        if filled == MSG_LEN + TAG_LEN {
             stream_decryptor
                 .decrypt_next_in_place(&[], &mut buffer)
                 .map_err(|err| anyhow!("Decrypting large file: {}", err))?;
             dest_file.write_all(&buffer)?;
             filled = 0;
-            buffer.extend([0; 16]);
+            buffer.extend([0; TAG_LEN]);
         } else if read_count == 0 {
             buffer.truncate(filled);
             stream_decryptor
