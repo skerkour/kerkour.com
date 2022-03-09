@@ -8,6 +8,7 @@ use std::{
     env,
     fs::File,
     io::{BufReader, BufWriter, Read, Write},
+    path::PathBuf,
 };
 use zeroize::Zeroize;
 
@@ -16,26 +17,32 @@ const MSG_LEN: usize = 500;
 const TAG_LEN: usize = 16;
 
 fn main() -> Result<(), anyhow::Error> {
-    let args: Vec<String> = env::args().collect();
-    if args.len() != 2 {
-        return Err(anyhow!("Usage: ./encryptor <file>"));
+    let mut args = env::args();
+    let path = match (args.next(), args.next(), args.next()) {
+        (Some(_), Some(file_path), None) => file_path,
+        _ => return Err(anyhow!("Usage: ./encryptor <file>")),
+    };
+    let mut path: PathBuf = path.try_into()?;
+    let file = BufReader::new(File::open(&path)?);
+    let ext = path.extension();
+    let decrypt = ext.map_or(false, |ext| ext == "encrypted");
+    if decrypt {
+        path.set_extension("decrypted");
+    } else if let Some(ext) = ext {
+        let mut ext = ext.to_owned();
+        ext.push(".encrypted");
+        path.set_extension(ext);
+    } else {
+        path.set_extension("encrypted");
     }
+    let out_file = BufWriter::new(File::create(path)?);
 
-    let file = args[1].clone();
     let mut password = rpassword::prompt_password_stdout("password:")?;
 
-    if file.ends_with(".encrypted") {
-        let dest = file.strip_suffix(".encrypted").unwrap().to_string() + ".decrypted";
-
-        let encrypted = BufReader::new(File::open(file)?);
-        let dest = BufWriter::new(File::create(dest)?);
-        decrypt_file(encrypted, dest, &password)?;
+    if decrypt {
+        decrypt_file(file, out_file, &password)?;
     } else {
-        let dest = file.clone() + ".encrypted";
-
-        let source = BufReader::new(File::open(&file)?);
-        let dest = BufWriter::new(File::create(&dest)?);
-        encrypt_file(source, dest, &password)?;
+        encrypt_file(file, out_file, &password)?;
     }
 
     password.zeroize();
