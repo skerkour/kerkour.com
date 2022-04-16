@@ -4,6 +4,7 @@ Code accompanying my blog [https://kerkour.com](https://kerkour.com)
 
 ## 2022
 
+* [Hostname based router with axum in Rust](https://kerkour.com/rust-axum-hostname-router)
 * [The foundations of end-to-end encryption: Key exchange](https://kerkour.com/end-to-end-encryption-key-exchange-cryptography-rust)
 * [The foundations of end-to-end encryption: domain separation](https://kerkour.com/end-to-end-encryption-domain-separation-cryptography)
 * [How to securely encrypt a file with an insecure password in Rust (using Streaming Encryption + Argon2)](https://kerkour.com/rust-file-encryption-chacha20poly1305-argon2/)
