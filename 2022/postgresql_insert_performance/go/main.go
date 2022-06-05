@@ -80,3 +80,20 @@ func dbSetup(ctx context.Context, pool *pgxpool.Pool) (err error) {
 	_, err = pool.Exec(ctx, query)
 	return
 }
+
+func dbCleanTable(ctx context.Context, pool *pgxpool.Pool, table string) (err error) {
+	queryDelete := "DELETE FROM " + table
+	queryVacuum := "VACUUM FULL " + table
+
+	_, err = pool.Exec(ctx, queryDelete)
+	if err != nil {
+		return
+	}
+
+	_, err = pool.Exec(ctx, queryVacuum)
+	if err != nil {
+		return
+	}
+
+	return
+}
