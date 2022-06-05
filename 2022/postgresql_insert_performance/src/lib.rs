@@ -67,8 +67,8 @@ async fn db_setup(db: &DB) -> Result<(), anyhow::Error> {
 }
 
 async fn insert_normalized(db: &DB) {
-    const QUERY: &str = "INSERT INTO normalized (id, timestamp, received_at, payload)
-        VALUES ($1, $2, $3, $4)";
+    const QUERY: &str = "INSERT INTO normalized (id, type, timestamp, received_at, payload)
+        VALUES ($1, $2, $3, $4, $5)";
     let stream = stream::iter(0..100_000);
     let base_event = generate_event();
 
