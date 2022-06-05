@@ -101,7 +101,7 @@ async fn insert_normalized(db: &DB) {
                     .bind(&event.payload)
                     .execute(db)
                     .await
-                    .expect("inserting normalized event");
+                    .expect("normalized: inserting event");
             }
         })
         .await;
@@ -127,7 +127,7 @@ async fn insert_key_value(db: &DB) {
                     .bind(&event.value)
                     .execute(db)
                     .await
-                    .expect("inserting normalized event");
+                    .expect("key_value: inserting event");
             }
         })
         .await;
@@ -160,7 +160,7 @@ async fn insert_key_value_compressed(db: &DB) {
                     .bind(&event.value)
                     .execute(db)
                     .await
-                    .expect("inserting normalized event");
+                    .expect("key_value_compressed: inserting event");
             }
         })
         .await;
