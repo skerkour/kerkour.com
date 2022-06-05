@@ -1,4 +1,4 @@
-FROM golang:1.18-alpine AS go
+FROM golang:1.18 AS go
 
 FROM ubuntu:latest
 
