@@ -67,6 +67,8 @@ fn generate_event() -> Event {
 async fn db_setup(db: &DB) -> Result<(), anyhow::Error> {
     db.execute(
         "
+    CREATE EXTENSION IF NOT EXISTS timescaledb;
+
     CREATE TABLE IF NOT EXISTS normalized (
         id UUID PRIMARY KEY,
         type TEXT NOT NULL,
@@ -84,6 +86,20 @@ async fn db_setup(db: &DB) -> Result<(), anyhow::Error> {
         key UUID PRIMARY KEY,
         value BYTEA NOT NULL
     );
+
+    CREATE TABLE IF NOT EXISTS timeseries (
+        timestamp TIMESTAMP WITH TIME ZONE NOT NULL,
+        value BYTEA NOT NULL
+    );
+    CREATE INDEX index_timeseries_on_timestamp ON timeseries (timestamp);
+
+
+    CREATE TABLE IF NOT EXISTS timeseries_timescale (
+        timestamp TIMESTAMP WITH TIME ZONE NOT NULL,
+        value BYTEA NOT NULL
+    );
+    SELECT create_hypertable('timeseries_timescale','timestamp');
+
     ",
     )
     .await?;
@@ -185,6 +201,25 @@ async fn insert_key_value_compressed(db: &DB) {
                     .await
                     .expect("key_value_compressed: inserting event");
             }
+        })
+        .await;
+}
+
+async fn insert_timeseries(db: &DB) {
+    const QUERY: &str = "INSERT INTO timeseries (timestamp, value)
+        VALUES ($1, $2)";
+    let stream = stream::iter(0..EXECUTIONS);
+    let base_event = generate_event();
+    let value = serde_json::to_vec(&base_event).expect("timeseries: serializing event");
+
+    stream
+        .for_each_concurrent(CONCURRENCY as usize, |_| async {
+            sqlx::query(QUERY)
+                .bind(&base_event.timestamp)
+                .bind(&value)
+                .execute(db)
+                .await
+                .expect("timeseries: inserting event");
         })
         .await;
 }
