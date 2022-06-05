@@ -67,25 +67,26 @@ async fn db_setup(db: &DB) -> Result<(), anyhow::Error> {
 }
 
 async fn insert_normalized(db: &DB) {
-    const query: &str = "INSERT INTO normalized (id, timestamp, received_at, payload)
+    const QUERY: &str = "INSERT INTO normalized (id, timestamp, received_at, payload)
         VALUES ($1, $2, $3, $4)";
     let stream = stream::iter(0..100_000);
-    let event = generate_event();
+    let base_event = generate_event();
 
     stream
-        .for_each_concurrent(CONCURRENCY as usize, |_| async move {
-            let mut event = event.clone();
+        .for_each_concurrent(CONCURRENCY as usize, |_| {
+            let mut event = base_event.clone();
             event.id = Uuid::new_v4();
-
-            sqlx::query(query)
-                .bind(event.id)
-                .bind(&event.r#type)
-                .bind(event.timestamp)
-                .bind(event.received_at)
-                .bind(&event.payload)
-                .execute(db)
-                .await
-                .expect("inserting normalized event");
+            async move {
+                sqlx::query(QUERY)
+                    .bind(&event.id)
+                    .bind(&event.r#type)
+                    .bind(&event.timestamp)
+                    .bind(&event.received_at)
+                    .bind(&event.payload)
+                    .execute(db)
+                    .await
+                    .expect("inserting normalized event");
+            }
         })
         .await;
 }
