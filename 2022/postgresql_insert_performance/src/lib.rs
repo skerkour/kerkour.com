@@ -132,3 +132,36 @@ async fn insert_key_value(db: &DB) {
         })
         .await;
 }
+
+async fn insert_key_value_compressed(db: &DB) {
+    const QUERY: &str = "INSERT INTO key_value_compressed (key, value)
+        VALUES ($1, $2)";
+    let stream = stream::iter(0..100_000);
+    let base_event = generate_event();
+    let key_value_event = KeyValueEvent {
+        key: base_event.id,
+        value: serde_json::to_vec(&base_event).expect("key_value_compressed: serializing event"),
+    };
+
+    stream
+        .for_each_concurrent(CONCURRENCY as usize, |_| {
+            let mut event = key_value_event.clone();
+            event.key = Uuid::new_v4();
+            async move {
+                event.value = tokio::task::spawn_blocking(move || {
+                    zstd::bulk::compress(&event.value, 2)
+                        .expect("key_value_compressed :compressing event")
+                })
+                .await
+                .expect("key_value_compressed: awaiting for tokio::spawn_blocking");
+
+                sqlx::query(QUERY)
+                    .bind(&event.key)
+                    .bind(&event.value)
+                    .execute(db)
+                    .await
+                    .expect("inserting normalized event");
+            }
+        })
+        .await;
+}

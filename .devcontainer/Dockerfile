@@ -2,7 +2,7 @@ FROM ubuntu:latest
 
 RUN apt update && apt upgrade -y
 
-RUN apt install -y gcc curl wget git vim zip sqlite3 libdigest-sha-perl zsh build-essential make zstd-dev pkgconfig
+RUN apt install -y gcc curl wget git vim zip sqlite3 libdigest-sha-perl zsh build-essential make libzstd-dev pkg-config
 
 ARG USER=skerkour
 
