@@ -2,7 +2,7 @@ use chrono::{DateTime, Utc};
 use futures::{stream, StreamExt};
 use serde::{Deserialize, Serialize};
 use sqlx::{postgres::PgPoolOptions, types::Json, Executor, Pool, Postgres};
-use std::time::Duration;
+use std::time::{Duration, Instant};
 use uuid::Uuid;
 
 type DB = Pool<Postgres>;
@@ -35,7 +35,31 @@ struct Payload {
 async fn main() -> Result<(), anyhow::Error> {
     let database_url = std::env::var("DATABASE_URL").expect("DATABASE_URL env is missing");
 
+    let db = db_connect(&database_url).await?;
+
+    db_setup(&db).await?;
+
+    let mut normalized_results = Vec::with_capacity(10);
+
+    for _ in 0..10 {
+        let start = Instant::now();
+
+        insert_normalized(&db).await;
+
+        let duration = start.elapsed();
+        normalized_results.push(duration);
+    }
+
+    println!("Normalized: {:#?}", &normalized_results);
+    let normalized_mean = duration_mean(&normalized_results);
+    println!("    mean: {:?}", &normalized_mean);
+
     Ok(())
+}
+
+fn duration_mean(results: &[Duration]) -> Duration {
+    let result = results.iter().fold(Duration::ZERO, |acc, x| acc + *x);
+    result / results.len() as u32
 }
 
 async fn db_connect(database_url: &str) -> Result<DB, anyhow::Error> {
