@@ -31,6 +31,13 @@ struct Payload {
     something_else2: Vec<u32>,
 }
 
+#[tokio::main]
+async fn main() -> Result<(), anyhow::Error> {
+    let database_url = std::env::var("DATABASE_URL").expect("DATABASE_URL env is missing");
+
+    Ok(())
+}
+
 async fn db_connect(database_url: &str) -> Result<DB, anyhow::Error> {
     let pool = PgPoolOptions::new()
         .max_connections(CONCURRENCY)
