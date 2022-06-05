@@ -83,6 +83,21 @@ async fn db_setup(db: &DB) -> Result<(), anyhow::Error> {
     Ok(())
 }
 
+async fn clean_table(db: &DB, table: &str) {
+    let query_delete = "DELETE FROM ".to_string() + table;
+    let query_vacuum = "VACUUM FULL ".to_string() + table;
+
+    sqlx::query(&query_delete)
+        .execute(db)
+        .await
+        .expect("clean_table: deleting events");
+
+    sqlx::query(&query_vacuum)
+        .execute(db)
+        .await
+        .expect("clean_table: vacuuming table");
+}
+
 async fn insert_normalized(db: &DB) {
     const QUERY: &str = "INSERT INTO normalized (id, type, timestamp, received_at, payload)
         VALUES ($1, $2, $3, $4, $5)";
