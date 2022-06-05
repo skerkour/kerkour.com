@@ -60,6 +60,16 @@ async fn db_setup(db: &DB) -> Result<(), anyhow::Error> {
         received_at TIMESTAMP WITH TIME ZONE NOT NULL,
         payload JSONB NOT NULL
     );
+
+    CREATE TABLE IF NOT EXISTS key_value (
+        key UUID PRIMARY KEY,
+        value BYTEA NOT NULL
+    );
+
+    CREATE TABLE IF NOT EXISTS key_value_compressed (
+        key UUID PRIMARY KEY,
+        value BYTEA NOT NULL
+    );
     ",
     )
     .await?;
