@@ -7,6 +7,7 @@ use uuid::Uuid;
 
 type DB = Pool<Postgres>;
 const CONCURRENCY: u32 = 100;
+const EXECUTIONS: u64 = 100_000;
 
 #[derive(sqlx::FromRow, Serialize, Debug, Clone, Deserialize)]
 struct Event {
@@ -85,7 +86,7 @@ async fn db_setup(db: &DB) -> Result<(), anyhow::Error> {
 async fn insert_normalized(db: &DB) {
     const QUERY: &str = "INSERT INTO normalized (id, type, timestamp, received_at, payload)
         VALUES ($1, $2, $3, $4, $5)";
-    let stream = stream::iter(0..100_000);
+    let stream = stream::iter(0..EXECUTIONS);
     let base_event = generate_event();
 
     stream
@@ -110,7 +111,7 @@ async fn insert_normalized(db: &DB) {
 async fn insert_key_value(db: &DB) {
     const QUERY: &str = "INSERT INTO key_value (key, value)
         VALUES ($1, $2)";
-    let stream = stream::iter(0..100_000);
+    let stream = stream::iter(0..EXECUTIONS);
     let base_event = generate_event();
     let key_value_event = KeyValueEvent {
         key: base_event.id,
@@ -136,7 +137,7 @@ async fn insert_key_value(db: &DB) {
 async fn insert_key_value_compressed(db: &DB) {
     const QUERY: &str = "INSERT INTO key_value_compressed (key, value)
         VALUES ($1, $2)";
-    let stream = stream::iter(0..100_000);
+    let stream = stream::iter(0..EXECUTIONS);
     let base_event = generate_event();
     let key_value_event = KeyValueEvent {
         key: base_event.id,
