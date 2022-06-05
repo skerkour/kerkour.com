@@ -1,7 +1,7 @@
 {
   "dockerFile": "Dockerfile",
   "extensions": [
-    "matklad.rust-analyzer"
+    "rust-lang.rust-analyzer"
   ],
   "forwardPorts": [
     8000,
