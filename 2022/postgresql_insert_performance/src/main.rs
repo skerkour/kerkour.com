@@ -43,8 +43,8 @@ async fn main() -> Result<(), anyhow::Error> {
     // normalized
     println!("Normalized");
     let mut normalized_results = Vec::with_capacity(RUNS);
-    clean_table(&db, "normalized").await;
     for _ in 0..RUNS {
+        clean_table(&db, "normalized").await;
         let start = Instant::now();
         insert_normalized(&db).await;
         let duration = start.elapsed();
@@ -57,8 +57,8 @@ async fn main() -> Result<(), anyhow::Error> {
     // key_value
     println!("Key Value");
     let mut key_value_results = Vec::with_capacity(RUNS);
-    clean_table(&db, "key_value").await;
     for _ in 0..RUNS {
+        clean_table(&db, "key_value").await;
         let start = Instant::now();
         insert_key_value(&db).await;
         let duration = start.elapsed();
