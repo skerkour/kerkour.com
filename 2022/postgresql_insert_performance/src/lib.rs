@@ -17,6 +17,12 @@ struct Event {
     payload: Json<Payload>,
 }
 
+#[derive(sqlx::FromRow, Serialize, Debug, Clone, Deserialize)]
+struct KeyValueEvent {
+    key: uuid::Uuid,
+    value: Vec<u8>,
+}
+
 #[derive(Serialize, Debug, Clone, Deserialize)]
 struct Payload {
     something: String,
@@ -93,6 +99,32 @@ async fn insert_normalized(db: &DB) {
                     .bind(&event.timestamp)
                     .bind(&event.received_at)
                     .bind(&event.payload)
+                    .execute(db)
+                    .await
+                    .expect("inserting normalized event");
+            }
+        })
+        .await;
+}
+
+async fn insert_key_value(db: &DB) {
+    const QUERY: &str = "INSERT INTO key_value (key, value)
+        VALUES ($1, $2)";
+    let stream = stream::iter(0..100_000);
+    let base_event = generate_event();
+    let key_value_event = KeyValueEvent {
+        key: base_event.id,
+        value: serde_json::to_vec(&base_event).expect("key_value: serializing event"),
+    };
+
+    stream
+        .for_each_concurrent(CONCURRENCY as usize, |_| {
+            let mut event = key_value_event.clone();
+            event.key = Uuid::new_v4();
+            async move {
+                sqlx::query(QUERY)
+                    .bind(&event.key)
+                    .bind(&event.value)
                     .execute(db)
                     .await
                     .expect("inserting normalized event");
