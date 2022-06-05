@@ -40,16 +40,13 @@ async fn main() -> Result<(), anyhow::Error> {
     db_setup(&db).await?;
 
     let mut normalized_results = Vec::with_capacity(10);
-
     for _ in 0..10 {
         let start = Instant::now();
-
         insert_normalized(&db).await;
-
         let duration = start.elapsed();
         normalized_results.push(duration);
     }
-
+    clean_table(&db, "normalized").await;
     println!("Normalized: {:#?}", &normalized_results);
     let normalized_mean = duration_mean(&normalized_results);
     println!("    mean: {:?}", &normalized_mean);
