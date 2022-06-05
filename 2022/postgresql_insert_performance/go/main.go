@@ -37,6 +37,7 @@ func dbConnect(ctx context.Context, databaseUrl string) (pool *pgxpool.Pool, err
 	pool, err = pgxpool.ConnectConfig(ctx, config)
 	if err != nil {
 		err = fmt.Errorf("Unable to connect to database: %v", err)
+		return
 	}
 
 	return
