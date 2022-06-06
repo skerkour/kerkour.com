@@ -6,6 +6,7 @@ import (
 	"time"
 
 	"github.com/DataDog/zstd"
+	"github.com/golang/snappy"
 	"github.com/google/uuid"
 	"github.com/jackc/pgx/v4/pgxpool"
 )
@@ -89,7 +90,7 @@ func insertKeyValue(ctx context.Context, pool *pgxpool.Pool) (err error) {
 }
 
 func insertKeyValueCompressed(ctx context.Context, pool *pgxpool.Pool) (err error) {
-	const query = `INSERT INTO key_value_compressed (key, value)
+	const query = `INSERT INTO key_value_compressed_zstd (key, value)
 	         VALUES ($1, $2)`
 	baseEvent := generateEvent()
 	jobs := make(chan KeyValueEvent, CONCURRENCY)
@@ -114,6 +115,51 @@ func insertKeyValueCompressed(ctx context.Context, pool *pgxpool.Pool) (err erro
 			}
 			event.Value = comrpessedPayload
 			_, jobErr = pool.Exec(ctx, query, event.Key, event.Value)
+			results <- jobErr
+		}
+	}
+
+	for w := 0; w < CONCURRENCY; w++ {
+		go worker(ctx, pool, jobs, results)
+	}
+
+	for i := 0; i < EXECUTIONS; i++ {
+		jobs <- keyValueEvent
+	}
+	close(jobs)
+
+	for i := 0; i < EXECUTIONS; i++ {
+		err = <-results
+		if err != nil {
+			return
+		}
+	}
+
+	return
+}
+
+func insertKeyValueCompressedSnappy(ctx context.Context, pool *pgxpool.Pool) (err error) {
+	const query = `INSERT INTO key_value_compressed_snappy (key, value)
+	         VALUES ($1, $2)`
+	baseEvent := generateEvent()
+	jobs := make(chan KeyValueEvent, CONCURRENCY)
+	results := make(chan error, CONCURRENCY)
+	jsonPayload, err := json.Marshal(baseEvent)
+	if err != nil {
+		return
+	}
+	keyValueEvent := KeyValueEvent{
+		Key:   baseEvent.ID,
+		Value: []byte{},
+	}
+
+	worker := func(ctx context.Context, pool *pgxpool.Pool, jobs <-chan KeyValueEvent, results chan<- error) {
+		for job := range jobs {
+			event := job
+			event.Key = uuid.New()
+			comrpessedPayload := snappy.Encode(nil, jsonPayload)
+			event.Value = comrpessedPayload
+			_, jobErr := pool.Exec(ctx, query, event.Key, event.Value)
 			results <- jobErr
 		}
 	}

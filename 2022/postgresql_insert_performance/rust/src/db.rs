@@ -30,7 +30,12 @@ pub async fn setup(db: &DB) -> Result<(), anyhow::Error> {
         value BYTEA NOT NULL
     );
 
-    CREATE TABLE IF NOT EXISTS key_value_compressed (
+    CREATE TABLE IF NOT EXISTS key_value_compressed_zstd (
+        key UUID PRIMARY KEY,
+        value BYTEA NOT NULL
+    );
+
+    CREATE TABLE IF NOT EXISTS key_value_compressed_snappy (
         key UUID PRIMARY KEY,
         value BYTEA NOT NULL
     );
