@@ -2,12 +2,35 @@ package main
 
 import (
 	"context"
-	"fmt"
 	"log"
 	"os"
+	"time"
 
-	"github.com/jackc/pgx/v4/pgxpool"
+	"github.com/google/uuid"
 )
+
+const CONCURRENCY = 100
+const EXECUTIONS = 100_000
+const RUNS = 10
+
+type Event struct {
+	ID         uuid.UUID
+	Type       string
+	Timestamp  time.Time
+	ReceivedAt time.Time
+	Payload    Payload
+}
+
+type Payload struct {
+	Something      string
+	SomethingElse  []byte
+	SomethingElse2 []uint32
+}
+
+type KeyValueEvent struct {
+	Key   uuid.UUID
+	Value []byte
+}
 
 func main() {
 	ctx := context.Background()
@@ -25,76 +48,20 @@ func main() {
 
 }
 
-func dbConnect(ctx context.Context, databaseUrl string) (pool *pgxpool.Pool, err error) {
-	config, err := pgxpool.ParseConfig(databaseUrl)
-	if err != nil {
-		err = fmt.Errorf("parsing database URL: %v", err)
-		return
+func generateEvent() Event {
+	now := time.Now().UTC()
+
+	payload := Payload{
+		Something:      "",
+		SomethingElse:  []byte{},
+		SomethingElse2: []uint32{},
 	}
 
-	config.MaxConns = 100
-
-	pool, err = pgxpool.ConnectConfig(ctx, config)
-	if err != nil {
-		err = fmt.Errorf("Unable to connect to database: %v", err)
-		return
+	return Event{
+		ID:         uuid.New(),
+		Type:       "some.event.type",
+		Timestamp:  now,
+		ReceivedAt: now,
+		Payload:    payload,
 	}
-
-	return
-}
-
-func dbSetup(ctx context.Context, pool *pgxpool.Pool) (err error) {
-	query := `
-	CREATE EXTENSION IF NOT EXISTS timescaledb;
-
-    CREATE TABLE IF NOT EXISTS normalized (
-        id UUID PRIMARY KEY,
-        type TEXT NOT NULL,
-        timestamp TIMESTAMPTZ NOT NULL,
-        received_at TIMESTAMPTZ NOT NULL,
-        payload JSONB NOT NULL
-    );
-
-    CREATE TABLE IF NOT EXISTS key_value (
-        key UUID PRIMARY KEY,
-        value BYTEA NOT NULL
-    );
-
-    CREATE TABLE IF NOT EXISTS key_value_compressed (
-        key UUID PRIMARY KEY,
-        value BYTEA NOT NULL
-    );
-
-    CREATE TABLE IF NOT EXISTS timeseries (
-        timestamp TIMESTAMPTZ NOT NULL,
-        value BYTEA NOT NULL
-    );
-    CREATE INDEX index_timeseries_on_timestamp ON timeseries (timestamp);
-
-
-    CREATE TABLE IF NOT EXISTS timeseries_timescale (
-        timestamp TIMESTAMPTZ NOT NULL,
-        value BYTEA NOT NULL
-    );
-    SELECT create_hypertable('timeseries_timescale','timestamp');
-`
-	_, err = pool.Exec(ctx, query)
-	return
-}
-
-func dbCleanTable(ctx context.Context, pool *pgxpool.Pool, table string) (err error) {
-	queryDelete := "DELETE FROM " + table
-	queryVacuum := "VACUUM FULL " + table
-
-	_, err = pool.Exec(ctx, queryDelete)
-	if err != nil {
-		return
-	}
-
-	_, err = pool.Exec(ctx, queryVacuum)
-	if err != nil {
-		return
-	}
-
-	return
 }
