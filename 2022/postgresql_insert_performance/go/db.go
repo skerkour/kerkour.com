@@ -37,6 +37,13 @@ func dbConnect(ctx context.Context, databaseUrl string) (pool *pgxpool.Pool, err
 
 func dbSetup(ctx context.Context, pool *pgxpool.Pool) (err error) {
 	query := `
+	DROP TABLE IF EXISTS normalized;
+	DROP TABLE IF EXISTS key_value;
+	DROP TABLE IF EXISTS key_value_compressed_zstd;
+	DROP TABLE IF EXISTS key_value_compressed_snappy;
+	DROP TABLE IF EXISTS timeseries;
+	DROP TABLE IF EXISTS timeseries_timescale;
+
 	CREATE EXTENSION IF NOT EXISTS timescaledb;
 
     CREATE TABLE IF NOT EXISTS normalized (

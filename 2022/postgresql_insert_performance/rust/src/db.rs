@@ -15,6 +15,13 @@ pub async fn connect(database_url: &str, max_connections: u32) -> Result<DB, any
 pub async fn setup(db: &DB) -> Result<(), anyhow::Error> {
     db.execute(
         "
+        DROP TABLE IF EXISTS normalized;
+        DROP TABLE IF EXISTS key_value;
+        DROP TABLE IF EXISTS key_value_compressed_zstd;
+        DROP TABLE IF EXISTS key_value_compressed_snappy;
+        DROP TABLE IF EXISTS timeseries;
+        DROP TABLE IF EXISTS timeseries_timescale;
+
     CREATE EXTENSION IF NOT EXISTS timescaledb;
 
     CREATE TABLE IF NOT EXISTS normalized (
