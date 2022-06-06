@@ -3,6 +3,8 @@ package main
 import (
 	"context"
 	"encoding/json"
+	"log"
+	"sync"
 	"time"
 
 	"github.com/DataDog/zstd"
@@ -60,13 +62,18 @@ func insertKeyValue(ctx context.Context, pool *pgxpool.Pool) (err error) {
 		Key:   baseEvent.ID,
 		Value: jsonPayload,
 	}
+	var wg sync.WaitGroup
+	wg.Add(EXECUTIONS)
 
 	worker := func(ctx context.Context, pool *pgxpool.Pool, jobs <-chan KeyValueEvent, results chan<- error) {
 		for job := range jobs {
 			event := job
 			event.Key = uuid.New()
 			_, jobErr := pool.Exec(ctx, query, event.Key, event.Value)
-			results <- jobErr
+			if jobErr != nil {
+				log.Fatal(jobErr)
+			}
+			wg.Done()
 		}
 	}
 
@@ -79,12 +86,7 @@ func insertKeyValue(ctx context.Context, pool *pgxpool.Pool) (err error) {
 	}
 	close(jobs)
 
-	for i := 0; i < EXECUTIONS; i++ {
-		err = <-results
-		if err != nil {
-			return
-		}
-	}
+	wg.Wait()
 
 	return
 }
@@ -152,6 +154,8 @@ func insertKeyValueCompressedSnappy(ctx context.Context, pool *pgxpool.Pool) (er
 		Key:   baseEvent.ID,
 		Value: []byte{},
 	}
+	var wg sync.WaitGroup
+	wg.Add(EXECUTIONS)
 
 	worker := func(ctx context.Context, pool *pgxpool.Pool, jobs <-chan KeyValueEvent, results chan<- error) {
 		for job := range jobs {
@@ -160,7 +164,10 @@ func insertKeyValueCompressedSnappy(ctx context.Context, pool *pgxpool.Pool) (er
 			comrpessedPayload := snappy.Encode(nil, jsonPayload)
 			event.Value = comrpessedPayload
 			_, jobErr := pool.Exec(ctx, query, event.Key, event.Value)
-			results <- jobErr
+			if jobErr != nil {
+				log.Fatal(jobErr)
+			}
+			wg.Done()
 		}
 	}
 
@@ -173,12 +180,7 @@ func insertKeyValueCompressedSnappy(ctx context.Context, pool *pgxpool.Pool) (er
 	}
 	close(jobs)
 
-	for i := 0; i < EXECUTIONS; i++ {
-		err = <-results
-		if err != nil {
-			return
-		}
-	}
+	wg.Wait()
 
 	return
 }
