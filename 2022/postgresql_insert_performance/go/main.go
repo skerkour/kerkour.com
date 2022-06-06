@@ -2,6 +2,7 @@ package main
 
 import (
 	"context"
+	"fmt"
 	"log"
 	"os"
 	"time"
@@ -44,8 +45,45 @@ func main() {
 		log.Fatal(err)
 	}
 
-	defer pool.Close()
+	// normalized
+	fmt.Println("Normalized")
+	normalizedResults := make([]time.Duration, RUNS)
+	for i := 0; i < RUNS; i++ {
+		dbCleanTable(ctx, pool, "normalized")
+		start := time.Now()
+		errInsert := insertNormalized(ctx, pool)
+		end := time.Now()
+		normalizedResults[i] = end.Sub(start)
+		if errInsert != nil {
+			log.Fatal(errInsert)
+		}
+	}
+	fmt.Printf("    results: %v", normalizedResults)
+	normalizedMean := durationMean(normalizedResults)
+	fmt.Printf("    mean: %v", normalizedMean)
 
+	// for _ in 0..RUNS {
+	// 	db::clean_table(&db, "normalized").await;
+	// 	let start = Instant::now();
+	// 	insert_normalized(&db).await;
+	// 	let duration = start.elapsed();
+	// 	normalized_results.push(duration);
+	// }
+	// println!("    results: {:#?}", &normalized_results);
+	// let normalized_mean = duration_mean(&normalized_results);
+	// println!("    mean: {:?}", &normalized_mean);
+
+	defer pool.Close()
+}
+
+func durationMean(results []time.Duration) time.Duration {
+	var ret time.Duration
+
+	for _, result := range results {
+		ret += result
+	}
+
+	return ret / time.Duration(len(results))
 }
 
 func generateEvent() Event {
