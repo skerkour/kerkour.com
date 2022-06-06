@@ -300,9 +300,16 @@ async fn insert_timeseries_timescale(db: &DB) {
     stream
         .for_each_concurrent(CONCURRENCY as usize, |_| async {
             let timestamp = Utc::now();
+            let json_event = json_event.clone();
+            let data = tokio::task::spawn_blocking(move || {
+                zstd::bulk::compress(&json_event, 2)
+                    .expect("key_value_compressed_zstd :compressing event")
+            })
+            .await
+            .expect("key_value_compressed_zstd: awaiting for tokio::spawn_blocking");
             sqlx::query(QUERY)
                 .bind(&timestamp)
-                .bind(&json_event)
+                .bind(&data)
                 .execute(db)
                 .await
                 .expect("timeseries_timescale: inserting event");
