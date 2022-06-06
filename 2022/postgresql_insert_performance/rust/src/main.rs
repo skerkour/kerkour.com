@@ -11,7 +11,7 @@ use std::time::{Duration, Instant};
 use uuid::Uuid;
 
 const CONCURRENCY: u32 = 100;
-const EXECUTIONS: u64 = 1_000;
+const EXECUTIONS: u64 = 50_000;
 const RUNS: usize = 10;
 
 #[derive(sqlx::FromRow, Serialize, Debug, Clone, Deserialize)]
