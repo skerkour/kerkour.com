@@ -46,7 +46,7 @@ pub async fn setup(db: &DB) -> Result<(), anyhow::Error> {
         timestamp TIMESTAMPTZ NOT NULL,
         value BYTEA NOT NULL
     );
-    SELECT create_hypertable('timeseries_timescale','timestamp');
+    SELECT create_hypertable('timeseries_timescale', 'timestamp', if_not_exists => TRUE);
 
     ",
     )

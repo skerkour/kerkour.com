@@ -68,7 +68,7 @@ func dbSetup(ctx context.Context, pool *pgxpool.Pool) (err error) {
         timestamp TIMESTAMPTZ NOT NULL,
         value BYTEA NOT NULL
     );
-    SELECT create_hypertable('timeseries_timescale','timestamp');
+    SELECT create_hypertable('timeseries_timescale', 'timestamp', if_not_exists => TRUE);
 `
 	_, err = pool.Exec(ctx, query)
 	return
