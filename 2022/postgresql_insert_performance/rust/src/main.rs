@@ -9,7 +9,7 @@ use std::time::{Duration, Instant};
 use uuid::Uuid;
 
 const CONCURRENCY: u32 = 100;
-const EXECUTIONS: u64 = 100_000;
+const EXECUTIONS: u64 = 60_000;
 const RUNS: usize = 10;
 
 #[derive(sqlx::FromRow, Serialize, Debug, Clone, Deserialize)]
@@ -69,6 +69,48 @@ async fn main() -> Result<(), anyhow::Error> {
     println!("    results: {:#?}", &key_value_results);
     let key_value_mean = duration_mean(&key_value_results);
     println!("    mean: {:?}", &key_value_mean);
+
+    // key_value zstd
+    println!("Key Value compressed ZSTD");
+    let mut key_value_zstd_results = Vec::with_capacity(RUNS);
+    for _ in 0..RUNS {
+        db::clean_table(&db, "key_value_compressed_zstd").await;
+        let start = Instant::now();
+        insert_key_value_compressed_zstd(&db).await;
+        let duration = start.elapsed();
+        key_value_zstd_results.push(duration);
+    }
+    println!("    results: {:#?}", &key_value_zstd_results);
+    let key_value_zstd_mean = duration_mean(&key_value_zstd_results);
+    println!("    mean: {:?}", &key_value_zstd_mean);
+
+    // key_value snappy
+    println!("Key Value compressed snappy");
+    let mut key_value_snappy_results = Vec::with_capacity(RUNS);
+    for _ in 0..RUNS {
+        db::clean_table(&db, "key_value_compressed_snappy").await;
+        let start = Instant::now();
+        insert_key_value_compressed_snappy(&db).await;
+        let duration = start.elapsed();
+        key_value_snappy_results.push(duration);
+    }
+    println!("    results: {:#?}", &key_value_snappy_results);
+    let key_value_snappy_mean = duration_mean(&key_value_snappy_results);
+    println!("    mean: {:?}", &key_value_snappy_mean);
+
+    // timeseries timescale
+    println!("Timeseries timescale");
+    let mut timeseries_timescale_results = Vec::with_capacity(RUNS);
+    for _ in 0..RUNS {
+        db::clean_table(&db, "timeseries_timescale").await;
+        let start = Instant::now();
+        insert_timeseries_timescale(&db).await;
+        let duration = start.elapsed();
+        timeseries_timescale_results.push(duration);
+    }
+    println!("    results: {:#?}", &timeseries_timescale_results);
+    let timeseries_timescale_mean = duration_mean(&timeseries_timescale_results);
+    println!("    mean: {:?}", &timeseries_timescale_mean);
 
     Ok(())
 }
@@ -215,12 +257,13 @@ async fn insert_key_value_compressed_snappy(db: &DB) {
         .await;
 }
 
-async fn insert_timeseries(db: &DB) {
-    const QUERY: &str = "INSERT INTO timeseries (timestamp, value)
+async fn insert_timeseries_timescale(db: &DB) {
+    const QUERY: &str = "INSERT INTO timeseries_timescale (timestamp, value)
         VALUES ($1, $2)";
     let stream = stream::iter(0..EXECUTIONS);
     let base_event = generate_event();
-    let json_event = serde_json::to_vec(&base_event).expect("timeseries: serializing event");
+    let json_event =
+        serde_json::to_vec(&base_event).expect("timeseries_timescale: serializing event");
 
     stream
         .for_each_concurrent(CONCURRENCY as usize, |_| async {
@@ -230,7 +273,7 @@ async fn insert_timeseries(db: &DB) {
                 .bind(&json_event)
                 .execute(db)
                 .await
-                .expect("timeseries: inserting event");
+                .expect("timeseries_timescale: inserting event");
         })
         .await;
 }
