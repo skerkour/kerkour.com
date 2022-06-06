@@ -44,6 +44,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+	defer pool.Close()
 
 	// normalized
 	fmt.Println("Normalized")
@@ -62,18 +63,25 @@ func main() {
 	normalizedMean := durationMean(normalizedResults)
 	fmt.Printf("    mean: %v", normalizedMean)
 
-	// for _ in 0..RUNS {
-	// 	db::clean_table(&db, "normalized").await;
-	// 	let start = Instant::now();
-	// 	insert_normalized(&db).await;
-	// 	let duration = start.elapsed();
-	// 	normalized_results.push(duration);
-	// }
-	// println!("    results: {:#?}", &normalized_results);
-	// let normalized_mean = duration_mean(&normalized_results);
-	// println!("    mean: {:?}", &normalized_mean);
+	fmt.Println("\n------------------------------------------\n")
 
-	defer pool.Close()
+	// normalized
+	fmt.Println("Key Value")
+	keyValueResults := make([]time.Duration, RUNS)
+	for i := 0; i < RUNS; i++ {
+		dbCleanTable(ctx, pool, "key_value")
+		start := time.Now()
+		errInsert := insertKeyValue(ctx, pool)
+		end := time.Now()
+		keyValueResults[i] = end.Sub(start)
+		if errInsert != nil {
+			log.Fatal(errInsert)
+		}
+	}
+	fmt.Printf("    results: %v", keyValueResults)
+	keyValueMean := durationMean(keyValueResults)
+	fmt.Printf("    mean: %v", keyValueMean)
+
 }
 
 func durationMean(results []time.Duration) time.Duration {

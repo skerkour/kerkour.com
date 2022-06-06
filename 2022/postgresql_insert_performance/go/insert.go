@@ -2,6 +2,7 @@ package main
 
 import (
 	"context"
+	"encoding/json"
 
 	"github.com/google/uuid"
 	"github.com/jackc/pgx/v4/pgxpool"
@@ -24,46 +25,63 @@ func insertNormalized(ctx context.Context, pool *pgxpool.Pool) (err error) {
 	}
 
 	for w := 0; w < CONCURRENCY; w++ {
-        go worker(ctx, pool, jobs, results)
-    }
+		go worker(ctx, pool, jobs, results)
+	}
 
 	for i := 0; i < EXECUTIONS; i++ {
-        jobs <- baseEvent
-    }
-    close(jobs)
+		jobs <- baseEvent
+	}
+	close(jobs)
 
-
-    for i := 0; i < EXECUTIONS; i++ {
-        err = <-results
+	for i := 0; i < EXECUTIONS; i++ {
+		err = <-results
 		if err != nil {
 			return
 		}
-    }
+	}
 
 	return
 }
 
-// async fn insert_normalized(db: &DB) {
-//     const QUERY: &str = "INSERT INTO normalized (id, type, timestamp, received_at, payload)
-//         VALUES ($1, $2, $3, $4, $5)";
-//     let stream = stream::iter(0..EXECUTIONS);
-//     let base_event = generate_event();
+func insertKeyValue(ctx context.Context, pool *pgxpool.Pool) (err error) {
+	const query = `INSERT INTO key_value (key, value)
+	       VALUES ($1, $2)`
+	baseEvent := generateEvent()
+	jobs := make(chan KeyValueEvent, CONCURRENCY)
+	results := make(chan error, CONCURRENCY)
+	jsonPayload, err := json.Marshal(baseEvent)
+	if err != nil {
+		return
+	}
+	keyValueEvent := KeyValueEvent{
+		Key:   baseEvent.ID,
+		Value: jsonPayload,
+	}
 
-//     stream
-//         .for_each_concurrent(CONCURRENCY as usize, |_| {
-//             let mut event = base_event.clone();
-//             event.id = Uuid::new_v4();
-//             async move {
-//                 sqlx::query(QUERY)
-//                     .bind(&event.id)
-//                     .bind(&event.r#type)
-//                     .bind(&event.timestamp)
-//                     .bind(&event.received_at)
-//                     .bind(&event.payload)
-//                     .execute(db)
-//                     .await
-//                     .expect("normalized: inserting event");
-//             }
-//         })
-//         .await;
-// }
+	worker := func(ctx context.Context, pool *pgxpool.Pool, jobs <-chan KeyValueEvent, results chan<- error) {
+		for job := range jobs {
+			event := job
+			event.Key = uuid.New()
+			_, jobErr := pool.Exec(ctx, query, event.Key, event.Value)
+			results <- jobErr
+		}
+	}
+
+	for w := 0; w < CONCURRENCY; w++ {
+		go worker(ctx, pool, jobs, results)
+	}
+
+	for i := 0; i < EXECUTIONS; i++ {
+		jobs <- keyValueEvent
+	}
+	close(jobs)
+
+	for i := 0; i < EXECUTIONS; i++ {
+		err = <-results
+		if err != nil {
+			return
+		}
+	}
+
+	return
+}
