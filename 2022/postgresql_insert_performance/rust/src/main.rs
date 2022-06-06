@@ -153,7 +153,8 @@ async fn insert_key_value_compressed_zstd(db: &DB) {
     let base_event = generate_event();
     let key_value_event = KeyValueEvent {
         key: base_event.id,
-        value: serde_json::to_vec(&base_event).expect("key_value_compressed_zstd: serializing event"),
+        value: serde_json::to_vec(&base_event)
+            .expect("key_value_compressed_zstd: serializing event"),
     };
 
     stream
@@ -186,7 +187,8 @@ async fn insert_key_value_compressed_snappy(db: &DB) {
     let base_event = generate_event();
     let key_value_event = KeyValueEvent {
         key: base_event.id,
-        value: serde_json::to_vec(&base_event).expect("key_value_compressed_snappy: serializing event"),
+        value: serde_json::to_vec(&base_event)
+            .expect("key_value_compressed_snappy: serializing event"),
     };
 
     stream
@@ -195,7 +197,8 @@ async fn insert_key_value_compressed_snappy(db: &DB) {
             event.key = Uuid::new_v4();
             async move {
                 event.value = tokio::task::spawn_blocking(move || {
-                    zstd::bulk::compress(&event.value, 2)
+                    snap::raw::Encoder::new()
+                        .compress_vec(&event.value)
                         .expect("key_value_compressed_snappy :compressing event")
                 })
                 .await
