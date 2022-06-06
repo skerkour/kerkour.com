@@ -3,6 +3,7 @@ package main
 import (
 	"context"
 	"encoding/json"
+	"time"
 
 	"github.com/DataDog/zstd"
 	"github.com/google/uuid"
@@ -123,6 +124,44 @@ func insertKeyValueCompressed(ctx context.Context, pool *pgxpool.Pool) (err erro
 
 	for i := 0; i < EXECUTIONS; i++ {
 		jobs <- keyValueEvent
+	}
+	close(jobs)
+
+	for i := 0; i < EXECUTIONS; i++ {
+		err = <-results
+		if err != nil {
+			return
+		}
+	}
+
+	return
+}
+
+func insertTimeSeries(ctx context.Context, pool *pgxpool.Pool) (err error) {
+	const query = `INSERT INTO timeseries (timestamp, value)
+	        VALUES ($1, $2)`
+	baseEvent := generateEvent()
+	jobs := make(chan Event, CONCURRENCY)
+	results := make(chan error, CONCURRENCY)
+	jsonEvent, err := json.Marshal(baseEvent)
+	if err != nil {
+		return
+	}
+
+	worker := func(ctx context.Context, pool *pgxpool.Pool, jobs <-chan Event, results chan<- error) {
+		for range jobs {
+			timestamp := time.Now()
+			_, jobErr := pool.Exec(ctx, query, timestamp, jsonEvent)
+			results <- jobErr
+		}
+	}
+
+	for w := 0; w < CONCURRENCY; w++ {
+		go worker(ctx, pool, jobs, results)
+	}
+
+	for i := 0; i < EXECUTIONS; i++ {
+		jobs <- baseEvent
 	}
 	close(jobs)
 

@@ -184,13 +184,14 @@ async fn insert_timeseries(db: &DB) {
         VALUES ($1, $2)";
     let stream = stream::iter(0..EXECUTIONS);
     let base_event = generate_event();
-    let value = serde_json::to_vec(&base_event).expect("timeseries: serializing event");
+    let json_event = serde_json::to_vec(&base_event).expect("timeseries: serializing event");
 
     stream
         .for_each_concurrent(CONCURRENCY as usize, |_| async {
+            let timestamp = Utc::now();
             sqlx::query(QUERY)
-                .bind(&base_event.timestamp)
-                .bind(&value)
+                .bind(&timestamp)
+                .bind(&json_event)
                 .execute(db)
                 .await
                 .expect("timeseries: inserting event");
