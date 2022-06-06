@@ -150,7 +150,7 @@ fn generate_event() -> Event {
     let something_else2 = (0..500).into_iter().map(|_| rng.gen()).collect();
     let something = rng
         .sample_iter(&Alphanumeric)
-        .take(1000)
+        .take(500)
         .map(char::from)
         .collect();
 
