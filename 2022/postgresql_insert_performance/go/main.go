@@ -58,7 +58,9 @@ func main() {
 		if errInsert != nil {
 			log.Fatal(errInsert)
 		}
+		fmt.Printf("%d,", i)
 	}
+	fmt.Println("")
 	fmt.Printf("    results: %v", normalizedResults)
 	normalizedMean := durationMean(normalizedResults)
 	fmt.Printf("    mean: %v", normalizedMean)
