@@ -116,6 +116,24 @@ async fn main() -> Result<(), anyhow::Error> {
         &key_value_snappy_mean, key_value_snappy_inserts_per_sec
     );
 
+    // timeseries
+    println!("Timeseries");
+    let mut timeseries_results = Vec::with_capacity(RUNS);
+    for _ in 0..RUNS {
+        db::clean_table(&db, "timeseries").await;
+        let start = Instant::now();
+        insert_timeseries(&db).await;
+        let duration = start.elapsed();
+        timeseries_results.push(duration);
+    }
+    println!("    results: {:#?}", &timeseries_results);
+    let timeseries_mean = duration_mean(&timeseries_results);
+    let timeseries_inserts_per_sec = EXECUTIONS as f64 / timeseries_mean.as_secs_f64();
+    println!(
+        "    mean: {:?} ({:.2} inserts / s)",
+        &timeseries_mean, timeseries_inserts_per_sec
+    );
+
     // timeseries timescale
     println!("Timeseries timescale");
     let mut timeseries_timescale_results = Vec::with_capacity(RUNS);
@@ -306,13 +324,39 @@ async fn insert_timeseries_timescale(db: &DB) {
                     .expect("key_value_compressed_zstd :compressing event")
             })
             .await
-            .expect("key_value_compressed_zstd: awaiting for tokio::spawn_blocking");
+            .expect("timeseries_timescale: awaiting for tokio::spawn_blocking");
             sqlx::query(QUERY)
                 .bind(&timestamp)
                 .bind(&data)
                 .execute(db)
                 .await
                 .expect("timeseries_timescale: inserting event");
+        })
+        .await;
+}
+
+async fn insert_timeseries(db: &DB) {
+    const QUERY: &str = "INSERT INTO timeseries (timestamp, value)
+        VALUES ($1, $2)";
+    let stream = stream::iter(0..EXECUTIONS);
+    let base_event = generate_event();
+    let json_event = serde_json::to_vec(&base_event).expect("timeseries: serializing event");
+
+    stream
+        .for_each_concurrent(CONCURRENCY as usize, |_| async {
+            let timestamp = Utc::now();
+            let json_event = json_event.clone();
+            let data = tokio::task::spawn_blocking(move || {
+                zstd::bulk::compress(&json_event, 2).expect("timeseries :compressing event")
+            })
+            .await
+            .expect("timeseries: awaiting for tokio::spawn_blocking");
+            sqlx::query(QUERY)
+                .bind(&timestamp)
+                .bind(&data)
+                .execute(db)
+                .await
+                .expect("timeseries: inserting event");
         })
         .await;
 }
