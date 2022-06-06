@@ -3,6 +3,8 @@ mod db;
 use chrono::{DateTime, Utc};
 use db::DB;
 use futures::{stream, StreamExt};
+use rand::distributions::Alphanumeric;
+use rand::Rng;
 use serde::{Deserialize, Serialize};
 use sqlx::types::Json;
 use std::time::{Duration, Instant};
@@ -143,10 +145,19 @@ fn duration_mean(results: &[Duration]) -> Duration {
 
 fn generate_event() -> Event {
     let now = Utc::now();
+    let mut rng = rand::thread_rng();
+    let something_else = (0..2000).into_iter().map(|_| rng.gen()).collect();
+    let something_else2 = (0..2000).into_iter().map(|_| rng.gen()).collect();
+    let something = rng
+        .sample_iter(&Alphanumeric)
+        .take(6000)
+        .map(char::from)
+        .collect();
+
     let payload = Payload {
-        something: String::new(),
-        something_else: Vec::new(),
-        something_else2: Vec::new(),
+        something,
+        something_else,
+        something_else2,
     };
 
     Event {
