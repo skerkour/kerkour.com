@@ -46,6 +46,12 @@ func main() {
 	}
 	defer pool.Close()
 
+	err = dbSetup(ctx, pool)
+	if err != nil {
+		log.Fatal(err)
+	}
+	fmt.Println("DB Setup")
+
 	// normalized
 	fmt.Println("Normalized")
 	normalizedResults := make([]time.Duration, RUNS)
