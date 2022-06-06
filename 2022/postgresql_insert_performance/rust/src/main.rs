@@ -54,7 +54,11 @@ async fn main() -> Result<(), anyhow::Error> {
     }
     println!("    results: {:#?}", &normalized_results);
     let normalized_mean = duration_mean(&normalized_results);
-    println!("    mean: {:?}", &normalized_mean);
+    let normalized_inserts_per_sec = EXECUTIONS as f64 / normalized_mean.as_secs_f64();
+    println!(
+        "    mean: {:?} ({:.2} inserts / s)",
+        &normalized_mean, normalized_inserts_per_sec
+    );
 
     // key_value
     println!("Key Value");
@@ -68,7 +72,11 @@ async fn main() -> Result<(), anyhow::Error> {
     }
     println!("    results: {:#?}", &key_value_results);
     let key_value_mean = duration_mean(&key_value_results);
-    println!("    mean: {:?}", &key_value_mean);
+    let key_value_inserts_per_sec = EXECUTIONS as f64 / key_value_mean.as_secs_f64();
+    println!(
+        "    mean: {:?} ({:.2} inserts / s)",
+        &key_value_mean, key_value_inserts_per_sec
+    );
 
     // key_value zstd
     println!("Key Value compressed ZSTD");
@@ -82,7 +90,11 @@ async fn main() -> Result<(), anyhow::Error> {
     }
     println!("    results: {:#?}", &key_value_zstd_results);
     let key_value_zstd_mean = duration_mean(&key_value_zstd_results);
-    println!("    mean: {:?}", &key_value_zstd_mean);
+    let key_value_zstd_inserts_per_sec = EXECUTIONS as f64 / key_value_zstd_mean.as_secs_f64();
+    println!(
+        "    mean: {:?} ({:.2} inserts / s)",
+        &key_value_zstd_mean, key_value_zstd_inserts_per_sec
+    );
 
     // key_value snappy
     println!("Key Value compressed snappy");
@@ -96,7 +108,11 @@ async fn main() -> Result<(), anyhow::Error> {
     }
     println!("    results: {:#?}", &key_value_snappy_results);
     let key_value_snappy_mean = duration_mean(&key_value_snappy_results);
-    println!("    mean: {:?}", &key_value_snappy_mean);
+    let key_value_snappy_inserts_per_sec = EXECUTIONS as f64 / key_value_snappy_mean.as_secs_f64();
+    println!(
+        "    mean: {:?} ({:.2} inserts / s)",
+        &key_value_snappy_mean, key_value_snappy_inserts_per_sec
+    );
 
     // timeseries timescale
     println!("Timeseries timescale");
@@ -110,7 +126,12 @@ async fn main() -> Result<(), anyhow::Error> {
     }
     println!("    results: {:#?}", &timeseries_timescale_results);
     let timeseries_timescale_mean = duration_mean(&timeseries_timescale_results);
-    println!("    mean: {:?}", &timeseries_timescale_mean);
+    let timeseries_timescale_inserts_per_sec =
+        EXECUTIONS as f64 / timeseries_timescale_mean.as_secs_f64();
+    println!(
+        "    mean: {:?} ({:.2} inserts / s)",
+        &timeseries_timescale_mean, timeseries_timescale_inserts_per_sec
+    );
 
     Ok(())
 }
