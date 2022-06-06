@@ -4,6 +4,7 @@ import (
 	"context"
 	"encoding/json"
 
+	"github.com/DataDog/zstd"
 	"github.com/google/uuid"
 	"github.com/jackc/pgx/v4/pgxpool"
 )
@@ -63,6 +64,55 @@ func insertKeyValue(ctx context.Context, pool *pgxpool.Pool) (err error) {
 			event := job
 			event.Key = uuid.New()
 			_, jobErr := pool.Exec(ctx, query, event.Key, event.Value)
+			results <- jobErr
+		}
+	}
+
+	for w := 0; w < CONCURRENCY; w++ {
+		go worker(ctx, pool, jobs, results)
+	}
+
+	for i := 0; i < EXECUTIONS; i++ {
+		jobs <- keyValueEvent
+	}
+	close(jobs)
+
+	for i := 0; i < EXECUTIONS; i++ {
+		err = <-results
+		if err != nil {
+			return
+		}
+	}
+
+	return
+}
+
+func insertKeyValueCompressed(ctx context.Context, pool *pgxpool.Pool) (err error) {
+	const query = `INSERT INTO key_value_compressed (key, value)
+	         VALUES ($1, $2)`
+	baseEvent := generateEvent()
+	jobs := make(chan KeyValueEvent, CONCURRENCY)
+	results := make(chan error, CONCURRENCY)
+	jsonPayload, err := json.Marshal(baseEvent)
+	if err != nil {
+		return
+	}
+	keyValueEvent := KeyValueEvent{
+		Key:   baseEvent.ID,
+		Value: []byte{},
+	}
+
+	worker := func(ctx context.Context, pool *pgxpool.Pool, jobs <-chan KeyValueEvent, results chan<- error) {
+		for job := range jobs {
+			event := job
+			event.Key = uuid.New()
+			comrpessedPayload, jobErr := zstd.CompressLevel(nil, jsonPayload, 2)
+			if err != nil {
+				results <- jobErr
+				return
+			}
+			event.Value = comrpessedPayload
+			_, jobErr = pool.Exec(ctx, query, event.Key, event.Value)
 			results <- jobErr
 		}
 	}

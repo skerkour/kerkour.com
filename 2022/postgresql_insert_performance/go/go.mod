@@ -3,6 +3,7 @@ module github.com/skerkour/kerkour.com/2022/pgperf
 go 1.18
 
 require (
+	github.com/DataDog/zstd v1.5.2
 	github.com/google/uuid v1.3.0
 	github.com/jackc/pgtype v1.11.0
 	github.com/jackc/pgx/v4 v4.16.1
