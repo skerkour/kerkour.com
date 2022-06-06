@@ -11,8 +11,8 @@ use std::time::{Duration, Instant};
 use uuid::Uuid;
 
 const CONCURRENCY: u32 = 100;
-const EXECUTIONS: u64 = 50_000;
-const RUNS: usize = 10;
+const EXECUTIONS: u64 = 25_000;
+const RUNS: usize = 6;
 
 #[derive(sqlx::FromRow, Serialize, Debug, Clone, Deserialize)]
 struct Event {
