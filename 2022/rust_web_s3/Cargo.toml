@@ -1,0 +1,27 @@
+[package]
+name = "rust_web_s3"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.0", features = ["full"] }
+axum = { version = "0.5", features = ["http2", "multipart"] }
+
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter", "json", "std"] }
+
+rusoto_s3 = { version = "0.48.0", default-features = false, features = ["rustls"] }
+rusoto_core = { version = "0.48.0", default-features = false, features = ["rustls"] }
+serde = { version = "1.0", features = ["derive"] }
+anyhow = "1.0"
+
+futures = "0.3"
+bytes = "1.1"
+tokio-stream = "0.1.8"
+
+# tokio-util = { version = "0.7", features = ["io"] }
+# aws-config = "0.12.0"
+# aws-sdk-s3 = "0.12.0"
+# tower = { version = "0.4", features = ["make"] }
