@@ -1,5 +1,14 @@
 
 
+## Setup
+
+**user**: `skerkour`
+**password**: `E9kFBBXmi_braJMa1`
+
+```bash
+$ apt install net-tools mosh htop libzstd-dev git gcc g++ make vim postgresql-client-14 pkg-config
+$ export DATABASE_URL="postgres://skerkour:E9kFBBXmi_braJMa1@92.168.1.2:5432/skerkour?sslmode=disable"
+```
 
 ## Spec
 
