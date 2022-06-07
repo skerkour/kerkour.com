@@ -10,11 +10,12 @@ import (
 	"time"
 
 	"github.com/google/uuid"
+	"github.com/jackc/pgx/v4/pgxpool"
 )
 
 const CONCURRENCY = 100
-const EXECUTIONS = 30_000
-const RUNS = 7
+const EXECUTIONS = 50_000
+const RUNS = 10
 
 type Event struct {
 	ID         uuid.UUID
@@ -54,105 +55,52 @@ func main() {
 	}
 	fmt.Println("DB Setup")
 
-	// normalized
-	fmt.Println("Normalized")
-	normalizedResults := make([]time.Duration, RUNS)
-	for i := 0; i < RUNS; i++ {
-		dbCleanTable(ctx, pool, "normalized")
-		start := time.Now()
-		errInsert := insertNormalized(ctx, pool)
-		end := time.Now()
-		normalizedResults[i] = end.Sub(start)
-		if errInsert != nil {
-			log.Fatal(errInsert)
-		}
-		fmt.Printf("%d,", i)
-	}
-	fmt.Println("")
-	fmt.Printf("    results: %v\n", normalizedResults)
-	normalizedMean := durationMean(normalizedResults)
-	normalizedReqsPerSec := EXECUTIONS / normalizedMean.Seconds()
-	fmt.Printf("    mean: %v (%.2f )\n", normalizedMean, normalizedReqsPerSec)
+	run(ctx, "Normalized", RUNS, pool, "normalized", insertNormalized)
 
 	fmt.Println("\n------------------------------------------\n")
 
-	// Key Value
-	fmt.Println("Key Value")
-	keyValueResults := make([]time.Duration, RUNS)
-	for i := 0; i < RUNS; i++ {
-		dbCleanTable(ctx, pool, "key_value")
-		start := time.Now()
-		errInsert := insertKeyValue(ctx, pool)
-		end := time.Now()
-		keyValueResults[i] = end.Sub(start)
-		if errInsert != nil {
-			log.Fatal(errInsert)
-		}
-	}
-	fmt.Printf("    results: %v\n", keyValueResults)
-	keyValueMean := durationMean(keyValueResults)
-	keyValueReqsPerSec := EXECUTIONS / keyValueMean.Seconds()
-	fmt.Printf("    mean: %v (%.2f reqs / s)\n", keyValueMean, keyValueReqsPerSec)
+	run(ctx, "Key Value", RUNS, pool, "key_value", insertKeyValue)
 
 	fmt.Println("\n------------------------------------------\n")
 
-	// Key Value ZSTD
-	fmt.Println("Key Value ZSTD")
-	keyValueCompressedZstdResults := make([]time.Duration, RUNS)
-	for i := 0; i < RUNS; i++ {
-		dbCleanTable(ctx, pool, "key_value_compressed_zstd")
-		start := time.Now()
-		errInsert := insertKeyValueCompressedZstd(ctx, pool)
-		end := time.Now()
-		keyValueCompressedZstdResults[i] = end.Sub(start)
-		if errInsert != nil {
-			log.Fatal(errInsert)
-		}
-	}
-	fmt.Printf("    results: %v\n", keyValueCompressedZstdResults)
-	keyValueCompressedZstdMean := durationMean(keyValueCompressedZstdResults)
-	keyValueZstdReqsPerSec := EXECUTIONS / keyValueCompressedZstdMean.Seconds()
-	fmt.Printf("    mean: %v (%.2f reqs / s)\n", keyValueCompressedZstdMean, keyValueZstdReqsPerSec)
+	run(ctx, "Key Value ZSTD", RUNS, pool, "key_value_compressed_zstd", insertKeyValueCompressedZstd)
 
 	fmt.Println("\n------------------------------------------\n")
 
-	// Key Value Snappy
-	fmt.Println("Key Value Snappy")
-	keyValueCompressedSnappyResults := make([]time.Duration, RUNS)
-	for i := 0; i < RUNS; i++ {
-		dbCleanTable(ctx, pool, "key_value_compressed_snappy")
-		start := time.Now()
-		errInsert := insertKeyValueCompressedSnappy(ctx, pool)
-		end := time.Now()
-		keyValueCompressedSnappyResults[i] = end.Sub(start)
-		if errInsert != nil {
-			log.Fatal(errInsert)
-		}
-	}
-	fmt.Printf("    results: %v\n", keyValueCompressedSnappyResults)
-	keyValueCompressedSnappyMean := durationMean(keyValueCompressedSnappyResults)
-	keyValueSnappyReqsPerSec := EXECUTIONS / keyValueCompressedSnappyMean.Seconds()
-	fmt.Printf("    mean: %v (%.2f reqs / s)\n", keyValueCompressedSnappyMean, keyValueSnappyReqsPerSec)
+	run(ctx, "Key Value Snappy", RUNS, pool, "key_value_compressed_snappy", insertKeyValueCompressedSnappy)
 
 	fmt.Println("\n------------------------------------------\n")
 
-	// time series
-	fmt.Println("Timeseries")
-	timeseriesResults := make([]time.Duration, RUNS)
+	run(ctx, "Timeseries", RUNS, pool, "timeseries", insertTimeSeries)
+
+	fmt.Println("\n------------------------------------------\n")
+
+	run(ctx, "Timeseries Snappy", RUNS, pool, "timeseries", insertTimeSeriesSnappy)
+
+	fmt.Println("\n------------------------------------------\n")
+
+	run(ctx, "Timeseries Timescale", RUNS, pool, "timeseries", insertTimeSeriesTImescale)
+}
+
+func run(ctx context.Context, name string, runs uint, pool *pgxpool.Pool, table string, fn func(context.Context, *pgxpool.Pool) error) {
+	fmt.Println(name)
+	results := make([]time.Duration, runs)
+	var err error
+
 	for i := 0; i < RUNS; i++ {
-		dbCleanTable(ctx, pool, "timeseries")
+		dbCleanTable(ctx, pool, table)
 		start := time.Now()
-		errInsert := insertTimeSeries(ctx, pool)
+		err = fn(ctx, pool)
 		end := time.Now()
-		timeseriesResults[i] = end.Sub(start)
-		if errInsert != nil {
-			log.Fatal(errInsert)
+		results[i] = end.Sub(start)
+		if err != nil {
+			log.Fatal(err)
 		}
 	}
-	fmt.Printf("    results: %v\n", timeseriesResults)
-	timeseriesMean := durationMean(timeseriesResults)
-	timeseriesReqsPerSec := EXECUTIONS / timeseriesMean.Seconds()
-	fmt.Printf("    mean: %v (%.2f reqs /s)\n", timeseriesMean, timeseriesReqsPerSec)
+	fmt.Printf("    results: %v\n", results)
+	mean := durationMean(results)
+	reqsPerSec := EXECUTIONS / mean.Seconds()
+	fmt.Printf("    mean: %v (%.2f reqs /s)\n", mean, reqsPerSec)
 }
 
 func durationMean(results []time.Duration) time.Duration {
