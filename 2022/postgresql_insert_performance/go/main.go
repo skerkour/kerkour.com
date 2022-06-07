@@ -79,7 +79,11 @@ func main() {
 
 	fmt.Println("\n------------------------------------------\n")
 
-	run(ctx, "Timeseries Timescale", RUNS, pool, "timeseries", insertTimeSeriesTImescale)
+	run(ctx, "Timeseries Timescale", RUNS, pool, "timeseries", insertTimeSeriesTimescale)
+
+	fmt.Println("\n------------------------------------------\n")
+
+	run(ctx, "Timeseries Timescale Snappy", RUNS, pool, "timeseries", insertTimeSeriesTimescaleSnappy)
 }
 
 func run(ctx context.Context, name string, runs uint, pool *pgxpool.Pool, table string, fn func(context.Context, *pgxpool.Pool) error) {
