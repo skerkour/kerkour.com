@@ -63,7 +63,7 @@ func insertKeyValue(ctx context.Context, pool *pgxpool.Pool) (err error) {
 	return
 }
 
-func insertKeyValueCompressed(ctx context.Context, pool *pgxpool.Pool) (err error) {
+func insertKeyValueCompressedZstd(ctx context.Context, pool *pgxpool.Pool) (err error) {
 	const query = `INSERT INTO key_value_compressed_zstd (key, value)
 	         VALUES ($1, $2)`
 	baseEvent := generateEvent()

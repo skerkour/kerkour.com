@@ -69,13 +69,14 @@ func main() {
 		fmt.Printf("%d,", i)
 	}
 	fmt.Println("")
-	fmt.Printf("    results: %v", normalizedResults)
+	fmt.Printf("    results: %v\n", normalizedResults)
 	normalizedMean := durationMean(normalizedResults)
-	fmt.Printf("    mean: %v", normalizedMean)
+	normalizedReqsPerSec := EXECUTIONS / normalizedMean.Seconds()
+	fmt.Printf("    mean: %v (%.2f )\n", normalizedMean, normalizedReqsPerSec)
 
 	fmt.Println("\n------------------------------------------\n")
 
-	// normalized
+	// Key Value
 	fmt.Println("Key Value")
 	keyValueResults := make([]time.Duration, RUNS)
 	for i := 0; i < RUNS; i++ {
@@ -88,9 +89,50 @@ func main() {
 			log.Fatal(errInsert)
 		}
 	}
-	fmt.Printf("    results: %v", keyValueResults)
+	fmt.Printf("    results: %v\n", keyValueResults)
 	keyValueMean := durationMean(keyValueResults)
-	fmt.Printf("    mean: %v", keyValueMean)
+	keyValueReqsPerSec := EXECUTIONS / keyValueMean.Seconds()
+	fmt.Printf("    mean: %v (%.2f reqs / s)\n", keyValueMean, keyValueReqsPerSec)
+
+	fmt.Println("\n------------------------------------------\n")
+
+	// Key Value ZSTD
+	fmt.Println("Key Value ZSTD")
+	keyValueCompressedZstdResults := make([]time.Duration, RUNS)
+	for i := 0; i < RUNS; i++ {
+		dbCleanTable(ctx, pool, "key_value_compressed_zstd")
+		start := time.Now()
+		errInsert := insertKeyValueCompressedZstd(ctx, pool)
+		end := time.Now()
+		keyValueCompressedZstdResults[i] = end.Sub(start)
+		if errInsert != nil {
+			log.Fatal(errInsert)
+		}
+	}
+	fmt.Printf("    results: %v\n", keyValueCompressedZstdResults)
+	keyValueCompressedZstdMean := durationMean(keyValueCompressedZstdResults)
+	keyValueZstdReqsPerSec := EXECUTIONS / keyValueCompressedZstdMean.Seconds()
+	fmt.Printf("    mean: %v (%.2f reqs / s)\n", keyValueCompressedZstdMean, keyValueZstdReqsPerSec)
+
+	fmt.Println("\n------------------------------------------\n")
+
+	// Key Value Snappy
+	fmt.Println("Key Value Snappy")
+	keyValueCompressedSnappyResults := make([]time.Duration, RUNS)
+	for i := 0; i < RUNS; i++ {
+		dbCleanTable(ctx, pool, "key_value_compressed_snappy")
+		start := time.Now()
+		errInsert := insertKeyValueCompressedSnappy(ctx, pool)
+		end := time.Now()
+		keyValueCompressedSnappyResults[i] = end.Sub(start)
+		if errInsert != nil {
+			log.Fatal(errInsert)
+		}
+	}
+	fmt.Printf("    results: %v\n", keyValueCompressedSnappyResults)
+	keyValueCompressedSnappyMean := durationMean(keyValueCompressedSnappyResults)
+	keyValueSnappyReqsPerSec := EXECUTIONS / keyValueCompressedSnappyMean.Seconds()
+	fmt.Printf("    mean: %v (%.2f reqs / s)\n", keyValueCompressedSnappyMean, keyValueSnappyReqsPerSec)
 
 	fmt.Println("\n------------------------------------------\n")
 
@@ -107,9 +149,10 @@ func main() {
 			log.Fatal(errInsert)
 		}
 	}
-	fmt.Printf("    results: %v", timeseriesResults)
+	fmt.Printf("    results: %v\n", timeseriesResults)
 	timeseriesMean := durationMean(timeseriesResults)
-	fmt.Printf("    mean: %v", timeseriesMean)
+	timeseriesReqsPerSec := EXECUTIONS / timeseriesMean.Seconds()
+	fmt.Printf("    mean: %v (%.2f reqs /s)\n", timeseriesMean, timeseriesReqsPerSec)
 }
 
 func durationMean(results []time.Duration) time.Duration {
