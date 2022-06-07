@@ -164,8 +164,10 @@ fn duration_mean(results: &[Duration]) -> Duration {
 fn generate_event() -> Event {
     let now = Utc::now();
     let mut rng = rand::thread_rng();
-    let something_else = (0..500).into_iter().map(|_| rng.gen()).collect();
-    let something_else2 = (0..500).into_iter().map(|_| rng.gen()).collect();
+    // let something_else = (0..500).into_iter().map(|_| rng.gen()).collect();
+    // let something_else2 = (0..500).into_iter().map(|_| rng.gen()).collect();
+    let something_else = (0..500).into_iter().map(|_| 0).collect();
+    let something_else2 = (0..500).into_iter().map(|_| 0).collect();
     let something = rng
         .sample_iter(&Alphanumeric)
         .take(500)
