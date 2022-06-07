@@ -90,6 +90,24 @@ func main() {
 	keyValueMean := durationMean(keyValueResults)
 	fmt.Printf("    mean: %v", keyValueMean)
 
+	fmt.Println("\n------------------------------------------\n")
+
+	// time series
+	fmt.Println("Timeseries")
+	timeseriesResults := make([]time.Duration, RUNS)
+	for i := 0; i < RUNS; i++ {
+		dbCleanTable(ctx, pool, "timeseries")
+		start := time.Now()
+		errInsert := insertTimeSeries(ctx, pool)
+		end := time.Now()
+		timeseriesResults[i] = end.Sub(start)
+		if errInsert != nil {
+			log.Fatal(errInsert)
+		}
+	}
+	fmt.Printf("    results: %v", timeseriesResults)
+	timeseriesMean := durationMean(timeseriesResults)
+	fmt.Printf("    mean: %v", timeseriesMean)
 }
 
 func durationMean(results []time.Duration) time.Duration {
