@@ -1,5 +1,5 @@
-use axum::{http::StatusCode, service, Router};
-use std::{convert::Infallible, fs, net::SocketAddr, path::Path, thread, time::Duration};
+use axum::{http::StatusCode, response::IntoResponse, routing, Router};
+use std::{fs, io, net::SocketAddr, path::Path, thread, time::Duration};
 use tower_http::services::ServeDir;
 
 mod templates;
@@ -26,12 +26,7 @@ async fn main() -> Result<(), anyhow::Error> {
 
     let app = Router::new().nest(
         "/",
-        service::get(ServeDir::new(PUBLIC_DIR)).handle_error(|error: std::io::Error| {
-            Ok::<_, Infallible>((
-                StatusCode::INTERNAL_SERVER_ERROR,
-                format!("Unhandled internal error: {}", error),
-            ))
-        }),
+        routing::get_service(ServeDir::new(PUBLIC_DIR)).handle_error(handle_error),
     );
 
     let addr = SocketAddr::from(([127, 0, 0, 1], 8080));
@@ -57,7 +52,7 @@ fn rebuild_site(content_dir: &str, output_dir: &str) -> Result<(), anyhow::Error
     for file in &markdown_files {
         let mut html = templates::HEADER.to_owned();
         let markdown = fs::read_to_string(&file)?;
-        let parser = pulldown_cmark::Parser::new_ext(&markdown,  pulldown_cmark::Options::all());
+        let parser = pulldown_cmark::Parser::new_ext(&markdown, pulldown_cmark::Options::all());
 
         let mut body = String::new();
         pulldown_cmark::html::push_html(&mut body, parser);
@@ -97,4 +92,8 @@ fn write_index(files: Vec<String>, output_dir: &str) -> Result<(), anyhow::Error
     let index_path = Path::new(&output_dir).join("index.html");
     fs::write(index_path, html)?;
     Ok(())
+}
+
+async fn handle_error(_err: io::Error) -> impl IntoResponse {
+    (StatusCode::INTERNAL_SERVER_ERROR, "Something went wrong...")
 }
