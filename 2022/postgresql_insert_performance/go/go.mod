@@ -4,6 +4,7 @@ go 1.18
 
 require (
 	github.com/DataDog/zstd v1.5.2
+	github.com/alitto/pond v1.8.0
 	github.com/golang/snappy v0.0.4
 	github.com/google/uuid v1.3.0
 	github.com/jackc/pgtype v1.11.0
