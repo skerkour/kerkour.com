@@ -19,14 +19,16 @@ func insertNormalized(ctx context.Context, pool *pgxpool.Pool) (err error) {
 	baseEvent := generateEvent()
 	workers := pond.New(CONCURRENCY, 0, pond.MinWorkers(CONCURRENCY))
 
-	workers.Submit(func() {
-		event := baseEvent
-		event.ID = uuid.New()
-		_, jobErr := pool.Exec(ctx, query, event.ID, event.Type, event.Timestamp, event.ReceivedAt, event.Payload)
-		if jobErr != nil {
-			log.Fatal(jobErr)
-		}
-	})
+	for i := 0; i < EXECUTIONS; i++ {
+		workers.Submit(func() {
+			event := baseEvent
+			event.ID = uuid.New()
+			_, jobErr := pool.Exec(ctx, query, event.ID, event.Type, event.Timestamp, event.ReceivedAt, event.Payload)
+			if jobErr != nil {
+				log.Fatal(jobErr)
+			}
+		})
+	}
 
 	workers.StopAndWait()
 	return
@@ -46,14 +48,16 @@ func insertKeyValue(ctx context.Context, pool *pgxpool.Pool) (err error) {
 	}
 	workers := pond.New(CONCURRENCY, 0, pond.MinWorkers(CONCURRENCY))
 
-	workers.Submit(func() {
-		event := keyValueEvent
-		event.Key = uuid.New()
-		_, jobErr := pool.Exec(ctx, query, event.Key, event.Value)
-		if jobErr != nil {
-			log.Fatal(jobErr)
-		}
-	})
+	for i := 0; i < EXECUTIONS; i++ {
+		workers.Submit(func() {
+			event := keyValueEvent
+			event.Key = uuid.New()
+			_, jobErr := pool.Exec(ctx, query, event.Key, event.Value)
+			if jobErr != nil {
+				log.Fatal(jobErr)
+			}
+		})
+	}
 
 	workers.StopAndWait()
 	return
@@ -73,19 +77,21 @@ func insertKeyValueCompressed(ctx context.Context, pool *pgxpool.Pool) (err erro
 	}
 	workers := pond.New(CONCURRENCY, 0, pond.MinWorkers(CONCURRENCY))
 
-	workers.Submit(func() {
-		event := keyValueEvent
-		event.Key = uuid.New()
-		comrpessedPayload, jobErr := zstd.CompressLevel(nil, jsonPayload, 2)
-		if err != nil {
-			log.Fatal(jobErr)
-		}
-		event.Value = comrpessedPayload
-		_, jobErr = pool.Exec(ctx, query, event.Key, event.Value)
-		if jobErr != nil {
-			log.Fatal(jobErr)
-		}
-	})
+	for i := 0; i < EXECUTIONS; i++ {
+		workers.Submit(func() {
+			event := keyValueEvent
+			event.Key = uuid.New()
+			comrpessedPayload, jobErr := zstd.CompressLevel(nil, jsonPayload, 2)
+			if err != nil {
+				log.Fatal(jobErr)
+			}
+			event.Value = comrpessedPayload
+			_, jobErr = pool.Exec(ctx, query, event.Key, event.Value)
+			if jobErr != nil {
+				log.Fatal(jobErr)
+			}
+		})
+	}
 
 	workers.StopAndWait()
 	return
@@ -105,16 +111,18 @@ func insertKeyValueCompressedSnappy(ctx context.Context, pool *pgxpool.Pool) (er
 	}
 	workers := pond.New(CONCURRENCY, 0, pond.MinWorkers(CONCURRENCY))
 
-	workers.Submit(func() {
-		event := keyValueEvent
-		event.Key = uuid.New()
-		comrpessedPayload := snappy.Encode(nil, jsonPayload)
-		event.Value = comrpessedPayload
-		_, jobErr := pool.Exec(ctx, query, event.Key, event.Value)
-		if jobErr != nil {
-			log.Fatal(jobErr)
-		}
-	})
+	for i := 0; i < EXECUTIONS; i++ {
+		workers.Submit(func() {
+			event := keyValueEvent
+			event.Key = uuid.New()
+			comrpessedPayload := snappy.Encode(nil, jsonPayload)
+			event.Value = comrpessedPayload
+			_, jobErr := pool.Exec(ctx, query, event.Key, event.Value)
+			if jobErr != nil {
+				log.Fatal(jobErr)
+			}
+		})
+	}
 
 	workers.StopAndWait()
 	return
@@ -130,13 +138,15 @@ func insertTimeSeries(ctx context.Context, pool *pgxpool.Pool) (err error) {
 	}
 	workers := pond.New(CONCURRENCY, 0, pond.MinWorkers(CONCURRENCY))
 
-	workers.Submit(func() {
-		timestamp := time.Now()
-		_, jobErr := pool.Exec(ctx, query, timestamp, jsonEvent)
-		if jobErr != nil {
-			log.Fatal(jobErr)
-		}
-	})
+	for i := 0; i < EXECUTIONS; i++ {
+		workers.Submit(func() {
+			timestamp := time.Now()
+			_, jobErr := pool.Exec(ctx, query, timestamp, jsonEvent)
+			if jobErr != nil {
+				log.Fatal(jobErr)
+			}
+		})
+	}
 
 	workers.StopAndWait()
 	return
