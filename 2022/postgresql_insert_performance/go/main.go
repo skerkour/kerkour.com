@@ -13,8 +13,8 @@ import (
 )
 
 const CONCURRENCY = 100
-const EXECUTIONS = 100_000
-const RUNS = 10
+const EXECUTIONS = 30_000
+const RUNS = 7
 
 type Event struct {
 	ID         uuid.UUID
