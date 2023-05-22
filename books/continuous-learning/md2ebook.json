@@ -1,0 +1,14 @@
+{
+  "title": "Continuous Learning",
+  "subtitle": "My simple system to turn information into actionable knowledge and thrive in the information age",
+  "author": "Sylvain Kerkour",
+  "version": "v2023.1",
+  "tags": ["knowledge", "success", "knowledge-base", "knowledge-management"],
+  "cover": "assets/continuous_learning_cover.png",
+  "chapters": [
+    "01_introduction.md",
+    "02_knowledge_base.md",
+    "03_acquisition.md",
+    "04_conclusion.md"
+  ]
+}

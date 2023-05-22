@@ -1,0 +1,1 @@
+buddhism amd stoixism

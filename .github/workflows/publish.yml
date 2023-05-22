@@ -1,0 +1,24 @@
+name: Publish
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      # Remove exif metadata
+      - name: exif
+        run: |
+          sudo apt update && sudo apt install -y libimage-exiftool-perl
+          make exif
+
+      # publish website on Bloom
+      - name: publish
+        run: |
+          docker run -i -w /bloom/site -v `pwd`:/bloom/site -e BLOOM_URL=${{ secrets.BLOOM_URL }} -e BLOOM_API_KEY=${{ secrets.BLOOM_API_KEY }} ${{ secrets.BLOOM_DOCKER_IMAGE }} /bloom/bloom publish --force

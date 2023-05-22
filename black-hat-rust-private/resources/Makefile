@@ -1,0 +1,83 @@
+BOOK_FILE = black_hat_rust
+BOOK_TITLE = Black Hat Rust
+CHAPTERS_FILES = src/settings.txt src/copyright.md src/early_access_bonuses.md src/contact.md src/preface.md \
+	src/ch_01.md \
+	src/ch_02.md \
+	src/ch_03.md \
+	src/ch_04.md \
+	src/ch_05.md \
+	src/ch_06.md \
+	src/ch_07.md \
+	src/ch_08.md \
+	src/ch_09.md \
+	src/ch_10.md \
+	src/ch_11.md \
+	src/ch_12.md \
+	src/ch_13.md \
+	src/ch_14.md
+
+
+COVER = src/assets/black_hat_rust_cover.png
+DATE := $(shell date "+%B %e, %Y")
+VERSION = v2021.40
+DIST_DIR = ebooks
+
+
+.PHONY: all
+all: pdf epub mobi epubcheck
+
+
+.PHONY: pdf
+pdf:
+	pandoc $(CHAPTERS_FILES) \
+	--resource-path=src \
+	--output=$(DIST_DIR)/$(BOOK_FILE)_content.pdf \
+	--pdf-engine=xelatex \
+	--table-of-contents --toc-depth=2 \
+	--number-sections \
+	--top-level-division=chapter \
+	--include-in-header src/inline_code.tex \
+	-V fontsize=12pt \
+	-V documentclass=report \
+	-V linkcolor:blue \
+	--highlight-style ./src/tango_mod.theme \
+	-M date="$(VERSION)"
+	# --include-before-body src/cover.tex \
+	# --listings
+	pdftk src/assets/black_hat_rust_cover.pdf $(DIST_DIR)/$(BOOK_FILE)_content.pdf cat output $(DIST_DIR)/$(BOOK_FILE).pdf
+	rm $(DIST_DIR)/$(BOOK_FILE)_content.pdf
+
+
+.PHONY: epub
+epub:
+	pandoc $(CHAPTERS_FILES) \
+	--resource-path=src \
+	--output=$(DIST_DIR)/$(BOOK_FILE).epub \
+	--table-of-contents --toc-depth=2 \
+	--top-level-division=chapter \
+	--number-sections \
+	--listings \
+	--standalone \
+	--epub-cover-image=$(COVER) \
+	--metadata title="$(BOOK_FILE)" \
+	--highlight-style ./src/tango_mod.theme \
+	--css ./src/epub.css \
+	-M date="$(DATE)"
+
+
+.PHONY: epubcheck
+epubcheck:
+	java -jar /usr/bin/epubcheck ebooks/black_hat_rust.epub
+
+.PHONY: mobi
+mobi:
+	ebook-convert $(DIST_DIR)/$(BOOK_FILE).epub $(DIST_DIR)/$(BOOK_FILE).mobi --cover $(COVER)
+
+
+.PHONY: release
+release:
+	cp $(DIST_DIR)/black_hat_rust.{pdf,epub,mobi} ~
+
+.PHONY: clean
+clean:
+	rm -rf $(DIST_DIR)

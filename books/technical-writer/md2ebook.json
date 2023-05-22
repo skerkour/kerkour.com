@@ -1,0 +1,15 @@
+{
+  "title": "Technical Writer",
+  "subtitle": "90 days to write, self-publish and sell your first technical book",
+  "author": "Sylvain Kerkour",
+  "version": "v2023.1",
+  "tags": ["writing", "publishing", "self-publishing", "programming"],
+  "cover": "assets/technical_writer_cover.png",
+  "chapters": [
+    "01_introduction.md",
+    "02_writing.md",
+    "03_publishing.md",
+    "04_marketing.md",
+    "05_conclusion.md"
+  ]
+}

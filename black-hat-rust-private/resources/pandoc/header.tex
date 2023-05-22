@@ -1,0 +1,100 @@
+
+\usepackage{tikz,xcolor,sectsty,pdfpages,titlesec}
+
+% Colors
+\definecolor{foreground}{RGB}{248,248,242}
+\definecolor{comment}{RGB}{98,114,164}
+\definecolor{pink}{RGB}{255,121,198}
+\definecolor{purple}{RGB}{189,147,249}
+\definecolor{blue}{RGB}{139,233,253}
+\definecolor{background}{RGB}{40,42,54}
+\definecolor{background2}{RGB}{33,34,44}
+
+% Background and text color
+\pagecolor{background2}
+\color{foreground}
+
+% Chapter and section formatting
+\chapterfont{\color{pink}\raggedright}
+\sectionfont{\color{blue}\raggedright}
+
+% Use font Helvetica instead of default sans-serif
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[scaled]{helvet}
+\renewcommand\familydefault{\sfdefault} 
+\usepackage[T1]{fontenc}
+
+% Smaller source code
+\renewenvironment{Shaded} {\begin{snugshade}\scriptsize} {\end{snugshade}}
+
+% Page geometry
+\usepackage[paperwidth=178mm,paperheight=233mm,left=0.8in,right=0.8in,top=0.8in,footskip=0.5in,bmargin=0.8in]{geometry}
+
+% Custom page footer
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lfoot{
+  \begin{tikzpicture}[overlay,baseline={(0,0)}] 
+  \node[rectangle, outer sep=0pt, text=white, anchor=west ]
+    (pageno)
+    {A React Developer’s Guide to Hooks, © Sebastien Castiel};
+  \draw[ fill=comment, draw=comment]
+    ([xshift=-\oddsidemargin-1in]pageno.north west)
+      rectangle
+    ([yshift=1.5pt]pageno.south east);
+  \node[rectangle, outer sep=0pt, text=white, anchor=west]
+    (pageno2)
+    {A React Developer’s Guide to Hooks, © Sebastien Castiel};
+  \end{tikzpicture} 
+}
+\rfoot{
+  \begin{tikzpicture}[overlay,baseline={(0,0)}] 
+  \node[rectangle,outer sep=0pt,text=white,fill=pink,draw=pink,anchor=east]
+    (pageno)
+    {\thepage};
+  \draw[fill=pink,draw=pink]
+    ([xshift=\oddsidemargin+1in]pageno.north east)
+      rectangle  
+    (pageno.south east);
+  \end{tikzpicture}%  
+}
+
+% Remove header and footer lines
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Customize figures
+\usepackage{float}
+\let\origfigure\figure
+\let\endorigfigure\endfigure
+\renewenvironment{figure}[1][2] {
+    \expandafter\origfigure\expandafter[H]
+} {
+    \endorigfigure
+}
+
+% Show only chapters in table of contents
+\setcounter{tocdepth}{0}
+
+% Customize section formatting
+\titleformat{\section}%
+  [hang]% <shape>
+  {\normalfont\bfseries\Large\color{blue}}% <format>
+  {}% <label>
+  {0pt}% <sep>
+  {}% <before code>
+
+% Use “Lesson” instead of “Chapter” in chapter numbering
+\renewcommand{\chaptername}{Lesson}
+
+% Disable section numbering
+\renewcommand{\thesection}{}
+
+% Don’t use different page style (header and footer) for chapter pages
+\usepackage{etoolbox}
+\patchcmd{\chapter}{\thispagestyle{plain}}{\thispagestyle{fancy}}{}{}
+
+% Avoid widows and clubs
+\widowpenalty10000
+\clubpenalty10000

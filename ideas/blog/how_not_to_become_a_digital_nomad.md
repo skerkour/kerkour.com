@@ -1,0 +1,1 @@
+# How not to become a digital nomad

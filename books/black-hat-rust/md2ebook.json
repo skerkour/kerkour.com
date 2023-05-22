@@ -1,0 +1,25 @@
+{
+  "title": "Black Hat Rust",
+  "subtitle": "Applied offensive security with the Rust programming language",
+  "author": "Sylvain Kerkour",
+  "version": "v2022.56",
+  "tags": ["security", "rust", "hacking", "programming"],
+  "cover": "assets/black_hat_rust_cover.png",
+  "chapters": [
+    "00_preface.md",
+    "01.md",
+    "02.md",
+    "03.md",
+    "04.md",
+    "05.md",
+    "06.md",
+    "07.md",
+    "08.md",
+    "09.md",
+    "10.md",
+    "11.md",
+    "12.md",
+    "13.md",
+    "14.md"
+  ]
+}

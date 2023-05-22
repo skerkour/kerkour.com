@@ -1,0 +1,3 @@
+course: Designing SaaS products
+Genre reduire le nombre de decisions
+pricing strategies...

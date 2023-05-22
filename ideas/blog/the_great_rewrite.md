@@ -1,0 +1,3 @@
+the great rewrite
+Maintenant que l'on a atteint un optimum local en terme de patterns et d'architecture....
+il ne reste plus qu'a faire une chose: ameliorer les performances, et reduire les couts.

@@ -1,0 +1,40 @@
+{
+  "content": [
+    "blog",
+    "courses",
+    "pages",
+    "public"
+  ],
+  "snippets": "snippets",
+  "title": "Sylvain Kerkour",
+  "description": "(Ab)using technology for fun & profit. Author of [Black Hat Rust](/black-hat-rust).",
+
+  "navigation": {
+    "primary": {
+      "Home": "/",
+      // "Subscribe": "/subscribe",
+      "Blog": "/posts",
+      "Courses": "/courses",
+      // "My Books": "/books"
+      "Black Hat Rust": "/black-hat-rust"
+    }
+  },
+  "redirects": {
+    "/blog/*": "/:splat",
+
+    "/index.xml": "/feed.xml",
+    "/rss.xml": "/feed.xml",
+    "/rss": "/feed.xml",
+    "/.well-known/host-meta": "https://social.kerkour.com/.well-known/host-meta",
+
+    "/follow": "/subscribe",
+
+    "/rust-reproductible-cross-compilation-with-docker": "/rust-reproducible-cross-compilation-with-docker",
+    "/cooperative-vs-preemtive-scheduling": "/cooperative-vs-preemptive-scheduling",
+    // due to a faulty link https://twitter.com/packetsource/status/1525014905031729152
+    "/rust-crate-backboor": "/rust-crate-backdoor",
+    "/courses/black-hat-rust": "/black-hat-rust",
+
+    "/about": "/"
+  }
+}

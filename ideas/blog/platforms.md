@@ -1,0 +1,1 @@
+Either you build a platform, or you build on an existing one

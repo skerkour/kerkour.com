@@ -1,0 +1,28 @@
+# editors / OS
+*~
+*.sw[mnpcod]
+*.log
+*.tmp
+*.tmp.*
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+log.txt
+*.sublime-project
+*.sublime-workspace
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.hugo_build.lock
+
+
+node_modules/
+npm-debug.log
+resources/_gen/
+
+# Local Netlify folder
+.netlify
+.serverless
+dist

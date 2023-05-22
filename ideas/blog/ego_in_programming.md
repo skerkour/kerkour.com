@@ -1,0 +1,1 @@
+# Ego in software development

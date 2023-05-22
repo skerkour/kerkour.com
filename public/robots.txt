@@ -1,0 +1,31 @@
+# User-agent: Googlebot-Image
+# Disallow: /
+# User-agent: Yandex
+# Disallow: /
+# User-agent: Yahoo-slurp
+# Disallow: /
+# User-agent: slurp
+# Disallow: /
+# User-agent: Yahoo-MMCrawler
+# Disallow: /
+# User-agent: baiduspider
+# Disallow: /
+# User-agent: baiduspider-image
+# Disallow: /
+# User-agent: baiduspider-mobile
+# Disallow: /
+# User-agent: baiduspider-news
+# Disallow: /
+# User-agent: baiduspider-video
+# Disallow: /
+
+User-agent: *
+Allow: /
+
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: archive.org_bot
+Disallow: /
+
+Sitemap: https://kerkour.com/sitemap.xml

@@ -1,0 +1,2 @@
+Simply don't negotiate.
+

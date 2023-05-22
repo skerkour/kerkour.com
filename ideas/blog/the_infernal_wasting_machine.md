@@ -1,0 +1,1 @@
+Quand tout repose sur l'esprit jumain, on se met a gaspiller temps et energie

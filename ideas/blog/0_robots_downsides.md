@@ -1,0 +1,3 @@
+les robots avec tous leurs capteurs vont generer une quantite incroyable de donnees, portant un coup finale a la privacy.
+
+For example, humanoid robot assistant, if it gets hacked...

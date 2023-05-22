@@ -1,0 +1,1 @@
+# What entrepreneurs can learn from Linux
