@@ -1,0 +1,14 @@
+[package]
+name = "high_performance_rust_with_sqlite"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+sqlx = { version = "0.5", features = [ "runtime-tokio-rustls", "sqlite", "uuid", "chrono", "migrate" ] }
+futures = "0.3"
+chrono = "0.4"
+uuid = { version = "0.8", features = ["v4"] }
+clap = "2"

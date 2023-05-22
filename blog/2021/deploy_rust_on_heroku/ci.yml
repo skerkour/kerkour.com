@@ -1,0 +1,58 @@
+# .github/workflows/ci.yml
+
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Update local toolchain
+        run: |
+          rustup update
+          rustup component add clippy
+          rustup install nightly
+
+      - name: Toolchain info
+        run: |
+          cargo --version --verbose
+          rustc --version
+          cargo clippy --version
+
+      - name: Test
+        run: |
+          cargo check
+          cargo clippy -- -D warnings
+          cargo test --all
+
+
+      - name: Build Docker image
+        run: |
+          docker build -t registry.heroku.com/${{ secrets.HEROKU_APP }}/web:latest .
+
+      - name: Docker image info
+        run: docker images
+
+      - name: Login to container registry
+        env:
+          HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+        run: |
+          heroku container:login
+
+      - name: Push Docker images
+        # see here for the details of the release phase https://devcenter.heroku.com/articles/container-registry-and-runtime#release-phase
+        run: |
+          docker push registry.heroku.com/${{ secrets.HEROKU_APP }}/web
+
+      - name: Release
+        env:
+          HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+        run: heroku container:release -a ${{ secrets.HEROKU_APP }} web
+

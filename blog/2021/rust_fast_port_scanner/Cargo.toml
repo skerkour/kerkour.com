@@ -1,0 +1,13 @@
+[package]
+name = "rust_fast_port_scanner"
+version = "0.1.0"
+edition = "2018"
+description = "A simple and fast port scanner"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+anyhow = "1.0"
+futures = "0.3"
+clap = "2.33"

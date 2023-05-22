@@ -1,0 +1,12 @@
+alias gs="git status"
+alias ga="git add"
+alias gu="git add -u"
+alias gm="git commit -m"
+alias gp="git push"
+
+
+source $HOME/.cargo/env
+export GOPATH="$HOME/.local/gopath"
+export GOROOT="$HOME/.local/go"
+export PATH="$PATH:$GOROOT/bin:$GOPATH/bin"
+export GOPROXY=direct

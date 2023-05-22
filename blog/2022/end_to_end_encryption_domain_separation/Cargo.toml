@@ -1,0 +1,15 @@
+[package]
+name = "end_to_end_encryption_domain_separation"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rust-argon2 = "1.0"
+blake2 = "0.9"
+hex = "0.4"
+anyhow = "1.0"
+rand = "0.8"
+rpassword = "5.0"
+zeroize = "1.4"

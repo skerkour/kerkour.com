@@ -1,0 +1,32 @@
+[package]
+name = "rust_on_esp32"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+# No xtensa in regular compiler yet
+[package.metadata.docs.rs]
+default-target = "x86_64-unknown-linux-gnu"
+
+[profile.release]
+# symbols are nice and they don't increase the size on Flash
+debug = true
+opt-level = "z"
+
+[profile.dev]
+opt-level = "s"
+
+[features]
+bind = []
+
+[dependencies]
+anyhow = {version = "1", features = ["backtrace"]}
+esp-idf-sys = { version = "0.20" }
+embedded-svc = "0.8.3"
+esp-idf-svc = { version = "0.20", features = ["binstart"] }
+esp-idf-hal = "0.20"
+
+[build-dependencies]
+embuild = "0.24"
+anyhow = "1"

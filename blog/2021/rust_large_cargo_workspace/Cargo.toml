@@ -1,0 +1,14 @@
+[workspace]
+
+members = [
+    "app",
+    "libs",
+
+    "one",
+    "two",
+    "three",
+]
+
+default-members = [
+  "app",
+]

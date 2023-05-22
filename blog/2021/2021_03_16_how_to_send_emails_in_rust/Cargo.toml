@@ -1,0 +1,19 @@
+[package]
+name = "how_to_send_emails_in_rust"
+version = "0.1.0"
+authors = ["Sylvain Kerkour <sylvain@kerkour.fr>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+
+# SMTP
+# lettre = { version = "0.10.0-beta.2", default-features = false, features = ["smtp-transport", "tokio1-rustls-tls", "hostname", "r2d2", "builder"] }
+
+# SES
+lettre = { version = "0.10.0-beta.2", default-features = false, features = ["builder"] }
+rusoto_core = { version = "0.48", default-features = false, features = ["rustls"] }
+rusoto_ses = { version = "0.48", default-features = false, features = ["rustls"] }
+base64 = "0.13"

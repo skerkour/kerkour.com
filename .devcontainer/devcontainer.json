@@ -1,0 +1,12 @@
+{
+  "dockerFile": "Dockerfile",
+  "extensions": [
+    "rust-lang.rust-analyzer",
+    "golang.Go"
+  ],
+  "forwardPorts": [
+    8000,
+    8080
+  ],
+  "containerUser": "skerkour"
+}

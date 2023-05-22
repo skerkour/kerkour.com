@@ -1,0 +1,20 @@
+[package]
+name = "rust_long_polling"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+sqlx = { version = "0.5", features = [ "runtime-tokio-rustls", "postgres", "chrono", "uuid", "json" ] }
+axum = "0.2"
+serde = { version = "1.0", features = ["derive"] }
+uuid = { version = "0.8", features = ["v4", "serde"] }
+log = "0.4"
+env_logger = "0.9"
+ulid = { version = "0.4", features = ["uuid"] }
+chrono = { version = "0.4", features = ["serde"] }
+thiserror = "1"
+anyhow = "1"
+serde_json = "1"
