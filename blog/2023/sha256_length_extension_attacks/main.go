@@ -25,8 +25,8 @@ func main() {
 
 	fmt.Printf("SecretKey: %s\n", hex.EncodeToString(secretKey))
 	fmt.Printf("Original Data: %s\n", string(originalData))
-	fmt.Printf("Original Signature: %s\n", hex.EncodeToString(originalSignature))
-	fmt.Printf("Verify(SecretKey, OriginalData): %v\n", verifySignature(secretKey, originalSignature, originalData))
+	fmt.Printf("Original Signature SHA256(SecretKey || OriginalData): %s\n", hex.EncodeToString(originalSignature))
+	fmt.Printf("Verify OriginalSignature == SHA256(SecretKey || OriginalData): %v\n", verifySignature(secretKey, originalSignature, originalData))
 
 	fmt.Println("\n---------------------------------------------------------------------------------------------------\n")
 
@@ -40,7 +40,7 @@ func main() {
 		fmt.Println(hex.Dump(maliciousMessage))
 	}
 	fmt.Printf("Malicious Signature: %s\n", hex.EncodeToString(maliciousSignature))
-	fmt.Printf("Verify(SecretKey, maliciousMessage): %v\n", verifySignature(secretKey, maliciousSignature, maliciousMessage))
+	fmt.Printf("Verify MaliciousSignature == SHA256(SecretKey, MaliciousMessage): %v\n", verifySignature(secretKey, maliciousSignature, maliciousMessage))
 }
 
 func forgeSignature(secretKeyLength uint64, originalDataLength uint64, originalSignature []byte, maliciousData []byte) (forgedSignature []byte) {

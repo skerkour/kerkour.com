@@ -7,8 +7,8 @@
 $ go run ./ -verbose
 SecretKey: 459b26fb72fbc187e424d0b73c64eff2a170576e929f0255dc719f7f51d9d6c6
 Original Data: user_id=1&role=user
-Original Signature: 6c67e88ac5a246ce0f19da4eb279c56b3d9ba3e51879e33541e42b27dea7fe53
-Verify(SecretKey, OriginalData): true
+Original Signature SHA256(SecretKey || OriginalData): 6c67e88ac5a246ce0f19da4eb279c56b3d9ba3e51879e33541e42b27dea7fe53
+Verify OriginalSignature == SHA256(SecretKey || OriginalData): true
 
 ---------------------------------------------------------------------------------------------------
 
@@ -29,5 +29,5 @@ Malicious Message (OriginalData || padding || MaliciousData):
 00000030  72 6f 6c 65 3d 61 64 6d  69 6e                    |role=admin|
 
 Malicious Signature: cedf9f0ee04d26731c6641390a761ab21786345be1f4c04072e3b501e475d195
-Verify(SecretKey, maliciousMessage): true
+Verify MaliciousSignature == SHA256(SecretKey, MaliciousMessage): true
 ```
