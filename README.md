@@ -2,6 +2,11 @@
 
 Code accompanying my blog [https://kerkour.com](https://kerkour.com)
 
+
+## 2023
+
+* [Breaking SHA256: length extension attacks in practice](https://kerkour.com/sha256-length-extension-attacks)
+
 ## 2022
 
 * [Hostname based router with axum in Rust](https://kerkour.com/rust-axum-hostname-router)
