@@ -1,40 +1,35 @@
-FROM golang:1.18 AS go
+FROM golang:1.20 AS go
 
 FROM ubuntu:latest
 
 RUN apt update && apt upgrade -y
+RUN apt install -y git ca-certificates make vim \
+    bash gcc g++ zsh curl wget zip coreutils sqlite3 python3 gnupg xz-utils
 
-RUN apt install -y gcc curl wget git vim zip sqlite3 libdigest-sha-perl zsh build-essential make libzstd-dev pkg-config htop
+RUN update-ca-certificates
 
-ARG USER=skerkour
+# TODO: set up timezone: UTC
 
-RUN adduser \
-   --system \
-   --shell /bin/bash \
-   --gecos $USER \
-   --group \
-   --disabled-password \
-   --home /home/$USER \
-   $USER
+# Setup dev user
+ARG USERNAME=dev
+ARG USER_UID=10001
+ARG USER_GID=$USER_UID
 
+RUN addgroup --gid $USER_GID $USERNAME \
+    && adduser --uid $USER_UID --ingroup $USERNAME --disabled-password --shell /bin/bash --gecos "" $USERNAME
 
-USER $USER
-COPY bashrc /home/$USER/.bashrc
+USER $USERNAME
 
+COPY bashrc /home/$USERNAME/.bashrc
+COPY vimrc /home/$USERNAME/.vimrc
 
 # Setup go
-RUN mkdir -p /home/$USER/.local/gopath
+RUN mkdir -p /home/$USERNAME/.local/gopath
 
-COPY --from=go /usr/local/go /home/$USER/.local/go
+COPY --from=go /usr/local/go /home/$USERNAME/.local/go
 
-ENV GOROOT /home/$USER/.local/go
-ENV GOPATH /home/$USER/.local/gopath
+ENV GOROOT /home/$USERNAME/.local/go
+ENV GOPATH /home/$USERNAME/.local/gopath
 ENV PATH $PATH:$GOPATH/bin:$GOROOT/bin
 
-
-# Set up Rust
-RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | bash -s -- -y
-
-USER root
-
-EXPOSE 8000 8080
+WORKDIR /
