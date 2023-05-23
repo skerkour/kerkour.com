@@ -1,7 +1,6 @@
 package main
 
 import (
-	"crypto/sha256"
 	"crypto/subtle"
 	"encoding/binary"
 	"encoding/hex"
@@ -53,36 +52,57 @@ func generateMaliciousMessage(secretKeyLength uint64, originalData []byte, malic
 	message = append(message, padding...)
 	message = append(message, maliciousData...)
 
-	fmt.Println(hex.Dump(message))
+	// fmt.Println(hex.Dump(message))
+	// dumpBinary(message)
 
 	return
 }
 
 // TODO
 func generatePadding(secretKeyLength uint64, originalDataLength uint64) (padding []byte) {
-	len := secretKeyLength + originalDataLength
-	// padding = make([]byte, (secretKeyLength + originalDataLength) % 64)
+	messageLength := secretKeyLength + originalDataLength
+	zerosLength := 64 - 8 - 1 - (messageLength % 64)
 
-	var tmp [64 + 8]byte // padding + length buffer
-	// tmp[0] = 0x80
-	tmp[0] = 0x1
-	var t uint64
-	if len%64 < 56 {
-		t = 56 - len%64
-	} else {
-		t = 64 + 56 - len%64
-	}
+	padding = make([]byte, 1+zerosLength+8)
 
-	// Length in bits.
-	len <<= 3
-	padlen := tmp[:t+8]
-	binary.BigEndian.PutUint64(padlen[t+0:], len)
+	// var tmp [64 + 8]byte // padding + length buffer
+	// // tmp[0] = 0x80
+	// // binary.LittleEndian.
+	// tmp[0] = 0x1 << 7
+	// var t uint64
+	// if zerosLength%64 < 56 {
+	// 	t = 56 - zerosLength%64
+	// } else {
+	// 	t = 64 + 56 - zerosLength%64
+	// }
 
-	padding = padlen
+	// // Length in bits.
+	// zerosLength <<= 3
+	// // padlen := tmp[:t+8]
+	// binary.BigEndian.PutUint64(tmp[t:], zerosLength)
+
+	padding[0] = 0x1 << 7
+	binary.BigEndian.PutUint64(padding[1+zerosLength:], messageLength*8)
+
+	fmt.Println("PADDING:")
+	fmt.Printf("Message Length: %d\n", messageLength)
+	fmt.Printf("Zeros: %d\n", zerosLength)
+	fmt.Println(hex.Dump(padding))
+	dumpBinary(padding)
 
 	// fmt.Println(hex.Dump(padding))
 
 	return
+}
+
+func dumpBinary(data []byte) {
+	for i, n := range data {
+		fmt.Printf("%08b ", n) // prints 00000000 11111101
+		if (i+1)%4 == 0 && i != 0 {
+			fmt.Println("")
+		}
+	}
+	fmt.Println("")
 }
 
 func verifySignature(secretKey []byte, signatureToVerify []byte, data []byte) (isValid bool) {
@@ -96,12 +116,24 @@ func verifySignature(secretKey []byte, signatureToVerify []byte, data []byte) (i
 	return
 }
 
+var digestState []byte
+
 func sign(secretKey []byte, data []byte) (signature []byte) {
 	message := make([]byte, 0, len(secretKey)+len(data))
 	message = append(message, secretKey...)
 	message = append(message, data...)
 
-	hash := sha256.Sum256(message)
+	digest := NewSha256()
+	digest.Write(message)
+
+	hash := digest.Sum(nil)
+	var err error
+	digestState, err = digest.MarshalBinary()
+	if err != nil {
+		panic(err)
+	}
+
+	// hash := sha256.Sum256(message)
 
 	signature = hash[:]
 	return
@@ -115,6 +147,13 @@ func loadSha256(hashBytes []byte, secretKeyAndDataLength uint64) (hash *digest, 
 	digestBinary = binary.BigEndian.AppendUint64(digestBinary, secretKeyAndDataLength)
 
 	hash = NewSha256()
-	err = hash.UnmarshalBinary(digestBinary)
+	hash.Write([]byte("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"))
+	err = hash.UnmarshalBinary(digestState)
+
+	fmt.Println("DIGEST STATE:")
+	fmt.Println(hex.Dump(digestState))
+
+	fmt.Println("DIGEST BINARY:")
+	fmt.Println(hex.Dump(digestBinary))
 	return
 }
