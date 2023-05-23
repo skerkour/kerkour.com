@@ -4,5 +4,5 @@
 ## Usage
 
 ```bash
-$ go run *.go
+$ go run ./
 ```

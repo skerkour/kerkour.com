@@ -15,11 +15,12 @@ func main() {
 	}
 
 	originalData := []byte("user_id=1&role=user")
-	originalSignature := sign(secretKey, originalData, true)
+	originalSignature := sign(secretKey, originalData)
 
 	maliciousData := []byte("&something=true&role=admin")
 	maliciousMessage := generateMaliciousMessage(uint64(len(secretKey)), originalData, maliciousData)
-	maliciousSignature := forgeSignature(uint64(len(secretKey)), uint64(len(originalData)), originalSignature, maliciousMessage, maliciousData)
+
+	maliciousSignature := forgeSignature(uint64(len(secretKey)), uint64(len(originalData)), originalSignature, maliciousData)
 
 	fmt.Printf("SecretKey: %s\n", hex.EncodeToString(secretKey))
 	fmt.Printf("Original Data: %s\n", string(originalData))
@@ -28,10 +29,10 @@ func main() {
 	fmt.Println("---------------------------------")
 	fmt.Printf("Malicious Data: %s\n", string(maliciousData))
 	fmt.Printf("Malicious Signature: %s\n", hex.EncodeToString(maliciousSignature))
-	fmt.Printf("Verify(SecretKey, originalData || maliciousData): %v\n", verifySignature(secretKey, maliciousSignature, append(originalData, maliciousData...)))
+	fmt.Printf("Verify(SecretKey, maliciousMessage): %v\n", verifySignature(secretKey, maliciousSignature, maliciousMessage))
 }
 
-func forgeSignature(secretKeyLength uint64, originalDataLength uint64, originalSignature []byte, maliciousMessage []byte, maliciousData []byte) (forgedSignature []byte) {
+func forgeSignature(secretKeyLength uint64, originalDataLength uint64, originalSignature []byte, maliciousData []byte) (forgedSignature []byte) {
 	digest, err := loadSha256(originalSignature, secretKeyLength+originalDataLength)
 	if err != nil {
 		log.Fatalf("loading SHA256 hash: %s", err)
@@ -49,12 +50,11 @@ func forgeSignature(secretKeyLength uint64, originalDataLength uint64, originalS
 
 func generateMaliciousMessage(secretKeyLength uint64, originalData []byte, maliciousData []byte) (message []byte) {
 	padding := generatePadding(secretKeyLength, uint64(len(originalData)))
-	message = make([]byte, 0, len(originalData)+len(padding))
-	// message = make([]byte, 0, len(originalData)+len(padding)+len(maliciousData))
+	message = make([]byte, 0, len(originalData)+len(padding)+len(maliciousData))
 
 	message = append(message, originalData...)
 	message = append(message, padding...)
-	// message = append(message, maliciousData...)
+	message = append(message, maliciousData...)
 
 	// fmt.Println(hex.Dump(message))
 	// dumpBinary(message)
@@ -68,39 +68,22 @@ func generatePadding(secretKeyLength uint64, originalDataLength uint64) (padding
 
 	padding = make([]byte, 1+zerosLength+8)
 
-	// var tmp [64 + 8]byte // padding + length buffer
-	// // tmp[0] = 0x80
-	// // binary.LittleEndian.
-	// tmp[0] = 0x1 << 7
-	// var t uint64
-	// if zerosLength%64 < 56 {
-	// 	t = 56 - zerosLength%64
-	// } else {
-	// 	t = 64 + 56 - zerosLength%64
-	// }
-
-	// // Length in bits.
-	// zerosLength <<= 3
-	// // padlen := tmp[:t+8]
-	// binary.BigEndian.PutUint64(tmp[t:], zerosLength)
-
 	padding[0] = 0x1 << 7
 	binary.BigEndian.PutUint64(padding[1+zerosLength:], messageLength*8)
 
-	fmt.Println("PADDING:")
-	fmt.Printf("Message Length: %d\n", messageLength)
-	fmt.Printf("Zeros: %d\n", zerosLength)
-	fmt.Println(hex.Dump(padding))
-	dumpBinary(padding)
-
+	// fmt.Println("PADDING:")
+	// fmt.Printf("Message Length: %d\n", messageLength)
+	// fmt.Printf("Zeros: %d\n", zerosLength)
 	// fmt.Println(hex.Dump(padding))
+	// dumpBinary(padding)
 
 	return
 }
 
+// dumpBinary prints 00000000 00000000 00000000 00000001
 func dumpBinary(data []byte) {
 	for i, n := range data {
-		fmt.Printf("%08b ", n) // prints 00000000 11111101
+		fmt.Printf("%08b ", n)
 		if (i+1)%4 == 0 && i != 0 {
 			fmt.Println("")
 		}
@@ -110,8 +93,7 @@ func dumpBinary(data []byte) {
 
 func verifySignature(secretKey []byte, signatureToVerify []byte, data []byte) (isValid bool) {
 	isValid = false
-	fmt.Println("verifySignature")
-	signature := sign(secretKey, data, true)
+	signature := sign(secretKey, data)
 
 	if subtle.ConstantTimeCompare(signature, signatureToVerify) == 1 {
 		isValid = true
@@ -122,7 +104,7 @@ func verifySignature(secretKey []byte, signatureToVerify []byte, data []byte) (i
 
 var digestState []byte
 
-func sign(secretKey []byte, data []byte, print bool) (signature []byte) {
+func sign(secretKey []byte, data []byte) (signature []byte) {
 	message := make([]byte, 0, len(secretKey)+len(data))
 	message = append(message, secretKey...)
 	message = append(message, data...)
@@ -130,19 +112,17 @@ func sign(secretKey []byte, data []byte, print bool) (signature []byte) {
 	digest := NewSha256()
 	digest.Write(message)
 
-	hash := digest.Sum(nil)
+	hash := digest.checkSum()
 	var err error
 	digestState, err = digest.MarshalBinary()
 	if err != nil {
 		panic(err)
 	}
 
-	if print {
-		fmt.Println("DIGEST STATE:")
-		fmt.Println(hex.Dump(digestState))
-	}
-
-	// hash := sha256.Sum256(message)
+	// if print {
+	// 	fmt.Println("DIGEST STATE:")
+	// 	fmt.Println(hex.Dump(digestState))
+	// }
 
 	signature = hash[:]
 	return
@@ -151,24 +131,14 @@ func sign(secretKey []byte, data []byte, print bool) (signature []byte) {
 func loadSha256(hashBytes []byte, secretKeyAndDataLength uint64) (hash *digest, err error) {
 	digestBinary := make([]byte, 0, marshaledSize)
 	digestBinary = append(digestBinary, []byte(magic256)...)
-	// digestBinary = binary.BigEndian.AppendUint32(digestBinary, uint32(hashBytes[0]))
-	// digestBinary = binary.BigEndian.AppendUint32(digestBinary, uint32(hashBytes[1]))
-	// digestBinary = binary.BigEndian.AppendUint32(digestBinary, uint32(hashBytes[2]))
-	// digestBinary = binary.BigEndian.AppendUint32(digestBinary, uint32(hashBytes[3]))
-	// digestBinary = binary.BigEndian.AppendUint32(digestBinary, uint32(hashBytes[4]))
-	// digestBinary = binary.BigEndian.AppendUint32(digestBinary, uint32(hashBytes[5]))
-	// digestBinary = binary.BigEndian.AppendUint32(digestBinary, uint32(hashBytes[6]))
-	// digestBinary = binary.BigEndian.AppendUint32(digestBinary, uint32(hashBytes[7]))
-
 	digestBinary = append(digestBinary, hashBytes...)
 	digestBinary = append(digestBinary, make([]byte, chunk)...)
-	digestBinary = binary.BigEndian.AppendUint64(digestBinary, secretKeyAndDataLength)
+	digestBinary = binary.BigEndian.AppendUint64(digestBinary, 64)
 
 	hash = NewSha256()
-	hash.Write([]byte("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"))
-	err = hash.UnmarshalBinary(digestState)
+	err = hash.UnmarshalBinary(digestBinary)
 
-	fmt.Println("DIGEST BINARY:")
-	fmt.Println(hex.Dump(digestBinary))
+	// fmt.Println("DIGEST BINARY:")
+	// fmt.Println(hex.Dump(digestBinary))
 	return
 }
