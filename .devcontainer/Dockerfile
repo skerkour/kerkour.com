@@ -4,7 +4,7 @@ FROM ubuntu:latest
 
 RUN apt update && apt upgrade -y
 RUN apt install -y git ca-certificates make vim \
-    bash gcc g++ zsh curl wget zip coreutils sqlite3 python3 gnupg xz-utils
+    bash gcc g++ zsh curl wget zip coreutils sqlite3 python3 gnupg xz-utils bsdextrautils ssh zip
 
 RUN update-ca-certificates
 
