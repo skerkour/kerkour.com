@@ -4,11 +4,17 @@ import (
 	"crypto/subtle"
 	"encoding/binary"
 	"encoding/hex"
+	"flag"
 	"fmt"
 	"log"
 )
 
+var verbose bool
+
 func main() {
+	flag.BoolVar(&verbose, "verbose", false, "verbose")
+	flag.Parse()
+
 	secretKey, err := hex.DecodeString("459b26fb72fbc187e424d0b73c64eff2a170576e929f0255dc719f7f51d9d6c6")
 	if err != nil {
 		log.Fatal("SecretKey is not valid Hex")
@@ -19,7 +25,6 @@ func main() {
 
 	maliciousData := []byte("&something=true&role=admin")
 	maliciousMessage := generateMaliciousMessage(uint64(len(secretKey)), originalData, maliciousData)
-
 	maliciousSignature := forgeSignature(uint64(len(secretKey)), uint64(len(originalData)), originalSignature, maliciousData)
 
 	fmt.Printf("SecretKey: %s\n", hex.EncodeToString(secretKey))
@@ -28,6 +33,10 @@ func main() {
 	fmt.Printf("Verify(SecretKey, OriginalData): %v\n", verifySignature(secretKey, originalSignature, originalData))
 	fmt.Println("---------------------------------")
 	fmt.Printf("Malicious Data: %s\n", string(maliciousData))
+	if verbose {
+		fmt.Println("Malicious Message (OriginalData || padding || MaliciousData):")
+		fmt.Println(hex.Dump(maliciousMessage))
+	}
 	fmt.Printf("Malicious Signature: %s\n", hex.EncodeToString(maliciousSignature))
 	fmt.Printf("Verify(SecretKey, maliciousMessage): %v\n", verifySignature(secretKey, maliciousSignature, maliciousMessage))
 }
@@ -37,9 +46,6 @@ func forgeSignature(secretKeyLength uint64, originalDataLength uint64, originalS
 	if err != nil {
 		log.Fatalf("loading SHA256 hash: %s", err)
 	}
-
-	// digest := NewSha256()
-	// digest.Write(maliciousMessage)
 
 	digest.Write(maliciousData)
 	hash := digest.Sum(nil)
@@ -55,9 +61,6 @@ func generateMaliciousMessage(secretKeyLength uint64, originalData []byte, malic
 	message = append(message, originalData...)
 	message = append(message, padding...)
 	message = append(message, maliciousData...)
-
-	// fmt.Println(hex.Dump(message))
-	// dumpBinary(message)
 
 	return
 }
