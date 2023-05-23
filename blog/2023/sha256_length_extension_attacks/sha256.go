@@ -7,14 +7,17 @@
 package main
 
 import (
+	"crypto"
 	// "crypto/internal/boring"
 	"encoding/binary"
 	"errors"
+	"hash"
 )
 
-// func init() {
-// 	crypto.RegisterHash(crypto.SHA256, New)
-// }
+func init() {
+	crypto.RegisterHash(crypto.SHA224, New224)
+	crypto.RegisterHash(crypto.SHA256, New)
+}
 
 // The size of a SHA256 checksum in bytes.
 const Size = 32
@@ -144,8 +147,16 @@ func (d *digest) Reset() {
 // also implements encoding.BinaryMarshaler and
 // encoding.BinaryUnmarshaler to marshal and unmarshal the internal
 // state of the hash.
-func NewSha256() *digest {
+func New() hash.Hash {
 	d := new(digest)
+	d.Reset()
+	return d
+}
+
+// New224 returns a new hash.Hash computing the SHA224 checksum.
+func New224() hash.Hash {
+	d := new(digest)
+	d.is224 = true
 	d.Reset()
 	return d
 }
@@ -160,7 +171,6 @@ func (d *digest) Size() int {
 func (d *digest) BlockSize() int { return BlockSize }
 
 func (d *digest) Write(p []byte) (nn int, err error) {
-	// boring.Unreachable()
 	nn = len(p)
 	d.len += uint64(nn)
 	if d.nx > 0 {
@@ -184,7 +194,6 @@ func (d *digest) Write(p []byte) (nn int, err error) {
 }
 
 func (d *digest) Sum(in []byte) []byte {
-	// boring.Unreachable()
 	// Make a copy of d so that caller can keep writing and summing.
 	d0 := *d
 	hash := d0.checkSum()
@@ -230,4 +239,23 @@ func (d *digest) checkSum() [Size]byte {
 	}
 
 	return digest
+}
+
+// Sum256 returns the SHA256 checksum of the data.
+func Sum256(data []byte) [Size]byte {
+	var d digest
+	d.Reset()
+	d.Write(data)
+	return d.checkSum()
+}
+
+// Sum224 returns the SHA224 checksum of the data.
+func Sum224(data []byte) [Size224]byte {
+	var d digest
+	d.is224 = true
+	d.Reset()
+	d.Write(data)
+	sum := d.checkSum()
+	ap := (*[Size224]byte)(sum[:])
+	return *ap
 }

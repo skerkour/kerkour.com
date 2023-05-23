@@ -132,3 +132,9 @@ func loadSha256(hashBytes []byte, secretKeyAndDataLength uint64) (hash *digest, 
 
 	return
 }
+
+func NewSha256() *digest {
+	d := new(digest)
+	d.Reset()
+	return d
+}
