@@ -31,7 +31,7 @@ func main() {
 	fmt.Printf("Original Data: %s\n", string(originalData))
 	fmt.Printf("Original Signature: %s\n", hex.EncodeToString(originalSignature))
 	fmt.Printf("Verify(SecretKey, OriginalData): %v\n", verifySignature(secretKey, originalSignature, originalData))
-	fmt.Println("---------------------------------")
+	fmt.Println("\n---------------------------------------------------------------------------------------------------\n")
 	fmt.Printf("Malicious Data: %s\n", string(maliciousData))
 	if verbose {
 		fmt.Println("Malicious Message (OriginalData || padding || MaliciousData):")

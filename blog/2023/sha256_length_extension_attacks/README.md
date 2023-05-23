@@ -9,7 +9,9 @@ SecretKey: 459b26fb72fbc187e424d0b73c64eff2a170576e929f0255dc719f7f51d9d6c6
 Original Data: user_id=1&role=user
 Original Signature: 6c67e88ac5a246ce0f19da4eb279c56b3d9ba3e51879e33541e42b27dea7fe53
 Verify(SecretKey, OriginalData): true
----------------------------------
+
+---------------------------------------------------------------------------------------------------
+
 Malicious Data: &something=true&role=admin
 Malicious Message (OriginalData || padding || MaliciousData):
 00000000  75 73 65 72 5f 69 64 3d  31 26 72 6f 6c 65 3d 75  |user_id=1&role=u|
