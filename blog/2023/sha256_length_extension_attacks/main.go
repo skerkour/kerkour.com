@@ -64,7 +64,7 @@ func forgeSignature(legitimateSignature []byte, maliciousData []byte, secretKeyA
 // generateMaliciousMessage generates the malicious message used to forge a signature without knowing the
 // secretKey. The message has the following format: (legitimateData || padding || maliciousData)
 func generateMaliciousMessage(secretKeyLength uint64, legitimateData []byte, maliciousData []byte) (message []byte) {
-	padding := generatePadding(secretKeyLength, uint64(len(legitimateData)))
+	padding := generatePadding(secretKeyLength + uint64(len(legitimateData)))
 	message = make([]byte, 0, len(legitimateData)+len(padding)+len(maliciousData))
 
 	message = append(message, legitimateData...)
@@ -77,16 +77,25 @@ func generateMaliciousMessage(secretKeyLength uint64, legitimateData []byte, mal
 // generatePadding generates the required padding to fill SHA256 blocks of 512 bits (64 bytes)
 // with (secretKey || data || padding)
 // The padding format is defined in RFC6234: https://www.rfc-editor.org/rfc/rfc6234#page-8
-func generatePadding(secretKeyLength uint64, legitimateDataLength uint64) (padding []byte) {
-	messageLength := secretKeyLength + legitimateDataLength
-	zerosLength := int(64 - 8 - 1 - (messageLength % 64))
+// inspired by `sha256.go`
+func generatePadding(secretKeyAndDataLength uint64) []byte {
+	var tmp [64 + 8]byte // padding + length buffer
+	var t uint64
 
-	padding = make([]byte, 1+zerosLength+8)
+	// Padding. Add a 1 bit and 0 bits until 56 bytes mod 64.
+	tmp[0] = 0x80
+	if secretKeyAndDataLength%64 < 56 {
+		t = 56 - secretKeyAndDataLength%64
+	} else {
+		t = 64 + 56 - secretKeyAndDataLength%64
+	}
 
-	padding[0] = 0x1 << 7
-	binary.BigEndian.PutUint64(padding[1+zerosLength:], messageLength*8)
+	// Length in bits.
+	secretKeyAndDataLength <<= 3
+	padlen := tmp[:t+8]
+	binary.BigEndian.PutUint64(padlen[t+0:], secretKeyAndDataLength)
 
-	return
+	return padlen
 }
 
 // verifySignature verifies that Signature == SHA256(secretKey || data)
@@ -132,8 +141,10 @@ func loadSha256(hashBytes []byte, secretKeyAndDataLength uint64) (hash *digest) 
 	hashBytes, hash.h[6] = consumeUint32(hashBytes)
 	_, hash.h[7] = consumeUint32(hashBytes)
 	// hash.len is the nearest upper multiple of 64 of the hashed data (secretKeyAndDataLength)
-	hash.len = secretKeyAndDataLength + 64 - (secretKeyAndDataLength % 64)
-	hash.nx = int(hash.len % chunk)
+	// hash.len = secretKeyAndDataLength + 64 - (secretKeyAndDataLength % 64)
+	// hash.nx = int(hash.len % chunk)
+	// hash.len is the length of consumed bytes, including the paddings
+	hash.len = secretKeyAndDataLength + uint64(len(generatePadding(secretKeyAndDataLength)))
 
 	return
 }
