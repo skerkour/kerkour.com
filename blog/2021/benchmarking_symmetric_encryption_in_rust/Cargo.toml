@@ -6,9 +6,10 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-chacha20poly1305 = "0.8"
-ring = "0.16"
+chacha20poly1305 = "0.9"
+ring = "0.17"
 aes-gcm = "0.9"
+chacha20 = "0.9"
 
 [dev-dependencies]
 criterion = "0.3"

@@ -1,4 +1,5 @@
 use aes_gcm::Aes256Gcm;
+use chacha20::{cipher::KeyIvInit, cipher::StreamCipher, ChaCha20};
 use chacha20poly1305::{
     aead::{AeadInPlace, NewAead},
     ChaCha20Poly1305, XChaCha20Poly1305,
@@ -20,6 +21,7 @@ fn bench(c: &mut Criterion) {
     let mut in_out = black_box(vec![0u8; 100]);
     let xchacha20_poly1305 = black_box(XChaCha20Poly1305::new(key.as_ref().into()));
     let chacha20_poly1305 = black_box(ChaCha20Poly1305::new(key.as_ref().into()));
+    let mut chacha20 = black_box(ChaCha20::new(key.as_ref().into(), nonce_96.as_ref().into()));
     let aes_256_gcm = black_box(Aes256Gcm::new(key.as_ref().into()));
     let ring_key_chacha20 = black_box(ring::aead::LessSafeKey::new(
         ring::aead::UnboundKey::new(&ring::aead::CHACHA20_POLY1305, &key).unwrap(),
@@ -44,6 +46,10 @@ fn bench(c: &mut Criterion) {
             chacha20_poly1305.encrypt_in_place_detached(nonce_96.as_ref().into(), &ad, &mut in_out)
         });
     });
+    group.bench_function("RustCrypto ChaCha20", |b| {
+        b.iter(|| chacha20.apply_keystream(&mut in_out));
+    });
+
     group.bench_function("RustCrypto AES-256-GCM", |b| {
         b.iter(|| {
             aes_256_gcm.encrypt_in_place_detached(nonce_96.as_ref().into(), &ad, &mut in_out)
@@ -52,17 +58,15 @@ fn bench(c: &mut Criterion) {
     group.bench_function("ring ChaCha20-Poly1305", |b| {
         b.iter(|| {
             let ring_nonce = ring::aead::Nonce::assume_unique_for_key(nonce_96);
-            let ring_ad = ring::aead::Aad::from(black_box(&ad));
-            ring_key_chacha20
-                .seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
+            let ring_ad: ring::aead::Aad<&[u8; 32]> = ring::aead::Aad::from(black_box(&ad));
+            ring_key_chacha20.seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
         });
     });
     group.bench_function("ring AES-256-GCM", |b| {
         b.iter(|| {
             let ring_nonce = ring::aead::Nonce::assume_unique_for_key(nonce_96);
             let ring_ad = ring::aead::Aad::from(black_box(&ad));
-            ring_key_aesgcm
-                .seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
+            ring_key_aesgcm.seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
         });
     });
     group.finish();
@@ -71,6 +75,7 @@ fn bench(c: &mut Criterion) {
     let mut in_out = black_box(vec![0u8; 1000]);
     let xchacha20_poly1305 = black_box(XChaCha20Poly1305::new(key.as_ref().into()));
     let chacha20_poly1305 = black_box(ChaCha20Poly1305::new(key.as_ref().into()));
+    let mut chacha20 = black_box(ChaCha20::new(key.as_ref().into(), nonce_96.as_ref().into()));
     let aes_256_gcm = black_box(Aes256Gcm::new(key.as_ref().into()));
     let ring_key_chacha20 = black_box(ring::aead::LessSafeKey::new(
         ring::aead::UnboundKey::new(&ring::aead::CHACHA20_POLY1305, &key).unwrap(),
@@ -95,6 +100,9 @@ fn bench(c: &mut Criterion) {
             chacha20_poly1305.encrypt_in_place_detached(nonce_96.as_ref().into(), &ad, &mut in_out)
         });
     });
+    group.bench_function("RustCrypto ChaCha20", |b| {
+        b.iter(|| chacha20.apply_keystream(&mut in_out));
+    });
     group.bench_function("RustCrypto AES-256-GCM", |b| {
         b.iter(|| {
             aes_256_gcm.encrypt_in_place_detached(nonce_96.as_ref().into(), &ad, &mut in_out)
@@ -104,16 +112,14 @@ fn bench(c: &mut Criterion) {
         b.iter(|| {
             let ring_nonce = ring::aead::Nonce::assume_unique_for_key(nonce_96);
             let ring_ad = ring::aead::Aad::from(black_box(&ad));
-            ring_key_chacha20
-                .seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
+            ring_key_chacha20.seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
         });
     });
     group.bench_function("ring AES-256-GCM", |b| {
         b.iter(|| {
             let ring_nonce = ring::aead::Nonce::assume_unique_for_key(nonce_96);
             let ring_ad = ring::aead::Aad::from(black_box(&ad));
-            ring_key_aesgcm
-                .seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
+            ring_key_aesgcm.seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
         });
     });
     group.finish();
@@ -122,6 +128,7 @@ fn bench(c: &mut Criterion) {
     let mut in_out = black_box(vec![0u8; 100_000]);
     let xchacha20_poly1305 = black_box(XChaCha20Poly1305::new(key.as_ref().into()));
     let chacha20_poly1305 = black_box(ChaCha20Poly1305::new(key.as_ref().into()));
+    let mut chacha20 = black_box(ChaCha20::new(key.as_ref().into(), nonce_96.as_ref().into()));
     let aes_256_gcm = black_box(Aes256Gcm::new(key.as_ref().into()));
     let ring_key_chacha20 = black_box(ring::aead::LessSafeKey::new(
         ring::aead::UnboundKey::new(&ring::aead::CHACHA20_POLY1305, &key).unwrap(),
@@ -146,6 +153,9 @@ fn bench(c: &mut Criterion) {
             chacha20_poly1305.encrypt_in_place_detached(nonce_96.as_ref().into(), &ad, &mut in_out)
         });
     });
+    group.bench_function("RustCrypto ChaCha20", |b| {
+        b.iter(|| chacha20.apply_keystream(&mut in_out));
+    });
     group.bench_function("RustCrypto AES-256-GCM", |b| {
         b.iter(|| {
             aes_256_gcm.encrypt_in_place_detached(nonce_96.as_ref().into(), &ad, &mut in_out)
@@ -155,16 +165,14 @@ fn bench(c: &mut Criterion) {
         b.iter(|| {
             let ring_nonce = ring::aead::Nonce::assume_unique_for_key(nonce_96);
             let ring_ad = ring::aead::Aad::from(black_box(&ad));
-            ring_key_chacha20
-                .seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
+            ring_key_chacha20.seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
         });
     });
     group.bench_function("ring AES-256-GCM", |b| {
         b.iter(|| {
             let ring_nonce = ring::aead::Nonce::assume_unique_for_key(nonce_96);
             let ring_ad = ring::aead::Aad::from(black_box(&ad));
-            ring_key_aesgcm
-                .seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
+            ring_key_aesgcm.seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
         });
     });
     group.finish();
@@ -173,6 +181,8 @@ fn bench(c: &mut Criterion) {
     let mut in_out = black_box(vec![0u8; 1_000_000]);
     let xchacha20_poly1305 = black_box(XChaCha20Poly1305::new(key.as_ref().into()));
     let chacha20_poly1305 = black_box(ChaCha20Poly1305::new(key.as_ref().into()));
+    let mut chacha20 = black_box(ChaCha20::new(key.as_ref().into(), nonce_96.as_ref().into()));
+
     let aes_256_gcm = black_box(Aes256Gcm::new(key.as_ref().into()));
     let ring_key_chacha20 = black_box(ring::aead::LessSafeKey::new(
         ring::aead::UnboundKey::new(&ring::aead::CHACHA20_POLY1305, &key).unwrap(),
@@ -197,6 +207,9 @@ fn bench(c: &mut Criterion) {
             chacha20_poly1305.encrypt_in_place_detached(nonce_96.as_ref().into(), &ad, &mut in_out)
         });
     });
+    group.bench_function("RustCrypto ChaCha20", |b| {
+        b.iter(|| chacha20.apply_keystream(&mut in_out));
+    });
     group.bench_function("RustCrypto AES-256-GCM", |b| {
         b.iter(|| {
             aes_256_gcm.encrypt_in_place_detached(nonce_96.as_ref().into(), &ad, &mut in_out)
@@ -206,16 +219,14 @@ fn bench(c: &mut Criterion) {
         b.iter(|| {
             let ring_nonce = ring::aead::Nonce::assume_unique_for_key(nonce_96);
             let ring_ad = ring::aead::Aad::from(black_box(&ad));
-            ring_key_chacha20
-                .seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
+            ring_key_chacha20.seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
         });
     });
     group.bench_function("ring AES-256-GCM", |b| {
         b.iter(|| {
             let ring_nonce = ring::aead::Nonce::assume_unique_for_key(nonce_96);
             let ring_ad = ring::aead::Aad::from(black_box(&ad));
-            ring_key_aesgcm
-                .seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
+            ring_key_aesgcm.seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
         });
     });
     group.finish();
@@ -224,6 +235,8 @@ fn bench(c: &mut Criterion) {
     let mut in_out = black_box(vec![0u8; 10_000_000]);
     let xchacha20_poly1305 = black_box(XChaCha20Poly1305::new(key.as_ref().into()));
     let chacha20_poly1305 = black_box(ChaCha20Poly1305::new(key.as_ref().into()));
+    let mut chacha20 = black_box(ChaCha20::new(key.as_ref().into(), nonce_96.as_ref().into()));
+
     let aes_256_gcm = black_box(Aes256Gcm::new(key.as_ref().into()));
     let ring_key_chacha20 = black_box(ring::aead::LessSafeKey::new(
         ring::aead::UnboundKey::new(&ring::aead::CHACHA20_POLY1305, &key).unwrap(),
@@ -248,6 +261,9 @@ fn bench(c: &mut Criterion) {
             chacha20_poly1305.encrypt_in_place_detached(nonce_96.as_ref().into(), &ad, &mut in_out)
         });
     });
+    group.bench_function("RustCrypto ChaCha20", |b| {
+        b.iter(|| chacha20.apply_keystream(&mut in_out));
+    });
     group.bench_function("RustCrypto AES-256-GCM", |b| {
         b.iter(|| {
             aes_256_gcm.encrypt_in_place_detached(nonce_96.as_ref().into(), &ad, &mut in_out)
@@ -257,16 +273,14 @@ fn bench(c: &mut Criterion) {
         b.iter(|| {
             let ring_nonce = ring::aead::Nonce::assume_unique_for_key(nonce_96);
             let ring_ad = ring::aead::Aad::from(black_box(&ad));
-            ring_key_chacha20
-                .seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
+            ring_key_chacha20.seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
         });
     });
     group.bench_function("ring AES-256-GCM", |b| {
         b.iter(|| {
             let ring_nonce = ring::aead::Nonce::assume_unique_for_key(nonce_96);
             let ring_ad = ring::aead::Aad::from(black_box(&ad));
-            ring_key_aesgcm
-                .seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
+            ring_key_aesgcm.seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
         });
     });
     group.finish();
@@ -275,6 +289,8 @@ fn bench(c: &mut Criterion) {
     let mut in_out = black_box(vec![0u8; 100_000_000]);
     let xchacha20_poly1305 = black_box(XChaCha20Poly1305::new(key.as_ref().into()));
     let chacha20_poly1305 = black_box(ChaCha20Poly1305::new(key.as_ref().into()));
+    let mut chacha20 = black_box(ChaCha20::new(key.as_ref().into(), nonce_96.as_ref().into()));
+
     let aes_256_gcm = black_box(Aes256Gcm::new(key.as_ref().into()));
     let ring_key_chacha20 = black_box(ring::aead::LessSafeKey::new(
         ring::aead::UnboundKey::new(&ring::aead::CHACHA20_POLY1305, &key).unwrap(),
@@ -299,6 +315,10 @@ fn bench(c: &mut Criterion) {
             chacha20_poly1305.encrypt_in_place_detached(nonce_96.as_ref().into(), &ad, &mut in_out)
         });
     });
+    group.bench_function("RustCrypto ChaCha20", |b| {
+        b.iter(|| chacha20.apply_keystream(&mut in_out));
+    });
+
     group.bench_function("RustCrypto AES-256-GCM", |b| {
         b.iter(|| {
             aes_256_gcm.encrypt_in_place_detached(nonce_96.as_ref().into(), &ad, &mut in_out)
@@ -308,16 +328,14 @@ fn bench(c: &mut Criterion) {
         b.iter(|| {
             let ring_nonce = ring::aead::Nonce::assume_unique_for_key(nonce_96);
             let ring_ad = ring::aead::Aad::from(black_box(&ad));
-            ring_key_chacha20
-                .seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
+            ring_key_chacha20.seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
         });
     });
     group.bench_function("ring AES-256-GCM", |b| {
         b.iter(|| {
             let ring_nonce = ring::aead::Nonce::assume_unique_for_key(nonce_96);
             let ring_ad = ring::aead::Aad::from(black_box(&ad));
-            ring_key_aesgcm
-                .seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
+            ring_key_aesgcm.seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
         });
     });
     group.finish();
@@ -326,6 +344,8 @@ fn bench(c: &mut Criterion) {
     let mut in_out = black_box(vec![0u8; 1_000_000_000]);
     let xchacha20_poly1305 = black_box(XChaCha20Poly1305::new(key.as_ref().into()));
     let chacha20_poly1305 = black_box(ChaCha20Poly1305::new(key.as_ref().into()));
+    let mut chacha20 = black_box(ChaCha20::new(key.as_ref().into(), nonce_96.as_ref().into()));
+
     let aes_256_gcm = black_box(Aes256Gcm::new(key.as_ref().into()));
     let ring_key_chacha20 = black_box(ring::aead::LessSafeKey::new(
         ring::aead::UnboundKey::new(&ring::aead::CHACHA20_POLY1305, &key).unwrap(),
@@ -350,6 +370,9 @@ fn bench(c: &mut Criterion) {
             chacha20_poly1305.encrypt_in_place_detached(nonce_96.as_ref().into(), &ad, &mut in_out)
         });
     });
+    group.bench_function("RustCrypto ChaCha20", |b| {
+        b.iter(|| chacha20.apply_keystream(&mut in_out));
+    });
     group.bench_function("RustCrypto AES-256-GCM", |b| {
         b.iter(|| {
             aes_256_gcm.encrypt_in_place_detached(nonce_96.as_ref().into(), &ad, &mut in_out)
@@ -359,16 +382,14 @@ fn bench(c: &mut Criterion) {
         b.iter(|| {
             let ring_nonce = ring::aead::Nonce::assume_unique_for_key(nonce_96);
             let ring_ad = ring::aead::Aad::from(black_box(&ad));
-            ring_key_chacha20
-                .seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
+            ring_key_chacha20.seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
         });
     });
     group.bench_function("ring AES-256-GCM", |b| {
         b.iter(|| {
             let ring_nonce = ring::aead::Nonce::assume_unique_for_key(nonce_96);
             let ring_ad = ring::aead::Aad::from(black_box(&ad));
-            ring_key_aesgcm
-                .seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
+            ring_key_aesgcm.seal_in_place_separate_tag(ring_nonce, ring_ad, &mut in_out)
         });
     });
     group.finish();

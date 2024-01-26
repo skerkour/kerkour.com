@@ -1,10 +1,14 @@
 ## [Benchmarking symmetric encryption (AEAD) in Rust](https://kerkour.com/rust-symmetric-encryption-aead-benchmark/)
 
-
+<!--
 ```shell
 $ RUSTFLAGS="-Ctarget-cpu=sandybridge -Ctarget-feature=+aes,+sse2,+sse4.1,+ssse3" cargo bench
 ```
+-->
 
+```shell
+$ RUSTFLAGS="-Ctarget-cpu=native" cargo bench
+```
 
 
 ### Raw results
