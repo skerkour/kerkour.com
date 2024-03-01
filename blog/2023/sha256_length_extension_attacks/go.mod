@@ -1,3 +1,3 @@
 module sha256_length_extension_attacks
 
-go 1.20
+go 1.22

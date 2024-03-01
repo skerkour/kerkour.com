@@ -1,14 +1,26 @@
-FROM golang:1.20 AS go
+FROM golang:1.22 AS go
 
-FROM ubuntu:latest
+# Final image
+FROM debian:12
 
+# set up timezone: UTC
+ENV TZ="Europe/London"
+# ENV LC_ALL="en_US.UTF-8"
+ENV LANG="en_US.UTF-8"
+ENV LANGUAGE="en_US.UTF-8"
+
+# Install dependencies
+ENV DEBIAN_FRONTEND noninteractive
 RUN apt update && apt upgrade -y
 RUN apt install -y git ca-certificates make vim \
     bash gcc g++ zsh curl wget zip coreutils sqlite3 python3 gnupg xz-utils bsdextrautils ssh zip
 
 RUN update-ca-certificates
 
-# TODO: set up timezone: UTC
+# setup node
+RUN curl -fsSL https://deb.nodesource.com/setup_lts.x | bash -
+RUN apt update && apt install -y nodejs
+RUN npm install -g npm@latest
 
 # Setup dev user
 ARG USERNAME=dev
@@ -33,3 +45,5 @@ ENV GOPATH /home/$USERNAME/.local/gopath
 ENV PATH $PATH:$GOPATH/bin:$GOROOT/bin
 
 WORKDIR /
+
+EXPOSE 8082
